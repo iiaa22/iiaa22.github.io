@@ -1,0 +1,658 @@
+{
+  "sitemap": {
+    "fileOptions": {
+      "api/*": {
+        "baseUrl": "https://normanderwan.github.io/DocFxForUnity/",
+        "changefreq": "daily"
+      }
+    },
+    "baseUrl": "https://normanderwan.github.io/DocFxForUnity/",
+    "changefreq": "weekly"
+  },
+  "source_base_path": "H:/Unity Projects/53-Unity/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.AttackEffect.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.AttackEffect.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.AttackType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.AttackType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.BaseConfig-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.BaseConfig-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.BaseConfigItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.BaseConfigItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.BaseSingleton-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.BaseSingleton-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.BaseUserData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.BaseUserData.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.BaseView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.BaseView.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.BaseWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.BaseWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ConfigManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ConfigManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.DamageInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.DamageInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.DamageType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.DamageType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.FactionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.FactionType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.FrameEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.FrameEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.GameManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.GameManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.GameView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.GameView.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.GlobalView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.GlobalView.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.LanguageConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.LanguageConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.LanguageConfigItem.LanguageInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.LanguageConfigItem.LanguageInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.LanguageConfigItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.LanguageConfigItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.LanguageType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.LanguageType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.LevelUpView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.LevelUpView.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.LoadingView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.LoadingView.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.MapController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.MapController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.MoveType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.MoveType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ObservableUserData-1.DataChangedHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ObservableUserData-1.DataChangedHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ObservableUserData-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ObservableUserData-1.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.PlatformCommonConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.PlatformCommonConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.PlatformCommonConfigItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.PlatformCommonConfigItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.PlatformManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.PlatformManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.PlatformType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.PlatformType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.PlayView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.PlayView.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Player.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Player.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.PlayerController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.PlayerController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.PopWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.PopWindow.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.RaceType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.RaceType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Skill.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Skill.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SkillController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SkillController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SkillsConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SkillsConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SkillsConfigItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SkillsConfigItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.State.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.State.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.StatesConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.StatesConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.StatesConfigItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.StatesConfigItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SystemSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SystemSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.TitleView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.TitleView.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Unit.DamagedHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Unit.DamagedHandler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Unit.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Unit.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UnitController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UnitController.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UnitType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UnitType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UnitsConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UnitsConfig.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UnitsConfigItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UnitsConfigItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UserDataManager.UserDataInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UserDataManager.UserDataInfo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.UserDataManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.UserDataManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Utils.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/coniunctis.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/coniunctis.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "manual/etiam.md",
+      "output": {
+        ".html": {
+          "relative_path": "manual/etiam.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "manual/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "manual/toc.html"
+        },
+        ".json": {
+          "relative_path": "manual/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/ExampleManual.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/ExampleManual.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "resources/ExampleScriptingApi.png",
+      "output": {
+        "resource": {
+          "relative_path": "resources/ExampleScriptingApi.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
