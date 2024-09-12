@@ -1,0 +1,118 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.RaceType
+  commentId: T:Global.RaceType
+  id: RaceType
+  parent: Global
+  children:
+  - Global.RaceType.Human
+  - Global.RaceType.Primordial
+  langs:
+  - csharp
+  - vb
+  name: RaceType
+  nameWithType: RaceType
+  fullName: RaceType
+  type: Enum
+  source:
+    remote:
+      path: Assets/Scripts/Utils/Enum.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: RaceType
+    path: ../Assets/Scripts/Utils/Enum.cs
+    startLine: 47
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 种族类型
+  example: []
+  syntax:
+    content: public enum RaceType
+    content.vb: Public Enum RaceType
+- uid: Global.RaceType.Human
+  commentId: F:Global.RaceType.Human
+  id: Human
+  parent: Global.RaceType
+  langs:
+  - csharp
+  - vb
+  name: Human
+  nameWithType: RaceType.Human
+  fullName: RaceType.Human
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Utils/Enum.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: Human
+    path: ../Assets/Scripts/Utils/Enum.cs
+    startLine: 49
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Tooltip("人族")]
+
+      Human = 0
+    return:
+      type: Global.RaceType
+    content.vb: >-
+      <Tooltip("人族")>
+
+      Human = 0
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 人族
+- uid: Global.RaceType.Primordial
+  commentId: F:Global.RaceType.Primordial
+  id: Primordial
+  parent: Global.RaceType
+  langs:
+  - csharp
+  - vb
+  name: Primordial
+  nameWithType: RaceType.Primordial
+  fullName: RaceType.Primordial
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Utils/Enum.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: Primordial
+    path: ../Assets/Scripts/Utils/Enum.cs
+    startLine: 51
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Tooltip("洪荒")]
+
+      Primordial = 1
+    return:
+      type: Global.RaceType
+    content.vb: >-
+      <Tooltip("洪荒")>
+
+      Primordial = 1
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 洪荒
+references:
+- uid: Global
+- uid: Global.RaceType
+  commentId: T:Global.RaceType
+  href: RaceType.html
+  name: RaceType
+  nameWithType: RaceType
+  fullName: RaceType

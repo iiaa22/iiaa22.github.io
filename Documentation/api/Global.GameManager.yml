@@ -1,0 +1,162 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.GameManager
+  commentId: T:Global.GameManager
+  id: GameManager
+  parent: Global
+  children:
+  - Global.GameManager.globalView
+  - Global.GameManager.loadingView
+  langs:
+  - csharp
+  - vb
+  name: GameManager
+  nameWithType: GameManager
+  fullName: GameManager
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/GameManager.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: GameManager
+    path: ../Assets/Scripts/GameManager.cs
+    startLine: 11
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 管理游戏进程的类。
+  example: []
+  syntax:
+    content: 'public class GameManager : MonoBehaviour'
+    content.vb: Public Class GameManager Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+- uid: Global.GameManager.loadingView
+  commentId: F:Global.GameManager.loadingView
+  id: loadingView
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: loadingView
+  nameWithType: GameManager.loadingView
+  fullName: GameManager.loadingView
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/GameManager.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: loadingView
+    path: ../Assets/Scripts/GameManager.cs
+    startLine: 16
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 加载视图
+  example: []
+  syntax:
+    content: public static LoadingView loadingView
+    return:
+      type: Global.LoadingView
+    content.vb: Public Shared loadingView As LoadingView
+- uid: Global.GameManager.globalView
+  commentId: F:Global.GameManager.globalView
+  id: globalView
+  parent: Global.GameManager
+  langs:
+  - csharp
+  - vb
+  name: globalView
+  nameWithType: GameManager.globalView
+  fullName: GameManager.globalView
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/GameManager.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: globalView
+    path: ../Assets/Scripts/GameManager.cs
+    startLine: 20
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 全局视图
+  example: []
+  syntax:
+    content: public static GlobalView globalView
+    return:
+      type: Global.GlobalView
+    content.vb: Public Shared globalView As GlobalView
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Global.LoadingView
+  commentId: T:Global.LoadingView
+  href: LoadingView.html
+  name: LoadingView
+  nameWithType: LoadingView
+  fullName: LoadingView
+- uid: Global.GlobalView
+  commentId: T:Global.GlobalView
+  href: GlobalView.html
+  name: GlobalView
+  nameWithType: GlobalView
+  fullName: GlobalView

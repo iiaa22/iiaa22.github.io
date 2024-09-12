@@ -1,0 +1,118 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.MoveType
+  commentId: T:Global.MoveType
+  id: MoveType
+  parent: Global
+  children:
+  - Global.MoveType.Fixed
+  - Global.MoveType.Free
+  langs:
+  - csharp
+  - vb
+  name: MoveType
+  nameWithType: MoveType
+  fullName: MoveType
+  type: Enum
+  source:
+    remote:
+      path: Assets/Scripts/Utils/Enum.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: MoveType
+    path: ../Assets/Scripts/Utils/Enum.cs
+    startLine: 23
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 单位移动类型
+  example: []
+  syntax:
+    content: public enum MoveType
+    content.vb: Public Enum MoveType
+- uid: Global.MoveType.Free
+  commentId: F:Global.MoveType.Free
+  id: Free
+  parent: Global.MoveType
+  langs:
+  - csharp
+  - vb
+  name: Free
+  nameWithType: MoveType.Free
+  fullName: MoveType.Free
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Utils/Enum.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: Free
+    path: ../Assets/Scripts/Utils/Enum.cs
+    startLine: 25
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Tooltip("自由")]
+
+      Free = 0
+    return:
+      type: Global.MoveType
+    content.vb: >-
+      <Tooltip("自由")>
+
+      Free = 0
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 自由
+- uid: Global.MoveType.Fixed
+  commentId: F:Global.MoveType.Fixed
+  id: Fixed
+  parent: Global.MoveType
+  langs:
+  - csharp
+  - vb
+  name: Fixed
+  nameWithType: MoveType.Fixed
+  fullName: MoveType.Fixed
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Utils/Enum.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: Fixed
+    path: ../Assets/Scripts/Utils/Enum.cs
+    startLine: 27
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Tooltip("固定")]
+
+      Fixed = 1
+    return:
+      type: Global.MoveType
+    content.vb: >-
+      <Tooltip("固定")>
+
+      Fixed = 1
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 固定
+references:
+- uid: Global
+- uid: Global.MoveType
+  commentId: T:Global.MoveType
+  href: MoveType.html
+  name: MoveType
+  nameWithType: MoveType
+  fullName: MoveType

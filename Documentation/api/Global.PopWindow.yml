@@ -1,0 +1,677 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.PopWindow
+  commentId: T:Global.PopWindow
+  id: PopWindow
+  parent: Global
+  children:
+  - Global.PopWindow.AddListener
+  - Global.PopWindow.PlayOpenAnimation
+  - Global.PopWindow.RealRefresh
+  - Global.PopWindow.RemoveListener
+  - Global.PopWindow.exampleText
+  - Global.PopWindow.progress
+  - Global.PopWindow.top
+  langs:
+  - csharp
+  - vb
+  name: PopWindow
+  nameWithType: PopWindow
+  fullName: PopWindow
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/Windows/PopWindow.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: PopWindow
+    path: ../Assets/Scripts/Windows/PopWindow.cs
+    startLine: 7
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: 'public class PopWindow : BaseWindow'
+    content.vb: Public Class PopWindow Inherits BaseWindow
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  - Global.BaseWindow
+  inheritedMembers:
+  - Global.BaseWindow.isFloating
+  - Global.BaseWindow.autoClose
+  - Global.BaseWindow.closeButton
+  - Global.BaseWindow.canvasGroup
+  - Global.BaseWindow.OnWindowOpen
+  - Global.BaseWindow.OnWindowClose
+  - Global.BaseWindow.Current
+  - Global.BaseWindow.IsAnyWindowOpen
+  - Global.BaseWindow.Awake
+  - Global.BaseWindow.OnEnable
+  - Global.BaseWindow.OnDisable
+  - Global.BaseWindow.Open
+  - Global.BaseWindow.Close
+  - Global.BaseWindow.OpenOrClose
+  - Global.BaseWindow.IsOpen
+  - Global.BaseWindow.Refresh
+  - Global.BaseWindow.PlayCloseAnimation
+- uid: Global.PopWindow.top
+  commentId: F:Global.PopWindow.top
+  id: top
+  parent: Global.PopWindow
+  langs:
+  - csharp
+  - vb
+  name: top
+  nameWithType: PopWindow.top
+  fullName: PopWindow.top
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Windows/PopWindow.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: top
+    path: ../Assets/Scripts/Windows/PopWindow.cs
+    startLine: 9
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Transform top
+    return:
+      type: UnityEngine.Transform
+    content.vb: Public top As Transform
+- uid: Global.PopWindow.progress
+  commentId: F:Global.PopWindow.progress
+  id: progress
+  parent: Global.PopWindow
+  langs:
+  - csharp
+  - vb
+  name: progress
+  nameWithType: PopWindow.progress
+  fullName: PopWindow.progress
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Windows/PopWindow.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: progress
+    path: ../Assets/Scripts/Windows/PopWindow.cs
+    startLine: 10
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Image progress
+    return:
+      type: UnityEngine.UI.Image
+    content.vb: Public progress As Image
+- uid: Global.PopWindow.exampleText
+  commentId: F:Global.PopWindow.exampleText
+  id: exampleText
+  parent: Global.PopWindow
+  langs:
+  - csharp
+  - vb
+  name: exampleText
+  nameWithType: PopWindow.exampleText
+  fullName: PopWindow.exampleText
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Windows/PopWindow.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: exampleText
+    path: ../Assets/Scripts/Windows/PopWindow.cs
+    startLine: 11
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public TextMeshProUGUI exampleText
+    return:
+      type: TMPro.TextMeshProUGUI
+    content.vb: Public exampleText As TextMeshProUGUI
+- uid: Global.PopWindow.RealRefresh
+  commentId: M:Global.PopWindow.RealRefresh
+  id: RealRefresh
+  parent: Global.PopWindow
+  langs:
+  - csharp
+  - vb
+  name: RealRefresh()
+  nameWithType: PopWindow.RealRefresh()
+  fullName: PopWindow.RealRefresh()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Windows/PopWindow.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: RealRefresh
+    path: ../Assets/Scripts/Windows/PopWindow.cs
+    startLine: 25
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  example: []
+  syntax:
+    content: protected override void RealRefresh()
+    content.vb: Protected Overrides Sub RealRefresh()
+  overridden: Global.BaseWindow.RealRefresh
+  overload: Global.PopWindow.RealRefresh*
+- uid: Global.PopWindow.AddListener
+  commentId: M:Global.PopWindow.AddListener
+  id: AddListener
+  parent: Global.PopWindow
+  langs:
+  - csharp
+  - vb
+  name: AddListener()
+  nameWithType: PopWindow.AddListener()
+  fullName: PopWindow.AddListener()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Windows/PopWindow.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: AddListener
+    path: ../Assets/Scripts/Windows/PopWindow.cs
+    startLine: 38
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  example: []
+  syntax:
+    content: protected override void AddListener()
+    content.vb: Protected Overrides Sub AddListener()
+  overridden: Global.BaseWindow.AddListener
+  overload: Global.PopWindow.AddListener*
+- uid: Global.PopWindow.RemoveListener
+  commentId: M:Global.PopWindow.RemoveListener
+  id: RemoveListener
+  parent: Global.PopWindow
+  langs:
+  - csharp
+  - vb
+  name: RemoveListener()
+  nameWithType: PopWindow.RemoveListener()
+  fullName: PopWindow.RemoveListener()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Windows/PopWindow.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: RemoveListener
+    path: ../Assets/Scripts/Windows/PopWindow.cs
+    startLine: 43
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  example: []
+  syntax:
+    content: protected override void RemoveListener()
+    content.vb: Protected Overrides Sub RemoveListener()
+  overridden: Global.BaseWindow.RemoveListener
+  overload: Global.PopWindow.RemoveListener*
+- uid: Global.PopWindow.PlayOpenAnimation
+  commentId: M:Global.PopWindow.PlayOpenAnimation
+  id: PlayOpenAnimation
+  parent: Global.PopWindow
+  langs:
+  - csharp
+  - vb
+  name: PlayOpenAnimation()
+  nameWithType: PopWindow.PlayOpenAnimation()
+  fullName: PopWindow.PlayOpenAnimation()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Windows/PopWindow.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: PlayOpenAnimation
+    path: ../Assets/Scripts/Windows/PopWindow.cs
+    startLine: 48
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  example: []
+  syntax:
+    content: protected override void PlayOpenAnimation()
+    content.vb: Protected Overrides Sub PlayOpenAnimation()
+  overridden: Global.BaseWindow.PlayOpenAnimation
+  overload: Global.PopWindow.PlayOpenAnimation*
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: Global.BaseWindow
+  commentId: T:Global.BaseWindow
+  href: BaseWindow.html
+  name: BaseWindow
+  nameWithType: BaseWindow
+  fullName: BaseWindow
+- uid: Global.BaseWindow.isFloating
+  commentId: F:Global.BaseWindow.isFloating
+  parent: Global.BaseWindow
+  href: Global.BaseWindow.html#BaseWindow_isFloating
+  name: isFloating
+  nameWithType: BaseWindow.isFloating
+  fullName: BaseWindow.isFloating
+- uid: Global.BaseWindow.autoClose
+  commentId: F:Global.BaseWindow.autoClose
+  parent: Global.BaseWindow
+  href: Global.BaseWindow.html#BaseWindow_autoClose
+  name: autoClose
+  nameWithType: BaseWindow.autoClose
+  fullName: BaseWindow.autoClose
+- uid: Global.BaseWindow.closeButton
+  commentId: F:Global.BaseWindow.closeButton
+  parent: Global.BaseWindow
+  href: Global.BaseWindow.html#BaseWindow_closeButton
+  name: closeButton
+  nameWithType: BaseWindow.closeButton
+  fullName: BaseWindow.closeButton
+- uid: Global.BaseWindow.canvasGroup
+  commentId: F:Global.BaseWindow.canvasGroup
+  parent: Global.BaseWindow
+  href: Global.BaseWindow.html#BaseWindow_canvasGroup
+  name: canvasGroup
+  nameWithType: BaseWindow.canvasGroup
+  fullName: BaseWindow.canvasGroup
+- uid: Global.BaseWindow.OnWindowOpen
+  commentId: E:Global.BaseWindow.OnWindowOpen
+  parent: Global.BaseWindow
+  href: Global.BaseWindow.html#BaseWindow_OnWindowOpen
+  name: OnWindowOpen
+  nameWithType: BaseWindow.OnWindowOpen
+  fullName: BaseWindow.OnWindowOpen
+- uid: Global.BaseWindow.OnWindowClose
+  commentId: E:Global.BaseWindow.OnWindowClose
+  parent: Global.BaseWindow
+  href: Global.BaseWindow.html#BaseWindow_OnWindowClose
+  name: OnWindowClose
+  nameWithType: BaseWindow.OnWindowClose
+  fullName: BaseWindow.OnWindowClose
+- uid: Global.BaseWindow.Current
+  commentId: P:Global.BaseWindow.Current
+  parent: Global.BaseWindow
+  href: Global.BaseWindow.html#BaseWindow_Current
+  name: Current
+  nameWithType: BaseWindow.Current
+  fullName: BaseWindow.Current
+- uid: Global.BaseWindow.IsAnyWindowOpen
+  commentId: P:Global.BaseWindow.IsAnyWindowOpen
+  parent: Global.BaseWindow
+  href: Global.BaseWindow.html#BaseWindow_IsAnyWindowOpen
+  name: IsAnyWindowOpen
+  nameWithType: BaseWindow.IsAnyWindowOpen
+  fullName: BaseWindow.IsAnyWindowOpen
+- uid: Global.BaseWindow.Awake
+  commentId: M:Global.BaseWindow.Awake
+  parent: Global.BaseWindow
+  href: Global.BaseWindow.html#BaseWindow_Awake
+  name: Awake()
+  nameWithType: BaseWindow.Awake()
+  fullName: BaseWindow.Awake()
+  spec.csharp:
+  - uid: Global.BaseWindow.Awake
+    name: Awake
+    href: Global.BaseWindow.html#BaseWindow_Awake
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Global.BaseWindow.Awake
+    name: Awake
+    href: Global.BaseWindow.html#BaseWindow_Awake
+  - name: (
+  - name: )
+- uid: Global.BaseWindow.OnEnable
+  commentId: M:Global.BaseWindow.OnEnable
+  parent: Global.BaseWindow
+  href: Global.BaseWindow.html#BaseWindow_OnEnable
+  name: OnEnable()
+  nameWithType: BaseWindow.OnEnable()
+  fullName: BaseWindow.OnEnable()
+  spec.csharp:
+  - uid: Global.BaseWindow.OnEnable
+    name: OnEnable
+    href: Global.BaseWindow.html#BaseWindow_OnEnable
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Global.BaseWindow.OnEnable
+    name: OnEnable
+    href: Global.BaseWindow.html#BaseWindow_OnEnable
+  - name: (
+  - name: )
+- uid: Global.BaseWindow.OnDisable
+  commentId: M:Global.BaseWindow.OnDisable
+  parent: Global.BaseWindow
+  href: Global.BaseWindow.html#BaseWindow_OnDisable
+  name: OnDisable()
+  nameWithType: BaseWindow.OnDisable()
+  fullName: BaseWindow.OnDisable()
+  spec.csharp:
+  - uid: Global.BaseWindow.OnDisable
+    name: OnDisable
+    href: Global.BaseWindow.html#BaseWindow_OnDisable
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Global.BaseWindow.OnDisable
+    name: OnDisable
+    href: Global.BaseWindow.html#BaseWindow_OnDisable
+  - name: (
+  - name: )
+- uid: Global.BaseWindow.Open
+  commentId: M:Global.BaseWindow.Open
+  parent: Global.BaseWindow
+  href: Global.BaseWindow.html#BaseWindow_Open
+  name: Open()
+  nameWithType: BaseWindow.Open()
+  fullName: BaseWindow.Open()
+  spec.csharp:
+  - uid: Global.BaseWindow.Open
+    name: Open
+    href: Global.BaseWindow.html#BaseWindow_Open
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Global.BaseWindow.Open
+    name: Open
+    href: Global.BaseWindow.html#BaseWindow_Open
+  - name: (
+  - name: )
+- uid: Global.BaseWindow.Close
+  commentId: M:Global.BaseWindow.Close
+  parent: Global.BaseWindow
+  href: Global.BaseWindow.html#BaseWindow_Close
+  name: Close()
+  nameWithType: BaseWindow.Close()
+  fullName: BaseWindow.Close()
+  spec.csharp:
+  - uid: Global.BaseWindow.Close
+    name: Close
+    href: Global.BaseWindow.html#BaseWindow_Close
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Global.BaseWindow.Close
+    name: Close
+    href: Global.BaseWindow.html#BaseWindow_Close
+  - name: (
+  - name: )
+- uid: Global.BaseWindow.OpenOrClose
+  commentId: M:Global.BaseWindow.OpenOrClose
+  parent: Global.BaseWindow
+  href: Global.BaseWindow.html#BaseWindow_OpenOrClose
+  name: OpenOrClose()
+  nameWithType: BaseWindow.OpenOrClose()
+  fullName: BaseWindow.OpenOrClose()
+  spec.csharp:
+  - uid: Global.BaseWindow.OpenOrClose
+    name: OpenOrClose
+    href: Global.BaseWindow.html#BaseWindow_OpenOrClose
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Global.BaseWindow.OpenOrClose
+    name: OpenOrClose
+    href: Global.BaseWindow.html#BaseWindow_OpenOrClose
+  - name: (
+  - name: )
+- uid: Global.BaseWindow.IsOpen
+  commentId: P:Global.BaseWindow.IsOpen
+  parent: Global.BaseWindow
+  href: Global.BaseWindow.html#BaseWindow_IsOpen
+  name: IsOpen
+  nameWithType: BaseWindow.IsOpen
+  fullName: BaseWindow.IsOpen
+- uid: Global.BaseWindow.Refresh
+  commentId: M:Global.BaseWindow.Refresh
+  parent: Global.BaseWindow
+  href: Global.BaseWindow.html#BaseWindow_Refresh
+  name: Refresh()
+  nameWithType: BaseWindow.Refresh()
+  fullName: BaseWindow.Refresh()
+  spec.csharp:
+  - uid: Global.BaseWindow.Refresh
+    name: Refresh
+    href: Global.BaseWindow.html#BaseWindow_Refresh
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Global.BaseWindow.Refresh
+    name: Refresh
+    href: Global.BaseWindow.html#BaseWindow_Refresh
+  - name: (
+  - name: )
+- uid: Global.BaseWindow.PlayCloseAnimation
+  commentId: M:Global.BaseWindow.PlayCloseAnimation
+  parent: Global.BaseWindow
+  href: Global.BaseWindow.html#BaseWindow_PlayCloseAnimation
+  name: PlayCloseAnimation()
+  nameWithType: BaseWindow.PlayCloseAnimation()
+  fullName: BaseWindow.PlayCloseAnimation()
+  spec.csharp:
+  - uid: Global.BaseWindow.PlayCloseAnimation
+    name: PlayCloseAnimation
+    href: Global.BaseWindow.html#BaseWindow_PlayCloseAnimation
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Global.BaseWindow.PlayCloseAnimation
+    name: PlayCloseAnimation
+    href: Global.BaseWindow.html#BaseWindow_PlayCloseAnimation
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: UnityEngine.Transform
+  commentId: T:UnityEngine.Transform
+  parent: UnityEngine
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: UnityEngine.Transform
+- uid: UnityEngine.UI.Image
+  commentId: T:UnityEngine.UI.Image
+  parent: UnityEngine.UI
+  isExternal: true
+  name: Image
+  nameWithType: Image
+  fullName: UnityEngine.UI.Image
+- uid: UnityEngine.UI
+  commentId: N:UnityEngine.UI
+  isExternal: true
+  name: UnityEngine.UI
+  nameWithType: UnityEngine.UI
+  fullName: UnityEngine.UI
+  spec.csharp:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UI
+    name: UI
+    isExternal: true
+  spec.vb:
+  - uid: UnityEngine
+    name: UnityEngine
+    isExternal: true
+  - name: .
+  - uid: UnityEngine.UI
+    name: UI
+    isExternal: true
+- uid: TMPro.TextMeshProUGUI
+  commentId: T:TMPro.TextMeshProUGUI
+  parent: TMPro
+  isExternal: true
+  name: TextMeshProUGUI
+  nameWithType: TextMeshProUGUI
+  fullName: TMPro.TextMeshProUGUI
+- uid: TMPro
+  commentId: N:TMPro
+  isExternal: true
+  name: TMPro
+  nameWithType: TMPro
+  fullName: TMPro
+- uid: Global.BaseWindow.RealRefresh
+  commentId: M:Global.BaseWindow.RealRefresh
+  parent: Global.BaseWindow
+  href: Global.BaseWindow.html#BaseWindow_RealRefresh
+  name: RealRefresh()
+  nameWithType: BaseWindow.RealRefresh()
+  fullName: BaseWindow.RealRefresh()
+  spec.csharp:
+  - uid: Global.BaseWindow.RealRefresh
+    name: RealRefresh
+    href: Global.BaseWindow.html#BaseWindow_RealRefresh
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Global.BaseWindow.RealRefresh
+    name: RealRefresh
+    href: Global.BaseWindow.html#BaseWindow_RealRefresh
+  - name: (
+  - name: )
+- uid: Global.PopWindow.RealRefresh*
+  commentId: Overload:Global.PopWindow.RealRefresh
+  href: Global.PopWindow.html#PopWindow_RealRefresh
+  name: RealRefresh
+  nameWithType: PopWindow.RealRefresh
+  fullName: PopWindow.RealRefresh
+- uid: Global.BaseWindow.AddListener
+  commentId: M:Global.BaseWindow.AddListener
+  parent: Global.BaseWindow
+  href: Global.BaseWindow.html#BaseWindow_AddListener
+  name: AddListener()
+  nameWithType: BaseWindow.AddListener()
+  fullName: BaseWindow.AddListener()
+  spec.csharp:
+  - uid: Global.BaseWindow.AddListener
+    name: AddListener
+    href: Global.BaseWindow.html#BaseWindow_AddListener
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Global.BaseWindow.AddListener
+    name: AddListener
+    href: Global.BaseWindow.html#BaseWindow_AddListener
+  - name: (
+  - name: )
+- uid: Global.PopWindow.AddListener*
+  commentId: Overload:Global.PopWindow.AddListener
+  href: Global.PopWindow.html#PopWindow_AddListener
+  name: AddListener
+  nameWithType: PopWindow.AddListener
+  fullName: PopWindow.AddListener
+- uid: Global.BaseWindow.RemoveListener
+  commentId: M:Global.BaseWindow.RemoveListener
+  parent: Global.BaseWindow
+  href: Global.BaseWindow.html#BaseWindow_RemoveListener
+  name: RemoveListener()
+  nameWithType: BaseWindow.RemoveListener()
+  fullName: BaseWindow.RemoveListener()
+  spec.csharp:
+  - uid: Global.BaseWindow.RemoveListener
+    name: RemoveListener
+    href: Global.BaseWindow.html#BaseWindow_RemoveListener
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Global.BaseWindow.RemoveListener
+    name: RemoveListener
+    href: Global.BaseWindow.html#BaseWindow_RemoveListener
+  - name: (
+  - name: )
+- uid: Global.PopWindow.RemoveListener*
+  commentId: Overload:Global.PopWindow.RemoveListener
+  href: Global.PopWindow.html#PopWindow_RemoveListener
+  name: RemoveListener
+  nameWithType: PopWindow.RemoveListener
+  fullName: PopWindow.RemoveListener
+- uid: Global.BaseWindow.PlayOpenAnimation
+  commentId: M:Global.BaseWindow.PlayOpenAnimation
+  parent: Global.BaseWindow
+  href: Global.BaseWindow.html#BaseWindow_PlayOpenAnimation
+  name: PlayOpenAnimation()
+  nameWithType: BaseWindow.PlayOpenAnimation()
+  fullName: BaseWindow.PlayOpenAnimation()
+  spec.csharp:
+  - uid: Global.BaseWindow.PlayOpenAnimation
+    name: PlayOpenAnimation
+    href: Global.BaseWindow.html#BaseWindow_PlayOpenAnimation
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Global.BaseWindow.PlayOpenAnimation
+    name: PlayOpenAnimation
+    href: Global.BaseWindow.html#BaseWindow_PlayOpenAnimation
+  - name: (
+  - name: )
+- uid: Global.PopWindow.PlayOpenAnimation*
+  commentId: Overload:Global.PopWindow.PlayOpenAnimation
+  href: Global.PopWindow.html#PopWindow_PlayOpenAnimation
+  name: PlayOpenAnimation
+  nameWithType: PopWindow.PlayOpenAnimation
+  fullName: PopWindow.PlayOpenAnimation

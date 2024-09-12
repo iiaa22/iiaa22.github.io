@@ -1,0 +1,114 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.LanguageConfigItem.LanguageInfo
+  commentId: T:Global.LanguageConfigItem.LanguageInfo
+  id: LanguageConfigItem.LanguageInfo
+  parent: Global
+  children:
+  - Global.LanguageConfigItem.LanguageInfo.key
+  - Global.LanguageConfigItem.LanguageInfo.value
+  langs:
+  - csharp
+  - vb
+  name: LanguageConfigItem.LanguageInfo
+  nameWithType: LanguageConfigItem.LanguageInfo
+  fullName: LanguageConfigItem.LanguageInfo
+  type: Struct
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/Config/LanguageConfig.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: LanguageInfo
+    path: ../Assets/YoJiaFrameWork/Scripts/Config/LanguageConfig.cs
+    startLine: 31
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct LanguageConfigItem.LanguageInfo
+    content.vb: >-
+      <Serializable>
+
+      Public Structure LanguageConfigItem.LanguageInfo
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: Global.LanguageConfigItem.LanguageInfo.key
+  commentId: F:Global.LanguageConfigItem.LanguageInfo.key
+  id: key
+  parent: Global.LanguageConfigItem.LanguageInfo
+  langs:
+  - csharp
+  - vb
+  name: key
+  nameWithType: LanguageConfigItem.LanguageInfo.key
+  fullName: LanguageConfigItem.LanguageInfo.key
+  type: Field
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/Config/LanguageConfig.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: key
+    path: ../Assets/YoJiaFrameWork/Scripts/Config/LanguageConfig.cs
+    startLine: 34
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public string key
+    return:
+      type: System.String
+    content.vb: Public key As String
+- uid: Global.LanguageConfigItem.LanguageInfo.value
+  commentId: F:Global.LanguageConfigItem.LanguageInfo.value
+  id: value
+  parent: Global.LanguageConfigItem.LanguageInfo
+  langs:
+  - csharp
+  - vb
+  name: value
+  nameWithType: LanguageConfigItem.LanguageInfo.value
+  fullName: LanguageConfigItem.LanguageInfo.value
+  type: Field
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/Config/LanguageConfig.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: value
+    path: ../Assets/YoJiaFrameWork/Scripts/Config/LanguageConfig.cs
+    startLine: 35
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public string value
+    return:
+      type: System.String
+    content.vb: Public value As String
+references:
+- uid: Global
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

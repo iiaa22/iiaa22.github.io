@@ -1,0 +1,518 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global
+  id: Global
+  children:
+  - Global.AttackEffect
+  - Global.AttackType
+  - Global.BaseConfigItem
+  - Global.BaseConfig`1
+  - Global.BaseSingleton`1
+  - Global.BaseUserData
+  - Global.BaseView
+  - Global.BaseWindow
+  - Global.ConfigManager
+  - Global.DamageInfo
+  - Global.DamageType
+  - Global.FactionType
+  - Global.FrameEntry
+  - Global.GameManager
+  - Global.GameView
+  - Global.GlobalView
+  - Global.LanguageConfig
+  - Global.LanguageConfigItem
+  - Global.LanguageConfigItem.LanguageInfo
+  - Global.LanguageType
+  - Global.LevelUpView
+  - Global.LoadingView
+  - Global.MapController
+  - Global.MoveType
+  - Global.ObservableUserData`1
+  - Global.ObservableUserData`1.DataChangedHandler
+  - Global.PlatformCommonConfig
+  - Global.PlatformCommonConfigItem
+  - Global.PlatformManager
+  - Global.PlatformType
+  - Global.PlayView
+  - Global.Player
+  - Global.PlayerController
+  - Global.PopWindow
+  - Global.RaceType
+  - Global.Skill
+  - Global.SkillController
+  - Global.SkillsConfig
+  - Global.SkillsConfigItem
+  - Global.State
+  - Global.StatesConfig
+  - Global.StatesConfigItem
+  - Global.SystemSettings
+  - Global.TitleView
+  - Global.Unit
+  - Global.Unit.DamagedHandler
+  - Global.UnitController
+  - Global.UnitType
+  - Global.UnitsConfig
+  - Global.UnitsConfigItem
+  - Global.UserDataManager
+  - Global.UserDataManager.UserDataInfo
+  - Global.Utils
+  langs:
+  - csharp
+  - vb
+  name: ''
+  nameWithType: ''
+  fullName: ''
+  type: Namespace
+  assemblies:
+  - Assembly-CSharp
+references:
+- uid: Global.StatesConfig
+  commentId: T:Global.StatesConfig
+  href: StatesConfig.html
+  name: StatesConfig
+  nameWithType: StatesConfig
+  fullName: StatesConfig
+- uid: Global.StatesConfigItem
+  commentId: T:Global.StatesConfigItem
+  href: StatesConfigItem.html
+  name: StatesConfigItem
+  nameWithType: StatesConfigItem
+  fullName: StatesConfigItem
+- uid: Global.UserDataManager
+  commentId: T:Global.UserDataManager
+  href: UserDataManager.html
+  name: UserDataManager
+  nameWithType: UserDataManager
+  fullName: UserDataManager
+- uid: Global.UserDataManager.UserDataInfo
+  commentId: T:Global.UserDataManager.UserDataInfo
+  href: UserDataManager.html
+  name: UserDataManager.UserDataInfo
+  nameWithType: UserDataManager.UserDataInfo
+  fullName: UserDataManager.UserDataInfo
+  spec.csharp:
+  - uid: Global.UserDataManager
+    name: UserDataManager
+    href: UserDataManager.html
+  - name: .
+  - uid: Global.UserDataManager.UserDataInfo
+    name: UserDataInfo
+    href: UserDataManager.UserDataInfo.html
+  spec.vb:
+  - uid: Global.UserDataManager
+    name: UserDataManager
+    href: UserDataManager.html
+  - name: .
+  - uid: Global.UserDataManager.UserDataInfo
+    name: UserDataInfo
+    href: UserDataManager.UserDataInfo.html
+- uid: Global.GameManager
+  commentId: T:Global.GameManager
+  href: GameManager.html
+  name: GameManager
+  nameWithType: GameManager
+  fullName: GameManager
+- uid: Global.PlatformCommonConfig
+  commentId: T:Global.PlatformCommonConfig
+  href: PlatformCommonConfig.html
+  name: PlatformCommonConfig
+  nameWithType: PlatformCommonConfig
+  fullName: PlatformCommonConfig
+- uid: Global.PlatformCommonConfigItem
+  commentId: T:Global.PlatformCommonConfigItem
+  href: PlatformCommonConfigItem.html
+  name: PlatformCommonConfigItem
+  nameWithType: PlatformCommonConfigItem
+  fullName: PlatformCommonConfigItem
+- uid: Global.SystemSettings
+  commentId: T:Global.SystemSettings
+  href: SystemSettings.html
+  name: SystemSettings
+  nameWithType: SystemSettings
+  fullName: SystemSettings
+- uid: Global.Unit
+  commentId: T:Global.Unit
+  href: Unit.html
+  name: Unit
+  nameWithType: Unit
+  fullName: Unit
+- uid: Global.Unit.DamagedHandler
+  commentId: T:Global.Unit.DamagedHandler
+  href: Unit.html
+  name: Unit.DamagedHandler
+  nameWithType: Unit.DamagedHandler
+  fullName: Unit.DamagedHandler
+  spec.csharp:
+  - uid: Global.Unit
+    name: Unit
+    href: Unit.html
+  - name: .
+  - uid: Global.Unit.DamagedHandler
+    name: DamagedHandler
+    href: Unit.DamagedHandler.html
+  spec.vb:
+  - uid: Global.Unit
+    name: Unit
+    href: Unit.html
+  - name: .
+  - uid: Global.Unit.DamagedHandler
+    name: DamagedHandler
+    href: Unit.DamagedHandler.html
+- uid: Global.DamageInfo
+  commentId: T:Global.DamageInfo
+  href: DamageInfo.html
+  name: DamageInfo
+  nameWithType: DamageInfo
+  fullName: DamageInfo
+- uid: Global.UnitType
+  commentId: T:Global.UnitType
+  href: UnitType.html
+  name: UnitType
+  nameWithType: UnitType
+  fullName: UnitType
+- uid: Global.MoveType
+  commentId: T:Global.MoveType
+  href: MoveType.html
+  name: MoveType
+  nameWithType: MoveType
+  fullName: MoveType
+- uid: Global.FactionType
+  commentId: T:Global.FactionType
+  href: FactionType.html
+  name: FactionType
+  nameWithType: FactionType
+  fullName: FactionType
+- uid: Global.RaceType
+  commentId: T:Global.RaceType
+  href: RaceType.html
+  name: RaceType
+  nameWithType: RaceType
+  fullName: RaceType
+- uid: Global.AttackType
+  commentId: T:Global.AttackType
+  href: AttackType.html
+  name: AttackType
+  nameWithType: AttackType
+  fullName: AttackType
+- uid: Global.DamageType
+  commentId: T:Global.DamageType
+  href: DamageType.html
+  name: DamageType
+  nameWithType: DamageType
+  fullName: DamageType
+- uid: Global.PlayerController
+  commentId: T:Global.PlayerController
+  href: PlayerController.html
+  name: PlayerController
+  nameWithType: PlayerController
+  fullName: PlayerController
+- uid: Global.BaseWindow
+  commentId: T:Global.BaseWindow
+  href: BaseWindow.html
+  name: BaseWindow
+  nameWithType: BaseWindow
+  fullName: BaseWindow
+- uid: Global.State
+  commentId: T:Global.State
+  href: State.html
+  name: State
+  nameWithType: State
+  fullName: State
+- uid: Global.ConfigManager
+  commentId: T:Global.ConfigManager
+  href: ConfigManager.html
+  name: ConfigManager
+  nameWithType: ConfigManager
+  fullName: ConfigManager
+- uid: Global.BaseView
+  commentId: T:Global.BaseView
+  href: BaseView.html
+  name: BaseView
+  nameWithType: BaseView
+  fullName: BaseView
+- uid: Global.LanguageConfig
+  commentId: T:Global.LanguageConfig
+  href: LanguageConfig.html
+  name: LanguageConfig
+  nameWithType: LanguageConfig
+  fullName: LanguageConfig
+- uid: Global.LanguageConfigItem
+  commentId: T:Global.LanguageConfigItem
+  href: LanguageConfigItem.html
+  name: LanguageConfigItem
+  nameWithType: LanguageConfigItem
+  fullName: LanguageConfigItem
+- uid: Global.LanguageConfigItem.LanguageInfo
+  commentId: T:Global.LanguageConfigItem.LanguageInfo
+  href: LanguageConfigItem.html
+  name: LanguageConfigItem.LanguageInfo
+  nameWithType: LanguageConfigItem.LanguageInfo
+  fullName: LanguageConfigItem.LanguageInfo
+  spec.csharp:
+  - uid: Global.LanguageConfigItem
+    name: LanguageConfigItem
+    href: LanguageConfigItem.html
+  - name: .
+  - uid: Global.LanguageConfigItem.LanguageInfo
+    name: LanguageInfo
+    href: LanguageConfigItem.LanguageInfo.html
+  spec.vb:
+  - uid: Global.LanguageConfigItem
+    name: LanguageConfigItem
+    href: LanguageConfigItem.html
+  - name: .
+  - uid: Global.LanguageConfigItem.LanguageInfo
+    name: LanguageInfo
+    href: LanguageConfigItem.LanguageInfo.html
+- uid: Global.Player
+  commentId: T:Global.Player
+  href: Player.html
+  name: Player
+  nameWithType: Player
+  fullName: Player
+- uid: Global.LoadingView
+  commentId: T:Global.LoadingView
+  href: LoadingView.html
+  name: LoadingView
+  nameWithType: LoadingView
+  fullName: LoadingView
+- uid: Global.Utils
+  commentId: T:Global.Utils
+  href: Utils.html
+  name: Utils
+  nameWithType: Utils
+  fullName: Utils
+- uid: Global.GameView
+  commentId: T:Global.GameView
+  href: GameView.html
+  name: GameView
+  nameWithType: GameView
+  fullName: GameView
+- uid: Global.GlobalView
+  commentId: T:Global.GlobalView
+  href: GlobalView.html
+  name: GlobalView
+  nameWithType: GlobalView
+  fullName: GlobalView
+- uid: Global.FrameEntry
+  commentId: T:Global.FrameEntry
+  href: FrameEntry.html
+  name: FrameEntry
+  nameWithType: FrameEntry
+  fullName: FrameEntry
+- uid: Global.BaseUserData
+  commentId: T:Global.BaseUserData
+  href: BaseUserData.html
+  name: BaseUserData
+  nameWithType: BaseUserData
+  fullName: BaseUserData
+- uid: Global.ObservableUserData`1
+  commentId: T:Global.ObservableUserData`1
+  href: ObservableUserData-1.html
+  name: ObservableUserData<T>
+  nameWithType: ObservableUserData<T>
+  fullName: ObservableUserData<T>
+  nameWithType.vb: ObservableUserData(Of T)
+  fullName.vb: ObservableUserData(Of T)
+  name.vb: ObservableUserData(Of T)
+  spec.csharp:
+  - uid: Global.ObservableUserData`1
+    name: ObservableUserData
+    href: ObservableUserData-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Global.ObservableUserData`1
+    name: ObservableUserData
+    href: ObservableUserData-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Global.ObservableUserData`1.DataChangedHandler
+  commentId: T:Global.ObservableUserData`1.DataChangedHandler
+  href: ObservableUserData-1.html
+  name: ObservableUserData<T>.DataChangedHandler
+  nameWithType: ObservableUserData<T>.DataChangedHandler
+  fullName: ObservableUserData<T>.DataChangedHandler
+  nameWithType.vb: ObservableUserData(Of T).DataChangedHandler
+  fullName.vb: ObservableUserData(Of T).DataChangedHandler
+  name.vb: ObservableUserData(Of T).DataChangedHandler
+  spec.csharp:
+  - uid: Global.ObservableUserData`1
+    name: ObservableUserData
+    href: ObservableUserData-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  - name: .
+  - uid: Global.ObservableUserData`1.DataChangedHandler
+    name: DataChangedHandler
+    href: ObservableUserData-1.DataChangedHandler.html
+  spec.vb:
+  - uid: Global.ObservableUserData`1
+    name: ObservableUserData
+    href: ObservableUserData-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: .
+  - uid: Global.ObservableUserData`1.DataChangedHandler
+    name: DataChangedHandler
+    href: ObservableUserData-1.DataChangedHandler.html
+- uid: Global.LevelUpView
+  commentId: T:Global.LevelUpView
+  href: LevelUpView.html
+  name: LevelUpView
+  nameWithType: LevelUpView
+  fullName: LevelUpView
+- uid: Global.UnitsConfig
+  commentId: T:Global.UnitsConfig
+  href: UnitsConfig.html
+  name: UnitsConfig
+  nameWithType: UnitsConfig
+  fullName: UnitsConfig
+- uid: Global.UnitsConfigItem
+  commentId: T:Global.UnitsConfigItem
+  href: UnitsConfigItem.html
+  name: UnitsConfigItem
+  nameWithType: UnitsConfigItem
+  fullName: UnitsConfigItem
+- uid: Global.PlatformManager
+  commentId: T:Global.PlatformManager
+  href: PlatformManager.html
+  name: PlatformManager
+  nameWithType: PlatformManager
+  fullName: PlatformManager
+- uid: Global.BaseSingleton`1
+  commentId: T:Global.BaseSingleton`1
+  href: BaseSingleton-1.html
+  name: BaseSingleton<T>
+  nameWithType: BaseSingleton<T>
+  fullName: BaseSingleton<T>
+  nameWithType.vb: BaseSingleton(Of T)
+  fullName.vb: BaseSingleton(Of T)
+  name.vb: BaseSingleton(Of T)
+  spec.csharp:
+  - uid: Global.BaseSingleton`1
+    name: BaseSingleton
+    href: BaseSingleton-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Global.BaseSingleton`1
+    name: BaseSingleton
+    href: BaseSingleton-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Global.Skill
+  commentId: T:Global.Skill
+  href: Skill.html
+  name: Skill
+  nameWithType: Skill
+  fullName: Skill
+- uid: Global.BaseConfig`1
+  commentId: T:Global.BaseConfig`1
+  href: BaseConfig-1.html
+  name: BaseConfig<T>
+  nameWithType: BaseConfig<T>
+  fullName: BaseConfig<T>
+  nameWithType.vb: BaseConfig(Of T)
+  fullName.vb: BaseConfig(Of T)
+  name.vb: BaseConfig(Of T)
+  spec.csharp:
+  - uid: Global.BaseConfig`1
+    name: BaseConfig
+    href: BaseConfig-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Global.BaseConfig`1
+    name: BaseConfig
+    href: BaseConfig-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Global.BaseConfigItem
+  commentId: T:Global.BaseConfigItem
+  href: BaseConfigItem.html
+  name: BaseConfigItem
+  nameWithType: BaseConfigItem
+  fullName: BaseConfigItem
+- uid: Global.TitleView
+  commentId: T:Global.TitleView
+  href: TitleView.html
+  name: TitleView
+  nameWithType: TitleView
+  fullName: TitleView
+- uid: Global.UnitController
+  commentId: T:Global.UnitController
+  href: UnitController.html
+  name: UnitController
+  nameWithType: UnitController
+  fullName: UnitController
+- uid: Global.MapController
+  commentId: T:Global.MapController
+  href: MapController.html
+  name: MapController
+  nameWithType: MapController
+  fullName: MapController
+- uid: Global.PlayView
+  commentId: T:Global.PlayView
+  href: PlayView.html
+  name: PlayView
+  nameWithType: PlayView
+  fullName: PlayView
+- uid: Global.LanguageType
+  commentId: T:Global.LanguageType
+  href: LanguageType.html
+  name: LanguageType
+  nameWithType: LanguageType
+  fullName: LanguageType
+- uid: Global.PlatformType
+  commentId: T:Global.PlatformType
+  href: PlatformType.html
+  name: PlatformType
+  nameWithType: PlatformType
+  fullName: PlatformType
+- uid: Global.PopWindow
+  commentId: T:Global.PopWindow
+  href: PopWindow.html
+  name: PopWindow
+  nameWithType: PopWindow
+  fullName: PopWindow
+- uid: Global.SkillController
+  commentId: T:Global.SkillController
+  href: SkillController.html
+  name: SkillController
+  nameWithType: SkillController
+  fullName: SkillController
+- uid: Global.AttackEffect
+  commentId: T:Global.AttackEffect
+  href: AttackEffect.html
+  name: AttackEffect
+  nameWithType: AttackEffect
+  fullName: AttackEffect
+- uid: Global.SkillsConfig
+  commentId: T:Global.SkillsConfig
+  href: SkillsConfig.html
+  name: SkillsConfig
+  nameWithType: SkillsConfig
+  fullName: SkillsConfig
+- uid: Global.SkillsConfigItem
+  commentId: T:Global.SkillsConfigItem
+  href: SkillsConfigItem.html
+  name: SkillsConfigItem
+  nameWithType: SkillsConfigItem
+  fullName: SkillsConfigItem

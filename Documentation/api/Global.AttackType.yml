@@ -1,0 +1,198 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.AttackType
+  commentId: T:Global.AttackType
+  id: AttackType
+  parent: Global
+  children:
+  - Global.AttackType.NonSourceFired
+  - Global.AttackType.SourceFired
+  - Global.AttackType.Surround
+  - Global.AttackType.Swing
+  langs:
+  - csharp
+  - vb
+  name: AttackType
+  nameWithType: AttackType
+  fullName: AttackType
+  type: Enum
+  source:
+    remote:
+      path: Assets/Scripts/Utils/Enum.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: AttackType
+    path: ../Assets/Scripts/Utils/Enum.cs
+    startLine: 58
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 攻击类型
+  example: []
+  syntax:
+    content: public enum AttackType
+    content.vb: Public Enum AttackType
+- uid: Global.AttackType.SourceFired
+  commentId: F:Global.AttackType.SourceFired
+  id: SourceFired
+  parent: Global.AttackType
+  langs:
+  - csharp
+  - vb
+  name: SourceFired
+  nameWithType: AttackType.SourceFired
+  fullName: AttackType.SourceFired
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Utils/Enum.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: SourceFired
+    path: ../Assets/Scripts/Utils/Enum.cs
+    startLine: 60
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Tooltip("有源头发射")]
+
+      SourceFired = 0
+    return:
+      type: Global.AttackType
+    content.vb: >-
+      <Tooltip("有源头发射")>
+
+      SourceFired = 0
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 有源头发射
+- uid: Global.AttackType.NonSourceFired
+  commentId: F:Global.AttackType.NonSourceFired
+  id: NonSourceFired
+  parent: Global.AttackType
+  langs:
+  - csharp
+  - vb
+  name: NonSourceFired
+  nameWithType: AttackType.NonSourceFired
+  fullName: AttackType.NonSourceFired
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Utils/Enum.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: NonSourceFired
+    path: ../Assets/Scripts/Utils/Enum.cs
+    startLine: 62
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Tooltip("无源头发射")]
+
+      NonSourceFired = 1
+    return:
+      type: Global.AttackType
+    content.vb: >-
+      <Tooltip("无源头发射")>
+
+      NonSourceFired = 1
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 无源头发射
+- uid: Global.AttackType.Swing
+  commentId: F:Global.AttackType.Swing
+  id: Swing
+  parent: Global.AttackType
+  langs:
+  - csharp
+  - vb
+  name: Swing
+  nameWithType: AttackType.Swing
+  fullName: AttackType.Swing
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Utils/Enum.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: Swing
+    path: ../Assets/Scripts/Utils/Enum.cs
+    startLine: 64
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Tooltip("挥舞")]
+
+      Swing = 2
+    return:
+      type: Global.AttackType
+    content.vb: >-
+      <Tooltip("挥舞")>
+
+      Swing = 2
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 挥舞
+- uid: Global.AttackType.Surround
+  commentId: F:Global.AttackType.Surround
+  id: Surround
+  parent: Global.AttackType
+  langs:
+  - csharp
+  - vb
+  name: Surround
+  nameWithType: AttackType.Surround
+  fullName: AttackType.Surround
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/Utils/Enum.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: Surround
+    path: ../Assets/Scripts/Utils/Enum.cs
+    startLine: 66
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Tooltip("环绕")]
+
+      Surround = 3
+    return:
+      type: Global.AttackType
+    content.vb: >-
+      <Tooltip("环绕")>
+
+      Surround = 3
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 环绕
+references:
+- uid: Global
+- uid: Global.AttackType
+  commentId: T:Global.AttackType
+  href: AttackType.html
+  name: AttackType
+  nameWithType: AttackType
+  fullName: AttackType

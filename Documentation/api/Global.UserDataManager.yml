@@ -1,0 +1,575 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.UserDataManager
+  commentId: T:Global.UserDataManager
+  id: UserDataManager
+  parent: Global
+  children:
+  - Global.UserDataManager.AutoSaveUserData
+  - Global.UserDataManager.DeleteUserData(UserDataManager.UserDataInfo)
+  - Global.UserDataManager.GetUserData``1
+  - Global.UserDataManager.LoadSystemSettings
+  - Global.UserDataManager.LoadUserData(UserDataManager.UserDataInfo)
+  - Global.UserDataManager.LoadUserDataInfoList(System.Boolean)
+  - Global.UserDataManager.SaveSystemData
+  - Global.UserDataManager.SaveUserData(System.Int32,System.String)
+  - Global.UserDataManager.systemSettings
+  langs:
+  - csharp
+  - vb
+  name: UserDataManager
+  nameWithType: UserDataManager
+  fullName: UserDataManager
+  type: Class
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/Manager/UserDataManager.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: UserDataManager
+    path: ../Assets/YoJiaFrameWork/Scripts/Manager/UserDataManager.cs
+    startLine: 8
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 用户数据管理器
+  example: []
+  syntax:
+    content: public class UserDataManager
+    content.vb: Public Class UserDataManager
+  inheritance:
+  - System.Object
+- uid: Global.UserDataManager.systemSettings
+  commentId: F:Global.UserDataManager.systemSettings
+  id: systemSettings
+  parent: Global.UserDataManager
+  langs:
+  - csharp
+  - vb
+  name: systemSettings
+  nameWithType: UserDataManager.systemSettings
+  fullName: UserDataManager.systemSettings
+  type: Field
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/Manager/UserDataManager.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: systemSettings
+    path: ../Assets/YoJiaFrameWork/Scripts/Manager/UserDataManager.cs
+    startLine: 17
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 系统设置
+  example: []
+  syntax:
+    content: public static SystemSettings systemSettings
+    return:
+      type: Global.SystemSettings
+    content.vb: Public Shared systemSettings As SystemSettings
+- uid: Global.UserDataManager.LoadSystemSettings
+  commentId: M:Global.UserDataManager.LoadSystemSettings
+  id: LoadSystemSettings
+  parent: Global.UserDataManager
+  langs:
+  - csharp
+  - vb
+  name: LoadSystemSettings()
+  nameWithType: UserDataManager.LoadSystemSettings()
+  fullName: UserDataManager.LoadSystemSettings()
+  type: Method
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/Manager/UserDataManager.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: LoadSystemSettings
+    path: ../Assets/YoJiaFrameWork/Scripts/Manager/UserDataManager.cs
+    startLine: 41
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 加载系统设置。
+  example: []
+  syntax:
+    content: public static void LoadSystemSettings()
+    content.vb: Public Shared Sub LoadSystemSettings()
+  overload: Global.UserDataManager.LoadSystemSettings*
+- uid: Global.UserDataManager.GetUserData``1
+  commentId: M:Global.UserDataManager.GetUserData``1
+  id: GetUserData``1
+  parent: Global.UserDataManager
+  langs:
+  - csharp
+  - vb
+  name: GetUserData<T>()
+  nameWithType: UserDataManager.GetUserData<T>()
+  fullName: UserDataManager.GetUserData<T>()
+  type: Method
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/Manager/UserDataManager.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: GetUserData
+    path: ../Assets/YoJiaFrameWork/Scripts/Manager/UserDataManager.cs
+    startLine: 62
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 获得用户数据。
+  example: []
+  syntax:
+    content: 'public static T GetUserData<T>() where T : BaseUserData, new()'
+    typeParameters:
+    - id: T
+      description: 用户数据类型
+    return:
+      type: '{T}'
+      description: 用户数据
+    content.vb: Public Shared Function GetUserData(Of T As {BaseUserData, New})() As T
+  overload: Global.UserDataManager.GetUserData*
+  nameWithType.vb: UserDataManager.GetUserData(Of T)()
+  fullName.vb: UserDataManager.GetUserData(Of T)()
+  name.vb: GetUserData(Of T)()
+- uid: Global.UserDataManager.SaveSystemData
+  commentId: M:Global.UserDataManager.SaveSystemData
+  id: SaveSystemData
+  parent: Global.UserDataManager
+  langs:
+  - csharp
+  - vb
+  name: SaveSystemData()
+  nameWithType: UserDataManager.SaveSystemData()
+  fullName: UserDataManager.SaveSystemData()
+  type: Method
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/Manager/UserDataManager.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: SaveSystemData
+    path: ../Assets/YoJiaFrameWork/Scripts/Manager/UserDataManager.cs
+    startLine: 79
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 保存系统数据。
+  example: []
+  syntax:
+    content: public static void SaveSystemData()
+    content.vb: Public Shared Sub SaveSystemData()
+  overload: Global.UserDataManager.SaveSystemData*
+- uid: Global.UserDataManager.SaveUserData(System.Int32,System.String)
+  commentId: M:Global.UserDataManager.SaveUserData(System.Int32,System.String)
+  id: SaveUserData(System.Int32,System.String)
+  parent: Global.UserDataManager
+  langs:
+  - csharp
+  - vb
+  name: SaveUserData(int, string)
+  nameWithType: UserDataManager.SaveUserData(int, string)
+  fullName: UserDataManager.SaveUserData(int, string)
+  type: Method
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/Manager/UserDataManager.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: SaveUserData
+    path: ../Assets/YoJiaFrameWork/Scripts/Manager/UserDataManager.cs
+    startLine: 91
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 保存存档。
+  example: []
+  syntax:
+    content: public static void SaveUserData(int slot, string dataName)
+    parameters:
+    - id: slot
+      type: System.Int32
+      description: 存档位
+    - id: dataName
+      type: System.String
+      description: 存档名
+    content.vb: Public Shared Sub SaveUserData(slot As Integer, dataName As String)
+  overload: Global.UserDataManager.SaveUserData*
+  nameWithType.vb: UserDataManager.SaveUserData(Integer, String)
+  fullName.vb: UserDataManager.SaveUserData(Integer, String)
+  name.vb: SaveUserData(Integer, String)
+- uid: Global.UserDataManager.AutoSaveUserData
+  commentId: M:Global.UserDataManager.AutoSaveUserData
+  id: AutoSaveUserData
+  parent: Global.UserDataManager
+  langs:
+  - csharp
+  - vb
+  name: AutoSaveUserData()
+  nameWithType: UserDataManager.AutoSaveUserData()
+  fullName: UserDataManager.AutoSaveUserData()
+  type: Method
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/Manager/UserDataManager.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: AutoSaveUserData
+    path: ../Assets/YoJiaFrameWork/Scripts/Manager/UserDataManager.cs
+    startLine: 108
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 保存自动存档。
+  example: []
+  syntax:
+    content: public static void AutoSaveUserData()
+    content.vb: Public Shared Sub AutoSaveUserData()
+  overload: Global.UserDataManager.AutoSaveUserData*
+- uid: Global.UserDataManager.LoadUserDataInfoList(System.Boolean)
+  commentId: M:Global.UserDataManager.LoadUserDataInfoList(System.Boolean)
+  id: LoadUserDataInfoList(System.Boolean)
+  parent: Global.UserDataManager
+  langs:
+  - csharp
+  - vb
+  name: LoadUserDataInfoList(bool)
+  nameWithType: UserDataManager.LoadUserDataInfoList(bool)
+  fullName: UserDataManager.LoadUserDataInfoList(bool)
+  type: Method
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/Manager/UserDataManager.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: LoadUserDataInfoList
+    path: ../Assets/YoJiaFrameWork/Scripts/Manager/UserDataManager.cs
+    startLine: 129
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 读取存档信息列表。
+  example: []
+  syntax:
+    content: public static List<UserDataManager.UserDataInfo> LoadUserDataInfoList(bool isAutoSave)
+    parameters:
+    - id: isAutoSave
+      type: System.Boolean
+    return:
+      type: System.Collections.Generic.List{UserDataManager.UserDataInfo}
+      description: 存档信息列表
+    content.vb: Public Shared Function LoadUserDataInfoList(isAutoSave As Boolean) As List(Of UserDataManager.UserDataInfo)
+  overload: Global.UserDataManager.LoadUserDataInfoList*
+  nameWithType.vb: UserDataManager.LoadUserDataInfoList(Boolean)
+  fullName.vb: UserDataManager.LoadUserDataInfoList(Boolean)
+  name.vb: LoadUserDataInfoList(Boolean)
+- uid: Global.UserDataManager.LoadUserData(UserDataManager.UserDataInfo)
+  commentId: M:Global.UserDataManager.LoadUserData(UserDataManager.UserDataInfo)
+  id: LoadUserData(UserDataManager.UserDataInfo)
+  parent: Global.UserDataManager
+  langs:
+  - csharp
+  - vb
+  name: LoadUserData(UserDataInfo)
+  nameWithType: UserDataManager.LoadUserData(UserDataManager.UserDataInfo)
+  fullName: UserDataManager.LoadUserData(UserDataManager.UserDataInfo)
+  type: Method
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/Manager/UserDataManager.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: LoadUserData
+    path: ../Assets/YoJiaFrameWork/Scripts/Manager/UserDataManager.cs
+    startLine: 153
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 读取存档。
+  example: []
+  syntax:
+    content: public static void LoadUserData(UserDataManager.UserDataInfo userDataInfo)
+    parameters:
+    - id: userDataInfo
+      type: Global.UserDataManager.UserDataInfo
+      description: 存档信息
+    content.vb: Public Shared Sub LoadUserData(userDataInfo As UserDataManager.UserDataInfo)
+  overload: Global.UserDataManager.LoadUserData*
+- uid: Global.UserDataManager.DeleteUserData(UserDataManager.UserDataInfo)
+  commentId: M:Global.UserDataManager.DeleteUserData(UserDataManager.UserDataInfo)
+  id: DeleteUserData(UserDataManager.UserDataInfo)
+  parent: Global.UserDataManager
+  langs:
+  - csharp
+  - vb
+  name: DeleteUserData(UserDataInfo)
+  nameWithType: UserDataManager.DeleteUserData(UserDataManager.UserDataInfo)
+  fullName: UserDataManager.DeleteUserData(UserDataManager.UserDataInfo)
+  type: Method
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/Manager/UserDataManager.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: DeleteUserData
+    path: ../Assets/YoJiaFrameWork/Scripts/Manager/UserDataManager.cs
+    startLine: 164
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 删除存档。
+  example: []
+  syntax:
+    content: public static void DeleteUserData(UserDataManager.UserDataInfo userDataInfo)
+    parameters:
+    - id: userDataInfo
+      type: Global.UserDataManager.UserDataInfo
+      description: 存档信息
+    content.vb: Public Shared Sub DeleteUserData(userDataInfo As UserDataManager.UserDataInfo)
+  overload: Global.UserDataManager.DeleteUserData*
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.SystemSettings
+  commentId: T:Global.SystemSettings
+  href: SystemSettings.html
+  name: SystemSettings
+  nameWithType: SystemSettings
+  fullName: SystemSettings
+- uid: Global.UserDataManager.LoadSystemSettings*
+  commentId: Overload:Global.UserDataManager.LoadSystemSettings
+  href: Global.UserDataManager.html#UserDataManager_LoadSystemSettings
+  name: LoadSystemSettings
+  nameWithType: UserDataManager.LoadSystemSettings
+  fullName: UserDataManager.LoadSystemSettings
+- uid: Global.UserDataManager.GetUserData*
+  commentId: Overload:Global.UserDataManager.GetUserData
+  href: Global.UserDataManager.html#UserDataManager_GetUserData__1
+  name: GetUserData
+  nameWithType: UserDataManager.GetUserData
+  fullName: UserDataManager.GetUserData
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Global.UserDataManager.SaveSystemData*
+  commentId: Overload:Global.UserDataManager.SaveSystemData
+  href: Global.UserDataManager.html#UserDataManager_SaveSystemData
+  name: SaveSystemData
+  nameWithType: UserDataManager.SaveSystemData
+  fullName: UserDataManager.SaveSystemData
+- uid: Global.UserDataManager.SaveUserData*
+  commentId: Overload:Global.UserDataManager.SaveUserData
+  href: Global.UserDataManager.html#UserDataManager_SaveUserData_System_Int32_System_String_
+  name: SaveUserData
+  nameWithType: UserDataManager.SaveUserData
+  fullName: UserDataManager.SaveUserData
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Global.UserDataManager.AutoSaveUserData*
+  commentId: Overload:Global.UserDataManager.AutoSaveUserData
+  href: Global.UserDataManager.html#UserDataManager_AutoSaveUserData
+  name: AutoSaveUserData
+  nameWithType: UserDataManager.AutoSaveUserData
+  fullName: UserDataManager.AutoSaveUserData
+- uid: Global.UserDataManager.LoadUserDataInfoList*
+  commentId: Overload:Global.UserDataManager.LoadUserDataInfoList
+  href: Global.UserDataManager.html#UserDataManager_LoadUserDataInfoList_System_Boolean_
+  name: LoadUserDataInfoList
+  nameWithType: UserDataManager.LoadUserDataInfoList
+  fullName: UserDataManager.LoadUserDataInfoList
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Collections.Generic.List{UserDataManager.UserDataInfo}
+  commentId: T:System.Collections.Generic.List{UserDataManager.UserDataInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<UserDataManager.UserDataInfo>
+  nameWithType: List<UserDataManager.UserDataInfo>
+  fullName: System.Collections.Generic.List<UserDataManager.UserDataInfo>
+  nameWithType.vb: List(Of UserDataManager.UserDataInfo)
+  fullName.vb: System.Collections.Generic.List(Of UserDataManager.UserDataInfo)
+  name.vb: List(Of UserDataManager.UserDataInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Global.UserDataManager
+    name: UserDataManager
+    href: UserDataManager.html
+  - name: .
+  - uid: Global.UserDataManager.UserDataInfo
+    name: UserDataInfo
+    href: UserDataManager.UserDataInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.UserDataManager
+    name: UserDataManager
+    href: UserDataManager.html
+  - name: .
+  - uid: Global.UserDataManager.UserDataInfo
+    name: UserDataInfo
+    href: UserDataManager.UserDataInfo.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Global.UserDataManager.LoadUserData*
+  commentId: Overload:Global.UserDataManager.LoadUserData
+  href: Global.UserDataManager.html#UserDataManager_LoadUserData_UserDataManager_UserDataInfo_
+  name: LoadUserData
+  nameWithType: UserDataManager.LoadUserData
+  fullName: UserDataManager.LoadUserData
+- uid: Global.UserDataManager.UserDataInfo
+  commentId: T:Global.UserDataManager.UserDataInfo
+  href: UserDataManager.html
+  name: UserDataManager.UserDataInfo
+  nameWithType: UserDataManager.UserDataInfo
+  fullName: UserDataManager.UserDataInfo
+  spec.csharp:
+  - uid: Global.UserDataManager
+    name: UserDataManager
+    href: UserDataManager.html
+  - name: .
+  - uid: Global.UserDataManager.UserDataInfo
+    name: UserDataInfo
+    href: UserDataManager.UserDataInfo.html
+  spec.vb:
+  - uid: Global.UserDataManager
+    name: UserDataManager
+    href: UserDataManager.html
+  - name: .
+  - uid: Global.UserDataManager.UserDataInfo
+    name: UserDataInfo
+    href: UserDataManager.UserDataInfo.html
+- uid: Global.UserDataManager.DeleteUserData*
+  commentId: Overload:Global.UserDataManager.DeleteUserData
+  href: Global.UserDataManager.html#UserDataManager_DeleteUserData_UserDataManager_UserDataInfo_
+  name: DeleteUserData
+  nameWithType: UserDataManager.DeleteUserData
+  fullName: UserDataManager.DeleteUserData

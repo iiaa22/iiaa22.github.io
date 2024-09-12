@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73bf8e8cf6c3f1f49a8e716d3a0d8b37, type: 3}
+  m_Name: LanguageConfig
+  m_EditorClassIdentifier: 
+  version: 100
+  enableConsole: 1
+  dataList:
+  - name: SChinese
+    texts:
+    - key: TitleView.StartButton
+      value: "\u5F00\u59CB\u6E38\u620F"
+    - key: TitleView.LoadButton
+      value: "\u8F7D\u5165\u6E38\u620F"
+  - name: TChinese
+    texts: []
+  - name: English
+    texts:
+    - key: TitleView.StartButton
+      value: Start Game
+    - key: TitleView.LoadButton
+      value: Load Game

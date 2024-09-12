@@ -1,0 +1,2252 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Unit
+  commentId: T:Global.Unit
+  id: Unit
+  parent: Global
+  children:
+  - Global.Unit.#ctor(System.Int32)
+  - Global.Unit.ATK
+  - Global.Unit.AddListener
+  - Global.Unit.AddState(State)
+  - Global.Unit.AfterLoad
+  - Global.Unit.Attack(Unit)
+  - Global.Unit.BasicATK
+  - Global.Unit.BasicDEF
+  - Global.Unit.BasicEDF
+  - Global.Unit.BasicERS
+  - Global.Unit.BasicRES
+  - Global.Unit.BasicSPD
+  - Global.Unit.BeforeSave
+  - Global.Unit.BonusATK
+  - Global.Unit.BonusATK_P
+  - Global.Unit.BonusDEF
+  - Global.Unit.BonusDEF_P
+  - Global.Unit.BonusEDF
+  - Global.Unit.BonusEDF_P
+  - Global.Unit.BonusERS
+  - Global.Unit.BonusRES
+  - Global.Unit.BonusSPD
+  - Global.Unit.BonusSPD_P
+  - Global.Unit.Config
+  - Global.Unit.DEF
+  - Global.Unit.Damage(Unit,DamageInfo)
+  - Global.Unit.EDF
+  - Global.Unit.ERS
+  - Global.Unit.EnergyShield
+  - Global.Unit.ForgetSkill(Skill)
+  - Global.Unit.GetSkills
+  - Global.Unit.GetStates
+  - Global.Unit.HP
+  - Global.Unit.IsAttackDisabled
+  - Global.Unit.IsMoveDisabled
+  - Global.Unit.LearnSkill(Skill)
+  - Global.Unit.MaxHP
+  - Global.Unit.MaxToughness
+  - Global.Unit.OnAttacked
+  - Global.Unit.OnDamaged
+  - Global.Unit.OnDead
+  - Global.Unit.PhysicalShield
+  - Global.Unit.RES
+  - Global.Unit.RemoveState(State)
+  - Global.Unit.SPD
+  - Global.Unit.Toughness
+  - Global.Unit.UniversalShield
+  - Global.Unit.configID
+  langs:
+  - csharp
+  - vb
+  name: Unit
+  nameWithType: Unit
+  fullName: Unit
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: Unit
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 7
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 处理单位的类。
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class Unit : ObservableUserData<Unit>
+    content.vb: >-
+      <Serializable>
+
+      Public Class Unit Inherits ObservableUserData(Of Unit)
+  inheritance:
+  - System.Object
+  - Global.BaseUserData
+  - Global.ObservableUserData{Unit}
+  derivedClasses:
+  - Global.Player
+  inheritedMembers:
+  - Global.ObservableUserData{Unit}.OnDataChanged
+  - Global.ObservableUserData{Unit}.TriggerDataChanged(Unit)
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: Global.Unit.configID
+  commentId: F:Global.Unit.configID
+  id: configID
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: configID
+  nameWithType: Unit.configID
+  fullName: Unit.configID
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: configID
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 10
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public readonly int configID
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly configID As Integer
+- uid: Global.Unit.OnAttacked
+  commentId: E:Global.Unit.OnAttacked
+  id: OnAttacked
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: OnAttacked
+  nameWithType: Unit.OnAttacked
+  fullName: Unit.OnAttacked
+  type: Event
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: OnAttacked
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 46
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 受到攻击事件。
+  example: []
+  syntax:
+    content: public event Unit.DamagedHandler OnAttacked
+    return:
+      type: Global.Unit.DamagedHandler
+    content.vb: Public Event OnAttacked As Unit.DamagedHandler
+- uid: Global.Unit.OnDamaged
+  commentId: E:Global.Unit.OnDamaged
+  id: OnDamaged
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: OnDamaged
+  nameWithType: Unit.OnDamaged
+  fullName: Unit.OnDamaged
+  type: Event
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: OnDamaged
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 50
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 受到伤害事件。
+  example: []
+  syntax:
+    content: public event Unit.DamagedHandler OnDamaged
+    return:
+      type: Global.Unit.DamagedHandler
+    content.vb: Public Event OnDamaged As Unit.DamagedHandler
+- uid: Global.Unit.OnDead
+  commentId: E:Global.Unit.OnDead
+  id: OnDead
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: OnDead
+  nameWithType: Unit.OnDead
+  fullName: Unit.OnDead
+  type: Event
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: OnDead
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 54
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 死亡事件。
+  example: []
+  syntax:
+    content: public event Unit.DamagedHandler OnDead
+    return:
+      type: Global.Unit.DamagedHandler
+    content.vb: Public Event OnDead As Unit.DamagedHandler
+- uid: Global.Unit.#ctor(System.Int32)
+  commentId: M:Global.Unit.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: Unit(int)
+  nameWithType: Unit.Unit(int)
+  fullName: Unit.Unit(int)
+  type: Constructor
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: .ctor
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 56
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Unit(int configID)
+    parameters:
+    - id: configID
+      type: System.Int32
+    content.vb: Public Sub New(configID As Integer)
+  overload: Global.Unit.#ctor*
+  nameWithType.vb: Unit.New(Integer)
+  fullName.vb: Unit.New(Integer)
+  name.vb: New(Integer)
+- uid: Global.Unit.AddListener
+  commentId: M:Global.Unit.AddListener
+  id: AddListener
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: AddListener()
+  nameWithType: Unit.AddListener()
+  fullName: Unit.AddListener()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: AddListener
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 70
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: protected virtual void AddListener()
+    content.vb: Protected Overridable Sub AddListener()
+  overload: Global.Unit.AddListener*
+- uid: Global.Unit.BeforeSave
+  commentId: M:Global.Unit.BeforeSave
+  id: BeforeSave
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: BeforeSave()
+  nameWithType: Unit.BeforeSave()
+  fullName: Unit.BeforeSave()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: BeforeSave
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 82
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 保存前触发的事件。
+  example: []
+  syntax:
+    content: public override void BeforeSave()
+    content.vb: Public Overrides Sub BeforeSave()
+  overridden: Global.BaseUserData.BeforeSave
+  overload: Global.Unit.BeforeSave*
+- uid: Global.Unit.AfterLoad
+  commentId: M:Global.Unit.AfterLoad
+  id: AfterLoad
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: AfterLoad()
+  nameWithType: Unit.AfterLoad()
+  fullName: Unit.AfterLoad()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: AfterLoad
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 87
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 读取后触发的事件。
+  example: []
+  syntax:
+    content: public override void AfterLoad()
+    content.vb: Public Overrides Sub AfterLoad()
+  overridden: Global.BaseUserData.AfterLoad
+  overload: Global.Unit.AfterLoad*
+- uid: Global.Unit.Config
+  commentId: P:Global.Unit.Config
+  id: Config
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: Config
+  nameWithType: Unit.Config
+  fullName: Unit.Config
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: Config
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 96
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 单位的基础配置。
+  example: []
+  syntax:
+    content: public UnitsConfigItem Config { get; }
+    parameters: []
+    return:
+      type: Global.UnitsConfigItem
+    content.vb: Public Property Config As UnitsConfigItem
+  overload: Global.Unit.Config*
+- uid: Global.Unit.IsAttackDisabled
+  commentId: P:Global.Unit.IsAttackDisabled
+  id: IsAttackDisabled
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: IsAttackDisabled
+  nameWithType: Unit.IsAttackDisabled
+  fullName: Unit.IsAttackDisabled
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: IsAttackDisabled
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 101
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 攻击是否被禁用。
+  example: []
+  syntax:
+    content: public bool IsAttackDisabled { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsAttackDisabled As Boolean
+  overload: Global.Unit.IsAttackDisabled*
+- uid: Global.Unit.IsMoveDisabled
+  commentId: P:Global.Unit.IsMoveDisabled
+  id: IsMoveDisabled
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: IsMoveDisabled
+  nameWithType: Unit.IsMoveDisabled
+  fullName: Unit.IsMoveDisabled
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: IsMoveDisabled
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 116
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 移动是否被禁用。
+  example: []
+  syntax:
+    content: public bool IsMoveDisabled { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsMoveDisabled As Boolean
+  overload: Global.Unit.IsMoveDisabled*
+- uid: Global.Unit.MaxHP
+  commentId: P:Global.Unit.MaxHP
+  id: MaxHP
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: MaxHP
+  nameWithType: Unit.MaxHP
+  fullName: Unit.MaxHP
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: MaxHP
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 131
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 单位的生命值上限。
+  example: []
+  syntax:
+    content: public int MaxHP { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaxHP As Integer
+  overload: Global.Unit.MaxHP*
+- uid: Global.Unit.HP
+  commentId: P:Global.Unit.HP
+  id: HP
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: HP
+  nameWithType: Unit.HP
+  fullName: Unit.HP
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: HP
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 148
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 单位的生命值。
+  example: []
+  syntax:
+    content: public int HP { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property HP As Integer
+  overload: Global.Unit.HP*
+- uid: Global.Unit.Attack(Unit)
+  commentId: M:Global.Unit.Attack(Unit)
+  id: Attack(Unit)
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: Attack(Unit)
+  nameWithType: Unit.Attack(Unit)
+  fullName: Unit.Attack(Unit)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: Attack
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 166
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 攻击单位。
+  example: []
+  syntax:
+    content: public void Attack(Unit target)
+    parameters:
+    - id: target
+      type: Global.Unit
+      description: 目标单位
+    content.vb: Public Sub Attack(target As Unit)
+  overload: Global.Unit.Attack*
+- uid: Global.Unit.Damage(Unit,DamageInfo)
+  commentId: M:Global.Unit.Damage(Unit,DamageInfo)
+  id: Damage(Unit,DamageInfo)
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: Damage(Unit, DamageInfo)
+  nameWithType: Unit.Damage(Unit, DamageInfo)
+  fullName: Unit.Damage(Unit, DamageInfo)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: Damage
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 180
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 受到伤害。
+  example: []
+  syntax:
+    content: public void Damage(Unit attacker, DamageInfo damageInfo)
+    parameters:
+    - id: attacker
+      type: Global.Unit
+      description: 攻击者
+    - id: damageInfo
+      type: Global.DamageInfo
+      description: 伤害信息
+    content.vb: Public Sub Damage(attacker As Unit, damageInfo As DamageInfo)
+  overload: Global.Unit.Damage*
+- uid: Global.Unit.MaxToughness
+  commentId: P:Global.Unit.MaxToughness
+  id: MaxToughness
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: MaxToughness
+  nameWithType: Unit.MaxToughness
+  fullName: Unit.MaxToughness
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: MaxToughness
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 235
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 单位的韧性值上限。
+  example: []
+  syntax:
+    content: public int MaxToughness { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaxToughness As Integer
+  overload: Global.Unit.MaxToughness*
+- uid: Global.Unit.Toughness
+  commentId: P:Global.Unit.Toughness
+  id: Toughness
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: Toughness
+  nameWithType: Unit.Toughness
+  fullName: Unit.Toughness
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: Toughness
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 252
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 单位的韧性值。
+  example: []
+  syntax:
+    content: public int Toughness { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Toughness As Integer
+  overload: Global.Unit.Toughness*
+- uid: Global.Unit.BasicATK
+  commentId: P:Global.Unit.BasicATK
+  id: BasicATK
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: BasicATK
+  nameWithType: Unit.BasicATK
+  fullName: Unit.BasicATK
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: BasicATK
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 269
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 单位的基础攻击力。
+  example: []
+  syntax:
+    content: public int BasicATK { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property BasicATK As Integer
+  overload: Global.Unit.BasicATK*
+- uid: Global.Unit.BonusATK
+  commentId: P:Global.Unit.BonusATK
+  id: BonusATK
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: BonusATK
+  nameWithType: Unit.BonusATK
+  fullName: Unit.BonusATK
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: BonusATK
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 285
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 单位的攻击力加成。
+  example: []
+  syntax:
+    content: public int BonusATK { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property BonusATK As Integer
+  overload: Global.Unit.BonusATK*
+- uid: Global.Unit.BonusATK_P
+  commentId: P:Global.Unit.BonusATK_P
+  id: BonusATK_P
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: BonusATK_P
+  nameWithType: Unit.BonusATK_P
+  fullName: Unit.BonusATK_P
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: BonusATK_P
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 301
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 单位的攻击力加成百分比（%）。
+  example: []
+  syntax:
+    content: public int BonusATK_P { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property BonusATK_P As Integer
+  overload: Global.Unit.BonusATK_P*
+- uid: Global.Unit.ATK
+  commentId: P:Global.Unit.ATK
+  id: ATK
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: ATK
+  nameWithType: Unit.ATK
+  fullName: Unit.ATK
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: ATK
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 317
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 单位的攻击力。
+  example: []
+  syntax:
+    content: public int ATK { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property ATK As Integer
+  overload: Global.Unit.ATK*
+- uid: Global.Unit.BasicDEF
+  commentId: P:Global.Unit.BasicDEF
+  id: BasicDEF
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: BasicDEF
+  nameWithType: Unit.BasicDEF
+  fullName: Unit.BasicDEF
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: BasicDEF
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 322
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 单位的基础物理防御力。
+  example: []
+  syntax:
+    content: public int BasicDEF { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property BasicDEF As Integer
+  overload: Global.Unit.BasicDEF*
+- uid: Global.Unit.BonusDEF
+  commentId: P:Global.Unit.BonusDEF
+  id: BonusDEF
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: BonusDEF
+  nameWithType: Unit.BonusDEF
+  fullName: Unit.BonusDEF
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: BonusDEF
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 338
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 单位的物理防御力加成。
+  example: []
+  syntax:
+    content: public int BonusDEF { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property BonusDEF As Integer
+  overload: Global.Unit.BonusDEF*
+- uid: Global.Unit.BonusDEF_P
+  commentId: P:Global.Unit.BonusDEF_P
+  id: BonusDEF_P
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: BonusDEF_P
+  nameWithType: Unit.BonusDEF_P
+  fullName: Unit.BonusDEF_P
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: BonusDEF_P
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 354
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 单位的物理防御力加成百分比（%）。
+  example: []
+  syntax:
+    content: public int BonusDEF_P { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property BonusDEF_P As Integer
+  overload: Global.Unit.BonusDEF_P*
+- uid: Global.Unit.DEF
+  commentId: P:Global.Unit.DEF
+  id: DEF
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: DEF
+  nameWithType: Unit.DEF
+  fullName: Unit.DEF
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: DEF
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 370
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 单位的物理防御力。
+  example: []
+  syntax:
+    content: public int DEF { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property DEF As Integer
+  overload: Global.Unit.DEF*
+- uid: Global.Unit.BasicEDF
+  commentId: P:Global.Unit.BasicEDF
+  id: BasicEDF
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: BasicEDF
+  nameWithType: Unit.BasicEDF
+  fullName: Unit.BasicEDF
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: BasicEDF
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 375
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 单位的基础能量防御力。
+  example: []
+  syntax:
+    content: public int BasicEDF { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property BasicEDF As Integer
+  overload: Global.Unit.BasicEDF*
+- uid: Global.Unit.BonusEDF
+  commentId: P:Global.Unit.BonusEDF
+  id: BonusEDF
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: BonusEDF
+  nameWithType: Unit.BonusEDF
+  fullName: Unit.BonusEDF
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: BonusEDF
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 391
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 单位的能量防御力加成。
+  example: []
+  syntax:
+    content: public int BonusEDF { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property BonusEDF As Integer
+  overload: Global.Unit.BonusEDF*
+- uid: Global.Unit.BonusEDF_P
+  commentId: P:Global.Unit.BonusEDF_P
+  id: BonusEDF_P
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: BonusEDF_P
+  nameWithType: Unit.BonusEDF_P
+  fullName: Unit.BonusEDF_P
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: BonusEDF_P
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 407
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 单位的能量防御力加成百分比（%）。
+  example: []
+  syntax:
+    content: public int BonusEDF_P { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property BonusEDF_P As Integer
+  overload: Global.Unit.BonusEDF_P*
+- uid: Global.Unit.EDF
+  commentId: P:Global.Unit.EDF
+  id: EDF
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: EDF
+  nameWithType: Unit.EDF
+  fullName: Unit.EDF
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: EDF
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 423
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 单位的能量防御力。
+  example: []
+  syntax:
+    content: public int EDF { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property EDF As Integer
+  overload: Global.Unit.EDF*
+- uid: Global.Unit.BasicSPD
+  commentId: P:Global.Unit.BasicSPD
+  id: BasicSPD
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: BasicSPD
+  nameWithType: Unit.BasicSPD
+  fullName: Unit.BasicSPD
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: BasicSPD
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 428
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 单位的基础速度（格每秒）。
+  example: []
+  syntax:
+    content: public float BasicSPD { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property BasicSPD As Single
+  overload: Global.Unit.BasicSPD*
+- uid: Global.Unit.BonusSPD
+  commentId: P:Global.Unit.BonusSPD
+  id: BonusSPD
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: BonusSPD
+  nameWithType: Unit.BonusSPD
+  fullName: Unit.BonusSPD
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: BonusSPD
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 444
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 单位的速度加成（格每秒）。
+  example: []
+  syntax:
+    content: public float BonusSPD { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property BonusSPD As Single
+  overload: Global.Unit.BonusSPD*
+- uid: Global.Unit.BonusSPD_P
+  commentId: P:Global.Unit.BonusSPD_P
+  id: BonusSPD_P
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: BonusSPD_P
+  nameWithType: Unit.BonusSPD_P
+  fullName: Unit.BonusSPD_P
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: BonusSPD_P
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 460
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 单位的速度加成百分比（%）。
+  example: []
+  syntax:
+    content: public int BonusSPD_P { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property BonusSPD_P As Integer
+  overload: Global.Unit.BonusSPD_P*
+- uid: Global.Unit.SPD
+  commentId: P:Global.Unit.SPD
+  id: SPD
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: SPD
+  nameWithType: Unit.SPD
+  fullName: Unit.SPD
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: SPD
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 476
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 单位的速度（格每秒）。
+  example: []
+  syntax:
+    content: public float SPD { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property SPD As Single
+  overload: Global.Unit.SPD*
+- uid: Global.Unit.BasicRES
+  commentId: P:Global.Unit.BasicRES
+  id: BasicRES
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: BasicRES
+  nameWithType: Unit.BasicRES
+  fullName: Unit.BasicRES
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: BasicRES
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 481
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 单位的基础物理抗性（%）。
+  example: []
+  syntax:
+    content: public float BasicRES { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property BasicRES As Single
+  overload: Global.Unit.BasicRES*
+- uid: Global.Unit.BonusRES
+  commentId: P:Global.Unit.BonusRES
+  id: BonusRES
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: BonusRES
+  nameWithType: Unit.BonusRES
+  fullName: Unit.BonusRES
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: BonusRES
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 497
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 单位的物理抗性加成（%）。
+  example: []
+  syntax:
+    content: public float BonusRES { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property BonusRES As Single
+  overload: Global.Unit.BonusRES*
+- uid: Global.Unit.RES
+  commentId: P:Global.Unit.RES
+  id: RES
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: RES
+  nameWithType: Unit.RES
+  fullName: Unit.RES
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: RES
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 513
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 单位的物理抗性（%）。
+  example: []
+  syntax:
+    content: public float RES { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property RES As Single
+  overload: Global.Unit.RES*
+- uid: Global.Unit.BasicERS
+  commentId: P:Global.Unit.BasicERS
+  id: BasicERS
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: BasicERS
+  nameWithType: Unit.BasicERS
+  fullName: Unit.BasicERS
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: BasicERS
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 518
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 单位的基础能量抗性（%）。
+  example: []
+  syntax:
+    content: public float BasicERS { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property BasicERS As Single
+  overload: Global.Unit.BasicERS*
+- uid: Global.Unit.BonusERS
+  commentId: P:Global.Unit.BonusERS
+  id: BonusERS
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: BonusERS
+  nameWithType: Unit.BonusERS
+  fullName: Unit.BonusERS
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: BonusERS
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 534
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 单位的能量抗性加成（%）。
+  example: []
+  syntax:
+    content: public float BonusERS { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property BonusERS As Single
+  overload: Global.Unit.BonusERS*
+- uid: Global.Unit.ERS
+  commentId: P:Global.Unit.ERS
+  id: ERS
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: ERS
+  nameWithType: Unit.ERS
+  fullName: Unit.ERS
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: ERS
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 550
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 单位的能量抗性（%）。
+  example: []
+  syntax:
+    content: public float ERS { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property ERS As Single
+  overload: Global.Unit.ERS*
+- uid: Global.Unit.GetSkills
+  commentId: M:Global.Unit.GetSkills
+  id: GetSkills
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: GetSkills()
+  nameWithType: Unit.GetSkills()
+  fullName: Unit.GetSkills()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: GetSkills
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 556
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 获得单位的技能列表。
+  example: []
+  syntax:
+    content: public List<Skill> GetSkills()
+    return:
+      type: System.Collections.Generic.List{Skill}
+      description: 技能列表
+    content.vb: Public Function GetSkills() As List(Of Skill)
+  overload: Global.Unit.GetSkills*
+- uid: Global.Unit.LearnSkill(Skill)
+  commentId: M:Global.Unit.LearnSkill(Skill)
+  id: LearnSkill(Skill)
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: LearnSkill(Skill)
+  nameWithType: Unit.LearnSkill(Skill)
+  fullName: Unit.LearnSkill(Skill)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: LearnSkill
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 562
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 习得技能。
+  example: []
+  syntax:
+    content: public void LearnSkill(Skill skill)
+    parameters:
+    - id: skill
+      type: Global.Skill
+      description: 技能
+    content.vb: Public Sub LearnSkill(skill As Skill)
+  overload: Global.Unit.LearnSkill*
+- uid: Global.Unit.ForgetSkill(Skill)
+  commentId: M:Global.Unit.ForgetSkill(Skill)
+  id: ForgetSkill(Skill)
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: ForgetSkill(Skill)
+  nameWithType: Unit.ForgetSkill(Skill)
+  fullName: Unit.ForgetSkill(Skill)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: ForgetSkill
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 575
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 遗忘技能。
+  example: []
+  syntax:
+    content: public bool ForgetSkill(Skill skill)
+    parameters:
+    - id: skill
+      type: Global.Skill
+      description: 技能
+    return:
+      type: System.Boolean
+      description: 单位是否带有此技能
+    content.vb: Public Function ForgetSkill(skill As Skill) As Boolean
+  overload: Global.Unit.ForgetSkill*
+- uid: Global.Unit.GetStates
+  commentId: M:Global.Unit.GetStates
+  id: GetStates
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: GetStates()
+  nameWithType: Unit.GetStates()
+  fullName: Unit.GetStates()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: GetStates
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 590
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 获得单位的状态列表。
+  example: []
+  syntax:
+    content: public List<State> GetStates()
+    return:
+      type: System.Collections.Generic.List{State}
+      description: 状态列表
+    content.vb: Public Function GetStates() As List(Of State)
+  overload: Global.Unit.GetStates*
+- uid: Global.Unit.AddState(State)
+  commentId: M:Global.Unit.AddState(State)
+  id: AddState(State)
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: AddState(State)
+  nameWithType: Unit.AddState(State)
+  fullName: Unit.AddState(State)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: AddState
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 596
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 添加状态。
+  example: []
+  syntax:
+    content: public void AddState(State state)
+    parameters:
+    - id: state
+      type: Global.State
+      description: 状态
+    content.vb: Public Sub AddState(state As State)
+  overload: Global.Unit.AddState*
+- uid: Global.Unit.RemoveState(State)
+  commentId: M:Global.Unit.RemoveState(State)
+  id: RemoveState(State)
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: RemoveState(State)
+  nameWithType: Unit.RemoveState(State)
+  fullName: Unit.RemoveState(State)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: RemoveState
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 610
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 移除状态。
+  example: []
+  syntax:
+    content: public bool RemoveState(State state)
+    parameters:
+    - id: state
+      type: Global.State
+      description: 状态
+    return:
+      type: System.Boolean
+      description: 单位是否带有此状态
+    content.vb: Public Function RemoveState(state As State) As Boolean
+  overload: Global.Unit.RemoveState*
+- uid: Global.Unit.PhysicalShield
+  commentId: P:Global.Unit.PhysicalShield
+  id: PhysicalShield
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: PhysicalShield
+  nameWithType: Unit.PhysicalShield
+  fullName: Unit.PhysicalShield
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: PhysicalShield
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 624
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 单位的物理护盾总量。
+  example: []
+  syntax:
+    content: public int PhysicalShield { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property PhysicalShield As Integer
+  overload: Global.Unit.PhysicalShield*
+- uid: Global.Unit.EnergyShield
+  commentId: P:Global.Unit.EnergyShield
+  id: EnergyShield
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: EnergyShield
+  nameWithType: Unit.EnergyShield
+  fullName: Unit.EnergyShield
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: EnergyShield
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 640
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 单位的能量护盾总量。
+  example: []
+  syntax:
+    content: public int EnergyShield { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property EnergyShield As Integer
+  overload: Global.Unit.EnergyShield*
+- uid: Global.Unit.UniversalShield
+  commentId: P:Global.Unit.UniversalShield
+  id: UniversalShield
+  parent: Global.Unit
+  langs:
+  - csharp
+  - vb
+  name: UniversalShield
+  nameWithType: Unit.UniversalShield
+  fullName: Unit.UniversalShield
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: UniversalShield
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 656
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 单位的全能护盾总量。
+  example: []
+  syntax:
+    content: public int UniversalShield { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property UniversalShield As Integer
+  overload: Global.Unit.UniversalShield*
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Global.BaseUserData
+  commentId: T:Global.BaseUserData
+  href: BaseUserData.html
+  name: BaseUserData
+  nameWithType: BaseUserData
+  fullName: BaseUserData
+- uid: Global.ObservableUserData{Unit}
+  commentId: T:Global.ObservableUserData{Unit}
+  definition: Global.ObservableUserData`1
+  href: ObservableUserData-1.html
+  name: ObservableUserData<Unit>
+  nameWithType: ObservableUserData<Unit>
+  fullName: ObservableUserData<Unit>
+  nameWithType.vb: ObservableUserData(Of Unit)
+  fullName.vb: ObservableUserData(Of Unit)
+  name.vb: ObservableUserData(Of Unit)
+  spec.csharp:
+  - uid: Global.ObservableUserData`1
+    name: ObservableUserData
+    href: ObservableUserData-1.html
+  - name: <
+  - uid: Global.Unit
+    name: Unit
+    href: Unit.html
+  - name: '>'
+  spec.vb:
+  - uid: Global.ObservableUserData`1
+    name: ObservableUserData
+    href: ObservableUserData-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.Unit
+    name: Unit
+    href: Unit.html
+  - name: )
+- uid: Global.ObservableUserData{Unit}.OnDataChanged
+  commentId: E:Global.ObservableUserData{Unit}.OnDataChanged
+  parent: Global.ObservableUserData{Unit}
+  definition: Global.ObservableUserData`1.OnDataChanged
+  href: Global.ObservableUserData-1.html#ObservableUserData_1_OnDataChanged
+  name: OnDataChanged
+  nameWithType: ObservableUserData<Unit>.OnDataChanged
+  fullName: ObservableUserData<Unit>.OnDataChanged
+  nameWithType.vb: ObservableUserData(Of Unit).OnDataChanged
+  fullName.vb: ObservableUserData(Of Unit).OnDataChanged
+- uid: Global.ObservableUserData{Unit}.TriggerDataChanged(Unit)
+  commentId: M:Global.ObservableUserData{Unit}.TriggerDataChanged(Unit)
+  parent: Global.ObservableUserData{Unit}
+  definition: Global.ObservableUserData`1.TriggerDataChanged(`0)
+  href: Global.ObservableUserData-1.html#ObservableUserData_1_TriggerDataChanged__0_
+  name: TriggerDataChanged(Unit)
+  nameWithType: ObservableUserData<Unit>.TriggerDataChanged(Unit)
+  fullName: ObservableUserData<Unit>.TriggerDataChanged(Unit)
+  nameWithType.vb: ObservableUserData(Of Unit).TriggerDataChanged(Unit)
+  fullName.vb: ObservableUserData(Of Unit).TriggerDataChanged(Unit)
+  spec.csharp:
+  - uid: Global.ObservableUserData{Unit}.TriggerDataChanged(Unit)
+    name: TriggerDataChanged
+    href: Global.ObservableUserData-1.html#ObservableUserData_1_TriggerDataChanged__0_
+  - name: (
+  - uid: Global.Unit
+    name: Unit
+    href: Unit.html
+  - name: )
+  spec.vb:
+  - uid: Global.ObservableUserData{Unit}.TriggerDataChanged(Unit)
+    name: TriggerDataChanged
+    href: Global.ObservableUserData-1.html#ObservableUserData_1_TriggerDataChanged__0_
+  - name: (
+  - uid: Global.Unit
+    name: Unit
+    href: Unit.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.ObservableUserData`1
+  commentId: T:Global.ObservableUserData`1
+  href: ObservableUserData-1.html
+  name: ObservableUserData<T>
+  nameWithType: ObservableUserData<T>
+  fullName: ObservableUserData<T>
+  nameWithType.vb: ObservableUserData(Of T)
+  fullName.vb: ObservableUserData(Of T)
+  name.vb: ObservableUserData(Of T)
+  spec.csharp:
+  - uid: Global.ObservableUserData`1
+    name: ObservableUserData
+    href: ObservableUserData-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Global.ObservableUserData`1
+    name: ObservableUserData
+    href: ObservableUserData-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Global.ObservableUserData`1.OnDataChanged
+  commentId: E:Global.ObservableUserData`1.OnDataChanged
+  href: Global.ObservableUserData-1.html#ObservableUserData_1_OnDataChanged
+  name: OnDataChanged
+  nameWithType: ObservableUserData<T>.OnDataChanged
+  fullName: ObservableUserData<T>.OnDataChanged
+  nameWithType.vb: ObservableUserData(Of T).OnDataChanged
+  fullName.vb: ObservableUserData(Of T).OnDataChanged
+- uid: Global.ObservableUserData`1.TriggerDataChanged(`0)
+  commentId: M:Global.ObservableUserData`1.TriggerDataChanged(`0)
+  href: Global.ObservableUserData-1.html#ObservableUserData_1_TriggerDataChanged__0_
+  name: TriggerDataChanged(T)
+  nameWithType: ObservableUserData<T>.TriggerDataChanged(T)
+  fullName: ObservableUserData<T>.TriggerDataChanged(T)
+  nameWithType.vb: ObservableUserData(Of T).TriggerDataChanged(T)
+  fullName.vb: ObservableUserData(Of T).TriggerDataChanged(T)
+  spec.csharp:
+  - uid: Global.ObservableUserData`1.TriggerDataChanged(`0)
+    name: TriggerDataChanged
+    href: Global.ObservableUserData-1.html#ObservableUserData_1_TriggerDataChanged__0_
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Global.ObservableUserData`1.TriggerDataChanged(`0)
+    name: TriggerDataChanged
+    href: Global.ObservableUserData-1.html#ObservableUserData_1_TriggerDataChanged__0_
+  - name: (
+  - name: T
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Global.Unit.DamagedHandler
+  commentId: T:Global.Unit.DamagedHandler
+  href: Unit.html
+  name: Unit.DamagedHandler
+  nameWithType: Unit.DamagedHandler
+  fullName: Unit.DamagedHandler
+  spec.csharp:
+  - uid: Global.Unit
+    name: Unit
+    href: Unit.html
+  - name: .
+  - uid: Global.Unit.DamagedHandler
+    name: DamagedHandler
+    href: Unit.DamagedHandler.html
+  spec.vb:
+  - uid: Global.Unit
+    name: Unit
+    href: Unit.html
+  - name: .
+  - uid: Global.Unit.DamagedHandler
+    name: DamagedHandler
+    href: Unit.DamagedHandler.html
+- uid: Global.Unit.#ctor*
+  commentId: Overload:Global.Unit.#ctor
+  href: Global.Unit.html#Unit__ctor_System_Int32_
+  name: Unit
+  nameWithType: Unit.Unit
+  fullName: Unit.Unit
+  nameWithType.vb: Unit.New
+  fullName.vb: Unit.New
+  name.vb: New
+- uid: Global.Unit.AddListener*
+  commentId: Overload:Global.Unit.AddListener
+  href: Global.Unit.html#Unit_AddListener
+  name: AddListener
+  nameWithType: Unit.AddListener
+  fullName: Unit.AddListener
+- uid: Global.BaseUserData.BeforeSave
+  commentId: M:Global.BaseUserData.BeforeSave
+  parent: Global.BaseUserData
+  href: Global.BaseUserData.html#BaseUserData_BeforeSave
+  name: BeforeSave()
+  nameWithType: BaseUserData.BeforeSave()
+  fullName: BaseUserData.BeforeSave()
+  spec.csharp:
+  - uid: Global.BaseUserData.BeforeSave
+    name: BeforeSave
+    href: Global.BaseUserData.html#BaseUserData_BeforeSave
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Global.BaseUserData.BeforeSave
+    name: BeforeSave
+    href: Global.BaseUserData.html#BaseUserData_BeforeSave
+  - name: (
+  - name: )
+- uid: Global.Unit.BeforeSave*
+  commentId: Overload:Global.Unit.BeforeSave
+  href: Global.Unit.html#Unit_BeforeSave
+  name: BeforeSave
+  nameWithType: Unit.BeforeSave
+  fullName: Unit.BeforeSave
+- uid: Global.BaseUserData.AfterLoad
+  commentId: M:Global.BaseUserData.AfterLoad
+  parent: Global.BaseUserData
+  href: Global.BaseUserData.html#BaseUserData_AfterLoad
+  name: AfterLoad()
+  nameWithType: BaseUserData.AfterLoad()
+  fullName: BaseUserData.AfterLoad()
+  spec.csharp:
+  - uid: Global.BaseUserData.AfterLoad
+    name: AfterLoad
+    href: Global.BaseUserData.html#BaseUserData_AfterLoad
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Global.BaseUserData.AfterLoad
+    name: AfterLoad
+    href: Global.BaseUserData.html#BaseUserData_AfterLoad
+  - name: (
+  - name: )
+- uid: Global.Unit.AfterLoad*
+  commentId: Overload:Global.Unit.AfterLoad
+  href: Global.Unit.html#Unit_AfterLoad
+  name: AfterLoad
+  nameWithType: Unit.AfterLoad
+  fullName: Unit.AfterLoad
+- uid: Global.Unit.Config*
+  commentId: Overload:Global.Unit.Config
+  href: Global.Unit.html#Unit_Config
+  name: Config
+  nameWithType: Unit.Config
+  fullName: Unit.Config
+- uid: Global.UnitsConfigItem
+  commentId: T:Global.UnitsConfigItem
+  href: UnitsConfigItem.html
+  name: UnitsConfigItem
+  nameWithType: UnitsConfigItem
+  fullName: UnitsConfigItem
+- uid: Global.Unit.IsAttackDisabled*
+  commentId: Overload:Global.Unit.IsAttackDisabled
+  href: Global.Unit.html#Unit_IsAttackDisabled
+  name: IsAttackDisabled
+  nameWithType: Unit.IsAttackDisabled
+  fullName: Unit.IsAttackDisabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Global.Unit.IsMoveDisabled*
+  commentId: Overload:Global.Unit.IsMoveDisabled
+  href: Global.Unit.html#Unit_IsMoveDisabled
+  name: IsMoveDisabled
+  nameWithType: Unit.IsMoveDisabled
+  fullName: Unit.IsMoveDisabled
+- uid: Global.Unit.MaxHP*
+  commentId: Overload:Global.Unit.MaxHP
+  href: Global.Unit.html#Unit_MaxHP
+  name: MaxHP
+  nameWithType: Unit.MaxHP
+  fullName: Unit.MaxHP
+- uid: Global.Unit.HP*
+  commentId: Overload:Global.Unit.HP
+  href: Global.Unit.html#Unit_HP
+  name: HP
+  nameWithType: Unit.HP
+  fullName: Unit.HP
+- uid: Global.Unit.Attack*
+  commentId: Overload:Global.Unit.Attack
+  href: Global.Unit.html#Unit_Attack_Unit_
+  name: Attack
+  nameWithType: Unit.Attack
+  fullName: Unit.Attack
+- uid: Global.Unit
+  commentId: T:Global.Unit
+  href: Unit.html
+  name: Unit
+  nameWithType: Unit
+  fullName: Unit
+- uid: Global.Unit.Damage*
+  commentId: Overload:Global.Unit.Damage
+  href: Global.Unit.html#Unit_Damage_Unit_DamageInfo_
+  name: Damage
+  nameWithType: Unit.Damage
+  fullName: Unit.Damage
+- uid: Global.DamageInfo
+  commentId: T:Global.DamageInfo
+  href: DamageInfo.html
+  name: DamageInfo
+  nameWithType: DamageInfo
+  fullName: DamageInfo
+- uid: Global.Unit.MaxToughness*
+  commentId: Overload:Global.Unit.MaxToughness
+  href: Global.Unit.html#Unit_MaxToughness
+  name: MaxToughness
+  nameWithType: Unit.MaxToughness
+  fullName: Unit.MaxToughness
+- uid: Global.Unit.Toughness*
+  commentId: Overload:Global.Unit.Toughness
+  href: Global.Unit.html#Unit_Toughness
+  name: Toughness
+  nameWithType: Unit.Toughness
+  fullName: Unit.Toughness
+- uid: Global.Unit.BasicATK*
+  commentId: Overload:Global.Unit.BasicATK
+  href: Global.Unit.html#Unit_BasicATK
+  name: BasicATK
+  nameWithType: Unit.BasicATK
+  fullName: Unit.BasicATK
+- uid: Global.Unit.BonusATK*
+  commentId: Overload:Global.Unit.BonusATK
+  href: Global.Unit.html#Unit_BonusATK
+  name: BonusATK
+  nameWithType: Unit.BonusATK
+  fullName: Unit.BonusATK
+- uid: Global.Unit.BonusATK_P*
+  commentId: Overload:Global.Unit.BonusATK_P
+  href: Global.Unit.html#Unit_BonusATK_P
+  name: BonusATK_P
+  nameWithType: Unit.BonusATK_P
+  fullName: Unit.BonusATK_P
+- uid: Global.Unit.ATK*
+  commentId: Overload:Global.Unit.ATK
+  href: Global.Unit.html#Unit_ATK
+  name: ATK
+  nameWithType: Unit.ATK
+  fullName: Unit.ATK
+- uid: Global.Unit.BasicDEF*
+  commentId: Overload:Global.Unit.BasicDEF
+  href: Global.Unit.html#Unit_BasicDEF
+  name: BasicDEF
+  nameWithType: Unit.BasicDEF
+  fullName: Unit.BasicDEF
+- uid: Global.Unit.BonusDEF*
+  commentId: Overload:Global.Unit.BonusDEF
+  href: Global.Unit.html#Unit_BonusDEF
+  name: BonusDEF
+  nameWithType: Unit.BonusDEF
+  fullName: Unit.BonusDEF
+- uid: Global.Unit.BonusDEF_P*
+  commentId: Overload:Global.Unit.BonusDEF_P
+  href: Global.Unit.html#Unit_BonusDEF_P
+  name: BonusDEF_P
+  nameWithType: Unit.BonusDEF_P
+  fullName: Unit.BonusDEF_P
+- uid: Global.Unit.DEF*
+  commentId: Overload:Global.Unit.DEF
+  href: Global.Unit.html#Unit_DEF
+  name: DEF
+  nameWithType: Unit.DEF
+  fullName: Unit.DEF
+- uid: Global.Unit.BasicEDF*
+  commentId: Overload:Global.Unit.BasicEDF
+  href: Global.Unit.html#Unit_BasicEDF
+  name: BasicEDF
+  nameWithType: Unit.BasicEDF
+  fullName: Unit.BasicEDF
+- uid: Global.Unit.BonusEDF*
+  commentId: Overload:Global.Unit.BonusEDF
+  href: Global.Unit.html#Unit_BonusEDF
+  name: BonusEDF
+  nameWithType: Unit.BonusEDF
+  fullName: Unit.BonusEDF
+- uid: Global.Unit.BonusEDF_P*
+  commentId: Overload:Global.Unit.BonusEDF_P
+  href: Global.Unit.html#Unit_BonusEDF_P
+  name: BonusEDF_P
+  nameWithType: Unit.BonusEDF_P
+  fullName: Unit.BonusEDF_P
+- uid: Global.Unit.EDF*
+  commentId: Overload:Global.Unit.EDF
+  href: Global.Unit.html#Unit_EDF
+  name: EDF
+  nameWithType: Unit.EDF
+  fullName: Unit.EDF
+- uid: Global.Unit.BasicSPD*
+  commentId: Overload:Global.Unit.BasicSPD
+  href: Global.Unit.html#Unit_BasicSPD
+  name: BasicSPD
+  nameWithType: Unit.BasicSPD
+  fullName: Unit.BasicSPD
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.single
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: Global.Unit.BonusSPD*
+  commentId: Overload:Global.Unit.BonusSPD
+  href: Global.Unit.html#Unit_BonusSPD
+  name: BonusSPD
+  nameWithType: Unit.BonusSPD
+  fullName: Unit.BonusSPD
+- uid: Global.Unit.BonusSPD_P*
+  commentId: Overload:Global.Unit.BonusSPD_P
+  href: Global.Unit.html#Unit_BonusSPD_P
+  name: BonusSPD_P
+  nameWithType: Unit.BonusSPD_P
+  fullName: Unit.BonusSPD_P
+- uid: Global.Unit.SPD*
+  commentId: Overload:Global.Unit.SPD
+  href: Global.Unit.html#Unit_SPD
+  name: SPD
+  nameWithType: Unit.SPD
+  fullName: Unit.SPD
+- uid: Global.Unit.BasicRES*
+  commentId: Overload:Global.Unit.BasicRES
+  href: Global.Unit.html#Unit_BasicRES
+  name: BasicRES
+  nameWithType: Unit.BasicRES
+  fullName: Unit.BasicRES
+- uid: Global.Unit.BonusRES*
+  commentId: Overload:Global.Unit.BonusRES
+  href: Global.Unit.html#Unit_BonusRES
+  name: BonusRES
+  nameWithType: Unit.BonusRES
+  fullName: Unit.BonusRES
+- uid: Global.Unit.RES*
+  commentId: Overload:Global.Unit.RES
+  href: Global.Unit.html#Unit_RES
+  name: RES
+  nameWithType: Unit.RES
+  fullName: Unit.RES
+- uid: Global.Unit.BasicERS*
+  commentId: Overload:Global.Unit.BasicERS
+  href: Global.Unit.html#Unit_BasicERS
+  name: BasicERS
+  nameWithType: Unit.BasicERS
+  fullName: Unit.BasicERS
+- uid: Global.Unit.BonusERS*
+  commentId: Overload:Global.Unit.BonusERS
+  href: Global.Unit.html#Unit_BonusERS
+  name: BonusERS
+  nameWithType: Unit.BonusERS
+  fullName: Unit.BonusERS
+- uid: Global.Unit.ERS*
+  commentId: Overload:Global.Unit.ERS
+  href: Global.Unit.html#Unit_ERS
+  name: ERS
+  nameWithType: Unit.ERS
+  fullName: Unit.ERS
+- uid: Global.Unit.GetSkills*
+  commentId: Overload:Global.Unit.GetSkills
+  href: Global.Unit.html#Unit_GetSkills
+  name: GetSkills
+  nameWithType: Unit.GetSkills
+  fullName: Unit.GetSkills
+- uid: System.Collections.Generic.List{Skill}
+  commentId: T:System.Collections.Generic.List{Skill}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<Skill>
+  nameWithType: List<Skill>
+  fullName: System.Collections.Generic.List<Skill>
+  nameWithType.vb: List(Of Skill)
+  fullName.vb: System.Collections.Generic.List(Of Skill)
+  name.vb: List(Of Skill)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Global.Skill
+    name: Skill
+    href: Skill.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.Skill
+    name: Skill
+    href: Skill.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: Global.Unit.LearnSkill*
+  commentId: Overload:Global.Unit.LearnSkill
+  href: Global.Unit.html#Unit_LearnSkill_Skill_
+  name: LearnSkill
+  nameWithType: Unit.LearnSkill
+  fullName: Unit.LearnSkill
+- uid: Global.Skill
+  commentId: T:Global.Skill
+  href: Skill.html
+  name: Skill
+  nameWithType: Skill
+  fullName: Skill
+- uid: Global.Unit.ForgetSkill*
+  commentId: Overload:Global.Unit.ForgetSkill
+  href: Global.Unit.html#Unit_ForgetSkill_Skill_
+  name: ForgetSkill
+  nameWithType: Unit.ForgetSkill
+  fullName: Unit.ForgetSkill
+- uid: Global.Unit.GetStates*
+  commentId: Overload:Global.Unit.GetStates
+  href: Global.Unit.html#Unit_GetStates
+  name: GetStates
+  nameWithType: Unit.GetStates
+  fullName: Unit.GetStates
+- uid: System.Collections.Generic.List{State}
+  commentId: T:System.Collections.Generic.List{State}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<State>
+  nameWithType: List<State>
+  fullName: System.Collections.Generic.List<State>
+  nameWithType.vb: List(Of State)
+  fullName.vb: System.Collections.Generic.List(Of State)
+  name.vb: List(Of State)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Global.State
+    name: State
+    href: State.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.State
+    name: State
+    href: State.html
+  - name: )
+- uid: Global.Unit.AddState*
+  commentId: Overload:Global.Unit.AddState
+  href: Global.Unit.html#Unit_AddState_State_
+  name: AddState
+  nameWithType: Unit.AddState
+  fullName: Unit.AddState
+- uid: Global.State
+  commentId: T:Global.State
+  href: State.html
+  name: State
+  nameWithType: State
+  fullName: State
+- uid: Global.Unit.RemoveState*
+  commentId: Overload:Global.Unit.RemoveState
+  href: Global.Unit.html#Unit_RemoveState_State_
+  name: RemoveState
+  nameWithType: Unit.RemoveState
+  fullName: Unit.RemoveState
+- uid: Global.Unit.PhysicalShield*
+  commentId: Overload:Global.Unit.PhysicalShield
+  href: Global.Unit.html#Unit_PhysicalShield
+  name: PhysicalShield
+  nameWithType: Unit.PhysicalShield
+  fullName: Unit.PhysicalShield
+- uid: Global.Unit.EnergyShield*
+  commentId: Overload:Global.Unit.EnergyShield
+  href: Global.Unit.html#Unit_EnergyShield
+  name: EnergyShield
+  nameWithType: Unit.EnergyShield
+  fullName: Unit.EnergyShield
+- uid: Global.Unit.UniversalShield*
+  commentId: Overload:Global.Unit.UniversalShield
+  href: Global.Unit.html#Unit_UniversalShield
+  name: UniversalShield
+  nameWithType: Unit.UniversalShield
+  fullName: Unit.UniversalShield

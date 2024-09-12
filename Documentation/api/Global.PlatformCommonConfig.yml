@@ -1,0 +1,341 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.PlatformCommonConfig
+  commentId: T:Global.PlatformCommonConfig
+  id: PlatformCommonConfig
+  parent: Global
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: PlatformCommonConfig
+  nameWithType: PlatformCommonConfig
+  fullName: PlatformCommonConfig
+  type: Class
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/Config/PlatformCommonConfig.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: PlatformCommonConfig
+    path: ../Assets/YoJiaFrameWork/Scripts/Config/PlatformCommonConfig.cs
+    startLine: 4
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [CreateAssetMenu(fileName = "New PlatformCommonConfig", menuName = "YoJiaFrameWork配置/平台配置列表", order = 0)]
+
+      public class PlatformCommonConfig : BaseConfig<PlatformCommonConfigItem>
+    content.vb: >-
+      <CreateAssetMenu(fileName:="New PlatformCommonConfig", menuName:="YoJiaFrameWork配置/平台配置列表", order:=0)>
+
+      Public Class PlatformCommonConfig Inherits BaseConfig(Of PlatformCommonConfigItem)
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.ScriptableObject
+  - Global.BaseConfig{PlatformCommonConfigItem}
+  inheritedMembers:
+  - Global.BaseConfig{PlatformCommonConfigItem}.version
+  - Global.BaseConfig{PlatformCommonConfigItem}.enableConsole
+  - Global.BaseConfig{PlatformCommonConfigItem}.dataList
+  - Global.BaseConfig{PlatformCommonConfigItem}.Item(System.Int32)
+  - Global.BaseConfig{PlatformCommonConfigItem}.Item(System.String)
+  - Global.BaseConfig{PlatformCommonConfigItem}.DataCount
+  attributes:
+  - type: UnityEngine.CreateAssetMenuAttribute
+    ctor: UnityEngine.CreateAssetMenuAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: fileName
+      type: System.String
+      value: New PlatformCommonConfig
+    - name: menuName
+      type: System.String
+      value: YoJiaFrameWork配置/平台配置列表
+    - name: order
+      type: System.Int32
+      value: 0
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.ScriptableObject
+  commentId: T:UnityEngine.ScriptableObject
+  parent: UnityEngine
+  isExternal: true
+  name: ScriptableObject
+  nameWithType: ScriptableObject
+  fullName: UnityEngine.ScriptableObject
+- uid: Global.BaseConfig{PlatformCommonConfigItem}
+  commentId: T:Global.BaseConfig{PlatformCommonConfigItem}
+  definition: Global.BaseConfig`1
+  href: BaseConfig-1.html
+  name: BaseConfig<PlatformCommonConfigItem>
+  nameWithType: BaseConfig<PlatformCommonConfigItem>
+  fullName: BaseConfig<PlatformCommonConfigItem>
+  nameWithType.vb: BaseConfig(Of PlatformCommonConfigItem)
+  fullName.vb: BaseConfig(Of PlatformCommonConfigItem)
+  name.vb: BaseConfig(Of PlatformCommonConfigItem)
+  spec.csharp:
+  - uid: Global.BaseConfig`1
+    name: BaseConfig
+    href: BaseConfig-1.html
+  - name: <
+  - uid: Global.PlatformCommonConfigItem
+    name: PlatformCommonConfigItem
+    href: PlatformCommonConfigItem.html
+  - name: '>'
+  spec.vb:
+  - uid: Global.BaseConfig`1
+    name: BaseConfig
+    href: BaseConfig-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.PlatformCommonConfigItem
+    name: PlatformCommonConfigItem
+    href: PlatformCommonConfigItem.html
+  - name: )
+- uid: Global.BaseConfig{PlatformCommonConfigItem}.version
+  commentId: F:Global.BaseConfig{PlatformCommonConfigItem}.version
+  parent: Global.BaseConfig{PlatformCommonConfigItem}
+  definition: Global.BaseConfig`1.version
+  href: Global.BaseConfig-1.html#BaseConfig_1_version
+  name: version
+  nameWithType: BaseConfig<PlatformCommonConfigItem>.version
+  fullName: BaseConfig<PlatformCommonConfigItem>.version
+  nameWithType.vb: BaseConfig(Of PlatformCommonConfigItem).version
+  fullName.vb: BaseConfig(Of PlatformCommonConfigItem).version
+- uid: Global.BaseConfig{PlatformCommonConfigItem}.enableConsole
+  commentId: F:Global.BaseConfig{PlatformCommonConfigItem}.enableConsole
+  parent: Global.BaseConfig{PlatformCommonConfigItem}
+  definition: Global.BaseConfig`1.enableConsole
+  href: Global.BaseConfig-1.html#BaseConfig_1_enableConsole
+  name: enableConsole
+  nameWithType: BaseConfig<PlatformCommonConfigItem>.enableConsole
+  fullName: BaseConfig<PlatformCommonConfigItem>.enableConsole
+  nameWithType.vb: BaseConfig(Of PlatformCommonConfigItem).enableConsole
+  fullName.vb: BaseConfig(Of PlatformCommonConfigItem).enableConsole
+- uid: Global.BaseConfig{PlatformCommonConfigItem}.dataList
+  commentId: F:Global.BaseConfig{PlatformCommonConfigItem}.dataList
+  parent: Global.BaseConfig{PlatformCommonConfigItem}
+  definition: Global.BaseConfig`1.dataList
+  href: Global.BaseConfig-1.html#BaseConfig_1_dataList
+  name: dataList
+  nameWithType: BaseConfig<PlatformCommonConfigItem>.dataList
+  fullName: BaseConfig<PlatformCommonConfigItem>.dataList
+  nameWithType.vb: BaseConfig(Of PlatformCommonConfigItem).dataList
+  fullName.vb: BaseConfig(Of PlatformCommonConfigItem).dataList
+- uid: Global.BaseConfig{PlatformCommonConfigItem}.Item(System.Int32)
+  commentId: P:Global.BaseConfig{PlatformCommonConfigItem}.Item(System.Int32)
+  parent: Global.BaseConfig{PlatformCommonConfigItem}
+  definition: Global.BaseConfig`1.Item(System.Int32)
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: this[int]
+  nameWithType: BaseConfig<PlatformCommonConfigItem>.this[int]
+  fullName: BaseConfig<PlatformCommonConfigItem>.this[int]
+  nameWithType.vb: BaseConfig(Of PlatformCommonConfigItem).this[](Integer)
+  fullName.vb: BaseConfig(Of PlatformCommonConfigItem).this[](Integer)
+  name.vb: this[](Integer)
+  spec.csharp:
+  - name: this
+  - name: '['
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ']'
+  spec.vb:
+  - uid: Global.BaseConfig{PlatformCommonConfigItem}.Item(System.Int32)
+    name: this[]
+    href: Global.BaseConfig-1.html#BaseConfig_1_Item_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Global.BaseConfig{PlatformCommonConfigItem}.Item(System.String)
+  commentId: P:Global.BaseConfig{PlatformCommonConfigItem}.Item(System.String)
+  parent: Global.BaseConfig{PlatformCommonConfigItem}
+  definition: Global.BaseConfig`1.Item(System.String)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: this[string]
+  nameWithType: BaseConfig<PlatformCommonConfigItem>.this[string]
+  fullName: BaseConfig<PlatformCommonConfigItem>.this[string]
+  nameWithType.vb: BaseConfig(Of PlatformCommonConfigItem).this[](String)
+  fullName.vb: BaseConfig(Of PlatformCommonConfigItem).this[](String)
+  name.vb: this[](String)
+  spec.csharp:
+  - name: this
+  - name: '['
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ']'
+  spec.vb:
+  - uid: Global.BaseConfig{PlatformCommonConfigItem}.Item(System.String)
+    name: this[]
+    href: Global.BaseConfig-1.html#BaseConfig_1_Item_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Global.BaseConfig{PlatformCommonConfigItem}.DataCount
+  commentId: P:Global.BaseConfig{PlatformCommonConfigItem}.DataCount
+  parent: Global.BaseConfig{PlatformCommonConfigItem}
+  definition: Global.BaseConfig`1.DataCount
+  href: Global.BaseConfig-1.html#BaseConfig_1_DataCount
+  name: DataCount
+  nameWithType: BaseConfig<PlatformCommonConfigItem>.DataCount
+  fullName: BaseConfig<PlatformCommonConfigItem>.DataCount
+  nameWithType.vb: BaseConfig(Of PlatformCommonConfigItem).DataCount
+  fullName.vb: BaseConfig(Of PlatformCommonConfigItem).DataCount
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Global.BaseConfig`1
+  commentId: T:Global.BaseConfig`1
+  href: BaseConfig-1.html
+  name: BaseConfig<T>
+  nameWithType: BaseConfig<T>
+  fullName: BaseConfig<T>
+  nameWithType.vb: BaseConfig(Of T)
+  fullName.vb: BaseConfig(Of T)
+  name.vb: BaseConfig(Of T)
+  spec.csharp:
+  - uid: Global.BaseConfig`1
+    name: BaseConfig
+    href: BaseConfig-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Global.BaseConfig`1
+    name: BaseConfig
+    href: BaseConfig-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Global.BaseConfig`1.version
+  commentId: F:Global.BaseConfig`1.version
+  href: Global.BaseConfig-1.html#BaseConfig_1_version
+  name: version
+  nameWithType: BaseConfig<T>.version
+  fullName: BaseConfig<T>.version
+  nameWithType.vb: BaseConfig(Of T).version
+  fullName.vb: BaseConfig(Of T).version
+- uid: Global.BaseConfig`1.enableConsole
+  commentId: F:Global.BaseConfig`1.enableConsole
+  href: Global.BaseConfig-1.html#BaseConfig_1_enableConsole
+  name: enableConsole
+  nameWithType: BaseConfig<T>.enableConsole
+  fullName: BaseConfig<T>.enableConsole
+  nameWithType.vb: BaseConfig(Of T).enableConsole
+  fullName.vb: BaseConfig(Of T).enableConsole
+- uid: Global.BaseConfig`1.dataList
+  commentId: F:Global.BaseConfig`1.dataList
+  href: Global.BaseConfig-1.html#BaseConfig_1_dataList
+  name: dataList
+  nameWithType: BaseConfig<T>.dataList
+  fullName: BaseConfig<T>.dataList
+  nameWithType.vb: BaseConfig(Of T).dataList
+  fullName.vb: BaseConfig(Of T).dataList
+- uid: Global.BaseConfig`1.Item(System.Int32)
+  commentId: P:Global.BaseConfig`1.Item(System.Int32)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: this[int]
+  nameWithType: BaseConfig<T>.this[int]
+  fullName: BaseConfig<T>.this[int]
+  nameWithType.vb: BaseConfig(Of T).this[](Integer)
+  fullName.vb: BaseConfig(Of T).this[](Integer)
+  name.vb: this[](Integer)
+  spec.csharp:
+  - name: this
+  - name: '['
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ']'
+  spec.vb:
+  - uid: Global.BaseConfig`1.Item(System.Int32)
+    name: this[]
+    href: Global.BaseConfig-1.html#BaseConfig_1_Item_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Global.BaseConfig`1.Item(System.String)
+  commentId: P:Global.BaseConfig`1.Item(System.String)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: this[string]
+  nameWithType: BaseConfig<T>.this[string]
+  fullName: BaseConfig<T>.this[string]
+  nameWithType.vb: BaseConfig(Of T).this[](String)
+  fullName.vb: BaseConfig(Of T).this[](String)
+  name.vb: this[](String)
+  spec.csharp:
+  - name: this
+  - name: '['
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ']'
+  spec.vb:
+  - uid: Global.BaseConfig`1.Item(System.String)
+    name: this[]
+    href: Global.BaseConfig-1.html#BaseConfig_1_Item_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Global.BaseConfig`1.DataCount
+  commentId: P:Global.BaseConfig`1.DataCount
+  href: Global.BaseConfig-1.html#BaseConfig_1_DataCount
+  name: DataCount
+  nameWithType: BaseConfig<T>.DataCount
+  fullName: BaseConfig<T>.DataCount
+  nameWithType.vb: BaseConfig(Of T).DataCount
+  fullName.vb: BaseConfig(Of T).DataCount

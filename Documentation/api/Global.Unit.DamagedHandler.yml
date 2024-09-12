@@ -1,0 +1,51 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Unit.DamagedHandler
+  commentId: T:Global.Unit.DamagedHandler
+  id: Unit.DamagedHandler
+  parent: Global
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: Unit.DamagedHandler
+  nameWithType: Unit.DamagedHandler
+  fullName: Unit.DamagedHandler
+  type: Delegate
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: DamagedHandler
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 42
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 受到伤害等事件用委托。
+  example: []
+  syntax:
+    content: public delegate void Unit.DamagedHandler(Unit attacker, DamageInfo damageInfo)
+    parameters:
+    - id: attacker
+      type: Global.Unit
+      description: 攻击者
+    - id: damageInfo
+      type: Global.DamageInfo
+      description: 伤害信息
+    content.vb: Public Delegate Sub Unit.DamagedHandler(attacker As Unit, damageInfo As DamageInfo)
+references:
+- uid: Global
+- uid: Global.Unit
+  commentId: T:Global.Unit
+  href: Unit.html
+  name: Unit
+  nameWithType: Unit
+  fullName: Unit
+- uid: Global.DamageInfo
+  commentId: T:Global.DamageInfo
+  href: DamageInfo.html
+  name: DamageInfo
+  nameWithType: DamageInfo
+  fullName: DamageInfo

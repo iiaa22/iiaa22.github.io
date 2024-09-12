@@ -1,0 +1,116 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.DamageInfo
+  commentId: T:Global.DamageInfo
+  id: DamageInfo
+  parent: Global
+  children:
+  - Global.DamageInfo.damage
+  - Global.DamageInfo.damageType
+  langs:
+  - csharp
+  - vb
+  name: DamageInfo
+  nameWithType: DamageInfo
+  fullName: DamageInfo
+  type: Struct
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: DamageInfo
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 673
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 伤害信息
+  example: []
+  syntax:
+    content: public struct DamageInfo
+    content.vb: Public Structure DamageInfo
+- uid: Global.DamageInfo.damageType
+  commentId: F:Global.DamageInfo.damageType
+  id: damageType
+  parent: Global.DamageInfo
+  langs:
+  - csharp
+  - vb
+  name: damageType
+  nameWithType: DamageInfo.damageType
+  fullName: DamageInfo.damageType
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: damageType
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 678
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 伤害类型
+  example: []
+  syntax:
+    content: public DamageType damageType
+    return:
+      type: Global.DamageType
+    content.vb: Public damageType As DamageType
+- uid: Global.DamageInfo.damage
+  commentId: F:Global.DamageInfo.damage
+  id: damage
+  parent: Global.DamageInfo
+  langs:
+  - csharp
+  - vb
+  name: damage
+  nameWithType: DamageInfo.damage
+  fullName: DamageInfo.damage
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Unit.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: damage
+    path: ../Assets/Scripts/UserData/Unit.cs
+    startLine: 682
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 伤害量
+  example: []
+  syntax:
+    content: public int damage
+    return:
+      type: System.Int32
+    content.vb: Public damage As Integer
+references:
+- uid: Global
+- uid: Global.DamageType
+  commentId: T:Global.DamageType
+  href: DamageType.html
+  name: DamageType
+  nameWithType: DamageType
+  fullName: DamageType
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System

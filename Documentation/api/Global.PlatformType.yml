@@ -1,0 +1,78 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.PlatformType
+  commentId: T:Global.PlatformType
+  id: PlatformType
+  parent: Global
+  children:
+  - Global.PlatformType.Default
+  langs:
+  - csharp
+  - vb
+  name: PlatformType
+  nameWithType: PlatformType
+  fullName: PlatformType
+  type: Enum
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/Utils/Enum.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: PlatformType
+    path: ../Assets/YoJiaFrameWork/Scripts/Utils/Enum.cs
+    startLine: 20
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 平台类型
+  example: []
+  syntax:
+    content: public enum PlatformType
+    content.vb: Public Enum PlatformType
+- uid: Global.PlatformType.Default
+  commentId: F:Global.PlatformType.Default
+  id: Default
+  parent: Global.PlatformType
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: PlatformType.Default
+  fullName: PlatformType.Default
+  type: Field
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/Utils/Enum.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: Default
+    path: ../Assets/YoJiaFrameWork/Scripts/Utils/Enum.cs
+    startLine: 22
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Tooltip("默认")]
+
+      Default = 0
+    return:
+      type: Global.PlatformType
+    content.vb: >-
+      <Tooltip("默认")>
+
+      Default = 0
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 默认
+references:
+- uid: Global
+- uid: Global.PlatformType
+  commentId: T:Global.PlatformType
+  href: PlatformType.html
+  name: PlatformType
+  nameWithType: PlatformType
+  fullName: PlatformType

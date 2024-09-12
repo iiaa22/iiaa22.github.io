@@ -1,0 +1,136 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.PlayerController
+  commentId: T:Global.PlayerController
+  id: PlayerController
+  parent: Global
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: PlayerController
+  nameWithType: PlayerController
+  fullName: PlayerController
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/Controller/PlayerController.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: PlayerController
+    path: ../Assets/Scripts/Controller/PlayerController.cs
+    startLine: 4
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: 'public class PlayerController : UnitController'
+    content.vb: Public Class PlayerController Inherits UnitController
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  - Global.UnitController
+  inheritedMembers:
+  - Global.UnitController.unitID
+  - Global.UnitController.attackEffect
+  - Global.UnitController.rb
+  - Global.UnitController.data
+  - Global.UnitController.movement
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: Global.UnitController
+  commentId: T:Global.UnitController
+  href: UnitController.html
+  name: UnitController
+  nameWithType: UnitController
+  fullName: UnitController
+- uid: Global.UnitController.unitID
+  commentId: F:Global.UnitController.unitID
+  parent: Global.UnitController
+  href: Global.UnitController.html#UnitController_unitID
+  name: unitID
+  nameWithType: UnitController.unitID
+  fullName: UnitController.unitID
+- uid: Global.UnitController.attackEffect
+  commentId: F:Global.UnitController.attackEffect
+  parent: Global.UnitController
+  href: Global.UnitController.html#UnitController_attackEffect
+  name: attackEffect
+  nameWithType: UnitController.attackEffect
+  fullName: UnitController.attackEffect
+- uid: Global.UnitController.rb
+  commentId: F:Global.UnitController.rb
+  parent: Global.UnitController
+  href: Global.UnitController.html#UnitController_rb
+  name: rb
+  nameWithType: UnitController.rb
+  fullName: UnitController.rb
+- uid: Global.UnitController.data
+  commentId: F:Global.UnitController.data
+  parent: Global.UnitController
+  href: Global.UnitController.html#UnitController_data
+  name: data
+  nameWithType: UnitController.data
+  fullName: UnitController.data
+- uid: Global.UnitController.movement
+  commentId: F:Global.UnitController.movement
+  parent: Global.UnitController
+  href: Global.UnitController.html#UnitController_movement
+  name: movement
+  nameWithType: UnitController.movement
+  fullName: UnitController.movement
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine

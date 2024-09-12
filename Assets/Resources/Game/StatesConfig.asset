@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5889491da52df424db09d0ceb026d8e4, type: 3}
+  m_Name: StatesConfig
+  m_EditorClassIdentifier: 
+  version: 100
+  enableConsole: 1
+  dataList:
+  - name: "0\u53F7\u72B6\u6001"
+    description: 
+    remark: 
+    defaultDuration: 0
+    defaultPhysicalShield: 0
+    defaultEnergyShield: 0
+    defaultUniversalShield: 0
+    hideInMenu: 0
+    onGained:
+      m_PersistentCalls:
+        m_Calls: []
+    onUpdate:
+      m_PersistentCalls:
+        m_Calls: []
+    onLost:
+      m_PersistentCalls:
+        m_Calls: []

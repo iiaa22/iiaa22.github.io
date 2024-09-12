@@ -1,0 +1,1169 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Player
+  commentId: T:Global.Player
+  id: Player
+  parent: Global
+  children:
+  - Global.Player.#ctor
+  - Global.Player.EquipUnit(Unit,System.Int32)
+  - Global.Player.EquippedCount
+  - Global.Player.GainUnit(Unit)
+  - Global.Player.GetEquippedUnit(System.Int32)
+  - Global.Player.GetInventoryUnit(System.Int32)
+  - Global.Player.InventoryCount
+  - Global.Player.LostUnit(Unit)
+  - Global.Player.UnequipUnit(System.Int32)
+  - Global.Player.UnequipUnit(Unit)
+  langs:
+  - csharp
+  - vb
+  name: Player
+  nameWithType: Player
+  fullName: Player
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Player.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: Player
+    path: ../Assets/Scripts/UserData/Player.cs
+    startLine: 5
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class Player : Unit
+    content.vb: >-
+      <Serializable>
+
+      Public Class Player Inherits Unit
+  inheritance:
+  - System.Object
+  - Global.BaseUserData
+  - Global.ObservableUserData{Unit}
+  - Global.Unit
+  inheritedMembers:
+  - Global.Unit.configID
+  - Global.Unit.OnAttacked
+  - Global.Unit.OnDamaged
+  - Global.Unit.OnDead
+  - Global.Unit.AddListener
+  - Global.Unit.BeforeSave
+  - Global.Unit.AfterLoad
+  - Global.Unit.Config
+  - Global.Unit.IsAttackDisabled
+  - Global.Unit.IsMoveDisabled
+  - Global.Unit.MaxHP
+  - Global.Unit.HP
+  - Global.Unit.Attack(Unit)
+  - Global.Unit.Damage(Unit,DamageInfo)
+  - Global.Unit.MaxToughness
+  - Global.Unit.Toughness
+  - Global.Unit.BasicATK
+  - Global.Unit.BonusATK
+  - Global.Unit.BonusATK_P
+  - Global.Unit.ATK
+  - Global.Unit.BasicDEF
+  - Global.Unit.BonusDEF
+  - Global.Unit.BonusDEF_P
+  - Global.Unit.DEF
+  - Global.Unit.BasicEDF
+  - Global.Unit.BonusEDF
+  - Global.Unit.BonusEDF_P
+  - Global.Unit.EDF
+  - Global.Unit.BasicSPD
+  - Global.Unit.BonusSPD
+  - Global.Unit.BonusSPD_P
+  - Global.Unit.SPD
+  - Global.Unit.BasicRES
+  - Global.Unit.BonusRES
+  - Global.Unit.RES
+  - Global.Unit.BasicERS
+  - Global.Unit.BonusERS
+  - Global.Unit.ERS
+  - Global.Unit.GetSkills
+  - Global.Unit.LearnSkill(Skill)
+  - Global.Unit.ForgetSkill(Skill)
+  - Global.Unit.GetStates
+  - Global.Unit.AddState(State)
+  - Global.Unit.RemoveState(State)
+  - Global.Unit.PhysicalShield
+  - Global.Unit.EnergyShield
+  - Global.Unit.UniversalShield
+  - Global.ObservableUserData{Unit}.OnDataChanged
+  - Global.ObservableUserData{Unit}.TriggerDataChanged(Unit)
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: Global.Player.#ctor
+  commentId: M:Global.Player.#ctor
+  id: '#ctor'
+  parent: Global.Player
+  langs:
+  - csharp
+  - vb
+  name: Player()
+  nameWithType: Player.Player()
+  fullName: Player.Player()
+  type: Constructor
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Player.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: .ctor
+    path: ../Assets/Scripts/UserData/Player.cs
+    startLine: 15
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public Player()
+    content.vb: Public Sub New()
+  overload: Global.Player.#ctor*
+  nameWithType.vb: Player.New()
+  fullName.vb: Player.New()
+  name.vb: New()
+- uid: Global.Player.GetEquippedUnit(System.Int32)
+  commentId: M:Global.Player.GetEquippedUnit(System.Int32)
+  id: GetEquippedUnit(System.Int32)
+  parent: Global.Player
+  langs:
+  - csharp
+  - vb
+  name: GetEquippedUnit(int)
+  nameWithType: Player.GetEquippedUnit(int)
+  fullName: Player.GetEquippedUnit(int)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Player.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: GetEquippedUnit
+    path: ../Assets/Scripts/UserData/Player.cs
+    startLine: 25
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 获得手持中的单位。
+  example: []
+  syntax:
+    content: public Unit GetEquippedUnit(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+      description: 手持位置
+    return:
+      type: Global.Unit
+      description: 单位
+    content.vb: Public Function GetEquippedUnit(index As Integer) As Unit
+  overload: Global.Player.GetEquippedUnit*
+  nameWithType.vb: Player.GetEquippedUnit(Integer)
+  fullName.vb: Player.GetEquippedUnit(Integer)
+  name.vb: GetEquippedUnit(Integer)
+- uid: Global.Player.GetInventoryUnit(System.Int32)
+  commentId: M:Global.Player.GetInventoryUnit(System.Int32)
+  id: GetInventoryUnit(System.Int32)
+  parent: Global.Player
+  langs:
+  - csharp
+  - vb
+  name: GetInventoryUnit(int)
+  nameWithType: Player.GetInventoryUnit(int)
+  fullName: Player.GetInventoryUnit(int)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Player.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: GetInventoryUnit
+    path: ../Assets/Scripts/UserData/Player.cs
+    startLine: 32
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 获得背包中的单位。
+  example: []
+  syntax:
+    content: public Unit GetInventoryUnit(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+      description: 背包位置
+    return:
+      type: Global.Unit
+      description: 单位
+    content.vb: Public Function GetInventoryUnit(index As Integer) As Unit
+  overload: Global.Player.GetInventoryUnit*
+  nameWithType.vb: Player.GetInventoryUnit(Integer)
+  fullName.vb: Player.GetInventoryUnit(Integer)
+  name.vb: GetInventoryUnit(Integer)
+- uid: Global.Player.EquipUnit(Unit,System.Int32)
+  commentId: M:Global.Player.EquipUnit(Unit,System.Int32)
+  id: EquipUnit(Unit,System.Int32)
+  parent: Global.Player
+  langs:
+  - csharp
+  - vb
+  name: EquipUnit(Unit, int)
+  nameWithType: Player.EquipUnit(Unit, int)
+  fullName: Player.EquipUnit(Unit, int)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Player.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: EquipUnit
+    path: ../Assets/Scripts/UserData/Player.cs
+    startLine: 39
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 装备单位。
+  example: []
+  syntax:
+    content: public void EquipUnit(Unit unit, int index)
+    parameters:
+    - id: unit
+      type: Global.Unit
+      description: 单位
+    - id: index
+      type: System.Int32
+      description: 手持位置
+    content.vb: Public Sub EquipUnit(unit As Unit, index As Integer)
+  overload: Global.Player.EquipUnit*
+  nameWithType.vb: Player.EquipUnit(Unit, Integer)
+  fullName.vb: Player.EquipUnit(Unit, Integer)
+  name.vb: EquipUnit(Unit, Integer)
+- uid: Global.Player.UnequipUnit(Unit)
+  commentId: M:Global.Player.UnequipUnit(Unit)
+  id: UnequipUnit(Unit)
+  parent: Global.Player
+  langs:
+  - csharp
+  - vb
+  name: UnequipUnit(Unit)
+  nameWithType: Player.UnequipUnit(Unit)
+  fullName: Player.UnequipUnit(Unit)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Player.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: UnequipUnit
+    path: ../Assets/Scripts/UserData/Player.cs
+    startLine: 55
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 卸载单位。
+  example: []
+  syntax:
+    content: public void UnequipUnit(Unit unit)
+    parameters:
+    - id: unit
+      type: Global.Unit
+      description: 单位
+    content.vb: Public Sub UnequipUnit(unit As Unit)
+  overload: Global.Player.UnequipUnit*
+- uid: Global.Player.UnequipUnit(System.Int32)
+  commentId: M:Global.Player.UnequipUnit(System.Int32)
+  id: UnequipUnit(System.Int32)
+  parent: Global.Player
+  langs:
+  - csharp
+  - vb
+  name: UnequipUnit(int)
+  nameWithType: Player.UnequipUnit(int)
+  fullName: Player.UnequipUnit(int)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Player.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: UnequipUnit
+    path: ../Assets/Scripts/UserData/Player.cs
+    startLine: 69
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 卸载单位。
+  example: []
+  syntax:
+    content: public void UnequipUnit(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+      description: 手持位置
+    content.vb: Public Sub UnequipUnit(index As Integer)
+  overload: Global.Player.UnequipUnit*
+  nameWithType.vb: Player.UnequipUnit(Integer)
+  fullName.vb: Player.UnequipUnit(Integer)
+  name.vb: UnequipUnit(Integer)
+- uid: Global.Player.GainUnit(Unit)
+  commentId: M:Global.Player.GainUnit(Unit)
+  id: GainUnit(Unit)
+  parent: Global.Player
+  langs:
+  - csharp
+  - vb
+  name: GainUnit(Unit)
+  nameWithType: Player.GainUnit(Unit)
+  fullName: Player.GainUnit(Unit)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Player.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: GainUnit
+    path: ../Assets/Scripts/UserData/Player.cs
+    startLine: 83
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 将单位添加到背包。
+  example: []
+  syntax:
+    content: public void GainUnit(Unit unit)
+    parameters:
+    - id: unit
+      type: Global.Unit
+      description: 单位
+    content.vb: Public Sub GainUnit(unit As Unit)
+  overload: Global.Player.GainUnit*
+- uid: Global.Player.LostUnit(Unit)
+  commentId: M:Global.Player.LostUnit(Unit)
+  id: LostUnit(Unit)
+  parent: Global.Player
+  langs:
+  - csharp
+  - vb
+  name: LostUnit(Unit)
+  nameWithType: Player.LostUnit(Unit)
+  fullName: Player.LostUnit(Unit)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Player.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: LostUnit
+    path: ../Assets/Scripts/UserData/Player.cs
+    startLine: 97
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 将单位移除背包。
+  example: []
+  syntax:
+    content: public void LostUnit(Unit unit)
+    parameters:
+    - id: unit
+      type: Global.Unit
+      description: 单位
+    content.vb: Public Sub LostUnit(unit As Unit)
+  overload: Global.Player.LostUnit*
+- uid: Global.Player.EquippedCount
+  commentId: P:Global.Player.EquippedCount
+  id: EquippedCount
+  parent: Global.Player
+  langs:
+  - csharp
+  - vb
+  name: EquippedCount
+  nameWithType: Player.EquippedCount
+  fullName: Player.EquippedCount
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Player.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: EquippedCount
+    path: ../Assets/Scripts/UserData/Player.cs
+    startLine: 105
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 手持中的单位数量。
+  example: []
+  syntax:
+    content: public int EquippedCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property EquippedCount As Integer
+  overload: Global.Player.EquippedCount*
+- uid: Global.Player.InventoryCount
+  commentId: P:Global.Player.InventoryCount
+  id: InventoryCount
+  parent: Global.Player
+  langs:
+  - csharp
+  - vb
+  name: InventoryCount
+  nameWithType: Player.InventoryCount
+  fullName: Player.InventoryCount
+  type: Property
+  source:
+    remote:
+      path: Assets/Scripts/UserData/Player.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: InventoryCount
+    path: ../Assets/Scripts/UserData/Player.cs
+    startLine: 110
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 背包中的单位数量。
+  example: []
+  syntax:
+    content: public int InventoryCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property InventoryCount As Integer
+  overload: Global.Player.InventoryCount*
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Global.BaseUserData
+  commentId: T:Global.BaseUserData
+  href: BaseUserData.html
+  name: BaseUserData
+  nameWithType: BaseUserData
+  fullName: BaseUserData
+- uid: Global.ObservableUserData{Unit}
+  commentId: T:Global.ObservableUserData{Unit}
+  definition: Global.ObservableUserData`1
+  href: ObservableUserData-1.html
+  name: ObservableUserData<Unit>
+  nameWithType: ObservableUserData<Unit>
+  fullName: ObservableUserData<Unit>
+  nameWithType.vb: ObservableUserData(Of Unit)
+  fullName.vb: ObservableUserData(Of Unit)
+  name.vb: ObservableUserData(Of Unit)
+  spec.csharp:
+  - uid: Global.ObservableUserData`1
+    name: ObservableUserData
+    href: ObservableUserData-1.html
+  - name: <
+  - uid: Global.Unit
+    name: Unit
+    href: Unit.html
+  - name: '>'
+  spec.vb:
+  - uid: Global.ObservableUserData`1
+    name: ObservableUserData
+    href: ObservableUserData-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.Unit
+    name: Unit
+    href: Unit.html
+  - name: )
+- uid: Global.Unit
+  commentId: T:Global.Unit
+  href: Unit.html
+  name: Unit
+  nameWithType: Unit
+  fullName: Unit
+- uid: Global.Unit.configID
+  commentId: F:Global.Unit.configID
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_configID
+  name: configID
+  nameWithType: Unit.configID
+  fullName: Unit.configID
+- uid: Global.Unit.OnAttacked
+  commentId: E:Global.Unit.OnAttacked
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_OnAttacked
+  name: OnAttacked
+  nameWithType: Unit.OnAttacked
+  fullName: Unit.OnAttacked
+- uid: Global.Unit.OnDamaged
+  commentId: E:Global.Unit.OnDamaged
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_OnDamaged
+  name: OnDamaged
+  nameWithType: Unit.OnDamaged
+  fullName: Unit.OnDamaged
+- uid: Global.Unit.OnDead
+  commentId: E:Global.Unit.OnDead
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_OnDead
+  name: OnDead
+  nameWithType: Unit.OnDead
+  fullName: Unit.OnDead
+- uid: Global.Unit.AddListener
+  commentId: M:Global.Unit.AddListener
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_AddListener
+  name: AddListener()
+  nameWithType: Unit.AddListener()
+  fullName: Unit.AddListener()
+  spec.csharp:
+  - uid: Global.Unit.AddListener
+    name: AddListener
+    href: Global.Unit.html#Unit_AddListener
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Global.Unit.AddListener
+    name: AddListener
+    href: Global.Unit.html#Unit_AddListener
+  - name: (
+  - name: )
+- uid: Global.Unit.BeforeSave
+  commentId: M:Global.Unit.BeforeSave
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_BeforeSave
+  name: BeforeSave()
+  nameWithType: Unit.BeforeSave()
+  fullName: Unit.BeforeSave()
+  spec.csharp:
+  - uid: Global.Unit.BeforeSave
+    name: BeforeSave
+    href: Global.Unit.html#Unit_BeforeSave
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Global.Unit.BeforeSave
+    name: BeforeSave
+    href: Global.Unit.html#Unit_BeforeSave
+  - name: (
+  - name: )
+- uid: Global.Unit.AfterLoad
+  commentId: M:Global.Unit.AfterLoad
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_AfterLoad
+  name: AfterLoad()
+  nameWithType: Unit.AfterLoad()
+  fullName: Unit.AfterLoad()
+  spec.csharp:
+  - uid: Global.Unit.AfterLoad
+    name: AfterLoad
+    href: Global.Unit.html#Unit_AfterLoad
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Global.Unit.AfterLoad
+    name: AfterLoad
+    href: Global.Unit.html#Unit_AfterLoad
+  - name: (
+  - name: )
+- uid: Global.Unit.Config
+  commentId: P:Global.Unit.Config
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_Config
+  name: Config
+  nameWithType: Unit.Config
+  fullName: Unit.Config
+- uid: Global.Unit.IsAttackDisabled
+  commentId: P:Global.Unit.IsAttackDisabled
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_IsAttackDisabled
+  name: IsAttackDisabled
+  nameWithType: Unit.IsAttackDisabled
+  fullName: Unit.IsAttackDisabled
+- uid: Global.Unit.IsMoveDisabled
+  commentId: P:Global.Unit.IsMoveDisabled
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_IsMoveDisabled
+  name: IsMoveDisabled
+  nameWithType: Unit.IsMoveDisabled
+  fullName: Unit.IsMoveDisabled
+- uid: Global.Unit.MaxHP
+  commentId: P:Global.Unit.MaxHP
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_MaxHP
+  name: MaxHP
+  nameWithType: Unit.MaxHP
+  fullName: Unit.MaxHP
+- uid: Global.Unit.HP
+  commentId: P:Global.Unit.HP
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_HP
+  name: HP
+  nameWithType: Unit.HP
+  fullName: Unit.HP
+- uid: Global.Unit.Attack(Unit)
+  commentId: M:Global.Unit.Attack(Unit)
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_Attack_Unit_
+  name: Attack(Unit)
+  nameWithType: Unit.Attack(Unit)
+  fullName: Unit.Attack(Unit)
+  spec.csharp:
+  - uid: Global.Unit.Attack(Unit)
+    name: Attack
+    href: Global.Unit.html#Unit_Attack_Unit_
+  - name: (
+  - uid: Global.Unit
+    name: Unit
+    href: Unit.html
+  - name: )
+  spec.vb:
+  - uid: Global.Unit.Attack(Unit)
+    name: Attack
+    href: Global.Unit.html#Unit_Attack_Unit_
+  - name: (
+  - uid: Global.Unit
+    name: Unit
+    href: Unit.html
+  - name: )
+- uid: Global.Unit.Damage(Unit,DamageInfo)
+  commentId: M:Global.Unit.Damage(Unit,DamageInfo)
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_Damage_Unit_DamageInfo_
+  name: Damage(Unit, DamageInfo)
+  nameWithType: Unit.Damage(Unit, DamageInfo)
+  fullName: Unit.Damage(Unit, DamageInfo)
+  spec.csharp:
+  - uid: Global.Unit.Damage(Unit,DamageInfo)
+    name: Damage
+    href: Global.Unit.html#Unit_Damage_Unit_DamageInfo_
+  - name: (
+  - uid: Global.Unit
+    name: Unit
+    href: Unit.html
+  - name: ','
+  - name: " "
+  - uid: Global.DamageInfo
+    name: DamageInfo
+    href: DamageInfo.html
+  - name: )
+  spec.vb:
+  - uid: Global.Unit.Damage(Unit,DamageInfo)
+    name: Damage
+    href: Global.Unit.html#Unit_Damage_Unit_DamageInfo_
+  - name: (
+  - uid: Global.Unit
+    name: Unit
+    href: Unit.html
+  - name: ','
+  - name: " "
+  - uid: Global.DamageInfo
+    name: DamageInfo
+    href: DamageInfo.html
+  - name: )
+- uid: Global.Unit.MaxToughness
+  commentId: P:Global.Unit.MaxToughness
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_MaxToughness
+  name: MaxToughness
+  nameWithType: Unit.MaxToughness
+  fullName: Unit.MaxToughness
+- uid: Global.Unit.Toughness
+  commentId: P:Global.Unit.Toughness
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_Toughness
+  name: Toughness
+  nameWithType: Unit.Toughness
+  fullName: Unit.Toughness
+- uid: Global.Unit.BasicATK
+  commentId: P:Global.Unit.BasicATK
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_BasicATK
+  name: BasicATK
+  nameWithType: Unit.BasicATK
+  fullName: Unit.BasicATK
+- uid: Global.Unit.BonusATK
+  commentId: P:Global.Unit.BonusATK
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_BonusATK
+  name: BonusATK
+  nameWithType: Unit.BonusATK
+  fullName: Unit.BonusATK
+- uid: Global.Unit.BonusATK_P
+  commentId: P:Global.Unit.BonusATK_P
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_BonusATK_P
+  name: BonusATK_P
+  nameWithType: Unit.BonusATK_P
+  fullName: Unit.BonusATK_P
+- uid: Global.Unit.ATK
+  commentId: P:Global.Unit.ATK
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_ATK
+  name: ATK
+  nameWithType: Unit.ATK
+  fullName: Unit.ATK
+- uid: Global.Unit.BasicDEF
+  commentId: P:Global.Unit.BasicDEF
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_BasicDEF
+  name: BasicDEF
+  nameWithType: Unit.BasicDEF
+  fullName: Unit.BasicDEF
+- uid: Global.Unit.BonusDEF
+  commentId: P:Global.Unit.BonusDEF
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_BonusDEF
+  name: BonusDEF
+  nameWithType: Unit.BonusDEF
+  fullName: Unit.BonusDEF
+- uid: Global.Unit.BonusDEF_P
+  commentId: P:Global.Unit.BonusDEF_P
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_BonusDEF_P
+  name: BonusDEF_P
+  nameWithType: Unit.BonusDEF_P
+  fullName: Unit.BonusDEF_P
+- uid: Global.Unit.DEF
+  commentId: P:Global.Unit.DEF
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_DEF
+  name: DEF
+  nameWithType: Unit.DEF
+  fullName: Unit.DEF
+- uid: Global.Unit.BasicEDF
+  commentId: P:Global.Unit.BasicEDF
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_BasicEDF
+  name: BasicEDF
+  nameWithType: Unit.BasicEDF
+  fullName: Unit.BasicEDF
+- uid: Global.Unit.BonusEDF
+  commentId: P:Global.Unit.BonusEDF
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_BonusEDF
+  name: BonusEDF
+  nameWithType: Unit.BonusEDF
+  fullName: Unit.BonusEDF
+- uid: Global.Unit.BonusEDF_P
+  commentId: P:Global.Unit.BonusEDF_P
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_BonusEDF_P
+  name: BonusEDF_P
+  nameWithType: Unit.BonusEDF_P
+  fullName: Unit.BonusEDF_P
+- uid: Global.Unit.EDF
+  commentId: P:Global.Unit.EDF
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_EDF
+  name: EDF
+  nameWithType: Unit.EDF
+  fullName: Unit.EDF
+- uid: Global.Unit.BasicSPD
+  commentId: P:Global.Unit.BasicSPD
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_BasicSPD
+  name: BasicSPD
+  nameWithType: Unit.BasicSPD
+  fullName: Unit.BasicSPD
+- uid: Global.Unit.BonusSPD
+  commentId: P:Global.Unit.BonusSPD
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_BonusSPD
+  name: BonusSPD
+  nameWithType: Unit.BonusSPD
+  fullName: Unit.BonusSPD
+- uid: Global.Unit.BonusSPD_P
+  commentId: P:Global.Unit.BonusSPD_P
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_BonusSPD_P
+  name: BonusSPD_P
+  nameWithType: Unit.BonusSPD_P
+  fullName: Unit.BonusSPD_P
+- uid: Global.Unit.SPD
+  commentId: P:Global.Unit.SPD
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_SPD
+  name: SPD
+  nameWithType: Unit.SPD
+  fullName: Unit.SPD
+- uid: Global.Unit.BasicRES
+  commentId: P:Global.Unit.BasicRES
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_BasicRES
+  name: BasicRES
+  nameWithType: Unit.BasicRES
+  fullName: Unit.BasicRES
+- uid: Global.Unit.BonusRES
+  commentId: P:Global.Unit.BonusRES
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_BonusRES
+  name: BonusRES
+  nameWithType: Unit.BonusRES
+  fullName: Unit.BonusRES
+- uid: Global.Unit.RES
+  commentId: P:Global.Unit.RES
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_RES
+  name: RES
+  nameWithType: Unit.RES
+  fullName: Unit.RES
+- uid: Global.Unit.BasicERS
+  commentId: P:Global.Unit.BasicERS
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_BasicERS
+  name: BasicERS
+  nameWithType: Unit.BasicERS
+  fullName: Unit.BasicERS
+- uid: Global.Unit.BonusERS
+  commentId: P:Global.Unit.BonusERS
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_BonusERS
+  name: BonusERS
+  nameWithType: Unit.BonusERS
+  fullName: Unit.BonusERS
+- uid: Global.Unit.ERS
+  commentId: P:Global.Unit.ERS
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_ERS
+  name: ERS
+  nameWithType: Unit.ERS
+  fullName: Unit.ERS
+- uid: Global.Unit.GetSkills
+  commentId: M:Global.Unit.GetSkills
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_GetSkills
+  name: GetSkills()
+  nameWithType: Unit.GetSkills()
+  fullName: Unit.GetSkills()
+  spec.csharp:
+  - uid: Global.Unit.GetSkills
+    name: GetSkills
+    href: Global.Unit.html#Unit_GetSkills
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Global.Unit.GetSkills
+    name: GetSkills
+    href: Global.Unit.html#Unit_GetSkills
+  - name: (
+  - name: )
+- uid: Global.Unit.LearnSkill(Skill)
+  commentId: M:Global.Unit.LearnSkill(Skill)
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_LearnSkill_Skill_
+  name: LearnSkill(Skill)
+  nameWithType: Unit.LearnSkill(Skill)
+  fullName: Unit.LearnSkill(Skill)
+  spec.csharp:
+  - uid: Global.Unit.LearnSkill(Skill)
+    name: LearnSkill
+    href: Global.Unit.html#Unit_LearnSkill_Skill_
+  - name: (
+  - uid: Global.Skill
+    name: Skill
+    href: Skill.html
+  - name: )
+  spec.vb:
+  - uid: Global.Unit.LearnSkill(Skill)
+    name: LearnSkill
+    href: Global.Unit.html#Unit_LearnSkill_Skill_
+  - name: (
+  - uid: Global.Skill
+    name: Skill
+    href: Skill.html
+  - name: )
+- uid: Global.Unit.ForgetSkill(Skill)
+  commentId: M:Global.Unit.ForgetSkill(Skill)
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_ForgetSkill_Skill_
+  name: ForgetSkill(Skill)
+  nameWithType: Unit.ForgetSkill(Skill)
+  fullName: Unit.ForgetSkill(Skill)
+  spec.csharp:
+  - uid: Global.Unit.ForgetSkill(Skill)
+    name: ForgetSkill
+    href: Global.Unit.html#Unit_ForgetSkill_Skill_
+  - name: (
+  - uid: Global.Skill
+    name: Skill
+    href: Skill.html
+  - name: )
+  spec.vb:
+  - uid: Global.Unit.ForgetSkill(Skill)
+    name: ForgetSkill
+    href: Global.Unit.html#Unit_ForgetSkill_Skill_
+  - name: (
+  - uid: Global.Skill
+    name: Skill
+    href: Skill.html
+  - name: )
+- uid: Global.Unit.GetStates
+  commentId: M:Global.Unit.GetStates
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_GetStates
+  name: GetStates()
+  nameWithType: Unit.GetStates()
+  fullName: Unit.GetStates()
+  spec.csharp:
+  - uid: Global.Unit.GetStates
+    name: GetStates
+    href: Global.Unit.html#Unit_GetStates
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Global.Unit.GetStates
+    name: GetStates
+    href: Global.Unit.html#Unit_GetStates
+  - name: (
+  - name: )
+- uid: Global.Unit.AddState(State)
+  commentId: M:Global.Unit.AddState(State)
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_AddState_State_
+  name: AddState(State)
+  nameWithType: Unit.AddState(State)
+  fullName: Unit.AddState(State)
+  spec.csharp:
+  - uid: Global.Unit.AddState(State)
+    name: AddState
+    href: Global.Unit.html#Unit_AddState_State_
+  - name: (
+  - uid: Global.State
+    name: State
+    href: State.html
+  - name: )
+  spec.vb:
+  - uid: Global.Unit.AddState(State)
+    name: AddState
+    href: Global.Unit.html#Unit_AddState_State_
+  - name: (
+  - uid: Global.State
+    name: State
+    href: State.html
+  - name: )
+- uid: Global.Unit.RemoveState(State)
+  commentId: M:Global.Unit.RemoveState(State)
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_RemoveState_State_
+  name: RemoveState(State)
+  nameWithType: Unit.RemoveState(State)
+  fullName: Unit.RemoveState(State)
+  spec.csharp:
+  - uid: Global.Unit.RemoveState(State)
+    name: RemoveState
+    href: Global.Unit.html#Unit_RemoveState_State_
+  - name: (
+  - uid: Global.State
+    name: State
+    href: State.html
+  - name: )
+  spec.vb:
+  - uid: Global.Unit.RemoveState(State)
+    name: RemoveState
+    href: Global.Unit.html#Unit_RemoveState_State_
+  - name: (
+  - uid: Global.State
+    name: State
+    href: State.html
+  - name: )
+- uid: Global.Unit.PhysicalShield
+  commentId: P:Global.Unit.PhysicalShield
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_PhysicalShield
+  name: PhysicalShield
+  nameWithType: Unit.PhysicalShield
+  fullName: Unit.PhysicalShield
+- uid: Global.Unit.EnergyShield
+  commentId: P:Global.Unit.EnergyShield
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_EnergyShield
+  name: EnergyShield
+  nameWithType: Unit.EnergyShield
+  fullName: Unit.EnergyShield
+- uid: Global.Unit.UniversalShield
+  commentId: P:Global.Unit.UniversalShield
+  parent: Global.Unit
+  href: Global.Unit.html#Unit_UniversalShield
+  name: UniversalShield
+  nameWithType: Unit.UniversalShield
+  fullName: Unit.UniversalShield
+- uid: Global.ObservableUserData{Unit}.OnDataChanged
+  commentId: E:Global.ObservableUserData{Unit}.OnDataChanged
+  parent: Global.ObservableUserData{Unit}
+  definition: Global.ObservableUserData`1.OnDataChanged
+  href: Global.ObservableUserData-1.html#ObservableUserData_1_OnDataChanged
+  name: OnDataChanged
+  nameWithType: ObservableUserData<Unit>.OnDataChanged
+  fullName: ObservableUserData<Unit>.OnDataChanged
+  nameWithType.vb: ObservableUserData(Of Unit).OnDataChanged
+  fullName.vb: ObservableUserData(Of Unit).OnDataChanged
+- uid: Global.ObservableUserData{Unit}.TriggerDataChanged(Unit)
+  commentId: M:Global.ObservableUserData{Unit}.TriggerDataChanged(Unit)
+  parent: Global.ObservableUserData{Unit}
+  definition: Global.ObservableUserData`1.TriggerDataChanged(`0)
+  href: Global.ObservableUserData-1.html#ObservableUserData_1_TriggerDataChanged__0_
+  name: TriggerDataChanged(Unit)
+  nameWithType: ObservableUserData<Unit>.TriggerDataChanged(Unit)
+  fullName: ObservableUserData<Unit>.TriggerDataChanged(Unit)
+  nameWithType.vb: ObservableUserData(Of Unit).TriggerDataChanged(Unit)
+  fullName.vb: ObservableUserData(Of Unit).TriggerDataChanged(Unit)
+  spec.csharp:
+  - uid: Global.ObservableUserData{Unit}.TriggerDataChanged(Unit)
+    name: TriggerDataChanged
+    href: Global.ObservableUserData-1.html#ObservableUserData_1_TriggerDataChanged__0_
+  - name: (
+  - uid: Global.Unit
+    name: Unit
+    href: Unit.html
+  - name: )
+  spec.vb:
+  - uid: Global.ObservableUserData{Unit}.TriggerDataChanged(Unit)
+    name: TriggerDataChanged
+    href: Global.ObservableUserData-1.html#ObservableUserData_1_TriggerDataChanged__0_
+  - name: (
+  - uid: Global.Unit
+    name: Unit
+    href: Unit.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.ObservableUserData`1
+  commentId: T:Global.ObservableUserData`1
+  href: ObservableUserData-1.html
+  name: ObservableUserData<T>
+  nameWithType: ObservableUserData<T>
+  fullName: ObservableUserData<T>
+  nameWithType.vb: ObservableUserData(Of T)
+  fullName.vb: ObservableUserData(Of T)
+  name.vb: ObservableUserData(Of T)
+  spec.csharp:
+  - uid: Global.ObservableUserData`1
+    name: ObservableUserData
+    href: ObservableUserData-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Global.ObservableUserData`1
+    name: ObservableUserData
+    href: ObservableUserData-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Global.ObservableUserData`1.OnDataChanged
+  commentId: E:Global.ObservableUserData`1.OnDataChanged
+  href: Global.ObservableUserData-1.html#ObservableUserData_1_OnDataChanged
+  name: OnDataChanged
+  nameWithType: ObservableUserData<T>.OnDataChanged
+  fullName: ObservableUserData<T>.OnDataChanged
+  nameWithType.vb: ObservableUserData(Of T).OnDataChanged
+  fullName.vb: ObservableUserData(Of T).OnDataChanged
+- uid: Global.ObservableUserData`1.TriggerDataChanged(`0)
+  commentId: M:Global.ObservableUserData`1.TriggerDataChanged(`0)
+  href: Global.ObservableUserData-1.html#ObservableUserData_1_TriggerDataChanged__0_
+  name: TriggerDataChanged(T)
+  nameWithType: ObservableUserData<T>.TriggerDataChanged(T)
+  fullName: ObservableUserData<T>.TriggerDataChanged(T)
+  nameWithType.vb: ObservableUserData(Of T).TriggerDataChanged(T)
+  fullName.vb: ObservableUserData(Of T).TriggerDataChanged(T)
+  spec.csharp:
+  - uid: Global.ObservableUserData`1.TriggerDataChanged(`0)
+    name: TriggerDataChanged
+    href: Global.ObservableUserData-1.html#ObservableUserData_1_TriggerDataChanged__0_
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Global.ObservableUserData`1.TriggerDataChanged(`0)
+    name: TriggerDataChanged
+    href: Global.ObservableUserData-1.html#ObservableUserData_1_TriggerDataChanged__0_
+  - name: (
+  - name: T
+  - name: )
+- uid: Global.Player.#ctor*
+  commentId: Overload:Global.Player.#ctor
+  href: Global.Player.html#Player__ctor
+  name: Player
+  nameWithType: Player.Player
+  fullName: Player.Player
+  nameWithType.vb: Player.New
+  fullName.vb: Player.New
+  name.vb: New
+- uid: Global.Player.GetEquippedUnit*
+  commentId: Overload:Global.Player.GetEquippedUnit
+  href: Global.Player.html#Player_GetEquippedUnit_System_Int32_
+  name: GetEquippedUnit
+  nameWithType: Player.GetEquippedUnit
+  fullName: Player.GetEquippedUnit
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Global.Player.GetInventoryUnit*
+  commentId: Overload:Global.Player.GetInventoryUnit
+  href: Global.Player.html#Player_GetInventoryUnit_System_Int32_
+  name: GetInventoryUnit
+  nameWithType: Player.GetInventoryUnit
+  fullName: Player.GetInventoryUnit
+- uid: Global.Player.EquipUnit*
+  commentId: Overload:Global.Player.EquipUnit
+  href: Global.Player.html#Player_EquipUnit_Unit_System_Int32_
+  name: EquipUnit
+  nameWithType: Player.EquipUnit
+  fullName: Player.EquipUnit
+- uid: Global.Player.UnequipUnit*
+  commentId: Overload:Global.Player.UnequipUnit
+  href: Global.Player.html#Player_UnequipUnit_Unit_
+  name: UnequipUnit
+  nameWithType: Player.UnequipUnit
+  fullName: Player.UnequipUnit
+- uid: Global.Player.GainUnit*
+  commentId: Overload:Global.Player.GainUnit
+  href: Global.Player.html#Player_GainUnit_Unit_
+  name: GainUnit
+  nameWithType: Player.GainUnit
+  fullName: Player.GainUnit
+- uid: Global.Player.LostUnit*
+  commentId: Overload:Global.Player.LostUnit
+  href: Global.Player.html#Player_LostUnit_Unit_
+  name: LostUnit
+  nameWithType: Player.LostUnit
+  fullName: Player.LostUnit
+- uid: Global.Player.EquippedCount*
+  commentId: Overload:Global.Player.EquippedCount
+  href: Global.Player.html#Player_EquippedCount
+  name: EquippedCount
+  nameWithType: Player.EquippedCount
+  fullName: Player.EquippedCount
+- uid: Global.Player.InventoryCount*
+  commentId: Overload:Global.Player.InventoryCount
+  href: Global.Player.html#Player_InventoryCount
+  name: InventoryCount
+  nameWithType: Player.InventoryCount
+  fullName: Player.InventoryCount

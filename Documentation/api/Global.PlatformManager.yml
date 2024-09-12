@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.PlatformManager
+  commentId: T:Global.PlatformManager
+  id: PlatformManager
+  parent: Global
+  children:
+  - Global.PlatformManager.Current
+  - Global.PlatformManager.Init
+  langs:
+  - csharp
+  - vb
+  name: PlatformManager
+  nameWithType: PlatformManager
+  fullName: PlatformManager
+  type: Class
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/Manager/PlatformManager.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: PlatformManager
+    path: ../Assets/YoJiaFrameWork/Scripts/Manager/PlatformManager.cs
+    startLine: 7
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 平台管理器
+  example: []
+  syntax:
+    content: public class PlatformManager
+    content.vb: Public Class PlatformManager
+  inheritance:
+  - System.Object
+- uid: Global.PlatformManager.Current
+  commentId: P:Global.PlatformManager.Current
+  id: Current
+  parent: Global.PlatformManager
+  langs:
+  - csharp
+  - vb
+  name: Current
+  nameWithType: PlatformManager.Current
+  fullName: PlatformManager.Current
+  type: Property
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/Manager/PlatformManager.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: Current
+    path: ../Assets/YoJiaFrameWork/Scripts/Manager/PlatformManager.cs
+    startLine: 9
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public static PlatformType Current { get; }
+    parameters: []
+    return:
+      type: Global.PlatformType
+    content.vb: Public Shared Property Current As PlatformType
+  overload: Global.PlatformManager.Current*
+- uid: Global.PlatformManager.Init
+  commentId: M:Global.PlatformManager.Init
+  id: Init
+  parent: Global.PlatformManager
+  langs:
+  - csharp
+  - vb
+  name: Init()
+  nameWithType: PlatformManager.Init()
+  fullName: PlatformManager.Init()
+  type: Method
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/Manager/PlatformManager.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: Init
+    path: ../Assets/YoJiaFrameWork/Scripts/Manager/PlatformManager.cs
+    startLine: 14
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 初始化管理器。
+  example: []
+  syntax:
+    content: public static void Init()
+    content.vb: Public Shared Sub Init()
+  overload: Global.PlatformManager.Init*
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.PlatformManager.Current*
+  commentId: Overload:Global.PlatformManager.Current
+  href: Global.PlatformManager.html#PlatformManager_Current
+  name: Current
+  nameWithType: PlatformManager.Current
+  fullName: PlatformManager.Current
+- uid: Global.PlatformType
+  commentId: T:Global.PlatformType
+  href: PlatformType.html
+  name: PlatformType
+  nameWithType: PlatformType
+  fullName: PlatformType
+- uid: Global.PlatformManager.Init*
+  commentId: Overload:Global.PlatformManager.Init
+  href: Global.PlatformManager.html#PlatformManager_Init
+  name: Init
+  nameWithType: PlatformManager.Init
+  fullName: PlatformManager.Init

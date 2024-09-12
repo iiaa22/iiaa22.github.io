@@ -1,0 +1,238 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.LanguageConfigItem
+  commentId: T:Global.LanguageConfigItem
+  id: LanguageConfigItem
+  parent: Global
+  children:
+  - Global.LanguageConfigItem.texts
+  langs:
+  - csharp
+  - vb
+  name: LanguageConfigItem
+  nameWithType: LanguageConfigItem
+  fullName: LanguageConfigItem
+  type: Class
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/Config/LanguageConfig.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: LanguageConfigItem
+    path: ../Assets/YoJiaFrameWork/Scripts/Config/LanguageConfig.cs
+    startLine: 28
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class LanguageConfigItem : BaseConfigItem
+    content.vb: >-
+      <Serializable>
+
+      Public Class LanguageConfigItem Inherits BaseConfigItem
+  inheritance:
+  - System.Object
+  - Global.BaseConfigItem
+  inheritedMembers:
+  - Global.BaseConfigItem.name
+  - Global.BaseConfigItem.description
+  - Global.BaseConfigItem.remark
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: Global.LanguageConfigItem.texts
+  commentId: F:Global.LanguageConfigItem.texts
+  id: texts
+  parent: Global.LanguageConfigItem
+  langs:
+  - csharp
+  - vb
+  name: texts
+  nameWithType: LanguageConfigItem.texts
+  fullName: LanguageConfigItem.texts
+  type: Field
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/Config/LanguageConfig.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: texts
+    path: ../Assets/YoJiaFrameWork/Scripts/Config/LanguageConfig.cs
+    startLine: 39
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Tooltip("语言文本")]
+
+      public List<LanguageConfigItem.LanguageInfo> texts
+    return:
+      type: System.Collections.Generic.List{LanguageConfigItem.LanguageInfo}
+    content.vb: >-
+      <Tooltip("语言文本")>
+
+      Public texts As List(Of LanguageConfigItem.LanguageInfo)
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 语言文本
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Global.BaseConfigItem
+  commentId: T:Global.BaseConfigItem
+  href: BaseConfigItem.html
+  name: BaseConfigItem
+  nameWithType: BaseConfigItem
+  fullName: BaseConfigItem
+- uid: Global.BaseConfigItem.name
+  commentId: F:Global.BaseConfigItem.name
+  parent: Global.BaseConfigItem
+  href: Global.BaseConfigItem.html#BaseConfigItem_name
+  name: name
+  nameWithType: BaseConfigItem.name
+  fullName: BaseConfigItem.name
+- uid: Global.BaseConfigItem.description
+  commentId: F:Global.BaseConfigItem.description
+  parent: Global.BaseConfigItem
+  href: Global.BaseConfigItem.html#BaseConfigItem_description
+  name: description
+  nameWithType: BaseConfigItem.description
+  fullName: BaseConfigItem.description
+- uid: Global.BaseConfigItem.remark
+  commentId: F:Global.BaseConfigItem.remark
+  parent: Global.BaseConfigItem
+  href: Global.BaseConfigItem.html#BaseConfigItem_remark
+  name: remark
+  nameWithType: BaseConfigItem.remark
+  fullName: BaseConfigItem.remark
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.List{LanguageConfigItem.LanguageInfo}
+  commentId: T:System.Collections.Generic.List{LanguageConfigItem.LanguageInfo}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<LanguageConfigItem.LanguageInfo>
+  nameWithType: List<LanguageConfigItem.LanguageInfo>
+  fullName: System.Collections.Generic.List<LanguageConfigItem.LanguageInfo>
+  nameWithType.vb: List(Of LanguageConfigItem.LanguageInfo)
+  fullName.vb: System.Collections.Generic.List(Of LanguageConfigItem.LanguageInfo)
+  name.vb: List(Of LanguageConfigItem.LanguageInfo)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: Global.LanguageConfigItem
+    name: LanguageConfigItem
+    href: LanguageConfigItem.html
+  - name: .
+  - uid: Global.LanguageConfigItem.LanguageInfo
+    name: LanguageInfo
+    href: LanguageConfigItem.LanguageInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.LanguageConfigItem
+    name: LanguageConfigItem
+    href: LanguageConfigItem.html
+  - name: .
+  - uid: Global.LanguageConfigItem.LanguageInfo
+    name: LanguageInfo
+    href: LanguageConfigItem.LanguageInfo.html
+  - name: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

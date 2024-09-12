@@ -1,0 +1,135 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Utils
+  commentId: T:Global.Utils
+  id: Utils
+  parent: Global
+  children:
+  - Global.Utils.ToLocalizedString(System.String,System.String[])
+  langs:
+  - csharp
+  - vb
+  name: Utils
+  nameWithType: Utils
+  fullName: Utils
+  type: Class
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/Utils/Utils.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: Utils
+    path: ../Assets/YoJiaFrameWork/Scripts/Utils/Utils.cs
+    startLine: 7
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 工具类
+  example: []
+  syntax:
+    content: public static class Utils
+    content.vb: Public Module Utils
+  inheritance:
+  - System.Object
+- uid: Global.Utils.ToLocalizedString(System.String,System.String[])
+  commentId: M:Global.Utils.ToLocalizedString(System.String,System.String[])
+  id: ToLocalizedString(System.String,System.String[])
+  isExtensionMethod: true
+  parent: Global.Utils
+  langs:
+  - csharp
+  - vb
+  name: ToLocalizedString(string, params string[])
+  nameWithType: Utils.ToLocalizedString(string, params string[])
+  fullName: Utils.ToLocalizedString(string, params string[])
+  type: Method
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/Utils/Utils.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: ToLocalizedString
+    path: ../Assets/YoJiaFrameWork/Scripts/Utils/Utils.cs
+    startLine: 15
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 获得本地化文本。
+  example: []
+  syntax:
+    content: public static string ToLocalizedString(this string key, params string[] replace)
+    parameters:
+    - id: key
+      type: System.String
+      description: 文本key值
+    - id: replace
+      type: System.String[]
+      description: 替换字符串，按顺序会依次替换文本中的{0}、{1}……
+    return:
+      type: System.String
+      description: 目标文本
+    content.vb: Public Shared Function ToLocalizedString(key As String, ParamArray replace As String()) As String
+  overload: Global.Utils.ToLocalizedString*
+  nameWithType.vb: Utils.ToLocalizedString(String, ParamArray String())
+  fullName.vb: Utils.ToLocalizedString(String, ParamArray String())
+  name.vb: ToLocalizedString(String, ParamArray String())
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Utils.ToLocalizedString*
+  commentId: Overload:Global.Utils.ToLocalizedString
+  href: Global.Utils.html#Utils_ToLocalizedString_System_String_System_String___
+  name: ToLocalizedString
+  nameWithType: Utils.ToLocalizedString
+  fullName: Utils.ToLocalizedString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.String[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string[]
+  nameWithType: string[]
+  fullName: string[]
+  nameWithType.vb: String()
+  fullName.vb: String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )

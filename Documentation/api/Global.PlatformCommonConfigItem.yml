@@ -1,0 +1,280 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.PlatformCommonConfigItem
+  commentId: T:Global.PlatformCommonConfigItem
+  id: PlatformCommonConfigItem
+  parent: Global
+  children:
+  - Global.PlatformCommonConfigItem.appID
+  - Global.PlatformCommonConfigItem.appVersion
+  - Global.PlatformCommonConfigItem.debugMode
+  - Global.PlatformCommonConfigItem.defaultLanguage
+  langs:
+  - csharp
+  - vb
+  name: PlatformCommonConfigItem
+  nameWithType: PlatformCommonConfigItem
+  fullName: PlatformCommonConfigItem
+  type: Class
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/Config/PlatformCommonConfig.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: PlatformCommonConfigItem
+    path: ../Assets/YoJiaFrameWork/Scripts/Config/PlatformCommonConfig.cs
+    startLine: 28
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class PlatformCommonConfigItem : BaseConfigItem
+    content.vb: >-
+      <Serializable>
+
+      Public Class PlatformCommonConfigItem Inherits BaseConfigItem
+  inheritance:
+  - System.Object
+  - Global.BaseConfigItem
+  inheritedMembers:
+  - Global.BaseConfigItem.name
+  - Global.BaseConfigItem.description
+  - Global.BaseConfigItem.remark
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: Global.PlatformCommonConfigItem.appID
+  commentId: F:Global.PlatformCommonConfigItem.appID
+  id: appID
+  parent: Global.PlatformCommonConfigItem
+  langs:
+  - csharp
+  - vb
+  name: appID
+  nameWithType: PlatformCommonConfigItem.appID
+  fullName: PlatformCommonConfigItem.appID
+  type: Field
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/Config/PlatformCommonConfig.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: appID
+    path: ../Assets/YoJiaFrameWork/Scripts/Config/PlatformCommonConfig.cs
+    startLine: 32
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Tooltip("游戏ID")]
+
+      public string appID
+    return:
+      type: System.String
+    content.vb: >-
+      <Tooltip("游戏ID")>
+
+      Public appID As String
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 游戏ID
+- uid: Global.PlatformCommonConfigItem.appVersion
+  commentId: F:Global.PlatformCommonConfigItem.appVersion
+  id: appVersion
+  parent: Global.PlatformCommonConfigItem
+  langs:
+  - csharp
+  - vb
+  name: appVersion
+  nameWithType: PlatformCommonConfigItem.appVersion
+  fullName: PlatformCommonConfigItem.appVersion
+  type: Field
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/Config/PlatformCommonConfig.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: appVersion
+    path: ../Assets/YoJiaFrameWork/Scripts/Config/PlatformCommonConfig.cs
+    startLine: 34
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Tooltip("游戏版本")]
+
+      public string appVersion
+    return:
+      type: System.String
+    content.vb: >-
+      <Tooltip("游戏版本")>
+
+      Public appVersion As String
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 游戏版本
+- uid: Global.PlatformCommonConfigItem.defaultLanguage
+  commentId: F:Global.PlatformCommonConfigItem.defaultLanguage
+  id: defaultLanguage
+  parent: Global.PlatformCommonConfigItem
+  langs:
+  - csharp
+  - vb
+  name: defaultLanguage
+  nameWithType: PlatformCommonConfigItem.defaultLanguage
+  fullName: PlatformCommonConfigItem.defaultLanguage
+  type: Field
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/Config/PlatformCommonConfig.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: defaultLanguage
+    path: ../Assets/YoJiaFrameWork/Scripts/Config/PlatformCommonConfig.cs
+    startLine: 36
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Tooltip("默认语言")]
+
+      public LanguageType defaultLanguage
+    return:
+      type: Global.LanguageType
+    content.vb: >-
+      <Tooltip("默认语言")>
+
+      Public defaultLanguage As LanguageType
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 默认语言
+- uid: Global.PlatformCommonConfigItem.debugMode
+  commentId: F:Global.PlatformCommonConfigItem.debugMode
+  id: debugMode
+  parent: Global.PlatformCommonConfigItem
+  langs:
+  - csharp
+  - vb
+  name: debugMode
+  nameWithType: PlatformCommonConfigItem.debugMode
+  fullName: PlatformCommonConfigItem.debugMode
+  type: Field
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/Config/PlatformCommonConfig.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: debugMode
+    path: ../Assets/YoJiaFrameWork/Scripts/Config/PlatformCommonConfig.cs
+    startLine: 38
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: >-
+      [Tooltip("测试模式")]
+
+      public bool debugMode
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <Tooltip("测试模式")>
+
+      Public debugMode As Boolean
+  attributes:
+  - type: UnityEngine.TooltipAttribute
+    ctor: UnityEngine.TooltipAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: 测试模式
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Global.BaseConfigItem
+  commentId: T:Global.BaseConfigItem
+  href: BaseConfigItem.html
+  name: BaseConfigItem
+  nameWithType: BaseConfigItem
+  fullName: BaseConfigItem
+- uid: Global.BaseConfigItem.name
+  commentId: F:Global.BaseConfigItem.name
+  parent: Global.BaseConfigItem
+  href: Global.BaseConfigItem.html#BaseConfigItem_name
+  name: name
+  nameWithType: BaseConfigItem.name
+  fullName: BaseConfigItem.name
+- uid: Global.BaseConfigItem.description
+  commentId: F:Global.BaseConfigItem.description
+  parent: Global.BaseConfigItem
+  href: Global.BaseConfigItem.html#BaseConfigItem_description
+  name: description
+  nameWithType: BaseConfigItem.description
+  fullName: BaseConfigItem.description
+- uid: Global.BaseConfigItem.remark
+  commentId: F:Global.BaseConfigItem.remark
+  parent: Global.BaseConfigItem
+  href: Global.BaseConfigItem.html#BaseConfigItem_remark
+  name: remark
+  nameWithType: BaseConfigItem.remark
+  fullName: BaseConfigItem.remark
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: Global.LanguageType
+  commentId: T:Global.LanguageType
+  href: LanguageType.html
+  name: LanguageType
+  nameWithType: LanguageType
+  fullName: LanguageType
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean

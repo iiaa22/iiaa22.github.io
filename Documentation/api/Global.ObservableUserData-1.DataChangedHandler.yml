@@ -1,0 +1,49 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.ObservableUserData`1.DataChangedHandler
+  commentId: T:Global.ObservableUserData`1.DataChangedHandler
+  id: ObservableUserData`1.DataChangedHandler
+  parent: Global
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ObservableUserData<T>.DataChangedHandler
+  nameWithType: ObservableUserData<T>.DataChangedHandler
+  fullName: ObservableUserData<T>.DataChangedHandler
+  type: Delegate
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/Base/BaseUserData.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: DataChangedHandler
+    path: ../Assets/YoJiaFrameWork/Scripts/Base/BaseUserData.cs
+    startLine: 32
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 数据改变事件用委托
+  example: []
+  syntax:
+    content: public delegate void ObservableUserData<T>.DataChangedHandler(T userData)
+    parameters:
+    - id: userData
+      type: '{T}'
+      description: 被改变的数据
+    content.vb: Public Delegate Sub ObservableUserData(Of T).DataChangedHandler(userData As T)
+  nameWithType.vb: ObservableUserData(Of T).DataChangedHandler
+  fullName.vb: ObservableUserData(Of T).DataChangedHandler
+  name.vb: ObservableUserData(Of T).DataChangedHandler
+references:
+- uid: Global
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T

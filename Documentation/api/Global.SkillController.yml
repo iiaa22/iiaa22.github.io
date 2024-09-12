@@ -1,0 +1,138 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.SkillController
+  commentId: T:Global.SkillController
+  id: SkillController
+  parent: Global
+  children:
+  - Global.SkillController.OnSkill0Learnd(Unit,Skill)
+  langs:
+  - csharp
+  - vb
+  name: SkillController
+  nameWithType: SkillController
+  fullName: SkillController
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/Controller/SkillController.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: SkillController
+    path: ../Assets/Scripts/Controller/SkillController.cs
+    startLine: 4
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: 'public class SkillController : MonoBehaviour'
+    content.vb: Public Class SkillController Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+- uid: Global.SkillController.OnSkill0Learnd(Unit,Skill)
+  commentId: M:Global.SkillController.OnSkill0Learnd(Unit,Skill)
+  id: OnSkill0Learnd(Unit,Skill)
+  parent: Global.SkillController
+  langs:
+  - csharp
+  - vb
+  name: OnSkill0Learnd(Unit, Skill)
+  nameWithType: SkillController.OnSkill0Learnd(Unit, Skill)
+  fullName: SkillController.OnSkill0Learnd(Unit, Skill)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Controller/SkillController.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: OnSkill0Learnd
+    path: ../Assets/Scripts/Controller/SkillController.cs
+    startLine: 6
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public void OnSkill0Learnd(Unit unit, Skill skill)
+    parameters:
+    - id: unit
+      type: Global.Unit
+    - id: skill
+      type: Global.Skill
+    content.vb: Public Sub OnSkill0Learnd(unit As Unit, skill As Skill)
+  overload: Global.SkillController.OnSkill0Learnd*
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Global.SkillController.OnSkill0Learnd*
+  commentId: Overload:Global.SkillController.OnSkill0Learnd
+  href: Global.SkillController.html#SkillController_OnSkill0Learnd_Unit_Skill_
+  name: OnSkill0Learnd
+  nameWithType: SkillController.OnSkill0Learnd
+  fullName: SkillController.OnSkill0Learnd
+- uid: Global.Unit
+  commentId: T:Global.Unit
+  href: Unit.html
+  name: Unit
+  nameWithType: Unit
+  fullName: Unit
+- uid: Global.Skill
+  commentId: T:Global.Skill
+  href: Skill.html
+  name: Skill
+  nameWithType: Skill
+  fullName: Skill

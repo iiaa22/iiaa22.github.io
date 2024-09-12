@@ -1,0 +1,112 @@
+### YamlMime:TableOfContent
+items:
+- uid: Global
+  name: ''
+  items:
+  - uid: Global.AttackEffect
+    name: AttackEffect
+  - uid: Global.AttackType
+    name: AttackType
+  - uid: Global.BaseConfigItem
+    name: BaseConfigItem
+  - uid: Global.BaseConfig`1
+    name: BaseConfig<T>
+  - uid: Global.BaseSingleton`1
+    name: BaseSingleton<T>
+  - uid: Global.BaseUserData
+    name: BaseUserData
+  - uid: Global.BaseView
+    name: BaseView
+  - uid: Global.BaseWindow
+    name: BaseWindow
+  - uid: Global.ConfigManager
+    name: ConfigManager
+  - uid: Global.DamageInfo
+    name: DamageInfo
+  - uid: Global.DamageType
+    name: DamageType
+  - uid: Global.FactionType
+    name: FactionType
+  - uid: Global.FrameEntry
+    name: FrameEntry
+  - uid: Global.GameManager
+    name: GameManager
+  - uid: Global.GameView
+    name: GameView
+  - uid: Global.GlobalView
+    name: GlobalView
+  - uid: Global.LanguageConfig
+    name: LanguageConfig
+  - uid: Global.LanguageConfigItem
+    name: LanguageConfigItem
+  - uid: Global.LanguageConfigItem.LanguageInfo
+    name: LanguageConfigItem.LanguageInfo
+  - uid: Global.LanguageType
+    name: LanguageType
+  - uid: Global.LevelUpView
+    name: LevelUpView
+  - uid: Global.LoadingView
+    name: LoadingView
+  - uid: Global.MapController
+    name: MapController
+  - uid: Global.MoveType
+    name: MoveType
+  - uid: Global.ObservableUserData`1
+    name: ObservableUserData<T>
+  - uid: Global.ObservableUserData`1.DataChangedHandler
+    name: ObservableUserData<T>.DataChangedHandler
+  - uid: Global.PlatformCommonConfig
+    name: PlatformCommonConfig
+  - uid: Global.PlatformCommonConfigItem
+    name: PlatformCommonConfigItem
+  - uid: Global.PlatformManager
+    name: PlatformManager
+  - uid: Global.PlatformType
+    name: PlatformType
+  - uid: Global.PlayView
+    name: PlayView
+  - uid: Global.Player
+    name: Player
+  - uid: Global.PlayerController
+    name: PlayerController
+  - uid: Global.PopWindow
+    name: PopWindow
+  - uid: Global.RaceType
+    name: RaceType
+  - uid: Global.Skill
+    name: Skill
+  - uid: Global.SkillController
+    name: SkillController
+  - uid: Global.SkillsConfig
+    name: SkillsConfig
+  - uid: Global.SkillsConfigItem
+    name: SkillsConfigItem
+  - uid: Global.State
+    name: State
+  - uid: Global.StatesConfig
+    name: StatesConfig
+  - uid: Global.StatesConfigItem
+    name: StatesConfigItem
+  - uid: Global.SystemSettings
+    name: SystemSettings
+  - uid: Global.TitleView
+    name: TitleView
+  - uid: Global.Unit
+    name: Unit
+  - uid: Global.Unit.DamagedHandler
+    name: Unit.DamagedHandler
+  - uid: Global.UnitController
+    name: UnitController
+  - uid: Global.UnitType
+    name: UnitType
+  - uid: Global.UnitsConfig
+    name: UnitsConfig
+  - uid: Global.UnitsConfigItem
+    name: UnitsConfigItem
+  - uid: Global.UserDataManager
+    name: UserDataManager
+  - uid: Global.UserDataManager.UserDataInfo
+    name: UserDataManager.UserDataInfo
+  - uid: Global.Utils
+    name: Utils
+memberLayout: SamePage

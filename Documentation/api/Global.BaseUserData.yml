@@ -1,0 +1,127 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.BaseUserData
+  commentId: T:Global.BaseUserData
+  id: BaseUserData
+  parent: Global
+  children:
+  - Global.BaseUserData.AfterLoad
+  - Global.BaseUserData.BeforeSave
+  langs:
+  - csharp
+  - vb
+  name: BaseUserData
+  nameWithType: BaseUserData
+  fullName: BaseUserData
+  type: Class
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/Base/BaseUserData.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: BaseUserData
+    path: ../Assets/YoJiaFrameWork/Scripts/Base/BaseUserData.cs
+    startLine: 8
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: >-
+    处理用户数据的类。
+
+    本类为抽象类，具体数据由子类管理。
+  example: []
+  syntax:
+    content: public abstract class BaseUserData
+    content.vb: Public MustInherit Class BaseUserData
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Global.ObservableUserData`1
+- uid: Global.BaseUserData.BeforeSave
+  commentId: M:Global.BaseUserData.BeforeSave
+  id: BeforeSave
+  parent: Global.BaseUserData
+  langs:
+  - csharp
+  - vb
+  name: BeforeSave()
+  nameWithType: BaseUserData.BeforeSave()
+  fullName: BaseUserData.BeforeSave()
+  type: Method
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/Base/BaseUserData.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: BeforeSave
+    path: ../Assets/YoJiaFrameWork/Scripts/Base/BaseUserData.cs
+    startLine: 13
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 保存前触发的事件。
+  example: []
+  syntax:
+    content: public abstract void BeforeSave()
+    content.vb: Public MustOverride Sub BeforeSave()
+  overload: Global.BaseUserData.BeforeSave*
+- uid: Global.BaseUserData.AfterLoad
+  commentId: M:Global.BaseUserData.AfterLoad
+  id: AfterLoad
+  parent: Global.BaseUserData
+  langs:
+  - csharp
+  - vb
+  name: AfterLoad()
+  nameWithType: BaseUserData.AfterLoad()
+  fullName: BaseUserData.AfterLoad()
+  type: Method
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/Base/BaseUserData.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: AfterLoad
+    path: ../Assets/YoJiaFrameWork/Scripts/Base/BaseUserData.cs
+    startLine: 18
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 读取后触发的事件。
+  example: []
+  syntax:
+    content: public abstract void AfterLoad()
+    content.vb: Public MustOverride Sub AfterLoad()
+  overload: Global.BaseUserData.AfterLoad*
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.BaseUserData.BeforeSave*
+  commentId: Overload:Global.BaseUserData.BeforeSave
+  href: Global.BaseUserData.html#BaseUserData_BeforeSave
+  name: BeforeSave
+  nameWithType: BaseUserData.BeforeSave
+  fullName: BaseUserData.BeforeSave
+- uid: Global.BaseUserData.AfterLoad*
+  commentId: Overload:Global.BaseUserData.AfterLoad
+  href: Global.BaseUserData.html#BaseUserData_AfterLoad
+  name: AfterLoad
+  nameWithType: BaseUserData.AfterLoad
+  fullName: BaseUserData.AfterLoad

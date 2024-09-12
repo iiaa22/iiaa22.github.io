@@ -1,0 +1,815 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.SystemSettings
+  commentId: T:Global.SystemSettings
+  id: SystemSettings
+  parent: Global
+  children:
+  - Global.SystemSettings.#ctor
+  - Global.SystemSettings.AfterLoad
+  - Global.SystemSettings.AutoSave
+  - Global.SystemSettings.AutoSaveDuration
+  - Global.SystemSettings.AutoSaveSlotList
+  - Global.SystemSettings.BGMVolume
+  - Global.SystemSettings.BeforeSave
+  - Global.SystemSettings.Language
+  - Global.SystemSettings.LastAutoSaveSlot
+  - Global.SystemSettings.MaxAutoSaveCount
+  - Global.SystemSettings.SEVolume
+  - Global.SystemSettings.SaveSlotList
+  langs:
+  - csharp
+  - vb
+  name: SystemSettings
+  nameWithType: SystemSettings
+  fullName: SystemSettings
+  type: Class
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/UserData/SystemSettings.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: SystemSettings
+    path: ../Assets/YoJiaFrameWork/Scripts/UserData/SystemSettings.cs
+    startLine: 9
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 处理系统设置的类。
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class SystemSettings : ObservableUserData<SystemSettings>
+    content.vb: >-
+      <Serializable>
+
+      Public Class SystemSettings Inherits ObservableUserData(Of SystemSettings)
+  inheritance:
+  - System.Object
+  - Global.BaseUserData
+  - Global.ObservableUserData{SystemSettings}
+  inheritedMembers:
+  - Global.ObservableUserData{SystemSettings}.OnDataChanged
+  - Global.ObservableUserData{SystemSettings}.TriggerDataChanged(SystemSettings)
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: Global.SystemSettings.#ctor
+  commentId: M:Global.SystemSettings.#ctor
+  id: '#ctor'
+  parent: Global.SystemSettings
+  langs:
+  - csharp
+  - vb
+  name: SystemSettings()
+  nameWithType: SystemSettings.SystemSettings()
+  fullName: SystemSettings.SystemSettings()
+  type: Constructor
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/UserData/SystemSettings.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: .ctor
+    path: ../Assets/YoJiaFrameWork/Scripts/UserData/SystemSettings.cs
+    startLine: 33
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: public SystemSettings()
+    content.vb: Public Sub New()
+  overload: Global.SystemSettings.#ctor*
+  nameWithType.vb: SystemSettings.New()
+  fullName.vb: SystemSettings.New()
+  name.vb: New()
+- uid: Global.SystemSettings.BeforeSave
+  commentId: M:Global.SystemSettings.BeforeSave
+  id: BeforeSave
+  parent: Global.SystemSettings
+  langs:
+  - csharp
+  - vb
+  name: BeforeSave()
+  nameWithType: SystemSettings.BeforeSave()
+  fullName: SystemSettings.BeforeSave()
+  type: Method
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/UserData/SystemSettings.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: BeforeSave
+    path: ../Assets/YoJiaFrameWork/Scripts/UserData/SystemSettings.cs
+    startLine: 44
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 保存前触发的事件。
+  example: []
+  syntax:
+    content: public override void BeforeSave()
+    content.vb: Public Overrides Sub BeforeSave()
+  overridden: Global.BaseUserData.BeforeSave
+  overload: Global.SystemSettings.BeforeSave*
+- uid: Global.SystemSettings.AfterLoad
+  commentId: M:Global.SystemSettings.AfterLoad
+  id: AfterLoad
+  parent: Global.SystemSettings
+  langs:
+  - csharp
+  - vb
+  name: AfterLoad()
+  nameWithType: SystemSettings.AfterLoad()
+  fullName: SystemSettings.AfterLoad()
+  type: Method
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/UserData/SystemSettings.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: AfterLoad
+    path: ../Assets/YoJiaFrameWork/Scripts/UserData/SystemSettings.cs
+    startLine: 50
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 读取后触发的事件。
+  example: []
+  syntax:
+    content: public override void AfterLoad()
+    content.vb: Public Overrides Sub AfterLoad()
+  overridden: Global.BaseUserData.AfterLoad
+  overload: Global.SystemSettings.AfterLoad*
+- uid: Global.SystemSettings.BGMVolume
+  commentId: P:Global.SystemSettings.BGMVolume
+  id: BGMVolume
+  parent: Global.SystemSettings
+  langs:
+  - csharp
+  - vb
+  name: BGMVolume
+  nameWithType: SystemSettings.BGMVolume
+  fullName: SystemSettings.BGMVolume
+  type: Property
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/UserData/SystemSettings.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: BGMVolume
+    path: ../Assets/YoJiaFrameWork/Scripts/UserData/SystemSettings.cs
+    startLine: 60
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 背景音乐音量（0-100）
+  example: []
+  syntax:
+    content: public int BGMVolume { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property BGMVolume As Integer
+  overload: Global.SystemSettings.BGMVolume*
+- uid: Global.SystemSettings.SEVolume
+  commentId: P:Global.SystemSettings.SEVolume
+  id: SEVolume
+  parent: Global.SystemSettings
+  langs:
+  - csharp
+  - vb
+  name: SEVolume
+  nameWithType: SystemSettings.SEVolume
+  fullName: SystemSettings.SEVolume
+  type: Property
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/UserData/SystemSettings.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: SEVolume
+    path: ../Assets/YoJiaFrameWork/Scripts/UserData/SystemSettings.cs
+    startLine: 76
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 音效音量（0-100）
+  example: []
+  syntax:
+    content: public int SEVolume { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SEVolume As Integer
+  overload: Global.SystemSettings.SEVolume*
+- uid: Global.SystemSettings.Language
+  commentId: P:Global.SystemSettings.Language
+  id: Language
+  parent: Global.SystemSettings
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: SystemSettings.Language
+  fullName: SystemSettings.Language
+  type: Property
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/UserData/SystemSettings.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: Language
+    path: ../Assets/YoJiaFrameWork/Scripts/UserData/SystemSettings.cs
+    startLine: 92
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 语言
+  example: []
+  syntax:
+    content: public LanguageType Language { get; set; }
+    parameters: []
+    return:
+      type: Global.LanguageType
+    content.vb: Public Property Language As LanguageType
+  overload: Global.SystemSettings.Language*
+- uid: Global.SystemSettings.AutoSave
+  commentId: P:Global.SystemSettings.AutoSave
+  id: AutoSave
+  parent: Global.SystemSettings
+  langs:
+  - csharp
+  - vb
+  name: AutoSave
+  nameWithType: SystemSettings.AutoSave
+  fullName: SystemSettings.AutoSave
+  type: Property
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/UserData/SystemSettings.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: AutoSave
+    path: ../Assets/YoJiaFrameWork/Scripts/UserData/SystemSettings.cs
+    startLine: 108
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 自动存档开关
+  example: []
+  syntax:
+    content: public bool AutoSave { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property AutoSave As Boolean
+  overload: Global.SystemSettings.AutoSave*
+- uid: Global.SystemSettings.AutoSaveDuration
+  commentId: P:Global.SystemSettings.AutoSaveDuration
+  id: AutoSaveDuration
+  parent: Global.SystemSettings
+  langs:
+  - csharp
+  - vb
+  name: AutoSaveDuration
+  nameWithType: SystemSettings.AutoSaveDuration
+  fullName: SystemSettings.AutoSaveDuration
+  type: Property
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/UserData/SystemSettings.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: AutoSaveDuration
+    path: ../Assets/YoJiaFrameWork/Scripts/UserData/SystemSettings.cs
+    startLine: 124
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 自动存档间隔（秒）
+  example: []
+  syntax:
+    content: public int AutoSaveDuration { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property AutoSaveDuration As Integer
+  overload: Global.SystemSettings.AutoSaveDuration*
+- uid: Global.SystemSettings.MaxAutoSaveCount
+  commentId: P:Global.SystemSettings.MaxAutoSaveCount
+  id: MaxAutoSaveCount
+  parent: Global.SystemSettings
+  langs:
+  - csharp
+  - vb
+  name: MaxAutoSaveCount
+  nameWithType: SystemSettings.MaxAutoSaveCount
+  fullName: SystemSettings.MaxAutoSaveCount
+  type: Property
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/UserData/SystemSettings.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: MaxAutoSaveCount
+    path: ../Assets/YoJiaFrameWork/Scripts/UserData/SystemSettings.cs
+    startLine: 140
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 最大自动存档数量
+  example: []
+  syntax:
+    content: public int MaxAutoSaveCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property MaxAutoSaveCount As Integer
+  overload: Global.SystemSettings.MaxAutoSaveCount*
+- uid: Global.SystemSettings.LastAutoSaveSlot
+  commentId: P:Global.SystemSettings.LastAutoSaveSlot
+  id: LastAutoSaveSlot
+  parent: Global.SystemSettings
+  langs:
+  - csharp
+  - vb
+  name: LastAutoSaveSlot
+  nameWithType: SystemSettings.LastAutoSaveSlot
+  fullName: SystemSettings.LastAutoSaveSlot
+  type: Property
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/UserData/SystemSettings.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: LastAutoSaveSlot
+    path: ../Assets/YoJiaFrameWork/Scripts/UserData/SystemSettings.cs
+    startLine: 156
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 上一次自动存档的位置
+  example: []
+  syntax:
+    content: public int LastAutoSaveSlot { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property LastAutoSaveSlot As Integer
+  overload: Global.SystemSettings.LastAutoSaveSlot*
+- uid: Global.SystemSettings.SaveSlotList
+  commentId: P:Global.SystemSettings.SaveSlotList
+  id: SaveSlotList
+  parent: Global.SystemSettings
+  langs:
+  - csharp
+  - vb
+  name: SaveSlotList
+  nameWithType: SystemSettings.SaveSlotList
+  fullName: SystemSettings.SaveSlotList
+  type: Property
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/UserData/SystemSettings.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: SaveSlotList
+    path: ../Assets/YoJiaFrameWork/Scripts/UserData/SystemSettings.cs
+    startLine: 172
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 可用存档的存档位列表
+  example: []
+  syntax:
+    content: public ObservableCollection<int> SaveSlotList { get; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ObservableCollection{System.Int32}
+    content.vb: Public ReadOnly Property SaveSlotList As ObservableCollection(Of Integer)
+  overload: Global.SystemSettings.SaveSlotList*
+- uid: Global.SystemSettings.AutoSaveSlotList
+  commentId: P:Global.SystemSettings.AutoSaveSlotList
+  id: AutoSaveSlotList
+  parent: Global.SystemSettings
+  langs:
+  - csharp
+  - vb
+  name: AutoSaveSlotList
+  nameWithType: SystemSettings.AutoSaveSlotList
+  fullName: SystemSettings.AutoSaveSlotList
+  type: Property
+  source:
+    remote:
+      path: Assets/YoJiaFrameWork/Scripts/UserData/SystemSettings.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: AutoSaveSlotList
+    path: ../Assets/YoJiaFrameWork/Scripts/UserData/SystemSettings.cs
+    startLine: 177
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  summary: 可用自动存档的存档位列表
+  example: []
+  syntax:
+    content: public ObservableCollection<int> AutoSaveSlotList { get; }
+    parameters: []
+    return:
+      type: System.Collections.ObjectModel.ObservableCollection{System.Int32}
+    content.vb: Public ReadOnly Property AutoSaveSlotList As ObservableCollection(Of Integer)
+  overload: Global.SystemSettings.AutoSaveSlotList*
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Global.BaseUserData
+  commentId: T:Global.BaseUserData
+  href: BaseUserData.html
+  name: BaseUserData
+  nameWithType: BaseUserData
+  fullName: BaseUserData
+- uid: Global.ObservableUserData{SystemSettings}
+  commentId: T:Global.ObservableUserData{SystemSettings}
+  definition: Global.ObservableUserData`1
+  href: ObservableUserData-1.html
+  name: ObservableUserData<SystemSettings>
+  nameWithType: ObservableUserData<SystemSettings>
+  fullName: ObservableUserData<SystemSettings>
+  nameWithType.vb: ObservableUserData(Of SystemSettings)
+  fullName.vb: ObservableUserData(Of SystemSettings)
+  name.vb: ObservableUserData(Of SystemSettings)
+  spec.csharp:
+  - uid: Global.ObservableUserData`1
+    name: ObservableUserData
+    href: ObservableUserData-1.html
+  - name: <
+  - uid: Global.SystemSettings
+    name: SystemSettings
+    href: SystemSettings.html
+  - name: '>'
+  spec.vb:
+  - uid: Global.ObservableUserData`1
+    name: ObservableUserData
+    href: ObservableUserData-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Global.SystemSettings
+    name: SystemSettings
+    href: SystemSettings.html
+  - name: )
+- uid: Global.ObservableUserData{SystemSettings}.OnDataChanged
+  commentId: E:Global.ObservableUserData{SystemSettings}.OnDataChanged
+  parent: Global.ObservableUserData{SystemSettings}
+  definition: Global.ObservableUserData`1.OnDataChanged
+  href: Global.ObservableUserData-1.html#ObservableUserData_1_OnDataChanged
+  name: OnDataChanged
+  nameWithType: ObservableUserData<SystemSettings>.OnDataChanged
+  fullName: ObservableUserData<SystemSettings>.OnDataChanged
+  nameWithType.vb: ObservableUserData(Of SystemSettings).OnDataChanged
+  fullName.vb: ObservableUserData(Of SystemSettings).OnDataChanged
+- uid: Global.ObservableUserData{SystemSettings}.TriggerDataChanged(SystemSettings)
+  commentId: M:Global.ObservableUserData{SystemSettings}.TriggerDataChanged(SystemSettings)
+  parent: Global.ObservableUserData{SystemSettings}
+  definition: Global.ObservableUserData`1.TriggerDataChanged(`0)
+  href: Global.ObservableUserData-1.html#ObservableUserData_1_TriggerDataChanged__0_
+  name: TriggerDataChanged(SystemSettings)
+  nameWithType: ObservableUserData<SystemSettings>.TriggerDataChanged(SystemSettings)
+  fullName: ObservableUserData<SystemSettings>.TriggerDataChanged(SystemSettings)
+  nameWithType.vb: ObservableUserData(Of SystemSettings).TriggerDataChanged(SystemSettings)
+  fullName.vb: ObservableUserData(Of SystemSettings).TriggerDataChanged(SystemSettings)
+  spec.csharp:
+  - uid: Global.ObservableUserData{SystemSettings}.TriggerDataChanged(SystemSettings)
+    name: TriggerDataChanged
+    href: Global.ObservableUserData-1.html#ObservableUserData_1_TriggerDataChanged__0_
+  - name: (
+  - uid: Global.SystemSettings
+    name: SystemSettings
+    href: SystemSettings.html
+  - name: )
+  spec.vb:
+  - uid: Global.ObservableUserData{SystemSettings}.TriggerDataChanged(SystemSettings)
+    name: TriggerDataChanged
+    href: Global.ObservableUserData-1.html#ObservableUserData_1_TriggerDataChanged__0_
+  - name: (
+  - uid: Global.SystemSettings
+    name: SystemSettings
+    href: SystemSettings.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.ObservableUserData`1
+  commentId: T:Global.ObservableUserData`1
+  href: ObservableUserData-1.html
+  name: ObservableUserData<T>
+  nameWithType: ObservableUserData<T>
+  fullName: ObservableUserData<T>
+  nameWithType.vb: ObservableUserData(Of T)
+  fullName.vb: ObservableUserData(Of T)
+  name.vb: ObservableUserData(Of T)
+  spec.csharp:
+  - uid: Global.ObservableUserData`1
+    name: ObservableUserData
+    href: ObservableUserData-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Global.ObservableUserData`1
+    name: ObservableUserData
+    href: ObservableUserData-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: Global.ObservableUserData`1.OnDataChanged
+  commentId: E:Global.ObservableUserData`1.OnDataChanged
+  href: Global.ObservableUserData-1.html#ObservableUserData_1_OnDataChanged
+  name: OnDataChanged
+  nameWithType: ObservableUserData<T>.OnDataChanged
+  fullName: ObservableUserData<T>.OnDataChanged
+  nameWithType.vb: ObservableUserData(Of T).OnDataChanged
+  fullName.vb: ObservableUserData(Of T).OnDataChanged
+- uid: Global.ObservableUserData`1.TriggerDataChanged(`0)
+  commentId: M:Global.ObservableUserData`1.TriggerDataChanged(`0)
+  href: Global.ObservableUserData-1.html#ObservableUserData_1_TriggerDataChanged__0_
+  name: TriggerDataChanged(T)
+  nameWithType: ObservableUserData<T>.TriggerDataChanged(T)
+  fullName: ObservableUserData<T>.TriggerDataChanged(T)
+  nameWithType.vb: ObservableUserData(Of T).TriggerDataChanged(T)
+  fullName.vb: ObservableUserData(Of T).TriggerDataChanged(T)
+  spec.csharp:
+  - uid: Global.ObservableUserData`1.TriggerDataChanged(`0)
+    name: TriggerDataChanged
+    href: Global.ObservableUserData-1.html#ObservableUserData_1_TriggerDataChanged__0_
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Global.ObservableUserData`1.TriggerDataChanged(`0)
+    name: TriggerDataChanged
+    href: Global.ObservableUserData-1.html#ObservableUserData_1_TriggerDataChanged__0_
+  - name: (
+  - name: T
+  - name: )
+- uid: Global.SystemSettings.#ctor*
+  commentId: Overload:Global.SystemSettings.#ctor
+  href: Global.SystemSettings.html#SystemSettings__ctor
+  name: SystemSettings
+  nameWithType: SystemSettings.SystemSettings
+  fullName: SystemSettings.SystemSettings
+  nameWithType.vb: SystemSettings.New
+  fullName.vb: SystemSettings.New
+  name.vb: New
+- uid: Global.BaseUserData.BeforeSave
+  commentId: M:Global.BaseUserData.BeforeSave
+  parent: Global.BaseUserData
+  href: Global.BaseUserData.html#BaseUserData_BeforeSave
+  name: BeforeSave()
+  nameWithType: BaseUserData.BeforeSave()
+  fullName: BaseUserData.BeforeSave()
+  spec.csharp:
+  - uid: Global.BaseUserData.BeforeSave
+    name: BeforeSave
+    href: Global.BaseUserData.html#BaseUserData_BeforeSave
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Global.BaseUserData.BeforeSave
+    name: BeforeSave
+    href: Global.BaseUserData.html#BaseUserData_BeforeSave
+  - name: (
+  - name: )
+- uid: Global.SystemSettings.BeforeSave*
+  commentId: Overload:Global.SystemSettings.BeforeSave
+  href: Global.SystemSettings.html#SystemSettings_BeforeSave
+  name: BeforeSave
+  nameWithType: SystemSettings.BeforeSave
+  fullName: SystemSettings.BeforeSave
+- uid: Global.BaseUserData.AfterLoad
+  commentId: M:Global.BaseUserData.AfterLoad
+  parent: Global.BaseUserData
+  href: Global.BaseUserData.html#BaseUserData_AfterLoad
+  name: AfterLoad()
+  nameWithType: BaseUserData.AfterLoad()
+  fullName: BaseUserData.AfterLoad()
+  spec.csharp:
+  - uid: Global.BaseUserData.AfterLoad
+    name: AfterLoad
+    href: Global.BaseUserData.html#BaseUserData_AfterLoad
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Global.BaseUserData.AfterLoad
+    name: AfterLoad
+    href: Global.BaseUserData.html#BaseUserData_AfterLoad
+  - name: (
+  - name: )
+- uid: Global.SystemSettings.AfterLoad*
+  commentId: Overload:Global.SystemSettings.AfterLoad
+  href: Global.SystemSettings.html#SystemSettings_AfterLoad
+  name: AfterLoad
+  nameWithType: SystemSettings.AfterLoad
+  fullName: SystemSettings.AfterLoad
+- uid: Global.SystemSettings.BGMVolume*
+  commentId: Overload:Global.SystemSettings.BGMVolume
+  href: Global.SystemSettings.html#SystemSettings_BGMVolume
+  name: BGMVolume
+  nameWithType: SystemSettings.BGMVolume
+  fullName: SystemSettings.BGMVolume
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Global.SystemSettings.SEVolume*
+  commentId: Overload:Global.SystemSettings.SEVolume
+  href: Global.SystemSettings.html#SystemSettings_SEVolume
+  name: SEVolume
+  nameWithType: SystemSettings.SEVolume
+  fullName: SystemSettings.SEVolume
+- uid: Global.SystemSettings.Language*
+  commentId: Overload:Global.SystemSettings.Language
+  href: Global.SystemSettings.html#SystemSettings_Language
+  name: Language
+  nameWithType: SystemSettings.Language
+  fullName: SystemSettings.Language
+- uid: Global.LanguageType
+  commentId: T:Global.LanguageType
+  href: LanguageType.html
+  name: LanguageType
+  nameWithType: LanguageType
+  fullName: LanguageType
+- uid: Global.SystemSettings.AutoSave*
+  commentId: Overload:Global.SystemSettings.AutoSave
+  href: Global.SystemSettings.html#SystemSettings_AutoSave
+  name: AutoSave
+  nameWithType: SystemSettings.AutoSave
+  fullName: SystemSettings.AutoSave
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: Global.SystemSettings.AutoSaveDuration*
+  commentId: Overload:Global.SystemSettings.AutoSaveDuration
+  href: Global.SystemSettings.html#SystemSettings_AutoSaveDuration
+  name: AutoSaveDuration
+  nameWithType: SystemSettings.AutoSaveDuration
+  fullName: SystemSettings.AutoSaveDuration
+- uid: Global.SystemSettings.MaxAutoSaveCount*
+  commentId: Overload:Global.SystemSettings.MaxAutoSaveCount
+  href: Global.SystemSettings.html#SystemSettings_MaxAutoSaveCount
+  name: MaxAutoSaveCount
+  nameWithType: SystemSettings.MaxAutoSaveCount
+  fullName: SystemSettings.MaxAutoSaveCount
+- uid: Global.SystemSettings.LastAutoSaveSlot*
+  commentId: Overload:Global.SystemSettings.LastAutoSaveSlot
+  href: Global.SystemSettings.html#SystemSettings_LastAutoSaveSlot
+  name: LastAutoSaveSlot
+  nameWithType: SystemSettings.LastAutoSaveSlot
+  fullName: SystemSettings.LastAutoSaveSlot
+- uid: Global.SystemSettings.SaveSlotList*
+  commentId: Overload:Global.SystemSettings.SaveSlotList
+  href: Global.SystemSettings.html#SystemSettings_SaveSlotList
+  name: SaveSlotList
+  nameWithType: SystemSettings.SaveSlotList
+  fullName: SystemSettings.SaveSlotList
+- uid: System.Collections.ObjectModel.ObservableCollection{System.Int32}
+  commentId: T:System.Collections.ObjectModel.ObservableCollection{System.Int32}
+  parent: System.Collections.ObjectModel
+  definition: System.Collections.ObjectModel.ObservableCollection`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  name: ObservableCollection<int>
+  nameWithType: ObservableCollection<int>
+  fullName: System.Collections.ObjectModel.ObservableCollection<int>
+  nameWithType.vb: ObservableCollection(Of Integer)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of Integer)
+  name.vb: ObservableCollection(Of Integer)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: System.Collections.ObjectModel.ObservableCollection`1
+  commentId: T:System.Collections.ObjectModel.ObservableCollection`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  name: ObservableCollection<T>
+  nameWithType: ObservableCollection<T>
+  fullName: System.Collections.ObjectModel.ObservableCollection<T>
+  nameWithType.vb: ObservableCollection(Of T)
+  fullName.vb: System.Collections.ObjectModel.ObservableCollection(Of T)
+  name.vb: ObservableCollection(Of T)
+  spec.csharp:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.ObjectModel.ObservableCollection`1
+    name: ObservableCollection
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel.observablecollection-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.ObjectModel
+  commentId: N:System.Collections.ObjectModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.ObjectModel
+  nameWithType: System.Collections.ObjectModel
+  fullName: System.Collections.ObjectModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.ObjectModel
+    name: ObjectModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.ObjectModel
+    name: ObjectModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.objectmodel
+- uid: Global.SystemSettings.AutoSaveSlotList*
+  commentId: Overload:Global.SystemSettings.AutoSaveSlotList
+  href: Global.SystemSettings.html#SystemSettings_AutoSaveSlotList
+  name: AutoSaveSlotList
+  nameWithType: SystemSettings.AutoSaveSlotList
+  fullName: SystemSettings.AutoSaveSlotList

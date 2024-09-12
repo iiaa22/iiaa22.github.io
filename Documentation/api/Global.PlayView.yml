@@ -1,0 +1,422 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.PlayView
+  commentId: T:Global.PlayView
+  id: PlayView
+  parent: Global
+  children:
+  - Global.PlayView.AddListener
+  - Global.PlayView.RealRefresh
+  - Global.PlayView.RemoveListener
+  langs:
+  - csharp
+  - vb
+  name: PlayView
+  nameWithType: PlayView
+  fullName: PlayView
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/Views/PlayView.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: PlayView
+    path: ../Assets/Scripts/Views/PlayView.cs
+    startLine: 4
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  syntax:
+    content: 'public class PlayView : BaseView'
+    content.vb: Public Class PlayView Inherits BaseView
+  inheritance:
+  - System.Object
+  - UnityEngine.Object
+  - UnityEngine.Component
+  - UnityEngine.Behaviour
+  - UnityEngine.MonoBehaviour
+  - Global.BaseView
+  inheritedMembers:
+  - Global.BaseView.isFloating
+  - Global.BaseView.allButtons
+  - Global.BaseView.OnViewOpen
+  - Global.BaseView.OnViewClose
+  - Global.BaseView.OnButtonClick
+  - Global.BaseView.Current
+  - Global.BaseView.IsAnyViewOpen
+  - Global.BaseView.OnEnable
+  - Global.BaseView.OnDisable
+  - Global.BaseView.Open
+  - Global.BaseView.Close
+  - Global.BaseView.IsOpen
+  - Global.BaseView.Refresh
+- uid: Global.PlayView.AddListener
+  commentId: M:Global.PlayView.AddListener
+  id: AddListener
+  parent: Global.PlayView
+  langs:
+  - csharp
+  - vb
+  name: AddListener()
+  nameWithType: PlayView.AddListener()
+  fullName: PlayView.AddListener()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Views/PlayView.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: AddListener
+    path: ../Assets/Scripts/Views/PlayView.cs
+    startLine: 11
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  example: []
+  syntax:
+    content: protected override void AddListener()
+    content.vb: Protected Overrides Sub AddListener()
+  overridden: Global.BaseView.AddListener
+  overload: Global.PlayView.AddListener*
+- uid: Global.PlayView.RemoveListener
+  commentId: M:Global.PlayView.RemoveListener
+  id: RemoveListener
+  parent: Global.PlayView
+  langs:
+  - csharp
+  - vb
+  name: RemoveListener()
+  nameWithType: PlayView.RemoveListener()
+  fullName: PlayView.RemoveListener()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Views/PlayView.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: RemoveListener
+    path: ../Assets/Scripts/Views/PlayView.cs
+    startLine: 16
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  example: []
+  syntax:
+    content: protected override void RemoveListener()
+    content.vb: Protected Overrides Sub RemoveListener()
+  overridden: Global.BaseView.RemoveListener
+  overload: Global.PlayView.RemoveListener*
+- uid: Global.PlayView.RealRefresh
+  commentId: M:Global.PlayView.RealRefresh
+  id: RealRefresh
+  parent: Global.PlayView
+  langs:
+  - csharp
+  - vb
+  name: RealRefresh()
+  nameWithType: PlayView.RealRefresh()
+  fullName: PlayView.RealRefresh()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Views/PlayView.cs
+      branch: master
+      repo: https://github.com/iiaa22/53-Unity.git
+    id: RealRefresh
+    path: ../Assets/Scripts/Views/PlayView.cs
+    startLine: 21
+  assemblies:
+  - Assembly-CSharp
+  namespace: Global
+  example: []
+  syntax:
+    content: protected override void RealRefresh()
+    content.vb: Protected Overrides Sub RealRefresh()
+  overridden: Global.BaseView.RealRefresh
+  overload: Global.PlayView.RealRefresh*
+references:
+- uid: Global
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: UnityEngine.Object
+  commentId: T:UnityEngine.Object
+  parent: UnityEngine
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: UnityEngine.Object
+- uid: UnityEngine.Component
+  commentId: T:UnityEngine.Component
+  parent: UnityEngine
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: UnityEngine.Component
+- uid: UnityEngine.Behaviour
+  commentId: T:UnityEngine.Behaviour
+  parent: UnityEngine
+  isExternal: true
+  name: Behaviour
+  nameWithType: Behaviour
+  fullName: UnityEngine.Behaviour
+- uid: UnityEngine.MonoBehaviour
+  commentId: T:UnityEngine.MonoBehaviour
+  parent: UnityEngine
+  isExternal: true
+  name: MonoBehaviour
+  nameWithType: MonoBehaviour
+  fullName: UnityEngine.MonoBehaviour
+- uid: Global.BaseView
+  commentId: T:Global.BaseView
+  href: BaseView.html
+  name: BaseView
+  nameWithType: BaseView
+  fullName: BaseView
+- uid: Global.BaseView.isFloating
+  commentId: F:Global.BaseView.isFloating
+  parent: Global.BaseView
+  href: Global.BaseView.html#BaseView_isFloating
+  name: isFloating
+  nameWithType: BaseView.isFloating
+  fullName: BaseView.isFloating
+- uid: Global.BaseView.allButtons
+  commentId: F:Global.BaseView.allButtons
+  parent: Global.BaseView
+  href: Global.BaseView.html#BaseView_allButtons
+  name: allButtons
+  nameWithType: BaseView.allButtons
+  fullName: BaseView.allButtons
+- uid: Global.BaseView.OnViewOpen
+  commentId: E:Global.BaseView.OnViewOpen
+  parent: Global.BaseView
+  href: Global.BaseView.html#BaseView_OnViewOpen
+  name: OnViewOpen
+  nameWithType: BaseView.OnViewOpen
+  fullName: BaseView.OnViewOpen
+- uid: Global.BaseView.OnViewClose
+  commentId: E:Global.BaseView.OnViewClose
+  parent: Global.BaseView
+  href: Global.BaseView.html#BaseView_OnViewClose
+  name: OnViewClose
+  nameWithType: BaseView.OnViewClose
+  fullName: BaseView.OnViewClose
+- uid: Global.BaseView.OnButtonClick
+  commentId: E:Global.BaseView.OnButtonClick
+  parent: Global.BaseView
+  href: Global.BaseView.html#BaseView_OnButtonClick
+  name: OnButtonClick
+  nameWithType: BaseView.OnButtonClick
+  fullName: BaseView.OnButtonClick
+- uid: Global.BaseView.Current
+  commentId: P:Global.BaseView.Current
+  parent: Global.BaseView
+  href: Global.BaseView.html#BaseView_Current
+  name: Current
+  nameWithType: BaseView.Current
+  fullName: BaseView.Current
+- uid: Global.BaseView.IsAnyViewOpen
+  commentId: P:Global.BaseView.IsAnyViewOpen
+  parent: Global.BaseView
+  href: Global.BaseView.html#BaseView_IsAnyViewOpen
+  name: IsAnyViewOpen
+  nameWithType: BaseView.IsAnyViewOpen
+  fullName: BaseView.IsAnyViewOpen
+- uid: Global.BaseView.OnEnable
+  commentId: M:Global.BaseView.OnEnable
+  parent: Global.BaseView
+  href: Global.BaseView.html#BaseView_OnEnable
+  name: OnEnable()
+  nameWithType: BaseView.OnEnable()
+  fullName: BaseView.OnEnable()
+  spec.csharp:
+  - uid: Global.BaseView.OnEnable
+    name: OnEnable
+    href: Global.BaseView.html#BaseView_OnEnable
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Global.BaseView.OnEnable
+    name: OnEnable
+    href: Global.BaseView.html#BaseView_OnEnable
+  - name: (
+  - name: )
+- uid: Global.BaseView.OnDisable
+  commentId: M:Global.BaseView.OnDisable
+  parent: Global.BaseView
+  href: Global.BaseView.html#BaseView_OnDisable
+  name: OnDisable()
+  nameWithType: BaseView.OnDisable()
+  fullName: BaseView.OnDisable()
+  spec.csharp:
+  - uid: Global.BaseView.OnDisable
+    name: OnDisable
+    href: Global.BaseView.html#BaseView_OnDisable
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Global.BaseView.OnDisable
+    name: OnDisable
+    href: Global.BaseView.html#BaseView_OnDisable
+  - name: (
+  - name: )
+- uid: Global.BaseView.Open
+  commentId: M:Global.BaseView.Open
+  parent: Global.BaseView
+  href: Global.BaseView.html#BaseView_Open
+  name: Open()
+  nameWithType: BaseView.Open()
+  fullName: BaseView.Open()
+  spec.csharp:
+  - uid: Global.BaseView.Open
+    name: Open
+    href: Global.BaseView.html#BaseView_Open
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Global.BaseView.Open
+    name: Open
+    href: Global.BaseView.html#BaseView_Open
+  - name: (
+  - name: )
+- uid: Global.BaseView.Close
+  commentId: M:Global.BaseView.Close
+  parent: Global.BaseView
+  href: Global.BaseView.html#BaseView_Close
+  name: Close()
+  nameWithType: BaseView.Close()
+  fullName: BaseView.Close()
+  spec.csharp:
+  - uid: Global.BaseView.Close
+    name: Close
+    href: Global.BaseView.html#BaseView_Close
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Global.BaseView.Close
+    name: Close
+    href: Global.BaseView.html#BaseView_Close
+  - name: (
+  - name: )
+- uid: Global.BaseView.IsOpen
+  commentId: P:Global.BaseView.IsOpen
+  parent: Global.BaseView
+  href: Global.BaseView.html#BaseView_IsOpen
+  name: IsOpen
+  nameWithType: BaseView.IsOpen
+  fullName: BaseView.IsOpen
+- uid: Global.BaseView.Refresh
+  commentId: M:Global.BaseView.Refresh
+  parent: Global.BaseView
+  href: Global.BaseView.html#BaseView_Refresh
+  name: Refresh()
+  nameWithType: BaseView.Refresh()
+  fullName: BaseView.Refresh()
+  spec.csharp:
+  - uid: Global.BaseView.Refresh
+    name: Refresh
+    href: Global.BaseView.html#BaseView_Refresh
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Global.BaseView.Refresh
+    name: Refresh
+    href: Global.BaseView.html#BaseView_Refresh
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Global.BaseView.AddListener
+  commentId: M:Global.BaseView.AddListener
+  parent: Global.BaseView
+  href: Global.BaseView.html#BaseView_AddListener
+  name: AddListener()
+  nameWithType: BaseView.AddListener()
+  fullName: BaseView.AddListener()
+  spec.csharp:
+  - uid: Global.BaseView.AddListener
+    name: AddListener
+    href: Global.BaseView.html#BaseView_AddListener
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Global.BaseView.AddListener
+    name: AddListener
+    href: Global.BaseView.html#BaseView_AddListener
+  - name: (
+  - name: )
+- uid: Global.PlayView.AddListener*
+  commentId: Overload:Global.PlayView.AddListener
+  href: Global.PlayView.html#PlayView_AddListener
+  name: AddListener
+  nameWithType: PlayView.AddListener
+  fullName: PlayView.AddListener
+- uid: Global.BaseView.RemoveListener
+  commentId: M:Global.BaseView.RemoveListener
+  parent: Global.BaseView
+  href: Global.BaseView.html#BaseView_RemoveListener
+  name: RemoveListener()
+  nameWithType: BaseView.RemoveListener()
+  fullName: BaseView.RemoveListener()
+  spec.csharp:
+  - uid: Global.BaseView.RemoveListener
+    name: RemoveListener
+    href: Global.BaseView.html#BaseView_RemoveListener
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Global.BaseView.RemoveListener
+    name: RemoveListener
+    href: Global.BaseView.html#BaseView_RemoveListener
+  - name: (
+  - name: )
+- uid: Global.PlayView.RemoveListener*
+  commentId: Overload:Global.PlayView.RemoveListener
+  href: Global.PlayView.html#PlayView_RemoveListener
+  name: RemoveListener
+  nameWithType: PlayView.RemoveListener
+  fullName: PlayView.RemoveListener
+- uid: Global.BaseView.RealRefresh
+  commentId: M:Global.BaseView.RealRefresh
+  parent: Global.BaseView
+  href: Global.BaseView.html#BaseView_RealRefresh
+  name: RealRefresh()
+  nameWithType: BaseView.RealRefresh()
+  fullName: BaseView.RealRefresh()
+  spec.csharp:
+  - uid: Global.BaseView.RealRefresh
+    name: RealRefresh
+    href: Global.BaseView.html#BaseView_RealRefresh
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Global.BaseView.RealRefresh
+    name: RealRefresh
+    href: Global.BaseView.html#BaseView_RealRefresh
+  - name: (
+  - name: )
+- uid: Global.PlayView.RealRefresh*
+  commentId: Overload:Global.PlayView.RealRefresh
+  href: Global.PlayView.html#PlayView_RealRefresh
+  name: RealRefresh
+  nameWithType: PlayView.RealRefresh
+  fullName: PlayView.RealRefresh
