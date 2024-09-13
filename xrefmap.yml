@@ -126,6 +126,14 @@ references:
   fullName.vb: BaseConfig(Of T).Item
   nameWithType: BaseConfig<T>.Item
   nameWithType.vb: BaseConfig(Of T).Item
+- uid: Global.BaseConfig`1.tabName
+  name: tabName
+  href: api/Global.BaseConfig-1.html#Global_BaseConfig_1_tabName
+  commentId: F:Global.BaseConfig`1.tabName
+  fullName: BaseConfig<T>.tabName
+  fullName.vb: BaseConfig(Of T).tabName
+  nameWithType: BaseConfig<T>.tabName
+  nameWithType.vb: BaseConfig(Of T).tabName
 - uid: Global.BaseConfig`1.version
   name: version
   href: api/Global.BaseConfig-1.html#Global_BaseConfig_1_version
@@ -632,6 +640,50 @@ references:
   isSpec: "True"
   fullName: BaseWindow.RemoveListener
   nameWithType: BaseWindow.RemoveListener
+- uid: Global.ConfigEditor
+  name: ConfigEditor
+  href: api/Global.ConfigEditor.html
+  commentId: T:Global.ConfigEditor
+  fullName: ConfigEditor
+  nameWithType: ConfigEditor
+- uid: Global.ConfigEditor.OnInspectorGUI
+  name: OnInspectorGUI()
+  href: api/Global.ConfigEditor.html#Global_ConfigEditor_OnInspectorGUI
+  commentId: M:Global.ConfigEditor.OnInspectorGUI
+  fullName: ConfigEditor.OnInspectorGUI()
+  nameWithType: ConfigEditor.OnInspectorGUI()
+- uid: Global.ConfigEditor.OnInspectorGUI*
+  name: OnInspectorGUI
+  href: api/Global.ConfigEditor.html#Global_ConfigEditor_OnInspectorGUI_
+  commentId: Overload:Global.ConfigEditor.OnInspectorGUI
+  isSpec: "True"
+  fullName: ConfigEditor.OnInspectorGUI
+  nameWithType: ConfigEditor.OnInspectorGUI
+- uid: Global.ConfigEditorWindow
+  name: ConfigEditorWindow
+  href: api/Global.ConfigEditorWindow.html
+  commentId: T:Global.ConfigEditorWindow
+  fullName: ConfigEditorWindow
+  nameWithType: ConfigEditorWindow
+- uid: Global.ConfigEditorWindow.ShowWindow
+  name: ShowWindow()
+  href: api/Global.ConfigEditorWindow.html#Global_ConfigEditorWindow_ShowWindow
+  commentId: M:Global.ConfigEditorWindow.ShowWindow
+  fullName: ConfigEditorWindow.ShowWindow()
+  nameWithType: ConfigEditorWindow.ShowWindow()
+- uid: Global.ConfigEditorWindow.ShowWindow(ScriptableObject)
+  name: ShowWindow(ScriptableObject)
+  href: api/Global.ConfigEditorWindow.html#Global_ConfigEditorWindow_ShowWindow_ScriptableObject_
+  commentId: M:Global.ConfigEditorWindow.ShowWindow(ScriptableObject)
+  fullName: ConfigEditorWindow.ShowWindow(ScriptableObject)
+  nameWithType: ConfigEditorWindow.ShowWindow(ScriptableObject)
+- uid: Global.ConfigEditorWindow.ShowWindow*
+  name: ShowWindow
+  href: api/Global.ConfigEditorWindow.html#Global_ConfigEditorWindow_ShowWindow_
+  commentId: Overload:Global.ConfigEditorWindow.ShowWindow
+  isSpec: "True"
+  fullName: ConfigEditorWindow.ShowWindow
+  nameWithType: ConfigEditorWindow.ShowWindow
 - uid: Global.ConfigManager
   name: ConfigManager
   href: api/Global.ConfigManager.html

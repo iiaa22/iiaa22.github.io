@@ -52,7 +52,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.BaseConfig-1.html",
-          "hash": "o/Eq/tIGP55T9SN486CYkyGkMzT+aIFJw9Iu+E5jqoc="
+          "hash": "GEatWKYfQUz9DteHwQhiNf7P3o8blPVYKrlZAdrCHg4="
         }
       },
       "is_incremental": false,
@@ -64,7 +64,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.BaseConfigItem.html",
-          "hash": "YJyl1DWze3JAQcvICna3dxcwd59ykhUMQPemZFpyN6U="
+          "hash": "9L24EOetWjRos3ZJnInNqCXXofiBq1LvJRTYchmQ1fE="
         }
       },
       "is_incremental": false,
@@ -113,6 +113,30 @@
         ".html": {
           "relative_path": "api/Global.BaseWindow.html",
           "hash": "/2eoFkXe4e4dsPL8hVCEYKqqfG35K78tIhC0CXf+6SY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ConfigEditor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ConfigEditor.html",
+          "hash": "1aRzc4TEMF2AFISPqLlijSiJ2xn3IFJrOPh7a6LoTDM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ConfigEditorWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ConfigEditorWindow.html",
+          "hash": "Zbq7vrOrrZIajs+QqC7Dp9pQcLqPfjEjDKR3aicV/Qg="
         }
       },
       "is_incremental": false,
@@ -220,7 +244,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.LanguageConfig.html",
-          "hash": "xzbwq817rb16laViLxrM6UjqkWB7X9M7Ss9t3hyY2GA="
+          "hash": "7/FFYimkpvkjanIYKiAPQk6yUpMohCdtcy/elZWO0Mc="
         }
       },
       "is_incremental": false,
@@ -340,7 +364,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.PlatformCommonConfig.html",
-          "hash": "C4ygS1HUUYZ00YZWrtqOc6o+facSaVBcA6zhu6bEEBE="
+          "hash": "9Vh3XPcQRiiWkPGTrOj+EzZx71oaeKaPuMC3fi+VFnM="
         }
       },
       "is_incremental": false,
@@ -472,7 +496,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.SkillsConfig.html",
-          "hash": "rkP9yZARjlSoB1Y9BVdIS3Xk2tCi28DAOXM9dwdvTu8="
+          "hash": "3s3+NsYiNvd9RhmTH28bwCr0kSBOG3WfoiYo6YSx0Nk="
         }
       },
       "is_incremental": false,
@@ -508,7 +532,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.StatesConfig.html",
-          "hash": "NHLM/+YL6ahyLjvkWDQjUMLKJAIYDnOtj6qSd6s15mU="
+          "hash": "kfx/o8rkGLKnbl4CNeFonwEwjM270DbxM4Li8rdBgAY="
         }
       },
       "is_incremental": false,
@@ -604,7 +628,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.UnitsConfig.html",
-          "hash": "2IzmNumU2HyXwcfeBSBa4v8aZiu4J/i7CF/w4tTxXXc="
+          "hash": "m3bUWJp4YtBvJP36kHz+Tz64067H9Fojbx770ygQImM="
         }
       },
       "is_incremental": false,
@@ -664,7 +688,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.html",
-          "hash": "EjI4fVJupOzLih95kfaEnAntALl4WxKc25RJaMLF64o="
+          "hash": "qiLB1btJVkta2yPWII7LStCtC7SIxQizPgrrVHLGexo="
         }
       },
       "is_incremental": false,
@@ -676,7 +700,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "iFZYKlIfc0hphgDp2tx8Ae8pz/o90qGmpmMPb29orWk="
+          "hash": "HnFHK3XYpinLK5Ilf865ux1C339TEYSwyhJTwj/b5t4="
         }
       },
       "is_incremental": false,
@@ -785,7 +809,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 54,
+          "total_file_count": 56,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
