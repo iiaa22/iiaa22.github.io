@@ -91,6 +91,23 @@ references:
   fullName.vb: BaseConfig(Of T).dataList
   nameWithType: BaseConfig<T>.dataList
   nameWithType.vb: BaseConfig(Of T).dataList
+- uid: Global.BaseConfig`1.DataNameList
+  name: DataNameList
+  href: api/Global.BaseConfig-1.html#Global_BaseConfig_1_DataNameList
+  commentId: P:Global.BaseConfig`1.DataNameList
+  fullName: BaseConfig<T>.DataNameList
+  fullName.vb: BaseConfig(Of T).DataNameList
+  nameWithType: BaseConfig<T>.DataNameList
+  nameWithType.vb: BaseConfig(Of T).DataNameList
+- uid: Global.BaseConfig`1.DataNameList*
+  name: DataNameList
+  href: api/Global.BaseConfig-1.html#Global_BaseConfig_1_DataNameList_
+  commentId: Overload:Global.BaseConfig`1.DataNameList
+  isSpec: "True"
+  fullName: BaseConfig<T>.DataNameList
+  fullName.vb: BaseConfig(Of T).DataNameList
+  nameWithType: BaseConfig<T>.DataNameList
+  nameWithType.vb: BaseConfig(Of T).DataNameList
 - uid: Global.BaseConfig`1.enableConsole
   name: enableConsole
   href: api/Global.BaseConfig-1.html#Global_BaseConfig_1_enableConsole
@@ -986,6 +1003,19 @@ references:
   commentId: T:Global.LanguageConfig
   fullName: LanguageConfig
   nameWithType: LanguageConfig
+- uid: Global.LanguageConfig.DataNameList
+  name: DataNameList
+  href: api/Global.LanguageConfig.html#Global_LanguageConfig_DataNameList
+  commentId: P:Global.LanguageConfig.DataNameList
+  fullName: LanguageConfig.DataNameList
+  nameWithType: LanguageConfig.DataNameList
+- uid: Global.LanguageConfig.DataNameList*
+  name: DataNameList
+  href: api/Global.LanguageConfig.html#Global_LanguageConfig_DataNameList_
+  commentId: Overload:Global.LanguageConfig.DataNameList
+  isSpec: "True"
+  fullName: LanguageConfig.DataNameList
+  nameWithType: LanguageConfig.DataNameList
 - uid: Global.LanguageConfigItem
   name: LanguageConfigItem
   href: api/Global.LanguageConfigItem.html
@@ -1215,6 +1245,19 @@ references:
   commentId: T:Global.PlatformCommonConfig
   fullName: PlatformCommonConfig
   nameWithType: PlatformCommonConfig
+- uid: Global.PlatformCommonConfig.DataNameList
+  name: DataNameList
+  href: api/Global.PlatformCommonConfig.html#Global_PlatformCommonConfig_DataNameList
+  commentId: P:Global.PlatformCommonConfig.DataNameList
+  fullName: PlatformCommonConfig.DataNameList
+  nameWithType: PlatformCommonConfig.DataNameList
+- uid: Global.PlatformCommonConfig.DataNameList*
+  name: DataNameList
+  href: api/Global.PlatformCommonConfig.html#Global_PlatformCommonConfig_DataNameList_
+  commentId: Overload:Global.PlatformCommonConfig.DataNameList
+  isSpec: "True"
+  fullName: PlatformCommonConfig.DataNameList
+  nameWithType: PlatformCommonConfig.DataNameList
 - uid: Global.PlatformCommonConfigItem
   name: PlatformCommonConfigItem
   href: api/Global.PlatformCommonConfigItem.html
@@ -3007,12 +3050,12 @@ references:
   commentId: F:Global.UnitsConfigItem.isAllyTargetable
   fullName: UnitsConfigItem.isAllyTargetable
   nameWithType: UnitsConfigItem.isAllyTargetable
-- uid: Global.UnitsConfigItem.isbuildable
-  name: isbuildable
-  href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_isbuildable
-  commentId: F:Global.UnitsConfigItem.isbuildable
-  fullName: UnitsConfigItem.isbuildable
-  nameWithType: UnitsConfigItem.isbuildable
+- uid: Global.UnitsConfigItem.isBuildable
+  name: isBuildable
+  href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_isBuildable
+  commentId: F:Global.UnitsConfigItem.isBuildable
+  fullName: UnitsConfigItem.isBuildable
+  nameWithType: UnitsConfigItem.isBuildable
 - uid: Global.UnitsConfigItem.isCollidable
   name: isCollidable
   href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_isCollidable

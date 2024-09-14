@@ -110,7 +110,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T GetConfigDataByID&lt;T&gt;(int id)
-    where T : BaseConfigItem</code></pre>
+    where T : BaseConfigItem, new()</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -172,7 +172,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T GetConfigDataByName&lt;T&gt;(string name)
-    where T : BaseConfigItem</code></pre>
+    where T : BaseConfigItem, new()</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -234,7 +234,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static int GetConfigDataLength&lt;T&gt;()
-    where T : BaseConfigItem</code></pre>
+    where T : BaseConfigItem, new()</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
