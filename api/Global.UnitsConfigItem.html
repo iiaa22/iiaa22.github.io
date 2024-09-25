@@ -240,6 +240,31 @@ public class UnitsConfigItem : BaseConfigItem</code></pre>
   </table>
   
   
+  <h4 id="Global_UnitsConfigItem_defaultSkillList" data-uid="Global.UnitsConfigItem.defaultSkillList">defaultSkillList</h4>
+  <div class="markdown level1 summary"><p>默认技能列表</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;ConfigItemReference&lt;SkillsConfigItem&gt;&gt; defaultSkillList</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Global.ConfigItemReference-1.html">ConfigItemReference</a>&lt;<a class="xref" href="Global.SkillsConfigItem.html">SkillsConfigItem</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Global_UnitsConfigItem_defaultSPD" data-uid="Global.UnitsConfigItem.defaultSPD">defaultSPD</h4>
   <div class="markdown level1 summary"><p>默认速度（格每秒）</p>
 </div>
@@ -465,13 +490,13 @@ public class UnitsConfigItem : BaseConfigItem</code></pre>
   </table>
   
   
-  <h4 id="Global_UnitsConfigItem_nextLevelIDList" data-uid="Global.UnitsConfigItem.nextLevelIDList">nextLevelIDList</h4>
-  <div class="markdown level1 summary"><p>下一等级单位ID列表</p>
+  <h4 id="Global_UnitsConfigItem_nextLevelUnitList" data-uid="Global.UnitsConfigItem.nextLevelUnitList">nextLevelUnitList</h4>
+  <div class="markdown level1 summary"><p>下一等级单位列表</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;int&gt; nextLevelIDList</code></pre>
+    <pre><code class="lang-csharp hljs">public List&lt;ConfigItemReference&lt;UnitsConfigItem&gt;&gt; nextLevelUnitList</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -483,7 +508,7 @@ public class UnitsConfigItem : BaseConfigItem</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Global.ConfigItemReference-1.html">ConfigItemReference</a>&lt;<a class="xref" href="Global.UnitsConfigItem.html">UnitsConfigItem</a>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -615,6 +640,53 @@ public class UnitsConfigItem : BaseConfigItem</code></pre>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Global_UnitsConfigItem_CreateController_" data-uid="Global.UnitsConfigItem.CreateController*"></a>
+  <h4 id="Global_UnitsConfigItem_CreateController_Transform_" data-uid="Global.UnitsConfigItem.CreateController(Transform)">CreateController(Transform)</h4>
+  <div class="markdown level1 summary"><p>创建控制器。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnitController CreateController(Transform parent = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td><span class="parametername">parent</span></td>
+        <td><p>父对象</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.UnitController.html">UnitController</a></td>
+        <td><p>控制器</p>
+</td>
       </tr>
     </tbody>
   </table>

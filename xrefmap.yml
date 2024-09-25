@@ -9,24 +9,6 @@ references:
   fullName.vb: ''
   nameWithType: Global
   nameWithType.vb: ''
-- uid: Global.AttackEffect
-  name: AttackEffect
-  href: api/Global.AttackEffect.html
-  commentId: T:Global.AttackEffect
-  fullName: AttackEffect
-  nameWithType: AttackEffect
-- uid: Global.AttackEffect.attacker
-  name: attacker
-  href: api/Global.AttackEffect.html#Global_AttackEffect_attacker
-  commentId: F:Global.AttackEffect.attacker
-  fullName: AttackEffect.attacker
-  nameWithType: AttackEffect.attacker
-- uid: Global.AttackEffect.moveSpeed
-  name: moveSpeed
-  href: api/Global.AttackEffect.html#Global_AttackEffect_moveSpeed
-  commentId: F:Global.AttackEffect.moveSpeed
-  fullName: AttackEffect.moveSpeed
-  nameWithType: AttackEffect.moveSpeed
 - uid: Global.AttackType
   name: AttackType
   href: api/Global.AttackType.html
@@ -57,108 +39,6 @@ references:
   commentId: F:Global.AttackType.Swing
   fullName: AttackType.Swing
   nameWithType: AttackType.Swing
-- uid: Global.BaseConfig`1
-  name: BaseConfig<T>
-  href: api/Global.BaseConfig-1.html
-  commentId: T:Global.BaseConfig`1
-  name.vb: BaseConfig(Of T)
-  fullName: BaseConfig<T>
-  fullName.vb: BaseConfig(Of T)
-  nameWithType: BaseConfig<T>
-  nameWithType.vb: BaseConfig(Of T)
-- uid: Global.BaseConfig`1.DataCount
-  name: DataCount
-  href: api/Global.BaseConfig-1.html#Global_BaseConfig_1_DataCount
-  commentId: P:Global.BaseConfig`1.DataCount
-  fullName: BaseConfig<T>.DataCount
-  fullName.vb: BaseConfig(Of T).DataCount
-  nameWithType: BaseConfig<T>.DataCount
-  nameWithType.vb: BaseConfig(Of T).DataCount
-- uid: Global.BaseConfig`1.DataCount*
-  name: DataCount
-  href: api/Global.BaseConfig-1.html#Global_BaseConfig_1_DataCount_
-  commentId: Overload:Global.BaseConfig`1.DataCount
-  isSpec: "True"
-  fullName: BaseConfig<T>.DataCount
-  fullName.vb: BaseConfig(Of T).DataCount
-  nameWithType: BaseConfig<T>.DataCount
-  nameWithType.vb: BaseConfig(Of T).DataCount
-- uid: Global.BaseConfig`1.dataList
-  name: dataList
-  href: api/Global.BaseConfig-1.html#Global_BaseConfig_1_dataList
-  commentId: F:Global.BaseConfig`1.dataList
-  fullName: BaseConfig<T>.dataList
-  fullName.vb: BaseConfig(Of T).dataList
-  nameWithType: BaseConfig<T>.dataList
-  nameWithType.vb: BaseConfig(Of T).dataList
-- uid: Global.BaseConfig`1.DataNameList
-  name: DataNameList
-  href: api/Global.BaseConfig-1.html#Global_BaseConfig_1_DataNameList
-  commentId: P:Global.BaseConfig`1.DataNameList
-  fullName: BaseConfig<T>.DataNameList
-  fullName.vb: BaseConfig(Of T).DataNameList
-  nameWithType: BaseConfig<T>.DataNameList
-  nameWithType.vb: BaseConfig(Of T).DataNameList
-- uid: Global.BaseConfig`1.DataNameList*
-  name: DataNameList
-  href: api/Global.BaseConfig-1.html#Global_BaseConfig_1_DataNameList_
-  commentId: Overload:Global.BaseConfig`1.DataNameList
-  isSpec: "True"
-  fullName: BaseConfig<T>.DataNameList
-  fullName.vb: BaseConfig(Of T).DataNameList
-  nameWithType: BaseConfig<T>.DataNameList
-  nameWithType.vb: BaseConfig(Of T).DataNameList
-- uid: Global.BaseConfig`1.enableConsole
-  name: enableConsole
-  href: api/Global.BaseConfig-1.html#Global_BaseConfig_1_enableConsole
-  commentId: F:Global.BaseConfig`1.enableConsole
-  fullName: BaseConfig<T>.enableConsole
-  fullName.vb: BaseConfig(Of T).enableConsole
-  nameWithType: BaseConfig<T>.enableConsole
-  nameWithType.vb: BaseConfig(Of T).enableConsole
-- uid: Global.BaseConfig`1.Item(System.Int32)
-  name: Item[Int32]
-  href: api/Global.BaseConfig-1.html#Global_BaseConfig_1_Item_System_Int32_
-  commentId: P:Global.BaseConfig`1.Item(System.Int32)
-  name.vb: Item(Int32)
-  fullName: BaseConfig<T>.Item[System.Int32]
-  fullName.vb: BaseConfig(Of T).Item(System.Int32)
-  nameWithType: BaseConfig<T>.Item[Int32]
-  nameWithType.vb: BaseConfig(Of T).Item(Int32)
-- uid: Global.BaseConfig`1.Item(System.String)
-  name: Item[String]
-  href: api/Global.BaseConfig-1.html#Global_BaseConfig_1_Item_System_String_
-  commentId: P:Global.BaseConfig`1.Item(System.String)
-  name.vb: Item(String)
-  fullName: BaseConfig<T>.Item[System.String]
-  fullName.vb: BaseConfig(Of T).Item(System.String)
-  nameWithType: BaseConfig<T>.Item[String]
-  nameWithType.vb: BaseConfig(Of T).Item(String)
-- uid: Global.BaseConfig`1.Item*
-  name: Item
-  href: api/Global.BaseConfig-1.html#Global_BaseConfig_1_Item_
-  commentId: Overload:Global.BaseConfig`1.Item
-  isSpec: "True"
-  fullName: BaseConfig<T>.Item
-  fullName.vb: BaseConfig(Of T).Item
-  nameWithType: BaseConfig<T>.Item
-  nameWithType.vb: BaseConfig(Of T).Item
-- uid: Global.BaseConfig`1.tabName
-  name: tabName
-  href: api/Global.BaseConfig-1.html#Global_BaseConfig_1_tabName
-  commentId: F:Global.BaseConfig`1.tabName
-  fullName: BaseConfig<T>.tabName
-  fullName.vb: BaseConfig(Of T).tabName
-  nameWithType: BaseConfig<T>.tabName
-  nameWithType.vb: BaseConfig(Of T).tabName
-- uid: Global.BaseConfig`1.version
-  name: version
-  href: api/Global.BaseConfig-1.html#Global_BaseConfig_1_version
-  commentId: F:Global.BaseConfig`1.version
-  fullName: BaseConfig<T>.version
-  fullName.vb: BaseConfig(Of T).version
-  nameWithType: BaseConfig<T>.version
-  nameWithType.vb: BaseConfig(Of T).version
 - uid: Global.BaseConfigItem
   name: BaseConfigItem
   href: api/Global.BaseConfigItem.html
@@ -183,6 +63,125 @@ references:
   commentId: F:Global.BaseConfigItem.remark
   fullName: BaseConfigItem.remark
   nameWithType: BaseConfigItem.remark
+- uid: Global.BaseConfigTable`1
+  name: BaseConfigTable<T>
+  href: api/Global.BaseConfigTable-1.html
+  commentId: T:Global.BaseConfigTable`1
+  name.vb: BaseConfigTable(Of T)
+  fullName: BaseConfigTable<T>
+  fullName.vb: BaseConfigTable(Of T)
+  nameWithType: BaseConfigTable<T>
+  nameWithType.vb: BaseConfigTable(Of T)
+- uid: Global.BaseConfigTable`1.ConfigCount
+  name: ConfigCount
+  href: api/Global.BaseConfigTable-1.html#Global_BaseConfigTable_1_ConfigCount
+  commentId: P:Global.BaseConfigTable`1.ConfigCount
+  fullName: BaseConfigTable<T>.ConfigCount
+  fullName.vb: BaseConfigTable(Of T).ConfigCount
+  nameWithType: BaseConfigTable<T>.ConfigCount
+  nameWithType.vb: BaseConfigTable(Of T).ConfigCount
+- uid: Global.BaseConfigTable`1.ConfigCount*
+  name: ConfigCount
+  href: api/Global.BaseConfigTable-1.html#Global_BaseConfigTable_1_ConfigCount_
+  commentId: Overload:Global.BaseConfigTable`1.ConfigCount
+  isSpec: "True"
+  fullName: BaseConfigTable<T>.ConfigCount
+  fullName.vb: BaseConfigTable(Of T).ConfigCount
+  nameWithType: BaseConfigTable<T>.ConfigCount
+  nameWithType.vb: BaseConfigTable(Of T).ConfigCount
+- uid: Global.BaseConfigTable`1.configList
+  name: configList
+  href: api/Global.BaseConfigTable-1.html#Global_BaseConfigTable_1_configList
+  commentId: F:Global.BaseConfigTable`1.configList
+  fullName: BaseConfigTable<T>.configList
+  fullName.vb: BaseConfigTable(Of T).configList
+  nameWithType: BaseConfigTable<T>.configList
+  nameWithType.vb: BaseConfigTable(Of T).configList
+- uid: Global.BaseConfigTable`1.ConfigNameList
+  name: ConfigNameList
+  href: api/Global.BaseConfigTable-1.html#Global_BaseConfigTable_1_ConfigNameList
+  commentId: P:Global.BaseConfigTable`1.ConfigNameList
+  fullName: BaseConfigTable<T>.ConfigNameList
+  fullName.vb: BaseConfigTable(Of T).ConfigNameList
+  nameWithType: BaseConfigTable<T>.ConfigNameList
+  nameWithType.vb: BaseConfigTable(Of T).ConfigNameList
+- uid: Global.BaseConfigTable`1.ConfigNameList*
+  name: ConfigNameList
+  href: api/Global.BaseConfigTable-1.html#Global_BaseConfigTable_1_ConfigNameList_
+  commentId: Overload:Global.BaseConfigTable`1.ConfigNameList
+  isSpec: "True"
+  fullName: BaseConfigTable<T>.ConfigNameList
+  fullName.vb: BaseConfigTable(Of T).ConfigNameList
+  nameWithType: BaseConfigTable<T>.ConfigNameList
+  nameWithType.vb: BaseConfigTable(Of T).ConfigNameList
+- uid: Global.BaseConfigTable`1.enableConsole
+  name: enableConsole
+  href: api/Global.BaseConfigTable-1.html#Global_BaseConfigTable_1_enableConsole
+  commentId: F:Global.BaseConfigTable`1.enableConsole
+  fullName: BaseConfigTable<T>.enableConsole
+  fullName.vb: BaseConfigTable(Of T).enableConsole
+  nameWithType: BaseConfigTable<T>.enableConsole
+  nameWithType.vb: BaseConfigTable(Of T).enableConsole
+- uid: Global.BaseConfigTable`1.GetConfigID(`0)
+  name: GetConfigID(T)
+  href: api/Global.BaseConfigTable-1.html#Global_BaseConfigTable_1_GetConfigID__0_
+  commentId: M:Global.BaseConfigTable`1.GetConfigID(`0)
+  fullName: BaseConfigTable<T>.GetConfigID(T)
+  fullName.vb: BaseConfigTable(Of T).GetConfigID(T)
+  nameWithType: BaseConfigTable<T>.GetConfigID(T)
+  nameWithType.vb: BaseConfigTable(Of T).GetConfigID(T)
+- uid: Global.BaseConfigTable`1.GetConfigID*
+  name: GetConfigID
+  href: api/Global.BaseConfigTable-1.html#Global_BaseConfigTable_1_GetConfigID_
+  commentId: Overload:Global.BaseConfigTable`1.GetConfigID
+  isSpec: "True"
+  fullName: BaseConfigTable<T>.GetConfigID
+  fullName.vb: BaseConfigTable(Of T).GetConfigID
+  nameWithType: BaseConfigTable<T>.GetConfigID
+  nameWithType.vb: BaseConfigTable(Of T).GetConfigID
+- uid: Global.BaseConfigTable`1.Item(System.Int32)
+  name: Item[Int32]
+  href: api/Global.BaseConfigTable-1.html#Global_BaseConfigTable_1_Item_System_Int32_
+  commentId: P:Global.BaseConfigTable`1.Item(System.Int32)
+  name.vb: Item(Int32)
+  fullName: BaseConfigTable<T>.Item[System.Int32]
+  fullName.vb: BaseConfigTable(Of T).Item(System.Int32)
+  nameWithType: BaseConfigTable<T>.Item[Int32]
+  nameWithType.vb: BaseConfigTable(Of T).Item(Int32)
+- uid: Global.BaseConfigTable`1.Item(System.String)
+  name: Item[String]
+  href: api/Global.BaseConfigTable-1.html#Global_BaseConfigTable_1_Item_System_String_
+  commentId: P:Global.BaseConfigTable`1.Item(System.String)
+  name.vb: Item(String)
+  fullName: BaseConfigTable<T>.Item[System.String]
+  fullName.vb: BaseConfigTable(Of T).Item(System.String)
+  nameWithType: BaseConfigTable<T>.Item[String]
+  nameWithType.vb: BaseConfigTable(Of T).Item(String)
+- uid: Global.BaseConfigTable`1.Item*
+  name: Item
+  href: api/Global.BaseConfigTable-1.html#Global_BaseConfigTable_1_Item_
+  commentId: Overload:Global.BaseConfigTable`1.Item
+  isSpec: "True"
+  fullName: BaseConfigTable<T>.Item
+  fullName.vb: BaseConfigTable(Of T).Item
+  nameWithType: BaseConfigTable<T>.Item
+  nameWithType.vb: BaseConfigTable(Of T).Item
+- uid: Global.BaseConfigTable`1.tabName
+  name: tabName
+  href: api/Global.BaseConfigTable-1.html#Global_BaseConfigTable_1_tabName
+  commentId: F:Global.BaseConfigTable`1.tabName
+  fullName: BaseConfigTable<T>.tabName
+  fullName.vb: BaseConfigTable(Of T).tabName
+  nameWithType: BaseConfigTable<T>.tabName
+  nameWithType.vb: BaseConfigTable(Of T).tabName
+- uid: Global.BaseConfigTable`1.version
+  name: version
+  href: api/Global.BaseConfigTable-1.html#Global_BaseConfigTable_1_version
+  commentId: F:Global.BaseConfigTable`1.version
+  fullName: BaseConfigTable<T>.version
+  fullName.vb: BaseConfigTable(Of T).version
+  nameWithType: BaseConfigTable<T>.version
+  nameWithType.vb: BaseConfigTable(Of T).version
 - uid: Global.BaseSingleton`1
   name: BaseSingleton<T>
   href: api/Global.BaseSingleton-1.html
@@ -701,60 +700,122 @@ references:
   isSpec: "True"
   fullName: ConfigEditorWindow.ShowWindow
   nameWithType: ConfigEditorWindow.ShowWindow
+- uid: Global.ConfigItemDrawer
+  name: ConfigItemDrawer
+  href: api/Global.ConfigItemDrawer.html
+  commentId: T:Global.ConfigItemDrawer
+  fullName: ConfigItemDrawer
+  nameWithType: ConfigItemDrawer
+- uid: Global.ConfigItemDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  name: OnGUI(Rect, SerializedProperty, GUIContent)
+  href: api/Global.ConfigItemDrawer.html#Global_ConfigItemDrawer_OnGUI_Rect_SerializedProperty_GUIContent_
+  commentId: M:Global.ConfigItemDrawer.OnGUI(Rect,SerializedProperty,GUIContent)
+  fullName: ConfigItemDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+  nameWithType: ConfigItemDrawer.OnGUI(Rect, SerializedProperty, GUIContent)
+- uid: Global.ConfigItemDrawer.OnGUI*
+  name: OnGUI
+  href: api/Global.ConfigItemDrawer.html#Global_ConfigItemDrawer_OnGUI_
+  commentId: Overload:Global.ConfigItemDrawer.OnGUI
+  isSpec: "True"
+  fullName: ConfigItemDrawer.OnGUI
+  nameWithType: ConfigItemDrawer.OnGUI
+- uid: Global.ConfigItemReference`1
+  name: ConfigItemReference<T>
+  href: api/Global.ConfigItemReference-1.html
+  commentId: T:Global.ConfigItemReference`1
+  name.vb: ConfigItemReference(Of T)
+  fullName: ConfigItemReference<T>
+  fullName.vb: ConfigItemReference(Of T)
+  nameWithType: ConfigItemReference<T>
+  nameWithType.vb: ConfigItemReference(Of T)
+- uid: Global.ConfigItemReference`1.Config
+  name: Config
+  href: api/Global.ConfigItemReference-1.html#Global_ConfigItemReference_1_Config
+  commentId: P:Global.ConfigItemReference`1.Config
+  fullName: ConfigItemReference<T>.Config
+  fullName.vb: ConfigItemReference(Of T).Config
+  nameWithType: ConfigItemReference<T>.Config
+  nameWithType.vb: ConfigItemReference(Of T).Config
+- uid: Global.ConfigItemReference`1.Config*
+  name: Config
+  href: api/Global.ConfigItemReference-1.html#Global_ConfigItemReference_1_Config_
+  commentId: Overload:Global.ConfigItemReference`1.Config
+  isSpec: "True"
+  fullName: ConfigItemReference<T>.Config
+  fullName.vb: ConfigItemReference(Of T).Config
+  nameWithType: ConfigItemReference<T>.Config
+  nameWithType.vb: ConfigItemReference(Of T).Config
+- uid: Global.ConfigItemReference`1.configID
+  name: configID
+  href: api/Global.ConfigItemReference-1.html#Global_ConfigItemReference_1_configID
+  commentId: F:Global.ConfigItemReference`1.configID
+  fullName: ConfigItemReference<T>.configID
+  fullName.vb: ConfigItemReference(Of T).configID
+  nameWithType: ConfigItemReference<T>.configID
+  nameWithType.vb: ConfigItemReference(Of T).configID
 - uid: Global.ConfigManager
   name: ConfigManager
   href: api/Global.ConfigManager.html
   commentId: T:Global.ConfigManager
   fullName: ConfigManager
   nameWithType: ConfigManager
-- uid: Global.ConfigManager.GetConfigDataByID*
-  name: GetConfigDataByID
-  href: api/Global.ConfigManager.html#Global_ConfigManager_GetConfigDataByID_
-  commentId: Overload:Global.ConfigManager.GetConfigDataByID
+- uid: Global.ConfigManager.GetConfigData*
+  name: GetConfigData
+  href: api/Global.ConfigManager.html#Global_ConfigManager_GetConfigData_
+  commentId: Overload:Global.ConfigManager.GetConfigData
   isSpec: "True"
-  fullName: ConfigManager.GetConfigDataByID
-  nameWithType: ConfigManager.GetConfigDataByID
-- uid: Global.ConfigManager.GetConfigDataByID``1(System.Int32)
-  name: GetConfigDataByID<T>(Int32)
-  href: api/Global.ConfigManager.html#Global_ConfigManager_GetConfigDataByID__1_System_Int32_
-  commentId: M:Global.ConfigManager.GetConfigDataByID``1(System.Int32)
-  name.vb: GetConfigDataByID(Of T)(Int32)
-  fullName: ConfigManager.GetConfigDataByID<T>(System.Int32)
-  fullName.vb: ConfigManager.GetConfigDataByID(Of T)(System.Int32)
-  nameWithType: ConfigManager.GetConfigDataByID<T>(Int32)
-  nameWithType.vb: ConfigManager.GetConfigDataByID(Of T)(Int32)
-- uid: Global.ConfigManager.GetConfigDataByName*
-  name: GetConfigDataByName
-  href: api/Global.ConfigManager.html#Global_ConfigManager_GetConfigDataByName_
-  commentId: Overload:Global.ConfigManager.GetConfigDataByName
+  fullName: ConfigManager.GetConfigData
+  nameWithType: ConfigManager.GetConfigData
+- uid: Global.ConfigManager.GetConfigData``1(System.Int32)
+  name: GetConfigData<T>(Int32)
+  href: api/Global.ConfigManager.html#Global_ConfigManager_GetConfigData__1_System_Int32_
+  commentId: M:Global.ConfigManager.GetConfigData``1(System.Int32)
+  name.vb: GetConfigData(Of T)(Int32)
+  fullName: ConfigManager.GetConfigData<T>(System.Int32)
+  fullName.vb: ConfigManager.GetConfigData(Of T)(System.Int32)
+  nameWithType: ConfigManager.GetConfigData<T>(Int32)
+  nameWithType.vb: ConfigManager.GetConfigData(Of T)(Int32)
+- uid: Global.ConfigManager.GetConfigData``1(System.String)
+  name: GetConfigData<T>(String)
+  href: api/Global.ConfigManager.html#Global_ConfigManager_GetConfigData__1_System_String_
+  commentId: M:Global.ConfigManager.GetConfigData``1(System.String)
+  name.vb: GetConfigData(Of T)(String)
+  fullName: ConfigManager.GetConfigData<T>(System.String)
+  fullName.vb: ConfigManager.GetConfigData(Of T)(System.String)
+  nameWithType: ConfigManager.GetConfigData<T>(String)
+  nameWithType.vb: ConfigManager.GetConfigData(Of T)(String)
+- uid: Global.ConfigManager.GetConfigDataID*
+  name: GetConfigDataID
+  href: api/Global.ConfigManager.html#Global_ConfigManager_GetConfigDataID_
+  commentId: Overload:Global.ConfigManager.GetConfigDataID
   isSpec: "True"
-  fullName: ConfigManager.GetConfigDataByName
-  nameWithType: ConfigManager.GetConfigDataByName
-- uid: Global.ConfigManager.GetConfigDataByName``1(System.String)
-  name: GetConfigDataByName<T>(String)
-  href: api/Global.ConfigManager.html#Global_ConfigManager_GetConfigDataByName__1_System_String_
-  commentId: M:Global.ConfigManager.GetConfigDataByName``1(System.String)
-  name.vb: GetConfigDataByName(Of T)(String)
-  fullName: ConfigManager.GetConfigDataByName<T>(System.String)
-  fullName.vb: ConfigManager.GetConfigDataByName(Of T)(System.String)
-  nameWithType: ConfigManager.GetConfigDataByName<T>(String)
-  nameWithType.vb: ConfigManager.GetConfigDataByName(Of T)(String)
-- uid: Global.ConfigManager.GetConfigDataLength*
-  name: GetConfigDataLength
-  href: api/Global.ConfigManager.html#Global_ConfigManager_GetConfigDataLength_
-  commentId: Overload:Global.ConfigManager.GetConfigDataLength
+  fullName: ConfigManager.GetConfigDataID
+  nameWithType: ConfigManager.GetConfigDataID
+- uid: Global.ConfigManager.GetConfigDataID``1(``0)
+  name: GetConfigDataID<T>(T)
+  href: api/Global.ConfigManager.html#Global_ConfigManager_GetConfigDataID__1___0_
+  commentId: M:Global.ConfigManager.GetConfigDataID``1(``0)
+  name.vb: GetConfigDataID(Of T)(T)
+  fullName: ConfigManager.GetConfigDataID<T>(T)
+  fullName.vb: ConfigManager.GetConfigDataID(Of T)(T)
+  nameWithType: ConfigManager.GetConfigDataID<T>(T)
+  nameWithType.vb: ConfigManager.GetConfigDataID(Of T)(T)
+- uid: Global.ConfigManager.GetConfigLength*
+  name: GetConfigLength
+  href: api/Global.ConfigManager.html#Global_ConfigManager_GetConfigLength_
+  commentId: Overload:Global.ConfigManager.GetConfigLength
   isSpec: "True"
-  fullName: ConfigManager.GetConfigDataLength
-  nameWithType: ConfigManager.GetConfigDataLength
-- uid: Global.ConfigManager.GetConfigDataLength``1
-  name: GetConfigDataLength<T>()
-  href: api/Global.ConfigManager.html#Global_ConfigManager_GetConfigDataLength__1
-  commentId: M:Global.ConfigManager.GetConfigDataLength``1
-  name.vb: GetConfigDataLength(Of T)()
-  fullName: ConfigManager.GetConfigDataLength<T>()
-  fullName.vb: ConfigManager.GetConfigDataLength(Of T)()
-  nameWithType: ConfigManager.GetConfigDataLength<T>()
-  nameWithType.vb: ConfigManager.GetConfigDataLength(Of T)()
+  fullName: ConfigManager.GetConfigLength
+  nameWithType: ConfigManager.GetConfigLength
+- uid: Global.ConfigManager.GetConfigLength``1
+  name: GetConfigLength<T>()
+  href: api/Global.ConfigManager.html#Global_ConfigManager_GetConfigLength__1
+  commentId: M:Global.ConfigManager.GetConfigLength``1
+  name.vb: GetConfigLength(Of T)()
+  fullName: ConfigManager.GetConfigLength<T>()
+  fullName.vb: ConfigManager.GetConfigLength(Of T)()
+  nameWithType: ConfigManager.GetConfigLength<T>()
+  nameWithType.vb: ConfigManager.GetConfigLength(Of T)()
 - uid: Global.ConfigManager.Load
   name: Load()
   href: api/Global.ConfigManager.html#Global_ConfigManager_Load
@@ -865,18 +926,112 @@ references:
   commentId: T:Global.GameManager
   fullName: GameManager
   nameWithType: GameManager
+- uid: Global.GameManager.gameOverView
+  name: gameOverView
+  href: api/Global.GameManager.html#Global_GameManager_gameOverView
+  commentId: F:Global.GameManager.gameOverView
+  fullName: GameManager.gameOverView
+  nameWithType: GameManager.gameOverView
+- uid: Global.GameManager.gameView
+  name: gameView
+  href: api/Global.GameManager.html#Global_GameManager_gameView
+  commentId: F:Global.GameManager.gameView
+  fullName: GameManager.gameView
+  nameWithType: GameManager.gameView
 - uid: Global.GameManager.globalView
   name: globalView
   href: api/Global.GameManager.html#Global_GameManager_globalView
   commentId: F:Global.GameManager.globalView
   fullName: GameManager.globalView
   nameWithType: GameManager.globalView
+- uid: Global.GameManager.instance
+  name: instance
+  href: api/Global.GameManager.html#Global_GameManager_instance
+  commentId: F:Global.GameManager.instance
+  fullName: GameManager.instance
+  nameWithType: GameManager.instance
+- uid: Global.GameManager.levelUpView
+  name: levelUpView
+  href: api/Global.GameManager.html#Global_GameManager_levelUpView
+  commentId: F:Global.GameManager.levelUpView
+  fullName: GameManager.levelUpView
+  nameWithType: GameManager.levelUpView
 - uid: Global.GameManager.loadingView
   name: loadingView
   href: api/Global.GameManager.html#Global_GameManager_loadingView
   commentId: F:Global.GameManager.loadingView
   fullName: GameManager.loadingView
   nameWithType: GameManager.loadingView
+- uid: Global.GameOverView
+  name: GameOverView
+  href: api/Global.GameOverView.html
+  commentId: T:Global.GameOverView
+  fullName: GameOverView
+  nameWithType: GameOverView
+- uid: Global.GameOverView.AddListener
+  name: AddListener()
+  href: api/Global.GameOverView.html#Global_GameOverView_AddListener
+  commentId: M:Global.GameOverView.AddListener
+  fullName: GameOverView.AddListener()
+  nameWithType: GameOverView.AddListener()
+- uid: Global.GameOverView.AddListener*
+  name: AddListener
+  href: api/Global.GameOverView.html#Global_GameOverView_AddListener_
+  commentId: Overload:Global.GameOverView.AddListener
+  isSpec: "True"
+  fullName: GameOverView.AddListener
+  nameWithType: GameOverView.AddListener
+- uid: Global.GameOverView.RealRefresh
+  name: RealRefresh()
+  href: api/Global.GameOverView.html#Global_GameOverView_RealRefresh
+  commentId: M:Global.GameOverView.RealRefresh
+  fullName: GameOverView.RealRefresh()
+  nameWithType: GameOverView.RealRefresh()
+- uid: Global.GameOverView.RealRefresh*
+  name: RealRefresh
+  href: api/Global.GameOverView.html#Global_GameOverView_RealRefresh_
+  commentId: Overload:Global.GameOverView.RealRefresh
+  isSpec: "True"
+  fullName: GameOverView.RealRefresh
+  nameWithType: GameOverView.RealRefresh
+- uid: Global.GameOverView.RemoveListener
+  name: RemoveListener()
+  href: api/Global.GameOverView.html#Global_GameOverView_RemoveListener
+  commentId: M:Global.GameOverView.RemoveListener
+  fullName: GameOverView.RemoveListener()
+  nameWithType: GameOverView.RemoveListener()
+- uid: Global.GameOverView.RemoveListener*
+  name: RemoveListener
+  href: api/Global.GameOverView.html#Global_GameOverView_RemoveListener_
+  commentId: Overload:Global.GameOverView.RemoveListener
+  isSpec: "True"
+  fullName: GameOverView.RemoveListener
+  nameWithType: GameOverView.RemoveListener
+- uid: Global.GameOverView.Restart
+  name: Restart()
+  href: api/Global.GameOverView.html#Global_GameOverView_Restart
+  commentId: M:Global.GameOverView.Restart
+  fullName: GameOverView.Restart()
+  nameWithType: GameOverView.Restart()
+- uid: Global.GameOverView.Restart*
+  name: Restart
+  href: api/Global.GameOverView.html#Global_GameOverView_Restart_
+  commentId: Overload:Global.GameOverView.Restart
+  isSpec: "True"
+  fullName: GameOverView.Restart
+  nameWithType: GameOverView.Restart
+- uid: Global.GameOverView.restartText
+  name: restartText
+  href: api/Global.GameOverView.html#Global_GameOverView_restartText
+  commentId: F:Global.GameOverView.restartText
+  fullName: GameOverView.restartText
+  nameWithType: GameOverView.restartText
+- uid: Global.GameOverView.titleText
+  name: titleText
+  href: api/Global.GameOverView.html#Global_GameOverView_titleText
+  commentId: F:Global.GameOverView.titleText
+  fullName: GameOverView.titleText
+  nameWithType: GameOverView.titleText
 - uid: Global.GameView
   name: GameView
   href: api/Global.GameView.html
@@ -1003,19 +1158,19 @@ references:
   commentId: T:Global.LanguageConfig
   fullName: LanguageConfig
   nameWithType: LanguageConfig
-- uid: Global.LanguageConfig.DataNameList
-  name: DataNameList
-  href: api/Global.LanguageConfig.html#Global_LanguageConfig_DataNameList
-  commentId: P:Global.LanguageConfig.DataNameList
-  fullName: LanguageConfig.DataNameList
-  nameWithType: LanguageConfig.DataNameList
-- uid: Global.LanguageConfig.DataNameList*
-  name: DataNameList
-  href: api/Global.LanguageConfig.html#Global_LanguageConfig_DataNameList_
-  commentId: Overload:Global.LanguageConfig.DataNameList
+- uid: Global.LanguageConfig.ConfigNameList
+  name: ConfigNameList
+  href: api/Global.LanguageConfig.html#Global_LanguageConfig_ConfigNameList
+  commentId: P:Global.LanguageConfig.ConfigNameList
+  fullName: LanguageConfig.ConfigNameList
+  nameWithType: LanguageConfig.ConfigNameList
+- uid: Global.LanguageConfig.ConfigNameList*
+  name: ConfigNameList
+  href: api/Global.LanguageConfig.html#Global_LanguageConfig_ConfigNameList_
+  commentId: Overload:Global.LanguageConfig.ConfigNameList
   isSpec: "True"
-  fullName: LanguageConfig.DataNameList
-  nameWithType: LanguageConfig.DataNameList
+  fullName: LanguageConfig.ConfigNameList
+  nameWithType: LanguageConfig.ConfigNameList
 - uid: Global.LanguageConfigItem
   name: LanguageConfigItem
   href: api/Global.LanguageConfigItem.html
@@ -1166,12 +1321,12 @@ references:
   commentId: T:Global.MapController
   fullName: MapController
   nameWithType: MapController
-- uid: Global.MapController.enemyPrefabList
-  name: enemyPrefabList
-  href: api/Global.MapController.html#Global_MapController_enemyPrefabList
-  commentId: F:Global.MapController.enemyPrefabList
-  fullName: MapController.enemyPrefabList
-  nameWithType: MapController.enemyPrefabList
+- uid: Global.MapController.autoCreateUnitList
+  name: autoCreateUnitList
+  href: api/Global.MapController.html#Global_MapController_autoCreateUnitList
+  commentId: F:Global.MapController.autoCreateUnitList
+  fullName: MapController.autoCreateUnitList
+  nameWithType: MapController.autoCreateUnitList
 - uid: Global.MapController.playerController
   name: playerController
   href: api/Global.MapController.html#Global_MapController_playerController
@@ -1245,19 +1400,19 @@ references:
   commentId: T:Global.PlatformCommonConfig
   fullName: PlatformCommonConfig
   nameWithType: PlatformCommonConfig
-- uid: Global.PlatformCommonConfig.DataNameList
-  name: DataNameList
-  href: api/Global.PlatformCommonConfig.html#Global_PlatformCommonConfig_DataNameList
-  commentId: P:Global.PlatformCommonConfig.DataNameList
-  fullName: PlatformCommonConfig.DataNameList
-  nameWithType: PlatformCommonConfig.DataNameList
-- uid: Global.PlatformCommonConfig.DataNameList*
-  name: DataNameList
-  href: api/Global.PlatformCommonConfig.html#Global_PlatformCommonConfig_DataNameList_
-  commentId: Overload:Global.PlatformCommonConfig.DataNameList
+- uid: Global.PlatformCommonConfig.ConfigNameList
+  name: ConfigNameList
+  href: api/Global.PlatformCommonConfig.html#Global_PlatformCommonConfig_ConfigNameList
+  commentId: P:Global.PlatformCommonConfig.ConfigNameList
+  fullName: PlatformCommonConfig.ConfigNameList
+  nameWithType: PlatformCommonConfig.ConfigNameList
+- uid: Global.PlatformCommonConfig.ConfigNameList*
+  name: ConfigNameList
+  href: api/Global.PlatformCommonConfig.html#Global_PlatformCommonConfig_ConfigNameList_
+  commentId: Overload:Global.PlatformCommonConfig.ConfigNameList
   isSpec: "True"
-  fullName: PlatformCommonConfig.DataNameList
-  nameWithType: PlatformCommonConfig.DataNameList
+  fullName: PlatformCommonConfig.ConfigNameList
+  nameWithType: PlatformCommonConfig.ConfigNameList
 - uid: Global.PlatformCommonConfigItem
   name: PlatformCommonConfigItem
   href: api/Global.PlatformCommonConfigItem.html
@@ -1467,6 +1622,58 @@ references:
   commentId: T:Global.PlayerController
   fullName: PlayerController
   nameWithType: PlayerController
+- uid: Global.PlayerController.OnAttack(InputAction.CallbackContext)
+  name: OnAttack(InputAction.CallbackContext)
+  href: api/Global.PlayerController.html#Global_PlayerController_OnAttack_InputAction_CallbackContext_
+  commentId: M:Global.PlayerController.OnAttack(InputAction.CallbackContext)
+  fullName: PlayerController.OnAttack(InputAction.CallbackContext)
+  nameWithType: PlayerController.OnAttack(InputAction.CallbackContext)
+- uid: Global.PlayerController.OnAttack*
+  name: OnAttack
+  href: api/Global.PlayerController.html#Global_PlayerController_OnAttack_
+  commentId: Overload:Global.PlayerController.OnAttack
+  isSpec: "True"
+  fullName: PlayerController.OnAttack
+  nameWithType: PlayerController.OnAttack
+- uid: Global.PlayerController.OnHeavyAttack(InputAction.CallbackContext)
+  name: OnHeavyAttack(InputAction.CallbackContext)
+  href: api/Global.PlayerController.html#Global_PlayerController_OnHeavyAttack_InputAction_CallbackContext_
+  commentId: M:Global.PlayerController.OnHeavyAttack(InputAction.CallbackContext)
+  fullName: PlayerController.OnHeavyAttack(InputAction.CallbackContext)
+  nameWithType: PlayerController.OnHeavyAttack(InputAction.CallbackContext)
+- uid: Global.PlayerController.OnHeavyAttack*
+  name: OnHeavyAttack
+  href: api/Global.PlayerController.html#Global_PlayerController_OnHeavyAttack_
+  commentId: Overload:Global.PlayerController.OnHeavyAttack
+  isSpec: "True"
+  fullName: PlayerController.OnHeavyAttack
+  nameWithType: PlayerController.OnHeavyAttack
+- uid: Global.PlayerController.OnMove(InputAction.CallbackContext)
+  name: OnMove(InputAction.CallbackContext)
+  href: api/Global.PlayerController.html#Global_PlayerController_OnMove_InputAction_CallbackContext_
+  commentId: M:Global.PlayerController.OnMove(InputAction.CallbackContext)
+  fullName: PlayerController.OnMove(InputAction.CallbackContext)
+  nameWithType: PlayerController.OnMove(InputAction.CallbackContext)
+- uid: Global.PlayerController.OnMove*
+  name: OnMove
+  href: api/Global.PlayerController.html#Global_PlayerController_OnMove_
+  commentId: Overload:Global.PlayerController.OnMove
+  isSpec: "True"
+  fullName: PlayerController.OnMove
+  nameWithType: PlayerController.OnMove
+- uid: Global.PlayerController.Start
+  name: Start()
+  href: api/Global.PlayerController.html#Global_PlayerController_Start
+  commentId: M:Global.PlayerController.Start
+  fullName: PlayerController.Start()
+  nameWithType: PlayerController.Start()
+- uid: Global.PlayerController.Start*
+  name: Start
+  href: api/Global.PlayerController.html#Global_PlayerController_Start_
+  commentId: Overload:Global.PlayerController.Start
+  isSpec: "True"
+  fullName: PlayerController.Start
+  nameWithType: PlayerController.Start
 - uid: Global.PlayView
   name: PlayView
   href: api/Global.PlayView.html
@@ -1754,19 +1961,119 @@ references:
   commentId: T:Global.SkillController
   fullName: SkillController
   nameWithType: SkillController
-- uid: Global.SkillController.OnSkill0Learnd(Unit,Skill)
-  name: OnSkill0Learnd(Unit, Skill)
-  href: api/Global.SkillController.html#Global_SkillController_OnSkill0Learnd_Unit_Skill_
-  commentId: M:Global.SkillController.OnSkill0Learnd(Unit,Skill)
-  fullName: SkillController.OnSkill0Learnd(Unit, Skill)
-  nameWithType: SkillController.OnSkill0Learnd(Unit, Skill)
-- uid: Global.SkillController.OnSkill0Learnd*
-  name: OnSkill0Learnd
-  href: api/Global.SkillController.html#Global_SkillController_OnSkill0Learnd_
-  commentId: Overload:Global.SkillController.OnSkill0Learnd
+- uid: Global.SkillController.animator
+  name: animator
+  href: api/Global.SkillController.html#Global_SkillController_animator
+  commentId: F:Global.SkillController.animator
+  fullName: SkillController.animator
+  nameWithType: SkillController.animator
+- uid: Global.SkillController.Config
+  name: Config
+  href: api/Global.SkillController.html#Global_SkillController_Config
+  commentId: P:Global.SkillController.Config
+  fullName: SkillController.Config
+  nameWithType: SkillController.Config
+- uid: Global.SkillController.Config*
+  name: Config
+  href: api/Global.SkillController.html#Global_SkillController_Config_
+  commentId: Overload:Global.SkillController.Config
   isSpec: "True"
-  fullName: SkillController.OnSkill0Learnd
-  nameWithType: SkillController.OnSkill0Learnd
+  fullName: SkillController.Config
+  nameWithType: SkillController.Config
+- uid: Global.SkillController.Data
+  name: Data
+  href: api/Global.SkillController.html#Global_SkillController_Data
+  commentId: P:Global.SkillController.Data
+  fullName: SkillController.Data
+  nameWithType: SkillController.Data
+- uid: Global.SkillController.Data*
+  name: Data
+  href: api/Global.SkillController.html#Global_SkillController_Data_
+  commentId: Overload:Global.SkillController.Data
+  isSpec: "True"
+  fullName: SkillController.Data
+  nameWithType: SkillController.Data
+- uid: Global.SkillController.Direction
+  name: Direction
+  href: api/Global.SkillController.html#Global_SkillController_Direction
+  commentId: P:Global.SkillController.Direction
+  fullName: SkillController.Direction
+  nameWithType: SkillController.Direction
+- uid: Global.SkillController.Direction*
+  name: Direction
+  href: api/Global.SkillController.html#Global_SkillController_Direction_
+  commentId: Overload:Global.SkillController.Direction
+  isSpec: "True"
+  fullName: SkillController.Direction
+  nameWithType: SkillController.Direction
+- uid: Global.SkillController.Duration
+  name: Duration
+  href: api/Global.SkillController.html#Global_SkillController_Duration
+  commentId: P:Global.SkillController.Duration
+  fullName: SkillController.Duration
+  nameWithType: SkillController.Duration
+- uid: Global.SkillController.Duration*
+  name: Duration
+  href: api/Global.SkillController.html#Global_SkillController_Duration_
+  commentId: Overload:Global.SkillController.Duration
+  isSpec: "True"
+  fullName: SkillController.Duration
+  nameWithType: SkillController.Duration
+- uid: Global.SkillController.MoveSpeed
+  name: MoveSpeed
+  href: api/Global.SkillController.html#Global_SkillController_MoveSpeed
+  commentId: P:Global.SkillController.MoveSpeed
+  fullName: SkillController.MoveSpeed
+  nameWithType: SkillController.MoveSpeed
+- uid: Global.SkillController.MoveSpeed*
+  name: MoveSpeed
+  href: api/Global.SkillController.html#Global_SkillController_MoveSpeed_
+  commentId: Overload:Global.SkillController.MoveSpeed
+  isSpec: "True"
+  fullName: SkillController.MoveSpeed
+  nameWithType: SkillController.MoveSpeed
+- uid: Global.SkillController.rb
+  name: rb
+  href: api/Global.SkillController.html#Global_SkillController_rb
+  commentId: F:Global.SkillController.rb
+  fullName: SkillController.rb
+  nameWithType: SkillController.rb
+- uid: Global.SkillController.user
+  name: user
+  href: api/Global.SkillController.html#Global_SkillController_user
+  commentId: F:Global.SkillController.user
+  fullName: SkillController.user
+  nameWithType: SkillController.user
+- uid: Global.SkillMoveType
+  name: SkillMoveType
+  href: api/Global.SkillMoveType.html
+  commentId: T:Global.SkillMoveType
+  fullName: SkillMoveType
+  nameWithType: SkillMoveType
+- uid: Global.SkillMoveType.Bind
+  name: Bind
+  href: api/Global.SkillMoveType.html#Global_SkillMoveType_Bind
+  commentId: F:Global.SkillMoveType.Bind
+  fullName: SkillMoveType.Bind
+  nameWithType: SkillMoveType.Bind
+- uid: Global.SkillMoveType.Directional
+  name: Directional
+  href: api/Global.SkillMoveType.html#Global_SkillMoveType_Directional
+  commentId: F:Global.SkillMoveType.Directional
+  fullName: SkillMoveType.Directional
+  nameWithType: SkillMoveType.Directional
+- uid: Global.SkillMoveType.Fixed
+  name: Fixed
+  href: api/Global.SkillMoveType.html#Global_SkillMoveType_Fixed
+  commentId: F:Global.SkillMoveType.Fixed
+  fullName: SkillMoveType.Fixed
+  nameWithType: SkillMoveType.Fixed
+- uid: Global.SkillMoveType.Follow
+  name: Follow
+  href: api/Global.SkillMoveType.html#Global_SkillMoveType_Follow
+  commentId: F:Global.SkillMoveType.Follow
+  fullName: SkillMoveType.Follow
+  nameWithType: SkillMoveType.Follow
 - uid: Global.SkillsConfig
   name: SkillsConfig
   href: api/Global.SkillsConfig.html
@@ -1779,6 +2086,12 @@ references:
   commentId: T:Global.SkillsConfigItem
   fullName: SkillsConfigItem
   nameWithType: SkillsConfigItem
+- uid: Global.SkillsConfigItem.allowMultipleAnimations
+  name: allowMultipleAnimations
+  href: api/Global.SkillsConfigItem.html#Global_SkillsConfigItem_allowMultipleAnimations
+  commentId: F:Global.SkillsConfigItem.allowMultipleAnimations
+  fullName: SkillsConfigItem.allowMultipleAnimations
+  nameWithType: SkillsConfigItem.allowMultipleAnimations
 - uid: Global.SkillsConfigItem.beforeDead
   name: beforeDead
   href: api/Global.SkillsConfigItem.html#Global_SkillsConfigItem_beforeDead
@@ -1845,6 +2158,19 @@ references:
   commentId: F:Global.SkillsConfigItem.bonusSPD_P
   fullName: SkillsConfigItem.bonusSPD_P
   nameWithType: SkillsConfigItem.bonusSPD_P
+- uid: Global.SkillsConfigItem.CreateController(Skill,UnitController,Transform)
+  name: CreateController(Skill, UnitController, Transform)
+  href: api/Global.SkillsConfigItem.html#Global_SkillsConfigItem_CreateController_Skill_UnitController_Transform_
+  commentId: M:Global.SkillsConfigItem.CreateController(Skill,UnitController,Transform)
+  fullName: SkillsConfigItem.CreateController(Skill, UnitController, Transform)
+  nameWithType: SkillsConfigItem.CreateController(Skill, UnitController, Transform)
+- uid: Global.SkillsConfigItem.CreateController*
+  name: CreateController
+  href: api/Global.SkillsConfigItem.html#Global_SkillsConfigItem_CreateController_
+  commentId: Overload:Global.SkillsConfigItem.CreateController
+  isSpec: "True"
+  fullName: SkillsConfigItem.CreateController
+  nameWithType: SkillsConfigItem.CreateController
 - uid: Global.SkillsConfigItem.disableAttack
   name: disableAttack
   href: api/Global.SkillsConfigItem.html#Global_SkillsConfigItem_disableAttack
@@ -1857,18 +2183,42 @@ references:
   commentId: F:Global.SkillsConfigItem.disableMove
   fullName: SkillsConfigItem.disableMove
   nameWithType: SkillsConfigItem.disableMove
+- uid: Global.SkillsConfigItem.duration
+  name: duration
+  href: api/Global.SkillsConfigItem.html#Global_SkillsConfigItem_duration
+  commentId: F:Global.SkillsConfigItem.duration
+  fullName: SkillsConfigItem.duration
+  nameWithType: SkillsConfigItem.duration
 - uid: Global.SkillsConfigItem.hideInMenu
   name: hideInMenu
   href: api/Global.SkillsConfigItem.html#Global_SkillsConfigItem_hideInMenu
   commentId: F:Global.SkillsConfigItem.hideInMenu
   fullName: SkillsConfigItem.hideInMenu
   nameWithType: SkillsConfigItem.hideInMenu
+- uid: Global.SkillsConfigItem.moveSpeed
+  name: moveSpeed
+  href: api/Global.SkillsConfigItem.html#Global_SkillsConfigItem_moveSpeed
+  commentId: F:Global.SkillsConfigItem.moveSpeed
+  fullName: SkillsConfigItem.moveSpeed
+  nameWithType: SkillsConfigItem.moveSpeed
+- uid: Global.SkillsConfigItem.moveType
+  name: moveType
+  href: api/Global.SkillsConfigItem.html#Global_SkillsConfigItem_moveType
+  commentId: F:Global.SkillsConfigItem.moveType
+  fullName: SkillsConfigItem.moveType
+  nameWithType: SkillsConfigItem.moveType
 - uid: Global.SkillsConfigItem.onAttacked
   name: onAttacked
   href: api/Global.SkillsConfigItem.html#Global_SkillsConfigItem_onAttacked
   commentId: F:Global.SkillsConfigItem.onAttacked
   fullName: SkillsConfigItem.onAttacked
   nameWithType: SkillsConfigItem.onAttacked
+- uid: Global.SkillsConfigItem.onCustomTriggered
+  name: onCustomTriggered
+  href: api/Global.SkillsConfigItem.html#Global_SkillsConfigItem_onCustomTriggered
+  commentId: F:Global.SkillsConfigItem.onCustomTriggered
+  fullName: SkillsConfigItem.onCustomTriggered
+  nameWithType: SkillsConfigItem.onCustomTriggered
 - uid: Global.SkillsConfigItem.onDamaged
   name: onDamaged
   href: api/Global.SkillsConfigItem.html#Global_SkillsConfigItem_onDamaged
@@ -1887,12 +2237,66 @@ references:
   commentId: F:Global.SkillsConfigItem.onLearned
   fullName: SkillsConfigItem.onLearned
   nameWithType: SkillsConfigItem.onLearned
+- uid: Global.SkillsConfigItem.onTriggered
+  name: onTriggered
+  href: api/Global.SkillsConfigItem.html#Global_SkillsConfigItem_onTriggered
+  commentId: F:Global.SkillsConfigItem.onTriggered
+  fullName: SkillsConfigItem.onTriggered
+  nameWithType: SkillsConfigItem.onTriggered
 - uid: Global.SkillsConfigItem.onUsed
   name: onUsed
   href: api/Global.SkillsConfigItem.html#Global_SkillsConfigItem_onUsed
   commentId: F:Global.SkillsConfigItem.onUsed
   fullName: SkillsConfigItem.onUsed
   nameWithType: SkillsConfigItem.onUsed
+- uid: Global.SkillUtils
+  name: SkillUtils
+  href: api/Global.SkillUtils.html
+  commentId: T:Global.SkillUtils
+  fullName: SkillUtils
+  nameWithType: SkillUtils
+- uid: Global.SkillUtils.OnSkill0CustomTriggered(Unit,SkillController)
+  name: OnSkill0CustomTriggered(Unit, SkillController)
+  href: api/Global.SkillUtils.html#Global_SkillUtils_OnSkill0CustomTriggered_Unit_SkillController_
+  commentId: M:Global.SkillUtils.OnSkill0CustomTriggered(Unit,SkillController)
+  fullName: SkillUtils.OnSkill0CustomTriggered(Unit, SkillController)
+  nameWithType: SkillUtils.OnSkill0CustomTriggered(Unit, SkillController)
+- uid: Global.SkillUtils.OnSkill0CustomTriggered*
+  name: OnSkill0CustomTriggered
+  href: api/Global.SkillUtils.html#Global_SkillUtils_OnSkill0CustomTriggered_
+  commentId: Overload:Global.SkillUtils.OnSkill0CustomTriggered
+  isSpec: "True"
+  fullName: SkillUtils.OnSkill0CustomTriggered
+  nameWithType: SkillUtils.OnSkill0CustomTriggered
+- uid: Global.SkillUtils.OnSkill0Learnd(Unit,Skill)
+  name: OnSkill0Learnd(Unit, Skill)
+  href: api/Global.SkillUtils.html#Global_SkillUtils_OnSkill0Learnd_Unit_Skill_
+  commentId: M:Global.SkillUtils.OnSkill0Learnd(Unit,Skill)
+  fullName: SkillUtils.OnSkill0Learnd(Unit, Skill)
+  nameWithType: SkillUtils.OnSkill0Learnd(Unit, Skill)
+- uid: Global.SkillUtils.OnSkill0Learnd*
+  name: OnSkill0Learnd
+  href: api/Global.SkillUtils.html#Global_SkillUtils_OnSkill0Learnd_
+  commentId: Overload:Global.SkillUtils.OnSkill0Learnd
+  isSpec: "True"
+  fullName: SkillUtils.OnSkill0Learnd
+  nameWithType: SkillUtils.OnSkill0Learnd
+- uid: Global.SkillUtils.OnSkill0Triggered(Unit,System.Collections.Generic.List{Unit},SkillController)
+  name: OnSkill0Triggered(Unit, List<Unit>, SkillController)
+  href: api/Global.SkillUtils.html#Global_SkillUtils_OnSkill0Triggered_Unit_System_Collections_Generic_List_Unit__SkillController_
+  commentId: M:Global.SkillUtils.OnSkill0Triggered(Unit,System.Collections.Generic.List{Unit},SkillController)
+  name.vb: OnSkill0Triggered(Unit, List(Of Unit), SkillController)
+  fullName: SkillUtils.OnSkill0Triggered(Unit, System.Collections.Generic.List<Unit>, SkillController)
+  fullName.vb: SkillUtils.OnSkill0Triggered(Unit, System.Collections.Generic.List(Of Unit), SkillController)
+  nameWithType: SkillUtils.OnSkill0Triggered(Unit, List<Unit>, SkillController)
+  nameWithType.vb: SkillUtils.OnSkill0Triggered(Unit, List(Of Unit), SkillController)
+- uid: Global.SkillUtils.OnSkill0Triggered*
+  name: OnSkill0Triggered
+  href: api/Global.SkillUtils.html#Global_SkillUtils_OnSkill0Triggered_
+  commentId: Overload:Global.SkillUtils.OnSkill0Triggered
+  isSpec: "True"
+  fullName: SkillUtils.OnSkill0Triggered
+  nameWithType: SkillUtils.OnSkill0Triggered
 - uid: Global.State
   name: State
   href: api/Global.State.html
@@ -2237,6 +2641,18 @@ references:
   isSpec: "True"
   fullName: SystemSettings.SEVolume
   nameWithType: SystemSettings.SEVolume
+- uid: Global.Test
+  name: Test
+  href: api/Global.Test.html
+  commentId: T:Global.Test
+  fullName: Test
+  nameWithType: Test
+- uid: Global.Test.clip
+  name: clip
+  href: api/Global.Test.html#Global_Test_clip
+  commentId: F:Global.Test.clip
+  fullName: Test.clip
+  nameWithType: Test.clip
 - uid: Global.TitleView
   name: TitleView
   href: api/Global.TitleView.html
@@ -2391,19 +2807,6 @@ references:
   isSpec: "True"
   fullName: Unit.ATK
   nameWithType: Unit.ATK
-- uid: Global.Unit.Attack(Unit)
-  name: Attack(Unit)
-  href: api/Global.Unit.html#Global_Unit_Attack_Unit_
-  commentId: M:Global.Unit.Attack(Unit)
-  fullName: Unit.Attack(Unit)
-  nameWithType: Unit.Attack(Unit)
-- uid: Global.Unit.Attack*
-  name: Attack
-  href: api/Global.Unit.html#Global_Unit_Attack_
-  commentId: Overload:Global.Unit.Attack
-  isSpec: "True"
-  fullName: Unit.Attack
-  nameWithType: Unit.Attack
 - uid: Global.Unit.BasicATK
   name: BasicATK
   href: api/Global.Unit.html#Global_Unit_BasicATK
@@ -2644,6 +3047,19 @@ references:
   commentId: F:Global.Unit.configID
   fullName: Unit.configID
   nameWithType: Unit.configID
+- uid: Global.Unit.Controller
+  name: Controller
+  href: api/Global.Unit.html#Global_Unit_Controller
+  commentId: P:Global.Unit.Controller
+  fullName: Unit.Controller
+  nameWithType: Unit.Controller
+- uid: Global.Unit.Controller*
+  name: Controller
+  href: api/Global.Unit.html#Global_Unit_Controller_
+  commentId: Overload:Global.Unit.Controller
+  isSpec: "True"
+  fullName: Unit.Controller
+  nameWithType: Unit.Controller
 - uid: Global.Unit.Damage(Unit,DamageInfo)
   name: Damage(Unit, DamageInfo)
   href: api/Global.Unit.html#Global_Unit_Damage_Unit_DamageInfo_
@@ -2767,6 +3183,19 @@ references:
   isSpec: "True"
   fullName: Unit.HP
   nameWithType: Unit.HP
+- uid: Global.Unit.Init
+  name: Init()
+  href: api/Global.Unit.html#Global_Unit_Init
+  commentId: M:Global.Unit.Init
+  fullName: Unit.Init()
+  nameWithType: Unit.Init()
+- uid: Global.Unit.Init*
+  name: Init
+  href: api/Global.Unit.html#Global_Unit_Init_
+  commentId: Overload:Global.Unit.Init
+  isSpec: "True"
+  fullName: Unit.Init
+  nameWithType: Unit.Init
 - uid: Global.Unit.IsAttackDisabled
   name: IsAttackDisabled
   href: api/Global.Unit.html#Global_Unit_IsAttackDisabled
@@ -2793,6 +3222,19 @@ references:
   isSpec: "True"
   fullName: Unit.IsMoveDisabled
   nameWithType: Unit.IsMoveDisabled
+- uid: Global.Unit.IsPlayer
+  name: IsPlayer
+  href: api/Global.Unit.html#Global_Unit_IsPlayer
+  commentId: P:Global.Unit.IsPlayer
+  fullName: Unit.IsPlayer
+  nameWithType: Unit.IsPlayer
+- uid: Global.Unit.IsPlayer*
+  name: IsPlayer
+  href: api/Global.Unit.html#Global_Unit_IsPlayer_
+  commentId: Overload:Global.Unit.IsPlayer
+  isSpec: "True"
+  fullName: Unit.IsPlayer
+  nameWithType: Unit.IsPlayer
 - uid: Global.Unit.LearnSkill(Skill)
   name: LearnSkill(Skill)
   href: api/Global.Unit.html#Global_Unit_LearnSkill_Skill_
@@ -2934,36 +3376,108 @@ references:
   commentId: T:Global.UnitController
   fullName: UnitController
   nameWithType: UnitController
-- uid: Global.UnitController.attackEffect
-  name: attackEffect
-  href: api/Global.UnitController.html#Global_UnitController_attackEffect
-  commentId: F:Global.UnitController.attackEffect
-  fullName: UnitController.attackEffect
-  nameWithType: UnitController.attackEffect
-- uid: Global.UnitController.data
-  name: data
-  href: api/Global.UnitController.html#Global_UnitController_data
-  commentId: F:Global.UnitController.data
-  fullName: UnitController.data
-  nameWithType: UnitController.data
+- uid: Global.UnitController.animator
+  name: animator
+  href: api/Global.UnitController.html#Global_UnitController_animator
+  commentId: F:Global.UnitController.animator
+  fullName: UnitController.animator
+  nameWithType: UnitController.animator
+- uid: Global.UnitController.Config
+  name: Config
+  href: api/Global.UnitController.html#Global_UnitController_Config
+  commentId: P:Global.UnitController.Config
+  fullName: UnitController.Config
+  nameWithType: UnitController.Config
+- uid: Global.UnitController.Config*
+  name: Config
+  href: api/Global.UnitController.html#Global_UnitController_Config_
+  commentId: Overload:Global.UnitController.Config
+  isSpec: "True"
+  fullName: UnitController.Config
+  nameWithType: UnitController.Config
+- uid: Global.UnitController.Data
+  name: Data
+  href: api/Global.UnitController.html#Global_UnitController_Data
+  commentId: P:Global.UnitController.Data
+  fullName: UnitController.Data
+  nameWithType: UnitController.Data
+- uid: Global.UnitController.Data*
+  name: Data
+  href: api/Global.UnitController.html#Global_UnitController_Data_
+  commentId: Overload:Global.UnitController.Data
+  isSpec: "True"
+  fullName: UnitController.Data
+  nameWithType: UnitController.Data
+- uid: Global.UnitController.FixedUpdate
+  name: FixedUpdate()
+  href: api/Global.UnitController.html#Global_UnitController_FixedUpdate
+  commentId: M:Global.UnitController.FixedUpdate
+  fullName: UnitController.FixedUpdate()
+  nameWithType: UnitController.FixedUpdate()
+- uid: Global.UnitController.FixedUpdate*
+  name: FixedUpdate
+  href: api/Global.UnitController.html#Global_UnitController_FixedUpdate_
+  commentId: Overload:Global.UnitController.FixedUpdate
+  isSpec: "True"
+  fullName: UnitController.FixedUpdate
+  nameWithType: UnitController.FixedUpdate
 - uid: Global.UnitController.movement
   name: movement
   href: api/Global.UnitController.html#Global_UnitController_movement
   commentId: F:Global.UnitController.movement
   fullName: UnitController.movement
   nameWithType: UnitController.movement
+- uid: Global.UnitController.PlayDamageEffect
+  name: PlayDamageEffect()
+  href: api/Global.UnitController.html#Global_UnitController_PlayDamageEffect
+  commentId: M:Global.UnitController.PlayDamageEffect
+  fullName: UnitController.PlayDamageEffect()
+  nameWithType: UnitController.PlayDamageEffect()
+- uid: Global.UnitController.PlayDamageEffect*
+  name: PlayDamageEffect
+  href: api/Global.UnitController.html#Global_UnitController_PlayDamageEffect_
+  commentId: Overload:Global.UnitController.PlayDamageEffect
+  isSpec: "True"
+  fullName: UnitController.PlayDamageEffect
+  nameWithType: UnitController.PlayDamageEffect
 - uid: Global.UnitController.rb
   name: rb
   href: api/Global.UnitController.html#Global_UnitController_rb
   commentId: F:Global.UnitController.rb
   fullName: UnitController.rb
   nameWithType: UnitController.rb
-- uid: Global.UnitController.unitID
-  name: unitID
-  href: api/Global.UnitController.html#Global_UnitController_unitID
-  commentId: F:Global.UnitController.unitID
-  fullName: UnitController.unitID
-  nameWithType: UnitController.unitID
+- uid: Global.UnitController.Start
+  name: Start()
+  href: api/Global.UnitController.html#Global_UnitController_Start
+  commentId: M:Global.UnitController.Start
+  fullName: UnitController.Start()
+  nameWithType: UnitController.Start()
+- uid: Global.UnitController.Start*
+  name: Start
+  href: api/Global.UnitController.html#Global_UnitController_Start_
+  commentId: Overload:Global.UnitController.Start
+  isSpec: "True"
+  fullName: UnitController.Start
+  nameWithType: UnitController.Start
+- uid: Global.UnitController.UseSkill(Skill,System.Int32)
+  name: UseSkill(Skill, Int32)
+  href: api/Global.UnitController.html#Global_UnitController_UseSkill_Skill_System_Int32_
+  commentId: M:Global.UnitController.UseSkill(Skill,System.Int32)
+  fullName: UnitController.UseSkill(Skill, System.Int32)
+  nameWithType: UnitController.UseSkill(Skill, Int32)
+- uid: Global.UnitController.UseSkill(Skill,System.String)
+  name: UseSkill(Skill, String)
+  href: api/Global.UnitController.html#Global_UnitController_UseSkill_Skill_System_String_
+  commentId: M:Global.UnitController.UseSkill(Skill,System.String)
+  fullName: UnitController.UseSkill(Skill, System.String)
+  nameWithType: UnitController.UseSkill(Skill, String)
+- uid: Global.UnitController.UseSkill*
+  name: UseSkill
+  href: api/Global.UnitController.html#Global_UnitController_UseSkill_
+  commentId: Overload:Global.UnitController.UseSkill
+  isSpec: "True"
+  fullName: UnitController.UseSkill
+  nameWithType: UnitController.UseSkill
 - uid: Global.UnitsConfig
   name: UnitsConfig
   href: api/Global.UnitsConfig.html
@@ -2994,6 +3508,19 @@ references:
   commentId: F:Global.UnitsConfigItem.attackType
   fullName: UnitsConfigItem.attackType
   nameWithType: UnitsConfigItem.attackType
+- uid: Global.UnitsConfigItem.CreateController(Transform)
+  name: CreateController(Transform)
+  href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_CreateController_Transform_
+  commentId: M:Global.UnitsConfigItem.CreateController(Transform)
+  fullName: UnitsConfigItem.CreateController(Transform)
+  nameWithType: UnitsConfigItem.CreateController(Transform)
+- uid: Global.UnitsConfigItem.CreateController*
+  name: CreateController
+  href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_CreateController_
+  commentId: Overload:Global.UnitsConfigItem.CreateController
+  isSpec: "True"
+  fullName: UnitsConfigItem.CreateController
+  nameWithType: UnitsConfigItem.CreateController
 - uid: Global.UnitsConfigItem.damageType
   name: damageType
   href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_damageType
@@ -3032,6 +3559,12 @@ references:
   commentId: F:Global.UnitsConfigItem.defaultMaxToughness
   fullName: UnitsConfigItem.defaultMaxToughness
   nameWithType: UnitsConfigItem.defaultMaxToughness
+- uid: Global.UnitsConfigItem.defaultSkillList
+  name: defaultSkillList
+  href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_defaultSkillList
+  commentId: F:Global.UnitsConfigItem.defaultSkillList
+  fullName: UnitsConfigItem.defaultSkillList
+  nameWithType: UnitsConfigItem.defaultSkillList
 - uid: Global.UnitsConfigItem.defaultSPD
   name: defaultSPD
   href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_defaultSPD
@@ -3086,12 +3619,12 @@ references:
   commentId: F:Global.UnitsConfigItem.moveType
   fullName: UnitsConfigItem.moveType
   nameWithType: UnitsConfigItem.moveType
-- uid: Global.UnitsConfigItem.nextLevelIDList
-  name: nextLevelIDList
-  href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_nextLevelIDList
-  commentId: F:Global.UnitsConfigItem.nextLevelIDList
-  fullName: UnitsConfigItem.nextLevelIDList
-  nameWithType: UnitsConfigItem.nextLevelIDList
+- uid: Global.UnitsConfigItem.nextLevelUnitList
+  name: nextLevelUnitList
+  href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_nextLevelUnitList
+  commentId: F:Global.UnitsConfigItem.nextLevelUnitList
+  fullName: UnitsConfigItem.nextLevelUnitList
+  nameWithType: UnitsConfigItem.nextLevelUnitList
 - uid: Global.UnitsConfigItem.onInit
   name: onInit
   href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_onInit

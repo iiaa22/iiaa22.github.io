@@ -115,11 +115,37 @@ public class SkillsConfigItem : BaseConfigItem</code></pre>
   </h3>
   
   
+  <h4 id="Global_SkillsConfigItem_allowMultipleAnimations" data-uid="Global.SkillsConfigItem.allowMultipleAnimations">allowMultipleAnimations</h4>
+  <div class="markdown level1 summary"><p>允许创建多个动画
+若设置此项，建议把持续时间调整为0以上，否则会很消耗性能</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool allowMultipleAnimations</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Global_SkillsConfigItem_beforeDead" data-uid="Global.SkillsConfigItem.beforeDead">beforeDead</h4>
   <div class="markdown level1 summary"><p>死亡前事件
 参数1：攻击者
 参数2：受击者
-参数3：触发的技能
+参数3：受击者触发的技能
 参数4：伤害信息</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -444,6 +470,31 @@ public class SkillsConfigItem : BaseConfigItem</code></pre>
   </table>
   
   
+  <h4 id="Global_SkillsConfigItem_duration" data-uid="Global.SkillsConfigItem.duration">duration</h4>
+  <div class="markdown level1 summary"><p>持续时间（秒）（0代表无限时间）</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float duration</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Global_SkillsConfigItem_hideInMenu" data-uid="Global.SkillsConfigItem.hideInMenu">hideInMenu</h4>
   <div class="markdown level1 summary"><p>是否在菜单中隐藏</p>
 </div>
@@ -469,11 +520,61 @@ public class SkillsConfigItem : BaseConfigItem</code></pre>
   </table>
   
   
+  <h4 id="Global_SkillsConfigItem_moveSpeed" data-uid="Global.SkillsConfigItem.moveSpeed">moveSpeed</h4>
+  <div class="markdown level1 summary"><p>移动速度</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float moveSpeed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_SkillsConfigItem_moveType" data-uid="Global.SkillsConfigItem.moveType">moveType</h4>
+  <div class="markdown level1 summary"><p>移动类型</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SkillMoveType moveType</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.SkillMoveType.html">SkillMoveType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Global_SkillsConfigItem_onAttacked" data-uid="Global.SkillsConfigItem.onAttacked">onAttacked</h4>
   <div class="markdown level1 summary"><p>受到攻击事件
 参数1：攻击者
 参数2：受击者
-参数3：触发的技能
+参数3：受击者触发的技能
 参数4：伤害信息</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -498,11 +599,39 @@ public class SkillsConfigItem : BaseConfigItem</code></pre>
   </table>
   
   
+  <h4 id="Global_SkillsConfigItem_onCustomTriggered" data-uid="Global.SkillsConfigItem.onCustomTriggered">onCustomTriggered</h4>
+  <div class="markdown level1 summary"><p>技能自定义触发事件
+可以在动画中主动触发该事件
+参数1：使用的单位
+参数2：使用的技能控制器</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent&lt;Unit, SkillController&gt; onCustomTriggered</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEvent</span>&lt;<a class="xref" href="Global.Unit.html">Unit</a>, <a class="xref" href="Global.SkillController.html">SkillController</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Global_SkillsConfigItem_onDamaged" data-uid="Global.SkillsConfigItem.onDamaged">onDamaged</h4>
   <div class="markdown level1 summary"><p>受到伤害事件
 参数1：攻击者
 参数2：受击者
-参数3：触发的技能
+参数3：受击者触发的技能
 参数4：伤害信息</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -581,15 +710,16 @@ public class SkillsConfigItem : BaseConfigItem</code></pre>
   </table>
   
   
-  <h4 id="Global_SkillsConfigItem_onUsed" data-uid="Global.SkillsConfigItem.onUsed">onUsed</h4>
-  <div class="markdown level1 summary"><p>技能使用事件
+  <h4 id="Global_SkillsConfigItem_onTriggered" data-uid="Global.SkillsConfigItem.onTriggered">onTriggered</h4>
+  <div class="markdown level1 summary"><p>技能触发事件
 参数1：使用的单位
-参数2：使用的技能</p>
+参数2：触发的单位
+参数3：触发的技能控制器</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityEvent&lt;Unit, Skill&gt; onUsed</code></pre>
+    <pre><code class="lang-csharp hljs">public UnityEvent&lt;Unit, List&lt;Unit&gt;, SkillController&gt; onTriggered</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -601,8 +731,95 @@ public class SkillsConfigItem : BaseConfigItem</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityEvent</span>&lt;<a class="xref" href="Global.Unit.html">Unit</a>, <a class="xref" href="Global.Skill.html">Skill</a>&gt;</td>
+        <td><span class="xref">UnityEvent</span>&lt;<a class="xref" href="Global.Unit.html">Unit</a>, <span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Global.Unit.html">Unit</a>&gt;, <a class="xref" href="Global.SkillController.html">SkillController</a>&gt;</td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_SkillsConfigItem_onUsed" data-uid="Global.SkillsConfigItem.onUsed">onUsed</h4>
+  <div class="markdown level1 summary"><p>技能使用事件
+参数1：使用的单位
+参数2：使用的技能控制器</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnityEvent&lt;Unit, SkillController&gt; onUsed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEvent</span>&lt;<a class="xref" href="Global.Unit.html">Unit</a>, <a class="xref" href="Global.SkillController.html">SkillController</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Global_SkillsConfigItem_CreateController_" data-uid="Global.SkillsConfigItem.CreateController*"></a>
+  <h4 id="Global_SkillsConfigItem_CreateController_Skill_UnitController_Transform_" data-uid="Global.SkillsConfigItem.CreateController(Skill,UnitController,Transform)">CreateController(Skill, UnitController, Transform)</h4>
+  <div class="markdown level1 summary"><p>创建控制器。
+与单位控制器不同的是，技能控制器和技能数据并非强绑定关系，一个技能数据可以创建多个控制器。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SkillController CreateController(Skill skill, UnitController user, Transform parent = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.Skill.html">Skill</a></td>
+        <td><span class="parametername">skill</span></td>
+        <td><p>技能</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Global.UnitController.html">UnitController</a></td>
+        <td><span class="parametername">user</span></td>
+        <td><p>使用者</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td><span class="parametername">parent</span></td>
+        <td><p>父对象</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.SkillController.html">SkillController</a></td>
+        <td><p>控制器</p>
+</td>
       </tr>
     </tbody>
   </table>

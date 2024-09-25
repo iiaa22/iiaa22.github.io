@@ -102,12 +102,12 @@
   </h3>
   
   
-  <h4 id="Global_UnitController_attackEffect" data-uid="Global.UnitController.attackEffect">attackEffect</h4>
+  <h4 id="Global_UnitController_animator" data-uid="Global.UnitController.animator">animator</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AttackEffect attackEffect</code></pre>
+    <pre><code class="lang-csharp hljs">public Animator animator</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -119,32 +119,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.AttackEffect.html">AttackEffect</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_UnitController_data" data-uid="Global.UnitController.data">data</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[NonSerialized]
-public Unit data</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Global.Unit.html">Unit</a></td>
+        <td><span class="xref">Animator</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -197,16 +172,19 @@ public Unit data</code></pre>
       </tr>
     </tbody>
   </table>
+  <h3 id="properties">Properties
+  </h3>
   
   
-  <h4 id="Global_UnitController_unitID" data-uid="Global.UnitController.unitID">unitID</h4>
+  <a id="Global_UnitController_Config_" data-uid="Global.UnitController.Config*"></a>
+  <h4 id="Global_UnitController_Config" data-uid="Global.UnitController.Config">Config</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int unitID</code></pre>
+    <pre><code class="lang-csharp hljs">public UnitsConfigItem Config { get; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -216,8 +194,135 @@ public Unit data</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><a class="xref" href="Global.UnitsConfigItem.html">UnitsConfigItem</a></td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_UnitController_Data_" data-uid="Global.UnitController.Data*"></a>
+  <h4 id="Global_UnitController_Data" data-uid="Global.UnitController.Data">Data</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Unit Data { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.Unit.html">Unit</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Global_UnitController_FixedUpdate_" data-uid="Global.UnitController.FixedUpdate*"></a>
+  <h4 id="Global_UnitController_FixedUpdate" data-uid="Global.UnitController.FixedUpdate">FixedUpdate()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void FixedUpdate()</code></pre>
+  </div>
+  
+  
+  <a id="Global_UnitController_PlayDamageEffect_" data-uid="Global.UnitController.PlayDamageEffect*"></a>
+  <h4 id="Global_UnitController_PlayDamageEffect" data-uid="Global.UnitController.PlayDamageEffect">PlayDamageEffect()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void PlayDamageEffect()</code></pre>
+  </div>
+  
+  
+  <a id="Global_UnitController_Start_" data-uid="Global.UnitController.Start*"></a>
+  <h4 id="Global_UnitController_Start" data-uid="Global.UnitController.Start">Start()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Start()</code></pre>
+  </div>
+  
+  
+  <a id="Global_UnitController_UseSkill_" data-uid="Global.UnitController.UseSkill*"></a>
+  <h4 id="Global_UnitController_UseSkill_Skill_System_Int32_" data-uid="Global.UnitController.UseSkill(Skill,System.Int32)">UseSkill(Skill, Int32)</h4>
+  <div class="markdown level1 summary"><p>使用技能。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UseSkill(Skill skill, int variantID = -1)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.Skill.html">Skill</a></td>
+        <td><span class="parametername">skill</span></td>
+        <td><p>技能</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">variantID</span></td>
+        <td><p>变体ID，若ID无效则随机释放（默认）</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_UnitController_UseSkill_" data-uid="Global.UnitController.UseSkill*"></a>
+  <h4 id="Global_UnitController_UseSkill_Skill_System_String_" data-uid="Global.UnitController.UseSkill(Skill,System.String)">UseSkill(Skill, String)</h4>
+  <div class="markdown level1 summary"><p>使用技能。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UseSkill(Skill skill, string variantName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.Skill.html">Skill</a></td>
+        <td><span class="parametername">skill</span></td>
+        <td><p>技能</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">variantName</span></td>
+        <td><p>变体名称（Variant开头），若名称无效则随机释放</p>
+</td>
       </tr>
     </tbody>
   </table>
