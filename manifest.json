@@ -220,7 +220,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.GameManager.html",
-          "hash": "X1xpKIQ2CwnUPSTC6t+VKT0PxxaH4OLRK2XsoF06WRc="
+          "hash": "6AHk2FPEErsJ5KEUY2U3rCc1PR7IbSXnh3cdmhj+axA="
         }
       },
       "is_incremental": false,
@@ -340,7 +340,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.MapController.html",
-          "hash": "y9R5nd6PL9RHcsMFE0A4MczYTibSBoh5kvVxYIMc5EY="
+          "hash": "AYGgFq2BcPy8tIRZRQkXevW0exp51MmZscLz/MpRNV4="
         }
       },
       "is_incremental": false,
@@ -460,7 +460,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.PlayerController.html",
-          "hash": "f6snYBNPTW7MhcbwEyxUZV2z0YdmB3fAymRT/LQllQ0="
+          "hash": "6Rhi1gDTLwAZ7bDsBqyz/ZixPoUfS/TraVD/5GZSM4U="
         }
       },
       "is_incremental": false,
@@ -664,7 +664,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.UnitController.html",
-          "hash": "O9xDrVWFaYCd8St6FTb1umIUr2v5qaD/oC7fw4t3jr8="
+          "hash": "A0cXSajALnZsrWv8yYvW7+zGmlVjVkfEwc02BwZ3cF4="
         }
       },
       "is_incremental": false,

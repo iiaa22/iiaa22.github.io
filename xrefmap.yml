@@ -962,6 +962,12 @@ references:
   commentId: F:Global.GameManager.loadingView
   fullName: GameManager.loadingView
   nameWithType: GameManager.loadingView
+- uid: Global.GameManager.map
+  name: map
+  href: api/Global.GameManager.html#Global_GameManager_map
+  commentId: F:Global.GameManager.map
+  fullName: GameManager.map
+  nameWithType: GameManager.map
 - uid: Global.GameOverView
   name: GameOverView
   href: api/Global.GameOverView.html
@@ -1327,12 +1333,18 @@ references:
   commentId: F:Global.MapController.autoCreateUnitList
   fullName: MapController.autoCreateUnitList
   nameWithType: MapController.autoCreateUnitList
-- uid: Global.MapController.playerController
-  name: playerController
-  href: api/Global.MapController.html#Global_MapController_playerController
-  commentId: F:Global.MapController.playerController
-  fullName: MapController.playerController
-  nameWithType: MapController.playerController
+- uid: Global.MapController.createDuration
+  name: createDuration
+  href: api/Global.MapController.html#Global_MapController_createDuration
+  commentId: F:Global.MapController.createDuration
+  fullName: MapController.createDuration
+  nameWithType: MapController.createDuration
+- uid: Global.MapController.player
+  name: player
+  href: api/Global.MapController.html#Global_MapController_player
+  commentId: F:Global.MapController.player
+  fullName: MapController.player
+  nameWithType: MapController.player
 - uid: Global.MoveType
   name: MoveType
   href: api/Global.MoveType.html
@@ -1635,6 +1647,19 @@ references:
   isSpec: "True"
   fullName: PlayerController.OnAttack
   nameWithType: PlayerController.OnAttack
+- uid: Global.PlayerController.OnDestroy
+  name: OnDestroy()
+  href: api/Global.PlayerController.html#Global_PlayerController_OnDestroy
+  commentId: M:Global.PlayerController.OnDestroy
+  fullName: PlayerController.OnDestroy()
+  nameWithType: PlayerController.OnDestroy()
+- uid: Global.PlayerController.OnDestroy*
+  name: OnDestroy
+  href: api/Global.PlayerController.html#Global_PlayerController_OnDestroy_
+  commentId: Overload:Global.PlayerController.OnDestroy
+  isSpec: "True"
+  fullName: PlayerController.OnDestroy
+  nameWithType: PlayerController.OnDestroy
 - uid: Global.PlayerController.OnHeavyAttack(InputAction.CallbackContext)
   name: OnHeavyAttack(InputAction.CallbackContext)
   href: api/Global.PlayerController.html#Global_PlayerController_OnHeavyAttack_InputAction_CallbackContext_
@@ -3440,6 +3465,19 @@ references:
   commentId: F:Global.UnitController.movement
   fullName: UnitController.movement
   nameWithType: UnitController.movement
+- uid: Global.UnitController.OnDestroy
+  name: OnDestroy()
+  href: api/Global.UnitController.html#Global_UnitController_OnDestroy
+  commentId: M:Global.UnitController.OnDestroy
+  fullName: UnitController.OnDestroy()
+  nameWithType: UnitController.OnDestroy()
+- uid: Global.UnitController.OnDestroy*
+  name: OnDestroy
+  href: api/Global.UnitController.html#Global_UnitController_OnDestroy_
+  commentId: Overload:Global.UnitController.OnDestroy
+  isSpec: "True"
+  fullName: UnitController.OnDestroy
+  nameWithType: UnitController.OnDestroy
 - uid: Global.UnitController.PlayDamageEffect
   name: PlayDamageEffect()
   href: api/Global.UnitController.html#Global_UnitController_PlayDamageEffect
@@ -3472,6 +3510,19 @@ references:
   isSpec: "True"
   fullName: UnitController.Start
   nameWithType: UnitController.Start
+- uid: Global.UnitController.Update
+  name: Update()
+  href: api/Global.UnitController.html#Global_UnitController_Update
+  commentId: M:Global.UnitController.Update
+  fullName: UnitController.Update()
+  nameWithType: UnitController.Update()
+- uid: Global.UnitController.Update*
+  name: Update
+  href: api/Global.UnitController.html#Global_UnitController_Update_
+  commentId: Overload:Global.UnitController.Update
+  isSpec: "True"
+  fullName: UnitController.Update
+  nameWithType: UnitController.Update
 - uid: Global.UnitController.UseSkill(Skill,System.Int32)
   name: UseSkill(Skill, Int32)
   href: api/Global.UnitController.html#Global_UnitController_UseSkill_Skill_System_Int32_
