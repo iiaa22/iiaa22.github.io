@@ -279,48 +279,13 @@
   
   
   <a id="Global_UnitController_UseSkill_" data-uid="Global.UnitController.UseSkill*"></a>
-  <h4 id="Global_UnitController_UseSkill_Skill_System_Int32_" data-uid="Global.UnitController.UseSkill(Skill,System.Int32)">UseSkill(Skill, Int32)</h4>
+  <h4 id="Global_UnitController_UseSkill_Skill_System_String_System_Int32_" data-uid="Global.UnitController.UseSkill(Skill,System.String,System.Int32)">UseSkill(Skill, String, Int32)</h4>
   <div class="markdown level1 summary"><p>使用技能。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void UseSkill(Skill skill, int variantID = -1)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Global.Skill.html">Skill</a></td>
-        <td><span class="parametername">skill</span></td>
-        <td><p>技能</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">variantID</span></td>
-        <td><p>变体ID，若ID无效则随机释放（默认）</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Global_UnitController_UseSkill_" data-uid="Global.UnitController.UseSkill*"></a>
-  <h4 id="Global_UnitController_UseSkill_Skill_System_String_" data-uid="Global.UnitController.UseSkill(Skill,System.String)">UseSkill(Skill, String)</h4>
-  <div class="markdown level1 summary"><p>使用技能。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void UseSkill(Skill skill, string variantName)</code></pre>
+    <pre><code class="lang-csharp hljs">public SkillController UseSkill(Skill skill, string variantName = &quot;&quot;, int combo = 0)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -342,6 +307,28 @@
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">variantName</span></td>
         <td><p>变体名称（Variant开头），若名称无效则随机释放</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">combo</span></td>
+        <td><p>当前连段，仅对主角有效</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.SkillController.html">SkillController</a></td>
+        <td><p>技能控制器</p>
 </td>
       </tr>
     </tbody>

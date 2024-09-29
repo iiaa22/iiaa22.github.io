@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class PlatformManager
+    <title>Struct Player.ComboInfo
    | &#22612;&#38450;&#28216;&#25103;API&#25991;&#26723; </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class PlatformManager
+    <meta name="title" content="Struct Player.ComboInfo
    | &#22612;&#38450;&#28216;&#25103;API&#25991;&#26723; ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,39 +78,34 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.PlatformManager">
+            <article class="content wrap" id="_content" data-uid="Global.Player.ComboInfo">
   
   
-  <h1 id="Global_PlatformManager" data-uid="Global.PlatformManager" class="text-break">Class PlatformManager
+  <h1 id="Global_Player_ComboInfo" data-uid="Global.Player.ComboInfo" class="text-break">Struct Player.ComboInfo
   </h1>
-  <div class="markdown level0 summary"><p>平台管理器。</p>
+  <div class="markdown level0 summary"><p>连段信息</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">PlatformManager</span></div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Global_PlatformManager_syntax">Syntax</h5>
+  <h5 id="Global_Player_ComboInfo_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class PlatformManager</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public struct ComboInfo</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="fields">Fields
   </h3>
   
   
-  <a id="Global_PlatformManager_Current_" data-uid="Global.PlatformManager.Current*"></a>
-  <h4 id="Global_PlatformManager_Current" data-uid="Global.PlatformManager.Current">Current</h4>
-  <div class="markdown level1 summary"><p>当前平台。</p>
+  <h4 id="Global_Player_ComboInfo_comboID" data-uid="Global.Player.ComboInfo.comboID">comboID</h4>
+  <div class="markdown level1 summary"><p>连段序号</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static PlatformType Current { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int comboID</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -120,35 +115,61 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.PlatformType.html">PlatformType</a></td>
+        <td><span class="xref">System.Int32</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-  </h3>
   
   
-  <a id="Global_PlatformManager_ExitGame_" data-uid="Global.PlatformManager.ExitGame*"></a>
-  <h4 id="Global_PlatformManager_ExitGame" data-uid="Global.PlatformManager.ExitGame">ExitGame()</h4>
-  <div class="markdown level1 summary"><p>退出游戏。</p>
+  <h4 id="Global_Player_ComboInfo_skillConfigID" data-uid="Global.Player.ComboInfo.skillConfigID">skillConfigID</h4>
+  <div class="markdown level1 summary"><p>技能配置项ID</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void ExitGame()</code></pre>
+    <pre><code class="lang-csharp hljs">public int skillConfigID</code></pre>
   </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
-  <a id="Global_PlatformManager_Init_" data-uid="Global.PlatformManager.Init*"></a>
-  <h4 id="Global_PlatformManager_Init" data-uid="Global.PlatformManager.Init">Init()</h4>
-  <div class="markdown level1 summary"><p>初始化管理器。</p>
+  <h4 id="Global_Player_ComboInfo_variantName" data-uid="Global.Player.ComboInfo.variantName">variantName</h4>
+  <div class="markdown level1 summary"><p>变体名称</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void Init()</code></pre>
+    <pre><code class="lang-csharp hljs">public string variantName</code></pre>
   </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

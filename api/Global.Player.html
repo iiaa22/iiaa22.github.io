@@ -118,15 +118,6 @@
       <a class="xref" href="Global.Unit.html#Global_Unit_Init">Unit.Init()</a>
     </div>
     <div>
-      <a class="xref" href="Global.Unit.html#Global_Unit_AddListener">Unit.AddListener()</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.Unit.html#Global_Unit_BeforeSave">Unit.BeforeSave()</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.Unit.html#Global_Unit_AfterLoad">Unit.AfterLoad()</a>
-    </div>
-    <div>
       <a class="xref" href="Global.Unit.html#Global_Unit_IsPlayer">Unit.IsPlayer</a>
     </div>
     <div>
@@ -217,9 +208,6 @@
       <a class="xref" href="Global.Unit.html#Global_Unit_ERS">Unit.ERS</a>
     </div>
     <div>
-      <a class="xref" href="Global.Unit.html#Global_Unit_GetSkills">Unit.GetSkills()</a>
-    </div>
-    <div>
       <a class="xref" href="Global.Unit.html#Global_Unit_LearnSkill_Skill_">Unit.LearnSkill(Skill)</a>
     </div>
     <div>
@@ -271,6 +259,32 @@ public class Player : Unit</code></pre>
   </div>
   <h3 id="properties">Properties
   </h3>
+  
+  
+  <a id="Global_Player_ComboInfoList_" data-uid="Global.Player.ComboInfoList*"></a>
+  <h4 id="Global_Player_ComboInfoList" data-uid="Global.Player.ComboInfoList">ComboInfoList</h4>
+  <div class="markdown level1 summary"><p>连段信息列表。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;Player.ComboInfo&gt; ComboInfoList { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ObservableCollection</span>&lt;<a class="xref" href="Global.Player.ComboInfo.html">Player.ComboInfo</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="Global_Player_EquippedCount_" data-uid="Global.Player.EquippedCount*"></a>
@@ -325,6 +339,42 @@ public class Player : Unit</code></pre>
   </table>
   <h3 id="methods">Methods
   </h3>
+  
+  
+  <a id="Global_Player_AddListener_" data-uid="Global.Player.AddListener*"></a>
+  <h4 id="Global_Player_AddListener" data-uid="Global.Player.AddListener">AddListener()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void AddListener()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Global.Unit.html#Global_Unit_AddListener">Unit.AddListener()</a></div>
+  
+  
+  <a id="Global_Player_AfterLoad_" data-uid="Global.Player.AfterLoad*"></a>
+  <h4 id="Global_Player_AfterLoad" data-uid="Global.Player.AfterLoad">AfterLoad()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void AfterLoad()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Global.Unit.html#Global_Unit_AfterLoad">Unit.AfterLoad()</a></div>
+  
+  
+  <a id="Global_Player_BeforeSave_" data-uid="Global.Player.BeforeSave*"></a>
+  <h4 id="Global_Player_BeforeSave" data-uid="Global.Player.BeforeSave">BeforeSave()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void BeforeSave()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Global.Unit.html#Global_Unit_BeforeSave">Unit.BeforeSave()</a></div>
   
   
   <a id="Global_Player_EquipUnit_" data-uid="Global.Player.EquipUnit*"></a>
@@ -479,6 +529,33 @@ public class Player : Unit</code></pre>
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="Global_Player_GetSkills_" data-uid="Global.Player.GetSkills*"></a>
+  <h4 id="Global_Player_GetSkills" data-uid="Global.Player.GetSkills">GetSkills()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override List&lt;Skill&gt; GetSkills()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Global.Skill.html">Skill</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Global.Unit.html#Global_Unit_GetSkills">Unit.GetSkills()</a></div>
   
   
   <a id="Global_Player_LostUnit_" data-uid="Global.Player.LostUnit*"></a>

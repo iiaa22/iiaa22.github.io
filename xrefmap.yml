@@ -926,6 +926,12 @@ references:
   commentId: T:Global.GameManager
   fullName: GameManager
   nameWithType: GameManager
+- uid: Global.GameManager.cursor
+  name: cursor
+  href: api/Global.GameManager.html#Global_GameManager_cursor
+  commentId: F:Global.GameManager.cursor
+  fullName: GameManager.cursor
+  nameWithType: GameManager.cursor
 - uid: Global.GameManager.gameOverView
   name: gameOverView
   href: api/Global.GameManager.html#Global_GameManager_gameOverView
@@ -1126,6 +1132,25 @@ references:
   isSpec: "True"
   fullName: GlobalView.AddListener
   nameWithType: GlobalView.AddListener
+- uid: Global.GlobalView.cursorEffect
+  name: cursorEffect
+  href: api/Global.GlobalView.html#Global_GlobalView_cursorEffect
+  commentId: F:Global.GlobalView.cursorEffect
+  fullName: GlobalView.cursorEffect
+  nameWithType: GlobalView.cursorEffect
+- uid: Global.GlobalView.OnChangeCursor(InputAction.CallbackContext)
+  name: OnChangeCursor(InputAction.CallbackContext)
+  href: api/Global.GlobalView.html#Global_GlobalView_OnChangeCursor_InputAction_CallbackContext_
+  commentId: M:Global.GlobalView.OnChangeCursor(InputAction.CallbackContext)
+  fullName: GlobalView.OnChangeCursor(InputAction.CallbackContext)
+  nameWithType: GlobalView.OnChangeCursor(InputAction.CallbackContext)
+- uid: Global.GlobalView.OnChangeCursor*
+  name: OnChangeCursor
+  href: api/Global.GlobalView.html#Global_GlobalView_OnChangeCursor_
+  commentId: Overload:Global.GlobalView.OnChangeCursor
+  isSpec: "True"
+  fullName: GlobalView.OnChangeCursor
+  nameWithType: GlobalView.OnChangeCursor
 - uid: Global.GlobalView.popWindow
   name: popWindow
   href: api/Global.GlobalView.html#Global_GlobalView_popWindow
@@ -1474,6 +1499,19 @@ references:
   isSpec: "True"
   fullName: PlatformManager.Current
   nameWithType: PlatformManager.Current
+- uid: Global.PlatformManager.ExitGame
+  name: ExitGame()
+  href: api/Global.PlatformManager.html#Global_PlatformManager_ExitGame
+  commentId: M:Global.PlatformManager.ExitGame
+  fullName: PlatformManager.ExitGame()
+  nameWithType: PlatformManager.ExitGame()
+- uid: Global.PlatformManager.ExitGame*
+  name: ExitGame
+  href: api/Global.PlatformManager.html#Global_PlatformManager_ExitGame_
+  commentId: Overload:Global.PlatformManager.ExitGame
+  isSpec: "True"
+  fullName: PlatformManager.ExitGame
+  nameWithType: PlatformManager.ExitGame
 - uid: Global.PlatformManager.Init
   name: Init()
   href: api/Global.PlatformManager.html#Global_PlatformManager_Init
@@ -1518,6 +1556,82 @@ references:
   isSpec: "True"
   fullName: Player.Player
   nameWithType: Player.Player
+- uid: Global.Player.AddListener
+  name: AddListener()
+  href: api/Global.Player.html#Global_Player_AddListener
+  commentId: M:Global.Player.AddListener
+  fullName: Player.AddListener()
+  nameWithType: Player.AddListener()
+- uid: Global.Player.AddListener*
+  name: AddListener
+  href: api/Global.Player.html#Global_Player_AddListener_
+  commentId: Overload:Global.Player.AddListener
+  isSpec: "True"
+  fullName: Player.AddListener
+  nameWithType: Player.AddListener
+- uid: Global.Player.AfterLoad
+  name: AfterLoad()
+  href: api/Global.Player.html#Global_Player_AfterLoad
+  commentId: M:Global.Player.AfterLoad
+  fullName: Player.AfterLoad()
+  nameWithType: Player.AfterLoad()
+- uid: Global.Player.AfterLoad*
+  name: AfterLoad
+  href: api/Global.Player.html#Global_Player_AfterLoad_
+  commentId: Overload:Global.Player.AfterLoad
+  isSpec: "True"
+  fullName: Player.AfterLoad
+  nameWithType: Player.AfterLoad
+- uid: Global.Player.BeforeSave
+  name: BeforeSave()
+  href: api/Global.Player.html#Global_Player_BeforeSave
+  commentId: M:Global.Player.BeforeSave
+  fullName: Player.BeforeSave()
+  nameWithType: Player.BeforeSave()
+- uid: Global.Player.BeforeSave*
+  name: BeforeSave
+  href: api/Global.Player.html#Global_Player_BeforeSave_
+  commentId: Overload:Global.Player.BeforeSave
+  isSpec: "True"
+  fullName: Player.BeforeSave
+  nameWithType: Player.BeforeSave
+- uid: Global.Player.ComboInfo
+  name: Player.ComboInfo
+  href: api/Global.Player.ComboInfo.html
+  commentId: T:Global.Player.ComboInfo
+  fullName: Player.ComboInfo
+  nameWithType: Player.ComboInfo
+- uid: Global.Player.ComboInfo.comboID
+  name: comboID
+  href: api/Global.Player.ComboInfo.html#Global_Player_ComboInfo_comboID
+  commentId: F:Global.Player.ComboInfo.comboID
+  fullName: Player.ComboInfo.comboID
+  nameWithType: Player.ComboInfo.comboID
+- uid: Global.Player.ComboInfo.skillConfigID
+  name: skillConfigID
+  href: api/Global.Player.ComboInfo.html#Global_Player_ComboInfo_skillConfigID
+  commentId: F:Global.Player.ComboInfo.skillConfigID
+  fullName: Player.ComboInfo.skillConfigID
+  nameWithType: Player.ComboInfo.skillConfigID
+- uid: Global.Player.ComboInfo.variantName
+  name: variantName
+  href: api/Global.Player.ComboInfo.html#Global_Player_ComboInfo_variantName
+  commentId: F:Global.Player.ComboInfo.variantName
+  fullName: Player.ComboInfo.variantName
+  nameWithType: Player.ComboInfo.variantName
+- uid: Global.Player.ComboInfoList
+  name: ComboInfoList
+  href: api/Global.Player.html#Global_Player_ComboInfoList
+  commentId: P:Global.Player.ComboInfoList
+  fullName: Player.ComboInfoList
+  nameWithType: Player.ComboInfoList
+- uid: Global.Player.ComboInfoList*
+  name: ComboInfoList
+  href: api/Global.Player.html#Global_Player_ComboInfoList_
+  commentId: Overload:Global.Player.ComboInfoList
+  isSpec: "True"
+  fullName: Player.ComboInfoList
+  nameWithType: Player.ComboInfoList
 - uid: Global.Player.EquippedCount
   name: EquippedCount
   href: api/Global.Player.html#Global_Player_EquippedCount
@@ -1583,6 +1697,19 @@ references:
   isSpec: "True"
   fullName: Player.GetInventoryUnit
   nameWithType: Player.GetInventoryUnit
+- uid: Global.Player.GetSkills
+  name: GetSkills()
+  href: api/Global.Player.html#Global_Player_GetSkills
+  commentId: M:Global.Player.GetSkills
+  fullName: Player.GetSkills()
+  nameWithType: Player.GetSkills()
+- uid: Global.Player.GetSkills*
+  name: GetSkills
+  href: api/Global.Player.html#Global_Player_GetSkills_
+  commentId: Overload:Global.Player.GetSkills
+  isSpec: "True"
+  fullName: Player.GetSkills
+  nameWithType: Player.GetSkills
 - uid: Global.Player.InventoryCount
   name: InventoryCount
   href: api/Global.Player.html#Global_Player_InventoryCount
@@ -2710,6 +2837,25 @@ references:
   isSpec: "True"
   fullName: TitleView.AddListener
   nameWithType: TitleView.AddListener
+- uid: Global.TitleView.exitButtonText
+  name: exitButtonText
+  href: api/Global.TitleView.html#Global_TitleView_exitButtonText
+  commentId: F:Global.TitleView.exitButtonText
+  fullName: TitleView.exitButtonText
+  nameWithType: TitleView.exitButtonText
+- uid: Global.TitleView.ExitGame
+  name: ExitGame()
+  href: api/Global.TitleView.html#Global_TitleView_ExitGame
+  commentId: M:Global.TitleView.ExitGame
+  fullName: TitleView.ExitGame()
+  nameWithType: TitleView.ExitGame()
+- uid: Global.TitleView.ExitGame*
+  name: ExitGame
+  href: api/Global.TitleView.html#Global_TitleView_ExitGame_
+  commentId: Overload:Global.TitleView.ExitGame
+  isSpec: "True"
+  fullName: TitleView.ExitGame
+  nameWithType: TitleView.ExitGame
 - uid: Global.TitleView.loadButtonText
   name: loadButtonText
   href: api/Global.TitleView.html#Global_TitleView_loadButtonText
@@ -2729,6 +2875,19 @@ references:
   isSpec: "True"
   fullName: TitleView.LoadGame
   nameWithType: TitleView.LoadGame
+- uid: Global.TitleView.OpenSettingsView
+  name: OpenSettingsView()
+  href: api/Global.TitleView.html#Global_TitleView_OpenSettingsView
+  commentId: M:Global.TitleView.OpenSettingsView
+  fullName: TitleView.OpenSettingsView()
+  nameWithType: TitleView.OpenSettingsView()
+- uid: Global.TitleView.OpenSettingsView*
+  name: OpenSettingsView
+  href: api/Global.TitleView.html#Global_TitleView_OpenSettingsView_
+  commentId: Overload:Global.TitleView.OpenSettingsView
+  isSpec: "True"
+  fullName: TitleView.OpenSettingsView
+  nameWithType: TitleView.OpenSettingsView
 - uid: Global.TitleView.RealRefresh
   name: RealRefresh()
   href: api/Global.TitleView.html#Global_TitleView_RealRefresh
@@ -2755,6 +2914,12 @@ references:
   isSpec: "True"
   fullName: TitleView.RemoveListener
   nameWithType: TitleView.RemoveListener
+- uid: Global.TitleView.settingsButtonText
+  name: settingsButtonText
+  href: api/Global.TitleView.html#Global_TitleView_settingsButtonText
+  commentId: F:Global.TitleView.settingsButtonText
+  fullName: TitleView.settingsButtonText
+  nameWithType: TitleView.settingsButtonText
 - uid: Global.TitleView.startButtonText
   name: startButtonText
   href: api/Global.TitleView.html#Global_TitleView_startButtonText
@@ -3523,18 +3688,12 @@ references:
   isSpec: "True"
   fullName: UnitController.Update
   nameWithType: UnitController.Update
-- uid: Global.UnitController.UseSkill(Skill,System.Int32)
-  name: UseSkill(Skill, Int32)
-  href: api/Global.UnitController.html#Global_UnitController_UseSkill_Skill_System_Int32_
-  commentId: M:Global.UnitController.UseSkill(Skill,System.Int32)
-  fullName: UnitController.UseSkill(Skill, System.Int32)
-  nameWithType: UnitController.UseSkill(Skill, Int32)
-- uid: Global.UnitController.UseSkill(Skill,System.String)
-  name: UseSkill(Skill, String)
-  href: api/Global.UnitController.html#Global_UnitController_UseSkill_Skill_System_String_
-  commentId: M:Global.UnitController.UseSkill(Skill,System.String)
-  fullName: UnitController.UseSkill(Skill, System.String)
-  nameWithType: UnitController.UseSkill(Skill, String)
+- uid: Global.UnitController.UseSkill(Skill,System.String,System.Int32)
+  name: UseSkill(Skill, String, Int32)
+  href: api/Global.UnitController.html#Global_UnitController_UseSkill_Skill_System_String_System_Int32_
+  commentId: M:Global.UnitController.UseSkill(Skill,System.String,System.Int32)
+  fullName: UnitController.UseSkill(Skill, System.String, System.Int32)
+  nameWithType: UnitController.UseSkill(Skill, String, Int32)
 - uid: Global.UnitController.UseSkill*
   name: UseSkill
   href: api/Global.UnitController.html#Global_UnitController_UseSkill_

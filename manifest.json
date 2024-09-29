@@ -220,7 +220,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.GameManager.html",
-          "hash": "6AHk2FPEErsJ5KEUY2U3rCc1PR7IbSXnh3cdmhj+axA="
+          "hash": "0CkKcVodbf+4HUT+l1k8GkewCdHhCtJdQ9Zi6SXnlIY="
         }
       },
       "is_incremental": false,
@@ -256,7 +256,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.GlobalView.html",
-          "hash": "3dFK5PDApHG9aUaJElVbcjdgJYoDinDLL7O+08fcZqM="
+          "hash": "EFzuNHeK+6v8QBCb+SUruT0CzlQHubufSYO7XwZJwxw="
         }
       },
       "is_incremental": false,
@@ -412,7 +412,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.PlatformManager.html",
-          "hash": "4iJudQGLFU6oquQiY0EvCBuUWg8ReDT1AIzxSmUzOyI="
+          "hash": "++tMQP+jXxKbnEtGe5KwPyJkmE0OlG0AbeJXjKGXYH0="
         }
       },
       "is_incremental": false,
@@ -444,11 +444,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Global.Player.ComboInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.Player.ComboInfo.html",
+          "hash": "hAHyIJ5qsqhzIHaGPdMi6iP6p/eGnWvsMYwktsuLAJU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Global.Player.yml",
       "output": {
         ".html": {
           "relative_path": "api/Global.Player.html",
-          "hash": "DUOTxPYHQpkWoGlg/ZjUsC3bREccE8AjVsRaQDU3o3A="
+          "hash": "FDk9SLKPQpGomx0/5ZfXkatOiUZqq0pr/aISQCK2G/c="
         }
       },
       "is_incremental": false,
@@ -460,7 +472,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.PlayerController.html",
-          "hash": "6Rhi1gDTLwAZ7bDsBqyz/ZixPoUfS/TraVD/5GZSM4U="
+          "hash": "fOx0femiJuUNRTjF2Fov6rCbPP3WwuGrXe8Ap85l9z4="
         }
       },
       "is_incremental": false,
@@ -628,7 +640,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.TitleView.html",
-          "hash": "QG9ooRTgYaxaAJbOoEV8hHaFofmyPtzyAZfL2XgdiRU="
+          "hash": "ItTmyziX7pgmcpQm3C2JYUMdWLB0neQh/tBKSQnu4fI="
         }
       },
       "is_incremental": false,
@@ -652,7 +664,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.Unit.html",
-          "hash": "byvsaomSdMfowDh8KKhtbuIAV9b/CVnRqvAf5DKlMPY="
+          "hash": "x63YSo4MIzirwgFEG38p7yCrKphvv/u+eDiS9A522Jw="
         }
       },
       "is_incremental": false,
@@ -664,7 +676,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.UnitController.html",
-          "hash": "A0cXSajALnZsrWv8yYvW7+zGmlVjVkfEwc02BwZ3cF4="
+          "hash": "FiZbZMI7JiFTeikgQKQ0gB4Mgz106j6EjqS30lxMA6o="
         }
       },
       "is_incremental": false,
@@ -748,7 +760,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.html",
-          "hash": "N6KpucCb1zgd17moof5oxaMpNiOAMBBlvBSerUzGKmo="
+          "hash": "r8J+UIPQMfvtbkyefiTksOSWx2jqihvYB4S2umMw7qE="
         }
       },
       "is_incremental": false,
@@ -760,7 +772,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "cg201yvpQcwCoHTU4zjJNxU++qGEgbhMkZjXp469sOU="
+          "hash": "V+L5O52nkKJIPVCzCpDJa5WZauuKFBLaASPjsXCSaik="
         }
       },
       "is_incremental": false,
@@ -869,7 +881,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 61,
+          "total_file_count": 62,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
