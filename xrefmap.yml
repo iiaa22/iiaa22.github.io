@@ -2420,15 +2420,12 @@ references:
   isSpec: "True"
   fullName: SkillUtils.OnSkill0Learnd
   nameWithType: SkillUtils.OnSkill0Learnd
-- uid: Global.SkillUtils.OnSkill0Triggered(Unit,System.Collections.Generic.List{Unit},SkillController)
-  name: OnSkill0Triggered(Unit, List<Unit>, SkillController)
-  href: api/Global.SkillUtils.html#Global_SkillUtils_OnSkill0Triggered_Unit_System_Collections_Generic_List_Unit__SkillController_
-  commentId: M:Global.SkillUtils.OnSkill0Triggered(Unit,System.Collections.Generic.List{Unit},SkillController)
-  name.vb: OnSkill0Triggered(Unit, List(Of Unit), SkillController)
-  fullName: SkillUtils.OnSkill0Triggered(Unit, System.Collections.Generic.List<Unit>, SkillController)
-  fullName.vb: SkillUtils.OnSkill0Triggered(Unit, System.Collections.Generic.List(Of Unit), SkillController)
-  nameWithType: SkillUtils.OnSkill0Triggered(Unit, List<Unit>, SkillController)
-  nameWithType.vb: SkillUtils.OnSkill0Triggered(Unit, List(Of Unit), SkillController)
+- uid: Global.SkillUtils.OnSkill0Triggered(Unit,Unit,SkillController)
+  name: OnSkill0Triggered(Unit, Unit, SkillController)
+  href: api/Global.SkillUtils.html#Global_SkillUtils_OnSkill0Triggered_Unit_Unit_SkillController_
+  commentId: M:Global.SkillUtils.OnSkill0Triggered(Unit,Unit,SkillController)
+  fullName: SkillUtils.OnSkill0Triggered(Unit, Unit, SkillController)
+  nameWithType: SkillUtils.OnSkill0Triggered(Unit, Unit, SkillController)
 - uid: Global.SkillUtils.OnSkill0Triggered*
   name: OnSkill0Triggered
   href: api/Global.SkillUtils.html#Global_SkillUtils_OnSkill0Triggered_
@@ -2436,12 +2433,12 @@ references:
   isSpec: "True"
   fullName: SkillUtils.OnSkill0Triggered
   nameWithType: SkillUtils.OnSkill0Triggered
-- uid: Global.SkillUtils.OnSkillTriggered1(Unit,SkillController)
-  name: OnSkillTriggered1(Unit, SkillController)
-  href: api/Global.SkillUtils.html#Global_SkillUtils_OnSkillTriggered1_Unit_SkillController_
-  commentId: M:Global.SkillUtils.OnSkillTriggered1(Unit,SkillController)
-  fullName: SkillUtils.OnSkillTriggered1(Unit, SkillController)
-  nameWithType: SkillUtils.OnSkillTriggered1(Unit, SkillController)
+- uid: Global.SkillUtils.OnSkillTriggered1(Unit,SkillController,System.String)
+  name: OnSkillTriggered1(Unit, SkillController, String)
+  href: api/Global.SkillUtils.html#Global_SkillUtils_OnSkillTriggered1_Unit_SkillController_System_String_
+  commentId: M:Global.SkillUtils.OnSkillTriggered1(Unit,SkillController,System.String)
+  fullName: SkillUtils.OnSkillTriggered1(Unit, SkillController, System.String)
+  nameWithType: SkillUtils.OnSkillTriggered1(Unit, SkillController, String)
 - uid: Global.SkillUtils.OnSkillTriggered1*
   name: OnSkillTriggered1
   href: api/Global.SkillUtils.html#Global_SkillUtils_OnSkillTriggered1_
@@ -2449,12 +2446,12 @@ references:
   isSpec: "True"
   fullName: SkillUtils.OnSkillTriggered1
   nameWithType: SkillUtils.OnSkillTriggered1
-- uid: Global.SkillUtils.OnSkillTriggered2(Unit,SkillController)
-  name: OnSkillTriggered2(Unit, SkillController)
-  href: api/Global.SkillUtils.html#Global_SkillUtils_OnSkillTriggered2_Unit_SkillController_
-  commentId: M:Global.SkillUtils.OnSkillTriggered2(Unit,SkillController)
-  fullName: SkillUtils.OnSkillTriggered2(Unit, SkillController)
-  nameWithType: SkillUtils.OnSkillTriggered2(Unit, SkillController)
+- uid: Global.SkillUtils.OnSkillTriggered2(Unit,SkillController,System.String)
+  name: OnSkillTriggered2(Unit, SkillController, String)
+  href: api/Global.SkillUtils.html#Global_SkillUtils_OnSkillTriggered2_Unit_SkillController_System_String_
+  commentId: M:Global.SkillUtils.OnSkillTriggered2(Unit,SkillController,System.String)
+  fullName: SkillUtils.OnSkillTriggered2(Unit, SkillController, System.String)
+  nameWithType: SkillUtils.OnSkillTriggered2(Unit, SkillController, String)
 - uid: Global.SkillUtils.OnSkillTriggered2*
   name: OnSkillTriggered2
   href: api/Global.SkillUtils.html#Global_SkillUtils_OnSkillTriggered2_
@@ -2462,6 +2459,32 @@ references:
   isSpec: "True"
   fullName: SkillUtils.OnSkillTriggered2
   nameWithType: SkillUtils.OnSkillTriggered2
+- uid: Global.SkillUtils.ShowSkillEffect1(Unit,Unit,SkillController)
+  name: ShowSkillEffect1(Unit, Unit, SkillController)
+  href: api/Global.SkillUtils.html#Global_SkillUtils_ShowSkillEffect1_Unit_Unit_SkillController_
+  commentId: M:Global.SkillUtils.ShowSkillEffect1(Unit,Unit,SkillController)
+  fullName: SkillUtils.ShowSkillEffect1(Unit, Unit, SkillController)
+  nameWithType: SkillUtils.ShowSkillEffect1(Unit, Unit, SkillController)
+- uid: Global.SkillUtils.ShowSkillEffect1*
+  name: ShowSkillEffect1
+  href: api/Global.SkillUtils.html#Global_SkillUtils_ShowSkillEffect1_
+  commentId: Overload:Global.SkillUtils.ShowSkillEffect1
+  isSpec: "True"
+  fullName: SkillUtils.ShowSkillEffect1
+  nameWithType: SkillUtils.ShowSkillEffect1
+- uid: Global.SkillUtils.ShowSkillEffect2(Unit,Unit,SkillController)
+  name: ShowSkillEffect2(Unit, Unit, SkillController)
+  href: api/Global.SkillUtils.html#Global_SkillUtils_ShowSkillEffect2_Unit_Unit_SkillController_
+  commentId: M:Global.SkillUtils.ShowSkillEffect2(Unit,Unit,SkillController)
+  fullName: SkillUtils.ShowSkillEffect2(Unit, Unit, SkillController)
+  nameWithType: SkillUtils.ShowSkillEffect2(Unit, Unit, SkillController)
+- uid: Global.SkillUtils.ShowSkillEffect2*
+  name: ShowSkillEffect2
+  href: api/Global.SkillUtils.html#Global_SkillUtils_ShowSkillEffect2_
+  commentId: Overload:Global.SkillUtils.ShowSkillEffect2
+  isSpec: "True"
+  fullName: SkillUtils.ShowSkillEffect2
+  nameWithType: SkillUtils.ShowSkillEffect2
 - uid: Global.State
   name: State
   href: api/Global.State.html

@@ -134,13 +134,13 @@
   
   
   <a id="Global_SkillUtils_OnSkill0Triggered_" data-uid="Global.SkillUtils.OnSkill0Triggered*"></a>
-  <h4 id="Global_SkillUtils_OnSkill0Triggered_Unit_System_Collections_Generic_List_Unit__SkillController_" data-uid="Global.SkillUtils.OnSkill0Triggered(Unit,System.Collections.Generic.List{Unit},SkillController)">OnSkill0Triggered(Unit, List&lt;Unit&gt;, SkillController)</h4>
+  <h4 id="Global_SkillUtils_OnSkill0Triggered_Unit_Unit_SkillController_" data-uid="Global.SkillUtils.OnSkill0Triggered(Unit,Unit,SkillController)">OnSkill0Triggered(Unit, Unit, SkillController)</h4>
   <div class="markdown level1 summary"><p>普通攻击。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnSkill0Triggered(Unit attacker, List&lt;Unit&gt; targets, SkillController skillControlelr)</code></pre>
+    <pre><code class="lang-csharp hljs">public void OnSkill0Triggered(Unit attacker, Unit target, SkillController skillControlelr)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -159,10 +159,9 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Global.Unit.html">Unit</a>&gt;</td>
-        <td><span class="parametername">targets</span></td>
-        <td><p>触发的单位</p>
-</td>
+        <td><a class="xref" href="Global.Unit.html">Unit</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
       </tr>
       <tr>
         <td><a class="xref" href="Global.SkillController.html">SkillController</a></td>
@@ -175,12 +174,12 @@
   
   
   <a id="Global_SkillUtils_OnSkillTriggered1_" data-uid="Global.SkillUtils.OnSkillTriggered1*"></a>
-  <h4 id="Global_SkillUtils_OnSkillTriggered1_Unit_SkillController_" data-uid="Global.SkillUtils.OnSkillTriggered1(Unit,SkillController)">OnSkillTriggered1(Unit, SkillController)</h4>
+  <h4 id="Global_SkillUtils_OnSkillTriggered1_Unit_SkillController_System_String_" data-uid="Global.SkillUtils.OnSkillTriggered1(Unit,SkillController,System.String)">OnSkillTriggered1(Unit, SkillController, String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnSkillTriggered1(Unit user, SkillController skillControlelr)</code></pre>
+    <pre><code class="lang-csharp hljs">public void OnSkillTriggered1(Unit user, SkillController skillControlelr, string arg)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -200,6 +199,11 @@
       <tr>
         <td><a class="xref" href="Global.SkillController.html">SkillController</a></td>
         <td><span class="parametername">skillControlelr</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">arg</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -207,12 +211,12 @@
   
   
   <a id="Global_SkillUtils_OnSkillTriggered2_" data-uid="Global.SkillUtils.OnSkillTriggered2*"></a>
-  <h4 id="Global_SkillUtils_OnSkillTriggered2_Unit_SkillController_" data-uid="Global.SkillUtils.OnSkillTriggered2(Unit,SkillController)">OnSkillTriggered2(Unit, SkillController)</h4>
+  <h4 id="Global_SkillUtils_OnSkillTriggered2_Unit_SkillController_System_String_" data-uid="Global.SkillUtils.OnSkillTriggered2(Unit,SkillController,System.String)">OnSkillTriggered2(Unit, SkillController, String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnSkillTriggered2(Unit user, SkillController skillControlelr)</code></pre>
+    <pre><code class="lang-csharp hljs">public void OnSkillTriggered2(Unit user, SkillController skillControlelr, string arg)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -232,6 +236,85 @@
       <tr>
         <td><a class="xref" href="Global.SkillController.html">SkillController</a></td>
         <td><span class="parametername">skillControlelr</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">arg</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_SkillUtils_ShowSkillEffect1_" data-uid="Global.SkillUtils.ShowSkillEffect1*"></a>
+  <h4 id="Global_SkillUtils_ShowSkillEffect1_Unit_Unit_SkillController_" data-uid="Global.SkillUtils.ShowSkillEffect1(Unit,Unit,SkillController)">ShowSkillEffect1(Unit, Unit, SkillController)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ShowSkillEffect1(Unit attacker, Unit target, SkillController skillController)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.Unit.html">Unit</a></td>
+        <td><span class="parametername">attacker</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Global.Unit.html">Unit</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Global.SkillController.html">SkillController</a></td>
+        <td><span class="parametername">skillController</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_SkillUtils_ShowSkillEffect2_" data-uid="Global.SkillUtils.ShowSkillEffect2*"></a>
+  <h4 id="Global_SkillUtils_ShowSkillEffect2_Unit_Unit_SkillController_" data-uid="Global.SkillUtils.ShowSkillEffect2(Unit,Unit,SkillController)">ShowSkillEffect2(Unit, Unit, SkillController)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ShowSkillEffect2(Unit attacker, Unit target, SkillController skillController)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.Unit.html">Unit</a></td>
+        <td><span class="parametername">attacker</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Global.Unit.html">Unit</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Global.SkillController.html">SkillController</a></td>
+        <td><span class="parametername">skillController</span></td>
         <td></td>
       </tr>
     </tbody>
