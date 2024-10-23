@@ -246,19 +246,6 @@ references:
   commentId: T:Global.BaseView
   fullName: BaseView
   nameWithType: BaseView
-- uid: Global.BaseView.AddListener
-  name: AddListener()
-  href: api/Global.BaseView.html#Global_BaseView_AddListener
-  commentId: M:Global.BaseView.AddListener
-  fullName: BaseView.AddListener()
-  nameWithType: BaseView.AddListener()
-- uid: Global.BaseView.AddListener*
-  name: AddListener
-  href: api/Global.BaseView.html#Global_BaseView_AddListener_
-  commentId: Overload:Global.BaseView.AddListener
-  isSpec: "True"
-  fullName: BaseView.AddListener
-  nameWithType: BaseView.AddListener
 - uid: Global.BaseView.allButtons
   name: allButtons
   href: api/Global.BaseView.html#Global_BaseView_allButtons
@@ -304,12 +291,19 @@ references:
   isSpec: "True"
   fullName: BaseView.IsAnyViewOpen
   nameWithType: BaseView.IsAnyViewOpen
-- uid: Global.BaseView.isFloating
-  name: isFloating
-  href: api/Global.BaseView.html#Global_BaseView_isFloating
-  commentId: F:Global.BaseView.isFloating
-  fullName: BaseView.isFloating
-  nameWithType: BaseView.isFloating
+- uid: Global.BaseView.IsAnyViewOpenInLayer(System.Int32)
+  name: IsAnyViewOpenInLayer(Int32)
+  href: api/Global.BaseView.html#Global_BaseView_IsAnyViewOpenInLayer_System_Int32_
+  commentId: M:Global.BaseView.IsAnyViewOpenInLayer(System.Int32)
+  fullName: BaseView.IsAnyViewOpenInLayer(System.Int32)
+  nameWithType: BaseView.IsAnyViewOpenInLayer(Int32)
+- uid: Global.BaseView.IsAnyViewOpenInLayer*
+  name: IsAnyViewOpenInLayer
+  href: api/Global.BaseView.html#Global_BaseView_IsAnyViewOpenInLayer_
+  commentId: Overload:Global.BaseView.IsAnyViewOpenInLayer
+  isSpec: "True"
+  fullName: BaseView.IsAnyViewOpenInLayer
+  nameWithType: BaseView.IsAnyViewOpenInLayer
 - uid: Global.BaseView.IsOpen
   name: IsOpen
   href: api/Global.BaseView.html#Global_BaseView_IsOpen
@@ -323,12 +317,31 @@ references:
   isSpec: "True"
   fullName: BaseView.IsOpen
   nameWithType: BaseView.IsOpen
+- uid: Global.BaseView.layer
+  name: layer
+  href: api/Global.BaseView.html#Global_BaseView_layer
+  commentId: F:Global.BaseView.layer
+  fullName: BaseView.layer
+  nameWithType: BaseView.layer
 - uid: Global.BaseView.OnButtonClick
   name: OnButtonClick
   href: api/Global.BaseView.html#Global_BaseView_OnButtonClick
   commentId: E:Global.BaseView.OnButtonClick
   fullName: BaseView.OnButtonClick
   nameWithType: BaseView.OnButtonClick
+- uid: Global.BaseView.OnClose
+  name: OnClose()
+  href: api/Global.BaseView.html#Global_BaseView_OnClose
+  commentId: M:Global.BaseView.OnClose
+  fullName: BaseView.OnClose()
+  nameWithType: BaseView.OnClose()
+- uid: Global.BaseView.OnClose*
+  name: OnClose
+  href: api/Global.BaseView.html#Global_BaseView_OnClose_
+  commentId: Overload:Global.BaseView.OnClose
+  isSpec: "True"
+  fullName: BaseView.OnClose
+  nameWithType: BaseView.OnClose
 - uid: Global.BaseView.OnDisable
   name: OnDisable()
   href: api/Global.BaseView.html#Global_BaseView_OnDisable
@@ -355,6 +368,19 @@ references:
   isSpec: "True"
   fullName: BaseView.OnEnable
   nameWithType: BaseView.OnEnable
+- uid: Global.BaseView.OnOpen
+  name: OnOpen()
+  href: api/Global.BaseView.html#Global_BaseView_OnOpen
+  commentId: M:Global.BaseView.OnOpen
+  fullName: BaseView.OnOpen()
+  nameWithType: BaseView.OnOpen()
+- uid: Global.BaseView.OnOpen*
+  name: OnOpen
+  href: api/Global.BaseView.html#Global_BaseView_OnOpen_
+  commentId: Overload:Global.BaseView.OnOpen
+  isSpec: "True"
+  fullName: BaseView.OnOpen
+  nameWithType: BaseView.OnOpen
 - uid: Global.BaseView.OnViewClose
   name: OnViewClose
   href: api/Global.BaseView.html#Global_BaseView_OnViewClose
@@ -406,19 +432,19 @@ references:
   isSpec: "True"
   fullName: BaseView.Refresh
   nameWithType: BaseView.Refresh
-- uid: Global.BaseView.RemoveListener
-  name: RemoveListener()
-  href: api/Global.BaseView.html#Global_BaseView_RemoveListener
-  commentId: M:Global.BaseView.RemoveListener
-  fullName: BaseView.RemoveListener()
-  nameWithType: BaseView.RemoveListener()
-- uid: Global.BaseView.RemoveListener*
-  name: RemoveListener
-  href: api/Global.BaseView.html#Global_BaseView_RemoveListener_
-  commentId: Overload:Global.BaseView.RemoveListener
+- uid: Global.BaseView.Start
+  name: Start()
+  href: api/Global.BaseView.html#Global_BaseView_Start
+  commentId: M:Global.BaseView.Start
+  fullName: BaseView.Start()
+  nameWithType: BaseView.Start()
+- uid: Global.BaseView.Start*
+  name: Start
+  href: api/Global.BaseView.html#Global_BaseView_Start_
+  commentId: Overload:Global.BaseView.Start
   isSpec: "True"
-  fullName: BaseView.RemoveListener
-  nameWithType: BaseView.RemoveListener
+  fullName: BaseView.Start
+  nameWithType: BaseView.Start
 - uid: Global.BaseWindow
   name: BaseWindow
   href: api/Global.BaseWindow.html
@@ -527,6 +553,19 @@ references:
   isSpec: "True"
   fullName: BaseWindow.IsOpen
   nameWithType: BaseWindow.IsOpen
+- uid: Global.BaseWindow.OnClose
+  name: OnClose()
+  href: api/Global.BaseWindow.html#Global_BaseWindow_OnClose
+  commentId: M:Global.BaseWindow.OnClose
+  fullName: BaseWindow.OnClose()
+  nameWithType: BaseWindow.OnClose()
+- uid: Global.BaseWindow.OnClose*
+  name: OnClose
+  href: api/Global.BaseWindow.html#Global_BaseWindow_OnClose_
+  commentId: Overload:Global.BaseWindow.OnClose
+  isSpec: "True"
+  fullName: BaseWindow.OnClose
+  nameWithType: BaseWindow.OnClose
 - uid: Global.BaseWindow.OnDisable
   name: OnDisable()
   href: api/Global.BaseWindow.html#Global_BaseWindow_OnDisable
@@ -553,6 +592,19 @@ references:
   isSpec: "True"
   fullName: BaseWindow.OnEnable
   nameWithType: BaseWindow.OnEnable
+- uid: Global.BaseWindow.OnOpen
+  name: OnOpen()
+  href: api/Global.BaseWindow.html#Global_BaseWindow_OnOpen
+  commentId: M:Global.BaseWindow.OnOpen
+  fullName: BaseWindow.OnOpen()
+  nameWithType: BaseWindow.OnOpen()
+- uid: Global.BaseWindow.OnOpen*
+  name: OnOpen
+  href: api/Global.BaseWindow.html#Global_BaseWindow_OnOpen_
+  commentId: Overload:Global.BaseWindow.OnOpen
+  isSpec: "True"
+  fullName: BaseWindow.OnOpen
+  nameWithType: BaseWindow.OnOpen
 - uid: Global.BaseWindow.OnWindowClose
   name: OnWindowClose
   href: api/Global.BaseWindow.html#Global_BaseWindow_OnWindowClose
@@ -656,6 +708,19 @@ references:
   isSpec: "True"
   fullName: BaseWindow.RemoveListener
   nameWithType: BaseWindow.RemoveListener
+- uid: Global.BaseWindow.Start
+  name: Start()
+  href: api/Global.BaseWindow.html#Global_BaseWindow_Start
+  commentId: M:Global.BaseWindow.Start
+  fullName: BaseWindow.Start()
+  nameWithType: BaseWindow.Start()
+- uid: Global.BaseWindow.Start*
+  name: Start
+  href: api/Global.BaseWindow.html#Global_BaseWindow_Start_
+  commentId: Overload:Global.BaseWindow.Start
+  isSpec: "True"
+  fullName: BaseWindow.Start
+  nameWithType: BaseWindow.Start
 - uid: Global.ConfigEditor
   name: ConfigEditor
   href: api/Global.ConfigEditor.html
@@ -865,6 +930,24 @@ references:
   commentId: F:Global.DamageType.Physical
   fullName: DamageType.Physical
   nameWithType: DamageType.Physical
+- uid: Global.EnemyCreater
+  name: EnemyCreater
+  href: api/Global.EnemyCreater.html
+  commentId: T:Global.EnemyCreater
+  fullName: EnemyCreater
+  nameWithType: EnemyCreater
+- uid: Global.EnemyCreater.enemyConfig
+  name: enemyConfig
+  href: api/Global.EnemyCreater.html#Global_EnemyCreater_enemyConfig
+  commentId: F:Global.EnemyCreater.enemyConfig
+  fullName: EnemyCreater.enemyConfig
+  nameWithType: EnemyCreater.enemyConfig
+- uid: Global.EnemyCreater.warningSprite
+  name: warningSprite
+  href: api/Global.EnemyCreater.html#Global_EnemyCreater_warningSprite
+  commentId: F:Global.EnemyCreater.warningSprite
+  fullName: EnemyCreater.warningSprite
+  nameWithType: EnemyCreater.warningSprite
 - uid: Global.FactionType
   name: FactionType
   href: api/Global.FactionType.html
@@ -926,12 +1009,6 @@ references:
   commentId: T:Global.GameManager
   fullName: GameManager
   nameWithType: GameManager
-- uid: Global.GameManager.cursor
-  name: cursor
-  href: api/Global.GameManager.html#Global_GameManager_cursor
-  commentId: F:Global.GameManager.cursor
-  fullName: GameManager.cursor
-  nameWithType: GameManager.cursor
 - uid: Global.GameManager.gameOverView
   name: gameOverView
   href: api/Global.GameManager.html#Global_GameManager_gameOverView
@@ -956,6 +1033,12 @@ references:
   commentId: F:Global.GameManager.instance
   fullName: GameManager.instance
   nameWithType: GameManager.instance
+- uid: Global.GameManager.inventoryView
+  name: inventoryView
+  href: api/Global.GameManager.html#Global_GameManager_inventoryView
+  commentId: F:Global.GameManager.inventoryView
+  fullName: GameManager.inventoryView
+  nameWithType: GameManager.inventoryView
 - uid: Global.GameManager.levelUpView
   name: levelUpView
   href: api/Global.GameManager.html#Global_GameManager_levelUpView
@@ -974,25 +1057,62 @@ references:
   commentId: F:Global.GameManager.map
   fullName: GameManager.map
   nameWithType: GameManager.map
+- uid: Global.GameManager.popWindowView
+  name: popWindowView
+  href: api/Global.GameManager.html#Global_GameManager_popWindowView
+  commentId: F:Global.GameManager.popWindowView
+  fullName: GameManager.popWindowView
+  nameWithType: GameManager.popWindowView
+- uid: Global.GameManager.selectUnitView
+  name: selectUnitView
+  href: api/Global.GameManager.html#Global_GameManager_selectUnitView
+  commentId: F:Global.GameManager.selectUnitView
+  fullName: GameManager.selectUnitView
+  nameWithType: GameManager.selectUnitView
+- uid: Global.GameManager.settingsView
+  name: settingsView
+  href: api/Global.GameManager.html#Global_GameManager_settingsView
+  commentId: F:Global.GameManager.settingsView
+  fullName: GameManager.settingsView
+  nameWithType: GameManager.settingsView
+- uid: Global.GameManager.skillComboView
+  name: skillComboView
+  href: api/Global.GameManager.html#Global_GameManager_skillComboView
+  commentId: F:Global.GameManager.skillComboView
+  fullName: GameManager.skillComboView
+  nameWithType: GameManager.skillComboView
 - uid: Global.GameOverView
   name: GameOverView
   href: api/Global.GameOverView.html
   commentId: T:Global.GameOverView
   fullName: GameOverView
   nameWithType: GameOverView
-- uid: Global.GameOverView.AddListener
-  name: AddListener()
-  href: api/Global.GameOverView.html#Global_GameOverView_AddListener
-  commentId: M:Global.GameOverView.AddListener
-  fullName: GameOverView.AddListener()
-  nameWithType: GameOverView.AddListener()
-- uid: Global.GameOverView.AddListener*
-  name: AddListener
-  href: api/Global.GameOverView.html#Global_GameOverView_AddListener_
-  commentId: Overload:Global.GameOverView.AddListener
+- uid: Global.GameOverView.OnClose
+  name: OnClose()
+  href: api/Global.GameOverView.html#Global_GameOverView_OnClose
+  commentId: M:Global.GameOverView.OnClose
+  fullName: GameOverView.OnClose()
+  nameWithType: GameOverView.OnClose()
+- uid: Global.GameOverView.OnClose*
+  name: OnClose
+  href: api/Global.GameOverView.html#Global_GameOverView_OnClose_
+  commentId: Overload:Global.GameOverView.OnClose
   isSpec: "True"
-  fullName: GameOverView.AddListener
-  nameWithType: GameOverView.AddListener
+  fullName: GameOverView.OnClose
+  nameWithType: GameOverView.OnClose
+- uid: Global.GameOverView.OnOpen
+  name: OnOpen()
+  href: api/Global.GameOverView.html#Global_GameOverView_OnOpen
+  commentId: M:Global.GameOverView.OnOpen
+  fullName: GameOverView.OnOpen()
+  nameWithType: GameOverView.OnOpen()
+- uid: Global.GameOverView.OnOpen*
+  name: OnOpen
+  href: api/Global.GameOverView.html#Global_GameOverView_OnOpen_
+  commentId: Overload:Global.GameOverView.OnOpen
+  isSpec: "True"
+  fullName: GameOverView.OnOpen
+  nameWithType: GameOverView.OnOpen
 - uid: Global.GameOverView.RealRefresh
   name: RealRefresh()
   href: api/Global.GameOverView.html#Global_GameOverView_RealRefresh
@@ -1006,19 +1126,6 @@ references:
   isSpec: "True"
   fullName: GameOverView.RealRefresh
   nameWithType: GameOverView.RealRefresh
-- uid: Global.GameOverView.RemoveListener
-  name: RemoveListener()
-  href: api/Global.GameOverView.html#Global_GameOverView_RemoveListener
-  commentId: M:Global.GameOverView.RemoveListener
-  fullName: GameOverView.RemoveListener()
-  nameWithType: GameOverView.RemoveListener()
-- uid: Global.GameOverView.RemoveListener*
-  name: RemoveListener
-  href: api/Global.GameOverView.html#Global_GameOverView_RemoveListener_
-  commentId: Overload:Global.GameOverView.RemoveListener
-  isSpec: "True"
-  fullName: GameOverView.RemoveListener
-  nameWithType: GameOverView.RemoveListener
 - uid: Global.GameOverView.Restart
   name: Restart()
   href: api/Global.GameOverView.html#Global_GameOverView_Restart
@@ -1032,43 +1139,79 @@ references:
   isSpec: "True"
   fullName: GameOverView.Restart
   nameWithType: GameOverView.Restart
-- uid: Global.GameOverView.restartText
-  name: restartText
-  href: api/Global.GameOverView.html#Global_GameOverView_restartText
-  commentId: F:Global.GameOverView.restartText
-  fullName: GameOverView.restartText
-  nameWithType: GameOverView.restartText
+- uid: Global.GameOverView.restartButtonText
+  name: restartButtonText
+  href: api/Global.GameOverView.html#Global_GameOverView_restartButtonText
+  commentId: F:Global.GameOverView.restartButtonText
+  fullName: GameOverView.restartButtonText
+  nameWithType: GameOverView.restartButtonText
 - uid: Global.GameOverView.titleText
   name: titleText
   href: api/Global.GameOverView.html#Global_GameOverView_titleText
   commentId: F:Global.GameOverView.titleText
   fullName: GameOverView.titleText
   nameWithType: GameOverView.titleText
+- uid: Global.GameOverView.ToTitle
+  name: ToTitle()
+  href: api/Global.GameOverView.html#Global_GameOverView_ToTitle
+  commentId: M:Global.GameOverView.ToTitle
+  fullName: GameOverView.ToTitle()
+  nameWithType: GameOverView.ToTitle()
+- uid: Global.GameOverView.ToTitle*
+  name: ToTitle
+  href: api/Global.GameOverView.html#Global_GameOverView_ToTitle_
+  commentId: Overload:Global.GameOverView.ToTitle
+  isSpec: "True"
+  fullName: GameOverView.ToTitle
+  nameWithType: GameOverView.ToTitle
+- uid: Global.GameOverView.toTitleButtonText
+  name: toTitleButtonText
+  href: api/Global.GameOverView.html#Global_GameOverView_toTitleButtonText
+  commentId: F:Global.GameOverView.toTitleButtonText
+  fullName: GameOverView.toTitleButtonText
+  nameWithType: GameOverView.toTitleButtonText
 - uid: Global.GameView
   name: GameView
   href: api/Global.GameView.html
   commentId: T:Global.GameView
   fullName: GameView
   nameWithType: GameView
-- uid: Global.GameView.AddListener
-  name: AddListener()
-  href: api/Global.GameView.html#Global_GameView_AddListener
-  commentId: M:Global.GameView.AddListener
-  fullName: GameView.AddListener()
-  nameWithType: GameView.AddListener()
-- uid: Global.GameView.AddListener*
-  name: AddListener
-  href: api/Global.GameView.html#Global_GameView_AddListener_
-  commentId: Overload:Global.GameView.AddListener
-  isSpec: "True"
-  fullName: GameView.AddListener
-  nameWithType: GameView.AddListener
+- uid: Global.GameView.atkText
+  name: atkText
+  href: api/Global.GameView.html#Global_GameView_atkText
+  commentId: F:Global.GameView.atkText
+  fullName: GameView.atkText
+  nameWithType: GameView.atkText
 - uid: Global.GameView.bottom
   name: bottom
   href: api/Global.GameView.html#Global_GameView_bottom
   commentId: F:Global.GameView.bottom
   fullName: GameView.bottom
   nameWithType: GameView.bottom
+- uid: Global.GameView.countDownText
+  name: countDownText
+  href: api/Global.GameView.html#Global_GameView_countDownText
+  commentId: F:Global.GameView.countDownText
+  fullName: GameView.countDownText
+  nameWithType: GameView.countDownText
+- uid: Global.GameView.defText
+  name: defText
+  href: api/Global.GameView.html#Global_GameView_defText
+  commentId: F:Global.GameView.defText
+  fullName: GameView.defText
+  nameWithType: GameView.defText
+- uid: Global.GameView.edfText
+  name: edfText
+  href: api/Global.GameView.html#Global_GameView_edfText
+  commentId: F:Global.GameView.edfText
+  fullName: GameView.edfText
+  nameWithType: GameView.edfText
+- uid: Global.GameView.ersText
+  name: ersText
+  href: api/Global.GameView.html#Global_GameView_ersText
+  commentId: F:Global.GameView.ersText
+  fullName: GameView.ersText
+  nameWithType: GameView.ersText
 - uid: Global.GameView.hpText
   name: hpText
   href: api/Global.GameView.html#Global_GameView_hpText
@@ -1081,6 +1224,38 @@ references:
   commentId: F:Global.GameView.left
   fullName: GameView.left
   nameWithType: GameView.left
+- uid: Global.GameView.OnClose
+  name: OnClose()
+  href: api/Global.GameView.html#Global_GameView_OnClose
+  commentId: M:Global.GameView.OnClose
+  fullName: GameView.OnClose()
+  nameWithType: GameView.OnClose()
+- uid: Global.GameView.OnClose*
+  name: OnClose
+  href: api/Global.GameView.html#Global_GameView_OnClose_
+  commentId: Overload:Global.GameView.OnClose
+  isSpec: "True"
+  fullName: GameView.OnClose
+  nameWithType: GameView.OnClose
+- uid: Global.GameView.OnOpen
+  name: OnOpen()
+  href: api/Global.GameView.html#Global_GameView_OnOpen
+  commentId: M:Global.GameView.OnOpen
+  fullName: GameView.OnOpen()
+  nameWithType: GameView.OnOpen()
+- uid: Global.GameView.OnOpen*
+  name: OnOpen
+  href: api/Global.GameView.html#Global_GameView_OnOpen_
+  commentId: Overload:Global.GameView.OnOpen
+  isSpec: "True"
+  fullName: GameView.OnOpen
+  nameWithType: GameView.OnOpen
+- uid: Global.GameView.pickUpPrompt
+  name: pickUpPrompt
+  href: api/Global.GameView.html#Global_GameView_pickUpPrompt
+  commentId: F:Global.GameView.pickUpPrompt
+  fullName: GameView.pickUpPrompt
+  nameWithType: GameView.pickUpPrompt
 - uid: Global.GameView.RealRefresh
   name: RealRefresh()
   href: api/Global.GameView.html#Global_GameView_RealRefresh
@@ -1094,44 +1269,36 @@ references:
   isSpec: "True"
   fullName: GameView.RealRefresh
   nameWithType: GameView.RealRefresh
-- uid: Global.GameView.RemoveListener
-  name: RemoveListener()
-  href: api/Global.GameView.html#Global_GameView_RemoveListener
-  commentId: M:Global.GameView.RemoveListener
-  fullName: GameView.RemoveListener()
-  nameWithType: GameView.RemoveListener()
-- uid: Global.GameView.RemoveListener*
-  name: RemoveListener
-  href: api/Global.GameView.html#Global_GameView_RemoveListener_
-  commentId: Overload:Global.GameView.RemoveListener
-  isSpec: "True"
-  fullName: GameView.RemoveListener
-  nameWithType: GameView.RemoveListener
+- uid: Global.GameView.resText
+  name: resText
+  href: api/Global.GameView.html#Global_GameView_resText
+  commentId: F:Global.GameView.resText
+  fullName: GameView.resText
+  nameWithType: GameView.resText
+- uid: Global.GameView.spdText
+  name: spdText
+  href: api/Global.GameView.html#Global_GameView_spdText
+  commentId: F:Global.GameView.spdText
+  fullName: GameView.spdText
+  nameWithType: GameView.spdText
 - uid: Global.GameView.top
   name: top
   href: api/Global.GameView.html#Global_GameView_top
   commentId: F:Global.GameView.top
   fullName: GameView.top
   nameWithType: GameView.top
+- uid: Global.GameView.touText
+  name: touText
+  href: api/Global.GameView.html#Global_GameView_touText
+  commentId: F:Global.GameView.touText
+  fullName: GameView.touText
+  nameWithType: GameView.touText
 - uid: Global.GlobalView
   name: GlobalView
   href: api/Global.GlobalView.html
   commentId: T:Global.GlobalView
   fullName: GlobalView
   nameWithType: GlobalView
-- uid: Global.GlobalView.AddListener
-  name: AddListener()
-  href: api/Global.GlobalView.html#Global_GlobalView_AddListener
-  commentId: M:Global.GlobalView.AddListener
-  fullName: GlobalView.AddListener()
-  nameWithType: GlobalView.AddListener()
-- uid: Global.GlobalView.AddListener*
-  name: AddListener
-  href: api/Global.GlobalView.html#Global_GlobalView_AddListener_
-  commentId: Overload:Global.GlobalView.AddListener
-  isSpec: "True"
-  fullName: GlobalView.AddListener
-  nameWithType: GlobalView.AddListener
 - uid: Global.GlobalView.cursorEffect
   name: cursorEffect
   href: api/Global.GlobalView.html#Global_GlobalView_cursorEffect
@@ -1151,6 +1318,38 @@ references:
   isSpec: "True"
   fullName: GlobalView.OnChangeCursor
   nameWithType: GlobalView.OnChangeCursor
+- uid: Global.GlobalView.OnClose
+  name: OnClose()
+  href: api/Global.GlobalView.html#Global_GlobalView_OnClose
+  commentId: M:Global.GlobalView.OnClose
+  fullName: GlobalView.OnClose()
+  nameWithType: GlobalView.OnClose()
+- uid: Global.GlobalView.OnClose*
+  name: OnClose
+  href: api/Global.GlobalView.html#Global_GlobalView_OnClose_
+  commentId: Overload:Global.GlobalView.OnClose
+  isSpec: "True"
+  fullName: GlobalView.OnClose
+  nameWithType: GlobalView.OnClose
+- uid: Global.GlobalView.OnOpen
+  name: OnOpen()
+  href: api/Global.GlobalView.html#Global_GlobalView_OnOpen
+  commentId: M:Global.GlobalView.OnOpen
+  fullName: GlobalView.OnOpen()
+  nameWithType: GlobalView.OnOpen()
+- uid: Global.GlobalView.OnOpen*
+  name: OnOpen
+  href: api/Global.GlobalView.html#Global_GlobalView_OnOpen_
+  commentId: Overload:Global.GlobalView.OnOpen
+  isSpec: "True"
+  fullName: GlobalView.OnOpen
+  nameWithType: GlobalView.OnOpen
+- uid: Global.GlobalView.popMessageWindow
+  name: popMessageWindow
+  href: api/Global.GlobalView.html#Global_GlobalView_popMessageWindow
+  commentId: F:Global.GlobalView.popMessageWindow
+  fullName: GlobalView.popMessageWindow
+  nameWithType: GlobalView.popMessageWindow
 - uid: Global.GlobalView.popWindow
   name: popWindow
   href: api/Global.GlobalView.html#Global_GlobalView_popWindow
@@ -1170,19 +1369,235 @@ references:
   isSpec: "True"
   fullName: GlobalView.RealRefresh
   nameWithType: GlobalView.RealRefresh
-- uid: Global.GlobalView.RemoveListener
-  name: RemoveListener()
-  href: api/Global.GlobalView.html#Global_GlobalView_RemoveListener
-  commentId: M:Global.GlobalView.RemoveListener
-  fullName: GlobalView.RemoveListener()
-  nameWithType: GlobalView.RemoveListener()
-- uid: Global.GlobalView.RemoveListener*
-  name: RemoveListener
-  href: api/Global.GlobalView.html#Global_GlobalView_RemoveListener_
-  commentId: Overload:Global.GlobalView.RemoveListener
+- uid: Global.InventoryItem
+  name: InventoryItem
+  href: api/Global.InventoryItem.html
+  commentId: T:Global.InventoryItem
+  fullName: InventoryItem
+  nameWithType: InventoryItem
+- uid: Global.InventoryItem.buildedText
+  name: buildedText
+  href: api/Global.InventoryItem.html#Global_InventoryItem_buildedText
+  commentId: F:Global.InventoryItem.buildedText
+  fullName: InventoryItem.buildedText
+  nameWithType: InventoryItem.buildedText
+- uid: Global.InventoryItem.IsDrag
+  name: IsDrag
+  href: api/Global.InventoryItem.html#Global_InventoryItem_IsDrag
+  commentId: P:Global.InventoryItem.IsDrag
+  fullName: InventoryItem.IsDrag
+  nameWithType: InventoryItem.IsDrag
+- uid: Global.InventoryItem.IsDrag*
+  name: IsDrag
+  href: api/Global.InventoryItem.html#Global_InventoryItem_IsDrag_
+  commentId: Overload:Global.InventoryItem.IsDrag
   isSpec: "True"
-  fullName: GlobalView.RemoveListener
-  nameWithType: GlobalView.RemoveListener
+  fullName: InventoryItem.IsDrag
+  nameWithType: InventoryItem.IsDrag
+- uid: Global.InventoryItem.OnBeginDrag(PointerEventData)
+  name: OnBeginDrag(PointerEventData)
+  href: api/Global.InventoryItem.html#Global_InventoryItem_OnBeginDrag_PointerEventData_
+  commentId: M:Global.InventoryItem.OnBeginDrag(PointerEventData)
+  fullName: InventoryItem.OnBeginDrag(PointerEventData)
+  nameWithType: InventoryItem.OnBeginDrag(PointerEventData)
+- uid: Global.InventoryItem.OnBeginDrag*
+  name: OnBeginDrag
+  href: api/Global.InventoryItem.html#Global_InventoryItem_OnBeginDrag_
+  commentId: Overload:Global.InventoryItem.OnBeginDrag
+  isSpec: "True"
+  fullName: InventoryItem.OnBeginDrag
+  nameWithType: InventoryItem.OnBeginDrag
+- uid: Global.InventoryItem.OnClick
+  name: OnClick()
+  href: api/Global.InventoryItem.html#Global_InventoryItem_OnClick
+  commentId: M:Global.InventoryItem.OnClick
+  fullName: InventoryItem.OnClick()
+  nameWithType: InventoryItem.OnClick()
+- uid: Global.InventoryItem.OnClick*
+  name: OnClick
+  href: api/Global.InventoryItem.html#Global_InventoryItem_OnClick_
+  commentId: Overload:Global.InventoryItem.OnClick
+  isSpec: "True"
+  fullName: InventoryItem.OnClick
+  nameWithType: InventoryItem.OnClick
+- uid: Global.InventoryItem.OnDrag(PointerEventData)
+  name: OnDrag(PointerEventData)
+  href: api/Global.InventoryItem.html#Global_InventoryItem_OnDrag_PointerEventData_
+  commentId: M:Global.InventoryItem.OnDrag(PointerEventData)
+  fullName: InventoryItem.OnDrag(PointerEventData)
+  nameWithType: InventoryItem.OnDrag(PointerEventData)
+- uid: Global.InventoryItem.OnDrag*
+  name: OnDrag
+  href: api/Global.InventoryItem.html#Global_InventoryItem_OnDrag_
+  commentId: Overload:Global.InventoryItem.OnDrag
+  isSpec: "True"
+  fullName: InventoryItem.OnDrag
+  nameWithType: InventoryItem.OnDrag
+- uid: Global.InventoryItem.OnEndDrag(PointerEventData)
+  name: OnEndDrag(PointerEventData)
+  href: api/Global.InventoryItem.html#Global_InventoryItem_OnEndDrag_PointerEventData_
+  commentId: M:Global.InventoryItem.OnEndDrag(PointerEventData)
+  fullName: InventoryItem.OnEndDrag(PointerEventData)
+  nameWithType: InventoryItem.OnEndDrag(PointerEventData)
+- uid: Global.InventoryItem.OnEndDrag*
+  name: OnEndDrag
+  href: api/Global.InventoryItem.html#Global_InventoryItem_OnEndDrag_
+  commentId: Overload:Global.InventoryItem.OnEndDrag
+  isSpec: "True"
+  fullName: InventoryItem.OnEndDrag
+  nameWithType: InventoryItem.OnEndDrag
+- uid: Global.InventoryItem.OnPointerDown(PointerEventData)
+  name: OnPointerDown(PointerEventData)
+  href: api/Global.InventoryItem.html#Global_InventoryItem_OnPointerDown_PointerEventData_
+  commentId: M:Global.InventoryItem.OnPointerDown(PointerEventData)
+  fullName: InventoryItem.OnPointerDown(PointerEventData)
+  nameWithType: InventoryItem.OnPointerDown(PointerEventData)
+- uid: Global.InventoryItem.OnPointerDown*
+  name: OnPointerDown
+  href: api/Global.InventoryItem.html#Global_InventoryItem_OnPointerDown_
+  commentId: Overload:Global.InventoryItem.OnPointerDown
+  isSpec: "True"
+  fullName: InventoryItem.OnPointerDown
+  nameWithType: InventoryItem.OnPointerDown
+- uid: Global.InventoryItem.OnPointerEnter(PointerEventData)
+  name: OnPointerEnter(PointerEventData)
+  href: api/Global.InventoryItem.html#Global_InventoryItem_OnPointerEnter_PointerEventData_
+  commentId: M:Global.InventoryItem.OnPointerEnter(PointerEventData)
+  fullName: InventoryItem.OnPointerEnter(PointerEventData)
+  nameWithType: InventoryItem.OnPointerEnter(PointerEventData)
+- uid: Global.InventoryItem.OnPointerEnter*
+  name: OnPointerEnter
+  href: api/Global.InventoryItem.html#Global_InventoryItem_OnPointerEnter_
+  commentId: Overload:Global.InventoryItem.OnPointerEnter
+  isSpec: "True"
+  fullName: InventoryItem.OnPointerEnter
+  nameWithType: InventoryItem.OnPointerEnter
+- uid: Global.InventoryItem.OnPointerExit(PointerEventData)
+  name: OnPointerExit(PointerEventData)
+  href: api/Global.InventoryItem.html#Global_InventoryItem_OnPointerExit_PointerEventData_
+  commentId: M:Global.InventoryItem.OnPointerExit(PointerEventData)
+  fullName: InventoryItem.OnPointerExit(PointerEventData)
+  nameWithType: InventoryItem.OnPointerExit(PointerEventData)
+- uid: Global.InventoryItem.OnPointerExit*
+  name: OnPointerExit
+  href: api/Global.InventoryItem.html#Global_InventoryItem_OnPointerExit_
+  commentId: Overload:Global.InventoryItem.OnPointerExit
+  isSpec: "True"
+  fullName: InventoryItem.OnPointerExit
+  nameWithType: InventoryItem.OnPointerExit
+- uid: Global.InventoryItem.Refresh
+  name: Refresh()
+  href: api/Global.InventoryItem.html#Global_InventoryItem_Refresh
+  commentId: M:Global.InventoryItem.Refresh
+  fullName: InventoryItem.Refresh()
+  nameWithType: InventoryItem.Refresh()
+- uid: Global.InventoryItem.Refresh*
+  name: Refresh
+  href: api/Global.InventoryItem.html#Global_InventoryItem_Refresh_
+  commentId: Overload:Global.InventoryItem.Refresh
+  isSpec: "True"
+  fullName: InventoryItem.Refresh
+  nameWithType: InventoryItem.Refresh
+- uid: Global.InventoryItem.TargetUnit
+  name: TargetUnit
+  href: api/Global.InventoryItem.html#Global_InventoryItem_TargetUnit
+  commentId: P:Global.InventoryItem.TargetUnit
+  fullName: InventoryItem.TargetUnit
+  nameWithType: InventoryItem.TargetUnit
+- uid: Global.InventoryItem.TargetUnit*
+  name: TargetUnit
+  href: api/Global.InventoryItem.html#Global_InventoryItem_TargetUnit_
+  commentId: Overload:Global.InventoryItem.TargetUnit
+  isSpec: "True"
+  fullName: InventoryItem.TargetUnit
+  nameWithType: InventoryItem.TargetUnit
+- uid: Global.InventoryItem.titleText
+  name: titleText
+  href: api/Global.InventoryItem.html#Global_InventoryItem_titleText
+  commentId: F:Global.InventoryItem.titleText
+  fullName: InventoryItem.titleText
+  nameWithType: InventoryItem.titleText
+- uid: Global.InventoryView
+  name: InventoryView
+  href: api/Global.InventoryView.html
+  commentId: T:Global.InventoryView
+  fullName: InventoryView
+  nameWithType: InventoryView
+- uid: Global.InventoryView.canvasGroup
+  name: canvasGroup
+  href: api/Global.InventoryView.html#Global_InventoryView_canvasGroup
+  commentId: F:Global.InventoryView.canvasGroup
+  fullName: InventoryView.canvasGroup
+  nameWithType: InventoryView.canvasGroup
+- uid: Global.InventoryView.content1
+  name: content1
+  href: api/Global.InventoryView.html#Global_InventoryView_content1
+  commentId: F:Global.InventoryView.content1
+  fullName: InventoryView.content1
+  nameWithType: InventoryView.content1
+- uid: Global.InventoryView.content2
+  name: content2
+  href: api/Global.InventoryView.html#Global_InventoryView_content2
+  commentId: F:Global.InventoryView.content2
+  fullName: InventoryView.content2
+  nameWithType: InventoryView.content2
+- uid: Global.InventoryView.itemPrefab
+  name: itemPrefab
+  href: api/Global.InventoryView.html#Global_InventoryView_itemPrefab
+  commentId: F:Global.InventoryView.itemPrefab
+  fullName: InventoryView.itemPrefab
+  nameWithType: InventoryView.itemPrefab
+- uid: Global.InventoryView.noItemText
+  name: noItemText
+  href: api/Global.InventoryView.html#Global_InventoryView_noItemText
+  commentId: F:Global.InventoryView.noItemText
+  fullName: InventoryView.noItemText
+  nameWithType: InventoryView.noItemText
+- uid: Global.InventoryView.OnClose
+  name: OnClose()
+  href: api/Global.InventoryView.html#Global_InventoryView_OnClose
+  commentId: M:Global.InventoryView.OnClose
+  fullName: InventoryView.OnClose()
+  nameWithType: InventoryView.OnClose()
+- uid: Global.InventoryView.OnClose*
+  name: OnClose
+  href: api/Global.InventoryView.html#Global_InventoryView_OnClose_
+  commentId: Overload:Global.InventoryView.OnClose
+  isSpec: "True"
+  fullName: InventoryView.OnClose
+  nameWithType: InventoryView.OnClose
+- uid: Global.InventoryView.OnOpen
+  name: OnOpen()
+  href: api/Global.InventoryView.html#Global_InventoryView_OnOpen
+  commentId: M:Global.InventoryView.OnOpen
+  fullName: InventoryView.OnOpen()
+  nameWithType: InventoryView.OnOpen()
+- uid: Global.InventoryView.OnOpen*
+  name: OnOpen
+  href: api/Global.InventoryView.html#Global_InventoryView_OnOpen_
+  commentId: Overload:Global.InventoryView.OnOpen
+  isSpec: "True"
+  fullName: InventoryView.OnOpen
+  nameWithType: InventoryView.OnOpen
+- uid: Global.InventoryView.RealRefresh
+  name: RealRefresh()
+  href: api/Global.InventoryView.html#Global_InventoryView_RealRefresh
+  commentId: M:Global.InventoryView.RealRefresh
+  fullName: InventoryView.RealRefresh()
+  nameWithType: InventoryView.RealRefresh()
+- uid: Global.InventoryView.RealRefresh*
+  name: RealRefresh
+  href: api/Global.InventoryView.html#Global_InventoryView_RealRefresh_
+  commentId: Overload:Global.InventoryView.RealRefresh
+  isSpec: "True"
+  fullName: InventoryView.RealRefresh
+  nameWithType: InventoryView.RealRefresh
+- uid: Global.InventoryView.titleText
+  name: titleText
+  href: api/Global.InventoryView.html#Global_InventoryView_titleText
+  commentId: F:Global.InventoryView.titleText
+  fullName: InventoryView.titleText
+  nameWithType: InventoryView.titleText
 - uid: Global.LanguageConfig
   name: LanguageConfig
   href: api/Global.LanguageConfig.html
@@ -1262,19 +1677,107 @@ references:
   commentId: T:Global.LevelUpView
   fullName: LevelUpView
   nameWithType: LevelUpView
-- uid: Global.LevelUpView.AddListener
-  name: AddListener()
-  href: api/Global.LevelUpView.html#Global_LevelUpView_AddListener
-  commentId: M:Global.LevelUpView.AddListener
-  fullName: LevelUpView.AddListener()
-  nameWithType: LevelUpView.AddListener()
-- uid: Global.LevelUpView.AddListener*
-  name: AddListener
-  href: api/Global.LevelUpView.html#Global_LevelUpView_AddListener_
-  commentId: Overload:Global.LevelUpView.AddListener
+- uid: Global.LevelUpView.checkInfo
+  name: checkInfo
+  href: api/Global.LevelUpView.html#Global_LevelUpView_checkInfo
+  commentId: F:Global.LevelUpView.checkInfo
+  fullName: LevelUpView.checkInfo
+  nameWithType: LevelUpView.checkInfo
+- uid: Global.LevelUpView.CheckLevelUp(System.Int32)
+  name: CheckLevelUp(Int32)
+  href: api/Global.LevelUpView.html#Global_LevelUpView_CheckLevelUp_System_Int32_
+  commentId: M:Global.LevelUpView.CheckLevelUp(System.Int32)
+  fullName: LevelUpView.CheckLevelUp(System.Int32)
+  nameWithType: LevelUpView.CheckLevelUp(Int32)
+- uid: Global.LevelUpView.CheckLevelUp*
+  name: CheckLevelUp
+  href: api/Global.LevelUpView.html#Global_LevelUpView_CheckLevelUp_
+  commentId: Overload:Global.LevelUpView.CheckLevelUp
   isSpec: "True"
-  fullName: LevelUpView.AddListener
-  nameWithType: LevelUpView.AddListener
+  fullName: LevelUpView.CheckLevelUp
+  nameWithType: LevelUpView.CheckLevelUp
+- uid: Global.LevelUpView.DescTargetIndex
+  name: DescTargetIndex
+  href: api/Global.LevelUpView.html#Global_LevelUpView_DescTargetIndex
+  commentId: P:Global.LevelUpView.DescTargetIndex
+  fullName: LevelUpView.DescTargetIndex
+  nameWithType: LevelUpView.DescTargetIndex
+- uid: Global.LevelUpView.DescTargetIndex*
+  name: DescTargetIndex
+  href: api/Global.LevelUpView.html#Global_LevelUpView_DescTargetIndex_
+  commentId: Overload:Global.LevelUpView.DescTargetIndex
+  isSpec: "True"
+  fullName: LevelUpView.DescTargetIndex
+  nameWithType: LevelUpView.DescTargetIndex
+- uid: Global.LevelUpView.descText
+  name: descText
+  href: api/Global.LevelUpView.html#Global_LevelUpView_descText
+  commentId: F:Global.LevelUpView.descText
+  fullName: LevelUpView.descText
+  nameWithType: LevelUpView.descText
+- uid: Global.LevelUpView.LevelUp
+  name: LevelUp()
+  href: api/Global.LevelUpView.html#Global_LevelUpView_LevelUp
+  commentId: M:Global.LevelUpView.LevelUp
+  fullName: LevelUpView.LevelUp()
+  nameWithType: LevelUpView.LevelUp()
+- uid: Global.LevelUpView.LevelUp*
+  name: LevelUp
+  href: api/Global.LevelUpView.html#Global_LevelUpView_LevelUp_
+  commentId: Overload:Global.LevelUpView.LevelUp
+  isSpec: "True"
+  fullName: LevelUpView.LevelUp
+  nameWithType: LevelUpView.LevelUp
+- uid: Global.LevelUpView.levelUpInfo
+  name: levelUpInfo
+  href: api/Global.LevelUpView.html#Global_LevelUpView_levelUpInfo
+  commentId: F:Global.LevelUpView.levelUpInfo
+  fullName: LevelUpView.levelUpInfo
+  nameWithType: LevelUpView.levelUpInfo
+- uid: Global.LevelUpView.levelUpText
+  name: levelUpText
+  href: api/Global.LevelUpView.html#Global_LevelUpView_levelUpText
+  commentId: F:Global.LevelUpView.levelUpText
+  fullName: LevelUpView.levelUpText
+  nameWithType: LevelUpView.levelUpText
+- uid: Global.LevelUpView.nextText1
+  name: nextText1
+  href: api/Global.LevelUpView.html#Global_LevelUpView_nextText1
+  commentId: F:Global.LevelUpView.nextText1
+  fullName: LevelUpView.nextText1
+  nameWithType: LevelUpView.nextText1
+- uid: Global.LevelUpView.nextText2
+  name: nextText2
+  href: api/Global.LevelUpView.html#Global_LevelUpView_nextText2
+  commentId: F:Global.LevelUpView.nextText2
+  fullName: LevelUpView.nextText2
+  nameWithType: LevelUpView.nextText2
+- uid: Global.LevelUpView.OnClose
+  name: OnClose()
+  href: api/Global.LevelUpView.html#Global_LevelUpView_OnClose
+  commentId: M:Global.LevelUpView.OnClose
+  fullName: LevelUpView.OnClose()
+  nameWithType: LevelUpView.OnClose()
+- uid: Global.LevelUpView.OnClose*
+  name: OnClose
+  href: api/Global.LevelUpView.html#Global_LevelUpView_OnClose_
+  commentId: Overload:Global.LevelUpView.OnClose
+  isSpec: "True"
+  fullName: LevelUpView.OnClose
+  nameWithType: LevelUpView.OnClose
+- uid: Global.LevelUpView.OnOpen
+  name: OnOpen()
+  href: api/Global.LevelUpView.html#Global_LevelUpView_OnOpen
+  commentId: M:Global.LevelUpView.OnOpen
+  fullName: LevelUpView.OnOpen()
+  nameWithType: LevelUpView.OnOpen()
+- uid: Global.LevelUpView.OnOpen*
+  name: OnOpen
+  href: api/Global.LevelUpView.html#Global_LevelUpView_OnOpen_
+  commentId: Overload:Global.LevelUpView.OnOpen
+  isSpec: "True"
+  fullName: LevelUpView.OnOpen
+  nameWithType: LevelUpView.OnOpen
 - uid: Global.LevelUpView.RealRefresh
   name: RealRefresh()
   href: api/Global.LevelUpView.html#Global_LevelUpView_RealRefresh
@@ -1288,38 +1791,76 @@ references:
   isSpec: "True"
   fullName: LevelUpView.RealRefresh
   nameWithType: LevelUpView.RealRefresh
-- uid: Global.LevelUpView.RemoveListener
-  name: RemoveListener()
-  href: api/Global.LevelUpView.html#Global_LevelUpView_RemoveListener
-  commentId: M:Global.LevelUpView.RemoveListener
-  fullName: LevelUpView.RemoveListener()
-  nameWithType: LevelUpView.RemoveListener()
-- uid: Global.LevelUpView.RemoveListener*
-  name: RemoveListener
-  href: api/Global.LevelUpView.html#Global_LevelUpView_RemoveListener_
-  commentId: Overload:Global.LevelUpView.RemoveListener
+- uid: Global.LevelUpView.SelectTargetUnit
+  name: SelectTargetUnit()
+  href: api/Global.LevelUpView.html#Global_LevelUpView_SelectTargetUnit
+  commentId: M:Global.LevelUpView.SelectTargetUnit
+  fullName: LevelUpView.SelectTargetUnit()
+  nameWithType: LevelUpView.SelectTargetUnit()
+- uid: Global.LevelUpView.SelectTargetUnit*
+  name: SelectTargetUnit
+  href: api/Global.LevelUpView.html#Global_LevelUpView_SelectTargetUnit_
+  commentId: Overload:Global.LevelUpView.SelectTargetUnit
   isSpec: "True"
-  fullName: LevelUpView.RemoveListener
-  nameWithType: LevelUpView.RemoveListener
+  fullName: LevelUpView.SelectTargetUnit
+  nameWithType: LevelUpView.SelectTargetUnit
+- uid: Global.LevelUpView.TargetUnit
+  name: TargetUnit
+  href: api/Global.LevelUpView.html#Global_LevelUpView_TargetUnit
+  commentId: P:Global.LevelUpView.TargetUnit
+  fullName: LevelUpView.TargetUnit
+  nameWithType: LevelUpView.TargetUnit
+- uid: Global.LevelUpView.TargetUnit*
+  name: TargetUnit
+  href: api/Global.LevelUpView.html#Global_LevelUpView_TargetUnit_
+  commentId: Overload:Global.LevelUpView.TargetUnit
+  isSpec: "True"
+  fullName: LevelUpView.TargetUnit
+  nameWithType: LevelUpView.TargetUnit
+- uid: Global.LevelUpView.unitText1
+  name: unitText1
+  href: api/Global.LevelUpView.html#Global_LevelUpView_unitText1
+  commentId: F:Global.LevelUpView.unitText1
+  fullName: LevelUpView.unitText1
+  nameWithType: LevelUpView.unitText1
+- uid: Global.LevelUpView.unitText2
+  name: unitText2
+  href: api/Global.LevelUpView.html#Global_LevelUpView_unitText2
+  commentId: F:Global.LevelUpView.unitText2
+  fullName: LevelUpView.unitText2
+  nameWithType: LevelUpView.unitText2
 - uid: Global.LoadingView
   name: LoadingView
   href: api/Global.LoadingView.html
   commentId: T:Global.LoadingView
   fullName: LoadingView
   nameWithType: LoadingView
-- uid: Global.LoadingView.AddListener
-  name: AddListener()
-  href: api/Global.LoadingView.html#Global_LoadingView_AddListener
-  commentId: M:Global.LoadingView.AddListener
-  fullName: LoadingView.AddListener()
-  nameWithType: LoadingView.AddListener()
-- uid: Global.LoadingView.AddListener*
-  name: AddListener
-  href: api/Global.LoadingView.html#Global_LoadingView_AddListener_
-  commentId: Overload:Global.LoadingView.AddListener
+- uid: Global.LoadingView.OnClose
+  name: OnClose()
+  href: api/Global.LoadingView.html#Global_LoadingView_OnClose
+  commentId: M:Global.LoadingView.OnClose
+  fullName: LoadingView.OnClose()
+  nameWithType: LoadingView.OnClose()
+- uid: Global.LoadingView.OnClose*
+  name: OnClose
+  href: api/Global.LoadingView.html#Global_LoadingView_OnClose_
+  commentId: Overload:Global.LoadingView.OnClose
   isSpec: "True"
-  fullName: LoadingView.AddListener
-  nameWithType: LoadingView.AddListener
+  fullName: LoadingView.OnClose
+  nameWithType: LoadingView.OnClose
+- uid: Global.LoadingView.OnOpen
+  name: OnOpen()
+  href: api/Global.LoadingView.html#Global_LoadingView_OnOpen
+  commentId: M:Global.LoadingView.OnOpen
+  fullName: LoadingView.OnOpen()
+  nameWithType: LoadingView.OnOpen()
+- uid: Global.LoadingView.OnOpen*
+  name: OnOpen
+  href: api/Global.LoadingView.html#Global_LoadingView_OnOpen_
+  commentId: Overload:Global.LoadingView.OnOpen
+  isSpec: "True"
+  fullName: LoadingView.OnOpen
+  nameWithType: LoadingView.OnOpen
 - uid: Global.LoadingView.RealRefresh
   name: RealRefresh()
   href: api/Global.LoadingView.html#Global_LoadingView_RealRefresh
@@ -1333,19 +1874,51 @@ references:
   isSpec: "True"
   fullName: LoadingView.RealRefresh
   nameWithType: LoadingView.RealRefresh
-- uid: Global.LoadingView.RemoveListener
-  name: RemoveListener()
-  href: api/Global.LoadingView.html#Global_LoadingView_RemoveListener
-  commentId: M:Global.LoadingView.RemoveListener
-  fullName: LoadingView.RemoveListener()
-  nameWithType: LoadingView.RemoveListener()
-- uid: Global.LoadingView.RemoveListener*
-  name: RemoveListener
-  href: api/Global.LoadingView.html#Global_LoadingView_RemoveListener_
-  commentId: Overload:Global.LoadingView.RemoveListener
+- uid: Global.Map
+  name: Map
+  href: api/Global.Map.html
+  commentId: T:Global.Map
+  fullName: Map
+  nameWithType: Map
+- uid: Global.Map.AfterLoad
+  name: AfterLoad()
+  href: api/Global.Map.html#Global_Map_AfterLoad
+  commentId: M:Global.Map.AfterLoad
+  fullName: Map.AfterLoad()
+  nameWithType: Map.AfterLoad()
+- uid: Global.Map.AfterLoad*
+  name: AfterLoad
+  href: api/Global.Map.html#Global_Map_AfterLoad_
+  commentId: Overload:Global.Map.AfterLoad
   isSpec: "True"
-  fullName: LoadingView.RemoveListener
-  nameWithType: LoadingView.RemoveListener
+  fullName: Map.AfterLoad
+  nameWithType: Map.AfterLoad
+- uid: Global.Map.BeforeSave
+  name: BeforeSave()
+  href: api/Global.Map.html#Global_Map_BeforeSave
+  commentId: M:Global.Map.BeforeSave
+  fullName: Map.BeforeSave()
+  nameWithType: Map.BeforeSave()
+- uid: Global.Map.BeforeSave*
+  name: BeforeSave
+  href: api/Global.Map.html#Global_Map_BeforeSave_
+  commentId: Overload:Global.Map.BeforeSave
+  isSpec: "True"
+  fullName: Map.BeforeSave
+  nameWithType: Map.BeforeSave
+- uid: Global.Map.CountDown
+  name: CountDown
+  href: api/Global.Map.html#Global_Map_CountDown
+  commentId: P:Global.Map.CountDown
+  fullName: Map.CountDown
+  nameWithType: Map.CountDown
+- uid: Global.Map.CountDown*
+  name: CountDown
+  href: api/Global.Map.html#Global_Map_CountDown_
+  commentId: Overload:Global.Map.CountDown
+  isSpec: "True"
+  fullName: Map.CountDown
+  nameWithType: Map.CountDown
 - uid: Global.MapController
   name: MapController
   href: api/Global.MapController.html
@@ -1364,12 +1937,44 @@ references:
   commentId: F:Global.MapController.createDuration
   fullName: MapController.createDuration
   nameWithType: MapController.createDuration
+- uid: Global.MapController.Data
+  name: Data
+  href: api/Global.MapController.html#Global_MapController_Data
+  commentId: P:Global.MapController.Data
+  fullName: MapController.Data
+  nameWithType: MapController.Data
+- uid: Global.MapController.Data*
+  name: Data
+  href: api/Global.MapController.html#Global_MapController_Data_
+  commentId: Overload:Global.MapController.Data
+  isSpec: "True"
+  fullName: MapController.Data
+  nameWithType: MapController.Data
+- uid: Global.MapController.enemyCreaterPrefab
+  name: enemyCreaterPrefab
+  href: api/Global.MapController.html#Global_MapController_enemyCreaterPrefab
+  commentId: F:Global.MapController.enemyCreaterPrefab
+  fullName: MapController.enemyCreaterPrefab
+  nameWithType: MapController.enemyCreaterPrefab
 - uid: Global.MapController.player
   name: player
   href: api/Global.MapController.html#Global_MapController_player
   commentId: F:Global.MapController.player
   fullName: MapController.player
   nameWithType: MapController.player
+- uid: Global.MapController.PlayerData
+  name: PlayerData
+  href: api/Global.MapController.html#Global_MapController_PlayerData
+  commentId: P:Global.MapController.PlayerData
+  fullName: MapController.PlayerData
+  nameWithType: MapController.PlayerData
+- uid: Global.MapController.PlayerData*
+  name: PlayerData
+  href: api/Global.MapController.html#Global_MapController_PlayerData_
+  commentId: Overload:Global.MapController.PlayerData
+  isSpec: "True"
+  fullName: MapController.PlayerData
+  nameWithType: MapController.PlayerData
 - uid: Global.MoveType
   name: MoveType
   href: api/Global.MoveType.html
@@ -1582,6 +2187,19 @@ references:
   isSpec: "True"
   fullName: Player.AfterLoad
   nameWithType: Player.AfterLoad
+- uid: Global.Player.AvailableUnitIDPool
+  name: AvailableUnitIDPool
+  href: api/Global.Player.html#Global_Player_AvailableUnitIDPool
+  commentId: P:Global.Player.AvailableUnitIDPool
+  fullName: Player.AvailableUnitIDPool
+  nameWithType: Player.AvailableUnitIDPool
+- uid: Global.Player.AvailableUnitIDPool*
+  name: AvailableUnitIDPool
+  href: api/Global.Player.html#Global_Player_AvailableUnitIDPool_
+  commentId: Overload:Global.Player.AvailableUnitIDPool
+  isSpec: "True"
+  fullName: Player.AvailableUnitIDPool
+  nameWithType: Player.AvailableUnitIDPool
 - uid: Global.Player.BeforeSave
   name: BeforeSave()
   href: api/Global.Player.html#Global_Player_BeforeSave
@@ -1607,12 +2225,70 @@ references:
   commentId: F:Global.Player.ComboInfo.comboID
   fullName: Player.ComboInfo.comboID
   nameWithType: Player.ComboInfo.comboID
-- uid: Global.Player.ComboInfo.skillConfigID
-  name: skillConfigID
-  href: api/Global.Player.ComboInfo.html#Global_Player_ComboInfo_skillConfigID
-  commentId: F:Global.Player.ComboInfo.skillConfigID
-  fullName: Player.ComboInfo.skillConfigID
-  nameWithType: Player.ComboInfo.skillConfigID
+- uid: Global.Player.ComboInfo.Equals(Player.ComboInfo)
+  name: Equals(Player.ComboInfo)
+  href: api/Global.Player.ComboInfo.html#Global_Player_ComboInfo_Equals_Player_ComboInfo_
+  commentId: M:Global.Player.ComboInfo.Equals(Player.ComboInfo)
+  fullName: Player.ComboInfo.Equals(Player.ComboInfo)
+  nameWithType: Player.ComboInfo.Equals(Player.ComboInfo)
+- uid: Global.Player.ComboInfo.Equals(System.Object)
+  name: Equals(Object)
+  href: api/Global.Player.ComboInfo.html#Global_Player_ComboInfo_Equals_System_Object_
+  commentId: M:Global.Player.ComboInfo.Equals(System.Object)
+  fullName: Player.ComboInfo.Equals(System.Object)
+  nameWithType: Player.ComboInfo.Equals(Object)
+- uid: Global.Player.ComboInfo.Equals*
+  name: Equals
+  href: api/Global.Player.ComboInfo.html#Global_Player_ComboInfo_Equals_
+  commentId: Overload:Global.Player.ComboInfo.Equals
+  isSpec: "True"
+  fullName: Player.ComboInfo.Equals
+  nameWithType: Player.ComboInfo.Equals
+- uid: Global.Player.ComboInfo.GetHashCode
+  name: GetHashCode()
+  href: api/Global.Player.ComboInfo.html#Global_Player_ComboInfo_GetHashCode
+  commentId: M:Global.Player.ComboInfo.GetHashCode
+  fullName: Player.ComboInfo.GetHashCode()
+  nameWithType: Player.ComboInfo.GetHashCode()
+- uid: Global.Player.ComboInfo.GetHashCode*
+  name: GetHashCode
+  href: api/Global.Player.ComboInfo.html#Global_Player_ComboInfo_GetHashCode_
+  commentId: Overload:Global.Player.ComboInfo.GetHashCode
+  isSpec: "True"
+  fullName: Player.ComboInfo.GetHashCode
+  nameWithType: Player.ComboInfo.GetHashCode
+- uid: Global.Player.ComboInfo.op_Equality(Player.ComboInfo,Player.ComboInfo)
+  name: Equality(Player.ComboInfo, Player.ComboInfo)
+  href: api/Global.Player.ComboInfo.html#Global_Player_ComboInfo_op_Equality_Player_ComboInfo_Player_ComboInfo_
+  commentId: M:Global.Player.ComboInfo.op_Equality(Player.ComboInfo,Player.ComboInfo)
+  fullName: Player.ComboInfo.Equality(Player.ComboInfo, Player.ComboInfo)
+  nameWithType: Player.ComboInfo.Equality(Player.ComboInfo, Player.ComboInfo)
+- uid: Global.Player.ComboInfo.op_Equality*
+  name: Equality
+  href: api/Global.Player.ComboInfo.html#Global_Player_ComboInfo_op_Equality_
+  commentId: Overload:Global.Player.ComboInfo.op_Equality
+  isSpec: "True"
+  fullName: Player.ComboInfo.Equality
+  nameWithType: Player.ComboInfo.Equality
+- uid: Global.Player.ComboInfo.op_Inequality(Player.ComboInfo,Player.ComboInfo)
+  name: Inequality(Player.ComboInfo, Player.ComboInfo)
+  href: api/Global.Player.ComboInfo.html#Global_Player_ComboInfo_op_Inequality_Player_ComboInfo_Player_ComboInfo_
+  commentId: M:Global.Player.ComboInfo.op_Inequality(Player.ComboInfo,Player.ComboInfo)
+  fullName: Player.ComboInfo.Inequality(Player.ComboInfo, Player.ComboInfo)
+  nameWithType: Player.ComboInfo.Inequality(Player.ComboInfo, Player.ComboInfo)
+- uid: Global.Player.ComboInfo.op_Inequality*
+  name: Inequality
+  href: api/Global.Player.ComboInfo.html#Global_Player_ComboInfo_op_Inequality_
+  commentId: Overload:Global.Player.ComboInfo.op_Inequality
+  isSpec: "True"
+  fullName: Player.ComboInfo.Inequality
+  nameWithType: Player.ComboInfo.Inequality
+- uid: Global.Player.ComboInfo.skillID
+  name: skillID
+  href: api/Global.Player.ComboInfo.html#Global_Player_ComboInfo_skillID
+  commentId: F:Global.Player.ComboInfo.skillID
+  fullName: Player.ComboInfo.skillID
+  nameWithType: Player.ComboInfo.skillID
 - uid: Global.Player.ComboInfo.variantName
   name: variantName
   href: api/Global.Player.ComboInfo.html#Global_Player_ComboInfo_variantName
@@ -1632,19 +2308,32 @@ references:
   isSpec: "True"
   fullName: Player.ComboInfoList
   nameWithType: Player.ComboInfoList
-- uid: Global.Player.EquippedCount
-  name: EquippedCount
-  href: api/Global.Player.html#Global_Player_EquippedCount
-  commentId: P:Global.Player.EquippedCount
-  fullName: Player.EquippedCount
-  nameWithType: Player.EquippedCount
-- uid: Global.Player.EquippedCount*
-  name: EquippedCount
-  href: api/Global.Player.html#Global_Player_EquippedCount_
-  commentId: Overload:Global.Player.EquippedCount
+- uid: Global.Player.CompletedWave
+  name: CompletedWave
+  href: api/Global.Player.html#Global_Player_CompletedWave
+  commentId: P:Global.Player.CompletedWave
+  fullName: Player.CompletedWave
+  nameWithType: Player.CompletedWave
+- uid: Global.Player.CompletedWave*
+  name: CompletedWave
+  href: api/Global.Player.html#Global_Player_CompletedWave_
+  commentId: Overload:Global.Player.CompletedWave
   isSpec: "True"
-  fullName: Player.EquippedCount
-  nameWithType: Player.EquippedCount
+  fullName: Player.CompletedWave
+  nameWithType: Player.CompletedWave
+- uid: Global.Player.EquippedUnitList
+  name: EquippedUnitList
+  href: api/Global.Player.html#Global_Player_EquippedUnitList
+  commentId: P:Global.Player.EquippedUnitList
+  fullName: Player.EquippedUnitList
+  nameWithType: Player.EquippedUnitList
+- uid: Global.Player.EquippedUnitList*
+  name: EquippedUnitList
+  href: api/Global.Player.html#Global_Player_EquippedUnitList_
+  commentId: Overload:Global.Player.EquippedUnitList
+  isSpec: "True"
+  fullName: Player.EquippedUnitList
+  nameWithType: Player.EquippedUnitList
 - uid: Global.Player.EquipUnit(Unit,System.Int32)
   name: EquipUnit(Unit, Int32)
   href: api/Global.Player.html#Global_Player_EquipUnit_Unit_System_Int32_
@@ -1671,32 +2360,6 @@ references:
   isSpec: "True"
   fullName: Player.GainUnit
   nameWithType: Player.GainUnit
-- uid: Global.Player.GetEquippedUnit(System.Int32)
-  name: GetEquippedUnit(Int32)
-  href: api/Global.Player.html#Global_Player_GetEquippedUnit_System_Int32_
-  commentId: M:Global.Player.GetEquippedUnit(System.Int32)
-  fullName: Player.GetEquippedUnit(System.Int32)
-  nameWithType: Player.GetEquippedUnit(Int32)
-- uid: Global.Player.GetEquippedUnit*
-  name: GetEquippedUnit
-  href: api/Global.Player.html#Global_Player_GetEquippedUnit_
-  commentId: Overload:Global.Player.GetEquippedUnit
-  isSpec: "True"
-  fullName: Player.GetEquippedUnit
-  nameWithType: Player.GetEquippedUnit
-- uid: Global.Player.GetInventoryUnit(System.Int32)
-  name: GetInventoryUnit(Int32)
-  href: api/Global.Player.html#Global_Player_GetInventoryUnit_System_Int32_
-  commentId: M:Global.Player.GetInventoryUnit(System.Int32)
-  fullName: Player.GetInventoryUnit(System.Int32)
-  nameWithType: Player.GetInventoryUnit(Int32)
-- uid: Global.Player.GetInventoryUnit*
-  name: GetInventoryUnit
-  href: api/Global.Player.html#Global_Player_GetInventoryUnit_
-  commentId: Overload:Global.Player.GetInventoryUnit
-  isSpec: "True"
-  fullName: Player.GetInventoryUnit
-  nameWithType: Player.GetInventoryUnit
 - uid: Global.Player.GetSkills
   name: GetSkills()
   href: api/Global.Player.html#Global_Player_GetSkills
@@ -1710,19 +2373,45 @@ references:
   isSpec: "True"
   fullName: Player.GetSkills
   nameWithType: Player.GetSkills
-- uid: Global.Player.InventoryCount
-  name: InventoryCount
-  href: api/Global.Player.html#Global_Player_InventoryCount
-  commentId: P:Global.Player.InventoryCount
-  fullName: Player.InventoryCount
-  nameWithType: Player.InventoryCount
-- uid: Global.Player.InventoryCount*
-  name: InventoryCount
-  href: api/Global.Player.html#Global_Player_InventoryCount_
-  commentId: Overload:Global.Player.InventoryCount
+- uid: Global.Player.Guid
+  name: Guid
+  href: api/Global.Player.html#Global_Player_Guid
+  commentId: P:Global.Player.Guid
+  fullName: Player.Guid
+  nameWithType: Player.Guid
+- uid: Global.Player.Guid*
+  name: Guid
+  href: api/Global.Player.html#Global_Player_Guid_
+  commentId: Overload:Global.Player.Guid
   isSpec: "True"
-  fullName: Player.InventoryCount
-  nameWithType: Player.InventoryCount
+  fullName: Player.Guid
+  nameWithType: Player.Guid
+- uid: Global.Player.Init
+  name: Init()
+  href: api/Global.Player.html#Global_Player_Init
+  commentId: M:Global.Player.Init
+  fullName: Player.Init()
+  nameWithType: Player.Init()
+- uid: Global.Player.Init*
+  name: Init
+  href: api/Global.Player.html#Global_Player_Init_
+  commentId: Overload:Global.Player.Init
+  isSpec: "True"
+  fullName: Player.Init
+  nameWithType: Player.Init
+- uid: Global.Player.InventoryUnitList
+  name: InventoryUnitList
+  href: api/Global.Player.html#Global_Player_InventoryUnitList
+  commentId: P:Global.Player.InventoryUnitList
+  fullName: Player.InventoryUnitList
+  nameWithType: Player.InventoryUnitList
+- uid: Global.Player.InventoryUnitList*
+  name: InventoryUnitList
+  href: api/Global.Player.html#Global_Player_InventoryUnitList_
+  commentId: Overload:Global.Player.InventoryUnitList
+  isSpec: "True"
+  fullName: Player.InventoryUnitList
+  nameWithType: Player.InventoryUnitList
 - uid: Global.Player.LostUnit(Unit)
   name: LostUnit(Unit)
   href: api/Global.Player.html#Global_Player_LostUnit_Unit_
@@ -1736,6 +2425,32 @@ references:
   isSpec: "True"
   fullName: Player.LostUnit
   nameWithType: Player.LostUnit
+- uid: Global.Player.MaxComboCount
+  name: MaxComboCount
+  href: api/Global.Player.html#Global_Player_MaxComboCount
+  commentId: P:Global.Player.MaxComboCount
+  fullName: Player.MaxComboCount
+  nameWithType: Player.MaxComboCount
+- uid: Global.Player.MaxComboCount*
+  name: MaxComboCount
+  href: api/Global.Player.html#Global_Player_MaxComboCount_
+  commentId: Overload:Global.Player.MaxComboCount
+  isSpec: "True"
+  fullName: Player.MaxComboCount
+  nameWithType: Player.MaxComboCount
+- uid: Global.Player.MaxEquippedCount
+  name: MaxEquippedCount
+  href: api/Global.Player.html#Global_Player_MaxEquippedCount
+  commentId: P:Global.Player.MaxEquippedCount
+  fullName: Player.MaxEquippedCount
+  nameWithType: Player.MaxEquippedCount
+- uid: Global.Player.MaxEquippedCount*
+  name: MaxEquippedCount
+  href: api/Global.Player.html#Global_Player_MaxEquippedCount_
+  commentId: Overload:Global.Player.MaxEquippedCount
+  isSpec: "True"
+  fullName: Player.MaxEquippedCount
+  nameWithType: Player.MaxEquippedCount
 - uid: Global.Player.UnequipUnit(System.Int32)
   name: UnequipUnit(Int32)
   href: api/Global.Player.html#Global_Player_UnequipUnit_System_Int32_
@@ -1761,6 +2476,38 @@ references:
   commentId: T:Global.PlayerController
   fullName: PlayerController
   nameWithType: PlayerController
+- uid: Global.PlayerController.Awake
+  name: Awake()
+  href: api/Global.PlayerController.html#Global_PlayerController_Awake
+  commentId: M:Global.PlayerController.Awake
+  fullName: PlayerController.Awake()
+  nameWithType: PlayerController.Awake()
+- uid: Global.PlayerController.Awake*
+  name: Awake
+  href: api/Global.PlayerController.html#Global_PlayerController_Awake_
+  commentId: Overload:Global.PlayerController.Awake
+  isSpec: "True"
+  fullName: PlayerController.Awake
+  nameWithType: PlayerController.Awake
+- uid: Global.PlayerController.FixedUpdate
+  name: FixedUpdate()
+  href: api/Global.PlayerController.html#Global_PlayerController_FixedUpdate
+  commentId: M:Global.PlayerController.FixedUpdate
+  fullName: PlayerController.FixedUpdate()
+  nameWithType: PlayerController.FixedUpdate()
+- uid: Global.PlayerController.FixedUpdate*
+  name: FixedUpdate
+  href: api/Global.PlayerController.html#Global_PlayerController_FixedUpdate_
+  commentId: Overload:Global.PlayerController.FixedUpdate
+  isSpec: "True"
+  fullName: PlayerController.FixedUpdate
+  nameWithType: PlayerController.FixedUpdate
+- uid: Global.PlayerController.input
+  name: input
+  href: api/Global.PlayerController.html#Global_PlayerController_input
+  commentId: F:Global.PlayerController.input
+  fullName: PlayerController.input
+  nameWithType: PlayerController.input
 - uid: Global.PlayerController.OnAttack(InputAction.CallbackContext)
   name: OnAttack(InputAction.CallbackContext)
   href: api/Global.PlayerController.html#Global_PlayerController_OnAttack_InputAction_CallbackContext_
@@ -1774,19 +2521,6 @@ references:
   isSpec: "True"
   fullName: PlayerController.OnAttack
   nameWithType: PlayerController.OnAttack
-- uid: Global.PlayerController.OnDestroy
-  name: OnDestroy()
-  href: api/Global.PlayerController.html#Global_PlayerController_OnDestroy
-  commentId: M:Global.PlayerController.OnDestroy
-  fullName: PlayerController.OnDestroy()
-  nameWithType: PlayerController.OnDestroy()
-- uid: Global.PlayerController.OnDestroy*
-  name: OnDestroy
-  href: api/Global.PlayerController.html#Global_PlayerController_OnDestroy_
-  commentId: Overload:Global.PlayerController.OnDestroy
-  isSpec: "True"
-  fullName: PlayerController.OnDestroy
-  nameWithType: PlayerController.OnDestroy
 - uid: Global.PlayerController.OnHeavyAttack(InputAction.CallbackContext)
   name: OnHeavyAttack(InputAction.CallbackContext)
   href: api/Global.PlayerController.html#Global_PlayerController_OnHeavyAttack_InputAction_CallbackContext_
@@ -1813,38 +2547,103 @@ references:
   isSpec: "True"
   fullName: PlayerController.OnMove
   nameWithType: PlayerController.OnMove
-- uid: Global.PlayerController.Start
-  name: Start()
-  href: api/Global.PlayerController.html#Global_PlayerController_Start
-  commentId: M:Global.PlayerController.Start
-  fullName: PlayerController.Start()
-  nameWithType: PlayerController.Start()
-- uid: Global.PlayerController.Start*
-  name: Start
-  href: api/Global.PlayerController.html#Global_PlayerController_Start_
-  commentId: Overload:Global.PlayerController.Start
+- uid: Global.PlayerController.OnOpenOrCloseInventory(InputAction.CallbackContext)
+  name: OnOpenOrCloseInventory(InputAction.CallbackContext)
+  href: api/Global.PlayerController.html#Global_PlayerController_OnOpenOrCloseInventory_InputAction_CallbackContext_
+  commentId: M:Global.PlayerController.OnOpenOrCloseInventory(InputAction.CallbackContext)
+  fullName: PlayerController.OnOpenOrCloseInventory(InputAction.CallbackContext)
+  nameWithType: PlayerController.OnOpenOrCloseInventory(InputAction.CallbackContext)
+- uid: Global.PlayerController.OnOpenOrCloseInventory*
+  name: OnOpenOrCloseInventory
+  href: api/Global.PlayerController.html#Global_PlayerController_OnOpenOrCloseInventory_
+  commentId: Overload:Global.PlayerController.OnOpenOrCloseInventory
   isSpec: "True"
-  fullName: PlayerController.Start
-  nameWithType: PlayerController.Start
+  fullName: PlayerController.OnOpenOrCloseInventory
+  nameWithType: PlayerController.OnOpenOrCloseInventory
+- uid: Global.PlayerController.OnOpenOrCloseSkillCombo(InputAction.CallbackContext)
+  name: OnOpenOrCloseSkillCombo(InputAction.CallbackContext)
+  href: api/Global.PlayerController.html#Global_PlayerController_OnOpenOrCloseSkillCombo_InputAction_CallbackContext_
+  commentId: M:Global.PlayerController.OnOpenOrCloseSkillCombo(InputAction.CallbackContext)
+  fullName: PlayerController.OnOpenOrCloseSkillCombo(InputAction.CallbackContext)
+  nameWithType: PlayerController.OnOpenOrCloseSkillCombo(InputAction.CallbackContext)
+- uid: Global.PlayerController.OnOpenOrCloseSkillCombo*
+  name: OnOpenOrCloseSkillCombo
+  href: api/Global.PlayerController.html#Global_PlayerController_OnOpenOrCloseSkillCombo_
+  commentId: Overload:Global.PlayerController.OnOpenOrCloseSkillCombo
+  isSpec: "True"
+  fullName: PlayerController.OnOpenOrCloseSkillCombo
+  nameWithType: PlayerController.OnOpenOrCloseSkillCombo
+- uid: Global.PlayerController.OnOpenSettings(InputAction.CallbackContext)
+  name: OnOpenSettings(InputAction.CallbackContext)
+  href: api/Global.PlayerController.html#Global_PlayerController_OnOpenSettings_InputAction_CallbackContext_
+  commentId: M:Global.PlayerController.OnOpenSettings(InputAction.CallbackContext)
+  fullName: PlayerController.OnOpenSettings(InputAction.CallbackContext)
+  nameWithType: PlayerController.OnOpenSettings(InputAction.CallbackContext)
+- uid: Global.PlayerController.OnOpenSettings*
+  name: OnOpenSettings
+  href: api/Global.PlayerController.html#Global_PlayerController_OnOpenSettings_
+  commentId: Overload:Global.PlayerController.OnOpenSettings
+  isSpec: "True"
+  fullName: PlayerController.OnOpenSettings
+  nameWithType: PlayerController.OnOpenSettings
+- uid: Global.PlayerController.OnPickUp(InputAction.CallbackContext)
+  name: OnPickUp(InputAction.CallbackContext)
+  href: api/Global.PlayerController.html#Global_PlayerController_OnPickUp_InputAction_CallbackContext_
+  commentId: M:Global.PlayerController.OnPickUp(InputAction.CallbackContext)
+  fullName: PlayerController.OnPickUp(InputAction.CallbackContext)
+  nameWithType: PlayerController.OnPickUp(InputAction.CallbackContext)
+- uid: Global.PlayerController.OnPickUp*
+  name: OnPickUp
+  href: api/Global.PlayerController.html#Global_PlayerController_OnPickUp_
+  commentId: Overload:Global.PlayerController.OnPickUp
+  isSpec: "True"
+  fullName: PlayerController.OnPickUp
+  nameWithType: PlayerController.OnPickUp
+- uid: Global.PlayerController.Update
+  name: Update()
+  href: api/Global.PlayerController.html#Global_PlayerController_Update
+  commentId: M:Global.PlayerController.Update
+  fullName: PlayerController.Update()
+  nameWithType: PlayerController.Update()
+- uid: Global.PlayerController.Update*
+  name: Update
+  href: api/Global.PlayerController.html#Global_PlayerController_Update_
+  commentId: Overload:Global.PlayerController.Update
+  isSpec: "True"
+  fullName: PlayerController.Update
+  nameWithType: PlayerController.Update
 - uid: Global.PlayView
   name: PlayView
   href: api/Global.PlayView.html
   commentId: T:Global.PlayView
   fullName: PlayView
   nameWithType: PlayView
-- uid: Global.PlayView.AddListener
-  name: AddListener()
-  href: api/Global.PlayView.html#Global_PlayView_AddListener
-  commentId: M:Global.PlayView.AddListener
-  fullName: PlayView.AddListener()
-  nameWithType: PlayView.AddListener()
-- uid: Global.PlayView.AddListener*
-  name: AddListener
-  href: api/Global.PlayView.html#Global_PlayView_AddListener_
-  commentId: Overload:Global.PlayView.AddListener
+- uid: Global.PlayView.OnClose
+  name: OnClose()
+  href: api/Global.PlayView.html#Global_PlayView_OnClose
+  commentId: M:Global.PlayView.OnClose
+  fullName: PlayView.OnClose()
+  nameWithType: PlayView.OnClose()
+- uid: Global.PlayView.OnClose*
+  name: OnClose
+  href: api/Global.PlayView.html#Global_PlayView_OnClose_
+  commentId: Overload:Global.PlayView.OnClose
   isSpec: "True"
-  fullName: PlayView.AddListener
-  nameWithType: PlayView.AddListener
+  fullName: PlayView.OnClose
+  nameWithType: PlayView.OnClose
+- uid: Global.PlayView.OnOpen
+  name: OnOpen()
+  href: api/Global.PlayView.html#Global_PlayView_OnOpen
+  commentId: M:Global.PlayView.OnOpen
+  fullName: PlayView.OnOpen()
+  nameWithType: PlayView.OnOpen()
+- uid: Global.PlayView.OnOpen*
+  name: OnOpen
+  href: api/Global.PlayView.html#Global_PlayView_OnOpen_
+  commentId: Overload:Global.PlayView.OnOpen
+  isSpec: "True"
+  fullName: PlayView.OnOpen
+  nameWithType: PlayView.OnOpen
 - uid: Global.PlayView.RealRefresh
   name: RealRefresh()
   href: api/Global.PlayView.html#Global_PlayView_RealRefresh
@@ -1858,19 +2657,122 @@ references:
   isSpec: "True"
   fullName: PlayView.RealRefresh
   nameWithType: PlayView.RealRefresh
-- uid: Global.PlayView.RemoveListener
-  name: RemoveListener()
-  href: api/Global.PlayView.html#Global_PlayView_RemoveListener
-  commentId: M:Global.PlayView.RemoveListener
-  fullName: PlayView.RemoveListener()
-  nameWithType: PlayView.RemoveListener()
-- uid: Global.PlayView.RemoveListener*
-  name: RemoveListener
-  href: api/Global.PlayView.html#Global_PlayView_RemoveListener_
-  commentId: Overload:Global.PlayView.RemoveListener
+- uid: Global.PlayView.Start
+  name: Start()
+  href: api/Global.PlayView.html#Global_PlayView_Start
+  commentId: M:Global.PlayView.Start
+  fullName: PlayView.Start()
+  nameWithType: PlayView.Start()
+- uid: Global.PlayView.Start*
+  name: Start
+  href: api/Global.PlayView.html#Global_PlayView_Start_
+  commentId: Overload:Global.PlayView.Start
   isSpec: "True"
-  fullName: PlayView.RemoveListener
-  nameWithType: PlayView.RemoveListener
+  fullName: PlayView.Start
+  nameWithType: PlayView.Start
+- uid: Global.PopMessageWindow
+  name: PopMessageWindow
+  href: api/Global.PopMessageWindow.html
+  commentId: T:Global.PopMessageWindow
+  fullName: PopMessageWindow
+  nameWithType: PopMessageWindow
+- uid: Global.PopMessageWindow.AddListener
+  name: AddListener()
+  href: api/Global.PopMessageWindow.html#Global_PopMessageWindow_AddListener
+  commentId: M:Global.PopMessageWindow.AddListener
+  fullName: PopMessageWindow.AddListener()
+  nameWithType: PopMessageWindow.AddListener()
+- uid: Global.PopMessageWindow.AddListener*
+  name: AddListener
+  href: api/Global.PopMessageWindow.html#Global_PopMessageWindow_AddListener_
+  commentId: Overload:Global.PopMessageWindow.AddListener
+  isSpec: "True"
+  fullName: PopMessageWindow.AddListener
+  nameWithType: PopMessageWindow.AddListener
+- uid: Global.PopMessageWindow.displayText
+  name: displayText
+  href: api/Global.PopMessageWindow.html#Global_PopMessageWindow_displayText
+  commentId: F:Global.PopMessageWindow.displayText
+  fullName: PopMessageWindow.displayText
+  nameWithType: PopMessageWindow.displayText
+- uid: Global.PopMessageWindow.OnClose
+  name: OnClose()
+  href: api/Global.PopMessageWindow.html#Global_PopMessageWindow_OnClose
+  commentId: M:Global.PopMessageWindow.OnClose
+  fullName: PopMessageWindow.OnClose()
+  nameWithType: PopMessageWindow.OnClose()
+- uid: Global.PopMessageWindow.OnClose*
+  name: OnClose
+  href: api/Global.PopMessageWindow.html#Global_PopMessageWindow_OnClose_
+  commentId: Overload:Global.PopMessageWindow.OnClose
+  isSpec: "True"
+  fullName: PopMessageWindow.OnClose
+  nameWithType: PopMessageWindow.OnClose
+- uid: Global.PopMessageWindow.OnOpen
+  name: OnOpen()
+  href: api/Global.PopMessageWindow.html#Global_PopMessageWindow_OnOpen
+  commentId: M:Global.PopMessageWindow.OnOpen
+  fullName: PopMessageWindow.OnOpen()
+  nameWithType: PopMessageWindow.OnOpen()
+- uid: Global.PopMessageWindow.OnOpen*
+  name: OnOpen
+  href: api/Global.PopMessageWindow.html#Global_PopMessageWindow_OnOpen_
+  commentId: Overload:Global.PopMessageWindow.OnOpen
+  isSpec: "True"
+  fullName: PopMessageWindow.OnOpen
+  nameWithType: PopMessageWindow.OnOpen
+- uid: Global.PopMessageWindow.RealRefresh
+  name: RealRefresh()
+  href: api/Global.PopMessageWindow.html#Global_PopMessageWindow_RealRefresh
+  commentId: M:Global.PopMessageWindow.RealRefresh
+  fullName: PopMessageWindow.RealRefresh()
+  nameWithType: PopMessageWindow.RealRefresh()
+- uid: Global.PopMessageWindow.RealRefresh*
+  name: RealRefresh
+  href: api/Global.PopMessageWindow.html#Global_PopMessageWindow_RealRefresh_
+  commentId: Overload:Global.PopMessageWindow.RealRefresh
+  isSpec: "True"
+  fullName: PopMessageWindow.RealRefresh
+  nameWithType: PopMessageWindow.RealRefresh
+- uid: Global.PopMessageWindow.RemoveListener
+  name: RemoveListener()
+  href: api/Global.PopMessageWindow.html#Global_PopMessageWindow_RemoveListener
+  commentId: M:Global.PopMessageWindow.RemoveListener
+  fullName: PopMessageWindow.RemoveListener()
+  nameWithType: PopMessageWindow.RemoveListener()
+- uid: Global.PopMessageWindow.RemoveListener*
+  name: RemoveListener
+  href: api/Global.PopMessageWindow.html#Global_PopMessageWindow_RemoveListener_
+  commentId: Overload:Global.PopMessageWindow.RemoveListener
+  isSpec: "True"
+  fullName: PopMessageWindow.RemoveListener
+  nameWithType: PopMessageWindow.RemoveListener
+- uid: Global.PopMessageWindow.Show(System.String)
+  name: Show(String)
+  href: api/Global.PopMessageWindow.html#Global_PopMessageWindow_Show_System_String_
+  commentId: M:Global.PopMessageWindow.Show(System.String)
+  fullName: PopMessageWindow.Show(System.String)
+  nameWithType: PopMessageWindow.Show(String)
+- uid: Global.PopMessageWindow.Show*
+  name: Show
+  href: api/Global.PopMessageWindow.html#Global_PopMessageWindow_Show_
+  commentId: Overload:Global.PopMessageWindow.Show
+  isSpec: "True"
+  fullName: PopMessageWindow.Show
+  nameWithType: PopMessageWindow.Show
+- uid: Global.PopMessageWindow.Start
+  name: Start()
+  href: api/Global.PopMessageWindow.html#Global_PopMessageWindow_Start
+  commentId: M:Global.PopMessageWindow.Start
+  fullName: PopMessageWindow.Start()
+  nameWithType: PopMessageWindow.Start()
+- uid: Global.PopMessageWindow.Start*
+  name: Start
+  href: api/Global.PopMessageWindow.html#Global_PopMessageWindow_Start_
+  commentId: Overload:Global.PopMessageWindow.Start
+  isSpec: "True"
+  fullName: PopMessageWindow.Start
+  nameWithType: PopMessageWindow.Start
 - uid: Global.PopWindow
   name: PopWindow
   href: api/Global.PopWindow.html
@@ -1896,19 +2798,77 @@ references:
   commentId: F:Global.PopWindow.exampleText
   fullName: PopWindow.exampleText
   nameWithType: PopWindow.exampleText
-- uid: Global.PopWindow.PlayOpenAnimation
-  name: PlayOpenAnimation()
-  href: api/Global.PopWindow.html#Global_PopWindow_PlayOpenAnimation
-  commentId: M:Global.PopWindow.PlayOpenAnimation
-  fullName: PopWindow.PlayOpenAnimation()
-  nameWithType: PopWindow.PlayOpenAnimation()
-- uid: Global.PopWindow.PlayOpenAnimation*
-  name: PlayOpenAnimation
-  href: api/Global.PopWindow.html#Global_PopWindow_PlayOpenAnimation_
-  commentId: Overload:Global.PopWindow.PlayOpenAnimation
+- uid: Global.PopWindow.mouseOffset
+  name: mouseOffset
+  href: api/Global.PopWindow.html#Global_PopWindow_mouseOffset
+  commentId: F:Global.PopWindow.mouseOffset
+  fullName: PopWindow.mouseOffset
+  nameWithType: PopWindow.mouseOffset
+- uid: Global.PopWindow.OnBeginDrag(PointerEventData)
+  name: OnBeginDrag(PointerEventData)
+  href: api/Global.PopWindow.html#Global_PopWindow_OnBeginDrag_PointerEventData_
+  commentId: M:Global.PopWindow.OnBeginDrag(PointerEventData)
+  fullName: PopWindow.OnBeginDrag(PointerEventData)
+  nameWithType: PopWindow.OnBeginDrag(PointerEventData)
+- uid: Global.PopWindow.OnBeginDrag*
+  name: OnBeginDrag
+  href: api/Global.PopWindow.html#Global_PopWindow_OnBeginDrag_
+  commentId: Overload:Global.PopWindow.OnBeginDrag
   isSpec: "True"
-  fullName: PopWindow.PlayOpenAnimation
-  nameWithType: PopWindow.PlayOpenAnimation
+  fullName: PopWindow.OnBeginDrag
+  nameWithType: PopWindow.OnBeginDrag
+- uid: Global.PopWindow.OnClose
+  name: OnClose()
+  href: api/Global.PopWindow.html#Global_PopWindow_OnClose
+  commentId: M:Global.PopWindow.OnClose
+  fullName: PopWindow.OnClose()
+  nameWithType: PopWindow.OnClose()
+- uid: Global.PopWindow.OnClose*
+  name: OnClose
+  href: api/Global.PopWindow.html#Global_PopWindow_OnClose_
+  commentId: Overload:Global.PopWindow.OnClose
+  isSpec: "True"
+  fullName: PopWindow.OnClose
+  nameWithType: PopWindow.OnClose
+- uid: Global.PopWindow.OnDrag(PointerEventData)
+  name: OnDrag(PointerEventData)
+  href: api/Global.PopWindow.html#Global_PopWindow_OnDrag_PointerEventData_
+  commentId: M:Global.PopWindow.OnDrag(PointerEventData)
+  fullName: PopWindow.OnDrag(PointerEventData)
+  nameWithType: PopWindow.OnDrag(PointerEventData)
+- uid: Global.PopWindow.OnDrag*
+  name: OnDrag
+  href: api/Global.PopWindow.html#Global_PopWindow_OnDrag_
+  commentId: Overload:Global.PopWindow.OnDrag
+  isSpec: "True"
+  fullName: PopWindow.OnDrag
+  nameWithType: PopWindow.OnDrag
+- uid: Global.PopWindow.OnOpen
+  name: OnOpen()
+  href: api/Global.PopWindow.html#Global_PopWindow_OnOpen
+  commentId: M:Global.PopWindow.OnOpen
+  fullName: PopWindow.OnOpen()
+  nameWithType: PopWindow.OnOpen()
+- uid: Global.PopWindow.OnOpen*
+  name: OnOpen
+  href: api/Global.PopWindow.html#Global_PopWindow_OnOpen_
+  commentId: Overload:Global.PopWindow.OnOpen
+  isSpec: "True"
+  fullName: PopWindow.OnOpen
+  nameWithType: PopWindow.OnOpen
+- uid: Global.PopWindow.OnPointerClick(PointerEventData)
+  name: OnPointerClick(PointerEventData)
+  href: api/Global.PopWindow.html#Global_PopWindow_OnPointerClick_PointerEventData_
+  commentId: M:Global.PopWindow.OnPointerClick(PointerEventData)
+  fullName: PopWindow.OnPointerClick(PointerEventData)
+  nameWithType: PopWindow.OnPointerClick(PointerEventData)
+- uid: Global.PopWindow.OnPointerClick*
+  name: OnPointerClick
+  href: api/Global.PopWindow.html#Global_PopWindow_OnPointerClick_
+  commentId: Overload:Global.PopWindow.OnPointerClick
+  isSpec: "True"
+  fullName: PopWindow.OnPointerClick
+  nameWithType: PopWindow.OnPointerClick
 - uid: Global.PopWindow.progress
   name: progress
   href: api/Global.PopWindow.html#Global_PopWindow_progress
@@ -1941,12 +2901,112 @@ references:
   isSpec: "True"
   fullName: PopWindow.RemoveListener
   nameWithType: PopWindow.RemoveListener
+- uid: Global.PopWindow.Show(System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})
+  name: Show(List<String>, List<String>)
+  href: api/Global.PopWindow.html#Global_PopWindow_Show_System_Collections_Generic_List_System_String__System_Collections_Generic_List_System_String__
+  commentId: M:Global.PopWindow.Show(System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})
+  name.vb: Show(List(Of String), List(Of String))
+  fullName: PopWindow.Show(System.Collections.Generic.List<System.String>, System.Collections.Generic.List<System.String>)
+  fullName.vb: PopWindow.Show(System.Collections.Generic.List(Of System.String), System.Collections.Generic.List(Of System.String))
+  nameWithType: PopWindow.Show(List<String>, List<String>)
+  nameWithType.vb: PopWindow.Show(List(Of String), List(Of String))
+- uid: Global.PopWindow.Show*
+  name: Show
+  href: api/Global.PopWindow.html#Global_PopWindow_Show_
+  commentId: Overload:Global.PopWindow.Show
+  isSpec: "True"
+  fullName: PopWindow.Show
+  nameWithType: PopWindow.Show
+- uid: Global.PopWindow.Start
+  name: Start()
+  href: api/Global.PopWindow.html#Global_PopWindow_Start
+  commentId: M:Global.PopWindow.Start
+  fullName: PopWindow.Start()
+  nameWithType: PopWindow.Start()
+- uid: Global.PopWindow.Start*
+  name: Start
+  href: api/Global.PopWindow.html#Global_PopWindow_Start_
+  commentId: Overload:Global.PopWindow.Start
+  isSpec: "True"
+  fullName: PopWindow.Start
+  nameWithType: PopWindow.Start
 - uid: Global.PopWindow.top
   name: top
   href: api/Global.PopWindow.html#Global_PopWindow_top
   commentId: F:Global.PopWindow.top
   fullName: PopWindow.top
   nameWithType: PopWindow.top
+- uid: Global.PopWindowView
+  name: PopWindowView
+  href: api/Global.PopWindowView.html
+  commentId: T:Global.PopWindowView
+  fullName: PopWindowView
+  nameWithType: PopWindowView
+- uid: Global.PopWindowView.DestroyPopWindow(System.Int32)
+  name: DestroyPopWindow(Int32)
+  href: api/Global.PopWindowView.html#Global_PopWindowView_DestroyPopWindow_System_Int32_
+  commentId: M:Global.PopWindowView.DestroyPopWindow(System.Int32)
+  fullName: PopWindowView.DestroyPopWindow(System.Int32)
+  nameWithType: PopWindowView.DestroyPopWindow(Int32)
+- uid: Global.PopWindowView.DestroyPopWindow*
+  name: DestroyPopWindow
+  href: api/Global.PopWindowView.html#Global_PopWindowView_DestroyPopWindow_
+  commentId: Overload:Global.PopWindowView.DestroyPopWindow
+  isSpec: "True"
+  fullName: PopWindowView.DestroyPopWindow
+  nameWithType: PopWindowView.DestroyPopWindow
+- uid: Global.PopWindowView.OnClose
+  name: OnClose()
+  href: api/Global.PopWindowView.html#Global_PopWindowView_OnClose
+  commentId: M:Global.PopWindowView.OnClose
+  fullName: PopWindowView.OnClose()
+  nameWithType: PopWindowView.OnClose()
+- uid: Global.PopWindowView.OnClose*
+  name: OnClose
+  href: api/Global.PopWindowView.html#Global_PopWindowView_OnClose_
+  commentId: Overload:Global.PopWindowView.OnClose
+  isSpec: "True"
+  fullName: PopWindowView.OnClose
+  nameWithType: PopWindowView.OnClose
+- uid: Global.PopWindowView.OnOpen
+  name: OnOpen()
+  href: api/Global.PopWindowView.html#Global_PopWindowView_OnOpen
+  commentId: M:Global.PopWindowView.OnOpen
+  fullName: PopWindowView.OnOpen()
+  nameWithType: PopWindowView.OnOpen()
+- uid: Global.PopWindowView.OnOpen*
+  name: OnOpen
+  href: api/Global.PopWindowView.html#Global_PopWindowView_OnOpen_
+  commentId: Overload:Global.PopWindowView.OnOpen
+  isSpec: "True"
+  fullName: PopWindowView.OnOpen
+  nameWithType: PopWindowView.OnOpen
+- uid: Global.PopWindowView.OnPointerClick(PointerEventData)
+  name: OnPointerClick(PointerEventData)
+  href: api/Global.PopWindowView.html#Global_PopWindowView_OnPointerClick_PointerEventData_
+  commentId: M:Global.PopWindowView.OnPointerClick(PointerEventData)
+  fullName: PopWindowView.OnPointerClick(PointerEventData)
+  nameWithType: PopWindowView.OnPointerClick(PointerEventData)
+- uid: Global.PopWindowView.OnPointerClick*
+  name: OnPointerClick
+  href: api/Global.PopWindowView.html#Global_PopWindowView_OnPointerClick_
+  commentId: Overload:Global.PopWindowView.OnPointerClick
+  isSpec: "True"
+  fullName: PopWindowView.OnPointerClick
+  nameWithType: PopWindowView.OnPointerClick
+- uid: Global.PopWindowView.RealRefresh
+  name: RealRefresh()
+  href: api/Global.PopWindowView.html#Global_PopWindowView_RealRefresh
+  commentId: M:Global.PopWindowView.RealRefresh
+  fullName: PopWindowView.RealRefresh()
+  nameWithType: PopWindowView.RealRefresh()
+- uid: Global.PopWindowView.RealRefresh*
+  name: RealRefresh
+  href: api/Global.PopWindowView.html#Global_PopWindowView_RealRefresh_
+  commentId: Overload:Global.PopWindowView.RealRefresh
+  isSpec: "True"
+  fullName: PopWindowView.RealRefresh
+  nameWithType: PopWindowView.RealRefresh
 - uid: Global.RaceType
   name: RaceType
   href: api/Global.RaceType.html
@@ -1965,6 +3025,267 @@ references:
   commentId: F:Global.RaceType.Primordial
   fullName: RaceType.Primordial
   nameWithType: RaceType.Primordial
+- uid: Global.SelectUnitItem
+  name: SelectUnitItem
+  href: api/Global.SelectUnitItem.html
+  commentId: T:Global.SelectUnitItem
+  fullName: SelectUnitItem
+  nameWithType: SelectUnitItem
+- uid: Global.SelectUnitItem.buildedText
+  name: buildedText
+  href: api/Global.SelectUnitItem.html#Global_SelectUnitItem_buildedText
+  commentId: F:Global.SelectUnitItem.buildedText
+  fullName: SelectUnitItem.buildedText
+  nameWithType: SelectUnitItem.buildedText
+- uid: Global.SelectUnitItem.button
+  name: button
+  href: api/Global.SelectUnitItem.html#Global_SelectUnitItem_button
+  commentId: F:Global.SelectUnitItem.button
+  fullName: SelectUnitItem.button
+  nameWithType: SelectUnitItem.button
+- uid: Global.SelectUnitItem.OnPointerDown(PointerEventData)
+  name: OnPointerDown(PointerEventData)
+  href: api/Global.SelectUnitItem.html#Global_SelectUnitItem_OnPointerDown_PointerEventData_
+  commentId: M:Global.SelectUnitItem.OnPointerDown(PointerEventData)
+  fullName: SelectUnitItem.OnPointerDown(PointerEventData)
+  nameWithType: SelectUnitItem.OnPointerDown(PointerEventData)
+- uid: Global.SelectUnitItem.OnPointerDown*
+  name: OnPointerDown
+  href: api/Global.SelectUnitItem.html#Global_SelectUnitItem_OnPointerDown_
+  commentId: Overload:Global.SelectUnitItem.OnPointerDown
+  isSpec: "True"
+  fullName: SelectUnitItem.OnPointerDown
+  nameWithType: SelectUnitItem.OnPointerDown
+- uid: Global.SelectUnitItem.OnPointerEnter(PointerEventData)
+  name: OnPointerEnter(PointerEventData)
+  href: api/Global.SelectUnitItem.html#Global_SelectUnitItem_OnPointerEnter_PointerEventData_
+  commentId: M:Global.SelectUnitItem.OnPointerEnter(PointerEventData)
+  fullName: SelectUnitItem.OnPointerEnter(PointerEventData)
+  nameWithType: SelectUnitItem.OnPointerEnter(PointerEventData)
+- uid: Global.SelectUnitItem.OnPointerEnter*
+  name: OnPointerEnter
+  href: api/Global.SelectUnitItem.html#Global_SelectUnitItem_OnPointerEnter_
+  commentId: Overload:Global.SelectUnitItem.OnPointerEnter
+  isSpec: "True"
+  fullName: SelectUnitItem.OnPointerEnter
+  nameWithType: SelectUnitItem.OnPointerEnter
+- uid: Global.SelectUnitItem.OnPointerExit(PointerEventData)
+  name: OnPointerExit(PointerEventData)
+  href: api/Global.SelectUnitItem.html#Global_SelectUnitItem_OnPointerExit_PointerEventData_
+  commentId: M:Global.SelectUnitItem.OnPointerExit(PointerEventData)
+  fullName: SelectUnitItem.OnPointerExit(PointerEventData)
+  nameWithType: SelectUnitItem.OnPointerExit(PointerEventData)
+- uid: Global.SelectUnitItem.OnPointerExit*
+  name: OnPointerExit
+  href: api/Global.SelectUnitItem.html#Global_SelectUnitItem_OnPointerExit_
+  commentId: Overload:Global.SelectUnitItem.OnPointerExit
+  isSpec: "True"
+  fullName: SelectUnitItem.OnPointerExit
+  nameWithType: SelectUnitItem.OnPointerExit
+- uid: Global.SelectUnitItem.Refresh
+  name: Refresh()
+  href: api/Global.SelectUnitItem.html#Global_SelectUnitItem_Refresh
+  commentId: M:Global.SelectUnitItem.Refresh
+  fullName: SelectUnitItem.Refresh()
+  nameWithType: SelectUnitItem.Refresh()
+- uid: Global.SelectUnitItem.Refresh*
+  name: Refresh
+  href: api/Global.SelectUnitItem.html#Global_SelectUnitItem_Refresh_
+  commentId: Overload:Global.SelectUnitItem.Refresh
+  isSpec: "True"
+  fullName: SelectUnitItem.Refresh
+  nameWithType: SelectUnitItem.Refresh
+- uid: Global.SelectUnitItem.TargetUnit
+  name: TargetUnit
+  href: api/Global.SelectUnitItem.html#Global_SelectUnitItem_TargetUnit
+  commentId: P:Global.SelectUnitItem.TargetUnit
+  fullName: SelectUnitItem.TargetUnit
+  nameWithType: SelectUnitItem.TargetUnit
+- uid: Global.SelectUnitItem.TargetUnit*
+  name: TargetUnit
+  href: api/Global.SelectUnitItem.html#Global_SelectUnitItem_TargetUnit_
+  commentId: Overload:Global.SelectUnitItem.TargetUnit
+  isSpec: "True"
+  fullName: SelectUnitItem.TargetUnit
+  nameWithType: SelectUnitItem.TargetUnit
+- uid: Global.SelectUnitItem.titleText
+  name: titleText
+  href: api/Global.SelectUnitItem.html#Global_SelectUnitItem_titleText
+  commentId: F:Global.SelectUnitItem.titleText
+  fullName: SelectUnitItem.titleText
+  nameWithType: SelectUnitItem.titleText
+- uid: Global.SelectUnitView
+  name: SelectUnitView
+  href: api/Global.SelectUnitView.html
+  commentId: T:Global.SelectUnitView
+  fullName: SelectUnitView
+  nameWithType: SelectUnitView
+- uid: Global.SelectUnitView.content
+  name: content
+  href: api/Global.SelectUnitView.html#Global_SelectUnitView_content
+  commentId: F:Global.SelectUnitView.content
+  fullName: SelectUnitView.content
+  nameWithType: SelectUnitView.content
+- uid: Global.SelectUnitView.itemPrefab
+  name: itemPrefab
+  href: api/Global.SelectUnitView.html#Global_SelectUnitView_itemPrefab
+  commentId: F:Global.SelectUnitView.itemPrefab
+  fullName: SelectUnitView.itemPrefab
+  nameWithType: SelectUnitView.itemPrefab
+- uid: Global.SelectUnitView.noItemText
+  name: noItemText
+  href: api/Global.SelectUnitView.html#Global_SelectUnitView_noItemText
+  commentId: F:Global.SelectUnitView.noItemText
+  fullName: SelectUnitView.noItemText
+  nameWithType: SelectUnitView.noItemText
+- uid: Global.SelectUnitView.OnClose
+  name: OnClose()
+  href: api/Global.SelectUnitView.html#Global_SelectUnitView_OnClose
+  commentId: M:Global.SelectUnitView.OnClose
+  fullName: SelectUnitView.OnClose()
+  nameWithType: SelectUnitView.OnClose()
+- uid: Global.SelectUnitView.OnClose*
+  name: OnClose
+  href: api/Global.SelectUnitView.html#Global_SelectUnitView_OnClose_
+  commentId: Overload:Global.SelectUnitView.OnClose
+  isSpec: "True"
+  fullName: SelectUnitView.OnClose
+  nameWithType: SelectUnitView.OnClose
+- uid: Global.SelectUnitView.OnOpen
+  name: OnOpen()
+  href: api/Global.SelectUnitView.html#Global_SelectUnitView_OnOpen
+  commentId: M:Global.SelectUnitView.OnOpen
+  fullName: SelectUnitView.OnOpen()
+  nameWithType: SelectUnitView.OnOpen()
+- uid: Global.SelectUnitView.OnOpen*
+  name: OnOpen
+  href: api/Global.SelectUnitView.html#Global_SelectUnitView_OnOpen_
+  commentId: Overload:Global.SelectUnitView.OnOpen
+  isSpec: "True"
+  fullName: SelectUnitView.OnOpen
+  nameWithType: SelectUnitView.OnOpen
+- uid: Global.SelectUnitView.OnSelected
+  name: OnSelected
+  href: api/Global.SelectUnitView.html#Global_SelectUnitView_OnSelected
+  commentId: E:Global.SelectUnitView.OnSelected
+  fullName: SelectUnitView.OnSelected
+  nameWithType: SelectUnitView.OnSelected
+- uid: Global.SelectUnitView.RealRefresh
+  name: RealRefresh()
+  href: api/Global.SelectUnitView.html#Global_SelectUnitView_RealRefresh
+  commentId: M:Global.SelectUnitView.RealRefresh
+  fullName: SelectUnitView.RealRefresh()
+  nameWithType: SelectUnitView.RealRefresh()
+- uid: Global.SelectUnitView.RealRefresh*
+  name: RealRefresh
+  href: api/Global.SelectUnitView.html#Global_SelectUnitView_RealRefresh_
+  commentId: Overload:Global.SelectUnitView.RealRefresh
+  isSpec: "True"
+  fullName: SelectUnitView.RealRefresh
+  nameWithType: SelectUnitView.RealRefresh
+- uid: Global.SelectUnitView.titleText
+  name: titleText
+  href: api/Global.SelectUnitView.html#Global_SelectUnitView_titleText
+  commentId: F:Global.SelectUnitView.titleText
+  fullName: SelectUnitView.titleText
+  nameWithType: SelectUnitView.titleText
+- uid: Global.SettingsView
+  name: SettingsView
+  href: api/Global.SettingsView.html
+  commentId: T:Global.SettingsView
+  fullName: SettingsView
+  nameWithType: SettingsView
+- uid: Global.SettingsView.Back
+  name: Back()
+  href: api/Global.SettingsView.html#Global_SettingsView_Back
+  commentId: M:Global.SettingsView.Back
+  fullName: SettingsView.Back()
+  nameWithType: SettingsView.Back()
+- uid: Global.SettingsView.Back*
+  name: Back
+  href: api/Global.SettingsView.html#Global_SettingsView_Back_
+  commentId: Overload:Global.SettingsView.Back
+  isSpec: "True"
+  fullName: SettingsView.Back
+  nameWithType: SettingsView.Back
+- uid: Global.SettingsView.ExitGame
+  name: ExitGame()
+  href: api/Global.SettingsView.html#Global_SettingsView_ExitGame
+  commentId: M:Global.SettingsView.ExitGame
+  fullName: SettingsView.ExitGame()
+  nameWithType: SettingsView.ExitGame()
+- uid: Global.SettingsView.ExitGame*
+  name: ExitGame
+  href: api/Global.SettingsView.html#Global_SettingsView_ExitGame_
+  commentId: Overload:Global.SettingsView.ExitGame
+  isSpec: "True"
+  fullName: SettingsView.ExitGame
+  nameWithType: SettingsView.ExitGame
+- uid: Global.SettingsView.OnClose
+  name: OnClose()
+  href: api/Global.SettingsView.html#Global_SettingsView_OnClose
+  commentId: M:Global.SettingsView.OnClose
+  fullName: SettingsView.OnClose()
+  nameWithType: SettingsView.OnClose()
+- uid: Global.SettingsView.OnClose*
+  name: OnClose
+  href: api/Global.SettingsView.html#Global_SettingsView_OnClose_
+  commentId: Overload:Global.SettingsView.OnClose
+  isSpec: "True"
+  fullName: SettingsView.OnClose
+  nameWithType: SettingsView.OnClose
+- uid: Global.SettingsView.OnOpen
+  name: OnOpen()
+  href: api/Global.SettingsView.html#Global_SettingsView_OnOpen
+  commentId: M:Global.SettingsView.OnOpen
+  fullName: SettingsView.OnOpen()
+  nameWithType: SettingsView.OnOpen()
+- uid: Global.SettingsView.OnOpen*
+  name: OnOpen
+  href: api/Global.SettingsView.html#Global_SettingsView_OnOpen_
+  commentId: Overload:Global.SettingsView.OnOpen
+  isSpec: "True"
+  fullName: SettingsView.OnOpen
+  nameWithType: SettingsView.OnOpen
+- uid: Global.SettingsView.RealRefresh
+  name: RealRefresh()
+  href: api/Global.SettingsView.html#Global_SettingsView_RealRefresh
+  commentId: M:Global.SettingsView.RealRefresh
+  fullName: SettingsView.RealRefresh()
+  nameWithType: SettingsView.RealRefresh()
+- uid: Global.SettingsView.RealRefresh*
+  name: RealRefresh
+  href: api/Global.SettingsView.html#Global_SettingsView_RealRefresh_
+  commentId: Overload:Global.SettingsView.RealRefresh
+  isSpec: "True"
+  fullName: SettingsView.RealRefresh
+  nameWithType: SettingsView.RealRefresh
+- uid: Global.SettingsView.Restart
+  name: Restart()
+  href: api/Global.SettingsView.html#Global_SettingsView_Restart
+  commentId: M:Global.SettingsView.Restart
+  fullName: SettingsView.Restart()
+  nameWithType: SettingsView.Restart()
+- uid: Global.SettingsView.Restart*
+  name: Restart
+  href: api/Global.SettingsView.html#Global_SettingsView_Restart_
+  commentId: Overload:Global.SettingsView.Restart
+  isSpec: "True"
+  fullName: SettingsView.Restart
+  nameWithType: SettingsView.Restart
+- uid: Global.SettingsView.ToTitle
+  name: ToTitle()
+  href: api/Global.SettingsView.html#Global_SettingsView_ToTitle
+  commentId: M:Global.SettingsView.ToTitle
+  fullName: SettingsView.ToTitle()
+  nameWithType: SettingsView.ToTitle()
+- uid: Global.SettingsView.ToTitle*
+  name: ToTitle
+  href: api/Global.SettingsView.html#Global_SettingsView_ToTitle_
+  commentId: Overload:Global.SettingsView.ToTitle
+  isSpec: "True"
+  fullName: SettingsView.ToTitle
+  nameWithType: SettingsView.ToTitle
 - uid: Global.Skill
   name: Skill
   href: api/Global.Skill.html
@@ -2068,6 +3389,12 @@ references:
   isSpec: "True"
   fullName: Skill.GetString
   nameWithType: Skill.GetString
+- uid: Global.Skill.id
+  name: id
+  href: api/Global.Skill.html#Global_Skill_id
+  commentId: F:Global.Skill.id
+  fullName: Skill.id
+  nameWithType: Skill.id
 - uid: Global.Skill.SetFloat(System.Int32,System.Single)
   name: SetFloat(Int32, Single)
   href: api/Global.Skill.html#Global_Skill_SetFloat_System_Int32_System_Single_
@@ -2107,6 +3434,132 @@ references:
   isSpec: "True"
   fullName: Skill.SetString
   nameWithType: Skill.SetString
+- uid: Global.SkillComboItem
+  name: SkillComboItem
+  href: api/Global.SkillComboItem.html
+  commentId: T:Global.SkillComboItem
+  fullName: SkillComboItem
+  nameWithType: SkillComboItem
+- uid: Global.SkillComboItem.comboText
+  name: comboText
+  href: api/Global.SkillComboItem.html#Global_SkillComboItem_comboText
+  commentId: F:Global.SkillComboItem.comboText
+  fullName: SkillComboItem.comboText
+  nameWithType: SkillComboItem.comboText
+- uid: Global.SkillComboItem.OnClick
+  name: OnClick()
+  href: api/Global.SkillComboItem.html#Global_SkillComboItem_OnClick
+  commentId: M:Global.SkillComboItem.OnClick
+  fullName: SkillComboItem.OnClick()
+  nameWithType: SkillComboItem.OnClick()
+- uid: Global.SkillComboItem.OnClick*
+  name: OnClick
+  href: api/Global.SkillComboItem.html#Global_SkillComboItem_OnClick_
+  commentId: Overload:Global.SkillComboItem.OnClick
+  isSpec: "True"
+  fullName: SkillComboItem.OnClick
+  nameWithType: SkillComboItem.OnClick
+- uid: Global.SkillComboItem.Refresh
+  name: Refresh()
+  href: api/Global.SkillComboItem.html#Global_SkillComboItem_Refresh
+  commentId: M:Global.SkillComboItem.Refresh
+  fullName: SkillComboItem.Refresh()
+  nameWithType: SkillComboItem.Refresh()
+- uid: Global.SkillComboItem.Refresh*
+  name: Refresh
+  href: api/Global.SkillComboItem.html#Global_SkillComboItem_Refresh_
+  commentId: Overload:Global.SkillComboItem.Refresh
+  isSpec: "True"
+  fullName: SkillComboItem.Refresh
+  nameWithType: SkillComboItem.Refresh
+- uid: Global.SkillComboItem.TargetComboInfo
+  name: TargetComboInfo
+  href: api/Global.SkillComboItem.html#Global_SkillComboItem_TargetComboInfo
+  commentId: P:Global.SkillComboItem.TargetComboInfo
+  fullName: SkillComboItem.TargetComboInfo
+  nameWithType: SkillComboItem.TargetComboInfo
+- uid: Global.SkillComboItem.TargetComboInfo*
+  name: TargetComboInfo
+  href: api/Global.SkillComboItem.html#Global_SkillComboItem_TargetComboInfo_
+  commentId: Overload:Global.SkillComboItem.TargetComboInfo
+  isSpec: "True"
+  fullName: SkillComboItem.TargetComboInfo
+  nameWithType: SkillComboItem.TargetComboInfo
+- uid: Global.SkillComboItem.titleText
+  name: titleText
+  href: api/Global.SkillComboItem.html#Global_SkillComboItem_titleText
+  commentId: F:Global.SkillComboItem.titleText
+  fullName: SkillComboItem.titleText
+  nameWithType: SkillComboItem.titleText
+- uid: Global.SkillComboView
+  name: SkillComboView
+  href: api/Global.SkillComboView.html
+  commentId: T:Global.SkillComboView
+  fullName: SkillComboView
+  nameWithType: SkillComboView
+- uid: Global.SkillComboView.content1
+  name: content1
+  href: api/Global.SkillComboView.html#Global_SkillComboView_content1
+  commentId: F:Global.SkillComboView.content1
+  fullName: SkillComboView.content1
+  nameWithType: SkillComboView.content1
+- uid: Global.SkillComboView.content2
+  name: content2
+  href: api/Global.SkillComboView.html#Global_SkillComboView_content2
+  commentId: F:Global.SkillComboView.content2
+  fullName: SkillComboView.content2
+  nameWithType: SkillComboView.content2
+- uid: Global.SkillComboView.itemPrefab
+  name: itemPrefab
+  href: api/Global.SkillComboView.html#Global_SkillComboView_itemPrefab
+  commentId: F:Global.SkillComboView.itemPrefab
+  fullName: SkillComboView.itemPrefab
+  nameWithType: SkillComboView.itemPrefab
+- uid: Global.SkillComboView.OnClose
+  name: OnClose()
+  href: api/Global.SkillComboView.html#Global_SkillComboView_OnClose
+  commentId: M:Global.SkillComboView.OnClose
+  fullName: SkillComboView.OnClose()
+  nameWithType: SkillComboView.OnClose()
+- uid: Global.SkillComboView.OnClose*
+  name: OnClose
+  href: api/Global.SkillComboView.html#Global_SkillComboView_OnClose_
+  commentId: Overload:Global.SkillComboView.OnClose
+  isSpec: "True"
+  fullName: SkillComboView.OnClose
+  nameWithType: SkillComboView.OnClose
+- uid: Global.SkillComboView.OnOpen
+  name: OnOpen()
+  href: api/Global.SkillComboView.html#Global_SkillComboView_OnOpen
+  commentId: M:Global.SkillComboView.OnOpen
+  fullName: SkillComboView.OnOpen()
+  nameWithType: SkillComboView.OnOpen()
+- uid: Global.SkillComboView.OnOpen*
+  name: OnOpen
+  href: api/Global.SkillComboView.html#Global_SkillComboView_OnOpen_
+  commentId: Overload:Global.SkillComboView.OnOpen
+  isSpec: "True"
+  fullName: SkillComboView.OnOpen
+  nameWithType: SkillComboView.OnOpen
+- uid: Global.SkillComboView.RealRefresh
+  name: RealRefresh()
+  href: api/Global.SkillComboView.html#Global_SkillComboView_RealRefresh
+  commentId: M:Global.SkillComboView.RealRefresh
+  fullName: SkillComboView.RealRefresh()
+  nameWithType: SkillComboView.RealRefresh()
+- uid: Global.SkillComboView.RealRefresh*
+  name: RealRefresh
+  href: api/Global.SkillComboView.html#Global_SkillComboView_RealRefresh_
+  commentId: Overload:Global.SkillComboView.RealRefresh
+  isSpec: "True"
+  fullName: SkillComboView.RealRefresh
+  nameWithType: SkillComboView.RealRefresh
+- uid: Global.SkillComboView.titleText
+  name: titleText
+  href: api/Global.SkillComboView.html#Global_SkillComboView_titleText
+  commentId: F:Global.SkillComboView.titleText
+  fullName: SkillComboView.titleText
+  nameWithType: SkillComboView.titleText
 - uid: Global.SkillController
   name: SkillController
   href: api/Global.SkillController.html
@@ -2196,6 +3649,12 @@ references:
   commentId: F:Global.SkillController.user
   fullName: SkillController.user
   nameWithType: SkillController.user
+- uid: Global.SkillController.userBinding
+  name: userBinding
+  href: api/Global.SkillController.html#Global_SkillController_userBinding
+  commentId: F:Global.SkillController.userBinding
+  fullName: SkillController.userBinding
+  nameWithType: SkillController.userBinding
 - uid: Global.SkillMoveType
   name: SkillMoveType
   href: api/Global.SkillMoveType.html
@@ -2310,6 +3769,18 @@ references:
   commentId: F:Global.SkillsConfigItem.bonusSPD_P
   fullName: SkillsConfigItem.bonusSPD_P
   nameWithType: SkillsConfigItem.bonusSPD_P
+- uid: Global.SkillsConfigItem.canBeUsed
+  name: canBeUsed
+  href: api/Global.SkillsConfigItem.html#Global_SkillsConfigItem_canBeUsed
+  commentId: F:Global.SkillsConfigItem.canBeUsed
+  fullName: SkillsConfigItem.canBeUsed
+  nameWithType: SkillsConfigItem.canBeUsed
+- uid: Global.SkillsConfigItem.controllerPrefab
+  name: controllerPrefab
+  href: api/Global.SkillsConfigItem.html#Global_SkillsConfigItem_controllerPrefab
+  commentId: F:Global.SkillsConfigItem.controllerPrefab
+  fullName: SkillsConfigItem.controllerPrefab
+  nameWithType: SkillsConfigItem.controllerPrefab
 - uid: Global.SkillsConfigItem.CreateController(Skill,UnitController,Transform)
   name: CreateController(Skill, UnitController, Transform)
   href: api/Global.SkillsConfigItem.html#Global_SkillsConfigItem_CreateController_Skill_UnitController_Transform_
@@ -2407,6 +3878,19 @@ references:
   commentId: T:Global.SkillUtils
   fullName: SkillUtils
   nameWithType: SkillUtils
+- uid: Global.SkillUtils.OnPlayerAttacked(Unit,Unit,Skill,DamageInfo)
+  name: OnPlayerAttacked(Unit, Unit, Skill, DamageInfo)
+  href: api/Global.SkillUtils.html#Global_SkillUtils_OnPlayerAttacked_Unit_Unit_Skill_DamageInfo_
+  commentId: M:Global.SkillUtils.OnPlayerAttacked(Unit,Unit,Skill,DamageInfo)
+  fullName: SkillUtils.OnPlayerAttacked(Unit, Unit, Skill, DamageInfo)
+  nameWithType: SkillUtils.OnPlayerAttacked(Unit, Unit, Skill, DamageInfo)
+- uid: Global.SkillUtils.OnPlayerAttacked*
+  name: OnPlayerAttacked
+  href: api/Global.SkillUtils.html#Global_SkillUtils_OnPlayerAttacked_
+  commentId: Overload:Global.SkillUtils.OnPlayerAttacked
+  isSpec: "True"
+  fullName: SkillUtils.OnPlayerAttacked
+  nameWithType: SkillUtils.OnPlayerAttacked
 - uid: Global.SkillUtils.OnSkill0Learnd(Unit,Skill)
   name: OnSkill0Learnd(Unit, Skill)
   href: api/Global.SkillUtils.html#Global_SkillUtils_OnSkill0Learnd_Unit_Skill_
@@ -2575,12 +4059,6 @@ references:
   isSpec: "True"
   fullName: State.EnergyShield
   nameWithType: State.EnergyShield
-- uid: Global.State.OnDurationEnd
-  name: OnDurationEnd
-  href: api/Global.State.html#Global_State_OnDurationEnd
-  commentId: E:Global.State.OnDurationEnd
-  fullName: State.OnDurationEnd
-  nameWithType: State.OnDurationEnd
 - uid: Global.State.PhysicalShield
   name: PhysicalShield
   href: api/Global.State.html#Global_State_PhysicalShield
@@ -2649,6 +4127,18 @@ references:
   commentId: F:Global.StatesConfigItem.hideInMenu
   fullName: StatesConfigItem.hideInMenu
   nameWithType: StatesConfigItem.hideInMenu
+- uid: Global.StatesConfigItem.isEnergyDamageImmune
+  name: isEnergyDamageImmune
+  href: api/Global.StatesConfigItem.html#Global_StatesConfigItem_isEnergyDamageImmune
+  commentId: F:Global.StatesConfigItem.isEnergyDamageImmune
+  fullName: StatesConfigItem.isEnergyDamageImmune
+  nameWithType: StatesConfigItem.isEnergyDamageImmune
+- uid: Global.StatesConfigItem.isPhysicalDamageImmune
+  name: isPhysicalDamageImmune
+  href: api/Global.StatesConfigItem.html#Global_StatesConfigItem_isPhysicalDamageImmune
+  commentId: F:Global.StatesConfigItem.isPhysicalDamageImmune
+  fullName: StatesConfigItem.isPhysicalDamageImmune
+  nameWithType: StatesConfigItem.isPhysicalDamageImmune
 - uid: Global.StatesConfigItem.onGained
   name: onGained
   href: api/Global.StatesConfigItem.html#Global_StatesConfigItem_onGained
@@ -2835,31 +4325,12 @@ references:
   commentId: T:Global.Test
   fullName: Test
   nameWithType: Test
-- uid: Global.Test.clip
-  name: clip
-  href: api/Global.Test.html#Global_Test_clip
-  commentId: F:Global.Test.clip
-  fullName: Test.clip
-  nameWithType: Test.clip
 - uid: Global.TitleView
   name: TitleView
   href: api/Global.TitleView.html
   commentId: T:Global.TitleView
   fullName: TitleView
   nameWithType: TitleView
-- uid: Global.TitleView.AddListener
-  name: AddListener()
-  href: api/Global.TitleView.html#Global_TitleView_AddListener
-  commentId: M:Global.TitleView.AddListener
-  fullName: TitleView.AddListener()
-  nameWithType: TitleView.AddListener()
-- uid: Global.TitleView.AddListener*
-  name: AddListener
-  href: api/Global.TitleView.html#Global_TitleView_AddListener_
-  commentId: Overload:Global.TitleView.AddListener
-  isSpec: "True"
-  fullName: TitleView.AddListener
-  nameWithType: TitleView.AddListener
 - uid: Global.TitleView.exitButtonText
   name: exitButtonText
   href: api/Global.TitleView.html#Global_TitleView_exitButtonText
@@ -2898,6 +4369,32 @@ references:
   isSpec: "True"
   fullName: TitleView.LoadGame
   nameWithType: TitleView.LoadGame
+- uid: Global.TitleView.OnClose
+  name: OnClose()
+  href: api/Global.TitleView.html#Global_TitleView_OnClose
+  commentId: M:Global.TitleView.OnClose
+  fullName: TitleView.OnClose()
+  nameWithType: TitleView.OnClose()
+- uid: Global.TitleView.OnClose*
+  name: OnClose
+  href: api/Global.TitleView.html#Global_TitleView_OnClose_
+  commentId: Overload:Global.TitleView.OnClose
+  isSpec: "True"
+  fullName: TitleView.OnClose
+  nameWithType: TitleView.OnClose
+- uid: Global.TitleView.OnOpen
+  name: OnOpen()
+  href: api/Global.TitleView.html#Global_TitleView_OnOpen
+  commentId: M:Global.TitleView.OnOpen
+  fullName: TitleView.OnOpen()
+  nameWithType: TitleView.OnOpen()
+- uid: Global.TitleView.OnOpen*
+  name: OnOpen
+  href: api/Global.TitleView.html#Global_TitleView_OnOpen_
+  commentId: Overload:Global.TitleView.OnOpen
+  isSpec: "True"
+  fullName: TitleView.OnOpen
+  nameWithType: TitleView.OnOpen
 - uid: Global.TitleView.OpenSettingsView
   name: OpenSettingsView()
   href: api/Global.TitleView.html#Global_TitleView_OpenSettingsView
@@ -2924,19 +4421,6 @@ references:
   isSpec: "True"
   fullName: TitleView.RealRefresh
   nameWithType: TitleView.RealRefresh
-- uid: Global.TitleView.RemoveListener
-  name: RemoveListener()
-  href: api/Global.TitleView.html#Global_TitleView_RemoveListener
-  commentId: M:Global.TitleView.RemoveListener
-  fullName: TitleView.RemoveListener()
-  nameWithType: TitleView.RemoveListener()
-- uid: Global.TitleView.RemoveListener*
-  name: RemoveListener
-  href: api/Global.TitleView.html#Global_TitleView_RemoveListener_
-  commentId: Overload:Global.TitleView.RemoveListener
-  isSpec: "True"
-  fullName: TitleView.RemoveListener
-  nameWithType: TitleView.RemoveListener
 - uid: Global.TitleView.settingsButtonText
   name: settingsButtonText
   href: api/Global.TitleView.html#Global_TitleView_settingsButtonText
@@ -3487,19 +4971,19 @@ references:
   isSpec: "True"
   fullName: Unit.MaxHP
   nameWithType: Unit.MaxHP
-- uid: Global.Unit.MaxToughness
-  name: MaxToughness
-  href: api/Global.Unit.html#Global_Unit_MaxToughness
-  commentId: P:Global.Unit.MaxToughness
-  fullName: Unit.MaxToughness
-  nameWithType: Unit.MaxToughness
-- uid: Global.Unit.MaxToughness*
-  name: MaxToughness
-  href: api/Global.Unit.html#Global_Unit_MaxToughness_
-  commentId: Overload:Global.Unit.MaxToughness
+- uid: Global.Unit.MaxTOU
+  name: MaxTOU
+  href: api/Global.Unit.html#Global_Unit_MaxTOU
+  commentId: P:Global.Unit.MaxTOU
+  fullName: Unit.MaxTOU
+  nameWithType: Unit.MaxTOU
+- uid: Global.Unit.MaxTOU*
+  name: MaxTOU
+  href: api/Global.Unit.html#Global_Unit_MaxTOU_
+  commentId: Overload:Global.Unit.MaxTOU
   isSpec: "True"
-  fullName: Unit.MaxToughness
-  nameWithType: Unit.MaxToughness
+  fullName: Unit.MaxTOU
+  nameWithType: Unit.MaxTOU
 - uid: Global.Unit.OnAttacked
   name: OnAttacked
   href: api/Global.Unit.html#Global_Unit_OnAttacked
@@ -3570,19 +5054,19 @@ references:
   isSpec: "True"
   fullName: Unit.SPD
   nameWithType: Unit.SPD
-- uid: Global.Unit.Toughness
-  name: Toughness
-  href: api/Global.Unit.html#Global_Unit_Toughness
-  commentId: P:Global.Unit.Toughness
-  fullName: Unit.Toughness
-  nameWithType: Unit.Toughness
-- uid: Global.Unit.Toughness*
-  name: Toughness
-  href: api/Global.Unit.html#Global_Unit_Toughness_
-  commentId: Overload:Global.Unit.Toughness
+- uid: Global.Unit.TOU
+  name: TOU
+  href: api/Global.Unit.html#Global_Unit_TOU
+  commentId: P:Global.Unit.TOU
+  fullName: Unit.TOU
+  nameWithType: Unit.TOU
+- uid: Global.Unit.TOU*
+  name: TOU
+  href: api/Global.Unit.html#Global_Unit_TOU_
+  commentId: Overload:Global.Unit.TOU
   isSpec: "True"
-  fullName: Unit.Toughness
-  nameWithType: Unit.Toughness
+  fullName: Unit.TOU
+  nameWithType: Unit.TOU
 - uid: Global.Unit.UniversalShield
   name: UniversalShield
   href: api/Global.Unit.html#Global_Unit_UniversalShield
@@ -3608,6 +5092,25 @@ references:
   commentId: F:Global.UnitController.animator
   fullName: UnitController.animator
   nameWithType: UnitController.animator
+- uid: Global.UnitController.Awake
+  name: Awake()
+  href: api/Global.UnitController.html#Global_UnitController_Awake
+  commentId: M:Global.UnitController.Awake
+  fullName: UnitController.Awake()
+  nameWithType: UnitController.Awake()
+- uid: Global.UnitController.Awake*
+  name: Awake
+  href: api/Global.UnitController.html#Global_UnitController_Awake_
+  commentId: Overload:Global.UnitController.Awake
+  isSpec: "True"
+  fullName: UnitController.Awake
+  nameWithType: UnitController.Awake
+- uid: Global.UnitController.chargeBar
+  name: chargeBar
+  href: api/Global.UnitController.html#Global_UnitController_chargeBar
+  commentId: F:Global.UnitController.chargeBar
+  fullName: UnitController.chargeBar
+  nameWithType: UnitController.chargeBar
 - uid: Global.UnitController.Config
   name: Config
   href: api/Global.UnitController.html#Global_UnitController_Config
@@ -3634,6 +5137,12 @@ references:
   isSpec: "True"
   fullName: UnitController.Data
   nameWithType: UnitController.Data
+- uid: Global.UnitController.destroySpriteRenderer
+  name: destroySpriteRenderer
+  href: api/Global.UnitController.html#Global_UnitController_destroySpriteRenderer
+  commentId: F:Global.UnitController.destroySpriteRenderer
+  fullName: UnitController.destroySpriteRenderer
+  nameWithType: UnitController.destroySpriteRenderer
 - uid: Global.UnitController.FixedUpdate
   name: FixedUpdate()
   href: api/Global.UnitController.html#Global_UnitController_FixedUpdate
@@ -3647,12 +5156,44 @@ references:
   isSpec: "True"
   fullName: UnitController.FixedUpdate
   nameWithType: UnitController.FixedUpdate
+- uid: Global.UnitController.GetSkillController(Skill)
+  name: GetSkillController(Skill)
+  href: api/Global.UnitController.html#Global_UnitController_GetSkillController_Skill_
+  commentId: M:Global.UnitController.GetSkillController(Skill)
+  fullName: UnitController.GetSkillController(Skill)
+  nameWithType: UnitController.GetSkillController(Skill)
+- uid: Global.UnitController.GetSkillController*
+  name: GetSkillController
+  href: api/Global.UnitController.html#Global_UnitController_GetSkillController_
+  commentId: Overload:Global.UnitController.GetSkillController
+  isSpec: "True"
+  fullName: UnitController.GetSkillController
+  nameWithType: UnitController.GetSkillController
+- uid: Global.UnitController.healthBar
+  name: healthBar
+  href: api/Global.UnitController.html#Global_UnitController_healthBar
+  commentId: F:Global.UnitController.healthBar
+  fullName: UnitController.healthBar
+  nameWithType: UnitController.healthBar
 - uid: Global.UnitController.movement
   name: movement
   href: api/Global.UnitController.html#Global_UnitController_movement
   commentId: F:Global.UnitController.movement
   fullName: UnitController.movement
   nameWithType: UnitController.movement
+- uid: Global.UnitController.OnDataChanged(Unit)
+  name: OnDataChanged(Unit)
+  href: api/Global.UnitController.html#Global_UnitController_OnDataChanged_Unit_
+  commentId: M:Global.UnitController.OnDataChanged(Unit)
+  fullName: UnitController.OnDataChanged(Unit)
+  nameWithType: UnitController.OnDataChanged(Unit)
+- uid: Global.UnitController.OnDataChanged*
+  name: OnDataChanged
+  href: api/Global.UnitController.html#Global_UnitController_OnDataChanged_
+  commentId: Overload:Global.UnitController.OnDataChanged
+  isSpec: "True"
+  fullName: UnitController.OnDataChanged
+  nameWithType: UnitController.OnDataChanged
 - uid: Global.UnitController.OnDestroy
   name: OnDestroy()
   href: api/Global.UnitController.html#Global_UnitController_OnDestroy
@@ -3666,25 +5207,30 @@ references:
   isSpec: "True"
   fullName: UnitController.OnDestroy
   nameWithType: UnitController.OnDestroy
-- uid: Global.UnitController.PlayDamageEffect
-  name: PlayDamageEffect()
-  href: api/Global.UnitController.html#Global_UnitController_PlayDamageEffect
-  commentId: M:Global.UnitController.PlayDamageEffect
-  fullName: UnitController.PlayDamageEffect()
-  nameWithType: UnitController.PlayDamageEffect()
-- uid: Global.UnitController.PlayDamageEffect*
-  name: PlayDamageEffect
-  href: api/Global.UnitController.html#Global_UnitController_PlayDamageEffect_
-  commentId: Overload:Global.UnitController.PlayDamageEffect
-  isSpec: "True"
-  fullName: UnitController.PlayDamageEffect
-  nameWithType: UnitController.PlayDamageEffect
 - uid: Global.UnitController.rb
   name: rb
   href: api/Global.UnitController.html#Global_UnitController_rb
   commentId: F:Global.UnitController.rb
   fullName: UnitController.rb
   nameWithType: UnitController.rb
+- uid: Global.UnitController.skillBindLocalPosition
+  name: skillBindLocalPosition
+  href: api/Global.UnitController.html#Global_UnitController_skillBindLocalPosition
+  commentId: F:Global.UnitController.skillBindLocalPosition
+  fullName: UnitController.skillBindLocalPosition
+  nameWithType: UnitController.skillBindLocalPosition
+- uid: Global.UnitController.skillControllerList
+  name: skillControllerList
+  href: api/Global.UnitController.html#Global_UnitController_skillControllerList
+  commentId: F:Global.UnitController.skillControllerList
+  fullName: UnitController.skillControllerList
+  nameWithType: UnitController.skillControllerList
+- uid: Global.UnitController.spriteRenderer
+  name: spriteRenderer
+  href: api/Global.UnitController.html#Global_UnitController_spriteRenderer
+  commentId: F:Global.UnitController.spriteRenderer
+  fullName: UnitController.spriteRenderer
+  nameWithType: UnitController.spriteRenderer
 - uid: Global.UnitController.Start
   name: Start()
   href: api/Global.UnitController.html#Global_UnitController_Start
@@ -3698,6 +5244,12 @@ references:
   isSpec: "True"
   fullName: UnitController.Start
   nameWithType: UnitController.Start
+- uid: Global.UnitController.statePanel
+  name: statePanel
+  href: api/Global.UnitController.html#Global_UnitController_statePanel
+  commentId: F:Global.UnitController.statePanel
+  fullName: UnitController.statePanel
+  nameWithType: UnitController.statePanel
 - uid: Global.UnitController.Update
   name: Update()
   href: api/Global.UnitController.html#Global_UnitController_Update
@@ -3760,6 +5312,12 @@ references:
   commentId: M:Global.UnitsConfigItem.CreateController(Transform)
   fullName: UnitsConfigItem.CreateController(Transform)
   nameWithType: UnitsConfigItem.CreateController(Transform)
+- uid: Global.UnitsConfigItem.CreateController(Unit,Transform)
+  name: CreateController(Unit, Transform)
+  href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_CreateController_Unit_Transform_
+  commentId: M:Global.UnitsConfigItem.CreateController(Unit,Transform)
+  fullName: UnitsConfigItem.CreateController(Unit, Transform)
+  nameWithType: UnitsConfigItem.CreateController(Unit, Transform)
 - uid: Global.UnitsConfigItem.CreateController*
   name: CreateController
   href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_CreateController_
@@ -3773,19 +5331,12 @@ references:
   commentId: F:Global.UnitsConfigItem.damageType
   fullName: UnitsConfigItem.damageType
   nameWithType: UnitsConfigItem.damageType
-- uid: Global.UnitsConfigItem.DefaultATK
-  name: DefaultATK
-  href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_DefaultATK
-  commentId: P:Global.UnitsConfigItem.DefaultATK
-  fullName: UnitsConfigItem.DefaultATK
-  nameWithType: UnitsConfigItem.DefaultATK
-- uid: Global.UnitsConfigItem.DefaultATK*
-  name: DefaultATK
-  href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_DefaultATK_
-  commentId: Overload:Global.UnitsConfigItem.DefaultATK
-  isSpec: "True"
-  fullName: UnitsConfigItem.DefaultATK
-  nameWithType: UnitsConfigItem.DefaultATK
+- uid: Global.UnitsConfigItem.defaultATK
+  name: defaultATK
+  href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_defaultATK
+  commentId: F:Global.UnitsConfigItem.defaultATK
+  fullName: UnitsConfigItem.defaultATK
+  nameWithType: UnitsConfigItem.defaultATK
 - uid: Global.UnitsConfigItem.DefaultMaxHP
   name: DefaultMaxHP
   href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_DefaultMaxHP
@@ -3799,12 +5350,12 @@ references:
   isSpec: "True"
   fullName: UnitsConfigItem.DefaultMaxHP
   nameWithType: UnitsConfigItem.DefaultMaxHP
-- uid: Global.UnitsConfigItem.defaultMaxToughness
-  name: defaultMaxToughness
-  href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_defaultMaxToughness
-  commentId: F:Global.UnitsConfigItem.defaultMaxToughness
-  fullName: UnitsConfigItem.defaultMaxToughness
-  nameWithType: UnitsConfigItem.defaultMaxToughness
+- uid: Global.UnitsConfigItem.defaultMaxTOU
+  name: defaultMaxTOU
+  href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_defaultMaxTOU
+  commentId: F:Global.UnitsConfigItem.defaultMaxTOU
+  fullName: UnitsConfigItem.defaultMaxTOU
+  nameWithType: UnitsConfigItem.defaultMaxTOU
 - uid: Global.UnitsConfigItem.defaultSkillList
   name: defaultSkillList
   href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_defaultSkillList
@@ -4068,19 +5619,19 @@ references:
   commentId: T:Global.Utils
   fullName: Utils
   nameWithType: Utils
-- uid: Global.Utils.ToLocalizedString(System.String,System.String[])
-  name: ToLocalizedString(String, String[])
-  href: api/Global.Utils.html#Global_Utils_ToLocalizedString_System_String_System_String___
-  commentId: M:Global.Utils.ToLocalizedString(System.String,System.String[])
-  name.vb: ToLocalizedString(String, String())
-  fullName: Utils.ToLocalizedString(System.String, System.String[])
-  fullName.vb: Utils.ToLocalizedString(System.String, System.String())
-  nameWithType: Utils.ToLocalizedString(String, String[])
-  nameWithType.vb: Utils.ToLocalizedString(String, String())
-- uid: Global.Utils.ToLocalizedString*
-  name: ToLocalizedString
-  href: api/Global.Utils.html#Global_Utils_ToLocalizedString_
-  commentId: Overload:Global.Utils.ToLocalizedString
+- uid: Global.Utils.ToLocalized(System.String,System.String[])
+  name: ToLocalized(String, String[])
+  href: api/Global.Utils.html#Global_Utils_ToLocalized_System_String_System_String___
+  commentId: M:Global.Utils.ToLocalized(System.String,System.String[])
+  name.vb: ToLocalized(String, String())
+  fullName: Utils.ToLocalized(System.String, System.String[])
+  fullName.vb: Utils.ToLocalized(System.String, System.String())
+  nameWithType: Utils.ToLocalized(String, String[])
+  nameWithType.vb: Utils.ToLocalized(String, String())
+- uid: Global.Utils.ToLocalized*
+  name: ToLocalized
+  href: api/Global.Utils.html#Global_Utils_ToLocalized_
+  commentId: Overload:Global.Utils.ToLocalized
   isSpec: "True"
-  fullName: Utils.ToLocalizedString
-  nameWithType: Utils.ToLocalizedString
+  fullName: Utils.ToLocalized
+  nameWithType: Utils.ToLocalized

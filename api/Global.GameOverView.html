@@ -95,7 +95,7 @@
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="Global.BaseView.html#Global_BaseView_isFloating">BaseView.isFloating</a>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_layer">BaseView.layer</a>
     </div>
     <div>
       <a class="xref" href="Global.BaseView.html#Global_BaseView_allButtons">BaseView.allButtons</a>
@@ -114,6 +114,12 @@
     </div>
     <div>
       <a class="xref" href="Global.BaseView.html#Global_BaseView_IsAnyViewOpen">BaseView.IsAnyViewOpen</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_IsAnyViewOpenInLayer_System_Int32_">BaseView.IsAnyViewOpenInLayer(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_Start">BaseView.Start()</a>
     </div>
     <div>
       <a class="xref" href="Global.BaseView.html#Global_BaseView_OnEnable">BaseView.OnEnable()</a>
@@ -144,12 +150,12 @@
   </h3>
   
   
-  <h4 id="Global_GameOverView_restartText" data-uid="Global.GameOverView.restartText">restartText</h4>
+  <h4 id="Global_GameOverView_restartButtonText" data-uid="Global.GameOverView.restartButtonText">restartButtonText</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TextMeshProUGUI restartText</code></pre>
+    <pre><code class="lang-csharp hljs">public TextMeshProUGUI restartButtonText</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -190,20 +196,56 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-  </h3>
   
   
-  <a id="Global_GameOverView_AddListener_" data-uid="Global.GameOverView.AddListener*"></a>
-  <h4 id="Global_GameOverView_AddListener" data-uid="Global.GameOverView.AddListener">AddListener()</h4>
+  <h4 id="Global_GameOverView_toTitleButtonText" data-uid="Global.GameOverView.toTitleButtonText">toTitleButtonText</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void AddListener()</code></pre>
+    <pre><code class="lang-csharp hljs">public TextMeshProUGUI toTitleButtonText</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TextMeshProUGUI</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Global_GameOverView_OnClose_" data-uid="Global.GameOverView.OnClose*"></a>
+  <h4 id="Global_GameOverView_OnClose" data-uid="Global.GameOverView.OnClose">OnClose()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnClose()</code></pre>
   </div>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Global.BaseView.html#Global_BaseView_AddListener">BaseView.AddListener()</a></div>
+  <div><a class="xref" href="Global.BaseView.html#Global_BaseView_OnClose">BaseView.OnClose()</a></div>
+  
+  
+  <a id="Global_GameOverView_OnOpen_" data-uid="Global.GameOverView.OnOpen*"></a>
+  <h4 id="Global_GameOverView_OnOpen" data-uid="Global.GameOverView.OnOpen">OnOpen()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnOpen()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Global.BaseView.html#Global_BaseView_OnOpen">BaseView.OnOpen()</a></div>
   
   
   <a id="Global_GameOverView_RealRefresh_" data-uid="Global.GameOverView.RealRefresh*"></a>
@@ -218,18 +260,6 @@
   <div><a class="xref" href="Global.BaseView.html#Global_BaseView_RealRefresh">BaseView.RealRefresh()</a></div>
   
   
-  <a id="Global_GameOverView_RemoveListener_" data-uid="Global.GameOverView.RemoveListener*"></a>
-  <h4 id="Global_GameOverView_RemoveListener" data-uid="Global.GameOverView.RemoveListener">RemoveListener()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void RemoveListener()</code></pre>
-  </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Global.BaseView.html#Global_BaseView_RemoveListener">BaseView.RemoveListener()</a></div>
-  
-  
   <a id="Global_GameOverView_Restart_" data-uid="Global.GameOverView.Restart*"></a>
   <h4 id="Global_GameOverView_Restart" data-uid="Global.GameOverView.Restart">Restart()</h4>
   <div class="markdown level1 summary"></div>
@@ -237,6 +267,16 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Restart()</code></pre>
+  </div>
+  
+  
+  <a id="Global_GameOverView_ToTitle_" data-uid="Global.GameOverView.ToTitle*"></a>
+  <h4 id="Global_GameOverView_ToTitle" data-uid="Global.GameOverView.ToTitle">ToTitle()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void ToTitle()</code></pre>
   </div>
 </article>
           </div>

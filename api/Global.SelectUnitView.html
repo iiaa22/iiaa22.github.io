@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class StatesConfigItem
+    <title>Class SelectUnitView
    | &#22612;&#38450;&#28216;&#25103;API&#25991;&#26723; </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class StatesConfigItem
+    <meta name="title" content="Class SelectUnitView
    | &#22612;&#38450;&#28216;&#25103;API&#25991;&#26723; ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,50 +78,84 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.StatesConfigItem">
+            <article class="content wrap" id="_content" data-uid="Global.SelectUnitView">
   
   
-  <h1 id="Global_StatesConfigItem" data-uid="Global.StatesConfigItem" class="text-break">Class StatesConfigItem
+  <h1 id="Global_SelectUnitView" data-uid="Global.SelectUnitView" class="text-break">Class SelectUnitView
   </h1>
-  <div class="markdown level0 summary"><p>状态配置数据。</p>
+  <div class="markdown level0 summary"><p>处理单位选择的视图。</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="Global.BaseConfigItem.html">BaseConfigItem</a></div>
-    <div class="level2"><span class="xref">StatesConfigItem</span></div>
+    <div class="level1"><a class="xref" href="Global.BaseView.html">BaseView</a></div>
+    <div class="level2"><span class="xref">SelectUnitView</span></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="Global.BaseConfigItem.html#Global_BaseConfigItem_name">BaseConfigItem.name</a>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_layer">BaseView.layer</a>
     </div>
     <div>
-      <a class="xref" href="Global.BaseConfigItem.html#Global_BaseConfigItem_description">BaseConfigItem.description</a>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_allButtons">BaseView.allButtons</a>
     </div>
     <div>
-      <a class="xref" href="Global.BaseConfigItem.html#Global_BaseConfigItem_remark">BaseConfigItem.remark</a>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_OnViewOpen">BaseView.OnViewOpen</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_OnViewClose">BaseView.OnViewClose</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_OnButtonClick">BaseView.OnButtonClick</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_Current">BaseView.Current</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_IsAnyViewOpen">BaseView.IsAnyViewOpen</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_IsAnyViewOpenInLayer_System_Int32_">BaseView.IsAnyViewOpenInLayer(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_Start">BaseView.Start()</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_OnEnable">BaseView.OnEnable()</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_OnDisable">BaseView.OnDisable()</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_Open">BaseView.Open()</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_Close">BaseView.Close()</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_IsOpen">BaseView.IsOpen</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_Refresh">BaseView.Refresh()</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Global_StatesConfigItem_syntax">Syntax</h5>
+  <h5 id="Global_SelectUnitView_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Serializable]
-public class StatesConfigItem : BaseConfigItem</code></pre>
+    <pre><code class="lang-csharp hljs">public class SelectUnitView : BaseView</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="Global_StatesConfigItem_defaultDuration" data-uid="Global.StatesConfigItem.defaultDuration">defaultDuration</h4>
-  <div class="markdown level1 summary"><p>默认持续时间（秒）（0代表无限时间）</p>
-</div>
+  <h4 id="Global_SelectUnitView_content" data-uid="Global.SelectUnitView.content">content</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float defaultDuration</code></pre>
+    <pre><code class="lang-csharp hljs">public Transform content</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -133,20 +167,19 @@ public class StatesConfigItem : BaseConfigItem</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Single</span></td>
+        <td><span class="xref">Transform</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_StatesConfigItem_defaultEnergyShield" data-uid="Global.StatesConfigItem.defaultEnergyShield">defaultEnergyShield</h4>
-  <div class="markdown level1 summary"><p>默认能量护盾</p>
-</div>
+  <h4 id="Global_SelectUnitView_itemPrefab" data-uid="Global.SelectUnitView.itemPrefab">itemPrefab</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int defaultEnergyShield</code></pre>
+    <pre><code class="lang-csharp hljs">public SelectUnitItem itemPrefab</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -158,20 +191,19 @@ public class StatesConfigItem : BaseConfigItem</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><a class="xref" href="Global.SelectUnitItem.html">SelectUnitItem</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_StatesConfigItem_defaultPhysicalShield" data-uid="Global.StatesConfigItem.defaultPhysicalShield">defaultPhysicalShield</h4>
-  <div class="markdown level1 summary"><p>默认物理护盾</p>
-</div>
+  <h4 id="Global_SelectUnitView_noItemText" data-uid="Global.SelectUnitView.noItemText">noItemText</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int defaultPhysicalShield</code></pre>
+    <pre><code class="lang-csharp hljs">public TextMeshProUGUI noItemText</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -183,20 +215,19 @@ public class StatesConfigItem : BaseConfigItem</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><span class="xref">TextMeshProUGUI</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_StatesConfigItem_defaultUniversalShield" data-uid="Global.StatesConfigItem.defaultUniversalShield">defaultUniversalShield</h4>
-  <div class="markdown level1 summary"><p>默认全能护盾</p>
-</div>
+  <h4 id="Global_SelectUnitView_titleText" data-uid="Global.SelectUnitView.titleText">titleText</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int defaultUniversalShield</code></pre>
+    <pre><code class="lang-csharp hljs">public TextMeshProUGUI titleText</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -208,22 +239,61 @@ public class StatesConfigItem : BaseConfigItem</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><span class="xref">TextMeshProUGUI</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+  </h3>
   
   
-  <h4 id="Global_StatesConfigItem_hideInMenu" data-uid="Global.StatesConfigItem.hideInMenu">hideInMenu</h4>
-  <div class="markdown level1 summary"><p>是否在菜单中隐藏</p>
-</div>
+  <a id="Global_SelectUnitView_OnClose_" data-uid="Global.SelectUnitView.OnClose*"></a>
+  <h4 id="Global_SelectUnitView_OnClose" data-uid="Global.SelectUnitView.OnClose">OnClose()</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool hideInMenu</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void OnClose()</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Global.BaseView.html#Global_BaseView_OnClose">BaseView.OnClose()</a></div>
+  
+  
+  <a id="Global_SelectUnitView_OnOpen_" data-uid="Global.SelectUnitView.OnOpen*"></a>
+  <h4 id="Global_SelectUnitView_OnOpen" data-uid="Global.SelectUnitView.OnOpen">OnOpen()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnOpen()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Global.BaseView.html#Global_BaseView_OnOpen">BaseView.OnOpen()</a></div>
+  
+  
+  <a id="Global_SelectUnitView_RealRefresh_" data-uid="Global.SelectUnitView.RealRefresh*"></a>
+  <h4 id="Global_SelectUnitView_RealRefresh" data-uid="Global.SelectUnitView.RealRefresh">RealRefresh()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void RealRefresh()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Global.BaseView.html#Global_BaseView_RealRefresh">BaseView.RealRefresh()</a></div>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="Global_SelectUnitView_OnSelected" data-uid="Global.SelectUnitView.OnSelected">OnSelected</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event UnityAction&lt;Unit&gt; OnSelected</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -233,138 +303,7 @@ public class StatesConfigItem : BaseConfigItem</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_StatesConfigItem_isEnergyDamageImmune" data-uid="Global.StatesConfigItem.isEnergyDamageImmune">isEnergyDamageImmune</h4>
-  <div class="markdown level1 summary"><p>免疫能量伤害</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool isEnergyDamageImmune</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_StatesConfigItem_isPhysicalDamageImmune" data-uid="Global.StatesConfigItem.isPhysicalDamageImmune">isPhysicalDamageImmune</h4>
-  <div class="markdown level1 summary"><p>免疫物理伤害</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool isPhysicalDamageImmune</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_StatesConfigItem_onGained" data-uid="Global.StatesConfigItem.onGained">onGained</h4>
-  <div class="markdown level1 summary"><p>状态获得事件
-参数1：获得的单位
-参数2：获得的状态</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityEvent&lt;Unit, State&gt; onGained</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UnityEvent</span>&lt;<a class="xref" href="Global.Unit.html">Unit</a>, <a class="xref" href="Global.State.html">State</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_StatesConfigItem_onLost" data-uid="Global.StatesConfigItem.onLost">onLost</h4>
-  <div class="markdown level1 summary"><p>状态失去事件
-参数1：失去的单位
-参数2：失去的状态</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityEvent&lt;Unit, State&gt; onLost</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UnityEvent</span>&lt;<a class="xref" href="Global.Unit.html">Unit</a>, <a class="xref" href="Global.State.html">State</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_StatesConfigItem_onUpdate" data-uid="Global.StatesConfigItem.onUpdate">onUpdate</h4>
-  <div class="markdown level1 summary"><p>状态持续事件，此事件会在状态维持期间每帧调用一次
-参数1：持续的单位
-参数2：持续的状态</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityEvent&lt;Unit, State&gt; onUpdate</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UnityEvent</span>&lt;<a class="xref" href="Global.Unit.html">Unit</a>, <a class="xref" href="Global.State.html">State</a>&gt;</td>
+        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="Global.Unit.html">Unit</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>

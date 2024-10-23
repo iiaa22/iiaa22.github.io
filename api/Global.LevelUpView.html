@@ -95,7 +95,7 @@
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="Global.BaseView.html#Global_BaseView_isFloating">BaseView.isFloating</a>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_layer">BaseView.layer</a>
     </div>
     <div>
       <a class="xref" href="Global.BaseView.html#Global_BaseView_allButtons">BaseView.allButtons</a>
@@ -114,6 +114,12 @@
     </div>
     <div>
       <a class="xref" href="Global.BaseView.html#Global_BaseView_IsAnyViewOpen">BaseView.IsAnyViewOpen</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_IsAnyViewOpenInLayer_System_Int32_">BaseView.IsAnyViewOpenInLayer(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_Start">BaseView.Start()</a>
     </div>
     <div>
       <a class="xref" href="Global.BaseView.html#Global_BaseView_OnEnable">BaseView.OnEnable()</a>
@@ -140,20 +146,315 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class LevelUpView : BaseView</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="fields">Fields
   </h3>
   
   
-  <a id="Global_LevelUpView_AddListener_" data-uid="Global.LevelUpView.AddListener*"></a>
-  <h4 id="Global_LevelUpView_AddListener" data-uid="Global.LevelUpView.AddListener">AddListener()</h4>
+  <h4 id="Global_LevelUpView_checkInfo" data-uid="Global.LevelUpView.checkInfo">checkInfo</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void AddListener()</code></pre>
+    <pre><code class="lang-csharp hljs">public Transform checkInfo</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_LevelUpView_descText" data-uid="Global.LevelUpView.descText">descText</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextMeshProUGUI descText</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TextMeshProUGUI</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_LevelUpView_levelUpInfo" data-uid="Global.LevelUpView.levelUpInfo">levelUpInfo</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform levelUpInfo</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_LevelUpView_levelUpText" data-uid="Global.LevelUpView.levelUpText">levelUpText</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextMeshProUGUI levelUpText</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TextMeshProUGUI</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_LevelUpView_nextText1" data-uid="Global.LevelUpView.nextText1">nextText1</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextMeshProUGUI nextText1</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TextMeshProUGUI</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_LevelUpView_nextText2" data-uid="Global.LevelUpView.nextText2">nextText2</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextMeshProUGUI nextText2</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TextMeshProUGUI</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_LevelUpView_unitText1" data-uid="Global.LevelUpView.unitText1">unitText1</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextMeshProUGUI unitText1</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TextMeshProUGUI</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_LevelUpView_unitText2" data-uid="Global.LevelUpView.unitText2">unitText2</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextMeshProUGUI unitText2</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TextMeshProUGUI</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Global_LevelUpView_DescTargetIndex_" data-uid="Global.LevelUpView.DescTargetIndex*"></a>
+  <h4 id="Global_LevelUpView_DescTargetIndex" data-uid="Global.LevelUpView.DescTargetIndex">DescTargetIndex</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int DescTargetIndex { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_LevelUpView_TargetUnit_" data-uid="Global.LevelUpView.TargetUnit*"></a>
+  <h4 id="Global_LevelUpView_TargetUnit" data-uid="Global.LevelUpView.TargetUnit">TargetUnit</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Unit TargetUnit { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.Unit.html">Unit</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Global_LevelUpView_CheckLevelUp_" data-uid="Global.LevelUpView.CheckLevelUp*"></a>
+  <h4 id="Global_LevelUpView_CheckLevelUp_System_Int32_" data-uid="Global.LevelUpView.CheckLevelUp(System.Int32)">CheckLevelUp(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CheckLevelUp(int nextLevelUnitIndex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">nextLevelUnitIndex</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_LevelUpView_LevelUp_" data-uid="Global.LevelUpView.LevelUp*"></a>
+  <h4 id="Global_LevelUpView_LevelUp" data-uid="Global.LevelUpView.LevelUp">LevelUp()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void LevelUp()</code></pre>
+  </div>
+  
+  
+  <a id="Global_LevelUpView_OnClose_" data-uid="Global.LevelUpView.OnClose*"></a>
+  <h4 id="Global_LevelUpView_OnClose" data-uid="Global.LevelUpView.OnClose">OnClose()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnClose()</code></pre>
   </div>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Global.BaseView.html#Global_BaseView_AddListener">BaseView.AddListener()</a></div>
+  <div><a class="xref" href="Global.BaseView.html#Global_BaseView_OnClose">BaseView.OnClose()</a></div>
+  
+  
+  <a id="Global_LevelUpView_OnOpen_" data-uid="Global.LevelUpView.OnOpen*"></a>
+  <h4 id="Global_LevelUpView_OnOpen" data-uid="Global.LevelUpView.OnOpen">OnOpen()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnOpen()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Global.BaseView.html#Global_BaseView_OnOpen">BaseView.OnOpen()</a></div>
   
   
   <a id="Global_LevelUpView_RealRefresh_" data-uid="Global.LevelUpView.RealRefresh*"></a>
@@ -168,16 +469,14 @@
   <div><a class="xref" href="Global.BaseView.html#Global_BaseView_RealRefresh">BaseView.RealRefresh()</a></div>
   
   
-  <a id="Global_LevelUpView_RemoveListener_" data-uid="Global.LevelUpView.RemoveListener*"></a>
-  <h4 id="Global_LevelUpView_RemoveListener" data-uid="Global.LevelUpView.RemoveListener">RemoveListener()</h4>
+  <a id="Global_LevelUpView_SelectTargetUnit_" data-uid="Global.LevelUpView.SelectTargetUnit*"></a>
+  <h4 id="Global_LevelUpView_SelectTargetUnit" data-uid="Global.LevelUpView.SelectTargetUnit">SelectTargetUnit()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void RemoveListener()</code></pre>
+    <pre><code class="lang-csharp hljs">public void SelectTargetUnit()</code></pre>
   </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Global.BaseView.html#Global_BaseView_RemoveListener">BaseView.RemoveListener()</a></div>
 </article>
           </div>
           

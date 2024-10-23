@@ -93,9 +93,14 @@
       <div class="level2"><a class="xref" href="Global.GameOverView.html">GameOverView</a></div>
       <div class="level2"><a class="xref" href="Global.GameView.html">GameView</a></div>
       <div class="level2"><a class="xref" href="Global.GlobalView.html">GlobalView</a></div>
+      <div class="level2"><a class="xref" href="Global.InventoryView.html">InventoryView</a></div>
       <div class="level2"><a class="xref" href="Global.LevelUpView.html">LevelUpView</a></div>
       <div class="level2"><a class="xref" href="Global.LoadingView.html">LoadingView</a></div>
       <div class="level2"><a class="xref" href="Global.PlayView.html">PlayView</a></div>
+      <div class="level2"><a class="xref" href="Global.PopWindowView.html">PopWindowView</a></div>
+      <div class="level2"><a class="xref" href="Global.SelectUnitView.html">SelectUnitView</a></div>
+      <div class="level2"><a class="xref" href="Global.SettingsView.html">SettingsView</a></div>
+      <div class="level2"><a class="xref" href="Global.SkillComboView.html">SkillComboView</a></div>
       <div class="level2"><a class="xref" href="Global.TitleView.html">TitleView</a></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
@@ -133,13 +138,14 @@
   </table>
   
   
-  <h4 id="Global_BaseView_isFloating" data-uid="Global.BaseView.isFloating">isFloating</h4>
-  <div class="markdown level1 summary"><p>是否为浮动视图</p>
+  <h4 id="Global_BaseView_layer" data-uid="Global.BaseView.layer">layer</h4>
+  <div class="markdown level1 summary"><p>视图层级
+除第0层外，相同层级的视图最多同时打开一个。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool isFloating</code></pre>
+    <pre><code class="lang-csharp hljs">public int layer</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -151,7 +157,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="xref">System.Int32</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -167,7 +173,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static BaseView Current { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static List&lt;BaseView&gt; Current { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -179,7 +185,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.BaseView.html">BaseView</a></td>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Global.BaseView.html">BaseView</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -240,17 +246,6 @@
   </h3>
   
   
-  <a id="Global_BaseView_AddListener_" data-uid="Global.BaseView.AddListener*"></a>
-  <h4 id="Global_BaseView_AddListener" data-uid="Global.BaseView.AddListener">AddListener()</h4>
-  <div class="markdown level1 summary"><p>添加监听器。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected abstract void AddListener()</code></pre>
-  </div>
-  
-  
   <a id="Global_BaseView_Close_" data-uid="Global.BaseView.Close*"></a>
   <h4 id="Global_BaseView_Close" data-uid="Global.BaseView.Close">Close()</h4>
   <div class="markdown level1 summary"><p>关闭视图。</p>
@@ -259,6 +254,60 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Close()</code></pre>
+  </div>
+  
+  
+  <a id="Global_BaseView_IsAnyViewOpenInLayer_" data-uid="Global.BaseView.IsAnyViewOpenInLayer*"></a>
+  <h4 id="Global_BaseView_IsAnyViewOpenInLayer_System_Int32_" data-uid="Global.BaseView.IsAnyViewOpenInLayer(System.Int32)">IsAnyViewOpenInLayer(Int32)</h4>
+  <div class="markdown level1 summary"><p>指定层级内是否存在打开的视图。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsAnyViewOpenInLayer(int layer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">layer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_BaseView_OnClose_" data-uid="Global.BaseView.OnClose*"></a>
+  <h4 id="Global_BaseView_OnClose" data-uid="Global.BaseView.OnClose">OnClose()</h4>
+  <div class="markdown level1 summary"><p>视图关闭时调用此方法。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void OnClose()</code></pre>
   </div>
   
   
@@ -279,6 +328,17 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">protected virtual void OnEnable()</code></pre>
+  </div>
+  
+  
+  <a id="Global_BaseView_OnOpen_" data-uid="Global.BaseView.OnOpen*"></a>
+  <h4 id="Global_BaseView_OnOpen" data-uid="Global.BaseView.OnOpen">OnOpen()</h4>
+  <div class="markdown level1 summary"><p>视图打开时调用此方法。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract void OnOpen()</code></pre>
   </div>
   
   
@@ -316,14 +376,13 @@
   </div>
   
   
-  <a id="Global_BaseView_RemoveListener_" data-uid="Global.BaseView.RemoveListener*"></a>
-  <h4 id="Global_BaseView_RemoveListener" data-uid="Global.BaseView.RemoveListener">RemoveListener()</h4>
-  <div class="markdown level1 summary"><p>移除监听器。</p>
-</div>
+  <a id="Global_BaseView_Start_" data-uid="Global.BaseView.Start*"></a>
+  <h4 id="Global_BaseView_Start" data-uid="Global.BaseView.Start">Start()</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected abstract void RemoveListener()</code></pre>
+    <pre><code class="lang-csharp hljs">protected virtual void Start()</code></pre>
   </div>
   <h3 id="events">Events
   </h3>

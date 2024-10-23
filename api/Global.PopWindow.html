@@ -92,6 +92,12 @@
     <div class="level1"><a class="xref" href="Global.BaseWindow.html">BaseWindow</a></div>
     <div class="level2"><span class="xref">PopWindow</span></div>
   </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IBeginDragHandler</span></div>
+    <div><span class="xref">IDragHandler</span></div>
+    <div><span class="xref">IPointerClickHandler</span></div>
+  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
@@ -143,6 +149,9 @@
       <a class="xref" href="Global.BaseWindow.html#Global_BaseWindow_Refresh">BaseWindow.Refresh()</a>
     </div>
     <div>
+      <a class="xref" href="Global.BaseWindow.html#Global_BaseWindow_PlayOpenAnimation">BaseWindow.PlayOpenAnimation()</a>
+    </div>
+    <div>
       <a class="xref" href="Global.BaseWindow.html#Global_BaseWindow_PlayCloseAnimation">BaseWindow.PlayCloseAnimation()</a>
     </div>
   </div>
@@ -174,6 +183,30 @@
     <tbody>
       <tr>
         <td><span class="xref">TextMeshProUGUI</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_PopWindow_mouseOffset" data-uid="Global.PopWindow.mouseOffset">mouseOffset</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector2 mouseOffset</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Vector2</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -242,16 +275,109 @@
   <div><a class="xref" href="Global.BaseWindow.html#Global_BaseWindow_AddListener">BaseWindow.AddListener()</a></div>
   
   
-  <a id="Global_PopWindow_PlayOpenAnimation_" data-uid="Global.PopWindow.PlayOpenAnimation*"></a>
-  <h4 id="Global_PopWindow_PlayOpenAnimation" data-uid="Global.PopWindow.PlayOpenAnimation">PlayOpenAnimation()</h4>
+  <a id="Global_PopWindow_OnBeginDrag_" data-uid="Global.PopWindow.OnBeginDrag*"></a>
+  <h4 id="Global_PopWindow_OnBeginDrag_PointerEventData_" data-uid="Global.PopWindow.OnBeginDrag(PointerEventData)">OnBeginDrag(PointerEventData)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void PlayOpenAnimation()</code></pre>
+    <pre><code class="lang-csharp hljs">public void OnBeginDrag(PointerEventData eventData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_PopWindow_OnClose_" data-uid="Global.PopWindow.OnClose*"></a>
+  <h4 id="Global_PopWindow_OnClose" data-uid="Global.PopWindow.OnClose">OnClose()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnClose()</code></pre>
   </div>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Global.BaseWindow.html#Global_BaseWindow_PlayOpenAnimation">BaseWindow.PlayOpenAnimation()</a></div>
+  <div><a class="xref" href="Global.BaseWindow.html#Global_BaseWindow_OnClose">BaseWindow.OnClose()</a></div>
+  
+  
+  <a id="Global_PopWindow_OnDrag_" data-uid="Global.PopWindow.OnDrag*"></a>
+  <h4 id="Global_PopWindow_OnDrag_PointerEventData_" data-uid="Global.PopWindow.OnDrag(PointerEventData)">OnDrag(PointerEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnDrag(PointerEventData eventData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_PopWindow_OnOpen_" data-uid="Global.PopWindow.OnOpen*"></a>
+  <h4 id="Global_PopWindow_OnOpen" data-uid="Global.PopWindow.OnOpen">OnOpen()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void OnOpen()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Global.BaseWindow.html#Global_BaseWindow_OnOpen">BaseWindow.OnOpen()</a></div>
+  
+  
+  <a id="Global_PopWindow_OnPointerClick_" data-uid="Global.PopWindow.OnPointerClick*"></a>
+  <h4 id="Global_PopWindow_OnPointerClick_PointerEventData_" data-uid="Global.PopWindow.OnPointerClick(PointerEventData)">OnPointerClick(PointerEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnPointerClick(PointerEventData eventData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="Global_PopWindow_RealRefresh_" data-uid="Global.PopWindow.RealRefresh*"></a>
@@ -276,6 +402,60 @@
   </div>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="Global.BaseWindow.html#Global_BaseWindow_RemoveListener">BaseWindow.RemoveListener()</a></div>
+  
+  
+  <a id="Global_PopWindow_Show_" data-uid="Global.PopWindow.Show*"></a>
+  <h4 id="Global_PopWindow_Show_System_Collections_Generic_List_System_String__System_Collections_Generic_List_System_String__" data-uid="Global.PopWindow.Show(System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})">Show(List&lt;String&gt;, List&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Show(List&lt;string&gt; textList, List&lt;string&gt; allTextList)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">textList</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">allTextList</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_PopWindow_Start_" data-uid="Global.PopWindow.Start*"></a>
+  <h4 id="Global_PopWindow_Start" data-uid="Global.PopWindow.Start">Start()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Start()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Global.BaseWindow.html#Global_BaseWindow_Start">BaseWindow.Start()</a></div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IBeginDragHandler</span>
+  </div>
+  <div>
+      <span class="xref">IDragHandler</span>
+  </div>
+  <div>
+      <span class="xref">IPointerClickHandler</span>
+  </div>
 </article>
           </div>
           

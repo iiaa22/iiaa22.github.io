@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class SkillUtils
+    <title>Class SelectUnitItem
    | &#22612;&#38450;&#28216;&#25103;API&#25991;&#26723; </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class SkillUtils
+    <meta name="title" content="Class SelectUnitItem
    | &#22612;&#38450;&#28216;&#25103;API&#25991;&#26723; ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,36 +78,143 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.SkillUtils">
+            <article class="content wrap" id="_content" data-uid="Global.SelectUnitItem">
   
   
-  <h1 id="Global_SkillUtils" data-uid="Global.SkillUtils" class="text-break">Class SkillUtils
+  <h1 id="Global_SelectUnitItem" data-uid="Global.SelectUnitItem" class="text-break">Class SelectUnitItem
   </h1>
-  <div class="markdown level0 summary"><p>控制所有技能效果的类。</p>
+  <div class="markdown level0 summary"><p>处理单位选择项目的类。</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">SkillUtils</span></div>
+    <div class="level1"><span class="xref">SelectUnitItem</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IPointerEnterHandler</span></div>
+    <div><span class="xref">IPointerExitHandler</span></div>
+    <div><span class="xref">IPointerDownHandler</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Global_SkillUtils_syntax">Syntax</h5>
+  <h5 id="Global_SelectUnitItem_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SkillUtils : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class SelectUnitItem : MonoBehaviour</code></pre>
   </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="Global_SelectUnitItem_buildedText" data-uid="Global.SelectUnitItem.buildedText">buildedText</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextMeshProUGUI buildedText</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TextMeshProUGUI</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_SelectUnitItem_button" data-uid="Global.SelectUnitItem.button">button</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Button button</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Button</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_SelectUnitItem_titleText" data-uid="Global.SelectUnitItem.titleText">titleText</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TextMeshProUGUI titleText</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TextMeshProUGUI</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Global_SelectUnitItem_TargetUnit_" data-uid="Global.SelectUnitItem.TargetUnit*"></a>
+  <h4 id="Global_SelectUnitItem_TargetUnit" data-uid="Global.SelectUnitItem.TargetUnit">TargetUnit</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Unit TargetUnit { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.Unit.html">Unit</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Global_SkillUtils_OnPlayerAttacked_" data-uid="Global.SkillUtils.OnPlayerAttacked*"></a>
-  <h4 id="Global_SkillUtils_OnPlayerAttacked_Unit_Unit_Skill_DamageInfo_" data-uid="Global.SkillUtils.OnPlayerAttacked(Unit,Unit,Skill,DamageInfo)">OnPlayerAttacked(Unit, Unit, Skill, DamageInfo)</h4>
+  <a id="Global_SelectUnitItem_OnPointerDown_" data-uid="Global.SelectUnitItem.OnPointerDown*"></a>
+  <h4 id="Global_SelectUnitItem_OnPointerDown_PointerEventData_" data-uid="Global.SelectUnitItem.OnPointerDown(PointerEventData)">OnPointerDown(PointerEventData)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnPlayerAttacked(Unit attacker, Unit player, Skill skill, DamageInfo damageInfo)</code></pre>
+    <pre><code class="lang-csharp hljs">public void OnPointerDown(PointerEventData eventData)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -120,36 +227,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.Unit.html">Unit</a></td>
-        <td><span class="parametername">attacker</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Global.Unit.html">Unit</a></td>
-        <td><span class="parametername">player</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Global.Skill.html">Skill</a></td>
-        <td><span class="parametername">skill</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Global.DamageInfo.html">DamageInfo</a></td>
-        <td><span class="parametername">damageInfo</span></td>
+        <td><span class="xref">PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Global_SkillUtils_OnSkill0Learnd_" data-uid="Global.SkillUtils.OnSkill0Learnd*"></a>
-  <h4 id="Global_SkillUtils_OnSkill0Learnd_Unit_Skill_" data-uid="Global.SkillUtils.OnSkill0Learnd(Unit,Skill)">OnSkill0Learnd(Unit, Skill)</h4>
+  <a id="Global_SelectUnitItem_OnPointerEnter_" data-uid="Global.SelectUnitItem.OnPointerEnter*"></a>
+  <h4 id="Global_SelectUnitItem_OnPointerEnter_PointerEventData_" data-uid="Global.SelectUnitItem.OnPointerEnter(PointerEventData)">OnPointerEnter(PointerEventData)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnSkill0Learnd(Unit unit, Skill skill)</code></pre>
+    <pre><code class="lang-csharp hljs">public void OnPointerEnter(PointerEventData eventData)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -162,67 +254,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.Unit.html">Unit</a></td>
-        <td><span class="parametername">unit</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Global.Skill.html">Skill</a></td>
-        <td><span class="parametername">skill</span></td>
+        <td><span class="xref">PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Global_SkillUtils_OnSkill0Triggered_" data-uid="Global.SkillUtils.OnSkill0Triggered*"></a>
-  <h4 id="Global_SkillUtils_OnSkill0Triggered_Unit_Unit_SkillController_" data-uid="Global.SkillUtils.OnSkill0Triggered(Unit,Unit,SkillController)">OnSkill0Triggered(Unit, Unit, SkillController)</h4>
-  <div class="markdown level1 summary"><p>普通攻击。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnSkill0Triggered(Unit attacker, Unit target, SkillController skillControlelr)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Global.Unit.html">Unit</a></td>
-        <td><span class="parametername">attacker</span></td>
-        <td><p>使用的单位</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Global.Unit.html">Unit</a></td>
-        <td><span class="parametername">target</span></td>
-        <td><p>触发的单位</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Global.SkillController.html">SkillController</a></td>
-        <td><span class="parametername">skillControlelr</span></td>
-        <td><p>触发的技能控制器</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Global_SkillUtils_OnSkillTriggered1_" data-uid="Global.SkillUtils.OnSkillTriggered1*"></a>
-  <h4 id="Global_SkillUtils_OnSkillTriggered1_Unit_SkillController_System_String_" data-uid="Global.SkillUtils.OnSkillTriggered1(Unit,SkillController,System.String)">OnSkillTriggered1(Unit, SkillController, String)</h4>
+  <a id="Global_SelectUnitItem_OnPointerExit_" data-uid="Global.SelectUnitItem.OnPointerExit*"></a>
+  <h4 id="Global_SelectUnitItem_OnPointerExit_PointerEventData_" data-uid="Global.SelectUnitItem.OnPointerExit(PointerEventData)">OnPointerExit(PointerEventData)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnSkillTriggered1(Unit user, SkillController skillControlelr, string arg)</code></pre>
+    <pre><code class="lang-csharp hljs">public void OnPointerExit(PointerEventData eventData)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -235,133 +281,32 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.Unit.html">Unit</a></td>
-        <td><span class="parametername">user</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Global.SkillController.html">SkillController</a></td>
-        <td><span class="parametername">skillControlelr</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">arg</span></td>
+        <td><span class="xref">PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Global_SkillUtils_OnSkillTriggered2_" data-uid="Global.SkillUtils.OnSkillTriggered2*"></a>
-  <h4 id="Global_SkillUtils_OnSkillTriggered2_Unit_SkillController_System_String_" data-uid="Global.SkillUtils.OnSkillTriggered2(Unit,SkillController,System.String)">OnSkillTriggered2(Unit, SkillController, String)</h4>
+  <a id="Global_SelectUnitItem_Refresh_" data-uid="Global.SelectUnitItem.Refresh*"></a>
+  <h4 id="Global_SelectUnitItem_Refresh" data-uid="Global.SelectUnitItem.Refresh">Refresh()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnSkillTriggered2(Unit user, SkillController skillControlelr, string arg)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Refresh()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Global.Unit.html">Unit</a></td>
-        <td><span class="parametername">user</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Global.SkillController.html">SkillController</a></td>
-        <td><span class="parametername">skillControlelr</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">arg</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Global_SkillUtils_ShowSkillEffect1_" data-uid="Global.SkillUtils.ShowSkillEffect1*"></a>
-  <h4 id="Global_SkillUtils_ShowSkillEffect1_Unit_Unit_SkillController_" data-uid="Global.SkillUtils.ShowSkillEffect1(Unit,Unit,SkillController)">ShowSkillEffect1(Unit, Unit, SkillController)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ShowSkillEffect1(Unit attacker, Unit target, SkillController skillController)</code></pre>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IPointerEnterHandler</span>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Global.Unit.html">Unit</a></td>
-        <td><span class="parametername">attacker</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Global.Unit.html">Unit</a></td>
-        <td><span class="parametername">target</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Global.SkillController.html">SkillController</a></td>
-        <td><span class="parametername">skillController</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Global_SkillUtils_ShowSkillEffect2_" data-uid="Global.SkillUtils.ShowSkillEffect2*"></a>
-  <h4 id="Global_SkillUtils_ShowSkillEffect2_Unit_Unit_SkillController_" data-uid="Global.SkillUtils.ShowSkillEffect2(Unit,Unit,SkillController)">ShowSkillEffect2(Unit, Unit, SkillController)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void ShowSkillEffect2(Unit attacker, Unit target, SkillController skillController)</code></pre>
+  <div>
+      <span class="xref">IPointerExitHandler</span>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Global.Unit.html">Unit</a></td>
-        <td><span class="parametername">attacker</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Global.Unit.html">Unit</a></td>
-        <td><span class="parametername">target</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Global.SkillController.html">SkillController</a></td>
-        <td><span class="parametername">skillController</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+  <div>
+      <span class="xref">IPointerDownHandler</span>
+  </div>
 </article>
           </div>
           

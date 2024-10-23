@@ -215,13 +215,38 @@ public class UnitsConfigItem : BaseConfigItem</code></pre>
   </table>
   
   
-  <h4 id="Global_UnitsConfigItem_defaultMaxToughness" data-uid="Global.UnitsConfigItem.defaultMaxToughness">defaultMaxToughness</h4>
+  <h4 id="Global_UnitsConfigItem_defaultATK" data-uid="Global.UnitsConfigItem.defaultATK">defaultATK</h4>
+  <div class="markdown level1 summary"><p>默认伤害值</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int defaultATK</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_UnitsConfigItem_defaultMaxTOU" data-uid="Global.UnitsConfigItem.defaultMaxTOU">defaultMaxTOU</h4>
   <div class="markdown level1 summary"><p>默认最大韧性值</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int defaultMaxToughness</code></pre>
+    <pre><code class="lang-csharp hljs">public int defaultMaxTOU</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -593,32 +618,6 @@ public class UnitsConfigItem : BaseConfigItem</code></pre>
   </h3>
   
   
-  <a id="Global_UnitsConfigItem_DefaultATK_" data-uid="Global.UnitsConfigItem.DefaultATK*"></a>
-  <h4 id="Global_UnitsConfigItem_DefaultATK" data-uid="Global.UnitsConfigItem.DefaultATK">DefaultATK</h4>
-  <div class="markdown level1 summary"><p>默认伤害值</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int DefaultATK { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="Global_UnitsConfigItem_DefaultMaxHP_" data-uid="Global.UnitsConfigItem.DefaultMaxHP*"></a>
   <h4 id="Global_UnitsConfigItem_DefaultMaxHP" data-uid="Global.UnitsConfigItem.DefaultMaxHP">DefaultMaxHP</h4>
   <div class="markdown level1 summary"><p>默认最大生命值</p>
@@ -666,6 +665,57 @@ public class UnitsConfigItem : BaseConfigItem</code></pre>
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <td><span class="xref">Transform</span></td>
+        <td><span class="parametername">parent</span></td>
+        <td><p>父对象</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.UnitController.html">UnitController</a></td>
+        <td><p>控制器</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_UnitsConfigItem_CreateController_" data-uid="Global.UnitsConfigItem.CreateController*"></a>
+  <h4 id="Global_UnitsConfigItem_CreateController_Unit_Transform_" data-uid="Global.UnitsConfigItem.CreateController(Unit,Transform)">CreateController(Unit, Transform)</h4>
+  <div class="markdown level1 summary"><p>创建控制器。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public UnitController CreateController(Unit unit, Transform parent = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.Unit.html">Unit</a></td>
+        <td><span class="parametername">unit</span></td>
+        <td><p>单位</p>
+</td>
+      </tr>
       <tr>
         <td><span class="xref">Transform</span></td>
         <td><span class="parametername">parent</span></td>

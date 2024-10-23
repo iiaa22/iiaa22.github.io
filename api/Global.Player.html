@@ -115,9 +115,6 @@
       <a class="xref" href="Global.Unit.html#Global_Unit_OnDead">Unit.OnDead</a>
     </div>
     <div>
-      <a class="xref" href="Global.Unit.html#Global_Unit_Init">Unit.Init()</a>
-    </div>
-    <div>
       <a class="xref" href="Global.Unit.html#Global_Unit_IsPlayer">Unit.IsPlayer</a>
     </div>
     <div>
@@ -136,10 +133,10 @@
       <a class="xref" href="Global.Unit.html#Global_Unit_Damage_Unit_DamageInfo_">Unit.Damage(Unit, DamageInfo)</a>
     </div>
     <div>
-      <a class="xref" href="Global.Unit.html#Global_Unit_MaxToughness">Unit.MaxToughness</a>
+      <a class="xref" href="Global.Unit.html#Global_Unit_MaxTOU">Unit.MaxTOU</a>
     </div>
     <div>
-      <a class="xref" href="Global.Unit.html#Global_Unit_Toughness">Unit.Toughness</a>
+      <a class="xref" href="Global.Unit.html#Global_Unit_TOU">Unit.TOU</a>
     </div>
     <div>
       <a class="xref" href="Global.Unit.html#Global_Unit_BasicATK">Unit.BasicATK</a>
@@ -261,6 +258,32 @@ public class Player : Unit</code></pre>
   </h3>
   
   
+  <a id="Global_Player_AvailableUnitIDPool_" data-uid="Global.Player.AvailableUnitIDPool*"></a>
+  <h4 id="Global_Player_AvailableUnitIDPool" data-uid="Global.Player.AvailableUnitIDPool">AvailableUnitIDPool</h4>
+  <div class="markdown level1 summary"><p>可获得的单位ID列表。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;int&gt; AvailableUnitIDPool { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Global_Player_ComboInfoList_" data-uid="Global.Player.ComboInfoList*"></a>
   <h4 id="Global_Player_ComboInfoList" data-uid="Global.Player.ComboInfoList">ComboInfoList</h4>
   <div class="markdown level1 summary"><p>连段信息列表。</p>
@@ -287,14 +310,14 @@ public class Player : Unit</code></pre>
   </table>
   
   
-  <a id="Global_Player_EquippedCount_" data-uid="Global.Player.EquippedCount*"></a>
-  <h4 id="Global_Player_EquippedCount" data-uid="Global.Player.EquippedCount">EquippedCount</h4>
-  <div class="markdown level1 summary"><p>手持中的单位数量。</p>
+  <a id="Global_Player_CompletedWave_" data-uid="Global.Player.CompletedWave*"></a>
+  <h4 id="Global_Player_CompletedWave" data-uid="Global.Player.CompletedWave">CompletedWave</h4>
+  <div class="markdown level1 summary"><p>已完成波次。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int EquippedCount { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int CompletedWave { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -313,14 +336,118 @@ public class Player : Unit</code></pre>
   </table>
   
   
-  <a id="Global_Player_InventoryCount_" data-uid="Global.Player.InventoryCount*"></a>
-  <h4 id="Global_Player_InventoryCount" data-uid="Global.Player.InventoryCount">InventoryCount</h4>
-  <div class="markdown level1 summary"><p>背包中的单位数量。</p>
+  <a id="Global_Player_EquippedUnitList_" data-uid="Global.Player.EquippedUnitList*"></a>
+  <h4 id="Global_Player_EquippedUnitList" data-uid="Global.Player.EquippedUnitList">EquippedUnitList</h4>
+  <div class="markdown level1 summary"><p>装备中的单位列表。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int InventoryCount { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ReadOnlyCollection&lt;Unit&gt; EquippedUnitList { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ReadOnlyCollection</span>&lt;<a class="xref" href="Global.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_Player_Guid_" data-uid="Global.Player.Guid*"></a>
+  <h4 id="Global_Player_Guid" data-uid="Global.Player.Guid">Guid</h4>
+  <div class="markdown level1 summary"><p>随机数标识符。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Guid Guid { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Guid</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_Player_InventoryUnitList_" data-uid="Global.Player.InventoryUnitList*"></a>
+  <h4 id="Global_Player_InventoryUnitList" data-uid="Global.Player.InventoryUnitList">InventoryUnitList</h4>
+  <div class="markdown level1 summary"><p>背包中的单位列表。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ReadOnlyCollection&lt;Unit&gt; InventoryUnitList { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ReadOnlyCollection</span>&lt;<a class="xref" href="Global.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_Player_MaxComboCount_" data-uid="Global.Player.MaxComboCount*"></a>
+  <h4 id="Global_Player_MaxComboCount" data-uid="Global.Player.MaxComboCount">MaxComboCount</h4>
+  <div class="markdown level1 summary"><p>最大连段数量。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int MaxComboCount { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_Player_MaxEquippedCount_" data-uid="Global.Player.MaxEquippedCount*"></a>
+  <h4 id="Global_Player_MaxEquippedCount" data-uid="Global.Player.MaxEquippedCount">MaxEquippedCount</h4>
+  <div class="markdown level1 summary"><p>最大装备栏位。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int MaxEquippedCount { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -384,7 +511,7 @@ public class Player : Unit</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void EquipUnit(Unit unit, int index)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool EquipUnit(Unit unit, int index)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -405,7 +532,23 @@ public class Player : Unit</code></pre>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">index</span></td>
-        <td><p>手持位置</p>
+        <td><p>装备栏位</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>是否装备成功</p>
 </td>
       </tr>
     </tbody>
@@ -441,96 +584,6 @@ public class Player : Unit</code></pre>
   </table>
   
   
-  <a id="Global_Player_GetEquippedUnit_" data-uid="Global.Player.GetEquippedUnit*"></a>
-  <h4 id="Global_Player_GetEquippedUnit_System_Int32_" data-uid="Global.Player.GetEquippedUnit(System.Int32)">GetEquippedUnit(Int32)</h4>
-  <div class="markdown level1 summary"><p>获得手持中的单位。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Unit GetEquippedUnit(int index)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">index</span></td>
-        <td><p>手持位置</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Global.Unit.html">Unit</a></td>
-        <td><p>单位</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Global_Player_GetInventoryUnit_" data-uid="Global.Player.GetInventoryUnit*"></a>
-  <h4 id="Global_Player_GetInventoryUnit_System_Int32_" data-uid="Global.Player.GetInventoryUnit(System.Int32)">GetInventoryUnit(Int32)</h4>
-  <div class="markdown level1 summary"><p>获得背包中的单位。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Unit GetInventoryUnit(int index)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">index</span></td>
-        <td><p>背包位置</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Global.Unit.html">Unit</a></td>
-        <td><p>单位</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="Global_Player_GetSkills_" data-uid="Global.Player.GetSkills*"></a>
   <h4 id="Global_Player_GetSkills" data-uid="Global.Player.GetSkills">GetSkills()</h4>
   <div class="markdown level1 summary"></div>
@@ -556,6 +609,18 @@ public class Player : Unit</code></pre>
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="Global.Unit.html#Global_Unit_GetSkills">Unit.GetSkills()</a></div>
+  
+  
+  <a id="Global_Player_Init_" data-uid="Global.Player.Init*"></a>
+  <h4 id="Global_Player_Init" data-uid="Global.Player.Init">Init()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Init()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Global.Unit.html#Global_Unit_Init">Unit.Init()</a></div>
   
   
   <a id="Global_Player_LostUnit_" data-uid="Global.Player.LostUnit*"></a>
@@ -609,7 +674,7 @@ public class Player : Unit</code></pre>
       <tr>
         <td><span class="xref">System.Int32</span></td>
         <td><span class="parametername">index</span></td>
-        <td><p>手持位置</p>
+        <td><p>装备栏位</p>
 </td>
       </tr>
     </tbody>
