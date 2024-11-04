@@ -1189,6 +1189,74 @@ references:
   commentId: F:Global.GameOverView.toTitleButtonText
   fullName: GameOverView.toTitleButtonText
   nameWithType: GameOverView.toTitleButtonText
+- uid: Global.GameSkillComboItem
+  name: GameSkillComboItem
+  href: api/Global.GameSkillComboItem.html
+  commentId: T:Global.GameSkillComboItem
+  fullName: GameSkillComboItem
+  nameWithType: GameSkillComboItem
+- uid: Global.GameSkillComboItem.background
+  name: background
+  href: api/Global.GameSkillComboItem.html#Global_GameSkillComboItem_background
+  commentId: F:Global.GameSkillComboItem.background
+  fullName: GameSkillComboItem.background
+  nameWithType: GameSkillComboItem.background
+- uid: Global.GameSkillComboItem.comboText
+  name: comboText
+  href: api/Global.GameSkillComboItem.html#Global_GameSkillComboItem_comboText
+  commentId: F:Global.GameSkillComboItem.comboText
+  fullName: GameSkillComboItem.comboText
+  nameWithType: GameSkillComboItem.comboText
+- uid: Global.GameSkillComboItem.commonSprite
+  name: commonSprite
+  href: api/Global.GameSkillComboItem.html#Global_GameSkillComboItem_commonSprite
+  commentId: F:Global.GameSkillComboItem.commonSprite
+  fullName: GameSkillComboItem.commonSprite
+  nameWithType: GameSkillComboItem.commonSprite
+- uid: Global.GameSkillComboItem.highlightSprite
+  name: highlightSprite
+  href: api/Global.GameSkillComboItem.html#Global_GameSkillComboItem_highlightSprite
+  commentId: F:Global.GameSkillComboItem.highlightSprite
+  fullName: GameSkillComboItem.highlightSprite
+  nameWithType: GameSkillComboItem.highlightSprite
+- uid: Global.GameSkillComboItem.itemSpacing
+  name: itemSpacing
+  href: api/Global.GameSkillComboItem.html#Global_GameSkillComboItem_itemSpacing
+  commentId: F:Global.GameSkillComboItem.itemSpacing
+  fullName: GameSkillComboItem.itemSpacing
+  nameWithType: GameSkillComboItem.itemSpacing
+- uid: Global.GameSkillComboItem.Refresh
+  name: Refresh()
+  href: api/Global.GameSkillComboItem.html#Global_GameSkillComboItem_Refresh
+  commentId: M:Global.GameSkillComboItem.Refresh
+  fullName: GameSkillComboItem.Refresh()
+  nameWithType: GameSkillComboItem.Refresh()
+- uid: Global.GameSkillComboItem.Refresh*
+  name: Refresh
+  href: api/Global.GameSkillComboItem.html#Global_GameSkillComboItem_Refresh_
+  commentId: Overload:Global.GameSkillComboItem.Refresh
+  isSpec: "True"
+  fullName: GameSkillComboItem.Refresh
+  nameWithType: GameSkillComboItem.Refresh
+- uid: Global.GameSkillComboItem.SetComboInfo(System.Int32,System.Boolean)
+  name: SetComboInfo(Int32, Boolean)
+  href: api/Global.GameSkillComboItem.html#Global_GameSkillComboItem_SetComboInfo_System_Int32_System_Boolean_
+  commentId: M:Global.GameSkillComboItem.SetComboInfo(System.Int32,System.Boolean)
+  fullName: GameSkillComboItem.SetComboInfo(System.Int32, System.Boolean)
+  nameWithType: GameSkillComboItem.SetComboInfo(Int32, Boolean)
+- uid: Global.GameSkillComboItem.SetComboInfo*
+  name: SetComboInfo
+  href: api/Global.GameSkillComboItem.html#Global_GameSkillComboItem_SetComboInfo_
+  commentId: Overload:Global.GameSkillComboItem.SetComboInfo
+  isSpec: "True"
+  fullName: GameSkillComboItem.SetComboInfo
+  nameWithType: GameSkillComboItem.SetComboInfo
+- uid: Global.GameSkillComboItem.titleText
+  name: titleText
+  href: api/Global.GameSkillComboItem.html#Global_GameSkillComboItem_titleText
+  commentId: F:Global.GameSkillComboItem.titleText
+  fullName: GameSkillComboItem.titleText
+  nameWithType: GameSkillComboItem.titleText
 - uid: Global.GameView
   name: GameView
   href: api/Global.GameView.html
@@ -1207,12 +1275,6 @@ references:
   commentId: F:Global.GameView.bottom
   fullName: GameView.bottom
   nameWithType: GameView.bottom
-- uid: Global.GameView.countDownText
-  name: countDownText
-  href: api/Global.GameView.html#Global_GameView_countDownText
-  commentId: F:Global.GameView.countDownText
-  fullName: GameView.countDownText
-  nameWithType: GameView.countDownText
 - uid: Global.GameView.defText
   name: defText
   href: api/Global.GameView.html#Global_GameView_defText
@@ -1294,12 +1356,36 @@ references:
   commentId: F:Global.GameView.resText
   fullName: GameView.resText
   nameWithType: GameView.resText
+- uid: Global.GameView.skillComboContent1
+  name: skillComboContent1
+  href: api/Global.GameView.html#Global_GameView_skillComboContent1
+  commentId: F:Global.GameView.skillComboContent1
+  fullName: GameView.skillComboContent1
+  nameWithType: GameView.skillComboContent1
+- uid: Global.GameView.skillComboContent2
+  name: skillComboContent2
+  href: api/Global.GameView.html#Global_GameView_skillComboContent2
+  commentId: F:Global.GameView.skillComboContent2
+  fullName: GameView.skillComboContent2
+  nameWithType: GameView.skillComboContent2
+- uid: Global.GameView.skillComboPrefab
+  name: skillComboPrefab
+  href: api/Global.GameView.html#Global_GameView_skillComboPrefab
+  commentId: F:Global.GameView.skillComboPrefab
+  fullName: GameView.skillComboPrefab
+  nameWithType: GameView.skillComboPrefab
 - uid: Global.GameView.spdText
   name: spdText
   href: api/Global.GameView.html#Global_GameView_spdText
   commentId: F:Global.GameView.spdText
   fullName: GameView.spdText
   nameWithType: GameView.spdText
+- uid: Global.GameView.targetKillText
+  name: targetKillText
+  href: api/Global.GameView.html#Global_GameView_targetKillText
+  commentId: F:Global.GameView.targetKillText
+  fullName: GameView.targetKillText
+  nameWithType: GameView.targetKillText
 - uid: Global.GameView.top
   name: top
   href: api/Global.GameView.html#Global_GameView_top
@@ -1951,6 +2037,19 @@ references:
   isSpec: "True"
   fullName: Map.CountDown
   nameWithType: Map.CountDown
+- uid: Global.Map.TargetKillCount
+  name: TargetKillCount
+  href: api/Global.Map.html#Global_Map_TargetKillCount
+  commentId: P:Global.Map.TargetKillCount
+  fullName: Map.TargetKillCount
+  nameWithType: Map.TargetKillCount
+- uid: Global.Map.TargetKillCount*
+  name: TargetKillCount
+  href: api/Global.Map.html#Global_Map_TargetKillCount_
+  commentId: Overload:Global.Map.TargetKillCount
+  isSpec: "True"
+  fullName: Map.TargetKillCount
+  nameWithType: Map.TargetKillCount
 - uid: Global.MapController
   name: MapController
   href: api/Global.MapController.html
@@ -2193,19 +2292,32 @@ references:
   isSpec: "True"
   fullName: Player.Player
   nameWithType: Player.Player
-- uid: Global.Player.AddListener
-  name: AddListener()
-  href: api/Global.Player.html#Global_Player_AddListener
-  commentId: M:Global.Player.AddListener
-  fullName: Player.AddListener()
-  nameWithType: Player.AddListener()
-- uid: Global.Player.AddListener*
-  name: AddListener
-  href: api/Global.Player.html#Global_Player_AddListener_
-  commentId: Overload:Global.Player.AddListener
+- uid: Global.Player.AddLeftCombo(Player.ComboInfo)
+  name: AddLeftCombo(Player.ComboInfo)
+  href: api/Global.Player.html#Global_Player_AddLeftCombo_Player_ComboInfo_
+  commentId: M:Global.Player.AddLeftCombo(Player.ComboInfo)
+  fullName: Player.AddLeftCombo(Player.ComboInfo)
+  nameWithType: Player.AddLeftCombo(Player.ComboInfo)
+- uid: Global.Player.AddLeftCombo*
+  name: AddLeftCombo
+  href: api/Global.Player.html#Global_Player_AddLeftCombo_
+  commentId: Overload:Global.Player.AddLeftCombo
   isSpec: "True"
-  fullName: Player.AddListener
-  nameWithType: Player.AddListener
+  fullName: Player.AddLeftCombo
+  nameWithType: Player.AddLeftCombo
+- uid: Global.Player.AddRightCombo(Player.ComboInfo)
+  name: AddRightCombo(Player.ComboInfo)
+  href: api/Global.Player.html#Global_Player_AddRightCombo_Player_ComboInfo_
+  commentId: M:Global.Player.AddRightCombo(Player.ComboInfo)
+  fullName: Player.AddRightCombo(Player.ComboInfo)
+  nameWithType: Player.AddRightCombo(Player.ComboInfo)
+- uid: Global.Player.AddRightCombo*
+  name: AddRightCombo
+  href: api/Global.Player.html#Global_Player_AddRightCombo_
+  commentId: Overload:Global.Player.AddRightCombo
+  isSpec: "True"
+  fullName: Player.AddRightCombo
+  nameWithType: Player.AddRightCombo
 - uid: Global.Player.AfterLoad
   name: AfterLoad()
   href: api/Global.Player.html#Global_Player_AfterLoad
@@ -2321,12 +2433,38 @@ references:
   commentId: F:Global.Player.ComboInfo.skillID
   fullName: Player.ComboInfo.skillID
   nameWithType: Player.ComboInfo.skillID
+- uid: Global.Player.ComboInfo.SkillSource
+  name: SkillSource
+  href: api/Global.Player.ComboInfo.html#Global_Player_ComboInfo_SkillSource
+  commentId: P:Global.Player.ComboInfo.SkillSource
+  fullName: Player.ComboInfo.SkillSource
+  nameWithType: Player.ComboInfo.SkillSource
+- uid: Global.Player.ComboInfo.SkillSource*
+  name: SkillSource
+  href: api/Global.Player.ComboInfo.html#Global_Player_ComboInfo_SkillSource_
+  commentId: Overload:Global.Player.ComboInfo.SkillSource
+  isSpec: "True"
+  fullName: Player.ComboInfo.SkillSource
+  nameWithType: Player.ComboInfo.SkillSource
 - uid: Global.Player.ComboInfo.variantName
   name: variantName
   href: api/Global.Player.ComboInfo.html#Global_Player_ComboInfo_variantName
   commentId: F:Global.Player.ComboInfo.variantName
   fullName: Player.ComboInfo.variantName
   nameWithType: Player.ComboInfo.variantName
+- uid: Global.Player.CompactEquippedUnit
+  name: CompactEquippedUnit()
+  href: api/Global.Player.html#Global_Player_CompactEquippedUnit
+  commentId: M:Global.Player.CompactEquippedUnit
+  fullName: Player.CompactEquippedUnit()
+  nameWithType: Player.CompactEquippedUnit()
+- uid: Global.Player.CompactEquippedUnit*
+  name: CompactEquippedUnit
+  href: api/Global.Player.html#Global_Player_CompactEquippedUnit_
+  commentId: Overload:Global.Player.CompactEquippedUnit
+  isSpec: "True"
+  fullName: Player.CompactEquippedUnit
+  nameWithType: Player.CompactEquippedUnit
 - uid: Global.Player.CompletedWave
   name: CompletedWave
   href: api/Global.Player.html#Global_Player_CompletedWave
@@ -2483,6 +2621,32 @@ references:
   isSpec: "True"
   fullName: Player.MaxEquippedCount
   nameWithType: Player.MaxEquippedCount
+- uid: Global.Player.RemoveLeftCombo(Player.ComboInfo)
+  name: RemoveLeftCombo(Player.ComboInfo)
+  href: api/Global.Player.html#Global_Player_RemoveLeftCombo_Player_ComboInfo_
+  commentId: M:Global.Player.RemoveLeftCombo(Player.ComboInfo)
+  fullName: Player.RemoveLeftCombo(Player.ComboInfo)
+  nameWithType: Player.RemoveLeftCombo(Player.ComboInfo)
+- uid: Global.Player.RemoveLeftCombo*
+  name: RemoveLeftCombo
+  href: api/Global.Player.html#Global_Player_RemoveLeftCombo_
+  commentId: Overload:Global.Player.RemoveLeftCombo
+  isSpec: "True"
+  fullName: Player.RemoveLeftCombo
+  nameWithType: Player.RemoveLeftCombo
+- uid: Global.Player.RemoveRightCombo(Player.ComboInfo)
+  name: RemoveRightCombo(Player.ComboInfo)
+  href: api/Global.Player.html#Global_Player_RemoveRightCombo_Player_ComboInfo_
+  commentId: M:Global.Player.RemoveRightCombo(Player.ComboInfo)
+  fullName: Player.RemoveRightCombo(Player.ComboInfo)
+  nameWithType: Player.RemoveRightCombo(Player.ComboInfo)
+- uid: Global.Player.RemoveRightCombo*
+  name: RemoveRightCombo
+  href: api/Global.Player.html#Global_Player_RemoveRightCombo_
+  commentId: Overload:Global.Player.RemoveRightCombo
+  isSpec: "True"
+  fullName: Player.RemoveRightCombo
+  nameWithType: Player.RemoveRightCombo
 - uid: Global.Player.RightComboInfoList
   name: RightComboInfoList
   href: api/Global.Player.html#Global_Player_RightComboInfoList
@@ -2496,12 +2660,6 @@ references:
   isSpec: "True"
   fullName: Player.RightComboInfoList
   nameWithType: Player.RightComboInfoList
-- uid: Global.Player.UnequipUnit(System.Int32)
-  name: UnequipUnit(Int32)
-  href: api/Global.Player.html#Global_Player_UnequipUnit_System_Int32_
-  commentId: M:Global.Player.UnequipUnit(System.Int32)
-  fullName: Player.UnequipUnit(System.Int32)
-  nameWithType: Player.UnequipUnit(Int32)
 - uid: Global.Player.UnequipUnit(Unit)
   name: UnequipUnit(Unit)
   href: api/Global.Player.html#Global_Player_UnequipUnit_Unit_
@@ -2515,6 +2673,19 @@ references:
   isSpec: "True"
   fullName: Player.UnequipUnit
   nameWithType: Player.UnequipUnit
+- uid: Global.Player.UnequipUnitAt(System.Int32)
+  name: UnequipUnitAt(Int32)
+  href: api/Global.Player.html#Global_Player_UnequipUnitAt_System_Int32_
+  commentId: M:Global.Player.UnequipUnitAt(System.Int32)
+  fullName: Player.UnequipUnitAt(System.Int32)
+  nameWithType: Player.UnequipUnitAt(Int32)
+- uid: Global.Player.UnequipUnitAt*
+  name: UnequipUnitAt
+  href: api/Global.Player.html#Global_Player_UnequipUnitAt_
+  commentId: Overload:Global.Player.UnequipUnitAt
+  isSpec: "True"
+  fullName: Player.UnequipUnitAt
+  nameWithType: Player.UnequipUnitAt
 - uid: Global.PlayerController
   name: PlayerController
   href: api/Global.PlayerController.html
@@ -2553,6 +2724,32 @@ references:
   commentId: F:Global.PlayerController.input
   fullName: PlayerController.input
   nameWithType: PlayerController.input
+- uid: Global.PlayerController.IsRightAttack
+  name: IsRightAttack
+  href: api/Global.PlayerController.html#Global_PlayerController_IsRightAttack
+  commentId: P:Global.PlayerController.IsRightAttack
+  fullName: PlayerController.IsRightAttack
+  nameWithType: PlayerController.IsRightAttack
+- uid: Global.PlayerController.IsRightAttack*
+  name: IsRightAttack
+  href: api/Global.PlayerController.html#Global_PlayerController_IsRightAttack_
+  commentId: Overload:Global.PlayerController.IsRightAttack
+  isSpec: "True"
+  fullName: PlayerController.IsRightAttack
+  nameWithType: PlayerController.IsRightAttack
+- uid: Global.PlayerController.LeftAttackCombo
+  name: LeftAttackCombo
+  href: api/Global.PlayerController.html#Global_PlayerController_LeftAttackCombo
+  commentId: P:Global.PlayerController.LeftAttackCombo
+  fullName: PlayerController.LeftAttackCombo
+  nameWithType: PlayerController.LeftAttackCombo
+- uid: Global.PlayerController.LeftAttackCombo*
+  name: LeftAttackCombo
+  href: api/Global.PlayerController.html#Global_PlayerController_LeftAttackCombo_
+  commentId: Overload:Global.PlayerController.LeftAttackCombo
+  isSpec: "True"
+  fullName: PlayerController.LeftAttackCombo
+  nameWithType: PlayerController.LeftAttackCombo
 - uid: Global.PlayerController.OnLeftAttack(InputAction.CallbackContext)
   name: OnLeftAttack(InputAction.CallbackContext)
   href: api/Global.PlayerController.html#Global_PlayerController_OnLeftAttack_InputAction_CallbackContext_
@@ -2670,6 +2867,19 @@ references:
   isSpec: "True"
   fullName: PlayerController.OnRightHeavyAttack
   nameWithType: PlayerController.OnRightHeavyAttack
+- uid: Global.PlayerController.RightAttackCombo
+  name: RightAttackCombo
+  href: api/Global.PlayerController.html#Global_PlayerController_RightAttackCombo
+  commentId: P:Global.PlayerController.RightAttackCombo
+  fullName: PlayerController.RightAttackCombo
+  nameWithType: PlayerController.RightAttackCombo
+- uid: Global.PlayerController.RightAttackCombo*
+  name: RightAttackCombo
+  href: api/Global.PlayerController.html#Global_PlayerController_RightAttackCombo_
+  commentId: Overload:Global.PlayerController.RightAttackCombo
+  isSpec: "True"
+  fullName: PlayerController.RightAttackCombo
+  nameWithType: PlayerController.RightAttackCombo
 - uid: Global.PlayerController.Update
   name: Update()
   href: api/Global.PlayerController.html#Global_PlayerController_Update
@@ -2972,15 +3182,15 @@ references:
   isSpec: "True"
   fullName: PopWindow.RemoveListener
   nameWithType: PopWindow.RemoveListener
-- uid: Global.PopWindow.Show(System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})
-  name: Show(List<String>, List<String>)
-  href: api/Global.PopWindow.html#Global_PopWindow_Show_System_Collections_Generic_List_System_String__System_Collections_Generic_List_System_String__
-  commentId: M:Global.PopWindow.Show(System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})
-  name.vb: Show(List(Of String), List(Of String))
-  fullName: PopWindow.Show(System.Collections.Generic.List<System.String>, System.Collections.Generic.List<System.String>)
-  fullName.vb: PopWindow.Show(System.Collections.Generic.List(Of System.String), System.Collections.Generic.List(Of System.String))
-  nameWithType: PopWindow.Show(List<String>, List<String>)
-  nameWithType.vb: PopWindow.Show(List(Of String), List(Of String))
+- uid: Global.PopWindow.Show(System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String},UnityAction{System.String})
+  name: Show(List<String>, List<String>, UnityAction<String>)
+  href: api/Global.PopWindow.html#Global_PopWindow_Show_System_Collections_Generic_List_System_String__System_Collections_Generic_List_System_String__UnityAction_System_String__
+  commentId: M:Global.PopWindow.Show(System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String},UnityAction{System.String})
+  name.vb: Show(List(Of String), List(Of String), UnityAction(Of String))
+  fullName: PopWindow.Show(System.Collections.Generic.List<System.String>, System.Collections.Generic.List<System.String>, UnityAction<System.String>)
+  fullName.vb: PopWindow.Show(System.Collections.Generic.List(Of System.String), System.Collections.Generic.List(Of System.String), UnityAction(Of System.String))
+  nameWithType: PopWindow.Show(List<String>, List<String>, UnityAction<String>)
+  nameWithType.vb: PopWindow.Show(List(Of String), List(Of String), UnityAction(Of String))
 - uid: Global.PopWindow.Show*
   name: Show
   href: api/Global.PopWindow.html#Global_PopWindow_Show_
@@ -3631,12 +3841,6 @@ references:
   commentId: F:Global.SkillComboView.content3
   fullName: SkillComboView.content3
   nameWithType: SkillComboView.content3
-- uid: Global.SkillComboView.itemPrefab
-  name: itemPrefab
-  href: api/Global.SkillComboView.html#Global_SkillComboView_itemPrefab
-  commentId: F:Global.SkillComboView.itemPrefab
-  fullName: SkillComboView.itemPrefab
-  nameWithType: SkillComboView.itemPrefab
 - uid: Global.SkillComboView.OnClose
   name: OnClose()
   href: api/Global.SkillComboView.html#Global_SkillComboView_OnClose
@@ -3676,12 +3880,24 @@ references:
   isSpec: "True"
   fullName: SkillComboView.RealRefresh
   nameWithType: SkillComboView.RealRefresh
+- uid: Global.SkillComboView.skillComboItemPrefab
+  name: skillComboItemPrefab
+  href: api/Global.SkillComboView.html#Global_SkillComboView_skillComboItemPrefab
+  commentId: F:Global.SkillComboView.skillComboItemPrefab
+  fullName: SkillComboView.skillComboItemPrefab
+  nameWithType: SkillComboView.skillComboItemPrefab
 - uid: Global.SkillComboView.titleText
   name: titleText
   href: api/Global.SkillComboView.html#Global_SkillComboView_titleText
   commentId: F:Global.SkillComboView.titleText
   fullName: SkillComboView.titleText
   nameWithType: SkillComboView.titleText
+- uid: Global.SkillComboView.unitSkillItemPrefab
+  name: unitSkillItemPrefab
+  href: api/Global.SkillComboView.html#Global_SkillComboView_unitSkillItemPrefab
+  commentId: F:Global.SkillComboView.unitSkillItemPrefab
+  fullName: SkillComboView.unitSkillItemPrefab
+  nameWithType: SkillComboView.unitSkillItemPrefab
 - uid: Global.SkillController
   name: SkillController
   href: api/Global.SkillController.html
@@ -5646,6 +5862,62 @@ references:
   commentId: F:Global.UnitsConfigItem.type
   fullName: UnitsConfigItem.type
   nameWithType: UnitsConfigItem.type
+- uid: Global.UnitSkillItem
+  name: UnitSkillItem
+  href: api/Global.UnitSkillItem.html
+  commentId: T:Global.UnitSkillItem
+  fullName: UnitSkillItem
+  nameWithType: UnitSkillItem
+- uid: Global.UnitSkillItem.content
+  name: content
+  href: api/Global.UnitSkillItem.html#Global_UnitSkillItem_content
+  commentId: F:Global.UnitSkillItem.content
+  fullName: UnitSkillItem.content
+  nameWithType: UnitSkillItem.content
+- uid: Global.UnitSkillItem.exampleItem
+  name: exampleItem
+  href: api/Global.UnitSkillItem.html#Global_UnitSkillItem_exampleItem
+  commentId: F:Global.UnitSkillItem.exampleItem
+  fullName: UnitSkillItem.exampleItem
+  nameWithType: UnitSkillItem.exampleItem
+- uid: Global.UnitSkillItem.OnSkillComboSelect
+  name: OnSkillComboSelect
+  href: api/Global.UnitSkillItem.html#Global_UnitSkillItem_OnSkillComboSelect
+  commentId: E:Global.UnitSkillItem.OnSkillComboSelect
+  fullName: UnitSkillItem.OnSkillComboSelect
+  nameWithType: UnitSkillItem.OnSkillComboSelect
+- uid: Global.UnitSkillItem.Refresh
+  name: Refresh()
+  href: api/Global.UnitSkillItem.html#Global_UnitSkillItem_Refresh
+  commentId: M:Global.UnitSkillItem.Refresh
+  fullName: UnitSkillItem.Refresh()
+  nameWithType: UnitSkillItem.Refresh()
+- uid: Global.UnitSkillItem.Refresh*
+  name: Refresh
+  href: api/Global.UnitSkillItem.html#Global_UnitSkillItem_Refresh_
+  commentId: Overload:Global.UnitSkillItem.Refresh
+  isSpec: "True"
+  fullName: UnitSkillItem.Refresh
+  nameWithType: UnitSkillItem.Refresh
+- uid: Global.UnitSkillItem.TargetUnit
+  name: TargetUnit
+  href: api/Global.UnitSkillItem.html#Global_UnitSkillItem_TargetUnit
+  commentId: P:Global.UnitSkillItem.TargetUnit
+  fullName: UnitSkillItem.TargetUnit
+  nameWithType: UnitSkillItem.TargetUnit
+- uid: Global.UnitSkillItem.TargetUnit*
+  name: TargetUnit
+  href: api/Global.UnitSkillItem.html#Global_UnitSkillItem_TargetUnit_
+  commentId: Overload:Global.UnitSkillItem.TargetUnit
+  isSpec: "True"
+  fullName: UnitSkillItem.TargetUnit
+  nameWithType: UnitSkillItem.TargetUnit
+- uid: Global.UnitSkillItem.titleText
+  name: titleText
+  href: api/Global.UnitSkillItem.html#Global_UnitSkillItem_titleText
+  commentId: F:Global.UnitSkillItem.titleText
+  fullName: UnitSkillItem.titleText
+  nameWithType: UnitSkillItem.titleText
 - uid: Global.UnitType
   name: UnitType
   href: api/Global.UnitType.html

@@ -115,6 +115,9 @@
       <a class="xref" href="Global.Unit.html#Global_Unit_OnDead">Unit.OnDead</a>
     </div>
     <div>
+      <a class="xref" href="Global.Unit.html#Global_Unit_AddListener">Unit.AddListener()</a>
+    </div>
+    <div>
       <a class="xref" href="Global.Unit.html#Global_Unit_IsPlayer">Unit.IsPlayer</a>
     </div>
     <div>
@@ -395,7 +398,7 @@ public class Player : Unit</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;Player.ComboInfo&gt; LeftComboInfoList { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ReadOnlyCollection&lt;Player.ComboInfo&gt; LeftComboInfoList { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -407,7 +410,7 @@ public class Player : Unit</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ObservableCollection</span>&lt;<a class="xref" href="Global.Player.ComboInfo.html">Player.ComboInfo</a>&gt;</td>
+        <td><span class="xref">ReadOnlyCollection</span>&lt;<a class="xref" href="Global.Player.ComboInfo.html">Player.ComboInfo</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -473,7 +476,7 @@ public class Player : Unit</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;Player.ComboInfo&gt; RightComboInfoList { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ReadOnlyCollection&lt;Player.ComboInfo&gt; RightComboInfoList { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -485,7 +488,7 @@ public class Player : Unit</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ObservableCollection</span>&lt;<a class="xref" href="Global.Player.ComboInfo.html">Player.ComboInfo</a>&gt;</td>
+        <td><span class="xref">ReadOnlyCollection</span>&lt;<a class="xref" href="Global.Player.ComboInfo.html">Player.ComboInfo</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -494,16 +497,92 @@ public class Player : Unit</code></pre>
   </h3>
   
   
-  <a id="Global_Player_AddListener_" data-uid="Global.Player.AddListener*"></a>
-  <h4 id="Global_Player_AddListener" data-uid="Global.Player.AddListener">AddListener()</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Global_Player_AddLeftCombo_" data-uid="Global.Player.AddLeftCombo*"></a>
+  <h4 id="Global_Player_AddLeftCombo_Player_ComboInfo_" data-uid="Global.Player.AddLeftCombo(Player.ComboInfo)">AddLeftCombo(Player.ComboInfo)</h4>
+  <div class="markdown level1 summary"><p>添加左键连段。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void AddListener()</code></pre>
+    <pre><code class="lang-csharp hljs">public bool AddLeftCombo(Player.ComboInfo comboInfo)</code></pre>
   </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Global.Unit.html#Global_Unit_AddListener">Unit.AddListener()</a></div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.Player.ComboInfo.html">Player.ComboInfo</a></td>
+        <td><span class="parametername">comboInfo</span></td>
+        <td><p>连段信息</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_Player_AddRightCombo_" data-uid="Global.Player.AddRightCombo*"></a>
+  <h4 id="Global_Player_AddRightCombo_Player_ComboInfo_" data-uid="Global.Player.AddRightCombo(Player.ComboInfo)">AddRightCombo(Player.ComboInfo)</h4>
+  <div class="markdown level1 summary"><p>添加右键连段。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AddRightCombo(Player.ComboInfo comboInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.Player.ComboInfo.html">Player.ComboInfo</a></td>
+        <td><span class="parametername">comboInfo</span></td>
+        <td><p>连段信息</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="Global_Player_AfterLoad_" data-uid="Global.Player.AfterLoad*"></a>
@@ -528,6 +607,17 @@ public class Player : Unit</code></pre>
   </div>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="Global.Unit.html#Global_Unit_BeforeSave">Unit.BeforeSave()</a></div>
+  
+  
+  <a id="Global_Player_CompactEquippedUnit_" data-uid="Global.Player.CompactEquippedUnit*"></a>
+  <h4 id="Global_Player_CompactEquippedUnit" data-uid="Global.Player.CompactEquippedUnit">CompactEquippedUnit()</h4>
+  <div class="markdown level1 summary"><p>整理装备中的单位。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CompactEquippedUnit()</code></pre>
+  </div>
   
   
   <a id="Global_Player_EquipUnit_" data-uid="Global.Player.EquipUnit*"></a>
@@ -678,14 +768,14 @@ public class Player : Unit</code></pre>
   </table>
   
   
-  <a id="Global_Player_UnequipUnit_" data-uid="Global.Player.UnequipUnit*"></a>
-  <h4 id="Global_Player_UnequipUnit_System_Int32_" data-uid="Global.Player.UnequipUnit(System.Int32)">UnequipUnit(Int32)</h4>
-  <div class="markdown level1 summary"><p>卸载单位。</p>
+  <a id="Global_Player_RemoveLeftCombo_" data-uid="Global.Player.RemoveLeftCombo*"></a>
+  <h4 id="Global_Player_RemoveLeftCombo_Player_ComboInfo_" data-uid="Global.Player.RemoveLeftCombo(Player.ComboInfo)">RemoveLeftCombo(Player.ComboInfo)</h4>
+  <div class="markdown level1 summary"><p>移除左键连段。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void UnequipUnit(int index)</code></pre>
+    <pre><code class="lang-csharp hljs">public void RemoveLeftCombo(Player.ComboInfo comboInfo)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -698,9 +788,38 @@ public class Player : Unit</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">index</span></td>
-        <td><p>装备栏位</p>
+        <td><a class="xref" href="Global.Player.ComboInfo.html">Player.ComboInfo</a></td>
+        <td><span class="parametername">comboInfo</span></td>
+        <td><p>连段信息</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_Player_RemoveRightCombo_" data-uid="Global.Player.RemoveRightCombo*"></a>
+  <h4 id="Global_Player_RemoveRightCombo_Player_ComboInfo_" data-uid="Global.Player.RemoveRightCombo(Player.ComboInfo)">RemoveRightCombo(Player.ComboInfo)</h4>
+  <div class="markdown level1 summary"><p>移除右键连段。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RemoveRightCombo(Player.ComboInfo comboInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.Player.ComboInfo.html">Player.ComboInfo</a></td>
+        <td><span class="parametername">comboInfo</span></td>
+        <td><p>连段信息</p>
 </td>
       </tr>
     </tbody>
@@ -730,6 +849,35 @@ public class Player : Unit</code></pre>
         <td><a class="xref" href="Global.Unit.html">Unit</a></td>
         <td><span class="parametername">unit</span></td>
         <td><p>单位</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_Player_UnequipUnitAt_" data-uid="Global.Player.UnequipUnitAt*"></a>
+  <h4 id="Global_Player_UnequipUnitAt_System_Int32_" data-uid="Global.Player.UnequipUnitAt(System.Int32)">UnequipUnitAt(Int32)</h4>
+  <div class="markdown level1 summary"><p>卸载单位。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void UnequipUnitAt(int index)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">index</span></td>
+        <td><p>装备栏位</p>
 </td>
       </tr>
     </tbody>
