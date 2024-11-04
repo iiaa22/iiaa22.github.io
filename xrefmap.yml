@@ -1195,6 +1195,12 @@ references:
   commentId: T:Global.GameSkillComboItem
   fullName: GameSkillComboItem
   nameWithType: GameSkillComboItem
+- uid: Global.GameSkillComboItem.attackCombo
+  name: attackCombo
+  href: api/Global.GameSkillComboItem.html#Global_GameSkillComboItem_attackCombo
+  commentId: F:Global.GameSkillComboItem.attackCombo
+  fullName: GameSkillComboItem.attackCombo
+  nameWithType: GameSkillComboItem.attackCombo
 - uid: Global.GameSkillComboItem.background
   name: background
   href: api/Global.GameSkillComboItem.html#Global_GameSkillComboItem_background
@@ -1207,24 +1213,12 @@ references:
   commentId: F:Global.GameSkillComboItem.comboText
   fullName: GameSkillComboItem.comboText
   nameWithType: GameSkillComboItem.comboText
-- uid: Global.GameSkillComboItem.commonSprite
-  name: commonSprite
-  href: api/Global.GameSkillComboItem.html#Global_GameSkillComboItem_commonSprite
-  commentId: F:Global.GameSkillComboItem.commonSprite
-  fullName: GameSkillComboItem.commonSprite
-  nameWithType: GameSkillComboItem.commonSprite
-- uid: Global.GameSkillComboItem.highlightSprite
-  name: highlightSprite
-  href: api/Global.GameSkillComboItem.html#Global_GameSkillComboItem_highlightSprite
-  commentId: F:Global.GameSkillComboItem.highlightSprite
-  fullName: GameSkillComboItem.highlightSprite
-  nameWithType: GameSkillComboItem.highlightSprite
-- uid: Global.GameSkillComboItem.itemSpacing
-  name: itemSpacing
-  href: api/Global.GameSkillComboItem.html#Global_GameSkillComboItem_itemSpacing
-  commentId: F:Global.GameSkillComboItem.itemSpacing
-  fullName: GameSkillComboItem.itemSpacing
-  nameWithType: GameSkillComboItem.itemSpacing
+- uid: Global.GameSkillComboItem.rectTransform
+  name: rectTransform
+  href: api/Global.GameSkillComboItem.html#Global_GameSkillComboItem_rectTransform
+  commentId: F:Global.GameSkillComboItem.rectTransform
+  fullName: GameSkillComboItem.rectTransform
+  nameWithType: GameSkillComboItem.rectTransform
 - uid: Global.GameSkillComboItem.Refresh
   name: Refresh()
   href: api/Global.GameSkillComboItem.html#Global_GameSkillComboItem_Refresh
@@ -1275,6 +1269,24 @@ references:
   commentId: F:Global.GameView.bottom
   fullName: GameView.bottom
   nameWithType: GameView.bottom
+- uid: Global.GameView.comboCommonSprite
+  name: comboCommonSprite
+  href: api/Global.GameView.html#Global_GameView_comboCommonSprite
+  commentId: F:Global.GameView.comboCommonSprite
+  fullName: GameView.comboCommonSprite
+  nameWithType: GameView.comboCommonSprite
+- uid: Global.GameView.comboHighlightSprite
+  name: comboHighlightSprite
+  href: api/Global.GameView.html#Global_GameView_comboHighlightSprite
+  commentId: F:Global.GameView.comboHighlightSprite
+  fullName: GameView.comboHighlightSprite
+  nameWithType: GameView.comboHighlightSprite
+- uid: Global.GameView.comboItemSpacing
+  name: comboItemSpacing
+  href: api/Global.GameView.html#Global_GameView_comboItemSpacing
+  commentId: F:Global.GameView.comboItemSpacing
+  fullName: GameView.comboItemSpacing
+  nameWithType: GameView.comboItemSpacing
 - uid: Global.GameView.defText
   name: defText
   href: api/Global.GameView.html#Global_GameView_defText
@@ -2763,19 +2775,6 @@ references:
   isSpec: "True"
   fullName: PlayerController.OnLeftAttack
   nameWithType: PlayerController.OnLeftAttack
-- uid: Global.PlayerController.OnLeftHeavyAttack(InputAction.CallbackContext)
-  name: OnLeftHeavyAttack(InputAction.CallbackContext)
-  href: api/Global.PlayerController.html#Global_PlayerController_OnLeftHeavyAttack_InputAction_CallbackContext_
-  commentId: M:Global.PlayerController.OnLeftHeavyAttack(InputAction.CallbackContext)
-  fullName: PlayerController.OnLeftHeavyAttack(InputAction.CallbackContext)
-  nameWithType: PlayerController.OnLeftHeavyAttack(InputAction.CallbackContext)
-- uid: Global.PlayerController.OnLeftHeavyAttack*
-  name: OnLeftHeavyAttack
-  href: api/Global.PlayerController.html#Global_PlayerController_OnLeftHeavyAttack_
-  commentId: Overload:Global.PlayerController.OnLeftHeavyAttack
-  isSpec: "True"
-  fullName: PlayerController.OnLeftHeavyAttack
-  nameWithType: PlayerController.OnLeftHeavyAttack
 - uid: Global.PlayerController.OnMove(InputAction.CallbackContext)
   name: OnMove(InputAction.CallbackContext)
   href: api/Global.PlayerController.html#Global_PlayerController_OnMove_InputAction_CallbackContext_
@@ -2854,19 +2853,6 @@ references:
   isSpec: "True"
   fullName: PlayerController.OnRightAttack
   nameWithType: PlayerController.OnRightAttack
-- uid: Global.PlayerController.OnRightHeavyAttack(InputAction.CallbackContext)
-  name: OnRightHeavyAttack(InputAction.CallbackContext)
-  href: api/Global.PlayerController.html#Global_PlayerController_OnRightHeavyAttack_InputAction_CallbackContext_
-  commentId: M:Global.PlayerController.OnRightHeavyAttack(InputAction.CallbackContext)
-  fullName: PlayerController.OnRightHeavyAttack(InputAction.CallbackContext)
-  nameWithType: PlayerController.OnRightHeavyAttack(InputAction.CallbackContext)
-- uid: Global.PlayerController.OnRightHeavyAttack*
-  name: OnRightHeavyAttack
-  href: api/Global.PlayerController.html#Global_PlayerController_OnRightHeavyAttack_
-  commentId: Overload:Global.PlayerController.OnRightHeavyAttack
-  isSpec: "True"
-  fullName: PlayerController.OnRightHeavyAttack
-  nameWithType: PlayerController.OnRightHeavyAttack
 - uid: Global.PlayerController.RightAttackCombo
   name: RightAttackCombo
   href: api/Global.PlayerController.html#Global_PlayerController_RightAttackCombo
