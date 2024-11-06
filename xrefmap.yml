@@ -271,19 +271,32 @@ references:
   isSpec: "True"
   fullName: BaseView.Close
   nameWithType: BaseView.Close
-- uid: Global.BaseView.Current
-  name: Current
-  href: api/Global.BaseView.html#Global_BaseView_Current
-  commentId: P:Global.BaseView.Current
-  fullName: BaseView.Current
-  nameWithType: BaseView.Current
-- uid: Global.BaseView.Current*
-  name: Current
-  href: api/Global.BaseView.html#Global_BaseView_Current_
-  commentId: Overload:Global.BaseView.Current
+- uid: Global.BaseView.FloatingViews
+  name: FloatingViews
+  href: api/Global.BaseView.html#Global_BaseView_FloatingViews
+  commentId: P:Global.BaseView.FloatingViews
+  fullName: BaseView.FloatingViews
+  nameWithType: BaseView.FloatingViews
+- uid: Global.BaseView.FloatingViews*
+  name: FloatingViews
+  href: api/Global.BaseView.html#Global_BaseView_FloatingViews_
+  commentId: Overload:Global.BaseView.FloatingViews
   isSpec: "True"
-  fullName: BaseView.Current
-  nameWithType: BaseView.Current
+  fullName: BaseView.FloatingViews
+  nameWithType: BaseView.FloatingViews
+- uid: Global.BaseView.GetViewInLayer(System.Int32)
+  name: GetViewInLayer(Int32)
+  href: api/Global.BaseView.html#Global_BaseView_GetViewInLayer_System_Int32_
+  commentId: M:Global.BaseView.GetViewInLayer(System.Int32)
+  fullName: BaseView.GetViewInLayer(System.Int32)
+  nameWithType: BaseView.GetViewInLayer(Int32)
+- uid: Global.BaseView.GetViewInLayer*
+  name: GetViewInLayer
+  href: api/Global.BaseView.html#Global_BaseView_GetViewInLayer_
+  commentId: Overload:Global.BaseView.GetViewInLayer
+  isSpec: "True"
+  fullName: BaseView.GetViewInLayer
+  nameWithType: BaseView.GetViewInLayer
 - uid: Global.BaseView.IsAnyViewOpen
   name: IsAnyViewOpen
   href: api/Global.BaseView.html#Global_BaseView_IsAnyViewOpen
@@ -297,19 +310,6 @@ references:
   isSpec: "True"
   fullName: BaseView.IsAnyViewOpen
   nameWithType: BaseView.IsAnyViewOpen
-- uid: Global.BaseView.IsAnyViewOpenInLayer(System.Int32)
-  name: IsAnyViewOpenInLayer(Int32)
-  href: api/Global.BaseView.html#Global_BaseView_IsAnyViewOpenInLayer_System_Int32_
-  commentId: M:Global.BaseView.IsAnyViewOpenInLayer(System.Int32)
-  fullName: BaseView.IsAnyViewOpenInLayer(System.Int32)
-  nameWithType: BaseView.IsAnyViewOpenInLayer(Int32)
-- uid: Global.BaseView.IsAnyViewOpenInLayer*
-  name: IsAnyViewOpenInLayer
-  href: api/Global.BaseView.html#Global_BaseView_IsAnyViewOpenInLayer_
-  commentId: Overload:Global.BaseView.IsAnyViewOpenInLayer
-  isSpec: "True"
-  fullName: BaseView.IsAnyViewOpenInLayer
-  nameWithType: BaseView.IsAnyViewOpenInLayer
 - uid: Global.BaseView.IsOpen
   name: IsOpen
   href: api/Global.BaseView.html#Global_BaseView_IsOpen
@@ -335,6 +335,12 @@ references:
   commentId: E:Global.BaseView.OnButtonClick
   fullName: BaseView.OnButtonClick
   nameWithType: BaseView.OnButtonClick
+- uid: Global.BaseView.onClose
+  name: onClose
+  href: api/Global.BaseView.html#Global_BaseView_onClose
+  commentId: F:Global.BaseView.onClose
+  fullName: BaseView.onClose
+  nameWithType: BaseView.onClose
 - uid: Global.BaseView.OnClose
   name: OnClose()
   href: api/Global.BaseView.html#Global_BaseView_OnClose
@@ -387,6 +393,12 @@ references:
   isSpec: "True"
   fullName: BaseView.OnEnable
   nameWithType: BaseView.OnEnable
+- uid: Global.BaseView.onOpen
+  name: onOpen
+  href: api/Global.BaseView.html#Global_BaseView_onOpen
+  commentId: F:Global.BaseView.onOpen
+  fullName: BaseView.onOpen
+  nameWithType: BaseView.onOpen
 - uid: Global.BaseView.OnOpen
   name: OnOpen()
   href: api/Global.BaseView.html#Global_BaseView_OnOpen
@@ -400,6 +412,12 @@ references:
   isSpec: "True"
   fullName: BaseView.OnOpen
   nameWithType: BaseView.OnOpen
+- uid: Global.BaseView.onRefresh
+  name: onRefresh
+  href: api/Global.BaseView.html#Global_BaseView_onRefresh
+  commentId: F:Global.BaseView.onRefresh
+  fullName: BaseView.onRefresh
+  nameWithType: BaseView.onRefresh
 - uid: Global.BaseView.OnViewClose
   name: OnViewClose
   href: api/Global.BaseView.html#Global_BaseView_OnViewClose
@@ -572,6 +590,12 @@ references:
   isSpec: "True"
   fullName: BaseWindow.IsOpen
   nameWithType: BaseWindow.IsOpen
+- uid: Global.BaseWindow.onClose
+  name: onClose
+  href: api/Global.BaseWindow.html#Global_BaseWindow_onClose
+  commentId: F:Global.BaseWindow.onClose
+  fullName: BaseWindow.onClose
+  nameWithType: BaseWindow.onClose
 - uid: Global.BaseWindow.OnClose
   name: OnClose()
   href: api/Global.BaseWindow.html#Global_BaseWindow_OnClose
@@ -611,6 +635,12 @@ references:
   isSpec: "True"
   fullName: BaseWindow.OnEnable
   nameWithType: BaseWindow.OnEnable
+- uid: Global.BaseWindow.onOpen
+  name: onOpen
+  href: api/Global.BaseWindow.html#Global_BaseWindow_onOpen
+  commentId: F:Global.BaseWindow.onOpen
+  fullName: BaseWindow.onOpen
+  nameWithType: BaseWindow.onOpen
 - uid: Global.BaseWindow.OnOpen
   name: OnOpen()
   href: api/Global.BaseWindow.html#Global_BaseWindow_OnOpen
@@ -624,6 +654,12 @@ references:
   isSpec: "True"
   fullName: BaseWindow.OnOpen
   nameWithType: BaseWindow.OnOpen
+- uid: Global.BaseWindow.onRefresh
+  name: onRefresh
+  href: api/Global.BaseWindow.html#Global_BaseWindow_onRefresh
+  commentId: F:Global.BaseWindow.onRefresh
+  fullName: BaseWindow.onRefresh
+  nameWithType: BaseWindow.onRefresh
 - uid: Global.BaseWindow.OnWindowClose
   name: OnWindowClose
   href: api/Global.BaseWindow.html#Global_BaseWindow_OnWindowClose
@@ -1028,6 +1064,12 @@ references:
   commentId: T:Global.GameManager
   fullName: GameManager
   nameWithType: GameManager
+- uid: Global.GameManager.DOUBLE_CLICK_TIME_THRESHOLD
+  name: DOUBLE_CLICK_TIME_THRESHOLD
+  href: api/Global.GameManager.html#Global_GameManager_DOUBLE_CLICK_TIME_THRESHOLD
+  commentId: F:Global.GameManager.DOUBLE_CLICK_TIME_THRESHOLD
+  fullName: GameManager.DOUBLE_CLICK_TIME_THRESHOLD
+  nameWithType: GameManager.DOUBLE_CLICK_TIME_THRESHOLD
 - uid: Global.GameManager.gameOverView
   name: gameOverView
   href: api/Global.GameManager.html#Global_GameManager_gameOverView
@@ -1106,6 +1148,19 @@ references:
   commentId: T:Global.GameOverView
   fullName: GameOverView
   nameWithType: GameOverView
+- uid: Global.GameOverView.CheckDoubleClick
+  name: CheckDoubleClick()
+  href: api/Global.GameOverView.html#Global_GameOverView_CheckDoubleClick
+  commentId: M:Global.GameOverView.CheckDoubleClick
+  fullName: GameOverView.CheckDoubleClick()
+  nameWithType: GameOverView.CheckDoubleClick()
+- uid: Global.GameOverView.CheckDoubleClick*
+  name: CheckDoubleClick
+  href: api/Global.GameOverView.html#Global_GameOverView_CheckDoubleClick_
+  commentId: Overload:Global.GameOverView.CheckDoubleClick
+  isSpec: "True"
+  fullName: GameOverView.CheckDoubleClick
+  nameWithType: GameOverView.CheckDoubleClick
 - uid: Global.GameOverView.OnClose
   name: OnClose()
   href: api/Global.GameOverView.html#Global_GameOverView_OnClose
@@ -1132,6 +1187,12 @@ references:
   isSpec: "True"
   fullName: GameOverView.OnOpen
   nameWithType: GameOverView.OnOpen
+- uid: Global.GameOverView.prompt
+  name: prompt
+  href: api/Global.GameOverView.html#Global_GameOverView_prompt
+  commentId: F:Global.GameOverView.prompt
+  fullName: GameOverView.prompt
+  nameWithType: GameOverView.prompt
 - uid: Global.GameOverView.RealRefresh
   name: RealRefresh()
   href: api/Global.GameOverView.html#Global_GameOverView_RealRefresh
@@ -1807,6 +1868,19 @@ references:
   commentId: T:Global.LevelUpView
   fullName: LevelUpView
   nameWithType: LevelUpView
+- uid: Global.LevelUpView.CheckDoubleClick
+  name: CheckDoubleClick()
+  href: api/Global.LevelUpView.html#Global_LevelUpView_CheckDoubleClick
+  commentId: M:Global.LevelUpView.CheckDoubleClick
+  fullName: LevelUpView.CheckDoubleClick()
+  nameWithType: LevelUpView.CheckDoubleClick()
+- uid: Global.LevelUpView.CheckDoubleClick*
+  name: CheckDoubleClick
+  href: api/Global.LevelUpView.html#Global_LevelUpView_CheckDoubleClick_
+  commentId: Overload:Global.LevelUpView.CheckDoubleClick
+  isSpec: "True"
+  fullName: LevelUpView.CheckDoubleClick
+  nameWithType: LevelUpView.CheckDoubleClick
 - uid: Global.LevelUpView.checkInfo
   name: checkInfo
   href: api/Global.LevelUpView.html#Global_LevelUpView_checkInfo
@@ -1858,6 +1932,18 @@ references:
   isSpec: "True"
   fullName: LevelUpView.LevelUp
   nameWithType: LevelUpView.LevelUp
+- uid: Global.LevelUpView.levelUpButton
+  name: levelUpButton
+  href: api/Global.LevelUpView.html#Global_LevelUpView_levelUpButton
+  commentId: F:Global.LevelUpView.levelUpButton
+  fullName: LevelUpView.levelUpButton
+  nameWithType: LevelUpView.levelUpButton
+- uid: Global.LevelUpView.levelUpButtonPrompt
+  name: levelUpButtonPrompt
+  href: api/Global.LevelUpView.html#Global_LevelUpView_levelUpButtonPrompt
+  commentId: F:Global.LevelUpView.levelUpButtonPrompt
+  fullName: LevelUpView.levelUpButtonPrompt
+  nameWithType: LevelUpView.levelUpButtonPrompt
 - uid: Global.LevelUpView.levelUpInfo
   name: levelUpInfo
   href: api/Global.LevelUpView.html#Global_LevelUpView_levelUpInfo
@@ -1870,6 +1956,19 @@ references:
   commentId: F:Global.LevelUpView.levelUpText
   fullName: LevelUpView.levelUpText
   nameWithType: LevelUpView.levelUpText
+- uid: Global.LevelUpView.NextLevel
+  name: NextLevel()
+  href: api/Global.LevelUpView.html#Global_LevelUpView_NextLevel
+  commentId: M:Global.LevelUpView.NextLevel
+  fullName: LevelUpView.NextLevel()
+  nameWithType: LevelUpView.NextLevel()
+- uid: Global.LevelUpView.NextLevel*
+  name: NextLevel
+  href: api/Global.LevelUpView.html#Global_LevelUpView_NextLevel_
+  commentId: Overload:Global.LevelUpView.NextLevel
+  isSpec: "True"
+  fullName: LevelUpView.NextLevel
+  nameWithType: LevelUpView.NextLevel
 - uid: Global.LevelUpView.nextText1
   name: nextText1
   href: api/Global.LevelUpView.html#Global_LevelUpView_nextText1
@@ -1908,6 +2007,12 @@ references:
   isSpec: "True"
   fullName: LevelUpView.OnOpen
   nameWithType: LevelUpView.OnOpen
+- uid: Global.LevelUpView.prompt
+  name: prompt
+  href: api/Global.LevelUpView.html#Global_LevelUpView_prompt
+  commentId: F:Global.LevelUpView.prompt
+  fullName: LevelUpView.prompt
+  nameWithType: LevelUpView.prompt
 - uid: Global.LevelUpView.RealRefresh
   name: RealRefresh()
   href: api/Global.LevelUpView.html#Global_LevelUpView_RealRefresh
@@ -1947,6 +2052,19 @@ references:
   isSpec: "True"
   fullName: LevelUpView.TargetUnit
   nameWithType: LevelUpView.TargetUnit
+- uid: Global.LevelUpView.ToTraining
+  name: ToTraining()
+  href: api/Global.LevelUpView.html#Global_LevelUpView_ToTraining
+  commentId: M:Global.LevelUpView.ToTraining
+  fullName: LevelUpView.ToTraining()
+  nameWithType: LevelUpView.ToTraining()
+- uid: Global.LevelUpView.ToTraining*
+  name: ToTraining
+  href: api/Global.LevelUpView.html#Global_LevelUpView_ToTraining_
+  commentId: Overload:Global.LevelUpView.ToTraining
+  isSpec: "True"
+  fullName: LevelUpView.ToTraining
+  nameWithType: LevelUpView.ToTraining
 - uid: Global.LevelUpView.unitText1
   name: unitText1
   href: api/Global.LevelUpView.html#Global_LevelUpView_unitText1
@@ -2885,6 +3003,12 @@ references:
   commentId: T:Global.PlayView
   fullName: PlayView
   nameWithType: PlayView
+- uid: Global.PlayView.isTraining
+  name: isTraining
+  href: api/Global.PlayView.html#Global_PlayView_isTraining
+  commentId: F:Global.PlayView.isTraining
+  fullName: PlayView.isTraining
+  nameWithType: PlayView.isTraining
 - uid: Global.PlayView.OnClose
   name: OnClose()
   href: api/Global.PlayView.html#Global_PlayView_OnClose
@@ -3501,6 +3625,25 @@ references:
   isSpec: "True"
   fullName: SettingsView.ExitGame
   nameWithType: SettingsView.ExitGame
+- uid: Global.SettingsView.exitTrainingButton
+  name: exitTrainingButton
+  href: api/Global.SettingsView.html#Global_SettingsView_exitTrainingButton
+  commentId: F:Global.SettingsView.exitTrainingButton
+  fullName: SettingsView.exitTrainingButton
+  nameWithType: SettingsView.exitTrainingButton
+- uid: Global.SettingsView.ExitTrainingScene
+  name: ExitTrainingScene()
+  href: api/Global.SettingsView.html#Global_SettingsView_ExitTrainingScene
+  commentId: M:Global.SettingsView.ExitTrainingScene
+  fullName: SettingsView.ExitTrainingScene()
+  nameWithType: SettingsView.ExitTrainingScene()
+- uid: Global.SettingsView.ExitTrainingScene*
+  name: ExitTrainingScene
+  href: api/Global.SettingsView.html#Global_SettingsView_ExitTrainingScene_
+  commentId: Overload:Global.SettingsView.ExitTrainingScene
+  isSpec: "True"
+  fullName: SettingsView.ExitTrainingScene
+  nameWithType: SettingsView.ExitTrainingScene
 - uid: Global.SettingsView.OnClose
   name: OnClose()
   href: api/Global.SettingsView.html#Global_SettingsView_OnClose
@@ -3553,6 +3696,12 @@ references:
   isSpec: "True"
   fullName: SettingsView.Restart
   nameWithType: SettingsView.Restart
+- uid: Global.SettingsView.restartButton
+  name: restartButton
+  href: api/Global.SettingsView.html#Global_SettingsView_restartButton
+  commentId: F:Global.SettingsView.restartButton
+  fullName: SettingsView.restartButton
+  nameWithType: SettingsView.restartButton
 - uid: Global.SettingsView.ToTitle
   name: ToTitle()
   href: api/Global.SettingsView.html#Global_SettingsView_ToTitle
@@ -5697,19 +5846,12 @@ references:
   commentId: F:Global.UnitsConfigItem.defaultATK
   fullName: UnitsConfigItem.defaultATK
   nameWithType: UnitsConfigItem.defaultATK
-- uid: Global.UnitsConfigItem.DefaultMaxHP
-  name: DefaultMaxHP
-  href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_DefaultMaxHP
-  commentId: P:Global.UnitsConfigItem.DefaultMaxHP
-  fullName: UnitsConfigItem.DefaultMaxHP
-  nameWithType: UnitsConfigItem.DefaultMaxHP
-- uid: Global.UnitsConfigItem.DefaultMaxHP*
-  name: DefaultMaxHP
-  href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_DefaultMaxHP_
-  commentId: Overload:Global.UnitsConfigItem.DefaultMaxHP
-  isSpec: "True"
-  fullName: UnitsConfigItem.DefaultMaxHP
-  nameWithType: UnitsConfigItem.DefaultMaxHP
+- uid: Global.UnitsConfigItem.defaultMaxHP
+  name: defaultMaxHP
+  href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_defaultMaxHP
+  commentId: F:Global.UnitsConfigItem.defaultMaxHP
+  fullName: UnitsConfigItem.defaultMaxHP
+  nameWithType: UnitsConfigItem.defaultMaxHP
 - uid: Global.UnitsConfigItem.defaultMaxTOU
   name: defaultMaxTOU
   href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_defaultMaxTOU
