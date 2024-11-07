@@ -4116,12 +4116,12 @@ references:
   commentId: F:Global.SkillController.rb
   fullName: SkillController.rb
   nameWithType: SkillController.rb
-- uid: Global.SkillController.source
-  name: source
-  href: api/Global.SkillController.html#Global_SkillController_source
-  commentId: F:Global.SkillController.source
-  fullName: SkillController.source
-  nameWithType: SkillController.source
+- uid: Global.SkillController.unitSource
+  name: unitSource
+  href: api/Global.SkillController.html#Global_SkillController_unitSource
+  commentId: F:Global.SkillController.unitSource
+  fullName: SkillController.unitSource
+  nameWithType: SkillController.unitSource
 - uid: Global.SkillController.user
   name: user
   href: api/Global.SkillController.html#Global_SkillController_user
