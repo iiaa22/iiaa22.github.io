@@ -215,6 +215,31 @@ public class StatesConfigItem : BaseConfigItem</code></pre>
   </table>
   
   
+  <h4 id="Global_StatesConfigItem_eventScript" data-uid="Global.StatesConfigItem.eventScript">eventScript</h4>
+  <div class="markdown level1 summary"><p>事件脚本</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BaseEvent&lt;State&gt; eventScript</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.BaseEvent-1.html">BaseEvent</a>&lt;<a class="xref" href="Global.State.html">State</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Global_StatesConfigItem_hideInMenu" data-uid="Global.StatesConfigItem.hideInMenu">hideInMenu</h4>
   <div class="markdown level1 summary"><p>是否在菜单中隐藏</p>
 </div>
@@ -240,13 +265,13 @@ public class StatesConfigItem : BaseConfigItem</code></pre>
   </table>
   
   
-  <h4 id="Global_StatesConfigItem_isEnergyDamageImmune" data-uid="Global.StatesConfigItem.isEnergyDamageImmune">isEnergyDamageImmune</h4>
-  <div class="markdown level1 summary"><p>免疫能量伤害</p>
+  <h4 id="Global_StatesConfigItem_isEnergyAttackImmune" data-uid="Global.StatesConfigItem.isEnergyAttackImmune">isEnergyAttackImmune</h4>
+  <div class="markdown level1 summary"><p>免疫能量攻击</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool isEnergyDamageImmune</code></pre>
+    <pre><code class="lang-csharp hljs">public bool isEnergyAttackImmune</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -265,13 +290,13 @@ public class StatesConfigItem : BaseConfigItem</code></pre>
   </table>
   
   
-  <h4 id="Global_StatesConfigItem_isPhysicalDamageImmune" data-uid="Global.StatesConfigItem.isPhysicalDamageImmune">isPhysicalDamageImmune</h4>
-  <div class="markdown level1 summary"><p>免疫物理伤害</p>
+  <h4 id="Global_StatesConfigItem_isPhysicalAttackImmune" data-uid="Global.StatesConfigItem.isPhysicalAttackImmune">isPhysicalAttackImmune</h4>
+  <div class="markdown level1 summary"><p>免疫物理攻击</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool isPhysicalDamageImmune</code></pre>
+    <pre><code class="lang-csharp hljs">public bool isPhysicalAttackImmune</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -284,87 +309,6 @@ public class StatesConfigItem : BaseConfigItem</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_StatesConfigItem_onGained" data-uid="Global.StatesConfigItem.onGained">onGained</h4>
-  <div class="markdown level1 summary"><p>状态获得事件
-参数1：获得的单位
-参数2：获得的状态</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityEvent&lt;Unit, State&gt; onGained</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UnityEvent</span>&lt;<a class="xref" href="Global.Unit.html">Unit</a>, <a class="xref" href="Global.State.html">State</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_StatesConfigItem_onLost" data-uid="Global.StatesConfigItem.onLost">onLost</h4>
-  <div class="markdown level1 summary"><p>状态失去事件
-参数1：失去的单位
-参数2：失去的状态</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityEvent&lt;Unit, State&gt; onLost</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UnityEvent</span>&lt;<a class="xref" href="Global.Unit.html">Unit</a>, <a class="xref" href="Global.State.html">State</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_StatesConfigItem_onUpdate" data-uid="Global.StatesConfigItem.onUpdate">onUpdate</h4>
-  <div class="markdown level1 summary"><p>状态持续事件，此事件会在状态维持期间每帧调用一次
-参数1：持续的单位
-参数2：持续的状态</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityEvent&lt;Unit, State&gt; onUpdate</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UnityEvent</span>&lt;<a class="xref" href="Global.Unit.html">Unit</a>, <a class="xref" href="Global.State.html">State</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>

@@ -141,35 +141,6 @@ public class SkillsConfigItem : BaseConfigItem</code></pre>
   </table>
   
   
-  <h4 id="Global_SkillsConfigItem_beforeDead" data-uid="Global.SkillsConfigItem.beforeDead">beforeDead</h4>
-  <div class="markdown level1 summary"><p>死亡前事件
-参数1：攻击者
-参数2：受击者
-参数3：受击者触发的技能
-参数4：伤害信息</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityEvent&lt;Unit, Unit, Skill, DamageInfo&gt; beforeDead</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UnityEvent</span>&lt;<a class="xref" href="Global.Unit.html">Unit</a>, <a class="xref" href="Global.Unit.html">Unit</a>, <a class="xref" href="Global.Skill.html">Skill</a>, <a class="xref" href="Global.DamageInfo.html">DamageInfo</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <h4 id="Global_SkillsConfigItem_bonusATK" data-uid="Global.SkillsConfigItem.bonusATK">bonusATK</h4>
   <div class="markdown level1 summary"><p>攻击力加成值</p>
 </div>
@@ -543,6 +514,31 @@ public class SkillsConfigItem : BaseConfigItem</code></pre>
   </table>
   
   
+  <h4 id="Global_SkillsConfigItem_eventScript" data-uid="Global.SkillsConfigItem.eventScript">eventScript</h4>
+  <div class="markdown level1 summary"><p>事件脚本</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BaseEvent&lt;Skill&gt; eventScript</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.BaseEvent-1.html">BaseEvent</a>&lt;<a class="xref" href="Global.Skill.html">Skill</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Global_SkillsConfigItem_hideInMenu" data-uid="Global.SkillsConfigItem.hideInMenu">hideInMenu</h4>
   <div class="markdown level1 summary"><p>是否在菜单中隐藏</p>
 </div>
@@ -612,199 +608,6 @@ public class SkillsConfigItem : BaseConfigItem</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="Global.SkillMoveType.html">SkillMoveType</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_SkillsConfigItem_onAttacked" data-uid="Global.SkillsConfigItem.onAttacked">onAttacked</h4>
-  <div class="markdown level1 summary"><p>受到攻击事件
-参数1：攻击者
-参数2：受击者
-参数3：受击者触发的技能
-参数4：伤害信息</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityEvent&lt;Unit, Unit, Skill, DamageInfo&gt; onAttacked</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UnityEvent</span>&lt;<a class="xref" href="Global.Unit.html">Unit</a>, <a class="xref" href="Global.Unit.html">Unit</a>, <a class="xref" href="Global.Skill.html">Skill</a>, <a class="xref" href="Global.DamageInfo.html">DamageInfo</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_SkillsConfigItem_onCustomTriggered" data-uid="Global.SkillsConfigItem.onCustomTriggered">onCustomTriggered</h4>
-  <div class="markdown level1 summary"><p>技能自定义触发事件
-可以在动画中主动触发该事件
-参数1：使用的单位
-参数2：使用的技能控制器
-参数3：自定义参数</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityEvent&lt;Unit, SkillController, string&gt; onCustomTriggered</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UnityEvent</span>&lt;<a class="xref" href="Global.Unit.html">Unit</a>, <a class="xref" href="Global.SkillController.html">SkillController</a>, <span class="xref">System.String</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_SkillsConfigItem_onDamaged" data-uid="Global.SkillsConfigItem.onDamaged">onDamaged</h4>
-  <div class="markdown level1 summary"><p>受到伤害事件
-参数1：攻击者
-参数2：受击者
-参数3：受击者触发的技能
-参数4：伤害信息</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityEvent&lt;Unit, Unit, Skill, DamageInfo&gt; onDamaged</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UnityEvent</span>&lt;<a class="xref" href="Global.Unit.html">Unit</a>, <a class="xref" href="Global.Unit.html">Unit</a>, <a class="xref" href="Global.Skill.html">Skill</a>, <a class="xref" href="Global.DamageInfo.html">DamageInfo</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_SkillsConfigItem_onForgotten" data-uid="Global.SkillsConfigItem.onForgotten">onForgotten</h4>
-  <div class="markdown level1 summary"><p>技能遗忘事件
-参数1：遗忘的单位
-参数2：遗忘的技能</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityEvent&lt;Unit, Skill&gt; onForgotten</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UnityEvent</span>&lt;<a class="xref" href="Global.Unit.html">Unit</a>, <a class="xref" href="Global.Skill.html">Skill</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_SkillsConfigItem_onLearned" data-uid="Global.SkillsConfigItem.onLearned">onLearned</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityEvent&lt;Unit, Skill&gt; onLearned</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UnityEvent</span>&lt;<a class="xref" href="Global.Unit.html">Unit</a>, <a class="xref" href="Global.Skill.html">Skill</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_SkillsConfigItem_onTriggered" data-uid="Global.SkillsConfigItem.onTriggered">onTriggered</h4>
-  <div class="markdown level1 summary"><p>技能触发事件
-参数1：使用的单位
-参数2：触发的单位
-参数3：触发的技能控制器</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityEvent&lt;Unit, Unit, SkillController&gt; onTriggered</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UnityEvent</span>&lt;<a class="xref" href="Global.Unit.html">Unit</a>, <a class="xref" href="Global.Unit.html">Unit</a>, <a class="xref" href="Global.SkillController.html">SkillController</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_SkillsConfigItem_onUsed" data-uid="Global.SkillsConfigItem.onUsed">onUsed</h4>
-  <div class="markdown level1 summary"><p>技能使用事件
-参数1：使用的单位
-参数2：使用的技能控制器</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnityEvent&lt;Unit, SkillController&gt; onUsed</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UnityEvent</span>&lt;<a class="xref" href="Global.Unit.html">Unit</a>, <a class="xref" href="Global.SkillController.html">SkillController</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>

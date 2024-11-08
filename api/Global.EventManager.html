@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class State
+    <title>Class EventManager
    | &#22612;&#38450;&#28216;&#25103;API&#25991;&#26723; </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class State
+    <meta name="title" content="Class EventManager
    | &#22612;&#38450;&#28216;&#25103;API&#25991;&#26723; ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,76 +78,38 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.State">
+            <article class="content wrap" id="_content" data-uid="Global.EventManager">
   
   
-  <h1 id="Global_State" data-uid="Global.State" class="text-break">Class State
+  <h1 id="Global_EventManager" data-uid="Global.EventManager" class="text-break">Class EventManager
   </h1>
-  <div class="markdown level0 summary"><p>处理状态的类。</p>
+  <div class="markdown level0 summary"><p>事件管理器。
+管理游戏中的各种事件。</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="Global.BaseUserData.html">BaseUserData</a></div>
-    <div class="level2"><a class="xref" href="Global.ObservableUserData-1.html">ObservableUserData</a>&lt;<a class="xref" href="Global.State.html">State</a>&gt;</div>
-    <div class="level3"><span class="xref">State</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="Global.ObservableUserData-1.html#Global_ObservableUserData_1_OnDataChanged">ObservableUserData&lt;State&gt;.OnDataChanged</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.ObservableUserData-1.html#Global_ObservableUserData_1_TriggerDataChanged__0_">ObservableUserData&lt;State&gt;.TriggerDataChanged(State)</a>
-    </div>
+    <div class="level1"><span class="xref">EventManager</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Global_State_syntax">Syntax</h5>
+  <h5 id="Global_EventManager_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Serializable]
-public class State : ObservableUserData&lt;State&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class EventManager</code></pre>
   </div>
-  <h3 id="constructors">Constructors
-  </h3>
-  
-  
-  <a id="Global_State__ctor_" data-uid="Global.State.#ctor*"></a>
-  <h4 id="Global_State__ctor_System_Int32_" data-uid="Global.State.#ctor(System.Int32)">State(Int32)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public State(int configID)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">configID</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="Global_State_configID" data-uid="Global.State.configID">configID</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="Global_EventManager_AfterDeath" data-uid="Global.EventManager.AfterDeath">AfterDeath</h4>
+  <div class="markdown level1 summary"><p>死亡后事件
+参数1：死亡的单位</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public readonly int configID</code></pre>
+    <pre><code class="lang-csharp hljs">public static UnityAction&lt;Unit&gt; AfterDeath</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -159,25 +121,26 @@ public class State : ObservableUserData&lt;State&gt;</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="Global.Unit.html">Unit</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="properties">Properties
-  </h3>
   
   
-  <a id="Global_State_Config_" data-uid="Global.State.Config*"></a>
-  <h4 id="Global_State_Config" data-uid="Global.State.Config">Config</h4>
-  <div class="markdown level1 summary"><p>状态的基础配置。</p>
+  <h4 id="Global_EventManager_BeforeAttack" data-uid="Global.EventManager.BeforeAttack">BeforeAttack</h4>
+  <div class="markdown level1 summary"><p>受到攻击前事件
+攻击不一定触发该事件，攻击可能被免疫攻击等技能免疫。
+参数1：攻击者
+参数2：受击者
+参数3：伤害信息</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public StatesConfigItem Config { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static UnityAction&lt;Unit, Unit, DamageInfo&gt; BeforeAttack</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -187,23 +150,26 @@ public class State : ObservableUserData&lt;State&gt;</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.StatesConfigItem.html">StatesConfigItem</a></td>
+        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="Global.Unit.html">Unit</a>, <a class="xref" href="Global.Unit.html">Unit</a>, <a class="xref" href="Global.DamageInfo.html">DamageInfo</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Global_State_Duration_" data-uid="Global.State.Duration*"></a>
-  <h4 id="Global_State_Duration" data-uid="Global.State.Duration">Duration</h4>
-  <div class="markdown level1 summary"><p>状态的持续时间（秒）。</p>
+  <h4 id="Global_EventManager_BeforeDamage" data-uid="Global.EventManager.BeforeDamage">BeforeDamage</h4>
+  <div class="markdown level1 summary"><p>受到伤害前事件
+受到攻击不一定触发该事件，伤害可能被护盾等抵挡。
+参数1：攻击者
+参数2：受击者
+参数3：伤害信息</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float Duration { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static UnityAction&lt;Unit, Unit, DamageInfo&gt; BeforeDamage</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -213,23 +179,26 @@ public class State : ObservableUserData&lt;State&gt;</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Single</span></td>
+        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="Global.Unit.html">Unit</a>, <a class="xref" href="Global.Unit.html">Unit</a>, <a class="xref" href="Global.DamageInfo.html">DamageInfo</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Global_State_EnergyShield_" data-uid="Global.State.EnergyShield*"></a>
-  <h4 id="Global_State_EnergyShield" data-uid="Global.State.EnergyShield">EnergyShield</h4>
-  <div class="markdown level1 summary"><p>状态提供的能量护盾。</p>
+  <h4 id="Global_EventManager_BeforeDeath" data-uid="Global.EventManager.BeforeDeath">BeforeDeath</h4>
+  <div class="markdown level1 summary"><p>死亡前事件
+可以在此通过增加target的HP实现复活效果
+参数1：攻击者
+参数2：受击者
+参数3：伤害信息</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int EnergyShield { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static UnityAction&lt;Unit, Unit, DamageInfo&gt; BeforeDeath</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -239,23 +208,25 @@ public class State : ObservableUserData&lt;State&gt;</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="Global.Unit.html">Unit</a>, <a class="xref" href="Global.Unit.html">Unit</a>, <a class="xref" href="Global.DamageInfo.html">DamageInfo</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Global_State_EventScript_" data-uid="Global.State.EventScript*"></a>
-  <h4 id="Global_State_EventScript" data-uid="Global.State.EventScript">EventScript</h4>
-  <div class="markdown level1 summary"><p>事件脚本。</p>
+  <h4 id="Global_EventManager_OnSkillCustomTriggered" data-uid="Global.EventManager.OnSkillCustomTriggered">OnSkillCustomTriggered</h4>
+  <div class="markdown level1 summary"><p>技能自定义触发事件
+可以在动画中主动触发该事件
+参数1：使用的技能控制器
+参数2：自定义参数</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BaseEvent&lt;State&gt; EventScript { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static UnityAction&lt;SkillController, string&gt; OnSkillCustomTriggered</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -265,23 +236,23 @@ public class State : ObservableUserData&lt;State&gt;</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.BaseEvent-1.html">BaseEvent</a>&lt;<a class="xref" href="Global.State.html">State</a>&gt;</td>
+        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="Global.SkillController.html">SkillController</a>, <span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Global_State_Owner_" data-uid="Global.State.Owner*"></a>
-  <h4 id="Global_State_Owner" data-uid="Global.State.Owner">Owner</h4>
-  <div class="markdown level1 summary"><p>状态的所有者。</p>
+  <h4 id="Global_EventManager_OnSkillForget" data-uid="Global.EventManager.OnSkillForget">OnSkillForget</h4>
+  <div class="markdown level1 summary"><p>技能遗忘事件
+参数1：遗忘的技能</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Unit Owner { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static UnityAction&lt;Skill&gt; OnSkillForget</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -291,23 +262,23 @@ public class State : ObservableUserData&lt;State&gt;</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.Unit.html">Unit</a></td>
+        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="Global.Skill.html">Skill</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Global_State_PhysicalShield_" data-uid="Global.State.PhysicalShield*"></a>
-  <h4 id="Global_State_PhysicalShield" data-uid="Global.State.PhysicalShield">PhysicalShield</h4>
-  <div class="markdown level1 summary"><p>状态提供的物理护盾。</p>
+  <h4 id="Global_EventManager_OnSkillLearn" data-uid="Global.EventManager.OnSkillLearn">OnSkillLearn</h4>
+  <div class="markdown level1 summary"><p>技能习得事件
+参数1：习得的技能</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int PhysicalShield { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static UnityAction&lt;Skill&gt; OnSkillLearn</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -317,23 +288,24 @@ public class State : ObservableUserData&lt;State&gt;</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="Global.Skill.html">Skill</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Global_State_UniversalShield_" data-uid="Global.State.UniversalShield*"></a>
-  <h4 id="Global_State_UniversalShield" data-uid="Global.State.UniversalShield">UniversalShield</h4>
-  <div class="markdown level1 summary"><p>状态提供的全能护盾。</p>
+  <h4 id="Global_EventManager_OnSkillTriggered" data-uid="Global.EventManager.OnSkillTriggered">OnSkillTriggered</h4>
+  <div class="markdown level1 summary"><p>技能触发事件
+参数1：使用的技能控制器
+参数2：触发的单位</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int UniversalShield { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public static UnityAction&lt;SkillController, Unit&gt; OnSkillTriggered</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -343,67 +315,141 @@ public class State : ObservableUserData&lt;State&gt;</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="Global.SkillController.html">SkillController</a>, <a class="xref" href="Global.Unit.html">Unit</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-  </h3>
   
   
-  <a id="Global_State_AddListener_" data-uid="Global.State.AddListener*"></a>
-  <h4 id="Global_State_AddListener" data-uid="Global.State.AddListener">AddListener()</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="Global_EventManager_OnSkillUse" data-uid="Global.EventManager.OnSkillUse">OnSkillUse</h4>
+  <div class="markdown level1 summary"><p>技能使用事件
+参数1：使用的技能控制器</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void AddListener()</code></pre>
+    <pre><code class="lang-csharp hljs">public static UnityAction&lt;SkillController&gt; OnSkillUse</code></pre>
   </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="Global.SkillController.html">SkillController</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
-  <a id="Global_State_AfterLoad_" data-uid="Global.State.AfterLoad*"></a>
-  <h4 id="Global_State_AfterLoad" data-uid="Global.State.AfterLoad">AfterLoad()</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="Global_EventManager_OnStateGain" data-uid="Global.EventManager.OnStateGain">OnStateGain</h4>
+  <div class="markdown level1 summary"><p>状态获得事件
+参数1：获得的状态</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void AfterLoad()</code></pre>
+    <pre><code class="lang-csharp hljs">public static UnityAction&lt;State&gt; OnStateGain</code></pre>
   </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Global.BaseUserData.html#Global_BaseUserData_AfterLoad">BaseUserData.AfterLoad()</a></div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="Global.State.html">State</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
-  <a id="Global_State_BeforeSave_" data-uid="Global.State.BeforeSave*"></a>
-  <h4 id="Global_State_BeforeSave" data-uid="Global.State.BeforeSave">BeforeSave()</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="Global_EventManager_OnStateLost" data-uid="Global.EventManager.OnStateLost">OnStateLost</h4>
+  <div class="markdown level1 summary"><p>状态失去事件
+参数1：失去的状态</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void BeforeSave()</code></pre>
+    <pre><code class="lang-csharp hljs">public static UnityAction&lt;State&gt; OnStateLost</code></pre>
   </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Global.BaseUserData.html#Global_BaseUserData_BeforeSave">BaseUserData.BeforeSave()</a></div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="Global.State.html">State</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
-  <a id="Global_State_Finalize_" data-uid="Global.State.Finalize*"></a>
-  <h4 id="Global_State_Finalize" data-uid="Global.State.Finalize">Finalize()</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="Global_EventManager_OnStateUpdate" data-uid="Global.EventManager.OnStateUpdate">OnStateUpdate</h4>
+  <div class="markdown level1 summary"><p>状态持续事件，此事件会在状态维持期间每帧调用一次
+参数1：持续的状态</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
+    <pre><code class="lang-csharp hljs">public static UnityAction&lt;State&gt; OnStateUpdate</code></pre>
   </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="Global.State.html">State</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
-  <a id="Global_State_RemoveListener_" data-uid="Global.State.RemoveListener*"></a>
-  <h4 id="Global_State_RemoveListener" data-uid="Global.State.RemoveListener">RemoveListener()</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="Global_EventManager_OnUnitInit" data-uid="Global.EventManager.OnUnitInit">OnUnitInit</h4>
+  <div class="markdown level1 summary"><p>单位初始化事件
+参数1：初始化的单位</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected virtual void RemoveListener()</code></pre>
+    <pre><code class="lang-csharp hljs">public static UnityAction&lt;Unit&gt; OnUnitInit</code></pre>
   </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="Global.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
