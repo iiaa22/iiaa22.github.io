@@ -97,33 +97,6 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class UserDataManager</code></pre>
   </div>
-  <h3 id="fields">Fields
-  </h3>
-  
-  
-  <h4 id="Global_UserDataManager_systemSettings" data-uid="Global.UserDataManager.systemSettings">systemSettings</h4>
-  <div class="markdown level1 summary"><p>系统设置</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static SystemSettings systemSettings</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Global.SystemSettings.html">SystemSettings</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   
@@ -135,8 +108,23 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void AutoSaveUserData()</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool AutoSaveUserData()</code></pre>
   </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="Global_UserDataManager_DeleteUserData_" data-uid="Global.UserDataManager.DeleteUserData*"></a>
@@ -163,6 +151,31 @@
         <td><span class="parametername">userDataInfo</span></td>
         <td><p>存档信息</p>
 </td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_UserDataManager_GetSystemData_" data-uid="Global.UserDataManager.GetSystemData*"></a>
+  <h4 id="Global_UserDataManager_GetSystemData" data-uid="Global.UserDataManager.GetSystemData">GetSystemData()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SystemData GetSystemData()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.SystemData.html">SystemData</a></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -230,7 +243,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void LoadUserData(UserDataManager.UserDataInfo userDataInfo)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool LoadUserData(UserDataManager.UserDataInfo userDataInfo)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -247,6 +260,21 @@
         <td><span class="parametername">userDataInfo</span></td>
         <td><p>存档信息</p>
 </td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -303,8 +331,23 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void SaveSystemData()</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool SaveSystemData()</code></pre>
   </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="Global_UserDataManager_SaveUserData_" data-uid="Global.UserDataManager.SaveUserData*"></a>
@@ -314,7 +357,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static void SaveUserData(int slot, string dataName)</code></pre>
+    <pre><code class="lang-csharp hljs">public static bool SaveUserData(int slot, string dataName)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -337,6 +380,21 @@
         <td><span class="parametername">dataName</span></td>
         <td><p>存档名</p>
 </td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
