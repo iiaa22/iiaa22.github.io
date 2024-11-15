@@ -240,6 +240,31 @@ public class UnitsConfigItem : BaseConfigItem</code></pre>
   </table>
   
   
+  <h4 id="Global_UnitsConfigItem_defaultDashRange" data-uid="Global.UnitsConfigItem.defaultDashRange">defaultDashRange</h4>
+  <div class="markdown level1 summary"><p>冲刺幅度（%）</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int defaultDashRange</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Global_UnitsConfigItem_defaultMaxHP" data-uid="Global.UnitsConfigItem.defaultMaxHP">defaultMaxHP</h4>
   <div class="markdown level1 summary"><p>默认最大生命值</p>
 </div>
@@ -346,7 +371,7 @@ public class UnitsConfigItem : BaseConfigItem</code></pre>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public BaseEvent&lt;Unit&gt; eventScript</code></pre>
+    <pre><code class="lang-csharp hljs">public UnitEvent eventScript</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -358,7 +383,7 @@ public class UnitsConfigItem : BaseConfigItem</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.BaseEvent-1.html">BaseEvent</a>&lt;<a class="xref" href="Global.Unit.html">Unit</a>&gt;</td>
+        <td><a class="xref" href="Global.UnitEvent.html">UnitEvent</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -440,13 +465,13 @@ public class UnitsConfigItem : BaseConfigItem</code></pre>
   </table>
   
   
-  <h4 id="Global_UnitsConfigItem_isCollidable" data-uid="Global.UnitsConfigItem.isCollidable">isCollidable</h4>
-  <div class="markdown level1 summary"><p>是否可碰撞</p>
+  <h4 id="Global_UnitsConfigItem_isEquippable" data-uid="Global.UnitsConfigItem.isEquippable">isEquippable</h4>
+  <div class="markdown level1 summary"><p>是否可装备</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool isCollidable</code></pre>
+    <pre><code class="lang-csharp hljs">public bool isEquippable</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -465,13 +490,13 @@ public class UnitsConfigItem : BaseConfigItem</code></pre>
   </table>
   
   
-  <h4 id="Global_UnitsConfigItem_isEnemyTargetable" data-uid="Global.UnitsConfigItem.isEnemyTargetable">isEnemyTargetable</h4>
-  <div class="markdown level1 summary"><p>是否可被敌方作为目标</p>
+  <h4 id="Global_UnitsConfigItem_isNonAllyTargetable" data-uid="Global.UnitsConfigItem.isNonAllyTargetable">isNonAllyTargetable</h4>
+  <div class="markdown level1 summary"><p>是否可被非己方作为目标</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool isEnemyTargetable</code></pre>
+    <pre><code class="lang-csharp hljs">public bool isNonAllyTargetable</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -484,6 +509,31 @@ public class UnitsConfigItem : BaseConfigItem</code></pre>
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_UnitsConfigItem_itemSkillList" data-uid="Global.UnitsConfigItem.itemSkillList">itemSkillList</h4>
+  <div class="markdown level1 summary"><p>道具技能列表</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;ConfigItemReference&lt;SkillsConfigItem&gt;&gt; itemSkillList</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="Global.ConfigItemReference-1.html">ConfigItemReference</a>&lt;<a class="xref" href="Global.SkillsConfigItem.html">SkillsConfigItem</a>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>

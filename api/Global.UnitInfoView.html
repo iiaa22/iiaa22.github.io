@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class GameManager
+    <title>Class UnitInfoView
    | &#22612;&#38450;&#28216;&#25103;API&#25991;&#26723; </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class GameManager
+    <meta name="title" content="Class UnitInfoView
    | &#22612;&#38450;&#28216;&#25103;API&#25991;&#26723; ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,36 +78,93 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.GameManager">
+            <article class="content wrap" id="_content" data-uid="Global.UnitInfoView">
   
   
-  <h1 id="Global_GameManager" data-uid="Global.GameManager" class="text-break">Class GameManager
+  <h1 id="Global_UnitInfoView" data-uid="Global.UnitInfoView" class="text-break">Class UnitInfoView
   </h1>
-  <div class="markdown level0 summary"><p>管理游戏进程的类。</p>
+  <div class="markdown level0 summary"><p>处理单位信息的视图。</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">GameManager</span></div>
+    <div class="level1"><a class="xref" href="Global.BaseView.html">BaseView</a></div>
+    <div class="level2"><span class="xref">UnitInfoView</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_layer">BaseView.layer</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_onOpen">BaseView.onOpen</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_onClose">BaseView.onClose</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_onRefresh">BaseView.onRefresh</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_allButtons">BaseView.allButtons</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_OnViewOpen">BaseView.OnViewOpen</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_OnViewClose">BaseView.OnViewClose</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_OnButtonClick">BaseView.OnButtonClick</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_IsAnyViewOpen">BaseView.IsAnyViewOpen</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_FloatingViews">BaseView.FloatingViews</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_GetViewInLayer_System_Int32_">BaseView.GetViewInLayer(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_Start">BaseView.Start()</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_OnEnable">BaseView.OnEnable()</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_OnDisable">BaseView.OnDisable()</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_Open">BaseView.Open()</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_Close">BaseView.Close()</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_IsOpen">BaseView.IsOpen</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_Refresh">BaseView.Refresh()</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Global_GameManager_syntax">Syntax</h5>
+  <h5 id="Global_UnitInfoView_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class GameManager : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class UnitInfoView : BaseView</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="Global_GameManager_DOUBLE_CLICK_TIME_THRESHOLD" data-uid="Global.GameManager.DOUBLE_CLICK_TIME_THRESHOLD">DOUBLE_CLICK_TIME_THRESHOLD</h4>
-  <div class="markdown level1 summary"><p>双击触发间隔阈值</p>
-</div>
+  <h4 id="Global_UnitInfoView_atkText" data-uid="Global.UnitInfoView.atkText">atkText</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const float DOUBLE_CLICK_TIME_THRESHOLD = 0.3F</code></pre>
+    <pre><code class="lang-csharp hljs">public TextMeshProUGUI atkText</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -119,20 +176,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Single</span></td>
+        <td><span class="xref">TextMeshProUGUI</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_GameManager_gameOverView" data-uid="Global.GameManager.gameOverView">gameOverView</h4>
-  <div class="markdown level1 summary"><p>游戏结束视图</p>
-</div>
+  <h4 id="Global_UnitInfoView_dashRangeText" data-uid="Global.UnitInfoView.dashRangeText">dashRangeText</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameOverView gameOverView</code></pre>
+    <pre><code class="lang-csharp hljs">public TextMeshProUGUI dashRangeText</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -144,20 +200,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.GameOverView.html">GameOverView</a></td>
+        <td><span class="xref">TextMeshProUGUI</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_GameManager_gameView" data-uid="Global.GameManager.gameView">gameView</h4>
-  <div class="markdown level1 summary"><p>游戏HUD视图</p>
-</div>
+  <h4 id="Global_UnitInfoView_defText" data-uid="Global.UnitInfoView.defText">defText</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GameView gameView</code></pre>
+    <pre><code class="lang-csharp hljs">public TextMeshProUGUI defText</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -169,20 +224,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.GameView.html">GameView</a></td>
+        <td><span class="xref">TextMeshProUGUI</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_GameManager_globalView" data-uid="Global.GameManager.globalView">globalView</h4>
-  <div class="markdown level1 summary"><p>全局视图</p>
-</div>
+  <h4 id="Global_UnitInfoView_edfText" data-uid="Global.UnitInfoView.edfText">edfText</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public GlobalView globalView</code></pre>
+    <pre><code class="lang-csharp hljs">public TextMeshProUGUI edfText</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -194,20 +248,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.GlobalView.html">GlobalView</a></td>
+        <td><span class="xref">TextMeshProUGUI</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_GameManager_instance" data-uid="Global.GameManager.instance">instance</h4>
-  <div class="markdown level1 summary"><p>实例对象</p>
-</div>
+  <h4 id="Global_UnitInfoView_energyShieldText" data-uid="Global.UnitInfoView.energyShieldText">energyShieldText</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static GameManager instance</code></pre>
+    <pre><code class="lang-csharp hljs">public TextMeshProUGUI energyShieldText</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -219,20 +272,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.GameManager.html">GameManager</a></td>
+        <td><span class="xref">TextMeshProUGUI</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_GameManager_inventoryView" data-uid="Global.GameManager.inventoryView">inventoryView</h4>
-  <div class="markdown level1 summary"><p>背包视图</p>
-</div>
+  <h4 id="Global_UnitInfoView_ersText" data-uid="Global.UnitInfoView.ersText">ersText</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public InventoryView inventoryView</code></pre>
+    <pre><code class="lang-csharp hljs">public TextMeshProUGUI ersText</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -244,20 +296,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.InventoryView.html">InventoryView</a></td>
+        <td><span class="xref">TextMeshProUGUI</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_GameManager_levelUpView" data-uid="Global.GameManager.levelUpView">levelUpView</h4>
-  <div class="markdown level1 summary"><p>单位升级视图</p>
-</div>
+  <h4 id="Global_UnitInfoView_hpText" data-uid="Global.UnitInfoView.hpText">hpText</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LevelUpView levelUpView</code></pre>
+    <pre><code class="lang-csharp hljs">public TextMeshProUGUI hpText</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -269,20 +320,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.LevelUpView.html">LevelUpView</a></td>
+        <td><span class="xref">TextMeshProUGUI</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_GameManager_loadingView" data-uid="Global.GameManager.loadingView">loadingView</h4>
-  <div class="markdown level1 summary"><p>加载视图</p>
-</div>
+  <h4 id="Global_UnitInfoView_physicalShieldText" data-uid="Global.UnitInfoView.physicalShieldText">physicalShieldText</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static LoadingView loadingView</code></pre>
+    <pre><code class="lang-csharp hljs">public TextMeshProUGUI physicalShieldText</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -294,20 +344,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.LoadingView.html">LoadingView</a></td>
+        <td><span class="xref">TextMeshProUGUI</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_GameManager_map" data-uid="Global.GameManager.map">map</h4>
-  <div class="markdown level1 summary"><p>地图</p>
-</div>
+  <h4 id="Global_UnitInfoView_resText" data-uid="Global.UnitInfoView.resText">resText</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static MapController map</code></pre>
+    <pre><code class="lang-csharp hljs">public TextMeshProUGUI resText</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -319,20 +368,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.MapController.html">MapController</a></td>
+        <td><span class="xref">TextMeshProUGUI</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_GameManager_popWindowView" data-uid="Global.GameManager.popWindowView">popWindowView</h4>
-  <div class="markdown level1 summary"><p>弹出窗口视图</p>
-</div>
+  <h4 id="Global_UnitInfoView_spdText" data-uid="Global.UnitInfoView.spdText">spdText</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public PopWindowView popWindowView</code></pre>
+    <pre><code class="lang-csharp hljs">public TextMeshProUGUI spdText</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -344,20 +392,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.PopWindowView.html">PopWindowView</a></td>
+        <td><span class="xref">TextMeshProUGUI</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_GameManager_selectUnitView" data-uid="Global.GameManager.selectUnitView">selectUnitView</h4>
-  <div class="markdown level1 summary"><p>单位选择视图</p>
-</div>
+  <h4 id="Global_UnitInfoView_touText" data-uid="Global.UnitInfoView.touText">touText</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SelectUnitView selectUnitView</code></pre>
+    <pre><code class="lang-csharp hljs">public TextMeshProUGUI touText</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -369,20 +416,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.SelectUnitView.html">SelectUnitView</a></td>
+        <td><span class="xref">TextMeshProUGUI</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_GameManager_settingsView" data-uid="Global.GameManager.settingsView">settingsView</h4>
-  <div class="markdown level1 summary"><p>设置视图</p>
-</div>
+  <h4 id="Global_UnitInfoView_universalShieldText" data-uid="Global.UnitInfoView.universalShieldText">universalShieldText</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SettingsView settingsView</code></pre>
+    <pre><code class="lang-csharp hljs">public TextMeshProUGUI universalShieldText</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -394,61 +440,49 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.SettingsView.html">SettingsView</a></td>
+        <td><span class="xref">TextMeshProUGUI</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="methods">Methods
+  </h3>
   
   
-  <h4 id="Global_GameManager_skillComboView" data-uid="Global.GameManager.skillComboView">skillComboView</h4>
-  <div class="markdown level1 summary"><p>技能连段视图</p>
-</div>
+  <a id="Global_UnitInfoView_OnClose_" data-uid="Global.UnitInfoView.OnClose*"></a>
+  <h4 id="Global_UnitInfoView_OnClose" data-uid="Global.UnitInfoView.OnClose">OnClose()</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SkillComboView skillComboView</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void OnClose()</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Global.SkillComboView.html">SkillComboView</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Global.BaseView.html#Global_BaseView_OnClose">BaseView.OnClose()</a></div>
   
   
-  <h4 id="Global_GameManager_unitInfoView" data-uid="Global.GameManager.unitInfoView">unitInfoView</h4>
-  <div class="markdown level1 summary"><p>单位信息视图</p>
-</div>
+  <a id="Global_UnitInfoView_OnOpen_" data-uid="Global.UnitInfoView.OnOpen*"></a>
+  <h4 id="Global_UnitInfoView_OnOpen" data-uid="Global.UnitInfoView.OnOpen">OnOpen()</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnitInfoView unitInfoView</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void OnOpen()</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Global.UnitInfoView.html">UnitInfoView</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Global.BaseView.html#Global_BaseView_OnOpen">BaseView.OnOpen()</a></div>
+  
+  
+  <a id="Global_UnitInfoView_RealRefresh_" data-uid="Global.UnitInfoView.RealRefresh*"></a>
+  <h4 id="Global_UnitInfoView_RealRefresh" data-uid="Global.UnitInfoView.RealRefresh">RealRefresh()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void RealRefresh()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Global.BaseView.html#Global_BaseView_RealRefresh">BaseView.RealRefresh()</a></div>
 </article>
           </div>
           

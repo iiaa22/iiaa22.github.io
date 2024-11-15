@@ -97,7 +97,7 @@
       <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_Owner">BaseEvent&lt;Skill&gt;.Owner</a>
     </div>
     <div>
-      <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_CreateDashTrail_SpriteRenderer_">BaseEvent&lt;Skill&gt;.CreateDashTrail(SpriteRenderer)</a>
+      <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_CreateAfterimage_SpriteRenderer_">BaseEvent&lt;Skill&gt;.CreateAfterimage(SpriteRenderer)</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
@@ -110,13 +110,13 @@
   </h3>
   
   
-  <a id="Global_SkillEvent006_AfterDeath_" data-uid="Global.SkillEvent006.AfterDeath*"></a>
-  <h4 id="Global_SkillEvent006_AfterDeath_Unit_" data-uid="Global.SkillEvent006.AfterDeath(Unit)">AfterDeath(Unit)</h4>
+  <a id="Global_SkillEvent006_AfterUnitDash_" data-uid="Global.SkillEvent006.AfterUnitDash*"></a>
+  <h4 id="Global_SkillEvent006_AfterUnitDash_UnitController_" data-uid="Global.SkillEvent006.AfterUnitDash(UnitController)">AfterUnitDash(UnitController)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override void AfterDeath(Unit unit)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void AfterUnitDash(UnitController unitController)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -129,14 +129,14 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.Unit.html">Unit</a></td>
-        <td><span class="parametername">unit</span></td>
+        <td><a class="xref" href="Global.UnitController.html">UnitController</a></td>
+        <td><span class="parametername">unitController</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">BaseEvent&lt;Skill&gt;.AfterDeath(Unit)</span></div>
+  <div><span class="xref">BaseEvent&lt;Skill&gt;.AfterUnitDash(UnitController)</span></div>
   
   
   <a id="Global_SkillEvent006_BeforeAttack_" data-uid="Global.SkillEvent006.BeforeAttack*"></a>
@@ -254,6 +254,35 @@
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><span class="xref">BaseEvent&lt;Skill&gt;.BeforeDeath(Unit, Unit, DamageInfo)</span></div>
+  
+  
+  <a id="Global_SkillEvent006_OnDeath_" data-uid="Global.SkillEvent006.OnDeath*"></a>
+  <h4 id="Global_SkillEvent006_OnDeath_Unit_" data-uid="Global.SkillEvent006.OnDeath(Unit)">OnDeath(Unit)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnDeath(Unit unit)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.Unit.html">Unit</a></td>
+        <td><span class="parametername">unit</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">BaseEvent&lt;Skill&gt;.OnDeath(Unit)</span></div>
   
   
   <a id="Global_SkillEvent006_OnSkillCustomTriggered_" data-uid="Global.SkillEvent006.OnSkillCustomTriggered*"></a>

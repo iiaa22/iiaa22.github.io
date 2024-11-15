@@ -51,12 +51,12 @@ references:
   commentId: T:Global.AutoSorting2D
   fullName: AutoSorting2D
   nameWithType: AutoSorting2D
-- uid: Global.AutoSorting2D.sortingSprites
-  name: sortingSprites
-  href: api/Global.AutoSorting2D.html#Global_AutoSorting2D_sortingSprites
-  commentId: F:Global.AutoSorting2D.sortingSprites
-  fullName: AutoSorting2D.sortingSprites
-  nameWithType: AutoSorting2D.sortingSprites
+- uid: Global.AutoSorting2D.sortingRenderer
+  name: sortingRenderer
+  href: api/Global.AutoSorting2D.html#Global_AutoSorting2D_sortingRenderer
+  commentId: F:Global.AutoSorting2D.sortingRenderer
+  fullName: AutoSorting2D.sortingRenderer
+  nameWithType: AutoSorting2D.sortingRenderer
 - uid: Global.BaseConfigItem
   name: BaseConfigItem
   href: api/Global.BaseConfigItem.html
@@ -209,23 +209,23 @@ references:
   fullName.vb: BaseEvent(Of T)
   nameWithType: BaseEvent<T>
   nameWithType.vb: BaseEvent(Of T)
-- uid: Global.BaseEvent`1.AfterDeath(Unit)
-  name: AfterDeath(Unit)
-  href: api/Global.BaseEvent-1.html#Global_BaseEvent_1_AfterDeath_Unit_
-  commentId: M:Global.BaseEvent`1.AfterDeath(Unit)
-  fullName: BaseEvent<T>.AfterDeath(Unit)
-  fullName.vb: BaseEvent(Of T).AfterDeath(Unit)
-  nameWithType: BaseEvent<T>.AfterDeath(Unit)
-  nameWithType.vb: BaseEvent(Of T).AfterDeath(Unit)
-- uid: Global.BaseEvent`1.AfterDeath*
-  name: AfterDeath
-  href: api/Global.BaseEvent-1.html#Global_BaseEvent_1_AfterDeath_
-  commentId: Overload:Global.BaseEvent`1.AfterDeath
+- uid: Global.BaseEvent`1.AfterUnitDash(UnitController)
+  name: AfterUnitDash(UnitController)
+  href: api/Global.BaseEvent-1.html#Global_BaseEvent_1_AfterUnitDash_UnitController_
+  commentId: M:Global.BaseEvent`1.AfterUnitDash(UnitController)
+  fullName: BaseEvent<T>.AfterUnitDash(UnitController)
+  fullName.vb: BaseEvent(Of T).AfterUnitDash(UnitController)
+  nameWithType: BaseEvent<T>.AfterUnitDash(UnitController)
+  nameWithType.vb: BaseEvent(Of T).AfterUnitDash(UnitController)
+- uid: Global.BaseEvent`1.AfterUnitDash*
+  name: AfterUnitDash
+  href: api/Global.BaseEvent-1.html#Global_BaseEvent_1_AfterUnitDash_
+  commentId: Overload:Global.BaseEvent`1.AfterUnitDash
   isSpec: "True"
-  fullName: BaseEvent<T>.AfterDeath
-  fullName.vb: BaseEvent(Of T).AfterDeath
-  nameWithType: BaseEvent<T>.AfterDeath
-  nameWithType.vb: BaseEvent(Of T).AfterDeath
+  fullName: BaseEvent<T>.AfterUnitDash
+  fullName.vb: BaseEvent(Of T).AfterUnitDash
+  nameWithType: BaseEvent<T>.AfterUnitDash
+  nameWithType.vb: BaseEvent(Of T).AfterUnitDash
 - uid: Global.BaseEvent`1.BeforeAttack(Unit,Unit,DamageInfo)
   name: BeforeAttack(Unit, Unit, DamageInfo)
   href: api/Global.BaseEvent-1.html#Global_BaseEvent_1_BeforeAttack_Unit_Unit_DamageInfo_
@@ -277,23 +277,40 @@ references:
   fullName.vb: BaseEvent(Of T).BeforeDeath
   nameWithType: BaseEvent<T>.BeforeDeath
   nameWithType.vb: BaseEvent(Of T).BeforeDeath
-- uid: Global.BaseEvent`1.CreateDashTrail(SpriteRenderer)
-  name: CreateDashTrail(SpriteRenderer)
-  href: api/Global.BaseEvent-1.html#Global_BaseEvent_1_CreateDashTrail_SpriteRenderer_
-  commentId: M:Global.BaseEvent`1.CreateDashTrail(SpriteRenderer)
-  fullName: BaseEvent<T>.CreateDashTrail(SpriteRenderer)
-  fullName.vb: BaseEvent(Of T).CreateDashTrail(SpriteRenderer)
-  nameWithType: BaseEvent<T>.CreateDashTrail(SpriteRenderer)
-  nameWithType.vb: BaseEvent(Of T).CreateDashTrail(SpriteRenderer)
-- uid: Global.BaseEvent`1.CreateDashTrail*
-  name: CreateDashTrail
-  href: api/Global.BaseEvent-1.html#Global_BaseEvent_1_CreateDashTrail_
-  commentId: Overload:Global.BaseEvent`1.CreateDashTrail
+- uid: Global.BaseEvent`1.CreateAfterimage(SpriteRenderer)
+  name: CreateAfterimage(SpriteRenderer)
+  href: api/Global.BaseEvent-1.html#Global_BaseEvent_1_CreateAfterimage_SpriteRenderer_
+  commentId: M:Global.BaseEvent`1.CreateAfterimage(SpriteRenderer)
+  fullName: BaseEvent<T>.CreateAfterimage(SpriteRenderer)
+  fullName.vb: BaseEvent(Of T).CreateAfterimage(SpriteRenderer)
+  nameWithType: BaseEvent<T>.CreateAfterimage(SpriteRenderer)
+  nameWithType.vb: BaseEvent(Of T).CreateAfterimage(SpriteRenderer)
+- uid: Global.BaseEvent`1.CreateAfterimage*
+  name: CreateAfterimage
+  href: api/Global.BaseEvent-1.html#Global_BaseEvent_1_CreateAfterimage_
+  commentId: Overload:Global.BaseEvent`1.CreateAfterimage
   isSpec: "True"
-  fullName: BaseEvent<T>.CreateDashTrail
-  fullName.vb: BaseEvent(Of T).CreateDashTrail
-  nameWithType: BaseEvent<T>.CreateDashTrail
-  nameWithType.vb: BaseEvent(Of T).CreateDashTrail
+  fullName: BaseEvent<T>.CreateAfterimage
+  fullName.vb: BaseEvent(Of T).CreateAfterimage
+  nameWithType: BaseEvent<T>.CreateAfterimage
+  nameWithType.vb: BaseEvent(Of T).CreateAfterimage
+- uid: Global.BaseEvent`1.OnDeath(Unit)
+  name: OnDeath(Unit)
+  href: api/Global.BaseEvent-1.html#Global_BaseEvent_1_OnDeath_Unit_
+  commentId: M:Global.BaseEvent`1.OnDeath(Unit)
+  fullName: BaseEvent<T>.OnDeath(Unit)
+  fullName.vb: BaseEvent(Of T).OnDeath(Unit)
+  nameWithType: BaseEvent<T>.OnDeath(Unit)
+  nameWithType.vb: BaseEvent(Of T).OnDeath(Unit)
+- uid: Global.BaseEvent`1.OnDeath*
+  name: OnDeath
+  href: api/Global.BaseEvent-1.html#Global_BaseEvent_1_OnDeath_
+  commentId: Overload:Global.BaseEvent`1.OnDeath
+  isSpec: "True"
+  fullName: BaseEvent<T>.OnDeath
+  fullName.vb: BaseEvent(Of T).OnDeath
+  nameWithType: BaseEvent<T>.OnDeath
+  nameWithType.vb: BaseEvent(Of T).OnDeath
 - uid: Global.BaseEvent`1.OnSkillCustomTriggered(SkillController,System.String)
   name: OnSkillCustomTriggered(SkillController, String)
   href: api/Global.BaseEvent-1.html#Global_BaseEvent_1_OnSkillCustomTriggered_SkillController_System_String_
@@ -1289,12 +1306,12 @@ references:
   commentId: T:Global.EventManager
   fullName: EventManager
   nameWithType: EventManager
-- uid: Global.EventManager.AfterDeath
-  name: AfterDeath
-  href: api/Global.EventManager.html#Global_EventManager_AfterDeath
-  commentId: F:Global.EventManager.AfterDeath
-  fullName: EventManager.AfterDeath
-  nameWithType: EventManager.AfterDeath
+- uid: Global.EventManager.AfterUnitDash
+  name: AfterUnitDash
+  href: api/Global.EventManager.html#Global_EventManager_AfterUnitDash
+  commentId: F:Global.EventManager.AfterUnitDash
+  fullName: EventManager.AfterUnitDash
+  nameWithType: EventManager.AfterUnitDash
 - uid: Global.EventManager.BeforeAttack
   name: BeforeAttack
   href: api/Global.EventManager.html#Global_EventManager_BeforeAttack
@@ -1313,6 +1330,12 @@ references:
   commentId: F:Global.EventManager.BeforeDeath
   fullName: EventManager.BeforeDeath
   nameWithType: EventManager.BeforeDeath
+- uid: Global.EventManager.OnDeath
+  name: OnDeath
+  href: api/Global.EventManager.html#Global_EventManager_OnDeath
+  commentId: F:Global.EventManager.OnDeath
+  fullName: EventManager.OnDeath
+  nameWithType: EventManager.OnDeath
 - uid: Global.EventManager.OnPlayerSkillIdle
   name: OnPlayerSkillIdle
   href: api/Global.EventManager.html#Global_EventManager_OnPlayerSkillIdle
@@ -1518,6 +1541,12 @@ references:
   commentId: F:Global.GameManager.skillComboView
   fullName: GameManager.skillComboView
   nameWithType: GameManager.skillComboView
+- uid: Global.GameManager.unitInfoView
+  name: unitInfoView
+  href: api/Global.GameManager.html#Global_GameManager_unitInfoView
+  commentId: F:Global.GameManager.unitInfoView
+  fullName: GameManager.unitInfoView
+  nameWithType: GameManager.unitInfoView
 - uid: Global.GameOverView
   name: GameOverView
   href: api/Global.GameOverView.html
@@ -4200,6 +4229,214 @@ references:
   isSpec: "True"
   fullName: Skill.BeforeSave
   nameWithType: Skill.BeforeSave
+- uid: Global.Skill.BonusATK
+  name: BonusATK
+  href: api/Global.Skill.html#Global_Skill_BonusATK
+  commentId: P:Global.Skill.BonusATK
+  fullName: Skill.BonusATK
+  nameWithType: Skill.BonusATK
+- uid: Global.Skill.BonusATK*
+  name: BonusATK
+  href: api/Global.Skill.html#Global_Skill_BonusATK_
+  commentId: Overload:Global.Skill.BonusATK
+  isSpec: "True"
+  fullName: Skill.BonusATK
+  nameWithType: Skill.BonusATK
+- uid: Global.Skill.BonusATK_P
+  name: BonusATK_P
+  href: api/Global.Skill.html#Global_Skill_BonusATK_P
+  commentId: P:Global.Skill.BonusATK_P
+  fullName: Skill.BonusATK_P
+  nameWithType: Skill.BonusATK_P
+- uid: Global.Skill.BonusATK_P*
+  name: BonusATK_P
+  href: api/Global.Skill.html#Global_Skill_BonusATK_P_
+  commentId: Overload:Global.Skill.BonusATK_P
+  isSpec: "True"
+  fullName: Skill.BonusATK_P
+  nameWithType: Skill.BonusATK_P
+- uid: Global.Skill.BonusDashRange
+  name: BonusDashRange
+  href: api/Global.Skill.html#Global_Skill_BonusDashRange
+  commentId: P:Global.Skill.BonusDashRange
+  fullName: Skill.BonusDashRange
+  nameWithType: Skill.BonusDashRange
+- uid: Global.Skill.BonusDashRange*
+  name: BonusDashRange
+  href: api/Global.Skill.html#Global_Skill_BonusDashRange_
+  commentId: Overload:Global.Skill.BonusDashRange
+  isSpec: "True"
+  fullName: Skill.BonusDashRange
+  nameWithType: Skill.BonusDashRange
+- uid: Global.Skill.BonusDashRange_P
+  name: BonusDashRange_P
+  href: api/Global.Skill.html#Global_Skill_BonusDashRange_P
+  commentId: P:Global.Skill.BonusDashRange_P
+  fullName: Skill.BonusDashRange_P
+  nameWithType: Skill.BonusDashRange_P
+- uid: Global.Skill.BonusDashRange_P*
+  name: BonusDashRange_P
+  href: api/Global.Skill.html#Global_Skill_BonusDashRange_P_
+  commentId: Overload:Global.Skill.BonusDashRange_P
+  isSpec: "True"
+  fullName: Skill.BonusDashRange_P
+  nameWithType: Skill.BonusDashRange_P
+- uid: Global.Skill.BonusDEF
+  name: BonusDEF
+  href: api/Global.Skill.html#Global_Skill_BonusDEF
+  commentId: P:Global.Skill.BonusDEF
+  fullName: Skill.BonusDEF
+  nameWithType: Skill.BonusDEF
+- uid: Global.Skill.BonusDEF*
+  name: BonusDEF
+  href: api/Global.Skill.html#Global_Skill_BonusDEF_
+  commentId: Overload:Global.Skill.BonusDEF
+  isSpec: "True"
+  fullName: Skill.BonusDEF
+  nameWithType: Skill.BonusDEF
+- uid: Global.Skill.BonusDEF_P
+  name: BonusDEF_P
+  href: api/Global.Skill.html#Global_Skill_BonusDEF_P
+  commentId: P:Global.Skill.BonusDEF_P
+  fullName: Skill.BonusDEF_P
+  nameWithType: Skill.BonusDEF_P
+- uid: Global.Skill.BonusDEF_P*
+  name: BonusDEF_P
+  href: api/Global.Skill.html#Global_Skill_BonusDEF_P_
+  commentId: Overload:Global.Skill.BonusDEF_P
+  isSpec: "True"
+  fullName: Skill.BonusDEF_P
+  nameWithType: Skill.BonusDEF_P
+- uid: Global.Skill.BonusEDF
+  name: BonusEDF
+  href: api/Global.Skill.html#Global_Skill_BonusEDF
+  commentId: P:Global.Skill.BonusEDF
+  fullName: Skill.BonusEDF
+  nameWithType: Skill.BonusEDF
+- uid: Global.Skill.BonusEDF*
+  name: BonusEDF
+  href: api/Global.Skill.html#Global_Skill_BonusEDF_
+  commentId: Overload:Global.Skill.BonusEDF
+  isSpec: "True"
+  fullName: Skill.BonusEDF
+  nameWithType: Skill.BonusEDF
+- uid: Global.Skill.BonusEDF_P
+  name: BonusEDF_P
+  href: api/Global.Skill.html#Global_Skill_BonusEDF_P
+  commentId: P:Global.Skill.BonusEDF_P
+  fullName: Skill.BonusEDF_P
+  nameWithType: Skill.BonusEDF_P
+- uid: Global.Skill.BonusEDF_P*
+  name: BonusEDF_P
+  href: api/Global.Skill.html#Global_Skill_BonusEDF_P_
+  commentId: Overload:Global.Skill.BonusEDF_P
+  isSpec: "True"
+  fullName: Skill.BonusEDF_P
+  nameWithType: Skill.BonusEDF_P
+- uid: Global.Skill.BonusERS
+  name: BonusERS
+  href: api/Global.Skill.html#Global_Skill_BonusERS
+  commentId: P:Global.Skill.BonusERS
+  fullName: Skill.BonusERS
+  nameWithType: Skill.BonusERS
+- uid: Global.Skill.BonusERS*
+  name: BonusERS
+  href: api/Global.Skill.html#Global_Skill_BonusERS_
+  commentId: Overload:Global.Skill.BonusERS
+  isSpec: "True"
+  fullName: Skill.BonusERS
+  nameWithType: Skill.BonusERS
+- uid: Global.Skill.BonusMaxHP
+  name: BonusMaxHP
+  href: api/Global.Skill.html#Global_Skill_BonusMaxHP
+  commentId: P:Global.Skill.BonusMaxHP
+  fullName: Skill.BonusMaxHP
+  nameWithType: Skill.BonusMaxHP
+- uid: Global.Skill.BonusMaxHP*
+  name: BonusMaxHP
+  href: api/Global.Skill.html#Global_Skill_BonusMaxHP_
+  commentId: Overload:Global.Skill.BonusMaxHP
+  isSpec: "True"
+  fullName: Skill.BonusMaxHP
+  nameWithType: Skill.BonusMaxHP
+- uid: Global.Skill.BonusMaxHP_P
+  name: BonusMaxHP_P
+  href: api/Global.Skill.html#Global_Skill_BonusMaxHP_P
+  commentId: P:Global.Skill.BonusMaxHP_P
+  fullName: Skill.BonusMaxHP_P
+  nameWithType: Skill.BonusMaxHP_P
+- uid: Global.Skill.BonusMaxHP_P*
+  name: BonusMaxHP_P
+  href: api/Global.Skill.html#Global_Skill_BonusMaxHP_P_
+  commentId: Overload:Global.Skill.BonusMaxHP_P
+  isSpec: "True"
+  fullName: Skill.BonusMaxHP_P
+  nameWithType: Skill.BonusMaxHP_P
+- uid: Global.Skill.BonusMaxTOU
+  name: BonusMaxTOU
+  href: api/Global.Skill.html#Global_Skill_BonusMaxTOU
+  commentId: P:Global.Skill.BonusMaxTOU
+  fullName: Skill.BonusMaxTOU
+  nameWithType: Skill.BonusMaxTOU
+- uid: Global.Skill.BonusMaxTOU*
+  name: BonusMaxTOU
+  href: api/Global.Skill.html#Global_Skill_BonusMaxTOU_
+  commentId: Overload:Global.Skill.BonusMaxTOU
+  isSpec: "True"
+  fullName: Skill.BonusMaxTOU
+  nameWithType: Skill.BonusMaxTOU
+- uid: Global.Skill.BonusMaxTOU_P
+  name: BonusMaxTOU_P
+  href: api/Global.Skill.html#Global_Skill_BonusMaxTOU_P
+  commentId: P:Global.Skill.BonusMaxTOU_P
+  fullName: Skill.BonusMaxTOU_P
+  nameWithType: Skill.BonusMaxTOU_P
+- uid: Global.Skill.BonusMaxTOU_P*
+  name: BonusMaxTOU_P
+  href: api/Global.Skill.html#Global_Skill_BonusMaxTOU_P_
+  commentId: Overload:Global.Skill.BonusMaxTOU_P
+  isSpec: "True"
+  fullName: Skill.BonusMaxTOU_P
+  nameWithType: Skill.BonusMaxTOU_P
+- uid: Global.Skill.BonusRES
+  name: BonusRES
+  href: api/Global.Skill.html#Global_Skill_BonusRES
+  commentId: P:Global.Skill.BonusRES
+  fullName: Skill.BonusRES
+  nameWithType: Skill.BonusRES
+- uid: Global.Skill.BonusRES*
+  name: BonusRES
+  href: api/Global.Skill.html#Global_Skill_BonusRES_
+  commentId: Overload:Global.Skill.BonusRES
+  isSpec: "True"
+  fullName: Skill.BonusRES
+  nameWithType: Skill.BonusRES
+- uid: Global.Skill.BonusSPD
+  name: BonusSPD
+  href: api/Global.Skill.html#Global_Skill_BonusSPD
+  commentId: P:Global.Skill.BonusSPD
+  fullName: Skill.BonusSPD
+  nameWithType: Skill.BonusSPD
+- uid: Global.Skill.BonusSPD*
+  name: BonusSPD
+  href: api/Global.Skill.html#Global_Skill_BonusSPD_
+  commentId: Overload:Global.Skill.BonusSPD
+  isSpec: "True"
+  fullName: Skill.BonusSPD
+  nameWithType: Skill.BonusSPD
+- uid: Global.Skill.BonusSPD_P
+  name: BonusSPD_P
+  href: api/Global.Skill.html#Global_Skill_BonusSPD_P
+  commentId: P:Global.Skill.BonusSPD_P
+  fullName: Skill.BonusSPD_P
+  nameWithType: Skill.BonusSPD_P
+- uid: Global.Skill.BonusSPD_P*
+  name: BonusSPD_P
+  href: api/Global.Skill.html#Global_Skill_BonusSPD_P_
+  commentId: Overload:Global.Skill.BonusSPD_P
+  isSpec: "True"
+  fullName: Skill.BonusSPD_P
+  nameWithType: Skill.BonusSPD_P
 - uid: Global.Skill.Config
   name: Config
   href: api/Global.Skill.html#Global_Skill_Config
@@ -4219,6 +4456,45 @@ references:
   commentId: F:Global.Skill.configID
   fullName: Skill.configID
   nameWithType: Skill.configID
+- uid: Global.Skill.Destroy
+  name: Destroy()
+  href: api/Global.Skill.html#Global_Skill_Destroy
+  commentId: M:Global.Skill.Destroy
+  fullName: Skill.Destroy()
+  nameWithType: Skill.Destroy()
+- uid: Global.Skill.Destroy*
+  name: Destroy
+  href: api/Global.Skill.html#Global_Skill_Destroy_
+  commentId: Overload:Global.Skill.Destroy
+  isSpec: "True"
+  fullName: Skill.Destroy
+  nameWithType: Skill.Destroy
+- uid: Global.Skill.DisableAttack
+  name: DisableAttack
+  href: api/Global.Skill.html#Global_Skill_DisableAttack
+  commentId: P:Global.Skill.DisableAttack
+  fullName: Skill.DisableAttack
+  nameWithType: Skill.DisableAttack
+- uid: Global.Skill.DisableAttack*
+  name: DisableAttack
+  href: api/Global.Skill.html#Global_Skill_DisableAttack_
+  commentId: Overload:Global.Skill.DisableAttack
+  isSpec: "True"
+  fullName: Skill.DisableAttack
+  nameWithType: Skill.DisableAttack
+- uid: Global.Skill.DisableMove
+  name: DisableMove
+  href: api/Global.Skill.html#Global_Skill_DisableMove
+  commentId: P:Global.Skill.DisableMove
+  fullName: Skill.DisableMove
+  nameWithType: Skill.DisableMove
+- uid: Global.Skill.DisableMove*
+  name: DisableMove
+  href: api/Global.Skill.html#Global_Skill_DisableMove_
+  commentId: Overload:Global.Skill.DisableMove
+  isSpec: "True"
+  fullName: Skill.DisableMove
+  nameWithType: Skill.DisableMove
 - uid: Global.Skill.EventScript
   name: EventScript
   href: api/Global.Skill.html#Global_Skill_EventScript
@@ -4232,19 +4508,6 @@ references:
   isSpec: "True"
   fullName: Skill.EventScript
   nameWithType: Skill.EventScript
-- uid: Global.Skill.Finalize
-  name: Finalize()
-  href: api/Global.Skill.html#Global_Skill_Finalize
-  commentId: M:Global.Skill.Finalize
-  fullName: Skill.Finalize()
-  nameWithType: Skill.Finalize()
-- uid: Global.Skill.Finalize*
-  name: Finalize
-  href: api/Global.Skill.html#Global_Skill_Finalize_
-  commentId: Overload:Global.Skill.Finalize
-  isSpec: "True"
-  fullName: Skill.Finalize
-  nameWithType: Skill.Finalize
 - uid: Global.Skill.GetFloat(System.Int32)
   name: GetFloat(Int32)
   href: api/Global.Skill.html#Global_Skill_GetFloat_System_Int32_
@@ -4290,6 +4553,19 @@ references:
   commentId: F:Global.Skill.id
   fullName: Skill.id
   nameWithType: Skill.id
+- uid: Global.Skill.Init
+  name: Init()
+  href: api/Global.Skill.html#Global_Skill_Init
+  commentId: M:Global.Skill.Init
+  fullName: Skill.Init()
+  nameWithType: Skill.Init()
+- uid: Global.Skill.Init*
+  name: Init
+  href: api/Global.Skill.html#Global_Skill_Init_
+  commentId: Overload:Global.Skill.Init
+  isSpec: "True"
+  fullName: Skill.Init
+  nameWithType: Skill.Init
 - uid: Global.Skill.Owner
   name: Owner
   href: api/Global.Skill.html#Global_Skill_Owner
@@ -4303,19 +4579,6 @@ references:
   isSpec: "True"
   fullName: Skill.Owner
   nameWithType: Skill.Owner
-- uid: Global.Skill.RemoveListener
-  name: RemoveListener()
-  href: api/Global.Skill.html#Global_Skill_RemoveListener
-  commentId: M:Global.Skill.RemoveListener
-  fullName: Skill.RemoveListener()
-  nameWithType: Skill.RemoveListener()
-- uid: Global.Skill.RemoveListener*
-  name: RemoveListener
-  href: api/Global.Skill.html#Global_Skill_RemoveListener_
-  commentId: Overload:Global.Skill.RemoveListener
-  isSpec: "True"
-  fullName: Skill.RemoveListener
-  nameWithType: Skill.RemoveListener
 - uid: Global.Skill.SetFloat(System.Int32,System.Single)
   name: SetFloat(Int32, Single)
   href: api/Global.Skill.html#Global_Skill_SetFloat_System_Int32_System_Single_
@@ -4625,19 +4888,19 @@ references:
   commentId: T:Global.SkillEvent000
   fullName: SkillEvent000
   nameWithType: SkillEvent000
-- uid: Global.SkillEvent000.AfterDeath(Unit)
-  name: AfterDeath(Unit)
-  href: api/Global.SkillEvent000.html#Global_SkillEvent000_AfterDeath_Unit_
-  commentId: M:Global.SkillEvent000.AfterDeath(Unit)
-  fullName: SkillEvent000.AfterDeath(Unit)
-  nameWithType: SkillEvent000.AfterDeath(Unit)
-- uid: Global.SkillEvent000.AfterDeath*
-  name: AfterDeath
-  href: api/Global.SkillEvent000.html#Global_SkillEvent000_AfterDeath_
-  commentId: Overload:Global.SkillEvent000.AfterDeath
+- uid: Global.SkillEvent000.AfterUnitDash(UnitController)
+  name: AfterUnitDash(UnitController)
+  href: api/Global.SkillEvent000.html#Global_SkillEvent000_AfterUnitDash_UnitController_
+  commentId: M:Global.SkillEvent000.AfterUnitDash(UnitController)
+  fullName: SkillEvent000.AfterUnitDash(UnitController)
+  nameWithType: SkillEvent000.AfterUnitDash(UnitController)
+- uid: Global.SkillEvent000.AfterUnitDash*
+  name: AfterUnitDash
+  href: api/Global.SkillEvent000.html#Global_SkillEvent000_AfterUnitDash_
+  commentId: Overload:Global.SkillEvent000.AfterUnitDash
   isSpec: "True"
-  fullName: SkillEvent000.AfterDeath
-  nameWithType: SkillEvent000.AfterDeath
+  fullName: SkillEvent000.AfterUnitDash
+  nameWithType: SkillEvent000.AfterUnitDash
 - uid: Global.SkillEvent000.BeforeAttack(Unit,Unit,DamageInfo)
   name: BeforeAttack(Unit, Unit, DamageInfo)
   href: api/Global.SkillEvent000.html#Global_SkillEvent000_BeforeAttack_Unit_Unit_DamageInfo_
@@ -4677,6 +4940,19 @@ references:
   isSpec: "True"
   fullName: SkillEvent000.BeforeDeath
   nameWithType: SkillEvent000.BeforeDeath
+- uid: Global.SkillEvent000.OnDeath(Unit)
+  name: OnDeath(Unit)
+  href: api/Global.SkillEvent000.html#Global_SkillEvent000_OnDeath_Unit_
+  commentId: M:Global.SkillEvent000.OnDeath(Unit)
+  fullName: SkillEvent000.OnDeath(Unit)
+  nameWithType: SkillEvent000.OnDeath(Unit)
+- uid: Global.SkillEvent000.OnDeath*
+  name: OnDeath
+  href: api/Global.SkillEvent000.html#Global_SkillEvent000_OnDeath_
+  commentId: Overload:Global.SkillEvent000.OnDeath
+  isSpec: "True"
+  fullName: SkillEvent000.OnDeath
+  nameWithType: SkillEvent000.OnDeath
 - uid: Global.SkillEvent000.OnSkillCustomTriggered(SkillController,System.String)
   name: OnSkillCustomTriggered(SkillController, String)
   href: api/Global.SkillEvent000.html#Global_SkillEvent000_OnSkillCustomTriggered_SkillController_System_String_
@@ -4813,19 +5089,19 @@ references:
   commentId: T:Global.SkillEvent001
   fullName: SkillEvent001
   nameWithType: SkillEvent001
-- uid: Global.SkillEvent001.AfterDeath(Unit)
-  name: AfterDeath(Unit)
-  href: api/Global.SkillEvent001.html#Global_SkillEvent001_AfterDeath_Unit_
-  commentId: M:Global.SkillEvent001.AfterDeath(Unit)
-  fullName: SkillEvent001.AfterDeath(Unit)
-  nameWithType: SkillEvent001.AfterDeath(Unit)
-- uid: Global.SkillEvent001.AfterDeath*
-  name: AfterDeath
-  href: api/Global.SkillEvent001.html#Global_SkillEvent001_AfterDeath_
-  commentId: Overload:Global.SkillEvent001.AfterDeath
+- uid: Global.SkillEvent001.AfterUnitDash(UnitController)
+  name: AfterUnitDash(UnitController)
+  href: api/Global.SkillEvent001.html#Global_SkillEvent001_AfterUnitDash_UnitController_
+  commentId: M:Global.SkillEvent001.AfterUnitDash(UnitController)
+  fullName: SkillEvent001.AfterUnitDash(UnitController)
+  nameWithType: SkillEvent001.AfterUnitDash(UnitController)
+- uid: Global.SkillEvent001.AfterUnitDash*
+  name: AfterUnitDash
+  href: api/Global.SkillEvent001.html#Global_SkillEvent001_AfterUnitDash_
+  commentId: Overload:Global.SkillEvent001.AfterUnitDash
   isSpec: "True"
-  fullName: SkillEvent001.AfterDeath
-  nameWithType: SkillEvent001.AfterDeath
+  fullName: SkillEvent001.AfterUnitDash
+  nameWithType: SkillEvent001.AfterUnitDash
 - uid: Global.SkillEvent001.BeforeAttack(Unit,Unit,DamageInfo)
   name: BeforeAttack(Unit, Unit, DamageInfo)
   href: api/Global.SkillEvent001.html#Global_SkillEvent001_BeforeAttack_Unit_Unit_DamageInfo_
@@ -4865,6 +5141,19 @@ references:
   isSpec: "True"
   fullName: SkillEvent001.BeforeDeath
   nameWithType: SkillEvent001.BeforeDeath
+- uid: Global.SkillEvent001.OnDeath(Unit)
+  name: OnDeath(Unit)
+  href: api/Global.SkillEvent001.html#Global_SkillEvent001_OnDeath_Unit_
+  commentId: M:Global.SkillEvent001.OnDeath(Unit)
+  fullName: SkillEvent001.OnDeath(Unit)
+  nameWithType: SkillEvent001.OnDeath(Unit)
+- uid: Global.SkillEvent001.OnDeath*
+  name: OnDeath
+  href: api/Global.SkillEvent001.html#Global_SkillEvent001_OnDeath_
+  commentId: Overload:Global.SkillEvent001.OnDeath
+  isSpec: "True"
+  fullName: SkillEvent001.OnDeath
+  nameWithType: SkillEvent001.OnDeath
 - uid: Global.SkillEvent001.OnSkillCustomTriggered(SkillController,System.String)
   name: OnSkillCustomTriggered(SkillController, String)
   href: api/Global.SkillEvent001.html#Global_SkillEvent001_OnSkillCustomTriggered_SkillController_System_String_
@@ -5001,19 +5290,19 @@ references:
   commentId: T:Global.SkillEvent002
   fullName: SkillEvent002
   nameWithType: SkillEvent002
-- uid: Global.SkillEvent002.AfterDeath(Unit)
-  name: AfterDeath(Unit)
-  href: api/Global.SkillEvent002.html#Global_SkillEvent002_AfterDeath_Unit_
-  commentId: M:Global.SkillEvent002.AfterDeath(Unit)
-  fullName: SkillEvent002.AfterDeath(Unit)
-  nameWithType: SkillEvent002.AfterDeath(Unit)
-- uid: Global.SkillEvent002.AfterDeath*
-  name: AfterDeath
-  href: api/Global.SkillEvent002.html#Global_SkillEvent002_AfterDeath_
-  commentId: Overload:Global.SkillEvent002.AfterDeath
+- uid: Global.SkillEvent002.AfterUnitDash(UnitController)
+  name: AfterUnitDash(UnitController)
+  href: api/Global.SkillEvent002.html#Global_SkillEvent002_AfterUnitDash_UnitController_
+  commentId: M:Global.SkillEvent002.AfterUnitDash(UnitController)
+  fullName: SkillEvent002.AfterUnitDash(UnitController)
+  nameWithType: SkillEvent002.AfterUnitDash(UnitController)
+- uid: Global.SkillEvent002.AfterUnitDash*
+  name: AfterUnitDash
+  href: api/Global.SkillEvent002.html#Global_SkillEvent002_AfterUnitDash_
+  commentId: Overload:Global.SkillEvent002.AfterUnitDash
   isSpec: "True"
-  fullName: SkillEvent002.AfterDeath
-  nameWithType: SkillEvent002.AfterDeath
+  fullName: SkillEvent002.AfterUnitDash
+  nameWithType: SkillEvent002.AfterUnitDash
 - uid: Global.SkillEvent002.BeforeAttack(Unit,Unit,DamageInfo)
   name: BeforeAttack(Unit, Unit, DamageInfo)
   href: api/Global.SkillEvent002.html#Global_SkillEvent002_BeforeAttack_Unit_Unit_DamageInfo_
@@ -5053,6 +5342,19 @@ references:
   isSpec: "True"
   fullName: SkillEvent002.BeforeDeath
   nameWithType: SkillEvent002.BeforeDeath
+- uid: Global.SkillEvent002.OnDeath(Unit)
+  name: OnDeath(Unit)
+  href: api/Global.SkillEvent002.html#Global_SkillEvent002_OnDeath_Unit_
+  commentId: M:Global.SkillEvent002.OnDeath(Unit)
+  fullName: SkillEvent002.OnDeath(Unit)
+  nameWithType: SkillEvent002.OnDeath(Unit)
+- uid: Global.SkillEvent002.OnDeath*
+  name: OnDeath
+  href: api/Global.SkillEvent002.html#Global_SkillEvent002_OnDeath_
+  commentId: Overload:Global.SkillEvent002.OnDeath
+  isSpec: "True"
+  fullName: SkillEvent002.OnDeath
+  nameWithType: SkillEvent002.OnDeath
 - uid: Global.SkillEvent002.OnSkillCustomTriggered(SkillController,System.String)
   name: OnSkillCustomTriggered(SkillController, String)
   href: api/Global.SkillEvent002.html#Global_SkillEvent002_OnSkillCustomTriggered_SkillController_System_String_
@@ -5189,19 +5491,19 @@ references:
   commentId: T:Global.SkillEvent003
   fullName: SkillEvent003
   nameWithType: SkillEvent003
-- uid: Global.SkillEvent003.AfterDeath(Unit)
-  name: AfterDeath(Unit)
-  href: api/Global.SkillEvent003.html#Global_SkillEvent003_AfterDeath_Unit_
-  commentId: M:Global.SkillEvent003.AfterDeath(Unit)
-  fullName: SkillEvent003.AfterDeath(Unit)
-  nameWithType: SkillEvent003.AfterDeath(Unit)
-- uid: Global.SkillEvent003.AfterDeath*
-  name: AfterDeath
-  href: api/Global.SkillEvent003.html#Global_SkillEvent003_AfterDeath_
-  commentId: Overload:Global.SkillEvent003.AfterDeath
+- uid: Global.SkillEvent003.AfterUnitDash(UnitController)
+  name: AfterUnitDash(UnitController)
+  href: api/Global.SkillEvent003.html#Global_SkillEvent003_AfterUnitDash_UnitController_
+  commentId: M:Global.SkillEvent003.AfterUnitDash(UnitController)
+  fullName: SkillEvent003.AfterUnitDash(UnitController)
+  nameWithType: SkillEvent003.AfterUnitDash(UnitController)
+- uid: Global.SkillEvent003.AfterUnitDash*
+  name: AfterUnitDash
+  href: api/Global.SkillEvent003.html#Global_SkillEvent003_AfterUnitDash_
+  commentId: Overload:Global.SkillEvent003.AfterUnitDash
   isSpec: "True"
-  fullName: SkillEvent003.AfterDeath
-  nameWithType: SkillEvent003.AfterDeath
+  fullName: SkillEvent003.AfterUnitDash
+  nameWithType: SkillEvent003.AfterUnitDash
 - uid: Global.SkillEvent003.BeforeAttack(Unit,Unit,DamageInfo)
   name: BeforeAttack(Unit, Unit, DamageInfo)
   href: api/Global.SkillEvent003.html#Global_SkillEvent003_BeforeAttack_Unit_Unit_DamageInfo_
@@ -5241,6 +5543,19 @@ references:
   isSpec: "True"
   fullName: SkillEvent003.BeforeDeath
   nameWithType: SkillEvent003.BeforeDeath
+- uid: Global.SkillEvent003.OnDeath(Unit)
+  name: OnDeath(Unit)
+  href: api/Global.SkillEvent003.html#Global_SkillEvent003_OnDeath_Unit_
+  commentId: M:Global.SkillEvent003.OnDeath(Unit)
+  fullName: SkillEvent003.OnDeath(Unit)
+  nameWithType: SkillEvent003.OnDeath(Unit)
+- uid: Global.SkillEvent003.OnDeath*
+  name: OnDeath
+  href: api/Global.SkillEvent003.html#Global_SkillEvent003_OnDeath_
+  commentId: Overload:Global.SkillEvent003.OnDeath
+  isSpec: "True"
+  fullName: SkillEvent003.OnDeath
+  nameWithType: SkillEvent003.OnDeath
 - uid: Global.SkillEvent003.OnSkillCustomTriggered(SkillController,System.String)
   name: OnSkillCustomTriggered(SkillController, String)
   href: api/Global.SkillEvent003.html#Global_SkillEvent003_OnSkillCustomTriggered_SkillController_System_String_
@@ -5377,19 +5692,19 @@ references:
   commentId: T:Global.SkillEvent004
   fullName: SkillEvent004
   nameWithType: SkillEvent004
-- uid: Global.SkillEvent004.AfterDeath(Unit)
-  name: AfterDeath(Unit)
-  href: api/Global.SkillEvent004.html#Global_SkillEvent004_AfterDeath_Unit_
-  commentId: M:Global.SkillEvent004.AfterDeath(Unit)
-  fullName: SkillEvent004.AfterDeath(Unit)
-  nameWithType: SkillEvent004.AfterDeath(Unit)
-- uid: Global.SkillEvent004.AfterDeath*
-  name: AfterDeath
-  href: api/Global.SkillEvent004.html#Global_SkillEvent004_AfterDeath_
-  commentId: Overload:Global.SkillEvent004.AfterDeath
+- uid: Global.SkillEvent004.AfterUnitDash(UnitController)
+  name: AfterUnitDash(UnitController)
+  href: api/Global.SkillEvent004.html#Global_SkillEvent004_AfterUnitDash_UnitController_
+  commentId: M:Global.SkillEvent004.AfterUnitDash(UnitController)
+  fullName: SkillEvent004.AfterUnitDash(UnitController)
+  nameWithType: SkillEvent004.AfterUnitDash(UnitController)
+- uid: Global.SkillEvent004.AfterUnitDash*
+  name: AfterUnitDash
+  href: api/Global.SkillEvent004.html#Global_SkillEvent004_AfterUnitDash_
+  commentId: Overload:Global.SkillEvent004.AfterUnitDash
   isSpec: "True"
-  fullName: SkillEvent004.AfterDeath
-  nameWithType: SkillEvent004.AfterDeath
+  fullName: SkillEvent004.AfterUnitDash
+  nameWithType: SkillEvent004.AfterUnitDash
 - uid: Global.SkillEvent004.BeforeAttack(Unit,Unit,DamageInfo)
   name: BeforeAttack(Unit, Unit, DamageInfo)
   href: api/Global.SkillEvent004.html#Global_SkillEvent004_BeforeAttack_Unit_Unit_DamageInfo_
@@ -5429,6 +5744,19 @@ references:
   isSpec: "True"
   fullName: SkillEvent004.BeforeDeath
   nameWithType: SkillEvent004.BeforeDeath
+- uid: Global.SkillEvent004.OnDeath(Unit)
+  name: OnDeath(Unit)
+  href: api/Global.SkillEvent004.html#Global_SkillEvent004_OnDeath_Unit_
+  commentId: M:Global.SkillEvent004.OnDeath(Unit)
+  fullName: SkillEvent004.OnDeath(Unit)
+  nameWithType: SkillEvent004.OnDeath(Unit)
+- uid: Global.SkillEvent004.OnDeath*
+  name: OnDeath
+  href: api/Global.SkillEvent004.html#Global_SkillEvent004_OnDeath_
+  commentId: Overload:Global.SkillEvent004.OnDeath
+  isSpec: "True"
+  fullName: SkillEvent004.OnDeath
+  nameWithType: SkillEvent004.OnDeath
 - uid: Global.SkillEvent004.OnSkillCustomTriggered(SkillController,System.String)
   name: OnSkillCustomTriggered(SkillController, String)
   href: api/Global.SkillEvent004.html#Global_SkillEvent004_OnSkillCustomTriggered_SkillController_System_String_
@@ -5577,19 +5905,19 @@ references:
   commentId: T:Global.SkillEvent005
   fullName: SkillEvent005
   nameWithType: SkillEvent005
-- uid: Global.SkillEvent005.AfterDeath(Unit)
-  name: AfterDeath(Unit)
-  href: api/Global.SkillEvent005.html#Global_SkillEvent005_AfterDeath_Unit_
-  commentId: M:Global.SkillEvent005.AfterDeath(Unit)
-  fullName: SkillEvent005.AfterDeath(Unit)
-  nameWithType: SkillEvent005.AfterDeath(Unit)
-- uid: Global.SkillEvent005.AfterDeath*
-  name: AfterDeath
-  href: api/Global.SkillEvent005.html#Global_SkillEvent005_AfterDeath_
-  commentId: Overload:Global.SkillEvent005.AfterDeath
+- uid: Global.SkillEvent005.AfterUnitDash(UnitController)
+  name: AfterUnitDash(UnitController)
+  href: api/Global.SkillEvent005.html#Global_SkillEvent005_AfterUnitDash_UnitController_
+  commentId: M:Global.SkillEvent005.AfterUnitDash(UnitController)
+  fullName: SkillEvent005.AfterUnitDash(UnitController)
+  nameWithType: SkillEvent005.AfterUnitDash(UnitController)
+- uid: Global.SkillEvent005.AfterUnitDash*
+  name: AfterUnitDash
+  href: api/Global.SkillEvent005.html#Global_SkillEvent005_AfterUnitDash_
+  commentId: Overload:Global.SkillEvent005.AfterUnitDash
   isSpec: "True"
-  fullName: SkillEvent005.AfterDeath
-  nameWithType: SkillEvent005.AfterDeath
+  fullName: SkillEvent005.AfterUnitDash
+  nameWithType: SkillEvent005.AfterUnitDash
 - uid: Global.SkillEvent005.BeforeAttack(Unit,Unit,DamageInfo)
   name: BeforeAttack(Unit, Unit, DamageInfo)
   href: api/Global.SkillEvent005.html#Global_SkillEvent005_BeforeAttack_Unit_Unit_DamageInfo_
@@ -5629,6 +5957,19 @@ references:
   isSpec: "True"
   fullName: SkillEvent005.BeforeDeath
   nameWithType: SkillEvent005.BeforeDeath
+- uid: Global.SkillEvent005.OnDeath(Unit)
+  name: OnDeath(Unit)
+  href: api/Global.SkillEvent005.html#Global_SkillEvent005_OnDeath_Unit_
+  commentId: M:Global.SkillEvent005.OnDeath(Unit)
+  fullName: SkillEvent005.OnDeath(Unit)
+  nameWithType: SkillEvent005.OnDeath(Unit)
+- uid: Global.SkillEvent005.OnDeath*
+  name: OnDeath
+  href: api/Global.SkillEvent005.html#Global_SkillEvent005_OnDeath_
+  commentId: Overload:Global.SkillEvent005.OnDeath
+  isSpec: "True"
+  fullName: SkillEvent005.OnDeath
+  nameWithType: SkillEvent005.OnDeath
 - uid: Global.SkillEvent005.OnSkillCustomTriggered(SkillController,System.String)
   name: OnSkillCustomTriggered(SkillController, String)
   href: api/Global.SkillEvent005.html#Global_SkillEvent005_OnSkillCustomTriggered_SkillController_System_String_
@@ -5765,19 +6106,19 @@ references:
   commentId: T:Global.SkillEvent006
   fullName: SkillEvent006
   nameWithType: SkillEvent006
-- uid: Global.SkillEvent006.AfterDeath(Unit)
-  name: AfterDeath(Unit)
-  href: api/Global.SkillEvent006.html#Global_SkillEvent006_AfterDeath_Unit_
-  commentId: M:Global.SkillEvent006.AfterDeath(Unit)
-  fullName: SkillEvent006.AfterDeath(Unit)
-  nameWithType: SkillEvent006.AfterDeath(Unit)
-- uid: Global.SkillEvent006.AfterDeath*
-  name: AfterDeath
-  href: api/Global.SkillEvent006.html#Global_SkillEvent006_AfterDeath_
-  commentId: Overload:Global.SkillEvent006.AfterDeath
+- uid: Global.SkillEvent006.AfterUnitDash(UnitController)
+  name: AfterUnitDash(UnitController)
+  href: api/Global.SkillEvent006.html#Global_SkillEvent006_AfterUnitDash_UnitController_
+  commentId: M:Global.SkillEvent006.AfterUnitDash(UnitController)
+  fullName: SkillEvent006.AfterUnitDash(UnitController)
+  nameWithType: SkillEvent006.AfterUnitDash(UnitController)
+- uid: Global.SkillEvent006.AfterUnitDash*
+  name: AfterUnitDash
+  href: api/Global.SkillEvent006.html#Global_SkillEvent006_AfterUnitDash_
+  commentId: Overload:Global.SkillEvent006.AfterUnitDash
   isSpec: "True"
-  fullName: SkillEvent006.AfterDeath
-  nameWithType: SkillEvent006.AfterDeath
+  fullName: SkillEvent006.AfterUnitDash
+  nameWithType: SkillEvent006.AfterUnitDash
 - uid: Global.SkillEvent006.BeforeAttack(Unit,Unit,DamageInfo)
   name: BeforeAttack(Unit, Unit, DamageInfo)
   href: api/Global.SkillEvent006.html#Global_SkillEvent006_BeforeAttack_Unit_Unit_DamageInfo_
@@ -5817,6 +6158,19 @@ references:
   isSpec: "True"
   fullName: SkillEvent006.BeforeDeath
   nameWithType: SkillEvent006.BeforeDeath
+- uid: Global.SkillEvent006.OnDeath(Unit)
+  name: OnDeath(Unit)
+  href: api/Global.SkillEvent006.html#Global_SkillEvent006_OnDeath_Unit_
+  commentId: M:Global.SkillEvent006.OnDeath(Unit)
+  fullName: SkillEvent006.OnDeath(Unit)
+  nameWithType: SkillEvent006.OnDeath(Unit)
+- uid: Global.SkillEvent006.OnDeath*
+  name: OnDeath
+  href: api/Global.SkillEvent006.html#Global_SkillEvent006_OnDeath_
+  commentId: Overload:Global.SkillEvent006.OnDeath
+  isSpec: "True"
+  fullName: SkillEvent006.OnDeath
+  nameWithType: SkillEvent006.OnDeath
 - uid: Global.SkillEvent006.OnSkillCustomTriggered(SkillController,System.String)
   name: OnSkillCustomTriggered(SkillController, String)
   href: api/Global.SkillEvent006.html#Global_SkillEvent006_OnSkillCustomTriggered_SkillController_System_String_
@@ -5953,19 +6307,19 @@ references:
   commentId: T:Global.SkillEvent007
   fullName: SkillEvent007
   nameWithType: SkillEvent007
-- uid: Global.SkillEvent007.AfterDeath(Unit)
-  name: AfterDeath(Unit)
-  href: api/Global.SkillEvent007.html#Global_SkillEvent007_AfterDeath_Unit_
-  commentId: M:Global.SkillEvent007.AfterDeath(Unit)
-  fullName: SkillEvent007.AfterDeath(Unit)
-  nameWithType: SkillEvent007.AfterDeath(Unit)
-- uid: Global.SkillEvent007.AfterDeath*
-  name: AfterDeath
-  href: api/Global.SkillEvent007.html#Global_SkillEvent007_AfterDeath_
-  commentId: Overload:Global.SkillEvent007.AfterDeath
+- uid: Global.SkillEvent007.AfterUnitDash(UnitController)
+  name: AfterUnitDash(UnitController)
+  href: api/Global.SkillEvent007.html#Global_SkillEvent007_AfterUnitDash_UnitController_
+  commentId: M:Global.SkillEvent007.AfterUnitDash(UnitController)
+  fullName: SkillEvent007.AfterUnitDash(UnitController)
+  nameWithType: SkillEvent007.AfterUnitDash(UnitController)
+- uid: Global.SkillEvent007.AfterUnitDash*
+  name: AfterUnitDash
+  href: api/Global.SkillEvent007.html#Global_SkillEvent007_AfterUnitDash_
+  commentId: Overload:Global.SkillEvent007.AfterUnitDash
   isSpec: "True"
-  fullName: SkillEvent007.AfterDeath
-  nameWithType: SkillEvent007.AfterDeath
+  fullName: SkillEvent007.AfterUnitDash
+  nameWithType: SkillEvent007.AfterUnitDash
 - uid: Global.SkillEvent007.BeforeAttack(Unit,Unit,DamageInfo)
   name: BeforeAttack(Unit, Unit, DamageInfo)
   href: api/Global.SkillEvent007.html#Global_SkillEvent007_BeforeAttack_Unit_Unit_DamageInfo_
@@ -6005,6 +6359,19 @@ references:
   isSpec: "True"
   fullName: SkillEvent007.BeforeDeath
   nameWithType: SkillEvent007.BeforeDeath
+- uid: Global.SkillEvent007.OnDeath(Unit)
+  name: OnDeath(Unit)
+  href: api/Global.SkillEvent007.html#Global_SkillEvent007_OnDeath_Unit_
+  commentId: M:Global.SkillEvent007.OnDeath(Unit)
+  fullName: SkillEvent007.OnDeath(Unit)
+  nameWithType: SkillEvent007.OnDeath(Unit)
+- uid: Global.SkillEvent007.OnDeath*
+  name: OnDeath
+  href: api/Global.SkillEvent007.html#Global_SkillEvent007_OnDeath_
+  commentId: Overload:Global.SkillEvent007.OnDeath
+  isSpec: "True"
+  fullName: SkillEvent007.OnDeath
+  nameWithType: SkillEvent007.OnDeath
 - uid: Global.SkillEvent007.OnSkillCustomTriggered(SkillController,System.String)
   name: OnSkillCustomTriggered(SkillController, String)
   href: api/Global.SkillEvent007.html#Global_SkillEvent007_OnSkillCustomTriggered_SkillController_System_String_
@@ -6195,6 +6562,18 @@ references:
   commentId: F:Global.SkillsConfigItem.bonusATK_P
   fullName: SkillsConfigItem.bonusATK_P
   nameWithType: SkillsConfigItem.bonusATK_P
+- uid: Global.SkillsConfigItem.bonusDashRange
+  name: bonusDashRange
+  href: api/Global.SkillsConfigItem.html#Global_SkillsConfigItem_bonusDashRange
+  commentId: F:Global.SkillsConfigItem.bonusDashRange
+  fullName: SkillsConfigItem.bonusDashRange
+  nameWithType: SkillsConfigItem.bonusDashRange
+- uid: Global.SkillsConfigItem.bonusDashRange_P
+  name: bonusDashRange_P
+  href: api/Global.SkillsConfigItem.html#Global_SkillsConfigItem_bonusDashRange_P
+  commentId: F:Global.SkillsConfigItem.bonusDashRange_P
+  fullName: SkillsConfigItem.bonusDashRange_P
+  nameWithType: SkillsConfigItem.bonusDashRange_P
 - uid: Global.SkillsConfigItem.bonusDEF
   name: bonusDEF
   href: api/Global.SkillsConfigItem.html#Global_SkillsConfigItem_bonusDEF
@@ -6398,6 +6777,214 @@ references:
   isSpec: "True"
   fullName: State.BeforeSave
   nameWithType: State.BeforeSave
+- uid: Global.State.BonusATK
+  name: BonusATK
+  href: api/Global.State.html#Global_State_BonusATK
+  commentId: P:Global.State.BonusATK
+  fullName: State.BonusATK
+  nameWithType: State.BonusATK
+- uid: Global.State.BonusATK*
+  name: BonusATK
+  href: api/Global.State.html#Global_State_BonusATK_
+  commentId: Overload:Global.State.BonusATK
+  isSpec: "True"
+  fullName: State.BonusATK
+  nameWithType: State.BonusATK
+- uid: Global.State.BonusATK_P
+  name: BonusATK_P
+  href: api/Global.State.html#Global_State_BonusATK_P
+  commentId: P:Global.State.BonusATK_P
+  fullName: State.BonusATK_P
+  nameWithType: State.BonusATK_P
+- uid: Global.State.BonusATK_P*
+  name: BonusATK_P
+  href: api/Global.State.html#Global_State_BonusATK_P_
+  commentId: Overload:Global.State.BonusATK_P
+  isSpec: "True"
+  fullName: State.BonusATK_P
+  nameWithType: State.BonusATK_P
+- uid: Global.State.BonusDashRange
+  name: BonusDashRange
+  href: api/Global.State.html#Global_State_BonusDashRange
+  commentId: P:Global.State.BonusDashRange
+  fullName: State.BonusDashRange
+  nameWithType: State.BonusDashRange
+- uid: Global.State.BonusDashRange*
+  name: BonusDashRange
+  href: api/Global.State.html#Global_State_BonusDashRange_
+  commentId: Overload:Global.State.BonusDashRange
+  isSpec: "True"
+  fullName: State.BonusDashRange
+  nameWithType: State.BonusDashRange
+- uid: Global.State.BonusDashRange_P
+  name: BonusDashRange_P
+  href: api/Global.State.html#Global_State_BonusDashRange_P
+  commentId: P:Global.State.BonusDashRange_P
+  fullName: State.BonusDashRange_P
+  nameWithType: State.BonusDashRange_P
+- uid: Global.State.BonusDashRange_P*
+  name: BonusDashRange_P
+  href: api/Global.State.html#Global_State_BonusDashRange_P_
+  commentId: Overload:Global.State.BonusDashRange_P
+  isSpec: "True"
+  fullName: State.BonusDashRange_P
+  nameWithType: State.BonusDashRange_P
+- uid: Global.State.BonusDEF
+  name: BonusDEF
+  href: api/Global.State.html#Global_State_BonusDEF
+  commentId: P:Global.State.BonusDEF
+  fullName: State.BonusDEF
+  nameWithType: State.BonusDEF
+- uid: Global.State.BonusDEF*
+  name: BonusDEF
+  href: api/Global.State.html#Global_State_BonusDEF_
+  commentId: Overload:Global.State.BonusDEF
+  isSpec: "True"
+  fullName: State.BonusDEF
+  nameWithType: State.BonusDEF
+- uid: Global.State.BonusDEF_P
+  name: BonusDEF_P
+  href: api/Global.State.html#Global_State_BonusDEF_P
+  commentId: P:Global.State.BonusDEF_P
+  fullName: State.BonusDEF_P
+  nameWithType: State.BonusDEF_P
+- uid: Global.State.BonusDEF_P*
+  name: BonusDEF_P
+  href: api/Global.State.html#Global_State_BonusDEF_P_
+  commentId: Overload:Global.State.BonusDEF_P
+  isSpec: "True"
+  fullName: State.BonusDEF_P
+  nameWithType: State.BonusDEF_P
+- uid: Global.State.BonusEDF
+  name: BonusEDF
+  href: api/Global.State.html#Global_State_BonusEDF
+  commentId: P:Global.State.BonusEDF
+  fullName: State.BonusEDF
+  nameWithType: State.BonusEDF
+- uid: Global.State.BonusEDF*
+  name: BonusEDF
+  href: api/Global.State.html#Global_State_BonusEDF_
+  commentId: Overload:Global.State.BonusEDF
+  isSpec: "True"
+  fullName: State.BonusEDF
+  nameWithType: State.BonusEDF
+- uid: Global.State.BonusEDF_P
+  name: BonusEDF_P
+  href: api/Global.State.html#Global_State_BonusEDF_P
+  commentId: P:Global.State.BonusEDF_P
+  fullName: State.BonusEDF_P
+  nameWithType: State.BonusEDF_P
+- uid: Global.State.BonusEDF_P*
+  name: BonusEDF_P
+  href: api/Global.State.html#Global_State_BonusEDF_P_
+  commentId: Overload:Global.State.BonusEDF_P
+  isSpec: "True"
+  fullName: State.BonusEDF_P
+  nameWithType: State.BonusEDF_P
+- uid: Global.State.BonusERS
+  name: BonusERS
+  href: api/Global.State.html#Global_State_BonusERS
+  commentId: P:Global.State.BonusERS
+  fullName: State.BonusERS
+  nameWithType: State.BonusERS
+- uid: Global.State.BonusERS*
+  name: BonusERS
+  href: api/Global.State.html#Global_State_BonusERS_
+  commentId: Overload:Global.State.BonusERS
+  isSpec: "True"
+  fullName: State.BonusERS
+  nameWithType: State.BonusERS
+- uid: Global.State.BonusMaxHP
+  name: BonusMaxHP
+  href: api/Global.State.html#Global_State_BonusMaxHP
+  commentId: P:Global.State.BonusMaxHP
+  fullName: State.BonusMaxHP
+  nameWithType: State.BonusMaxHP
+- uid: Global.State.BonusMaxHP*
+  name: BonusMaxHP
+  href: api/Global.State.html#Global_State_BonusMaxHP_
+  commentId: Overload:Global.State.BonusMaxHP
+  isSpec: "True"
+  fullName: State.BonusMaxHP
+  nameWithType: State.BonusMaxHP
+- uid: Global.State.BonusMaxHP_P
+  name: BonusMaxHP_P
+  href: api/Global.State.html#Global_State_BonusMaxHP_P
+  commentId: P:Global.State.BonusMaxHP_P
+  fullName: State.BonusMaxHP_P
+  nameWithType: State.BonusMaxHP_P
+- uid: Global.State.BonusMaxHP_P*
+  name: BonusMaxHP_P
+  href: api/Global.State.html#Global_State_BonusMaxHP_P_
+  commentId: Overload:Global.State.BonusMaxHP_P
+  isSpec: "True"
+  fullName: State.BonusMaxHP_P
+  nameWithType: State.BonusMaxHP_P
+- uid: Global.State.BonusMaxTOU
+  name: BonusMaxTOU
+  href: api/Global.State.html#Global_State_BonusMaxTOU
+  commentId: P:Global.State.BonusMaxTOU
+  fullName: State.BonusMaxTOU
+  nameWithType: State.BonusMaxTOU
+- uid: Global.State.BonusMaxTOU*
+  name: BonusMaxTOU
+  href: api/Global.State.html#Global_State_BonusMaxTOU_
+  commentId: Overload:Global.State.BonusMaxTOU
+  isSpec: "True"
+  fullName: State.BonusMaxTOU
+  nameWithType: State.BonusMaxTOU
+- uid: Global.State.BonusMaxTOU_P
+  name: BonusMaxTOU_P
+  href: api/Global.State.html#Global_State_BonusMaxTOU_P
+  commentId: P:Global.State.BonusMaxTOU_P
+  fullName: State.BonusMaxTOU_P
+  nameWithType: State.BonusMaxTOU_P
+- uid: Global.State.BonusMaxTOU_P*
+  name: BonusMaxTOU_P
+  href: api/Global.State.html#Global_State_BonusMaxTOU_P_
+  commentId: Overload:Global.State.BonusMaxTOU_P
+  isSpec: "True"
+  fullName: State.BonusMaxTOU_P
+  nameWithType: State.BonusMaxTOU_P
+- uid: Global.State.BonusRES
+  name: BonusRES
+  href: api/Global.State.html#Global_State_BonusRES
+  commentId: P:Global.State.BonusRES
+  fullName: State.BonusRES
+  nameWithType: State.BonusRES
+- uid: Global.State.BonusRES*
+  name: BonusRES
+  href: api/Global.State.html#Global_State_BonusRES_
+  commentId: Overload:Global.State.BonusRES
+  isSpec: "True"
+  fullName: State.BonusRES
+  nameWithType: State.BonusRES
+- uid: Global.State.BonusSPD
+  name: BonusSPD
+  href: api/Global.State.html#Global_State_BonusSPD
+  commentId: P:Global.State.BonusSPD
+  fullName: State.BonusSPD
+  nameWithType: State.BonusSPD
+- uid: Global.State.BonusSPD*
+  name: BonusSPD
+  href: api/Global.State.html#Global_State_BonusSPD_
+  commentId: Overload:Global.State.BonusSPD
+  isSpec: "True"
+  fullName: State.BonusSPD
+  nameWithType: State.BonusSPD
+- uid: Global.State.BonusSPD_P
+  name: BonusSPD_P
+  href: api/Global.State.html#Global_State_BonusSPD_P
+  commentId: P:Global.State.BonusSPD_P
+  fullName: State.BonusSPD_P
+  nameWithType: State.BonusSPD_P
+- uid: Global.State.BonusSPD_P*
+  name: BonusSPD_P
+  href: api/Global.State.html#Global_State_BonusSPD_P_
+  commentId: Overload:Global.State.BonusSPD_P
+  isSpec: "True"
+  fullName: State.BonusSPD_P
+  nameWithType: State.BonusSPD_P
 - uid: Global.State.Config
   name: Config
   href: api/Global.State.html#Global_State_Config
@@ -6417,6 +7004,45 @@ references:
   commentId: F:Global.State.configID
   fullName: State.configID
   nameWithType: State.configID
+- uid: Global.State.Destroy
+  name: Destroy()
+  href: api/Global.State.html#Global_State_Destroy
+  commentId: M:Global.State.Destroy
+  fullName: State.Destroy()
+  nameWithType: State.Destroy()
+- uid: Global.State.Destroy*
+  name: Destroy
+  href: api/Global.State.html#Global_State_Destroy_
+  commentId: Overload:Global.State.Destroy
+  isSpec: "True"
+  fullName: State.Destroy
+  nameWithType: State.Destroy
+- uid: Global.State.DisableAttack
+  name: DisableAttack
+  href: api/Global.State.html#Global_State_DisableAttack
+  commentId: P:Global.State.DisableAttack
+  fullName: State.DisableAttack
+  nameWithType: State.DisableAttack
+- uid: Global.State.DisableAttack*
+  name: DisableAttack
+  href: api/Global.State.html#Global_State_DisableAttack_
+  commentId: Overload:Global.State.DisableAttack
+  isSpec: "True"
+  fullName: State.DisableAttack
+  nameWithType: State.DisableAttack
+- uid: Global.State.DisableMove
+  name: DisableMove
+  href: api/Global.State.html#Global_State_DisableMove
+  commentId: P:Global.State.DisableMove
+  fullName: State.DisableMove
+  nameWithType: State.DisableMove
+- uid: Global.State.DisableMove*
+  name: DisableMove
+  href: api/Global.State.html#Global_State_DisableMove_
+  commentId: Overload:Global.State.DisableMove
+  isSpec: "True"
+  fullName: State.DisableMove
+  nameWithType: State.DisableMove
 - uid: Global.State.Duration
   name: Duration
   href: api/Global.State.html#Global_State_Duration
@@ -6456,19 +7082,45 @@ references:
   isSpec: "True"
   fullName: State.EventScript
   nameWithType: State.EventScript
-- uid: Global.State.Finalize
-  name: Finalize()
-  href: api/Global.State.html#Global_State_Finalize
-  commentId: M:Global.State.Finalize
-  fullName: State.Finalize()
-  nameWithType: State.Finalize()
-- uid: Global.State.Finalize*
-  name: Finalize
-  href: api/Global.State.html#Global_State_Finalize_
-  commentId: Overload:Global.State.Finalize
+- uid: Global.State.Init
+  name: Init()
+  href: api/Global.State.html#Global_State_Init
+  commentId: M:Global.State.Init
+  fullName: State.Init()
+  nameWithType: State.Init()
+- uid: Global.State.Init*
+  name: Init
+  href: api/Global.State.html#Global_State_Init_
+  commentId: Overload:Global.State.Init
   isSpec: "True"
-  fullName: State.Finalize
-  nameWithType: State.Finalize
+  fullName: State.Init
+  nameWithType: State.Init
+- uid: Global.State.IsEnergyAttackImmune
+  name: IsEnergyAttackImmune
+  href: api/Global.State.html#Global_State_IsEnergyAttackImmune
+  commentId: P:Global.State.IsEnergyAttackImmune
+  fullName: State.IsEnergyAttackImmune
+  nameWithType: State.IsEnergyAttackImmune
+- uid: Global.State.IsEnergyAttackImmune*
+  name: IsEnergyAttackImmune
+  href: api/Global.State.html#Global_State_IsEnergyAttackImmune_
+  commentId: Overload:Global.State.IsEnergyAttackImmune
+  isSpec: "True"
+  fullName: State.IsEnergyAttackImmune
+  nameWithType: State.IsEnergyAttackImmune
+- uid: Global.State.IsPhysicalAttackImmune
+  name: IsPhysicalAttackImmune
+  href: api/Global.State.html#Global_State_IsPhysicalAttackImmune
+  commentId: P:Global.State.IsPhysicalAttackImmune
+  fullName: State.IsPhysicalAttackImmune
+  nameWithType: State.IsPhysicalAttackImmune
+- uid: Global.State.IsPhysicalAttackImmune*
+  name: IsPhysicalAttackImmune
+  href: api/Global.State.html#Global_State_IsPhysicalAttackImmune_
+  commentId: Overload:Global.State.IsPhysicalAttackImmune
+  isSpec: "True"
+  fullName: State.IsPhysicalAttackImmune
+  nameWithType: State.IsPhysicalAttackImmune
 - uid: Global.State.Owner
   name: Owner
   href: api/Global.State.html#Global_State_Owner
@@ -6495,19 +7147,6 @@ references:
   isSpec: "True"
   fullName: State.PhysicalShield
   nameWithType: State.PhysicalShield
-- uid: Global.State.RemoveListener
-  name: RemoveListener()
-  href: api/Global.State.html#Global_State_RemoveListener
-  commentId: M:Global.State.RemoveListener
-  fullName: State.RemoveListener()
-  nameWithType: State.RemoveListener()
-- uid: Global.State.RemoveListener*
-  name: RemoveListener
-  href: api/Global.State.html#Global_State_RemoveListener_
-  commentId: Overload:Global.State.RemoveListener
-  isSpec: "True"
-  fullName: State.RemoveListener
-  nameWithType: State.RemoveListener
 - uid: Global.State.UniversalShield
   name: UniversalShield
   href: api/Global.State.html#Global_State_UniversalShield
@@ -6527,19 +7166,19 @@ references:
   commentId: T:Global.StateEvent002
   fullName: StateEvent002
   nameWithType: StateEvent002
-- uid: Global.StateEvent002.AfterDeath(Unit)
-  name: AfterDeath(Unit)
-  href: api/Global.StateEvent002.html#Global_StateEvent002_AfterDeath_Unit_
-  commentId: M:Global.StateEvent002.AfterDeath(Unit)
-  fullName: StateEvent002.AfterDeath(Unit)
-  nameWithType: StateEvent002.AfterDeath(Unit)
-- uid: Global.StateEvent002.AfterDeath*
-  name: AfterDeath
-  href: api/Global.StateEvent002.html#Global_StateEvent002_AfterDeath_
-  commentId: Overload:Global.StateEvent002.AfterDeath
+- uid: Global.StateEvent002.AfterUnitDash(UnitController)
+  name: AfterUnitDash(UnitController)
+  href: api/Global.StateEvent002.html#Global_StateEvent002_AfterUnitDash_UnitController_
+  commentId: M:Global.StateEvent002.AfterUnitDash(UnitController)
+  fullName: StateEvent002.AfterUnitDash(UnitController)
+  nameWithType: StateEvent002.AfterUnitDash(UnitController)
+- uid: Global.StateEvent002.AfterUnitDash*
+  name: AfterUnitDash
+  href: api/Global.StateEvent002.html#Global_StateEvent002_AfterUnitDash_
+  commentId: Overload:Global.StateEvent002.AfterUnitDash
   isSpec: "True"
-  fullName: StateEvent002.AfterDeath
-  nameWithType: StateEvent002.AfterDeath
+  fullName: StateEvent002.AfterUnitDash
+  nameWithType: StateEvent002.AfterUnitDash
 - uid: Global.StateEvent002.BeforeAttack(Unit,Unit,DamageInfo)
   name: BeforeAttack(Unit, Unit, DamageInfo)
   href: api/Global.StateEvent002.html#Global_StateEvent002_BeforeAttack_Unit_Unit_DamageInfo_
@@ -6579,12 +7218,31 @@ references:
   isSpec: "True"
   fullName: StateEvent002.BeforeDeath
   nameWithType: StateEvent002.BeforeDeath
-- uid: Global.StateEvent002.effectPrefab
-  name: effectPrefab
-  href: api/Global.StateEvent002.html#Global_StateEvent002_effectPrefab
-  commentId: F:Global.StateEvent002.effectPrefab
-  fullName: StateEvent002.effectPrefab
-  nameWithType: StateEvent002.effectPrefab
+- uid: Global.StateEvent002.effect1Prefab
+  name: effect1Prefab
+  href: api/Global.StateEvent002.html#Global_StateEvent002_effect1Prefab
+  commentId: F:Global.StateEvent002.effect1Prefab
+  fullName: StateEvent002.effect1Prefab
+  nameWithType: StateEvent002.effect1Prefab
+- uid: Global.StateEvent002.effect2Prefab
+  name: effect2Prefab
+  href: api/Global.StateEvent002.html#Global_StateEvent002_effect2Prefab
+  commentId: F:Global.StateEvent002.effect2Prefab
+  fullName: StateEvent002.effect2Prefab
+  nameWithType: StateEvent002.effect2Prefab
+- uid: Global.StateEvent002.OnDeath(Unit)
+  name: OnDeath(Unit)
+  href: api/Global.StateEvent002.html#Global_StateEvent002_OnDeath_Unit_
+  commentId: M:Global.StateEvent002.OnDeath(Unit)
+  fullName: StateEvent002.OnDeath(Unit)
+  nameWithType: StateEvent002.OnDeath(Unit)
+- uid: Global.StateEvent002.OnDeath*
+  name: OnDeath
+  href: api/Global.StateEvent002.html#Global_StateEvent002_OnDeath_
+  commentId: Overload:Global.StateEvent002.OnDeath
+  isSpec: "True"
+  fullName: StateEvent002.OnDeath
+  nameWithType: StateEvent002.OnDeath
 - uid: Global.StateEvent002.OnSkillCustomTriggered(SkillController,System.String)
   name: OnSkillCustomTriggered(SkillController, String)
   href: api/Global.StateEvent002.html#Global_StateEvent002_OnSkillCustomTriggered_SkillController_System_String_
@@ -6745,6 +7403,18 @@ references:
   commentId: F:Global.StatesConfigItem.bonusATK_P
   fullName: StatesConfigItem.bonusATK_P
   nameWithType: StatesConfigItem.bonusATK_P
+- uid: Global.StatesConfigItem.bonusDashRange
+  name: bonusDashRange
+  href: api/Global.StatesConfigItem.html#Global_StatesConfigItem_bonusDashRange
+  commentId: F:Global.StatesConfigItem.bonusDashRange
+  fullName: StatesConfigItem.bonusDashRange
+  nameWithType: StatesConfigItem.bonusDashRange
+- uid: Global.StatesConfigItem.bonusDashRange_P
+  name: bonusDashRange_P
+  href: api/Global.StatesConfigItem.html#Global_StatesConfigItem_bonusDashRange_P
+  commentId: F:Global.StatesConfigItem.bonusDashRange_P
+  fullName: StatesConfigItem.bonusDashRange_P
+  nameWithType: StatesConfigItem.bonusDashRange_P
 - uid: Global.StatesConfigItem.bonusDEF
   name: bonusDEF
   href: api/Global.StatesConfigItem.html#Global_StatesConfigItem_bonusDEF
@@ -6817,30 +7487,6 @@ references:
   commentId: F:Global.StatesConfigItem.bonusSPD_P
   fullName: StatesConfigItem.bonusSPD_P
   nameWithType: StatesConfigItem.bonusSPD_P
-- uid: Global.StatesConfigItem.defaultDuration
-  name: defaultDuration
-  href: api/Global.StatesConfigItem.html#Global_StatesConfigItem_defaultDuration
-  commentId: F:Global.StatesConfigItem.defaultDuration
-  fullName: StatesConfigItem.defaultDuration
-  nameWithType: StatesConfigItem.defaultDuration
-- uid: Global.StatesConfigItem.defaultEnergyShield
-  name: defaultEnergyShield
-  href: api/Global.StatesConfigItem.html#Global_StatesConfigItem_defaultEnergyShield
-  commentId: F:Global.StatesConfigItem.defaultEnergyShield
-  fullName: StatesConfigItem.defaultEnergyShield
-  nameWithType: StatesConfigItem.defaultEnergyShield
-- uid: Global.StatesConfigItem.defaultPhysicalShield
-  name: defaultPhysicalShield
-  href: api/Global.StatesConfigItem.html#Global_StatesConfigItem_defaultPhysicalShield
-  commentId: F:Global.StatesConfigItem.defaultPhysicalShield
-  fullName: StatesConfigItem.defaultPhysicalShield
-  nameWithType: StatesConfigItem.defaultPhysicalShield
-- uid: Global.StatesConfigItem.defaultUniversalShield
-  name: defaultUniversalShield
-  href: api/Global.StatesConfigItem.html#Global_StatesConfigItem_defaultUniversalShield
-  commentId: F:Global.StatesConfigItem.defaultUniversalShield
-  fullName: StatesConfigItem.defaultUniversalShield
-  nameWithType: StatesConfigItem.defaultUniversalShield
 - uid: Global.StatesConfigItem.disableAttack
   name: disableAttack
   href: api/Global.StatesConfigItem.html#Global_StatesConfigItem_disableAttack
@@ -6853,6 +7499,18 @@ references:
   commentId: F:Global.StatesConfigItem.disableMove
   fullName: StatesConfigItem.disableMove
   nameWithType: StatesConfigItem.disableMove
+- uid: Global.StatesConfigItem.duration
+  name: duration
+  href: api/Global.StatesConfigItem.html#Global_StatesConfigItem_duration
+  commentId: F:Global.StatesConfigItem.duration
+  fullName: StatesConfigItem.duration
+  nameWithType: StatesConfigItem.duration
+- uid: Global.StatesConfigItem.energyShield
+  name: energyShield
+  href: api/Global.StatesConfigItem.html#Global_StatesConfigItem_energyShield
+  commentId: F:Global.StatesConfigItem.energyShield
+  fullName: StatesConfigItem.energyShield
+  nameWithType: StatesConfigItem.energyShield
 - uid: Global.StatesConfigItem.eventScript
   name: eventScript
   href: api/Global.StatesConfigItem.html#Global_StatesConfigItem_eventScript
@@ -6883,6 +7541,18 @@ references:
   commentId: F:Global.StatesConfigItem.overridingStateList
   fullName: StatesConfigItem.overridingStateList
   nameWithType: StatesConfigItem.overridingStateList
+- uid: Global.StatesConfigItem.physicalShield
+  name: physicalShield
+  href: api/Global.StatesConfigItem.html#Global_StatesConfigItem_physicalShield
+  commentId: F:Global.StatesConfigItem.physicalShield
+  fullName: StatesConfigItem.physicalShield
+  nameWithType: StatesConfigItem.physicalShield
+- uid: Global.StatesConfigItem.universalShield
+  name: universalShield
+  href: api/Global.StatesConfigItem.html#Global_StatesConfigItem_universalShield
+  commentId: F:Global.StatesConfigItem.universalShield
+  fullName: StatesConfigItem.universalShield
+  nameWithType: StatesConfigItem.universalShield
 - uid: Global.SystemData
   name: SystemData
   href: api/Global.SystemData.html
@@ -7179,6 +7849,12 @@ references:
   commentId: F:Global.Unit._basicATK
   fullName: Unit._basicATK
   nameWithType: Unit._basicATK
+- uid: Global.Unit._basicDashRange
+  name: _basicDashRange
+  href: api/Global.Unit.html#Global_Unit__basicDashRange
+  commentId: F:Global.Unit._basicDashRange
+  fullName: Unit._basicDashRange
+  nameWithType: Unit._basicDashRange
 - uid: Global.Unit._basicDEF
   name: _basicDEF
   href: api/Global.Unit.html#Global_Unit__basicDEF
@@ -7227,6 +7903,12 @@ references:
   commentId: F:Global.Unit._hp
   fullName: Unit._hp
   nameWithType: Unit._hp
+- uid: Global.Unit._itemSkillList
+  name: _itemSkillList
+  href: api/Global.Unit.html#Global_Unit__itemSkillList
+  commentId: F:Global.Unit._itemSkillList
+  fullName: Unit._itemSkillList
+  nameWithType: Unit._itemSkillList
 - uid: Global.Unit._skillList
   name: _skillList
   href: api/Global.Unit.html#Global_Unit__skillList
@@ -7245,6 +7927,19 @@ references:
   commentId: F:Global.Unit._tou
   fullName: Unit._tou
   nameWithType: Unit._tou
+- uid: Global.Unit.AddItemSkill(Skill)
+  name: AddItemSkill(Skill)
+  href: api/Global.Unit.html#Global_Unit_AddItemSkill_Skill_
+  commentId: M:Global.Unit.AddItemSkill(Skill)
+  fullName: Unit.AddItemSkill(Skill)
+  nameWithType: Unit.AddItemSkill(Skill)
+- uid: Global.Unit.AddItemSkill*
+  name: AddItemSkill
+  href: api/Global.Unit.html#Global_Unit_AddItemSkill_
+  commentId: Overload:Global.Unit.AddItemSkill
+  isSpec: "True"
+  fullName: Unit.AddItemSkill
+  nameWithType: Unit.AddItemSkill
 - uid: Global.Unit.AddListener
   name: AddListener()
   href: api/Global.Unit.html#Global_Unit_AddListener
@@ -7271,12 +7966,6 @@ references:
   isSpec: "True"
   fullName: Unit.AddState
   nameWithType: Unit.AddState
-- uid: Global.Unit.AfterDeath
-  name: AfterDeath
-  href: api/Global.Unit.html#Global_Unit_AfterDeath
-  commentId: E:Global.Unit.AfterDeath
-  fullName: Unit.AfterDeath
-  nameWithType: Unit.AfterDeath
 - uid: Global.Unit.AfterLoad
   name: AfterLoad()
   href: api/Global.Unit.html#Global_Unit_AfterLoad
@@ -7316,6 +8005,19 @@ references:
   isSpec: "True"
   fullName: Unit.BasicATK
   nameWithType: Unit.BasicATK
+- uid: Global.Unit.BasicDashRange
+  name: BasicDashRange
+  href: api/Global.Unit.html#Global_Unit_BasicDashRange
+  commentId: P:Global.Unit.BasicDashRange
+  fullName: Unit.BasicDashRange
+  nameWithType: Unit.BasicDashRange
+- uid: Global.Unit.BasicDashRange*
+  name: BasicDashRange
+  href: api/Global.Unit.html#Global_Unit_BasicDashRange_
+  commentId: Overload:Global.Unit.BasicDashRange
+  isSpec: "True"
+  fullName: Unit.BasicDashRange
+  nameWithType: Unit.BasicDashRange
 - uid: Global.Unit.BasicDEF
   name: BasicDEF
   href: api/Global.Unit.html#Global_Unit_BasicDEF
@@ -7458,6 +8160,32 @@ references:
   isSpec: "True"
   fullName: Unit.BonusATK_P
   nameWithType: Unit.BonusATK_P
+- uid: Global.Unit.BonusDashRange
+  name: BonusDashRange
+  href: api/Global.Unit.html#Global_Unit_BonusDashRange
+  commentId: P:Global.Unit.BonusDashRange
+  fullName: Unit.BonusDashRange
+  nameWithType: Unit.BonusDashRange
+- uid: Global.Unit.BonusDashRange*
+  name: BonusDashRange
+  href: api/Global.Unit.html#Global_Unit_BonusDashRange_
+  commentId: Overload:Global.Unit.BonusDashRange
+  isSpec: "True"
+  fullName: Unit.BonusDashRange
+  nameWithType: Unit.BonusDashRange
+- uid: Global.Unit.BonusDashRange_P
+  name: BonusDashRange_P
+  href: api/Global.Unit.html#Global_Unit_BonusDashRange_P
+  commentId: P:Global.Unit.BonusDashRange_P
+  fullName: Unit.BonusDashRange_P
+  nameWithType: Unit.BonusDashRange_P
+- uid: Global.Unit.BonusDashRange_P*
+  name: BonusDashRange_P
+  href: api/Global.Unit.html#Global_Unit_BonusDashRange_P_
+  commentId: Overload:Global.Unit.BonusDashRange_P
+  isSpec: "True"
+  fullName: Unit.BonusDashRange_P
+  nameWithType: Unit.BonusDashRange_P
 - uid: Global.Unit.BonusDEF
   name: BonusDEF
   href: api/Global.Unit.html#Global_Unit_BonusDEF
@@ -7665,6 +8393,19 @@ references:
   commentId: T:Global.Unit.DamagedHandler
   fullName: Unit.DamagedHandler
   nameWithType: Unit.DamagedHandler
+- uid: Global.Unit.DashRange
+  name: DashRange
+  href: api/Global.Unit.html#Global_Unit_DashRange
+  commentId: P:Global.Unit.DashRange
+  fullName: Unit.DashRange
+  nameWithType: Unit.DashRange
+- uid: Global.Unit.DashRange*
+  name: DashRange
+  href: api/Global.Unit.html#Global_Unit_DashRange_
+  commentId: Overload:Global.Unit.DashRange
+  isSpec: "True"
+  fullName: Unit.DashRange
+  nameWithType: Unit.DashRange
 - uid: Global.Unit.DEF
   name: DEF
   href: api/Global.Unit.html#Global_Unit_DEF
@@ -7678,6 +8419,19 @@ references:
   isSpec: "True"
   fullName: Unit.DEF
   nameWithType: Unit.DEF
+- uid: Global.Unit.Destroy
+  name: Destroy()
+  href: api/Global.Unit.html#Global_Unit_Destroy
+  commentId: M:Global.Unit.Destroy
+  fullName: Unit.Destroy()
+  nameWithType: Unit.Destroy()
+- uid: Global.Unit.Destroy*
+  name: Destroy
+  href: api/Global.Unit.html#Global_Unit_Destroy_
+  commentId: Overload:Global.Unit.Destroy
+  isSpec: "True"
+  fullName: Unit.Destroy
+  nameWithType: Unit.Destroy
 - uid: Global.Unit.EDF
   name: EDF
   href: api/Global.Unit.html#Global_Unit_EDF
@@ -7730,19 +8484,6 @@ references:
   isSpec: "True"
   fullName: Unit.EventScript
   nameWithType: Unit.EventScript
-- uid: Global.Unit.Finalize
-  name: Finalize()
-  href: api/Global.Unit.html#Global_Unit_Finalize
-  commentId: M:Global.Unit.Finalize
-  fullName: Unit.Finalize()
-  nameWithType: Unit.Finalize()
-- uid: Global.Unit.Finalize*
-  name: Finalize
-  href: api/Global.Unit.html#Global_Unit_Finalize_
-  commentId: Overload:Global.Unit.Finalize
-  isSpec: "True"
-  fullName: Unit.Finalize
-  nameWithType: Unit.Finalize
 - uid: Global.Unit.ForgetSkill(Skill)
   name: ForgetSkill(Skill)
   href: api/Global.Unit.html#Global_Unit_ForgetSkill_Skill_
@@ -7756,6 +8497,19 @@ references:
   isSpec: "True"
   fullName: Unit.ForgetSkill
   nameWithType: Unit.ForgetSkill
+- uid: Global.Unit.GetItemSkills
+  name: GetItemSkills()
+  href: api/Global.Unit.html#Global_Unit_GetItemSkills
+  commentId: M:Global.Unit.GetItemSkills
+  fullName: Unit.GetItemSkills()
+  nameWithType: Unit.GetItemSkills()
+- uid: Global.Unit.GetItemSkills*
+  name: GetItemSkills
+  href: api/Global.Unit.html#Global_Unit_GetItemSkills_
+  commentId: Overload:Global.Unit.GetItemSkills
+  isSpec: "True"
+  fullName: Unit.GetItemSkills
+  nameWithType: Unit.GetItemSkills
 - uid: Global.Unit.GetSkills
   name: GetSkills()
   href: api/Global.Unit.html#Global_Unit_GetSkills
@@ -7886,6 +8640,12 @@ references:
   isSpec: "True"
   fullName: Unit.MaxTOU
   nameWithType: Unit.MaxTOU
+- uid: Global.Unit.OnDeath
+  name: OnDeath
+  href: api/Global.Unit.html#Global_Unit_OnDeath
+  commentId: E:Global.Unit.OnDeath
+  fullName: Unit.OnDeath
+  nameWithType: Unit.OnDeath
 - uid: Global.Unit.PhysicalShield
   name: PhysicalShield
   href: api/Global.Unit.html#Global_Unit_PhysicalShield
@@ -7899,19 +8659,19 @@ references:
   isSpec: "True"
   fullName: Unit.PhysicalShield
   nameWithType: Unit.PhysicalShield
-- uid: Global.Unit.RemoveListener
-  name: RemoveListener()
-  href: api/Global.Unit.html#Global_Unit_RemoveListener
-  commentId: M:Global.Unit.RemoveListener
-  fullName: Unit.RemoveListener()
-  nameWithType: Unit.RemoveListener()
-- uid: Global.Unit.RemoveListener*
-  name: RemoveListener
-  href: api/Global.Unit.html#Global_Unit_RemoveListener_
-  commentId: Overload:Global.Unit.RemoveListener
+- uid: Global.Unit.RemoveItemSkill(Skill)
+  name: RemoveItemSkill(Skill)
+  href: api/Global.Unit.html#Global_Unit_RemoveItemSkill_Skill_
+  commentId: M:Global.Unit.RemoveItemSkill(Skill)
+  fullName: Unit.RemoveItemSkill(Skill)
+  nameWithType: Unit.RemoveItemSkill(Skill)
+- uid: Global.Unit.RemoveItemSkill*
+  name: RemoveItemSkill
+  href: api/Global.Unit.html#Global_Unit_RemoveItemSkill_
+  commentId: Overload:Global.Unit.RemoveItemSkill
   isSpec: "True"
-  fullName: Unit.RemoveListener
-  nameWithType: Unit.RemoveListener
+  fullName: Unit.RemoveItemSkill
+  nameWithType: Unit.RemoveItemSkill
 - uid: Global.Unit.RemoveState(State)
   name: RemoveState(State)
   href: api/Global.Unit.html#Global_Unit_RemoveState_State_
@@ -8185,25 +8945,44 @@ references:
   isSpec: "True"
   fullName: UnitController.UseSkill
   nameWithType: UnitController.UseSkill
+- uid: Global.UnitEvent
+  name: UnitEvent
+  href: api/Global.UnitEvent.html
+  commentId: T:Global.UnitEvent
+  fullName: UnitEvent
+  nameWithType: UnitEvent
+- uid: Global.UnitEvent.Dash(UnitController)
+  name: Dash(UnitController)
+  href: api/Global.UnitEvent.html#Global_UnitEvent_Dash_UnitController_
+  commentId: M:Global.UnitEvent.Dash(UnitController)
+  fullName: UnitEvent.Dash(UnitController)
+  nameWithType: UnitEvent.Dash(UnitController)
+- uid: Global.UnitEvent.Dash*
+  name: Dash
+  href: api/Global.UnitEvent.html#Global_UnitEvent_Dash_
+  commentId: Overload:Global.UnitEvent.Dash
+  isSpec: "True"
+  fullName: UnitEvent.Dash
+  nameWithType: UnitEvent.Dash
 - uid: Global.UnitEvent000
   name: UnitEvent000
   href: api/Global.UnitEvent000.html
   commentId: T:Global.UnitEvent000
   fullName: UnitEvent000
   nameWithType: UnitEvent000
-- uid: Global.UnitEvent000.AfterDeath(Unit)
-  name: AfterDeath(Unit)
-  href: api/Global.UnitEvent000.html#Global_UnitEvent000_AfterDeath_Unit_
-  commentId: M:Global.UnitEvent000.AfterDeath(Unit)
-  fullName: UnitEvent000.AfterDeath(Unit)
-  nameWithType: UnitEvent000.AfterDeath(Unit)
-- uid: Global.UnitEvent000.AfterDeath*
-  name: AfterDeath
-  href: api/Global.UnitEvent000.html#Global_UnitEvent000_AfterDeath_
-  commentId: Overload:Global.UnitEvent000.AfterDeath
+- uid: Global.UnitEvent000.AfterUnitDash(UnitController)
+  name: AfterUnitDash(UnitController)
+  href: api/Global.UnitEvent000.html#Global_UnitEvent000_AfterUnitDash_UnitController_
+  commentId: M:Global.UnitEvent000.AfterUnitDash(UnitController)
+  fullName: UnitEvent000.AfterUnitDash(UnitController)
+  nameWithType: UnitEvent000.AfterUnitDash(UnitController)
+- uid: Global.UnitEvent000.AfterUnitDash*
+  name: AfterUnitDash
+  href: api/Global.UnitEvent000.html#Global_UnitEvent000_AfterUnitDash_
+  commentId: Overload:Global.UnitEvent000.AfterUnitDash
   isSpec: "True"
-  fullName: UnitEvent000.AfterDeath
-  nameWithType: UnitEvent000.AfterDeath
+  fullName: UnitEvent000.AfterUnitDash
+  nameWithType: UnitEvent000.AfterUnitDash
 - uid: Global.UnitEvent000.BeforeAttack(Unit,Unit,DamageInfo)
   name: BeforeAttack(Unit, Unit, DamageInfo)
   href: api/Global.UnitEvent000.html#Global_UnitEvent000_BeforeAttack_Unit_Unit_DamageInfo_
@@ -8243,6 +9022,19 @@ references:
   isSpec: "True"
   fullName: UnitEvent000.BeforeDeath
   nameWithType: UnitEvent000.BeforeDeath
+- uid: Global.UnitEvent000.OnDeath(Unit)
+  name: OnDeath(Unit)
+  href: api/Global.UnitEvent000.html#Global_UnitEvent000_OnDeath_Unit_
+  commentId: M:Global.UnitEvent000.OnDeath(Unit)
+  fullName: UnitEvent000.OnDeath(Unit)
+  nameWithType: UnitEvent000.OnDeath(Unit)
+- uid: Global.UnitEvent000.OnDeath*
+  name: OnDeath
+  href: api/Global.UnitEvent000.html#Global_UnitEvent000_OnDeath_
+  commentId: Overload:Global.UnitEvent000.OnDeath
+  isSpec: "True"
+  fullName: UnitEvent000.OnDeath
+  nameWithType: UnitEvent000.OnDeath
 - uid: Global.UnitEvent000.OnSkillCustomTriggered(SkillController,System.String)
   name: OnSkillCustomTriggered(SkillController, String)
   href: api/Global.UnitEvent000.html#Global_UnitEvent000_OnSkillCustomTriggered_SkillController_System_String_
@@ -8379,19 +9171,19 @@ references:
   commentId: T:Global.UnitEvent002
   fullName: UnitEvent002
   nameWithType: UnitEvent002
-- uid: Global.UnitEvent002.AfterDeath(Unit)
-  name: AfterDeath(Unit)
-  href: api/Global.UnitEvent002.html#Global_UnitEvent002_AfterDeath_Unit_
-  commentId: M:Global.UnitEvent002.AfterDeath(Unit)
-  fullName: UnitEvent002.AfterDeath(Unit)
-  nameWithType: UnitEvent002.AfterDeath(Unit)
-- uid: Global.UnitEvent002.AfterDeath*
-  name: AfterDeath
-  href: api/Global.UnitEvent002.html#Global_UnitEvent002_AfterDeath_
-  commentId: Overload:Global.UnitEvent002.AfterDeath
+- uid: Global.UnitEvent002.AfterUnitDash(UnitController)
+  name: AfterUnitDash(UnitController)
+  href: api/Global.UnitEvent002.html#Global_UnitEvent002_AfterUnitDash_UnitController_
+  commentId: M:Global.UnitEvent002.AfterUnitDash(UnitController)
+  fullName: UnitEvent002.AfterUnitDash(UnitController)
+  nameWithType: UnitEvent002.AfterUnitDash(UnitController)
+- uid: Global.UnitEvent002.AfterUnitDash*
+  name: AfterUnitDash
+  href: api/Global.UnitEvent002.html#Global_UnitEvent002_AfterUnitDash_
+  commentId: Overload:Global.UnitEvent002.AfterUnitDash
   isSpec: "True"
-  fullName: UnitEvent002.AfterDeath
-  nameWithType: UnitEvent002.AfterDeath
+  fullName: UnitEvent002.AfterUnitDash
+  nameWithType: UnitEvent002.AfterUnitDash
 - uid: Global.UnitEvent002.BeforeAttack(Unit,Unit,DamageInfo)
   name: BeforeAttack(Unit, Unit, DamageInfo)
   href: api/Global.UnitEvent002.html#Global_UnitEvent002_BeforeAttack_Unit_Unit_DamageInfo_
@@ -8431,6 +9223,19 @@ references:
   isSpec: "True"
   fullName: UnitEvent002.BeforeDeath
   nameWithType: UnitEvent002.BeforeDeath
+- uid: Global.UnitEvent002.OnDeath(Unit)
+  name: OnDeath(Unit)
+  href: api/Global.UnitEvent002.html#Global_UnitEvent002_OnDeath_Unit_
+  commentId: M:Global.UnitEvent002.OnDeath(Unit)
+  fullName: UnitEvent002.OnDeath(Unit)
+  nameWithType: UnitEvent002.OnDeath(Unit)
+- uid: Global.UnitEvent002.OnDeath*
+  name: OnDeath
+  href: api/Global.UnitEvent002.html#Global_UnitEvent002_OnDeath_
+  commentId: Overload:Global.UnitEvent002.OnDeath
+  isSpec: "True"
+  fullName: UnitEvent002.OnDeath
+  nameWithType: UnitEvent002.OnDeath
 - uid: Global.UnitEvent002.OnSkillCustomTriggered(SkillController,System.String)
   name: OnSkillCustomTriggered(SkillController, String)
   href: api/Global.UnitEvent002.html#Global_UnitEvent002_OnSkillCustomTriggered_SkillController_System_String_
@@ -8573,19 +9378,19 @@ references:
   commentId: T:Global.UnitEvent007
   fullName: UnitEvent007
   nameWithType: UnitEvent007
-- uid: Global.UnitEvent007.AfterDeath(Unit)
-  name: AfterDeath(Unit)
-  href: api/Global.UnitEvent007.html#Global_UnitEvent007_AfterDeath_Unit_
-  commentId: M:Global.UnitEvent007.AfterDeath(Unit)
-  fullName: UnitEvent007.AfterDeath(Unit)
-  nameWithType: UnitEvent007.AfterDeath(Unit)
-- uid: Global.UnitEvent007.AfterDeath*
-  name: AfterDeath
-  href: api/Global.UnitEvent007.html#Global_UnitEvent007_AfterDeath_
-  commentId: Overload:Global.UnitEvent007.AfterDeath
+- uid: Global.UnitEvent007.AfterUnitDash(UnitController)
+  name: AfterUnitDash(UnitController)
+  href: api/Global.UnitEvent007.html#Global_UnitEvent007_AfterUnitDash_UnitController_
+  commentId: M:Global.UnitEvent007.AfterUnitDash(UnitController)
+  fullName: UnitEvent007.AfterUnitDash(UnitController)
+  nameWithType: UnitEvent007.AfterUnitDash(UnitController)
+- uid: Global.UnitEvent007.AfterUnitDash*
+  name: AfterUnitDash
+  href: api/Global.UnitEvent007.html#Global_UnitEvent007_AfterUnitDash_
+  commentId: Overload:Global.UnitEvent007.AfterUnitDash
   isSpec: "True"
-  fullName: UnitEvent007.AfterDeath
-  nameWithType: UnitEvent007.AfterDeath
+  fullName: UnitEvent007.AfterUnitDash
+  nameWithType: UnitEvent007.AfterUnitDash
 - uid: Global.UnitEvent007.BeforeAttack(Unit,Unit,DamageInfo)
   name: BeforeAttack(Unit, Unit, DamageInfo)
   href: api/Global.UnitEvent007.html#Global_UnitEvent007_BeforeAttack_Unit_Unit_DamageInfo_
@@ -8625,6 +9430,19 @@ references:
   isSpec: "True"
   fullName: UnitEvent007.BeforeDeath
   nameWithType: UnitEvent007.BeforeDeath
+- uid: Global.UnitEvent007.OnDeath(Unit)
+  name: OnDeath(Unit)
+  href: api/Global.UnitEvent007.html#Global_UnitEvent007_OnDeath_Unit_
+  commentId: M:Global.UnitEvent007.OnDeath(Unit)
+  fullName: UnitEvent007.OnDeath(Unit)
+  nameWithType: UnitEvent007.OnDeath(Unit)
+- uid: Global.UnitEvent007.OnDeath*
+  name: OnDeath
+  href: api/Global.UnitEvent007.html#Global_UnitEvent007_OnDeath_
+  commentId: Overload:Global.UnitEvent007.OnDeath
+  isSpec: "True"
+  fullName: UnitEvent007.OnDeath
+  nameWithType: UnitEvent007.OnDeath
 - uid: Global.UnitEvent007.OnSkillCustomTriggered(SkillController,System.String)
   name: OnSkillCustomTriggered(SkillController, String)
   href: api/Global.UnitEvent007.html#Global_UnitEvent007_OnSkillCustomTriggered_SkillController_System_String_
@@ -8767,19 +9585,19 @@ references:
   commentId: T:Global.UnitEvent010
   fullName: UnitEvent010
   nameWithType: UnitEvent010
-- uid: Global.UnitEvent010.AfterDeath(Unit)
-  name: AfterDeath(Unit)
-  href: api/Global.UnitEvent010.html#Global_UnitEvent010_AfterDeath_Unit_
-  commentId: M:Global.UnitEvent010.AfterDeath(Unit)
-  fullName: UnitEvent010.AfterDeath(Unit)
-  nameWithType: UnitEvent010.AfterDeath(Unit)
-- uid: Global.UnitEvent010.AfterDeath*
-  name: AfterDeath
-  href: api/Global.UnitEvent010.html#Global_UnitEvent010_AfterDeath_
-  commentId: Overload:Global.UnitEvent010.AfterDeath
+- uid: Global.UnitEvent010.AfterUnitDash(UnitController)
+  name: AfterUnitDash(UnitController)
+  href: api/Global.UnitEvent010.html#Global_UnitEvent010_AfterUnitDash_UnitController_
+  commentId: M:Global.UnitEvent010.AfterUnitDash(UnitController)
+  fullName: UnitEvent010.AfterUnitDash(UnitController)
+  nameWithType: UnitEvent010.AfterUnitDash(UnitController)
+- uid: Global.UnitEvent010.AfterUnitDash*
+  name: AfterUnitDash
+  href: api/Global.UnitEvent010.html#Global_UnitEvent010_AfterUnitDash_
+  commentId: Overload:Global.UnitEvent010.AfterUnitDash
   isSpec: "True"
-  fullName: UnitEvent010.AfterDeath
-  nameWithType: UnitEvent010.AfterDeath
+  fullName: UnitEvent010.AfterUnitDash
+  nameWithType: UnitEvent010.AfterUnitDash
 - uid: Global.UnitEvent010.BeforeAttack(Unit,Unit,DamageInfo)
   name: BeforeAttack(Unit, Unit, DamageInfo)
   href: api/Global.UnitEvent010.html#Global_UnitEvent010_BeforeAttack_Unit_Unit_DamageInfo_
@@ -8819,6 +9637,19 @@ references:
   isSpec: "True"
   fullName: UnitEvent010.BeforeDeath
   nameWithType: UnitEvent010.BeforeDeath
+- uid: Global.UnitEvent010.OnDeath(Unit)
+  name: OnDeath(Unit)
+  href: api/Global.UnitEvent010.html#Global_UnitEvent010_OnDeath_Unit_
+  commentId: M:Global.UnitEvent010.OnDeath(Unit)
+  fullName: UnitEvent010.OnDeath(Unit)
+  nameWithType: UnitEvent010.OnDeath(Unit)
+- uid: Global.UnitEvent010.OnDeath*
+  name: OnDeath
+  href: api/Global.UnitEvent010.html#Global_UnitEvent010_OnDeath_
+  commentId: Overload:Global.UnitEvent010.OnDeath
+  isSpec: "True"
+  fullName: UnitEvent010.OnDeath
+  nameWithType: UnitEvent010.OnDeath
 - uid: Global.UnitEvent010.OnSkillCustomTriggered(SkillController,System.String)
   name: OnSkillCustomTriggered(SkillController, String)
   href: api/Global.UnitEvent010.html#Global_UnitEvent010_OnSkillCustomTriggered_SkillController_System_String_
@@ -8949,6 +9780,123 @@ references:
   isSpec: "True"
   fullName: UnitEvent010.OnUnitInit
   nameWithType: UnitEvent010.OnUnitInit
+- uid: Global.UnitInfoView
+  name: UnitInfoView
+  href: api/Global.UnitInfoView.html
+  commentId: T:Global.UnitInfoView
+  fullName: UnitInfoView
+  nameWithType: UnitInfoView
+- uid: Global.UnitInfoView.atkText
+  name: atkText
+  href: api/Global.UnitInfoView.html#Global_UnitInfoView_atkText
+  commentId: F:Global.UnitInfoView.atkText
+  fullName: UnitInfoView.atkText
+  nameWithType: UnitInfoView.atkText
+- uid: Global.UnitInfoView.dashRangeText
+  name: dashRangeText
+  href: api/Global.UnitInfoView.html#Global_UnitInfoView_dashRangeText
+  commentId: F:Global.UnitInfoView.dashRangeText
+  fullName: UnitInfoView.dashRangeText
+  nameWithType: UnitInfoView.dashRangeText
+- uid: Global.UnitInfoView.defText
+  name: defText
+  href: api/Global.UnitInfoView.html#Global_UnitInfoView_defText
+  commentId: F:Global.UnitInfoView.defText
+  fullName: UnitInfoView.defText
+  nameWithType: UnitInfoView.defText
+- uid: Global.UnitInfoView.edfText
+  name: edfText
+  href: api/Global.UnitInfoView.html#Global_UnitInfoView_edfText
+  commentId: F:Global.UnitInfoView.edfText
+  fullName: UnitInfoView.edfText
+  nameWithType: UnitInfoView.edfText
+- uid: Global.UnitInfoView.energyShieldText
+  name: energyShieldText
+  href: api/Global.UnitInfoView.html#Global_UnitInfoView_energyShieldText
+  commentId: F:Global.UnitInfoView.energyShieldText
+  fullName: UnitInfoView.energyShieldText
+  nameWithType: UnitInfoView.energyShieldText
+- uid: Global.UnitInfoView.ersText
+  name: ersText
+  href: api/Global.UnitInfoView.html#Global_UnitInfoView_ersText
+  commentId: F:Global.UnitInfoView.ersText
+  fullName: UnitInfoView.ersText
+  nameWithType: UnitInfoView.ersText
+- uid: Global.UnitInfoView.hpText
+  name: hpText
+  href: api/Global.UnitInfoView.html#Global_UnitInfoView_hpText
+  commentId: F:Global.UnitInfoView.hpText
+  fullName: UnitInfoView.hpText
+  nameWithType: UnitInfoView.hpText
+- uid: Global.UnitInfoView.OnClose
+  name: OnClose()
+  href: api/Global.UnitInfoView.html#Global_UnitInfoView_OnClose
+  commentId: M:Global.UnitInfoView.OnClose
+  fullName: UnitInfoView.OnClose()
+  nameWithType: UnitInfoView.OnClose()
+- uid: Global.UnitInfoView.OnClose*
+  name: OnClose
+  href: api/Global.UnitInfoView.html#Global_UnitInfoView_OnClose_
+  commentId: Overload:Global.UnitInfoView.OnClose
+  isSpec: "True"
+  fullName: UnitInfoView.OnClose
+  nameWithType: UnitInfoView.OnClose
+- uid: Global.UnitInfoView.OnOpen
+  name: OnOpen()
+  href: api/Global.UnitInfoView.html#Global_UnitInfoView_OnOpen
+  commentId: M:Global.UnitInfoView.OnOpen
+  fullName: UnitInfoView.OnOpen()
+  nameWithType: UnitInfoView.OnOpen()
+- uid: Global.UnitInfoView.OnOpen*
+  name: OnOpen
+  href: api/Global.UnitInfoView.html#Global_UnitInfoView_OnOpen_
+  commentId: Overload:Global.UnitInfoView.OnOpen
+  isSpec: "True"
+  fullName: UnitInfoView.OnOpen
+  nameWithType: UnitInfoView.OnOpen
+- uid: Global.UnitInfoView.physicalShieldText
+  name: physicalShieldText
+  href: api/Global.UnitInfoView.html#Global_UnitInfoView_physicalShieldText
+  commentId: F:Global.UnitInfoView.physicalShieldText
+  fullName: UnitInfoView.physicalShieldText
+  nameWithType: UnitInfoView.physicalShieldText
+- uid: Global.UnitInfoView.RealRefresh
+  name: RealRefresh()
+  href: api/Global.UnitInfoView.html#Global_UnitInfoView_RealRefresh
+  commentId: M:Global.UnitInfoView.RealRefresh
+  fullName: UnitInfoView.RealRefresh()
+  nameWithType: UnitInfoView.RealRefresh()
+- uid: Global.UnitInfoView.RealRefresh*
+  name: RealRefresh
+  href: api/Global.UnitInfoView.html#Global_UnitInfoView_RealRefresh_
+  commentId: Overload:Global.UnitInfoView.RealRefresh
+  isSpec: "True"
+  fullName: UnitInfoView.RealRefresh
+  nameWithType: UnitInfoView.RealRefresh
+- uid: Global.UnitInfoView.resText
+  name: resText
+  href: api/Global.UnitInfoView.html#Global_UnitInfoView_resText
+  commentId: F:Global.UnitInfoView.resText
+  fullName: UnitInfoView.resText
+  nameWithType: UnitInfoView.resText
+- uid: Global.UnitInfoView.spdText
+  name: spdText
+  href: api/Global.UnitInfoView.html#Global_UnitInfoView_spdText
+  commentId: F:Global.UnitInfoView.spdText
+  fullName: UnitInfoView.spdText
+  nameWithType: UnitInfoView.spdText
+- uid: Global.UnitInfoView.touText
+  name: touText
+  href: api/Global.UnitInfoView.html#Global_UnitInfoView_touText
+  commentId: F:Global.UnitInfoView.touText
+  fullName: UnitInfoView.touText
+  nameWithType: UnitInfoView.touText
+- uid: Global.UnitInfoView.universalShieldText
+  name: universalShieldText
+  href: api/Global.UnitInfoView.html#Global_UnitInfoView_universalShieldText
+  commentId: F:Global.UnitInfoView.universalShieldText
+  fullName: UnitInfoView.universalShieldText
+  nameWithType: UnitInfoView.universalShieldText
 - uid: Global.UnitsConfig
   name: UnitsConfig
   href: api/Global.UnitsConfig.html
@@ -9010,6 +9958,12 @@ references:
   commentId: F:Global.UnitsConfigItem.defaultATK
   fullName: UnitsConfigItem.defaultATK
   nameWithType: UnitsConfigItem.defaultATK
+- uid: Global.UnitsConfigItem.defaultDashRange
+  name: defaultDashRange
+  href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_defaultDashRange
+  commentId: F:Global.UnitsConfigItem.defaultDashRange
+  fullName: UnitsConfigItem.defaultDashRange
+  nameWithType: UnitsConfigItem.defaultDashRange
 - uid: Global.UnitsConfigItem.defaultMaxHP
   name: defaultMaxHP
   href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_defaultMaxHP
@@ -9058,18 +10012,24 @@ references:
   commentId: F:Global.UnitsConfigItem.isBuildable
   fullName: UnitsConfigItem.isBuildable
   nameWithType: UnitsConfigItem.isBuildable
-- uid: Global.UnitsConfigItem.isCollidable
-  name: isCollidable
-  href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_isCollidable
-  commentId: F:Global.UnitsConfigItem.isCollidable
-  fullName: UnitsConfigItem.isCollidable
-  nameWithType: UnitsConfigItem.isCollidable
-- uid: Global.UnitsConfigItem.isEnemyTargetable
-  name: isEnemyTargetable
-  href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_isEnemyTargetable
-  commentId: F:Global.UnitsConfigItem.isEnemyTargetable
-  fullName: UnitsConfigItem.isEnemyTargetable
-  nameWithType: UnitsConfigItem.isEnemyTargetable
+- uid: Global.UnitsConfigItem.isEquippable
+  name: isEquippable
+  href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_isEquippable
+  commentId: F:Global.UnitsConfigItem.isEquippable
+  fullName: UnitsConfigItem.isEquippable
+  nameWithType: UnitsConfigItem.isEquippable
+- uid: Global.UnitsConfigItem.isNonAllyTargetable
+  name: isNonAllyTargetable
+  href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_isNonAllyTargetable
+  commentId: F:Global.UnitsConfigItem.isNonAllyTargetable
+  fullName: UnitsConfigItem.isNonAllyTargetable
+  nameWithType: UnitsConfigItem.isNonAllyTargetable
+- uid: Global.UnitsConfigItem.itemSkillList
+  name: itemSkillList
+  href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_itemSkillList
+  commentId: F:Global.UnitsConfigItem.itemSkillList
+  fullName: UnitsConfigItem.itemSkillList
+  nameWithType: UnitsConfigItem.itemSkillList
 - uid: Global.UnitsConfigItem.knockbackDistance
   name: knockbackDistance
   href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_knockbackDistance
