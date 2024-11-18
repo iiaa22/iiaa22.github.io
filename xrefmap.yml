@@ -2641,6 +2641,19 @@ references:
   commentId: F:Global.MapController.enemyCreaterPrefab
   fullName: MapController.enemyCreaterPrefab
   nameWithType: MapController.enemyCreaterPrefab
+- uid: Global.MapController.OnOpenOrCloseSettings(InputAction.CallbackContext)
+  name: OnOpenOrCloseSettings(InputAction.CallbackContext)
+  href: api/Global.MapController.html#Global_MapController_OnOpenOrCloseSettings_InputAction_CallbackContext_
+  commentId: M:Global.MapController.OnOpenOrCloseSettings(InputAction.CallbackContext)
+  fullName: MapController.OnOpenOrCloseSettings(InputAction.CallbackContext)
+  nameWithType: MapController.OnOpenOrCloseSettings(InputAction.CallbackContext)
+- uid: Global.MapController.OnOpenOrCloseSettings*
+  name: OnOpenOrCloseSettings
+  href: api/Global.MapController.html#Global_MapController_OnOpenOrCloseSettings_
+  commentId: Overload:Global.MapController.OnOpenOrCloseSettings
+  isSpec: "True"
+  fullName: MapController.OnOpenOrCloseSettings
+  nameWithType: MapController.OnOpenOrCloseSettings
 - uid: Global.MapController.player
   name: player
   href: api/Global.MapController.html#Global_MapController_player
@@ -2660,6 +2673,12 @@ references:
   isSpec: "True"
   fullName: MapController.PlayerData
   nameWithType: MapController.PlayerData
+- uid: Global.MapController.unitControllerList
+  name: unitControllerList
+  href: api/Global.MapController.html#Global_MapController_unitControllerList
+  commentId: F:Global.MapController.unitControllerList
+  fullName: MapController.unitControllerList
+  nameWithType: MapController.unitControllerList
 - uid: Global.MoveType
   name: MoveType
   href: api/Global.MoveType.html
@@ -3763,6 +3782,15 @@ references:
   fullName.vb: PopWindow.Show(System.Collections.Generic.List(Of System.String), System.Collections.Generic.List(Of System.String), UnityAction(Of System.String))
   nameWithType: PopWindow.Show(List<String>, List<String>, UnityAction<String>)
   nameWithType.vb: PopWindow.Show(List(Of String), List(Of String), UnityAction(Of String))
+- uid: Global.PopWindow.Show(Vector2,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String},UnityAction{System.String})
+  name: Show(Vector2, List<String>, List<String>, UnityAction<String>)
+  href: api/Global.PopWindow.html#Global_PopWindow_Show_Vector2_System_Collections_Generic_List_System_String__System_Collections_Generic_List_System_String__UnityAction_System_String__
+  commentId: M:Global.PopWindow.Show(Vector2,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String},UnityAction{System.String})
+  name.vb: Show(Vector2, List(Of String), List(Of String), UnityAction(Of String))
+  fullName: PopWindow.Show(Vector2, System.Collections.Generic.List<System.String>, System.Collections.Generic.List<System.String>, UnityAction<System.String>)
+  fullName.vb: PopWindow.Show(Vector2, System.Collections.Generic.List(Of System.String), System.Collections.Generic.List(Of System.String), UnityAction(Of System.String))
+  nameWithType: PopWindow.Show(Vector2, List<String>, List<String>, UnityAction<String>)
+  nameWithType.vb: PopWindow.Show(Vector2, List(Of String), List(Of String), UnityAction(Of String))
 - uid: Global.PopWindow.Show*
   name: Show
   href: api/Global.PopWindow.html#Global_PopWindow_Show_
@@ -10018,6 +10046,18 @@ references:
   commentId: F:Global.UnitsConfigItem.isEquippable
   fullName: UnitsConfigItem.isEquippable
   nameWithType: UnitsConfigItem.isEquippable
+- uid: Global.UnitsConfigItem.isKillCounted
+  name: isKillCounted
+  href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_isKillCounted
+  commentId: F:Global.UnitsConfigItem.isKillCounted
+  fullName: UnitsConfigItem.isKillCounted
+  nameWithType: UnitsConfigItem.isKillCounted
+- uid: Global.UnitsConfigItem.isKillMarked
+  name: isKillMarked
+  href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_isKillMarked
+  commentId: F:Global.UnitsConfigItem.isKillMarked
+  fullName: UnitsConfigItem.isKillMarked
+  nameWithType: UnitsConfigItem.isKillMarked
 - uid: Global.UnitsConfigItem.isNonAllyTargetable
   name: isNonAllyTargetable
   href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_isNonAllyTargetable
