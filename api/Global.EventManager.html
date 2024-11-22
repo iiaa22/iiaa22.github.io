@@ -451,14 +451,14 @@
   </table>
   
   
-  <h4 id="Global_EventManager_OnStateUpdate" data-uid="Global.EventManager.OnStateUpdate">OnStateUpdate</h4>
-  <div class="markdown level1 summary"><p>状态持续事件，此事件会在状态维持期间每帧调用一次
-参数1：持续的状态</p>
+  <h4 id="Global_EventManager_OnUnitBuild" data-uid="Global.EventManager.OnUnitBuild">OnUnitBuild</h4>
+  <div class="markdown level1 summary"><p>单位部署事件
+参数1：部署的单位控制器</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static UnityAction&lt;State&gt; OnStateUpdate</code></pre>
+    <pre><code class="lang-csharp hljs">public static UnityAction&lt;UnitController&gt; OnUnitBuild</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -470,7 +470,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="Global.State.html">State</a>&gt;</td>
+        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="Global.UnitController.html">UnitController</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>

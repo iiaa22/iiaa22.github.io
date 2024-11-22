@@ -52,7 +52,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.AutoSorting2D.html",
-          "hash": "9UyAqoc1FUFX481DvdtYeHx40iyPDw3WEYPVTxjLdCY="
+          "hash": "j+xjlMvnV/CS6TrK48jKg6Lrqi0H+z/+cjM7cZRw8bg="
         }
       },
       "is_incremental": false,
@@ -76,7 +76,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.BaseConfigTable-1.html",
-          "hash": "r87iJ2gLlMMFcw7qkC7ff1fMMLyAk90CYX9pO1hWZh4="
+          "hash": "bJf/HLGlTx//xjDOf2BvZbhoA/CsjNo9S88keK8yx/0="
         }
       },
       "is_incremental": false,
@@ -88,7 +88,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.BaseEvent-1.html",
-          "hash": "bXDjdshajPu3uG4RZGv58eHsyo0l0tvjZIpYyUmyEoI="
+          "hash": "urUjdgTikwrnxSSAwnLWZ6DOCG1jHHckNE//aKpvIlE="
         }
       },
       "is_incremental": false,
@@ -124,7 +124,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.BaseView.html",
-          "hash": "T0cSYHAB2+UVo/snxZR2RbQlt1gs6yCUWNp6Gw6L6hY="
+          "hash": "wLYP6DRqS6QRgevLaavCqEL81nqqvPugAQ4vKOnxwaA="
         }
       },
       "is_incremental": false,
@@ -244,7 +244,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.EventManager.html",
-          "hash": "Ykiqwo2uC9oQs3OGp52KLfHttbTifgvp9/U2rMIgGQk="
+          "hash": "HXUDBGLAfBSGfxeXoXalXCvJ2+qZzPwxFDdL4A/TEzM="
         }
       },
       "is_incremental": false,
@@ -268,7 +268,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.FrameEntry.html",
-          "hash": "JFc0bbA66wtL61KVG3oqp0eIMIKrbo6o8GFtDUIU7U8="
+          "hash": "nqXOrUbJWntCNSm207jcmve84DMMzlzZ3Gn1QO1DlXE="
         }
       },
       "is_incremental": false,
@@ -336,6 +336,186 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Global.IAfterUnitDashHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.IAfterUnitDashHandler.html",
+          "hash": "iQa6q4NzYWfzu120WzjwrHnSSmpq2tID2v+E4i3Hz3o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.IBeforeAttackHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.IBeforeAttackHandler.html",
+          "hash": "x+FC3y6JFRZ1hU50QYQZJ0HJc2RLy94vtdiG5j7XRYM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.IBeforeDamageHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.IBeforeDamageHandler.html",
+          "hash": "hSFM2Rc5cZToQnB7OKr1R5a/x066eqbYheYOZEJtDnU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.IBeforeDeathHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.IBeforeDeathHandler.html",
+          "hash": "F2x63ruy2qHv8w1XPpD8rntV/OOPbMsGIu7QEUsZnCM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.IDeathHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.IDeathHandler.html",
+          "hash": "8x+4HUZJUIyEff0gRxnQ+Oyv/0bJBDqh3Qm/OCkg8aQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ISkillCustomTriggeredHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ISkillCustomTriggeredHandler.html",
+          "hash": "utlvbkcZKkEeoOq4P8XoIkVQnuvfAv+daXjzPSH/U5Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ISkillForgetHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ISkillForgetHandler.html",
+          "hash": "i9g4tjIsiiHwv3nxdON6TQvtIa+9/PngPlTFbFzd5lc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ISkillLearnHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ISkillLearnHandler.html",
+          "hash": "/YMWujNXxJTE4QL2NktNBOOuW538F1qgAhR5IaZLCTg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ISkillTriggeredHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ISkillTriggeredHandler.html",
+          "hash": "0tvmNGL1nVSAq5kGclFbfdKU95v2LPcU/YOkBL0eLrI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.ISkillUseHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.ISkillUseHandler.html",
+          "hash": "lgAF3Z33PntEur1j0HJCIez+GZvUKl9hadSwKsVPZb0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.IStateGainHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.IStateGainHandler.html",
+          "hash": "rg5fPnegNP4TBnD2pmn+wyHEXmphyEKLd4J5zqmLres="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.IStateLostHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.IStateLostHandler.html",
+          "hash": "0cVl2woKJkHUySVv4InU4SRCQ+Ue7SYSFF3xIh/klLo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.IUnitBuildHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.IUnitBuildHandler.html",
+          "hash": "IcUytPFJ1Qy8nvOi8OLVhLQ9RfB+06G91pJQ2gPfqTY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.IUnitDashHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.IUnitDashHandler.html",
+          "hash": "3MSdqrFAVQkXuNzwUnjcXGRLIY11RAZGZfCdt7Vq1jA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.IUnitInitHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.IUnitInitHandler.html",
+          "hash": "jnBeeJU89Q/QJaOyk3C2souLturF87A+GrwXBqZchbw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Global.InventoryItem.yml",
       "output": {
         ".html": {
@@ -364,7 +544,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.LanguageConfig.html",
-          "hash": "slD0VWrJ+ojRk/kDS4PlIN+osIXRuZZ7iN1E1FdTBW8="
+          "hash": "6bStCO6PbhEJE+o2ezPFjyU/Vks/kdVBdPS2I/RiUNs="
         }
       },
       "is_incremental": false,
@@ -388,7 +568,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.LanguageConfigItem.html",
-          "hash": "vyctlpODeAXrMCp6q6gI3v1AIGxIqLLqh7UbrlR+7eg="
+          "hash": "D5t2/C7hFtMGf/z7qGuY1+NGhP7bnrKxsLTkr/UbKPk="
         }
       },
       "is_incremental": false,
@@ -448,7 +628,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.MapController.html",
-          "hash": "TUv7qA53znWC0R1Bvse8w/yrZaaiK4KWBHO8WfFSaQY="
+          "hash": "LXwtyILrtdUMFVwFWzNhYDyembBCnnKMWoRojD3tZtI="
         }
       },
       "is_incremental": false,
@@ -496,7 +676,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.PlatformCommonConfig.html",
-          "hash": "Rft/oyxN5p4RCfBUHgAISFPlzQAso8CTFP8GZzTi5iE="
+          "hash": "bY+ukJbZBY5wP8A+6pHr8SDpRtmOV6GL1I212/G4d98="
         }
       },
       "is_incremental": false,
@@ -568,7 +748,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.Player.html",
-          "hash": "YY/73eXgud7yNI31NT7uYLmUZRju2L872ZcthGNoRJk="
+          "hash": "YEHXSSXIcF/ALr8G1TpMojYqpHnGKXkDjjDdGbl0m9Y="
         }
       },
       "is_incremental": false,
@@ -580,7 +760,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.PlayerController.html",
-          "hash": "MHQCJs901q6TO+AqT2ae66iBOxrIlenq+ECFKiXlsCM="
+          "hash": "QwGrEG68atqmVBZ/jXd+jhpxqlVBUf8M7LLtG40EKM4="
         }
       },
       "is_incremental": false,
@@ -604,7 +784,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.PopWindow.html",
-          "hash": "w0864C7oTo3zU10S1O/fq/jecIetSC7srYMElv5BsvQ="
+          "hash": "Rj77ksokEGTUILs3ZZDSpPArBHfnSkXCP1aPxY4Pwso="
         }
       },
       "is_incremental": false,
@@ -676,7 +856,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.Skill.html",
-          "hash": "NyDRIFndNGj3wEZbAWzE8vs9gRonhJwTcJWhj6akDYg="
+          "hash": "SEdGw35AR8i2e8tqxdH+6RD5Chr/74suUBXbjrZjcMk="
         }
       },
       "is_incremental": false,
@@ -712,7 +892,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.SkillController.html",
-          "hash": "8WTCGyqe23Mm112MHOuraTk3NF8pOIlUNni2RbLavBc="
+          "hash": "zkXT+iUBGkYom8aZh9CHLIXMDp9MGXpd/LKuUMuwfr0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SkillEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SkillEvent.html",
+          "hash": "gbaI3IuKqesyG3AN6YAiCgO4J3ic7y484o0/1cZ5yw8="
         }
       },
       "is_incremental": false,
@@ -724,7 +916,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.SkillEvent000.html",
-          "hash": "GZEeXpvW1aHLzGVRCqSow+rndyTU/BGJESooOly9Nb0="
+          "hash": "9yOzR7/lqeR3vdacdd3lWKaWJXVECVlijaiiBYLwf5M="
         }
       },
       "is_incremental": false,
@@ -736,7 +928,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.SkillEvent001.html",
-          "hash": "/l0u9RILilIFUkiOtO4Y5tovxk0tbMwV0LSmMrIRz/k="
+          "hash": "JaqQPPFz2j1woGQLL8k8AiOF+DYmK4kGCgiWjfgTHlI="
         }
       },
       "is_incremental": false,
@@ -748,7 +940,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.SkillEvent002.html",
-          "hash": "fQvne7cJ9ErO4HDjweYfhqtI6OgnKVbtp2fJntB0irA="
+          "hash": "0INXbpdg4Do2XT5TfKgme4R9XV3oVXLRyUjlUIxOeg0="
         }
       },
       "is_incremental": false,
@@ -760,7 +952,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.SkillEvent003.html",
-          "hash": "U2HCNbwDr4tTeYxeBSjIrZpu4Q5zzy0mVEPJIqKqyds="
+          "hash": "JWkop15+FFEOalSvFi9aLk4dEti5LfoN7P4LyLxj4Ag="
         }
       },
       "is_incremental": false,
@@ -772,7 +964,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.SkillEvent004.html",
-          "hash": "BY6wWqFT3CY6+fMrS96WBbM3rfdxB2Hf5kD5YzEnt+8="
+          "hash": "XXCbCTL4V6LpFrfBJvXpuaAIIEx6+EZ1YEoJ1ZW7ed8="
         }
       },
       "is_incremental": false,
@@ -784,7 +976,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.SkillEvent005.html",
-          "hash": "n6d6eJ+9Y7cjjR2CAEZXGNkrVNCVvu1HtUf6TEk6sxQ="
+          "hash": "HO6UaNRXyQTB3lGQ2OKoj0NlAMYEgtbl3lUmoJqMa2s="
         }
       },
       "is_incremental": false,
@@ -796,7 +988,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.SkillEvent006.html",
-          "hash": "F/VIT9KrLxjZeqs0lbzyjwD0O840ulnM1kgn+cU5WkI="
+          "hash": "ZXD5HvpKc8HblJqXavZ+iatQZtGFr3IsmY9Aw+6MTQU="
         }
       },
       "is_incremental": false,
@@ -808,7 +1000,31 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.SkillEvent007.html",
-          "hash": "lPgElljYQXazPJUIGPlUyTlDqoY0X2jLLfEKdVixzNI="
+          "hash": "wFO7gcjmPRwMkpxgOWRQ7XoSyfXGJz2rsc6IIO0EaPI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SkillEvent008.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SkillEvent008.html",
+          "hash": "uPu8meVhCkBrWpdtc+fv5puO3S9vb5hl669QD32RwJQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SkillEvent009.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SkillEvent009.html",
+          "hash": "EIeRObiuF1YSphfAixTxq+Ri2OUbSuYz4xqwJIEw3yA="
         }
       },
       "is_incremental": false,
@@ -844,7 +1060,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.SkillsConfigItem.html",
-          "hash": "CFLjCPSp/Rl4RnQQ1JPjjxBfMVjuIkk14oUDNB/4Ybc="
+          "hash": "TG1RlBR8YYnPBPxAWSkQbABw69Vk0Mx15mugf8vA82E="
         }
       },
       "is_incremental": false,
@@ -868,7 +1084,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.StateEvent002.html",
-          "hash": "At/fGwuvNgvb8/+Z16iOuk3uI0VvFyQLKalWz+F+Esc="
+          "hash": "zC78PXnHIllZuhPjLSfoZ6L/uQn3sWy07ImrnXVstDw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.StateEvent003.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.StateEvent003.html",
+          "hash": "oTq4yS1IRVAqvgdFWS8SELGvGGfuDjMcPUrd173CITs="
         }
       },
       "is_incremental": false,
@@ -892,7 +1120,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.StatesConfigItem.html",
-          "hash": "cre3PIvsC76iHlvwSFmTRl1tekO1HrFlxoZvnm+EYVw="
+          "hash": "zhA9L5zrFBBWKIF3CwiltdIBuUv7M+FpDdrZwUNQ96s="
         }
       },
       "is_incremental": false,
@@ -952,7 +1180,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.Unit.html",
-          "hash": "Ar7rScrjzLAxM3PfQHvuEOVhMOr6uovLgfesI+A9HHY="
+          "hash": "cdxJbbsUyuoogZ2BrrLlutT7wQBmqzYvKimkM1CH1O4="
         }
       },
       "is_incremental": false,
@@ -964,7 +1192,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.UnitController.html",
-          "hash": "fPRStxqT79RQ213BGstL/QCewB3JVghGJN01BMrGKco="
+          "hash": "iVj/FCFTJDtHrYzZ7MGkrhJHnMQA2Y8j71Ce4ec20MM="
         }
       },
       "is_incremental": false,
@@ -976,7 +1204,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.UnitEvent.html",
-          "hash": "XsFM7j6G7tvqJrRWA8SSl7wKsqOCOX0lqBdM7J2lD44="
+          "hash": "R2iPXdVNDEwCBWpsHLSID12EnmtAvFyMk5MS6rv3dkY="
         }
       },
       "is_incremental": false,
@@ -988,7 +1216,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.UnitEvent000.html",
-          "hash": "79/G/ChE11ZESoYgV6JK6PjUoJvX5UMTnRIvSd06+Kc="
+          "hash": "4yL7aN0uDh/FZVply0FtUmr0VVQJZ/QgolKzjJvh3zI="
         }
       },
       "is_incremental": false,
@@ -1000,7 +1228,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.UnitEvent002.html",
-          "hash": "uUydWc12a+/FAaaGRuSt75s12WK7POTFlrBunTmdRvk="
+          "hash": "MteY5w+JaiUO8zJNdnsGBtS1EGhtDdJXaM5b2sSJSEA="
         }
       },
       "is_incremental": false,
@@ -1012,7 +1240,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.UnitEvent007.html",
-          "hash": "/64IQyag2r7TAFH+XAzwwr/PI8TuOwPL8PDhlris+lQ="
+          "hash": "rPT+/5D08TROvKF3XuyGxhvCl9M42x1at/GdOOR3eA8="
         }
       },
       "is_incremental": false,
@@ -1024,7 +1252,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.UnitEvent010.html",
-          "hash": "ufu6zmAbrvvSH7rybKTs99KwcgWRKbGNXo+DqovMBuc="
+          "hash": "x6iOm3jMLlvuxqttixUxKZhwOk7NhpSvwaXrkkJaIvE="
         }
       },
       "is_incremental": false,
@@ -1084,7 +1312,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.UnitsConfigItem.html",
-          "hash": "RPG0nY1NOtqGshxKfxaAtfAi0H6I4MEmrX5M9V6JHbs="
+          "hash": "RC1R1JnHyF1OJ7BYWYd2gY8vCb8DkvNRzeaOAFa1hBw="
         }
       },
       "is_incremental": false,
@@ -1108,7 +1336,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.UserDataManager.html",
-          "hash": "Sv1WVSBx+KXKLBUKmYoje+ZqIlaD/7SllCb7YqsRklY="
+          "hash": "38aF0RX7QLvaiXv8s5qzbBV/QDowK6QV6AUNCkQ/LSg="
         }
       },
       "is_incremental": false,
@@ -1132,7 +1360,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.html",
-          "hash": "3NPxdZCIa/PvXjtnNfPzE5DIR7ixz9lnAYxuse4Yo2A="
+          "hash": "9iGHyAYrPmgnrRdVWZZWK6hqNbfA5g0OdVHi8Ns/vSQ="
         }
       },
       "is_incremental": false,
@@ -1144,7 +1372,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "clXDOMHA6MB4n9ZDx5jKca90kf52FxMA6Bs4Vklpshs="
+          "hash": "zqbwwRNfoi6qVVEQ3UKW9Zv5cyQIhWpLnfXdINcilKA="
         }
       },
       "is_incremental": false,
@@ -1253,7 +1481,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 93,
+          "total_file_count": 112,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

@@ -101,51 +101,6 @@
       <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_Owner">BaseEvent&lt;Unit&gt;.Owner</a>
     </div>
     <div>
-      <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_OnUnitInit_Unit_">BaseEvent&lt;Unit&gt;.OnUnitInit(Unit)</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_OnUnitDash_UnitController_">BaseEvent&lt;Unit&gt;.OnUnitDash(UnitController)</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_AfterUnitDash_UnitController_">BaseEvent&lt;Unit&gt;.AfterUnitDash(UnitController)</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_OnSkillLearn_Skill_">BaseEvent&lt;Unit&gt;.OnSkillLearn(Skill)</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_OnSkillForget_Skill_">BaseEvent&lt;Unit&gt;.OnSkillForget(Skill)</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_OnSkillUse_SkillController_">BaseEvent&lt;Unit&gt;.OnSkillUse(SkillController)</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_OnSkillTriggered_SkillController_Unit_">BaseEvent&lt;Unit&gt;.OnSkillTriggered(SkillController, Unit)</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_OnSkillCustomTriggered_SkillController_System_String_">BaseEvent&lt;Unit&gt;.OnSkillCustomTriggered(SkillController, String)</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_OnStateGain_State_">BaseEvent&lt;Unit&gt;.OnStateGain(State)</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_OnStateLost_State_">BaseEvent&lt;Unit&gt;.OnStateLost(State)</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_OnStateUpdate_State_">BaseEvent&lt;Unit&gt;.OnStateUpdate(State)</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_BeforeAttack_Unit_Unit_DamageInfo_">BaseEvent&lt;Unit&gt;.BeforeAttack(Unit, Unit, DamageInfo)</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_BeforeDamage_Unit_Unit_DamageInfo_">BaseEvent&lt;Unit&gt;.BeforeDamage(Unit, Unit, DamageInfo)</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_BeforeDeath_Unit_Unit_DamageInfo_">BaseEvent&lt;Unit&gt;.BeforeDeath(Unit, Unit, DamageInfo)</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_OnDeath_Unit_">BaseEvent&lt;Unit&gt;.OnDeath(Unit)</a>
-    </div>
-    <div>
       <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_CreateAfterimage_SpriteRenderer_">BaseEvent&lt;Unit&gt;.CreateAfterimage(SpriteRenderer)</a>
     </div>
   </div>
@@ -153,7 +108,7 @@
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="Global_UnitEvent_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class UnitEvent : BaseEvent&lt;Unit&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class UnitEvent : BaseEvent&lt;Unit&gt;</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
@@ -161,7 +116,8 @@
   
   <a id="Global_UnitEvent_Dash_" data-uid="Global.UnitEvent.Dash*"></a>
   <h4 id="Global_UnitEvent_Dash_UnitController_" data-uid="Global.UnitEvent.Dash(UnitController)">Dash(UnitController)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>单位控制器的冲刺行为。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -180,7 +136,8 @@
       <tr>
         <td><a class="xref" href="Global.UnitController.html">UnitController</a></td>
         <td><span class="parametername">unitController</span></td>
-        <td></td>
+        <td><p>单位控制器</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -194,7 +151,51 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.IEnumerator</span></td>
+        <td><span class="xref">IEnumerator</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_UnitEvent_DoBehaviour_" data-uid="Global.UnitEvent.DoBehaviour*"></a>
+  <h4 id="Global_UnitEvent_DoBehaviour_UnitController_" data-uid="Global.UnitEvent.DoBehaviour(UnitController)">DoBehaviour(UnitController)</h4>
+  <div class="markdown level1 summary"><p>单位控制器的行为。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual IEnumerator DoBehaviour(UnitController unitController)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.UnitController.html">UnitController</a></td>
+        <td><span class="parametername">unitController</span></td>
+        <td><p>单位控制器</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerator</span></td>
         <td></td>
       </tr>
     </tbody>

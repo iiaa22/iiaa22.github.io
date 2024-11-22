@@ -100,7 +100,7 @@
       <section><p>所有配置表的父类。</p>
 </section>
       <h4><a class="xref" href="Global.BaseEvent-1.html">BaseEvent&lt;T&gt;</a></h4>
-      <section><p>单位的事件触发类。
+      <section><p>事件触发类。
 注意事件被触发并不意味着本单位参与了该事件，一般要先判断本单位是参与者再执行逻辑。</p>
 </section>
       <h4><a class="xref" href="Global.BaseSingleton-1.html">BaseSingleton&lt;T&gt;</a></h4>
@@ -238,6 +238,8 @@
       <h4><a class="xref" href="Global.SkillController.html">SkillController</a></h4>
       <section><p>控制技能行为的类。</p>
 </section>
+      <h4><a class="xref" href="Global.SkillEvent.html">SkillEvent</a></h4>
+      <section></section>
       <h4><a class="xref" href="Global.SkillEvent000.html">SkillEvent000</a></h4>
       <section></section>
       <h4><a class="xref" href="Global.SkillEvent001.html">SkillEvent001</a></h4>
@@ -254,6 +256,10 @@
       <section></section>
       <h4><a class="xref" href="Global.SkillEvent007.html">SkillEvent007</a></h4>
       <section></section>
+      <h4><a class="xref" href="Global.SkillEvent008.html">SkillEvent008</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.SkillEvent009.html">SkillEvent009</a></h4>
+      <section></section>
       <h4><a class="xref" href="Global.SkillsConfig.html">SkillsConfig</a></h4>
       <section><p>技能配置列表。</p>
 </section>
@@ -264,6 +270,8 @@
       <section><p>处理状态的类。</p>
 </section>
       <h4><a class="xref" href="Global.StateEvent002.html">StateEvent002</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.StateEvent003.html">StateEvent003</a></h4>
       <section></section>
       <h4><a class="xref" href="Global.StatesConfig.html">StatesConfig</a></h4>
       <section><p>状态配置列表。</p>
@@ -323,6 +331,57 @@
 </section>
       <h4><a class="xref" href="Global.UserDataManager.UserDataInfo.html">UserDataManager.UserDataInfo</a></h4>
       <section><p>存档信息</p>
+</section>
+    <h3 id="interfaces">Interfaces
+  </h3>
+      <h4><a class="xref" href="Global.IAfterUnitDashHandler.html">IAfterUnitDashHandler</a></h4>
+      <section><p>单位冲刺结束事件。</p>
+</section>
+      <h4><a class="xref" href="Global.IBeforeAttackHandler.html">IBeforeAttackHandler</a></h4>
+      <section><p>受到攻击前事件。
+攻击不一定触发该事件，攻击可能被免疫攻击等技能免疫。</p>
+</section>
+      <h4><a class="xref" href="Global.IBeforeDamageHandler.html">IBeforeDamageHandler</a></h4>
+      <section><p>受到伤害前事件。
+受到攻击不一定触发该事件，伤害可能被护盾等抵挡。</p>
+</section>
+      <h4><a class="xref" href="Global.IBeforeDeathHandler.html">IBeforeDeathHandler</a></h4>
+      <section><p>死亡前事件。
+可以在此通过增加target的HP实现复活效果。</p>
+</section>
+      <h4><a class="xref" href="Global.IDeathHandler.html">IDeathHandler</a></h4>
+      <section><p>死亡事件。</p>
+</section>
+      <h4><a class="xref" href="Global.ISkillCustomTriggeredHandler.html">ISkillCustomTriggeredHandler</a></h4>
+      <section><p>技能自定义触发事件。
+可以在动画中主动触发该事件。</p>
+</section>
+      <h4><a class="xref" href="Global.ISkillForgetHandler.html">ISkillForgetHandler</a></h4>
+      <section><p>技能遗忘事件。</p>
+</section>
+      <h4><a class="xref" href="Global.ISkillLearnHandler.html">ISkillLearnHandler</a></h4>
+      <section><p>技能习得事件。</p>
+</section>
+      <h4><a class="xref" href="Global.ISkillTriggeredHandler.html">ISkillTriggeredHandler</a></h4>
+      <section><p>技能触发事件。</p>
+</section>
+      <h4><a class="xref" href="Global.ISkillUseHandler.html">ISkillUseHandler</a></h4>
+      <section><p>技能使用事件。</p>
+</section>
+      <h4><a class="xref" href="Global.IStateGainHandler.html">IStateGainHandler</a></h4>
+      <section><p>状态获得事件。</p>
+</section>
+      <h4><a class="xref" href="Global.IStateLostHandler.html">IStateLostHandler</a></h4>
+      <section><p>状态失去事件。</p>
+</section>
+      <h4><a class="xref" href="Global.IUnitBuildHandler.html">IUnitBuildHandler</a></h4>
+      <section><p>单位部署事件。</p>
+</section>
+      <h4><a class="xref" href="Global.IUnitDashHandler.html">IUnitDashHandler</a></h4>
+      <section><p>单位冲刺事件。</p>
+</section>
+      <h4><a class="xref" href="Global.IUnitInitHandler.html">IUnitInitHandler</a></h4>
+      <section><p>单位初始化事件。</p>
 </section>
     <h3 id="enums">Enums
   </h3>

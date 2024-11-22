@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class SkillEvent000
+    <title>Interface IUnitBuildHandler
    | &#22612;&#38450;&#28216;&#25103;API&#25991;&#26723; </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class SkillEvent000
+    <meta name="title" content="Interface IUnitBuildHandler
    | &#22612;&#38450;&#28216;&#25103;API&#25991;&#26723; ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,54 +78,32 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.SkillEvent000">
+            <article class="content wrap" id="_content" data-uid="Global.IUnitBuildHandler">
   
   
-  <h1 id="Global_SkillEvent000" data-uid="Global.SkillEvent000" class="text-break">Class SkillEvent000
+  <h1 id="Global_IUnitBuildHandler" data-uid="Global.IUnitBuildHandler" class="text-break">Interface IUnitBuildHandler
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>单位部署事件。</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="Global.BaseEvent-1.html">BaseEvent</a>&lt;<a class="xref" href="Global.Skill.html">Skill</a>&gt;</div>
-    <div class="level2"><a class="xref" href="Global.SkillEvent.html">SkillEvent</a></div>
-    <div class="level3"><span class="xref">SkillEvent000</span></div>
-  </div>
-  <div class="implements">
-    <h5>Implements</h5>
-    <div><a class="xref" href="Global.ISkillLearnHandler.html">ISkillLearnHandler</a></div>
-    <div><a class="xref" href="Global.ISkillTriggeredHandler.html">ISkillTriggeredHandler</a></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="Global.SkillEvent.html#Global_SkillEvent_DoBehaviour_SkillController_">SkillEvent.DoBehaviour(SkillController)</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_Owner">BaseEvent&lt;Skill&gt;.Owner</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_CreateAfterimage_SpriteRenderer_">BaseEvent&lt;Skill&gt;.CreateAfterimage(SpriteRenderer)</a>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Global_SkillEvent000_syntax">Syntax</h5>
+  <h5 id="Global_IUnitBuildHandler_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SkillEvent000 : SkillEvent, ISkillLearnHandler, ISkillTriggeredHandler</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IUnitBuildHandler</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Global_SkillEvent000_OnSkillLearn_" data-uid="Global.SkillEvent000.OnSkillLearn*"></a>
-  <h4 id="Global_SkillEvent000_OnSkillLearn_Skill_" data-uid="Global.SkillEvent000.OnSkillLearn(Skill)">OnSkillLearn(Skill)</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Global_IUnitBuildHandler_OnUnitBuild_" data-uid="Global.IUnitBuildHandler.OnUnitBuild*"></a>
+  <h4 id="Global_IUnitBuildHandler_OnUnitBuild_UnitController_" data-uid="Global.IUnitBuildHandler.OnUnitBuild(UnitController)">OnUnitBuild(UnitController)</h4>
+  <div class="markdown level1 summary"><p>单位部署事件。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnSkillLearn(Skill skill)</code></pre>
+    <pre><code class="lang-csharp hljs">void OnUnitBuild(UnitController unitController)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -138,51 +116,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.Skill.html">Skill</a></td>
-        <td><span class="parametername">skill</span></td>
-        <td></td>
+        <td><a class="xref" href="Global.UnitController.html">UnitController</a></td>
+        <td><span class="parametername">unitController</span></td>
+        <td><p>部署的单位控制器</p>
+</td>
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="Global_SkillEvent000_OnSkillTriggered_" data-uid="Global.SkillEvent000.OnSkillTriggered*"></a>
-  <h4 id="Global_SkillEvent000_OnSkillTriggered_SkillController_Unit_" data-uid="Global.SkillEvent000.OnSkillTriggered(SkillController,Unit)">OnSkillTriggered(SkillController, Unit)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnSkillTriggered(SkillController skillController, Unit target)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Global.SkillController.html">SkillController</a></td>
-        <td><span class="parametername">skillController</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Global.Unit.html">Unit</a></td>
-        <td><span class="parametername">target</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="Global.ISkillLearnHandler.html">ISkillLearnHandler</a>
-  </div>
-  <div>
-      <a class="xref" href="Global.ISkillTriggeredHandler.html">ISkillTriggeredHandler</a>
-  </div>
 </article>
           </div>
           
