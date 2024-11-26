@@ -172,6 +172,31 @@
   </table>
   
   
+  <h4 id="Global_BaseConfigTable_1_frameVersion" data-uid="Global.BaseConfigTable`1.frameVersion">frameVersion</h4>
+  <div class="markdown level1 summary"><p>框架版本</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string frameVersion</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Global_BaseConfigTable_1_tabName" data-uid="Global.BaseConfigTable`1.tabName">tabName</h4>
   <div class="markdown level1 summary"><p>标签页名称</p>
 </div>
@@ -277,14 +302,40 @@
   </table>
   
   
-  <a id="Global_BaseConfigTable_1_Item_" data-uid="Global.BaseConfigTable`1.Item*"></a>
-  <h4 id="Global_BaseConfigTable_1_Item_System_Int32_" data-uid="Global.BaseConfigTable`1.Item(System.Int32)">Item[Int32]</h4>
-  <div class="markdown level1 summary"><p>根据ID获得配置项。</p>
+  <a id="Global_BaseConfigTable_1_ConfigTableVersion_" data-uid="Global.BaseConfigTable`1.ConfigTableVersion*"></a>
+  <h4 id="Global_BaseConfigTable_1_ConfigTableVersion" data-uid="Global.BaseConfigTable`1.ConfigTableVersion">ConfigTableVersion</h4>
+  <div class="markdown level1 summary"><p>当前配置表版本。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public T this[int id] { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual int ConfigTableVersion { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_BaseConfigTable_1_Item_" data-uid="Global.BaseConfigTable`1.Item*"></a>
+  <h4 id="Global_BaseConfigTable_1_Item_System_Int32_" data-uid="Global.BaseConfigTable`1.Item(System.Int32)">Item[Int32]</h4>
+  <div class="markdown level1 summary"><p>根据索引获得配置项。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T this[int index] { get; }</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -298,8 +349,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">id</span></td>
-        <td><p>配置项ID</p>
+        <td><span class="parametername">index</span></td>
+        <td><p>配置项索引</p>
 </td>
       </tr>
     </tbody>
@@ -324,12 +375,12 @@
   
   <a id="Global_BaseConfigTable_1_Item_" data-uid="Global.BaseConfigTable`1.Item*"></a>
   <h4 id="Global_BaseConfigTable_1_Item_System_String_" data-uid="Global.BaseConfigTable`1.Item(System.String)">Item[String]</h4>
-  <div class="markdown level1 summary"><p>根据名称获得配置项。</p>
+  <div class="markdown level1 summary"><p>根据ID获得配置项。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public T this[string name] { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public T this[string id] { get; }</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -343,8 +394,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">name</span></td>
-        <td><p>配置项名称</p>
+        <td><span class="parametername">id</span></td>
+        <td><p>配置项ID</p>
 </td>
       </tr>
     </tbody>
@@ -369,14 +420,59 @@
   </h3>
   
   
-  <a id="Global_BaseConfigTable_1_GetConfigID_" data-uid="Global.BaseConfigTable`1.GetConfigID*"></a>
-  <h4 id="Global_BaseConfigTable_1_GetConfigID__0_" data-uid="Global.BaseConfigTable`1.GetConfigID(`0)">GetConfigID(T)</h4>
-  <div class="markdown level1 summary"><p>获得配置项ID。</p>
+  <a id="Global_BaseConfigTable_1_GetConfigByName_" data-uid="Global.BaseConfigTable`1.GetConfigByName*"></a>
+  <h4 id="Global_BaseConfigTable_1_GetConfigByName_System_String_" data-uid="Global.BaseConfigTable`1.GetConfigByName(System.String)">GetConfigByName(String)</h4>
+  <div class="markdown level1 summary"><p>根据名称获得配置项。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int GetConfigID(T config)</code></pre>
+    <pre><code class="lang-csharp hljs">public T GetConfigByName(string name)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>配置项名称</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><p>配置项</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_BaseConfigTable_1_GetConfigIndex_" data-uid="Global.BaseConfigTable`1.GetConfigIndex*"></a>
+  <h4 id="Global_BaseConfigTable_1_GetConfigIndex__0_" data-uid="Global.BaseConfigTable`1.GetConfigIndex(`0)">GetConfigIndex(T)</h4>
+  <div class="markdown level1 summary"><p>获得配置项索引。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetConfigIndex(T config)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -407,7 +503,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><p>配置项ID</p>
+        <td><p>配置项索引</p>
 </td>
       </tr>
     </tbody>

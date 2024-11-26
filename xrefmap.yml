@@ -69,6 +69,12 @@ references:
   commentId: F:Global.BaseConfigItem.description
   fullName: BaseConfigItem.description
   nameWithType: BaseConfigItem.description
+- uid: Global.BaseConfigItem.id
+  name: id
+  href: api/Global.BaseConfigItem.html#Global_BaseConfigItem_id
+  commentId: F:Global.BaseConfigItem.id
+  fullName: BaseConfigItem.id
+  nameWithType: BaseConfigItem.id
 - uid: Global.BaseConfigItem.name
   name: name
   href: api/Global.BaseConfigItem.html#Global_BaseConfigItem_name
@@ -132,6 +138,23 @@ references:
   fullName.vb: BaseConfigTable(Of T).ConfigNameList
   nameWithType: BaseConfigTable<T>.ConfigNameList
   nameWithType.vb: BaseConfigTable(Of T).ConfigNameList
+- uid: Global.BaseConfigTable`1.ConfigTableVersion
+  name: ConfigTableVersion
+  href: api/Global.BaseConfigTable-1.html#Global_BaseConfigTable_1_ConfigTableVersion
+  commentId: P:Global.BaseConfigTable`1.ConfigTableVersion
+  fullName: BaseConfigTable<T>.ConfigTableVersion
+  fullName.vb: BaseConfigTable(Of T).ConfigTableVersion
+  nameWithType: BaseConfigTable<T>.ConfigTableVersion
+  nameWithType.vb: BaseConfigTable(Of T).ConfigTableVersion
+- uid: Global.BaseConfigTable`1.ConfigTableVersion*
+  name: ConfigTableVersion
+  href: api/Global.BaseConfigTable-1.html#Global_BaseConfigTable_1_ConfigTableVersion_
+  commentId: Overload:Global.BaseConfigTable`1.ConfigTableVersion
+  isSpec: "True"
+  fullName: BaseConfigTable<T>.ConfigTableVersion
+  fullName.vb: BaseConfigTable(Of T).ConfigTableVersion
+  nameWithType: BaseConfigTable<T>.ConfigTableVersion
+  nameWithType.vb: BaseConfigTable(Of T).ConfigTableVersion
 - uid: Global.BaseConfigTable`1.enableConsole
   name: enableConsole
   href: api/Global.BaseConfigTable-1.html#Global_BaseConfigTable_1_enableConsole
@@ -140,23 +163,48 @@ references:
   fullName.vb: BaseConfigTable(Of T).enableConsole
   nameWithType: BaseConfigTable<T>.enableConsole
   nameWithType.vb: BaseConfigTable(Of T).enableConsole
-- uid: Global.BaseConfigTable`1.GetConfigID(`0)
-  name: GetConfigID(T)
-  href: api/Global.BaseConfigTable-1.html#Global_BaseConfigTable_1_GetConfigID__0_
-  commentId: M:Global.BaseConfigTable`1.GetConfigID(`0)
-  fullName: BaseConfigTable<T>.GetConfigID(T)
-  fullName.vb: BaseConfigTable(Of T).GetConfigID(T)
-  nameWithType: BaseConfigTable<T>.GetConfigID(T)
-  nameWithType.vb: BaseConfigTable(Of T).GetConfigID(T)
-- uid: Global.BaseConfigTable`1.GetConfigID*
-  name: GetConfigID
-  href: api/Global.BaseConfigTable-1.html#Global_BaseConfigTable_1_GetConfigID_
-  commentId: Overload:Global.BaseConfigTable`1.GetConfigID
+- uid: Global.BaseConfigTable`1.frameVersion
+  name: frameVersion
+  href: api/Global.BaseConfigTable-1.html#Global_BaseConfigTable_1_frameVersion
+  commentId: F:Global.BaseConfigTable`1.frameVersion
+  fullName: BaseConfigTable<T>.frameVersion
+  fullName.vb: BaseConfigTable(Of T).frameVersion
+  nameWithType: BaseConfigTable<T>.frameVersion
+  nameWithType.vb: BaseConfigTable(Of T).frameVersion
+- uid: Global.BaseConfigTable`1.GetConfigByName(System.String)
+  name: GetConfigByName(String)
+  href: api/Global.BaseConfigTable-1.html#Global_BaseConfigTable_1_GetConfigByName_System_String_
+  commentId: M:Global.BaseConfigTable`1.GetConfigByName(System.String)
+  fullName: BaseConfigTable<T>.GetConfigByName(System.String)
+  fullName.vb: BaseConfigTable(Of T).GetConfigByName(System.String)
+  nameWithType: BaseConfigTable<T>.GetConfigByName(String)
+  nameWithType.vb: BaseConfigTable(Of T).GetConfigByName(String)
+- uid: Global.BaseConfigTable`1.GetConfigByName*
+  name: GetConfigByName
+  href: api/Global.BaseConfigTable-1.html#Global_BaseConfigTable_1_GetConfigByName_
+  commentId: Overload:Global.BaseConfigTable`1.GetConfigByName
   isSpec: "True"
-  fullName: BaseConfigTable<T>.GetConfigID
-  fullName.vb: BaseConfigTable(Of T).GetConfigID
-  nameWithType: BaseConfigTable<T>.GetConfigID
-  nameWithType.vb: BaseConfigTable(Of T).GetConfigID
+  fullName: BaseConfigTable<T>.GetConfigByName
+  fullName.vb: BaseConfigTable(Of T).GetConfigByName
+  nameWithType: BaseConfigTable<T>.GetConfigByName
+  nameWithType.vb: BaseConfigTable(Of T).GetConfigByName
+- uid: Global.BaseConfigTable`1.GetConfigIndex(`0)
+  name: GetConfigIndex(T)
+  href: api/Global.BaseConfigTable-1.html#Global_BaseConfigTable_1_GetConfigIndex__0_
+  commentId: M:Global.BaseConfigTable`1.GetConfigIndex(`0)
+  fullName: BaseConfigTable<T>.GetConfigIndex(T)
+  fullName.vb: BaseConfigTable(Of T).GetConfigIndex(T)
+  nameWithType: BaseConfigTable<T>.GetConfigIndex(T)
+  nameWithType.vb: BaseConfigTable(Of T).GetConfigIndex(T)
+- uid: Global.BaseConfigTable`1.GetConfigIndex*
+  name: GetConfigIndex
+  href: api/Global.BaseConfigTable-1.html#Global_BaseConfigTable_1_GetConfigIndex_
+  commentId: Overload:Global.BaseConfigTable`1.GetConfigIndex
+  isSpec: "True"
+  fullName: BaseConfigTable<T>.GetConfigIndex
+  fullName.vb: BaseConfigTable(Of T).GetConfigIndex
+  nameWithType: BaseConfigTable<T>.GetConfigIndex
+  nameWithType.vb: BaseConfigTable(Of T).GetConfigIndex
 - uid: Global.BaseConfigTable`1.Item(System.Int32)
   name: Item[Int32]
   href: api/Global.BaseConfigTable-1.html#Global_BaseConfigTable_1_Item_System_Int32_
@@ -921,47 +969,70 @@ references:
   commentId: T:Global.ConfigManager
   fullName: ConfigManager
   nameWithType: ConfigManager
-- uid: Global.ConfigManager.GetConfigData*
-  name: GetConfigData
-  href: api/Global.ConfigManager.html#Global_ConfigManager_GetConfigData_
-  commentId: Overload:Global.ConfigManager.GetConfigData
+- uid: Global.ConfigManager.GetConfigDataAt*
+  name: GetConfigDataAt
+  href: api/Global.ConfigManager.html#Global_ConfigManager_GetConfigDataAt_
+  commentId: Overload:Global.ConfigManager.GetConfigDataAt
   isSpec: "True"
-  fullName: ConfigManager.GetConfigData
-  nameWithType: ConfigManager.GetConfigData
-- uid: Global.ConfigManager.GetConfigData``1(System.Int32)
-  name: GetConfigData<T>(Int32)
-  href: api/Global.ConfigManager.html#Global_ConfigManager_GetConfigData__1_System_Int32_
-  commentId: M:Global.ConfigManager.GetConfigData``1(System.Int32)
-  name.vb: GetConfigData(Of T)(Int32)
-  fullName: ConfigManager.GetConfigData<T>(System.Int32)
-  fullName.vb: ConfigManager.GetConfigData(Of T)(System.Int32)
-  nameWithType: ConfigManager.GetConfigData<T>(Int32)
-  nameWithType.vb: ConfigManager.GetConfigData(Of T)(Int32)
-- uid: Global.ConfigManager.GetConfigData``1(System.String)
-  name: GetConfigData<T>(String)
-  href: api/Global.ConfigManager.html#Global_ConfigManager_GetConfigData__1_System_String_
-  commentId: M:Global.ConfigManager.GetConfigData``1(System.String)
-  name.vb: GetConfigData(Of T)(String)
-  fullName: ConfigManager.GetConfigData<T>(System.String)
-  fullName.vb: ConfigManager.GetConfigData(Of T)(System.String)
-  nameWithType: ConfigManager.GetConfigData<T>(String)
-  nameWithType.vb: ConfigManager.GetConfigData(Of T)(String)
-- uid: Global.ConfigManager.GetConfigDataID*
-  name: GetConfigDataID
-  href: api/Global.ConfigManager.html#Global_ConfigManager_GetConfigDataID_
-  commentId: Overload:Global.ConfigManager.GetConfigDataID
+  fullName: ConfigManager.GetConfigDataAt
+  nameWithType: ConfigManager.GetConfigDataAt
+- uid: Global.ConfigManager.GetConfigDataAt``1(System.Int32)
+  name: GetConfigDataAt<T>(Int32)
+  href: api/Global.ConfigManager.html#Global_ConfigManager_GetConfigDataAt__1_System_Int32_
+  commentId: M:Global.ConfigManager.GetConfigDataAt``1(System.Int32)
+  name.vb: GetConfigDataAt(Of T)(Int32)
+  fullName: ConfigManager.GetConfigDataAt<T>(System.Int32)
+  fullName.vb: ConfigManager.GetConfigDataAt(Of T)(System.Int32)
+  nameWithType: ConfigManager.GetConfigDataAt<T>(Int32)
+  nameWithType.vb: ConfigManager.GetConfigDataAt(Of T)(Int32)
+- uid: Global.ConfigManager.GetConfigDataByID*
+  name: GetConfigDataByID
+  href: api/Global.ConfigManager.html#Global_ConfigManager_GetConfigDataByID_
+  commentId: Overload:Global.ConfigManager.GetConfigDataByID
   isSpec: "True"
-  fullName: ConfigManager.GetConfigDataID
-  nameWithType: ConfigManager.GetConfigDataID
-- uid: Global.ConfigManager.GetConfigDataID``1(``0)
-  name: GetConfigDataID<T>(T)
-  href: api/Global.ConfigManager.html#Global_ConfigManager_GetConfigDataID__1___0_
-  commentId: M:Global.ConfigManager.GetConfigDataID``1(``0)
-  name.vb: GetConfigDataID(Of T)(T)
-  fullName: ConfigManager.GetConfigDataID<T>(T)
-  fullName.vb: ConfigManager.GetConfigDataID(Of T)(T)
-  nameWithType: ConfigManager.GetConfigDataID<T>(T)
-  nameWithType.vb: ConfigManager.GetConfigDataID(Of T)(T)
+  fullName: ConfigManager.GetConfigDataByID
+  nameWithType: ConfigManager.GetConfigDataByID
+- uid: Global.ConfigManager.GetConfigDataByID``1(System.String)
+  name: GetConfigDataByID<T>(String)
+  href: api/Global.ConfigManager.html#Global_ConfigManager_GetConfigDataByID__1_System_String_
+  commentId: M:Global.ConfigManager.GetConfigDataByID``1(System.String)
+  name.vb: GetConfigDataByID(Of T)(String)
+  fullName: ConfigManager.GetConfigDataByID<T>(System.String)
+  fullName.vb: ConfigManager.GetConfigDataByID(Of T)(System.String)
+  nameWithType: ConfigManager.GetConfigDataByID<T>(String)
+  nameWithType.vb: ConfigManager.GetConfigDataByID(Of T)(String)
+- uid: Global.ConfigManager.GetConfigDataByName*
+  name: GetConfigDataByName
+  href: api/Global.ConfigManager.html#Global_ConfigManager_GetConfigDataByName_
+  commentId: Overload:Global.ConfigManager.GetConfigDataByName
+  isSpec: "True"
+  fullName: ConfigManager.GetConfigDataByName
+  nameWithType: ConfigManager.GetConfigDataByName
+- uid: Global.ConfigManager.GetConfigDataByName``1(System.String)
+  name: GetConfigDataByName<T>(String)
+  href: api/Global.ConfigManager.html#Global_ConfigManager_GetConfigDataByName__1_System_String_
+  commentId: M:Global.ConfigManager.GetConfigDataByName``1(System.String)
+  name.vb: GetConfigDataByName(Of T)(String)
+  fullName: ConfigManager.GetConfigDataByName<T>(System.String)
+  fullName.vb: ConfigManager.GetConfigDataByName(Of T)(System.String)
+  nameWithType: ConfigManager.GetConfigDataByName<T>(String)
+  nameWithType.vb: ConfigManager.GetConfigDataByName(Of T)(String)
+- uid: Global.ConfigManager.GetConfigDataIndex*
+  name: GetConfigDataIndex
+  href: api/Global.ConfigManager.html#Global_ConfigManager_GetConfigDataIndex_
+  commentId: Overload:Global.ConfigManager.GetConfigDataIndex
+  isSpec: "True"
+  fullName: ConfigManager.GetConfigDataIndex
+  nameWithType: ConfigManager.GetConfigDataIndex
+- uid: Global.ConfigManager.GetConfigDataIndex``1(``0)
+  name: GetConfigDataIndex<T>(T)
+  href: api/Global.ConfigManager.html#Global_ConfigManager_GetConfigDataIndex__1___0_
+  commentId: M:Global.ConfigManager.GetConfigDataIndex``1(``0)
+  name.vb: GetConfigDataIndex(Of T)(T)
+  fullName: ConfigManager.GetConfigDataIndex<T>(T)
+  fullName.vb: ConfigManager.GetConfigDataIndex(Of T)(T)
+  nameWithType: ConfigManager.GetConfigDataIndex<T>(T)
+  nameWithType.vb: ConfigManager.GetConfigDataIndex(Of T)(T)
 - uid: Global.ConfigManager.GetConfigLength*
   name: GetConfigLength
   href: api/Global.ConfigManager.html#Global_ConfigManager_GetConfigLength_
@@ -1183,6 +1254,19 @@ references:
   commentId: F:Global.FrameEntry.autoSave
   fullName: FrameEntry.autoSave
   nameWithType: FrameEntry.autoSave
+- uid: Global.FrameEntry.FrameVersion
+  name: FrameVersion
+  href: api/Global.FrameEntry.html#Global_FrameEntry_FrameVersion
+  commentId: P:Global.FrameEntry.FrameVersion
+  fullName: FrameEntry.FrameVersion
+  nameWithType: FrameEntry.FrameVersion
+- uid: Global.FrameEntry.FrameVersion*
+  name: FrameVersion
+  href: api/Global.FrameEntry.html#Global_FrameEntry_FrameVersion_
+  commentId: Overload:Global.FrameEntry.FrameVersion
+  isSpec: "True"
+  fullName: FrameEntry.FrameVersion
+  nameWithType: FrameEntry.FrameVersion
 - uid: Global.FrameEntry.Init
   name: Init()
   href: api/Global.FrameEntry.html#Global_FrameEntry_Init
@@ -2373,6 +2457,12 @@ references:
   isSpec: "True"
   fullName: LevelUpView.GetItem
   nameWithType: LevelUpView.GetItem
+- uid: Global.LevelUpView.itemRef
+  name: itemRef
+  href: api/Global.LevelUpView.html#Global_LevelUpView_itemRef
+  commentId: F:Global.LevelUpView.itemRef
+  fullName: LevelUpView.itemRef
+  nameWithType: LevelUpView.itemRef
 - uid: Global.LevelUpView.LevelUp
   name: LevelUp()
   href: api/Global.LevelUpView.html#Global_LevelUpView_LevelUp
@@ -2895,6 +2985,19 @@ references:
   isSpec: "True"
   fullName: Player.Player
   nameWithType: Player.Player
+- uid: Global.Player.AddAvailableUnit(System.String)
+  name: AddAvailableUnit(String)
+  href: api/Global.Player.html#Global_Player_AddAvailableUnit_System_String_
+  commentId: M:Global.Player.AddAvailableUnit(System.String)
+  fullName: Player.AddAvailableUnit(System.String)
+  nameWithType: Player.AddAvailableUnit(String)
+- uid: Global.Player.AddAvailableUnit*
+  name: AddAvailableUnit
+  href: api/Global.Player.html#Global_Player_AddAvailableUnit_
+  commentId: Overload:Global.Player.AddAvailableUnit
+  isSpec: "True"
+  fullName: Player.AddAvailableUnit
+  nameWithType: Player.AddAvailableUnit
 - uid: Global.Player.AddLeftCombo(Player.ComboInfo)
   name: AddLeftCombo(Player.ComboInfo)
   href: api/Global.Player.html#Global_Player_AddLeftCombo_Player_ComboInfo_
@@ -3243,6 +3346,19 @@ references:
   commentId: E:Global.Player.OnComboInfoChanged
   fullName: Player.OnComboInfoChanged
   nameWithType: Player.OnComboInfoChanged
+- uid: Global.Player.RemoveAvailableUnit(System.String)
+  name: RemoveAvailableUnit(String)
+  href: api/Global.Player.html#Global_Player_RemoveAvailableUnit_System_String_
+  commentId: M:Global.Player.RemoveAvailableUnit(System.String)
+  fullName: Player.RemoveAvailableUnit(System.String)
+  nameWithType: Player.RemoveAvailableUnit(String)
+- uid: Global.Player.RemoveAvailableUnit*
+  name: RemoveAvailableUnit
+  href: api/Global.Player.html#Global_Player_RemoveAvailableUnit_
+  commentId: Overload:Global.Player.RemoveAvailableUnit
+  isSpec: "True"
+  fullName: Player.RemoveAvailableUnit
+  nameWithType: Player.RemoveAvailableUnit
 - uid: Global.Player.RemoveLeftCombo(Player.ComboInfo)
   name: RemoveLeftCombo(Player.ComboInfo)
   href: api/Global.Player.html#Global_Player_RemoveLeftCombo_Player_ComboInfo_
@@ -3520,6 +3636,18 @@ references:
   commentId: T:Global.PlayView
   fullName: PlayView
   nameWithType: PlayView
+- uid: Global.PlayView.defaultAvailableUnitPool
+  name: defaultAvailableUnitPool
+  href: api/Global.PlayView.html#Global_PlayView_defaultAvailableUnitPool
+  commentId: F:Global.PlayView.defaultAvailableUnitPool
+  fullName: PlayView.defaultAvailableUnitPool
+  nameWithType: PlayView.defaultAvailableUnitPool
+- uid: Global.PlayView.defaultEquippedList
+  name: defaultEquippedList
+  href: api/Global.PlayView.html#Global_PlayView_defaultEquippedList
+  commentId: F:Global.PlayView.defaultEquippedList
+  fullName: PlayView.defaultEquippedList
+  nameWithType: PlayView.defaultEquippedList
 - uid: Global.PlayView.isTraining
   name: isTraining
   href: api/Global.PlayView.html#Global_PlayView_isTraining
@@ -4247,12 +4375,12 @@ references:
   commentId: T:Global.Skill
   fullName: Skill
   nameWithType: Skill
-- uid: Global.Skill.#ctor(System.Int32)
-  name: Skill(Int32)
-  href: api/Global.Skill.html#Global_Skill__ctor_System_Int32_
-  commentId: M:Global.Skill.#ctor(System.Int32)
-  fullName: Skill.Skill(System.Int32)
-  nameWithType: Skill.Skill(Int32)
+- uid: Global.Skill.#ctor(System.String)
+  name: Skill(String)
+  href: api/Global.Skill.html#Global_Skill__ctor_System_String_
+  commentId: M:Global.Skill.#ctor(System.String)
+  fullName: Skill.Skill(System.String)
+  nameWithType: Skill.Skill(String)
 - uid: Global.Skill.#ctor*
   name: Skill
   href: api/Global.Skill.html#Global_Skill__ctor_
@@ -4863,6 +4991,12 @@ references:
   commentId: F:Global.SkillController.animator
   fullName: SkillController.animator
   nameWithType: SkillController.animator
+- uid: Global.SkillController.autoUnitSource
+  name: autoUnitSource
+  href: api/Global.SkillController.html#Global_SkillController_autoUnitSource
+  commentId: F:Global.SkillController.autoUnitSource
+  fullName: SkillController.autoUnitSource
+  nameWithType: SkillController.autoUnitSource
 - uid: Global.SkillController.Config
   name: Config
   href: api/Global.SkillController.html#Global_SkillController_Config
@@ -5025,12 +5159,6 @@ references:
   commentId: F:Global.SkillController.rb
   fullName: SkillController.rb
   nameWithType: SkillController.rb
-- uid: Global.SkillController.skillSource
-  name: skillSource
-  href: api/Global.SkillController.html#Global_SkillController_skillSource
-  commentId: F:Global.SkillController.skillSource
-  fullName: SkillController.skillSource
-  nameWithType: SkillController.skillSource
 - uid: Global.SkillController.unitSource
   name: unitSource
   href: api/Global.SkillController.html#Global_SkillController_unitSource
@@ -5043,12 +5171,19 @@ references:
   commentId: F:Global.SkillController.user
   fullName: SkillController.user
   nameWithType: SkillController.user
-- uid: Global.SkillController.userBinding
-  name: userBinding
-  href: api/Global.SkillController.html#Global_SkillController_userBinding
-  commentId: F:Global.SkillController.userBinding
-  fullName: SkillController.userBinding
-  nameWithType: SkillController.userBinding
+- uid: Global.SkillController.UserBinding
+  name: UserBinding
+  href: api/Global.SkillController.html#Global_SkillController_UserBinding
+  commentId: P:Global.SkillController.UserBinding
+  fullName: SkillController.UserBinding
+  nameWithType: SkillController.UserBinding
+- uid: Global.SkillController.UserBinding*
+  name: UserBinding
+  href: api/Global.SkillController.html#Global_SkillController_UserBinding_
+  commentId: Overload:Global.SkillController.UserBinding
+  isSpec: "True"
+  fullName: SkillController.UserBinding
+  nameWithType: SkillController.UserBinding
 - uid: Global.SkillEvent
   name: SkillEvent
   href: api/Global.SkillEvent.html
@@ -5220,6 +5355,12 @@ references:
   isSpec: "True"
   fullName: SkillEvent005.BeforeAttack
   nameWithType: SkillEvent005.BeforeAttack
+- uid: Global.SkillEvent005.state
+  name: state
+  href: api/Global.SkillEvent005.html#Global_SkillEvent005_state
+  commentId: F:Global.SkillEvent005.state
+  fullName: SkillEvent005.state
+  nameWithType: SkillEvent005.state
 - uid: Global.SkillEvent006
   name: SkillEvent006
   href: api/Global.SkillEvent006.html
@@ -5258,6 +5399,12 @@ references:
   isSpec: "True"
   fullName: SkillEvent007.OnSkillCustomTriggered
   nameWithType: SkillEvent007.OnSkillCustomTriggered
+- uid: Global.SkillEvent007.state
+  name: state
+  href: api/Global.SkillEvent007.html#Global_SkillEvent007_state
+  commentId: F:Global.SkillEvent007.state
+  fullName: SkillEvent007.state
+  nameWithType: SkillEvent007.state
 - uid: Global.SkillEvent008
   name: SkillEvent008
   href: api/Global.SkillEvent008.html
@@ -5277,12 +5424,24 @@ references:
   isSpec: "True"
   fullName: SkillEvent008.OnSkillUse
   nameWithType: SkillEvent008.OnSkillUse
+- uid: Global.SkillEvent008.state
+  name: state
+  href: api/Global.SkillEvent008.html#Global_SkillEvent008_state
+  commentId: F:Global.SkillEvent008.state
+  fullName: SkillEvent008.state
+  nameWithType: SkillEvent008.state
 - uid: Global.SkillEvent009
   name: SkillEvent009
   href: api/Global.SkillEvent009.html
   commentId: T:Global.SkillEvent009
   fullName: SkillEvent009
   nameWithType: SkillEvent009
+- uid: Global.SkillEvent009.checkedState
+  name: checkedState
+  href: api/Global.SkillEvent009.html#Global_SkillEvent009_checkedState
+  commentId: F:Global.SkillEvent009.checkedState
+  fullName: SkillEvent009.checkedState
+  nameWithType: SkillEvent009.checkedState
 - uid: Global.SkillEvent009.OnSkillTriggered(SkillController,Unit)
   name: OnSkillTriggered(SkillController, Unit)
   href: api/Global.SkillEvent009.html#Global_SkillEvent009_OnSkillTriggered_SkillController_Unit_
@@ -5532,12 +5691,12 @@ references:
   commentId: T:Global.State
   fullName: State
   nameWithType: State
-- uid: Global.State.#ctor(System.Int32)
-  name: State(Int32)
-  href: api/Global.State.html#Global_State__ctor_System_Int32_
-  commentId: M:Global.State.#ctor(System.Int32)
-  fullName: State.State(System.Int32)
-  nameWithType: State.State(Int32)
+- uid: Global.State.#ctor(System.String)
+  name: State(String)
+  href: api/Global.State.html#Global_State__ctor_System_String_
+  commentId: M:Global.State.#ctor(System.String)
+  fullName: State.State(System.String)
+  nameWithType: State.State(String)
 - uid: Global.State.#ctor*
   name: State
   href: api/Global.State.html#Global_State__ctor_
@@ -5967,6 +6126,12 @@ references:
   isSpec: "True"
   fullName: State.UniversalShield
   nameWithType: State.UniversalShield
+- uid: Global.StateEvent
+  name: StateEvent
+  href: api/Global.StateEvent.html
+  commentId: T:Global.StateEvent
+  fullName: StateEvent
+  nameWithType: StateEvent
 - uid: Global.StateEvent002
   name: StateEvent002
   href: api/Global.StateEvent002.html
@@ -6242,6 +6407,12 @@ references:
   commentId: F:Global.StatesConfigItem.universalShield
   fullName: StatesConfigItem.universalShield
   nameWithType: StatesConfigItem.universalShield
+- uid: Global.SubTest
+  name: SubTest
+  href: api/Global.SubTest.html
+  commentId: T:Global.SubTest
+  fullName: SubTest
+  nameWithType: SubTest
 - uid: Global.SystemData
   name: SystemData
   href: api/Global.SystemData.html
@@ -6519,12 +6690,12 @@ references:
   commentId: T:Global.Unit
   fullName: Unit
   nameWithType: Unit
-- uid: Global.Unit.#ctor(System.Int32)
-  name: Unit(Int32)
-  href: api/Global.Unit.html#Global_Unit__ctor_System_Int32_
-  commentId: M:Global.Unit.#ctor(System.Int32)
-  fullName: Unit.Unit(System.Int32)
-  nameWithType: Unit.Unit(Int32)
+- uid: Global.Unit.#ctor(System.String)
+  name: Unit(String)
+  href: api/Global.Unit.html#Global_Unit__ctor_System_String_
+  commentId: M:Global.Unit.#ctor(System.String)
+  fullName: Unit.Unit(System.String)
+  nameWithType: Unit.Unit(String)
 - uid: Global.Unit.#ctor*
   name: Unit
   href: api/Global.Unit.html#Global_Unit__ctor_
@@ -8288,6 +8459,19 @@ references:
   commentId: T:Global.Utils
   fullName: Utils
   nameWithType: Utils
+- uid: Global.Utils.CompareVersions(System.String,System.String)
+  name: CompareVersions(String, String)
+  href: api/Global.Utils.html#Global_Utils_CompareVersions_System_String_System_String_
+  commentId: M:Global.Utils.CompareVersions(System.String,System.String)
+  fullName: Utils.CompareVersions(System.String, System.String)
+  nameWithType: Utils.CompareVersions(String, String)
+- uid: Global.Utils.CompareVersions*
+  name: CompareVersions
+  href: api/Global.Utils.html#Global_Utils_CompareVersions_
+  commentId: Overload:Global.Utils.CompareVersions
+  isSpec: "True"
+  fullName: Utils.CompareVersions
+  nameWithType: Utils.CompareVersions
 - uid: Global.Utils.ToLocalized(System.String,System.String[])
   name: ToLocalized(String, String[])
   href: api/Global.Utils.html#Global_Utils_ToLocalized_System_String_System_String___
