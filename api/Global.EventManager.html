@@ -346,15 +346,42 @@
   </table>
   
   
-  <h4 id="Global_EventManager_OnSkillTriggered" data-uid="Global.EventManager.OnSkillTriggered">OnSkillTriggered</h4>
-  <div class="markdown level1 summary"><p>技能触发事件
+  <h4 id="Global_EventManager_OnSkillTriggerOther" data-uid="Global.EventManager.OnSkillTriggerOther">OnSkillTriggerOther</h4>
+  <div class="markdown level1 summary"><p>技能触发非单位事件
+参数1：使用的技能控制器
+参数2：碰撞体</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static UnityAction&lt;SkillController, Collider2D&gt; OnSkillTriggerOther</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="Global.SkillController.html">SkillController</a>, <span class="xref">Collider2D</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_EventManager_OnSkillTriggerUnit" data-uid="Global.EventManager.OnSkillTriggerUnit">OnSkillTriggerUnit</h4>
+  <div class="markdown level1 summary"><p>技能触发单位事件
 参数1：使用的技能控制器
 参数2：触发的单位</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static UnityAction&lt;SkillController, Unit&gt; OnSkillTriggered</code></pre>
+    <pre><code class="lang-csharp hljs">public static UnityAction&lt;SkillController, Unit&gt; OnSkillTriggerUnit</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -375,12 +402,14 @@
   
   <h4 id="Global_EventManager_OnSkillUse" data-uid="Global.EventManager.OnSkillUse">OnSkillUse</h4>
   <div class="markdown level1 summary"><p>技能使用事件
-参数1：使用的技能控制器</p>
+参数1：使用的技能控制器
+参数2：是否为重攻击
+参数3：当前连段</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static UnityAction&lt;SkillController&gt; OnSkillUse</code></pre>
+    <pre><code class="lang-csharp hljs">public static UnityAction&lt;SkillController, bool, int&gt; OnSkillUse</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -392,7 +421,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="Global.SkillController.html">SkillController</a>&gt;</td>
+        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="Global.SkillController.html">SkillController</a>, <span class="xref">System.Boolean</span>, <span class="xref">System.Int32</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -477,6 +506,32 @@
   </table>
   
   
+  <h4 id="Global_EventManager_OnUnitCreate" data-uid="Global.EventManager.OnUnitCreate">OnUnitCreate</h4>
+  <div class="markdown level1 summary"><p>单位生成事件
+参数1：生成的单位控制器</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static UnityAction&lt;UnitController&gt; OnUnitCreate</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="Global.UnitController.html">UnitController</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Global_EventManager_OnUnitDash" data-uid="Global.EventManager.OnUnitDash">OnUnitDash</h4>
   <div class="markdown level1 summary"><p>单位冲刺事件
 参数1：冲刺的单位控制器</p>
@@ -503,6 +558,60 @@
   </table>
   
   
+  <h4 id="Global_EventManager_OnUnitEquip" data-uid="Global.EventManager.OnUnitEquip">OnUnitEquip</h4>
+  <div class="markdown level1 summary"><p>单位装备事件
+参数1：玩家单位
+参数2：装备的单位</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static UnityAction&lt;Player, Unit&gt; OnUnitEquip</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="Global.Player.html">Player</a>, <a class="xref" href="Global.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_EventManager_OnUnitGain" data-uid="Global.EventManager.OnUnitGain">OnUnitGain</h4>
+  <div class="markdown level1 summary"><p>单位获得事件
+参数1：玩家单位
+参数2：获得的单位</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static UnityAction&lt;Player, Unit&gt; OnUnitGain</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="Global.Player.html">Player</a>, <a class="xref" href="Global.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Global_EventManager_OnUnitInit" data-uid="Global.EventManager.OnUnitInit">OnUnitInit</h4>
   <div class="markdown level1 summary"><p>单位初始化事件
 参数1：初始化的单位</p>
@@ -523,6 +632,60 @@
     <tbody>
       <tr>
         <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="Global.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_EventManager_OnUnitLost" data-uid="Global.EventManager.OnUnitLost">OnUnitLost</h4>
+  <div class="markdown level1 summary"><p>单位失去事件
+参数1：玩家单位
+参数2：失去的单位</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static UnityAction&lt;Player, Unit&gt; OnUnitLost</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="Global.Player.html">Player</a>, <a class="xref" href="Global.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_EventManager_OnUnitUnequip" data-uid="Global.EventManager.OnUnitUnequip">OnUnitUnequip</h4>
+  <div class="markdown level1 summary"><p>单位卸载事件
+参数1：玩家单位
+参数2：卸载的单位</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static UnityAction&lt;Player, Unit&gt; OnUnitUnequip</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="Global.Player.html">Player</a>, <a class="xref" href="Global.Unit.html">Unit</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>

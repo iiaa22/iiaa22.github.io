@@ -274,6 +274,23 @@ references:
   fullName.vb: BaseEvent(Of T).CreateAfterimage
   nameWithType: BaseEvent<T>.CreateAfterimage
   nameWithType.vb: BaseEvent(Of T).CreateAfterimage
+- uid: Global.BaseEvent`1.OnDestroy
+  name: OnDestroy()
+  href: api/Global.BaseEvent-1.html#Global_BaseEvent_1_OnDestroy
+  commentId: M:Global.BaseEvent`1.OnDestroy
+  fullName: BaseEvent<T>.OnDestroy()
+  fullName.vb: BaseEvent(Of T).OnDestroy()
+  nameWithType: BaseEvent<T>.OnDestroy()
+  nameWithType.vb: BaseEvent(Of T).OnDestroy()
+- uid: Global.BaseEvent`1.OnDestroy*
+  name: OnDestroy
+  href: api/Global.BaseEvent-1.html#Global_BaseEvent_1_OnDestroy_
+  commentId: Overload:Global.BaseEvent`1.OnDestroy
+  isSpec: "True"
+  fullName: BaseEvent<T>.OnDestroy
+  fullName.vb: BaseEvent(Of T).OnDestroy
+  nameWithType: BaseEvent<T>.OnDestroy
+  nameWithType.vb: BaseEvent(Of T).OnDestroy
 - uid: Global.BaseEvent`1.Owner
   name: Owner
   href: api/Global.BaseEvent-1.html#Global_BaseEvent_1_Owner
@@ -1098,24 +1115,6 @@ references:
   commentId: F:Global.DamageType.Physical
   fullName: DamageType.Physical
   nameWithType: DamageType.Physical
-- uid: Global.EnemyCreater
-  name: EnemyCreater
-  href: api/Global.EnemyCreater.html
-  commentId: T:Global.EnemyCreater
-  fullName: EnemyCreater
-  nameWithType: EnemyCreater
-- uid: Global.EnemyCreater.enemyConfig
-  name: enemyConfig
-  href: api/Global.EnemyCreater.html#Global_EnemyCreater_enemyConfig
-  commentId: F:Global.EnemyCreater.enemyConfig
-  fullName: EnemyCreater.enemyConfig
-  nameWithType: EnemyCreater.enemyConfig
-- uid: Global.EnemyCreater.warningSprite
-  name: warningSprite
-  href: api/Global.EnemyCreater.html#Global_EnemyCreater_warningSprite
-  commentId: F:Global.EnemyCreater.warningSprite
-  fullName: EnemyCreater.warningSprite
-  nameWithType: EnemyCreater.warningSprite
 - uid: Global.EventManager
   name: EventManager
   href: api/Global.EventManager.html
@@ -1176,12 +1175,18 @@ references:
   commentId: F:Global.EventManager.OnSkillLearn
   fullName: EventManager.OnSkillLearn
   nameWithType: EventManager.OnSkillLearn
-- uid: Global.EventManager.OnSkillTriggered
-  name: OnSkillTriggered
-  href: api/Global.EventManager.html#Global_EventManager_OnSkillTriggered
-  commentId: F:Global.EventManager.OnSkillTriggered
-  fullName: EventManager.OnSkillTriggered
-  nameWithType: EventManager.OnSkillTriggered
+- uid: Global.EventManager.OnSkillTriggerOther
+  name: OnSkillTriggerOther
+  href: api/Global.EventManager.html#Global_EventManager_OnSkillTriggerOther
+  commentId: F:Global.EventManager.OnSkillTriggerOther
+  fullName: EventManager.OnSkillTriggerOther
+  nameWithType: EventManager.OnSkillTriggerOther
+- uid: Global.EventManager.OnSkillTriggerUnit
+  name: OnSkillTriggerUnit
+  href: api/Global.EventManager.html#Global_EventManager_OnSkillTriggerUnit
+  commentId: F:Global.EventManager.OnSkillTriggerUnit
+  fullName: EventManager.OnSkillTriggerUnit
+  nameWithType: EventManager.OnSkillTriggerUnit
 - uid: Global.EventManager.OnSkillUse
   name: OnSkillUse
   href: api/Global.EventManager.html#Global_EventManager_OnSkillUse
@@ -1206,18 +1211,48 @@ references:
   commentId: F:Global.EventManager.OnUnitBuild
   fullName: EventManager.OnUnitBuild
   nameWithType: EventManager.OnUnitBuild
+- uid: Global.EventManager.OnUnitCreate
+  name: OnUnitCreate
+  href: api/Global.EventManager.html#Global_EventManager_OnUnitCreate
+  commentId: F:Global.EventManager.OnUnitCreate
+  fullName: EventManager.OnUnitCreate
+  nameWithType: EventManager.OnUnitCreate
 - uid: Global.EventManager.OnUnitDash
   name: OnUnitDash
   href: api/Global.EventManager.html#Global_EventManager_OnUnitDash
   commentId: F:Global.EventManager.OnUnitDash
   fullName: EventManager.OnUnitDash
   nameWithType: EventManager.OnUnitDash
+- uid: Global.EventManager.OnUnitEquip
+  name: OnUnitEquip
+  href: api/Global.EventManager.html#Global_EventManager_OnUnitEquip
+  commentId: F:Global.EventManager.OnUnitEquip
+  fullName: EventManager.OnUnitEquip
+  nameWithType: EventManager.OnUnitEquip
+- uid: Global.EventManager.OnUnitGain
+  name: OnUnitGain
+  href: api/Global.EventManager.html#Global_EventManager_OnUnitGain
+  commentId: F:Global.EventManager.OnUnitGain
+  fullName: EventManager.OnUnitGain
+  nameWithType: EventManager.OnUnitGain
 - uid: Global.EventManager.OnUnitInit
   name: OnUnitInit
   href: api/Global.EventManager.html#Global_EventManager_OnUnitInit
   commentId: F:Global.EventManager.OnUnitInit
   fullName: EventManager.OnUnitInit
   nameWithType: EventManager.OnUnitInit
+- uid: Global.EventManager.OnUnitLost
+  name: OnUnitLost
+  href: api/Global.EventManager.html#Global_EventManager_OnUnitLost
+  commentId: F:Global.EventManager.OnUnitLost
+  fullName: EventManager.OnUnitLost
+  nameWithType: EventManager.OnUnitLost
+- uid: Global.EventManager.OnUnitUnequip
+  name: OnUnitUnequip
+  href: api/Global.EventManager.html#Global_EventManager_OnUnitUnequip
+  commentId: F:Global.EventManager.OnUnitUnequip
+  fullName: EventManager.OnUnitUnequip
+  nameWithType: EventManager.OnUnitUnequip
 - uid: Global.FactionType
   name: FactionType
   href: api/Global.FactionType.html
@@ -2067,12 +2102,18 @@ references:
   commentId: F:Global.InventoryView.content2
   fullName: InventoryView.content2
   nameWithType: InventoryView.content2
-- uid: Global.InventoryView.itemPrefab
-  name: itemPrefab
-  href: api/Global.InventoryView.html#Global_InventoryView_itemPrefab
-  commentId: F:Global.InventoryView.itemPrefab
-  fullName: InventoryView.itemPrefab
-  nameWithType: InventoryView.itemPrefab
+- uid: Global.InventoryView.itemPrefab1
+  name: itemPrefab1
+  href: api/Global.InventoryView.html#Global_InventoryView_itemPrefab1
+  commentId: F:Global.InventoryView.itemPrefab1
+  fullName: InventoryView.itemPrefab1
+  nameWithType: InventoryView.itemPrefab1
+- uid: Global.InventoryView.itemPrefab2
+  name: itemPrefab2
+  href: api/Global.InventoryView.html#Global_InventoryView_itemPrefab2
+  commentId: F:Global.InventoryView.itemPrefab2
+  fullName: InventoryView.itemPrefab2
+  nameWithType: InventoryView.itemPrefab2
 - uid: Global.InventoryView.noItemText
   name: noItemText
   href: api/Global.InventoryView.html#Global_InventoryView_noItemText
@@ -2181,37 +2222,56 @@ references:
   isSpec: "True"
   fullName: ISkillLearnHandler.OnSkillLearn
   nameWithType: ISkillLearnHandler.OnSkillLearn
-- uid: Global.ISkillTriggeredHandler
-  name: ISkillTriggeredHandler
-  href: api/Global.ISkillTriggeredHandler.html
-  commentId: T:Global.ISkillTriggeredHandler
-  fullName: ISkillTriggeredHandler
-  nameWithType: ISkillTriggeredHandler
-- uid: Global.ISkillTriggeredHandler.OnSkillTriggered(SkillController,Unit)
-  name: OnSkillTriggered(SkillController, Unit)
-  href: api/Global.ISkillTriggeredHandler.html#Global_ISkillTriggeredHandler_OnSkillTriggered_SkillController_Unit_
-  commentId: M:Global.ISkillTriggeredHandler.OnSkillTriggered(SkillController,Unit)
-  fullName: ISkillTriggeredHandler.OnSkillTriggered(SkillController, Unit)
-  nameWithType: ISkillTriggeredHandler.OnSkillTriggered(SkillController, Unit)
-- uid: Global.ISkillTriggeredHandler.OnSkillTriggered*
-  name: OnSkillTriggered
-  href: api/Global.ISkillTriggeredHandler.html#Global_ISkillTriggeredHandler_OnSkillTriggered_
-  commentId: Overload:Global.ISkillTriggeredHandler.OnSkillTriggered
+- uid: Global.ISkillTriggerOtherHandler
+  name: ISkillTriggerOtherHandler
+  href: api/Global.ISkillTriggerOtherHandler.html
+  commentId: T:Global.ISkillTriggerOtherHandler
+  fullName: ISkillTriggerOtherHandler
+  nameWithType: ISkillTriggerOtherHandler
+- uid: Global.ISkillTriggerOtherHandler.OnSkillTriggerOther(SkillController,Collider2D)
+  name: OnSkillTriggerOther(SkillController, Collider2D)
+  href: api/Global.ISkillTriggerOtherHandler.html#Global_ISkillTriggerOtherHandler_OnSkillTriggerOther_SkillController_Collider2D_
+  commentId: M:Global.ISkillTriggerOtherHandler.OnSkillTriggerOther(SkillController,Collider2D)
+  fullName: ISkillTriggerOtherHandler.OnSkillTriggerOther(SkillController, Collider2D)
+  nameWithType: ISkillTriggerOtherHandler.OnSkillTriggerOther(SkillController, Collider2D)
+- uid: Global.ISkillTriggerOtherHandler.OnSkillTriggerOther*
+  name: OnSkillTriggerOther
+  href: api/Global.ISkillTriggerOtherHandler.html#Global_ISkillTriggerOtherHandler_OnSkillTriggerOther_
+  commentId: Overload:Global.ISkillTriggerOtherHandler.OnSkillTriggerOther
   isSpec: "True"
-  fullName: ISkillTriggeredHandler.OnSkillTriggered
-  nameWithType: ISkillTriggeredHandler.OnSkillTriggered
+  fullName: ISkillTriggerOtherHandler.OnSkillTriggerOther
+  nameWithType: ISkillTriggerOtherHandler.OnSkillTriggerOther
+- uid: Global.ISkillTriggerUnitHandler
+  name: ISkillTriggerUnitHandler
+  href: api/Global.ISkillTriggerUnitHandler.html
+  commentId: T:Global.ISkillTriggerUnitHandler
+  fullName: ISkillTriggerUnitHandler
+  nameWithType: ISkillTriggerUnitHandler
+- uid: Global.ISkillTriggerUnitHandler.OnSkillTriggerUnit(SkillController,Unit)
+  name: OnSkillTriggerUnit(SkillController, Unit)
+  href: api/Global.ISkillTriggerUnitHandler.html#Global_ISkillTriggerUnitHandler_OnSkillTriggerUnit_SkillController_Unit_
+  commentId: M:Global.ISkillTriggerUnitHandler.OnSkillTriggerUnit(SkillController,Unit)
+  fullName: ISkillTriggerUnitHandler.OnSkillTriggerUnit(SkillController, Unit)
+  nameWithType: ISkillTriggerUnitHandler.OnSkillTriggerUnit(SkillController, Unit)
+- uid: Global.ISkillTriggerUnitHandler.OnSkillTriggerUnit*
+  name: OnSkillTriggerUnit
+  href: api/Global.ISkillTriggerUnitHandler.html#Global_ISkillTriggerUnitHandler_OnSkillTriggerUnit_
+  commentId: Overload:Global.ISkillTriggerUnitHandler.OnSkillTriggerUnit
+  isSpec: "True"
+  fullName: ISkillTriggerUnitHandler.OnSkillTriggerUnit
+  nameWithType: ISkillTriggerUnitHandler.OnSkillTriggerUnit
 - uid: Global.ISkillUseHandler
   name: ISkillUseHandler
   href: api/Global.ISkillUseHandler.html
   commentId: T:Global.ISkillUseHandler
   fullName: ISkillUseHandler
   nameWithType: ISkillUseHandler
-- uid: Global.ISkillUseHandler.OnSkillUse(SkillController)
-  name: OnSkillUse(SkillController)
-  href: api/Global.ISkillUseHandler.html#Global_ISkillUseHandler_OnSkillUse_SkillController_
-  commentId: M:Global.ISkillUseHandler.OnSkillUse(SkillController)
-  fullName: ISkillUseHandler.OnSkillUse(SkillController)
-  nameWithType: ISkillUseHandler.OnSkillUse(SkillController)
+- uid: Global.ISkillUseHandler.OnSkillUse(SkillController,System.Boolean,System.Int32)
+  name: OnSkillUse(SkillController, Boolean, Int32)
+  href: api/Global.ISkillUseHandler.html#Global_ISkillUseHandler_OnSkillUse_SkillController_System_Boolean_System_Int32_
+  commentId: M:Global.ISkillUseHandler.OnSkillUse(SkillController,System.Boolean,System.Int32)
+  fullName: ISkillUseHandler.OnSkillUse(SkillController, System.Boolean, System.Int32)
+  nameWithType: ISkillUseHandler.OnSkillUse(SkillController, Boolean, Int32)
 - uid: Global.ISkillUseHandler.OnSkillUse*
   name: OnSkillUse
   href: api/Global.ISkillUseHandler.html#Global_ISkillUseHandler_OnSkillUse_
@@ -2276,6 +2336,25 @@ references:
   isSpec: "True"
   fullName: IUnitBuildHandler.OnUnitBuild
   nameWithType: IUnitBuildHandler.OnUnitBuild
+- uid: Global.IUnitCreateHandler
+  name: IUnitCreateHandler
+  href: api/Global.IUnitCreateHandler.html
+  commentId: T:Global.IUnitCreateHandler
+  fullName: IUnitCreateHandler
+  nameWithType: IUnitCreateHandler
+- uid: Global.IUnitCreateHandler.OnUnitCreate(UnitController)
+  name: OnUnitCreate(UnitController)
+  href: api/Global.IUnitCreateHandler.html#Global_IUnitCreateHandler_OnUnitCreate_UnitController_
+  commentId: M:Global.IUnitCreateHandler.OnUnitCreate(UnitController)
+  fullName: IUnitCreateHandler.OnUnitCreate(UnitController)
+  nameWithType: IUnitCreateHandler.OnUnitCreate(UnitController)
+- uid: Global.IUnitCreateHandler.OnUnitCreate*
+  name: OnUnitCreate
+  href: api/Global.IUnitCreateHandler.html#Global_IUnitCreateHandler_OnUnitCreate_
+  commentId: Overload:Global.IUnitCreateHandler.OnUnitCreate
+  isSpec: "True"
+  fullName: IUnitCreateHandler.OnUnitCreate
+  nameWithType: IUnitCreateHandler.OnUnitCreate
 - uid: Global.IUnitDashHandler
   name: IUnitDashHandler
   href: api/Global.IUnitDashHandler.html
@@ -2295,6 +2374,44 @@ references:
   isSpec: "True"
   fullName: IUnitDashHandler.OnUnitDash
   nameWithType: IUnitDashHandler.OnUnitDash
+- uid: Global.IUnitEquipHandler
+  name: IUnitEquipHandler
+  href: api/Global.IUnitEquipHandler.html
+  commentId: T:Global.IUnitEquipHandler
+  fullName: IUnitEquipHandler
+  nameWithType: IUnitEquipHandler
+- uid: Global.IUnitEquipHandler.OnUnitEquip(Player,Unit)
+  name: OnUnitEquip(Player, Unit)
+  href: api/Global.IUnitEquipHandler.html#Global_IUnitEquipHandler_OnUnitEquip_Player_Unit_
+  commentId: M:Global.IUnitEquipHandler.OnUnitEquip(Player,Unit)
+  fullName: IUnitEquipHandler.OnUnitEquip(Player, Unit)
+  nameWithType: IUnitEquipHandler.OnUnitEquip(Player, Unit)
+- uid: Global.IUnitEquipHandler.OnUnitEquip*
+  name: OnUnitEquip
+  href: api/Global.IUnitEquipHandler.html#Global_IUnitEquipHandler_OnUnitEquip_
+  commentId: Overload:Global.IUnitEquipHandler.OnUnitEquip
+  isSpec: "True"
+  fullName: IUnitEquipHandler.OnUnitEquip
+  nameWithType: IUnitEquipHandler.OnUnitEquip
+- uid: Global.IUnitGainHandler
+  name: IUnitGainHandler
+  href: api/Global.IUnitGainHandler.html
+  commentId: T:Global.IUnitGainHandler
+  fullName: IUnitGainHandler
+  nameWithType: IUnitGainHandler
+- uid: Global.IUnitGainHandler.OnUnitGain(Player,Unit)
+  name: OnUnitGain(Player, Unit)
+  href: api/Global.IUnitGainHandler.html#Global_IUnitGainHandler_OnUnitGain_Player_Unit_
+  commentId: M:Global.IUnitGainHandler.OnUnitGain(Player,Unit)
+  fullName: IUnitGainHandler.OnUnitGain(Player, Unit)
+  nameWithType: IUnitGainHandler.OnUnitGain(Player, Unit)
+- uid: Global.IUnitGainHandler.OnUnitGain*
+  name: OnUnitGain
+  href: api/Global.IUnitGainHandler.html#Global_IUnitGainHandler_OnUnitGain_
+  commentId: Overload:Global.IUnitGainHandler.OnUnitGain
+  isSpec: "True"
+  fullName: IUnitGainHandler.OnUnitGain
+  nameWithType: IUnitGainHandler.OnUnitGain
 - uid: Global.IUnitInitHandler
   name: IUnitInitHandler
   href: api/Global.IUnitInitHandler.html
@@ -2314,6 +2431,44 @@ references:
   isSpec: "True"
   fullName: IUnitInitHandler.OnUnitInit
   nameWithType: IUnitInitHandler.OnUnitInit
+- uid: Global.IUnitLostHandler
+  name: IUnitLostHandler
+  href: api/Global.IUnitLostHandler.html
+  commentId: T:Global.IUnitLostHandler
+  fullName: IUnitLostHandler
+  nameWithType: IUnitLostHandler
+- uid: Global.IUnitLostHandler.OnUnitLost(Player,Unit)
+  name: OnUnitLost(Player, Unit)
+  href: api/Global.IUnitLostHandler.html#Global_IUnitLostHandler_OnUnitLost_Player_Unit_
+  commentId: M:Global.IUnitLostHandler.OnUnitLost(Player,Unit)
+  fullName: IUnitLostHandler.OnUnitLost(Player, Unit)
+  nameWithType: IUnitLostHandler.OnUnitLost(Player, Unit)
+- uid: Global.IUnitLostHandler.OnUnitLost*
+  name: OnUnitLost
+  href: api/Global.IUnitLostHandler.html#Global_IUnitLostHandler_OnUnitLost_
+  commentId: Overload:Global.IUnitLostHandler.OnUnitLost
+  isSpec: "True"
+  fullName: IUnitLostHandler.OnUnitLost
+  nameWithType: IUnitLostHandler.OnUnitLost
+- uid: Global.IUnitUnequipHandler
+  name: IUnitUnequipHandler
+  href: api/Global.IUnitUnequipHandler.html
+  commentId: T:Global.IUnitUnequipHandler
+  fullName: IUnitUnequipHandler
+  nameWithType: IUnitUnequipHandler
+- uid: Global.IUnitUnequipHandler.OnUnitUnequip(Player,Unit)
+  name: OnUnitUnequip(Player, Unit)
+  href: api/Global.IUnitUnequipHandler.html#Global_IUnitUnequipHandler_OnUnitUnequip_Player_Unit_
+  commentId: M:Global.IUnitUnequipHandler.OnUnitUnequip(Player,Unit)
+  fullName: IUnitUnequipHandler.OnUnitUnequip(Player, Unit)
+  nameWithType: IUnitUnequipHandler.OnUnitUnequip(Player, Unit)
+- uid: Global.IUnitUnequipHandler.OnUnitUnequip*
+  name: OnUnitUnequip
+  href: api/Global.IUnitUnequipHandler.html#Global_IUnitUnequipHandler_OnUnitUnequip_
+  commentId: Overload:Global.IUnitUnequipHandler.OnUnitUnequip
+  isSpec: "True"
+  fullName: IUnitUnequipHandler.OnUnitUnequip
+  nameWithType: IUnitUnequipHandler.OnUnitUnequip
 - uid: Global.LanguageConfig
   name: LanguageConfig
   href: api/Global.LanguageConfig.html
@@ -2393,6 +2548,12 @@ references:
   commentId: T:Global.LevelUpView
   fullName: LevelUpView
   nameWithType: LevelUpView
+- uid: Global.LevelUpView.bottom
+  name: bottom
+  href: api/Global.LevelUpView.html#Global_LevelUpView_bottom
+  commentId: F:Global.LevelUpView.bottom
+  fullName: LevelUpView.bottom
+  nameWithType: LevelUpView.bottom
 - uid: Global.LevelUpView.CheckDoubleClick
   name: CheckDoubleClick()
   href: api/Global.LevelUpView.html#Global_LevelUpView_CheckDoubleClick
@@ -2457,12 +2618,24 @@ references:
   isSpec: "True"
   fullName: LevelUpView.GetItem
   nameWithType: LevelUpView.GetItem
-- uid: Global.LevelUpView.itemRef
-  name: itemRef
-  href: api/Global.LevelUpView.html#Global_LevelUpView_itemRef
-  commentId: F:Global.LevelUpView.itemRef
-  fullName: LevelUpView.itemRef
-  nameWithType: LevelUpView.itemRef
+- uid: Global.LevelUpView.itemRef1
+  name: itemRef1
+  href: api/Global.LevelUpView.html#Global_LevelUpView_itemRef1
+  commentId: F:Global.LevelUpView.itemRef1
+  fullName: LevelUpView.itemRef1
+  nameWithType: LevelUpView.itemRef1
+- uid: Global.LevelUpView.itemRef2
+  name: itemRef2
+  href: api/Global.LevelUpView.html#Global_LevelUpView_itemRef2
+  commentId: F:Global.LevelUpView.itemRef2
+  fullName: LevelUpView.itemRef2
+  nameWithType: LevelUpView.itemRef2
+- uid: Global.LevelUpView.itemRef3
+  name: itemRef3
+  href: api/Global.LevelUpView.html#Global_LevelUpView_itemRef3
+  commentId: F:Global.LevelUpView.itemRef3
+  fullName: LevelUpView.itemRef3
+  nameWithType: LevelUpView.itemRef3
 - uid: Global.LevelUpView.LevelUp
   name: LevelUp()
   href: api/Global.LevelUpView.html#Global_LevelUpView_LevelUp
@@ -2583,6 +2756,12 @@ references:
   isSpec: "True"
   fullName: LevelUpView.SelectTargetUnit
   nameWithType: LevelUpView.SelectTargetUnit
+- uid: Global.LevelUpView.skillRef
+  name: skillRef
+  href: api/Global.LevelUpView.html#Global_LevelUpView_skillRef
+  commentId: F:Global.LevelUpView.skillRef
+  fullName: LevelUpView.skillRef
+  nameWithType: LevelUpView.skillRef
 - uid: Global.LevelUpView.TargetUnit
   name: TargetUnit
   href: api/Global.LevelUpView.html#Global_LevelUpView_TargetUnit
@@ -2793,6 +2972,19 @@ references:
   isSpec: "True"
   fullName: MapController.PlayerData
   nameWithType: MapController.PlayerData
+- uid: Global.MapController.StopGame
+  name: StopGame()
+  href: api/Global.MapController.html#Global_MapController_StopGame
+  commentId: M:Global.MapController.StopGame
+  fullName: MapController.StopGame()
+  nameWithType: MapController.StopGame()
+- uid: Global.MapController.StopGame*
+  name: StopGame
+  href: api/Global.MapController.html#Global_MapController_StopGame_
+  commentId: Overload:Global.MapController.StopGame
+  isSpec: "True"
+  fullName: MapController.StopGame
+  nameWithType: MapController.StopGame
 - uid: Global.MapController.unitControllerList
   name: unitControllerList
   href: api/Global.MapController.html#Global_MapController_unitControllerList
@@ -3152,12 +3344,6 @@ references:
   isSpec: "True"
   fullName: Player.ComboInfo.SkillSource
   nameWithType: Player.ComboInfo.SkillSource
-- uid: Global.Player.ComboInfo.variantName
-  name: variantName
-  href: api/Global.Player.ComboInfo.html#Global_Player_ComboInfo_variantName
-  commentId: F:Global.Player.ComboInfo.variantName
-  fullName: Player.ComboInfo.variantName
-  nameWithType: Player.ComboInfo.variantName
 - uid: Global.Player.CompactEquippedUnit
   name: CompactEquippedUnit()
   href: api/Global.Player.html#Global_Player_CompactEquippedUnit
@@ -3648,6 +3834,12 @@ references:
   commentId: F:Global.PlayView.defaultEquippedList
   fullName: PlayView.defaultEquippedList
   nameWithType: PlayView.defaultEquippedList
+- uid: Global.PlayView.defaultItemList
+  name: defaultItemList
+  href: api/Global.PlayView.html#Global_PlayView_defaultItemList
+  commentId: F:Global.PlayView.defaultItemList
+  fullName: PlayView.defaultItemList
+  nameWithType: PlayView.defaultItemList
 - uid: Global.PlayView.isTraining
   name: isTraining
   href: api/Global.PlayView.html#Global_PlayView_isTraining
@@ -4388,19 +4580,6 @@ references:
   isSpec: "True"
   fullName: Skill.Skill
   nameWithType: Skill.Skill
-- uid: Global.Skill.AddListener
-  name: AddListener()
-  href: api/Global.Skill.html#Global_Skill_AddListener
-  commentId: M:Global.Skill.AddListener
-  fullName: Skill.AddListener()
-  nameWithType: Skill.AddListener()
-- uid: Global.Skill.AddListener*
-  name: AddListener
-  href: api/Global.Skill.html#Global_Skill_AddListener_
-  commentId: Overload:Global.Skill.AddListener
-  isSpec: "True"
-  fullName: Skill.AddListener
-  nameWithType: Skill.AddListener
 - uid: Global.Skill.AfterLoad
   name: AfterLoad()
   href: api/Global.Skill.html#Global_Skill_AfterLoad
@@ -4985,18 +5164,25 @@ references:
   commentId: T:Global.SkillController
   fullName: SkillController
   nameWithType: SkillController
-- uid: Global.SkillController.animator
-  name: animator
-  href: api/Global.SkillController.html#Global_SkillController_animator
-  commentId: F:Global.SkillController.animator
-  fullName: SkillController.animator
-  nameWithType: SkillController.animator
 - uid: Global.SkillController.autoUnitSource
   name: autoUnitSource
   href: api/Global.SkillController.html#Global_SkillController_autoUnitSource
   commentId: F:Global.SkillController.autoUnitSource
   fullName: SkillController.autoUnitSource
   nameWithType: SkillController.autoUnitSource
+- uid: Global.SkillController.ComboCount
+  name: ComboCount
+  href: api/Global.SkillController.html#Global_SkillController_ComboCount
+  commentId: P:Global.SkillController.ComboCount
+  fullName: SkillController.ComboCount
+  nameWithType: SkillController.ComboCount
+- uid: Global.SkillController.ComboCount*
+  name: ComboCount
+  href: api/Global.SkillController.html#Global_SkillController_ComboCount_
+  commentId: Overload:Global.SkillController.ComboCount
+  isSpec: "True"
+  fullName: SkillController.ComboCount
+  nameWithType: SkillController.ComboCount
 - uid: Global.SkillController.Config
   name: Config
   href: api/Global.SkillController.html#Global_SkillController_Config
@@ -5127,6 +5313,25 @@ references:
   isSpec: "True"
   fullName: SkillController.EnableUserBinding
   nameWithType: SkillController.EnableUserBinding
+- uid: Global.SkillController.isAnimationPlaying
+  name: isAnimationPlaying
+  href: api/Global.SkillController.html#Global_SkillController_isAnimationPlaying
+  commentId: F:Global.SkillController.isAnimationPlaying
+  fullName: SkillController.isAnimationPlaying
+  nameWithType: SkillController.isAnimationPlaying
+- uid: Global.SkillController.IsStateName(System.String)
+  name: IsStateName(String)
+  href: api/Global.SkillController.html#Global_SkillController_IsStateName_System_String_
+  commentId: M:Global.SkillController.IsStateName(System.String)
+  fullName: SkillController.IsStateName(System.String)
+  nameWithType: SkillController.IsStateName(String)
+- uid: Global.SkillController.IsStateName*
+  name: IsStateName
+  href: api/Global.SkillController.html#Global_SkillController_IsStateName_
+  commentId: Overload:Global.SkillController.IsStateName
+  isSpec: "True"
+  fullName: SkillController.IsStateName
+  nameWithType: SkillController.IsStateName
 - uid: Global.SkillController.LookToMouseFromUser(System.Single)
   name: LookToMouseFromUser(Single)
   href: api/Global.SkillController.html#Global_SkillController_LookToMouseFromUser_System_Single_
@@ -5159,6 +5364,45 @@ references:
   commentId: F:Global.SkillController.rb
   fullName: SkillController.rb
   nameWithType: SkillController.rb
+- uid: Global.SkillController.SetAnimationState(System.Boolean,System.Int32)
+  name: SetAnimationState(Boolean, Int32)
+  href: api/Global.SkillController.html#Global_SkillController_SetAnimationState_System_Boolean_System_Int32_
+  commentId: M:Global.SkillController.SetAnimationState(System.Boolean,System.Int32)
+  fullName: SkillController.SetAnimationState(System.Boolean, System.Int32)
+  nameWithType: SkillController.SetAnimationState(Boolean, Int32)
+- uid: Global.SkillController.SetAnimationState*
+  name: SetAnimationState
+  href: api/Global.SkillController.html#Global_SkillController_SetAnimationState_
+  commentId: Overload:Global.SkillController.SetAnimationState
+  isSpec: "True"
+  fullName: SkillController.SetAnimationState
+  nameWithType: SkillController.SetAnimationState
+- uid: Global.SkillController.SetIdle
+  name: SetIdle()
+  href: api/Global.SkillController.html#Global_SkillController_SetIdle
+  commentId: M:Global.SkillController.SetIdle
+  fullName: SkillController.SetIdle()
+  nameWithType: SkillController.SetIdle()
+- uid: Global.SkillController.SetIdle*
+  name: SetIdle
+  href: api/Global.SkillController.html#Global_SkillController_SetIdle_
+  commentId: Overload:Global.SkillController.SetIdle
+  isSpec: "True"
+  fullName: SkillController.SetIdle
+  nameWithType: SkillController.SetIdle
+- uid: Global.SkillController.TriggerCustomEvent(System.String)
+  name: TriggerCustomEvent(String)
+  href: api/Global.SkillController.html#Global_SkillController_TriggerCustomEvent_System_String_
+  commentId: M:Global.SkillController.TriggerCustomEvent(System.String)
+  fullName: SkillController.TriggerCustomEvent(System.String)
+  nameWithType: SkillController.TriggerCustomEvent(String)
+- uid: Global.SkillController.TriggerCustomEvent*
+  name: TriggerCustomEvent
+  href: api/Global.SkillController.html#Global_SkillController_TriggerCustomEvent_
+  commentId: Overload:Global.SkillController.TriggerCustomEvent
+  isSpec: "True"
+  fullName: SkillController.TriggerCustomEvent
+  nameWithType: SkillController.TriggerCustomEvent
 - uid: Global.SkillController.unitSource
   name: unitSource
   href: api/Global.SkillController.html#Global_SkillController_unitSource
@@ -5184,6 +5428,19 @@ references:
   isSpec: "True"
   fullName: SkillController.UserBinding
   nameWithType: SkillController.UserBinding
+- uid: Global.SkillController.WaitForAnimationCompletion
+  name: WaitForAnimationCompletion()
+  href: api/Global.SkillController.html#Global_SkillController_WaitForAnimationCompletion
+  commentId: M:Global.SkillController.WaitForAnimationCompletion
+  fullName: SkillController.WaitForAnimationCompletion()
+  nameWithType: SkillController.WaitForAnimationCompletion()
+- uid: Global.SkillController.WaitForAnimationCompletion*
+  name: WaitForAnimationCompletion
+  href: api/Global.SkillController.html#Global_SkillController_WaitForAnimationCompletion_
+  commentId: Overload:Global.SkillController.WaitForAnimationCompletion
+  isSpec: "True"
+  fullName: SkillController.WaitForAnimationCompletion
+  nameWithType: SkillController.WaitForAnimationCompletion
 - uid: Global.SkillEvent
   name: SkillEvent
   href: api/Global.SkillEvent.html
@@ -5222,76 +5479,139 @@ references:
   isSpec: "True"
   fullName: SkillEvent000.OnSkillLearn
   nameWithType: SkillEvent000.OnSkillLearn
-- uid: Global.SkillEvent000.OnSkillTriggered(SkillController,Unit)
-  name: OnSkillTriggered(SkillController, Unit)
-  href: api/Global.SkillEvent000.html#Global_SkillEvent000_OnSkillTriggered_SkillController_Unit_
-  commentId: M:Global.SkillEvent000.OnSkillTriggered(SkillController,Unit)
-  fullName: SkillEvent000.OnSkillTriggered(SkillController, Unit)
-  nameWithType: SkillEvent000.OnSkillTriggered(SkillController, Unit)
-- uid: Global.SkillEvent000.OnSkillTriggered*
-  name: OnSkillTriggered
-  href: api/Global.SkillEvent000.html#Global_SkillEvent000_OnSkillTriggered_
-  commentId: Overload:Global.SkillEvent000.OnSkillTriggered
+- uid: Global.SkillEvent000.OnSkillTriggerUnit(SkillController,Unit)
+  name: OnSkillTriggerUnit(SkillController, Unit)
+  href: api/Global.SkillEvent000.html#Global_SkillEvent000_OnSkillTriggerUnit_SkillController_Unit_
+  commentId: M:Global.SkillEvent000.OnSkillTriggerUnit(SkillController,Unit)
+  fullName: SkillEvent000.OnSkillTriggerUnit(SkillController, Unit)
+  nameWithType: SkillEvent000.OnSkillTriggerUnit(SkillController, Unit)
+- uid: Global.SkillEvent000.OnSkillTriggerUnit*
+  name: OnSkillTriggerUnit
+  href: api/Global.SkillEvent000.html#Global_SkillEvent000_OnSkillTriggerUnit_
+  commentId: Overload:Global.SkillEvent000.OnSkillTriggerUnit
   isSpec: "True"
-  fullName: SkillEvent000.OnSkillTriggered
-  nameWithType: SkillEvent000.OnSkillTriggered
+  fullName: SkillEvent000.OnSkillTriggerUnit
+  nameWithType: SkillEvent000.OnSkillTriggerUnit
 - uid: Global.SkillEvent001
   name: SkillEvent001
   href: api/Global.SkillEvent001.html
   commentId: T:Global.SkillEvent001
   fullName: SkillEvent001
   nameWithType: SkillEvent001
-- uid: Global.SkillEvent001.OnSkillTriggered(SkillController,Unit)
-  name: OnSkillTriggered(SkillController, Unit)
-  href: api/Global.SkillEvent001.html#Global_SkillEvent001_OnSkillTriggered_SkillController_Unit_
-  commentId: M:Global.SkillEvent001.OnSkillTriggered(SkillController,Unit)
-  fullName: SkillEvent001.OnSkillTriggered(SkillController, Unit)
-  nameWithType: SkillEvent001.OnSkillTriggered(SkillController, Unit)
-- uid: Global.SkillEvent001.OnSkillTriggered*
-  name: OnSkillTriggered
-  href: api/Global.SkillEvent001.html#Global_SkillEvent001_OnSkillTriggered_
-  commentId: Overload:Global.SkillEvent001.OnSkillTriggered
+- uid: Global.SkillEvent001.OnSkillUse(SkillController,System.Boolean,System.Int32)
+  name: OnSkillUse(SkillController, Boolean, Int32)
+  href: api/Global.SkillEvent001.html#Global_SkillEvent001_OnSkillUse_SkillController_System_Boolean_System_Int32_
+  commentId: M:Global.SkillEvent001.OnSkillUse(SkillController,System.Boolean,System.Int32)
+  fullName: SkillEvent001.OnSkillUse(SkillController, System.Boolean, System.Int32)
+  nameWithType: SkillEvent001.OnSkillUse(SkillController, Boolean, Int32)
+- uid: Global.SkillEvent001.OnSkillUse*
+  name: OnSkillUse
+  href: api/Global.SkillEvent001.html#Global_SkillEvent001_OnSkillUse_
+  commentId: Overload:Global.SkillEvent001.OnSkillUse
   isSpec: "True"
-  fullName: SkillEvent001.OnSkillTriggered
-  nameWithType: SkillEvent001.OnSkillTriggered
+  fullName: SkillEvent001.OnSkillUse
+  nameWithType: SkillEvent001.OnSkillUse
+- uid: Global.SkillEvent001.OnStateLost(State)
+  name: OnStateLost(State)
+  href: api/Global.SkillEvent001.html#Global_SkillEvent001_OnStateLost_State_
+  commentId: M:Global.SkillEvent001.OnStateLost(State)
+  fullName: SkillEvent001.OnStateLost(State)
+  nameWithType: SkillEvent001.OnStateLost(State)
+- uid: Global.SkillEvent001.OnStateLost*
+  name: OnStateLost
+  href: api/Global.SkillEvent001.html#Global_SkillEvent001_OnStateLost_
+  commentId: Overload:Global.SkillEvent001.OnStateLost
+  isSpec: "True"
+  fullName: SkillEvent001.OnStateLost
+  nameWithType: SkillEvent001.OnStateLost
+- uid: Global.SkillEvent001.state1
+  name: state1
+  href: api/Global.SkillEvent001.html#Global_SkillEvent001_state1
+  commentId: F:Global.SkillEvent001.state1
+  fullName: SkillEvent001.state1
+  nameWithType: SkillEvent001.state1
+- uid: Global.SkillEvent001.state2
+  name: state2
+  href: api/Global.SkillEvent001.html#Global_SkillEvent001_state2
+  commentId: F:Global.SkillEvent001.state2
+  fullName: SkillEvent001.state2
+  nameWithType: SkillEvent001.state2
 - uid: Global.SkillEvent002
   name: SkillEvent002
   href: api/Global.SkillEvent002.html
   commentId: T:Global.SkillEvent002
   fullName: SkillEvent002
   nameWithType: SkillEvent002
-- uid: Global.SkillEvent002.OnSkillTriggered(SkillController,Unit)
-  name: OnSkillTriggered(SkillController, Unit)
-  href: api/Global.SkillEvent002.html#Global_SkillEvent002_OnSkillTriggered_SkillController_Unit_
-  commentId: M:Global.SkillEvent002.OnSkillTriggered(SkillController,Unit)
-  fullName: SkillEvent002.OnSkillTriggered(SkillController, Unit)
-  nameWithType: SkillEvent002.OnSkillTriggered(SkillController, Unit)
-- uid: Global.SkillEvent002.OnSkillTriggered*
-  name: OnSkillTriggered
-  href: api/Global.SkillEvent002.html#Global_SkillEvent002_OnSkillTriggered_
-  commentId: Overload:Global.SkillEvent002.OnSkillTriggered
+- uid: Global.SkillEvent002.disableAttackCountSkill
+  name: disableAttackCountSkill
+  href: api/Global.SkillEvent002.html#Global_SkillEvent002_disableAttackCountSkill
+  commentId: F:Global.SkillEvent002.disableAttackCountSkill
+  fullName: SkillEvent002.disableAttackCountSkill
+  nameWithType: SkillEvent002.disableAttackCountSkill
+- uid: Global.SkillEvent002.OnSkillTriggerOther(SkillController,Collider2D)
+  name: OnSkillTriggerOther(SkillController, Collider2D)
+  href: api/Global.SkillEvent002.html#Global_SkillEvent002_OnSkillTriggerOther_SkillController_Collider2D_
+  commentId: M:Global.SkillEvent002.OnSkillTriggerOther(SkillController,Collider2D)
+  fullName: SkillEvent002.OnSkillTriggerOther(SkillController, Collider2D)
+  nameWithType: SkillEvent002.OnSkillTriggerOther(SkillController, Collider2D)
+- uid: Global.SkillEvent002.OnSkillTriggerOther*
+  name: OnSkillTriggerOther
+  href: api/Global.SkillEvent002.html#Global_SkillEvent002_OnSkillTriggerOther_
+  commentId: Overload:Global.SkillEvent002.OnSkillTriggerOther
   isSpec: "True"
-  fullName: SkillEvent002.OnSkillTriggered
-  nameWithType: SkillEvent002.OnSkillTriggered
+  fullName: SkillEvent002.OnSkillTriggerOther
+  nameWithType: SkillEvent002.OnSkillTriggerOther
+- uid: Global.SkillEvent002.OnSkillTriggerUnit(SkillController,Unit)
+  name: OnSkillTriggerUnit(SkillController, Unit)
+  href: api/Global.SkillEvent002.html#Global_SkillEvent002_OnSkillTriggerUnit_SkillController_Unit_
+  commentId: M:Global.SkillEvent002.OnSkillTriggerUnit(SkillController,Unit)
+  fullName: SkillEvent002.OnSkillTriggerUnit(SkillController, Unit)
+  nameWithType: SkillEvent002.OnSkillTriggerUnit(SkillController, Unit)
+- uid: Global.SkillEvent002.OnSkillTriggerUnit*
+  name: OnSkillTriggerUnit
+  href: api/Global.SkillEvent002.html#Global_SkillEvent002_OnSkillTriggerUnit_
+  commentId: Overload:Global.SkillEvent002.OnSkillTriggerUnit
+  isSpec: "True"
+  fullName: SkillEvent002.OnSkillTriggerUnit
+  nameWithType: SkillEvent002.OnSkillTriggerUnit
 - uid: Global.SkillEvent003
   name: SkillEvent003
   href: api/Global.SkillEvent003.html
   commentId: T:Global.SkillEvent003
   fullName: SkillEvent003
   nameWithType: SkillEvent003
-- uid: Global.SkillEvent003.OnSkillTriggered(SkillController,Unit)
-  name: OnSkillTriggered(SkillController, Unit)
-  href: api/Global.SkillEvent003.html#Global_SkillEvent003_OnSkillTriggered_SkillController_Unit_
-  commentId: M:Global.SkillEvent003.OnSkillTriggered(SkillController,Unit)
-  fullName: SkillEvent003.OnSkillTriggered(SkillController, Unit)
-  nameWithType: SkillEvent003.OnSkillTriggered(SkillController, Unit)
-- uid: Global.SkillEvent003.OnSkillTriggered*
-  name: OnSkillTriggered
-  href: api/Global.SkillEvent003.html#Global_SkillEvent003_OnSkillTriggered_
-  commentId: Overload:Global.SkillEvent003.OnSkillTriggered
+- uid: Global.SkillEvent003.disableAttackCountSkill
+  name: disableAttackCountSkill
+  href: api/Global.SkillEvent003.html#Global_SkillEvent003_disableAttackCountSkill
+  commentId: F:Global.SkillEvent003.disableAttackCountSkill
+  fullName: SkillEvent003.disableAttackCountSkill
+  nameWithType: SkillEvent003.disableAttackCountSkill
+- uid: Global.SkillEvent003.OnSkillTriggerOther(SkillController,Collider2D)
+  name: OnSkillTriggerOther(SkillController, Collider2D)
+  href: api/Global.SkillEvent003.html#Global_SkillEvent003_OnSkillTriggerOther_SkillController_Collider2D_
+  commentId: M:Global.SkillEvent003.OnSkillTriggerOther(SkillController,Collider2D)
+  fullName: SkillEvent003.OnSkillTriggerOther(SkillController, Collider2D)
+  nameWithType: SkillEvent003.OnSkillTriggerOther(SkillController, Collider2D)
+- uid: Global.SkillEvent003.OnSkillTriggerOther*
+  name: OnSkillTriggerOther
+  href: api/Global.SkillEvent003.html#Global_SkillEvent003_OnSkillTriggerOther_
+  commentId: Overload:Global.SkillEvent003.OnSkillTriggerOther
   isSpec: "True"
-  fullName: SkillEvent003.OnSkillTriggered
-  nameWithType: SkillEvent003.OnSkillTriggered
+  fullName: SkillEvent003.OnSkillTriggerOther
+  nameWithType: SkillEvent003.OnSkillTriggerOther
+- uid: Global.SkillEvent003.OnSkillTriggerUnit(SkillController,Unit)
+  name: OnSkillTriggerUnit(SkillController, Unit)
+  href: api/Global.SkillEvent003.html#Global_SkillEvent003_OnSkillTriggerUnit_SkillController_Unit_
+  commentId: M:Global.SkillEvent003.OnSkillTriggerUnit(SkillController,Unit)
+  fullName: SkillEvent003.OnSkillTriggerUnit(SkillController, Unit)
+  nameWithType: SkillEvent003.OnSkillTriggerUnit(SkillController, Unit)
+- uid: Global.SkillEvent003.OnSkillTriggerUnit*
+  name: OnSkillTriggerUnit
+  href: api/Global.SkillEvent003.html#Global_SkillEvent003_OnSkillTriggerUnit_
+  commentId: Overload:Global.SkillEvent003.OnSkillTriggerUnit
+  isSpec: "True"
+  fullName: SkillEvent003.OnSkillTriggerUnit
+  nameWithType: SkillEvent003.OnSkillTriggerUnit
 - uid: Global.SkillEvent004
   name: SkillEvent004
   href: api/Global.SkillEvent004.html
@@ -5311,19 +5631,19 @@ references:
   isSpec: "True"
   fullName: SkillEvent004.OnSkillCustomTriggered
   nameWithType: SkillEvent004.OnSkillCustomTriggered
-- uid: Global.SkillEvent004.OnSkillTriggered(SkillController,Unit)
-  name: OnSkillTriggered(SkillController, Unit)
-  href: api/Global.SkillEvent004.html#Global_SkillEvent004_OnSkillTriggered_SkillController_Unit_
-  commentId: M:Global.SkillEvent004.OnSkillTriggered(SkillController,Unit)
-  fullName: SkillEvent004.OnSkillTriggered(SkillController, Unit)
-  nameWithType: SkillEvent004.OnSkillTriggered(SkillController, Unit)
-- uid: Global.SkillEvent004.OnSkillTriggered*
-  name: OnSkillTriggered
-  href: api/Global.SkillEvent004.html#Global_SkillEvent004_OnSkillTriggered_
-  commentId: Overload:Global.SkillEvent004.OnSkillTriggered
+- uid: Global.SkillEvent004.OnSkillTriggerUnit(SkillController,Unit)
+  name: OnSkillTriggerUnit(SkillController, Unit)
+  href: api/Global.SkillEvent004.html#Global_SkillEvent004_OnSkillTriggerUnit_SkillController_Unit_
+  commentId: M:Global.SkillEvent004.OnSkillTriggerUnit(SkillController,Unit)
+  fullName: SkillEvent004.OnSkillTriggerUnit(SkillController, Unit)
+  nameWithType: SkillEvent004.OnSkillTriggerUnit(SkillController, Unit)
+- uid: Global.SkillEvent004.OnSkillTriggerUnit*
+  name: OnSkillTriggerUnit
+  href: api/Global.SkillEvent004.html#Global_SkillEvent004_OnSkillTriggerUnit_
+  commentId: Overload:Global.SkillEvent004.OnSkillTriggerUnit
   isSpec: "True"
-  fullName: SkillEvent004.OnSkillTriggered
-  nameWithType: SkillEvent004.OnSkillTriggered
+  fullName: SkillEvent004.OnSkillTriggerUnit
+  nameWithType: SkillEvent004.OnSkillTriggerUnit
 - uid: Global.SkillEvent004.triggerEffect1
   name: triggerEffect1
   href: api/Global.SkillEvent004.html#Global_SkillEvent004_triggerEffect1
@@ -5367,38 +5687,38 @@ references:
   commentId: T:Global.SkillEvent006
   fullName: SkillEvent006
   nameWithType: SkillEvent006
-- uid: Global.SkillEvent006.OnSkillTriggered(SkillController,Unit)
-  name: OnSkillTriggered(SkillController, Unit)
-  href: api/Global.SkillEvent006.html#Global_SkillEvent006_OnSkillTriggered_SkillController_Unit_
-  commentId: M:Global.SkillEvent006.OnSkillTriggered(SkillController,Unit)
-  fullName: SkillEvent006.OnSkillTriggered(SkillController, Unit)
-  nameWithType: SkillEvent006.OnSkillTriggered(SkillController, Unit)
-- uid: Global.SkillEvent006.OnSkillTriggered*
-  name: OnSkillTriggered
-  href: api/Global.SkillEvent006.html#Global_SkillEvent006_OnSkillTriggered_
-  commentId: Overload:Global.SkillEvent006.OnSkillTriggered
+- uid: Global.SkillEvent006.OnSkillTriggerUnit(SkillController,Unit)
+  name: OnSkillTriggerUnit(SkillController, Unit)
+  href: api/Global.SkillEvent006.html#Global_SkillEvent006_OnSkillTriggerUnit_SkillController_Unit_
+  commentId: M:Global.SkillEvent006.OnSkillTriggerUnit(SkillController,Unit)
+  fullName: SkillEvent006.OnSkillTriggerUnit(SkillController, Unit)
+  nameWithType: SkillEvent006.OnSkillTriggerUnit(SkillController, Unit)
+- uid: Global.SkillEvent006.OnSkillTriggerUnit*
+  name: OnSkillTriggerUnit
+  href: api/Global.SkillEvent006.html#Global_SkillEvent006_OnSkillTriggerUnit_
+  commentId: Overload:Global.SkillEvent006.OnSkillTriggerUnit
   isSpec: "True"
-  fullName: SkillEvent006.OnSkillTriggered
-  nameWithType: SkillEvent006.OnSkillTriggered
+  fullName: SkillEvent006.OnSkillTriggerUnit
+  nameWithType: SkillEvent006.OnSkillTriggerUnit
 - uid: Global.SkillEvent007
   name: SkillEvent007
   href: api/Global.SkillEvent007.html
   commentId: T:Global.SkillEvent007
   fullName: SkillEvent007
   nameWithType: SkillEvent007
-- uid: Global.SkillEvent007.OnSkillCustomTriggered(SkillController,System.String)
-  name: OnSkillCustomTriggered(SkillController, String)
-  href: api/Global.SkillEvent007.html#Global_SkillEvent007_OnSkillCustomTriggered_SkillController_System_String_
-  commentId: M:Global.SkillEvent007.OnSkillCustomTriggered(SkillController,System.String)
-  fullName: SkillEvent007.OnSkillCustomTriggered(SkillController, System.String)
-  nameWithType: SkillEvent007.OnSkillCustomTriggered(SkillController, String)
-- uid: Global.SkillEvent007.OnSkillCustomTriggered*
-  name: OnSkillCustomTriggered
-  href: api/Global.SkillEvent007.html#Global_SkillEvent007_OnSkillCustomTriggered_
-  commentId: Overload:Global.SkillEvent007.OnSkillCustomTriggered
+- uid: Global.SkillEvent007.OnSkillUse(SkillController,System.Boolean,System.Int32)
+  name: OnSkillUse(SkillController, Boolean, Int32)
+  href: api/Global.SkillEvent007.html#Global_SkillEvent007_OnSkillUse_SkillController_System_Boolean_System_Int32_
+  commentId: M:Global.SkillEvent007.OnSkillUse(SkillController,System.Boolean,System.Int32)
+  fullName: SkillEvent007.OnSkillUse(SkillController, System.Boolean, System.Int32)
+  nameWithType: SkillEvent007.OnSkillUse(SkillController, Boolean, Int32)
+- uid: Global.SkillEvent007.OnSkillUse*
+  name: OnSkillUse
+  href: api/Global.SkillEvent007.html#Global_SkillEvent007_OnSkillUse_
+  commentId: Overload:Global.SkillEvent007.OnSkillUse
   isSpec: "True"
-  fullName: SkillEvent007.OnSkillCustomTriggered
-  nameWithType: SkillEvent007.OnSkillCustomTriggered
+  fullName: SkillEvent007.OnSkillUse
+  nameWithType: SkillEvent007.OnSkillUse
 - uid: Global.SkillEvent007.state
   name: state
   href: api/Global.SkillEvent007.html#Global_SkillEvent007_state
@@ -5411,12 +5731,12 @@ references:
   commentId: T:Global.SkillEvent008
   fullName: SkillEvent008
   nameWithType: SkillEvent008
-- uid: Global.SkillEvent008.OnSkillUse(SkillController)
-  name: OnSkillUse(SkillController)
-  href: api/Global.SkillEvent008.html#Global_SkillEvent008_OnSkillUse_SkillController_
-  commentId: M:Global.SkillEvent008.OnSkillUse(SkillController)
-  fullName: SkillEvent008.OnSkillUse(SkillController)
-  nameWithType: SkillEvent008.OnSkillUse(SkillController)
+- uid: Global.SkillEvent008.OnSkillUse(SkillController,System.Boolean,System.Int32)
+  name: OnSkillUse(SkillController, Boolean, Int32)
+  href: api/Global.SkillEvent008.html#Global_SkillEvent008_OnSkillUse_SkillController_System_Boolean_System_Int32_
+  commentId: M:Global.SkillEvent008.OnSkillUse(SkillController,System.Boolean,System.Int32)
+  fullName: SkillEvent008.OnSkillUse(SkillController, System.Boolean, System.Int32)
+  nameWithType: SkillEvent008.OnSkillUse(SkillController, Boolean, Int32)
 - uid: Global.SkillEvent008.OnSkillUse*
   name: OnSkillUse
   href: api/Global.SkillEvent008.html#Global_SkillEvent008_OnSkillUse_
@@ -5442,25 +5762,25 @@ references:
   commentId: F:Global.SkillEvent009.checkedState
   fullName: SkillEvent009.checkedState
   nameWithType: SkillEvent009.checkedState
-- uid: Global.SkillEvent009.OnSkillTriggered(SkillController,Unit)
-  name: OnSkillTriggered(SkillController, Unit)
-  href: api/Global.SkillEvent009.html#Global_SkillEvent009_OnSkillTriggered_SkillController_Unit_
-  commentId: M:Global.SkillEvent009.OnSkillTriggered(SkillController,Unit)
-  fullName: SkillEvent009.OnSkillTriggered(SkillController, Unit)
-  nameWithType: SkillEvent009.OnSkillTriggered(SkillController, Unit)
-- uid: Global.SkillEvent009.OnSkillTriggered*
-  name: OnSkillTriggered
-  href: api/Global.SkillEvent009.html#Global_SkillEvent009_OnSkillTriggered_
-  commentId: Overload:Global.SkillEvent009.OnSkillTriggered
+- uid: Global.SkillEvent009.OnSkillTriggerUnit(SkillController,Unit)
+  name: OnSkillTriggerUnit(SkillController, Unit)
+  href: api/Global.SkillEvent009.html#Global_SkillEvent009_OnSkillTriggerUnit_SkillController_Unit_
+  commentId: M:Global.SkillEvent009.OnSkillTriggerUnit(SkillController,Unit)
+  fullName: SkillEvent009.OnSkillTriggerUnit(SkillController, Unit)
+  nameWithType: SkillEvent009.OnSkillTriggerUnit(SkillController, Unit)
+- uid: Global.SkillEvent009.OnSkillTriggerUnit*
+  name: OnSkillTriggerUnit
+  href: api/Global.SkillEvent009.html#Global_SkillEvent009_OnSkillTriggerUnit_
+  commentId: Overload:Global.SkillEvent009.OnSkillTriggerUnit
   isSpec: "True"
-  fullName: SkillEvent009.OnSkillTriggered
-  nameWithType: SkillEvent009.OnSkillTriggered
-- uid: Global.SkillEvent009.OnSkillUse(SkillController)
-  name: OnSkillUse(SkillController)
-  href: api/Global.SkillEvent009.html#Global_SkillEvent009_OnSkillUse_SkillController_
-  commentId: M:Global.SkillEvent009.OnSkillUse(SkillController)
-  fullName: SkillEvent009.OnSkillUse(SkillController)
-  nameWithType: SkillEvent009.OnSkillUse(SkillController)
+  fullName: SkillEvent009.OnSkillTriggerUnit
+  nameWithType: SkillEvent009.OnSkillTriggerUnit
+- uid: Global.SkillEvent009.OnSkillUse(SkillController,System.Boolean,System.Int32)
+  name: OnSkillUse(SkillController, Boolean, Int32)
+  href: api/Global.SkillEvent009.html#Global_SkillEvent009_OnSkillUse_SkillController_System_Boolean_System_Int32_
+  commentId: M:Global.SkillEvent009.OnSkillUse(SkillController,System.Boolean,System.Int32)
+  fullName: SkillEvent009.OnSkillUse(SkillController, System.Boolean, System.Int32)
+  nameWithType: SkillEvent009.OnSkillUse(SkillController, Boolean, Int32)
 - uid: Global.SkillEvent009.OnSkillUse*
   name: OnSkillUse
   href: api/Global.SkillEvent009.html#Global_SkillEvent009_OnSkillUse_
@@ -5468,6 +5788,69 @@ references:
   isSpec: "True"
   fullName: SkillEvent009.OnSkillUse
   nameWithType: SkillEvent009.OnSkillUse
+- uid: Global.SkillEvent009.state
+  name: state
+  href: api/Global.SkillEvent009.html#Global_SkillEvent009_state
+  commentId: F:Global.SkillEvent009.state
+  fullName: SkillEvent009.state
+  nameWithType: SkillEvent009.state
+- uid: Global.SkillEvent011
+  name: SkillEvent011
+  href: api/Global.SkillEvent011.html
+  commentId: T:Global.SkillEvent011
+  fullName: SkillEvent011
+  nameWithType: SkillEvent011
+- uid: Global.SkillEvent011.OnSkillTriggerUnit(SkillController,Unit)
+  name: OnSkillTriggerUnit(SkillController, Unit)
+  href: api/Global.SkillEvent011.html#Global_SkillEvent011_OnSkillTriggerUnit_SkillController_Unit_
+  commentId: M:Global.SkillEvent011.OnSkillTriggerUnit(SkillController,Unit)
+  fullName: SkillEvent011.OnSkillTriggerUnit(SkillController, Unit)
+  nameWithType: SkillEvent011.OnSkillTriggerUnit(SkillController, Unit)
+- uid: Global.SkillEvent011.OnSkillTriggerUnit*
+  name: OnSkillTriggerUnit
+  href: api/Global.SkillEvent011.html#Global_SkillEvent011_OnSkillTriggerUnit_
+  commentId: Overload:Global.SkillEvent011.OnSkillTriggerUnit
+  isSpec: "True"
+  fullName: SkillEvent011.OnSkillTriggerUnit
+  nameWithType: SkillEvent011.OnSkillTriggerUnit
+- uid: Global.SkillEvent011.OnSkillUse(SkillController,System.Boolean,System.Int32)
+  name: OnSkillUse(SkillController, Boolean, Int32)
+  href: api/Global.SkillEvent011.html#Global_SkillEvent011_OnSkillUse_SkillController_System_Boolean_System_Int32_
+  commentId: M:Global.SkillEvent011.OnSkillUse(SkillController,System.Boolean,System.Int32)
+  fullName: SkillEvent011.OnSkillUse(SkillController, System.Boolean, System.Int32)
+  nameWithType: SkillEvent011.OnSkillUse(SkillController, Boolean, Int32)
+- uid: Global.SkillEvent011.OnSkillUse*
+  name: OnSkillUse
+  href: api/Global.SkillEvent011.html#Global_SkillEvent011_OnSkillUse_
+  commentId: Overload:Global.SkillEvent011.OnSkillUse
+  isSpec: "True"
+  fullName: SkillEvent011.OnSkillUse
+  nameWithType: SkillEvent011.OnSkillUse
+- uid: Global.SkillEvent012
+  name: SkillEvent012
+  href: api/Global.SkillEvent012.html
+  commentId: T:Global.SkillEvent012
+  fullName: SkillEvent012
+  nameWithType: SkillEvent012
+- uid: Global.SkillEvent012.OnSkillUse(SkillController,System.Boolean,System.Int32)
+  name: OnSkillUse(SkillController, Boolean, Int32)
+  href: api/Global.SkillEvent012.html#Global_SkillEvent012_OnSkillUse_SkillController_System_Boolean_System_Int32_
+  commentId: M:Global.SkillEvent012.OnSkillUse(SkillController,System.Boolean,System.Int32)
+  fullName: SkillEvent012.OnSkillUse(SkillController, System.Boolean, System.Int32)
+  nameWithType: SkillEvent012.OnSkillUse(SkillController, Boolean, Int32)
+- uid: Global.SkillEvent012.OnSkillUse*
+  name: OnSkillUse
+  href: api/Global.SkillEvent012.html#Global_SkillEvent012_OnSkillUse_
+  commentId: Overload:Global.SkillEvent012.OnSkillUse
+  isSpec: "True"
+  fullName: SkillEvent012.OnSkillUse
+  nameWithType: SkillEvent012.OnSkillUse
+- uid: Global.SkillEvent012.state
+  name: state
+  href: api/Global.SkillEvent012.html#Global_SkillEvent012_state
+  commentId: F:Global.SkillEvent012.state
+  fullName: SkillEvent012.state
+  nameWithType: SkillEvent012.state
 - uid: Global.SkillMoveType
   name: SkillMoveType
   href: api/Global.SkillMoveType.html
@@ -5704,19 +6087,6 @@ references:
   isSpec: "True"
   fullName: State.State
   nameWithType: State.State
-- uid: Global.State.AddListener
-  name: AddListener()
-  href: api/Global.State.html#Global_State_AddListener
-  commentId: M:Global.State.AddListener
-  fullName: State.AddListener()
-  nameWithType: State.AddListener()
-- uid: Global.State.AddListener*
-  name: AddListener
-  href: api/Global.State.html#Global_State_AddListener_
-  commentId: Overload:Global.State.AddListener
-  isSpec: "True"
-  fullName: State.AddListener
-  nameWithType: State.AddListener
 - uid: Global.State.AfterLoad
   name: AfterLoad()
   href: api/Global.State.html#Global_State_AfterLoad
@@ -6163,12 +6533,25 @@ references:
   commentId: F:Global.StateEvent002.effect2Prefab
   fullName: StateEvent002.effect2Prefab
   nameWithType: StateEvent002.effect2Prefab
-- uid: Global.StateEvent002.OnSkillUse(SkillController)
-  name: OnSkillUse(SkillController)
-  href: api/Global.StateEvent002.html#Global_StateEvent002_OnSkillUse_SkillController_
-  commentId: M:Global.StateEvent002.OnSkillUse(SkillController)
-  fullName: StateEvent002.OnSkillUse(SkillController)
-  nameWithType: StateEvent002.OnSkillUse(SkillController)
+- uid: Global.StateEvent002.OnDestroy
+  name: OnDestroy()
+  href: api/Global.StateEvent002.html#Global_StateEvent002_OnDestroy
+  commentId: M:Global.StateEvent002.OnDestroy
+  fullName: StateEvent002.OnDestroy()
+  nameWithType: StateEvent002.OnDestroy()
+- uid: Global.StateEvent002.OnDestroy*
+  name: OnDestroy
+  href: api/Global.StateEvent002.html#Global_StateEvent002_OnDestroy_
+  commentId: Overload:Global.StateEvent002.OnDestroy
+  isSpec: "True"
+  fullName: StateEvent002.OnDestroy
+  nameWithType: StateEvent002.OnDestroy
+- uid: Global.StateEvent002.OnSkillUse(SkillController,System.Boolean,System.Int32)
+  name: OnSkillUse(SkillController, Boolean, Int32)
+  href: api/Global.StateEvent002.html#Global_StateEvent002_OnSkillUse_SkillController_System_Boolean_System_Int32_
+  commentId: M:Global.StateEvent002.OnSkillUse(SkillController,System.Boolean,System.Int32)
+  fullName: StateEvent002.OnSkillUse(SkillController, System.Boolean, System.Int32)
+  nameWithType: StateEvent002.OnSkillUse(SkillController, Boolean, Int32)
 - uid: Global.StateEvent002.OnSkillUse*
   name: OnSkillUse
   href: api/Global.StateEvent002.html#Global_StateEvent002_OnSkillUse_
@@ -6214,6 +6597,19 @@ references:
   commentId: F:Global.StateEvent003.effectPrefab
   fullName: StateEvent003.effectPrefab
   nameWithType: StateEvent003.effectPrefab
+- uid: Global.StateEvent003.OnDestroy
+  name: OnDestroy()
+  href: api/Global.StateEvent003.html#Global_StateEvent003_OnDestroy
+  commentId: M:Global.StateEvent003.OnDestroy
+  fullName: StateEvent003.OnDestroy()
+  nameWithType: StateEvent003.OnDestroy()
+- uid: Global.StateEvent003.OnDestroy*
+  name: OnDestroy
+  href: api/Global.StateEvent003.html#Global_StateEvent003_OnDestroy_
+  commentId: Overload:Global.StateEvent003.OnDestroy
+  isSpec: "True"
+  fullName: StateEvent003.OnDestroy
+  nameWithType: StateEvent003.OnDestroy
 - uid: Global.StateEvent003.OnStateGain(State)
   name: OnStateGain(State)
   href: api/Global.StateEvent003.html#Global_StateEvent003_OnStateGain_State_
@@ -6227,6 +6623,82 @@ references:
   isSpec: "True"
   fullName: StateEvent003.OnStateGain
   nameWithType: StateEvent003.OnStateGain
+- uid: Global.StateEvent004
+  name: StateEvent004
+  href: api/Global.StateEvent004.html
+  commentId: T:Global.StateEvent004
+  fullName: StateEvent004
+  nameWithType: StateEvent004
+- uid: Global.StateEvent004.BeforeAttack(Unit,Unit,DamageInfo)
+  name: BeforeAttack(Unit, Unit, DamageInfo)
+  href: api/Global.StateEvent004.html#Global_StateEvent004_BeforeAttack_Unit_Unit_DamageInfo_
+  commentId: M:Global.StateEvent004.BeforeAttack(Unit,Unit,DamageInfo)
+  fullName: StateEvent004.BeforeAttack(Unit, Unit, DamageInfo)
+  nameWithType: StateEvent004.BeforeAttack(Unit, Unit, DamageInfo)
+- uid: Global.StateEvent004.BeforeAttack*
+  name: BeforeAttack
+  href: api/Global.StateEvent004.html#Global_StateEvent004_BeforeAttack_
+  commentId: Overload:Global.StateEvent004.BeforeAttack
+  isSpec: "True"
+  fullName: StateEvent004.BeforeAttack
+  nameWithType: StateEvent004.BeforeAttack
+- uid: Global.StateEvent005
+  name: StateEvent005
+  href: api/Global.StateEvent005.html
+  commentId: T:Global.StateEvent005
+  fullName: StateEvent005
+  nameWithType: StateEvent005
+- uid: Global.StateEvent005.BeforeAttack(Unit,Unit,DamageInfo)
+  name: BeforeAttack(Unit, Unit, DamageInfo)
+  href: api/Global.StateEvent005.html#Global_StateEvent005_BeforeAttack_Unit_Unit_DamageInfo_
+  commentId: M:Global.StateEvent005.BeforeAttack(Unit,Unit,DamageInfo)
+  fullName: StateEvent005.BeforeAttack(Unit, Unit, DamageInfo)
+  nameWithType: StateEvent005.BeforeAttack(Unit, Unit, DamageInfo)
+- uid: Global.StateEvent005.BeforeAttack*
+  name: BeforeAttack
+  href: api/Global.StateEvent005.html#Global_StateEvent005_BeforeAttack_
+  commentId: Overload:Global.StateEvent005.BeforeAttack
+  isSpec: "True"
+  fullName: StateEvent005.BeforeAttack
+  nameWithType: StateEvent005.BeforeAttack
+- uid: Global.StateEvent006
+  name: StateEvent006
+  href: api/Global.StateEvent006.html
+  commentId: T:Global.StateEvent006
+  fullName: StateEvent006
+  nameWithType: StateEvent006
+- uid: Global.StateEvent006.effectPrefab
+  name: effectPrefab
+  href: api/Global.StateEvent006.html#Global_StateEvent006_effectPrefab
+  commentId: F:Global.StateEvent006.effectPrefab
+  fullName: StateEvent006.effectPrefab
+  nameWithType: StateEvent006.effectPrefab
+- uid: Global.StateEvent006.OnDestroy
+  name: OnDestroy()
+  href: api/Global.StateEvent006.html#Global_StateEvent006_OnDestroy
+  commentId: M:Global.StateEvent006.OnDestroy
+  fullName: StateEvent006.OnDestroy()
+  nameWithType: StateEvent006.OnDestroy()
+- uid: Global.StateEvent006.OnDestroy*
+  name: OnDestroy
+  href: api/Global.StateEvent006.html#Global_StateEvent006_OnDestroy_
+  commentId: Overload:Global.StateEvent006.OnDestroy
+  isSpec: "True"
+  fullName: StateEvent006.OnDestroy
+  nameWithType: StateEvent006.OnDestroy
+- uid: Global.StateEvent006.OnStateGain(State)
+  name: OnStateGain(State)
+  href: api/Global.StateEvent006.html#Global_StateEvent006_OnStateGain_State_
+  commentId: M:Global.StateEvent006.OnStateGain(State)
+  fullName: StateEvent006.OnStateGain(State)
+  nameWithType: StateEvent006.OnStateGain(State)
+- uid: Global.StateEvent006.OnStateGain*
+  name: OnStateGain
+  href: api/Global.StateEvent006.html#Global_StateEvent006_OnStateGain_
+  commentId: Overload:Global.StateEvent006.OnStateGain
+  isSpec: "True"
+  fullName: StateEvent006.OnStateGain
+  nameWithType: StateEvent006.OnStateGain
 - uid: Global.StatesConfig
   name: StatesConfig
   href: api/Global.StatesConfig.html
@@ -7698,6 +8170,19 @@ references:
   commentId: F:Global.UnitController.healthBar
   fullName: UnitController.healthBar
   nameWithType: UnitController.healthBar
+- uid: Global.UnitController.Knockback(Vector2)
+  name: Knockback(Vector2)
+  href: api/Global.UnitController.html#Global_UnitController_Knockback_Vector2_
+  commentId: M:Global.UnitController.Knockback(Vector2)
+  fullName: UnitController.Knockback(Vector2)
+  nameWithType: UnitController.Knockback(Vector2)
+- uid: Global.UnitController.Knockback*
+  name: Knockback
+  href: api/Global.UnitController.html#Global_UnitController_Knockback_
+  commentId: Overload:Global.UnitController.Knockback
+  isSpec: "True"
+  fullName: UnitController.Knockback
+  nameWithType: UnitController.Knockback
 - uid: Global.UnitController.OnDataChanged(Unit)
   name: OnDataChanged(Unit)
   href: api/Global.UnitController.html#Global_UnitController_OnDataChanged_Unit_
@@ -7780,12 +8265,12 @@ references:
   isSpec: "True"
   fullName: UnitController.Update
   nameWithType: UnitController.Update
-- uid: Global.UnitController.UseSkill(Skill,System.String,System.Int32)
-  name: UseSkill(Skill, String, Int32)
-  href: api/Global.UnitController.html#Global_UnitController_UseSkill_Skill_System_String_System_Int32_
-  commentId: M:Global.UnitController.UseSkill(Skill,System.String,System.Int32)
-  fullName: UnitController.UseSkill(Skill, System.String, System.Int32)
-  nameWithType: UnitController.UseSkill(Skill, String, Int32)
+- uid: Global.UnitController.UseSkill(Skill,System.Boolean,System.Int32)
+  name: UseSkill(Skill, Boolean, Int32)
+  href: api/Global.UnitController.html#Global_UnitController_UseSkill_Skill_System_Boolean_System_Int32_
+  commentId: M:Global.UnitController.UseSkill(Skill,System.Boolean,System.Int32)
+  fullName: UnitController.UseSkill(Skill, System.Boolean, System.Int32)
+  nameWithType: UnitController.UseSkill(Skill, Boolean, Int32)
 - uid: Global.UnitController.UseSkill*
   name: UseSkill
   href: api/Global.UnitController.html#Global_UnitController_UseSkill_
@@ -7793,6 +8278,30 @@ references:
   isSpec: "True"
   fullName: UnitController.UseSkill
   nameWithType: UnitController.UseSkill
+- uid: Global.UnitCreater
+  name: UnitCreater
+  href: api/Global.UnitCreater.html
+  commentId: T:Global.UnitCreater
+  fullName: UnitCreater
+  nameWithType: UnitCreater
+- uid: Global.UnitCreater.duration
+  name: duration
+  href: api/Global.UnitCreater.html#Global_UnitCreater_duration
+  commentId: F:Global.UnitCreater.duration
+  fullName: UnitCreater.duration
+  nameWithType: UnitCreater.duration
+- uid: Global.UnitCreater.unitConfig
+  name: unitConfig
+  href: api/Global.UnitCreater.html#Global_UnitCreater_unitConfig
+  commentId: F:Global.UnitCreater.unitConfig
+  fullName: UnitCreater.unitConfig
+  nameWithType: UnitCreater.unitConfig
+- uid: Global.UnitCreater.warningSprite
+  name: warningSprite
+  href: api/Global.UnitCreater.html#Global_UnitCreater_warningSprite
+  commentId: F:Global.UnitCreater.warningSprite
+  fullName: UnitCreater.warningSprite
+  nameWithType: UnitCreater.warningSprite
 - uid: Global.UnitEvent
   name: UnitEvent
   href: api/Global.UnitEvent.html
@@ -7831,6 +8340,19 @@ references:
   commentId: T:Global.UnitEvent000
   fullName: UnitEvent000
   nameWithType: UnitEvent000
+- uid: Global.UnitEvent000.OnDeath(Unit)
+  name: OnDeath(Unit)
+  href: api/Global.UnitEvent000.html#Global_UnitEvent000_OnDeath_Unit_
+  commentId: M:Global.UnitEvent000.OnDeath(Unit)
+  fullName: UnitEvent000.OnDeath(Unit)
+  nameWithType: UnitEvent000.OnDeath(Unit)
+- uid: Global.UnitEvent000.OnDeath*
+  name: OnDeath
+  href: api/Global.UnitEvent000.html#Global_UnitEvent000_OnDeath_
+  commentId: Overload:Global.UnitEvent000.OnDeath
+  isSpec: "True"
+  fullName: UnitEvent000.OnDeath
+  nameWithType: UnitEvent000.OnDeath
 - uid: Global.UnitEvent002
   name: UnitEvent002
   href: api/Global.UnitEvent002.html
@@ -7850,19 +8372,19 @@ references:
   isSpec: "True"
   fullName: UnitEvent002.OnSkillCustomTriggered
   nameWithType: UnitEvent002.OnSkillCustomTriggered
-- uid: Global.UnitEvent002.OnSkillTriggered(SkillController,Unit)
-  name: OnSkillTriggered(SkillController, Unit)
-  href: api/Global.UnitEvent002.html#Global_UnitEvent002_OnSkillTriggered_SkillController_Unit_
-  commentId: M:Global.UnitEvent002.OnSkillTriggered(SkillController,Unit)
-  fullName: UnitEvent002.OnSkillTriggered(SkillController, Unit)
-  nameWithType: UnitEvent002.OnSkillTriggered(SkillController, Unit)
-- uid: Global.UnitEvent002.OnSkillTriggered*
-  name: OnSkillTriggered
-  href: api/Global.UnitEvent002.html#Global_UnitEvent002_OnSkillTriggered_
-  commentId: Overload:Global.UnitEvent002.OnSkillTriggered
+- uid: Global.UnitEvent002.OnSkillTriggerUnit(SkillController,Unit)
+  name: OnSkillTriggerUnit(SkillController, Unit)
+  href: api/Global.UnitEvent002.html#Global_UnitEvent002_OnSkillTriggerUnit_SkillController_Unit_
+  commentId: M:Global.UnitEvent002.OnSkillTriggerUnit(SkillController,Unit)
+  fullName: UnitEvent002.OnSkillTriggerUnit(SkillController, Unit)
+  nameWithType: UnitEvent002.OnSkillTriggerUnit(SkillController, Unit)
+- uid: Global.UnitEvent002.OnSkillTriggerUnit*
+  name: OnSkillTriggerUnit
+  href: api/Global.UnitEvent002.html#Global_UnitEvent002_OnSkillTriggerUnit_
+  commentId: Overload:Global.UnitEvent002.OnSkillTriggerUnit
   isSpec: "True"
-  fullName: UnitEvent002.OnSkillTriggered
-  nameWithType: UnitEvent002.OnSkillTriggered
+  fullName: UnitEvent002.OnSkillTriggerUnit
+  nameWithType: UnitEvent002.OnSkillTriggerUnit
 - uid: Global.UnitEvent002.triggerEffect
   name: triggerEffect
   href: api/Global.UnitEvent002.html#Global_UnitEvent002_triggerEffect
@@ -7875,19 +8397,19 @@ references:
   commentId: T:Global.UnitEvent007
   fullName: UnitEvent007
   nameWithType: UnitEvent007
-- uid: Global.UnitEvent007.OnSkillTriggered(SkillController,Unit)
-  name: OnSkillTriggered(SkillController, Unit)
-  href: api/Global.UnitEvent007.html#Global_UnitEvent007_OnSkillTriggered_SkillController_Unit_
-  commentId: M:Global.UnitEvent007.OnSkillTriggered(SkillController,Unit)
-  fullName: UnitEvent007.OnSkillTriggered(SkillController, Unit)
-  nameWithType: UnitEvent007.OnSkillTriggered(SkillController, Unit)
-- uid: Global.UnitEvent007.OnSkillTriggered*
-  name: OnSkillTriggered
-  href: api/Global.UnitEvent007.html#Global_UnitEvent007_OnSkillTriggered_
-  commentId: Overload:Global.UnitEvent007.OnSkillTriggered
+- uid: Global.UnitEvent007.OnSkillTriggerUnit(SkillController,Unit)
+  name: OnSkillTriggerUnit(SkillController, Unit)
+  href: api/Global.UnitEvent007.html#Global_UnitEvent007_OnSkillTriggerUnit_SkillController_Unit_
+  commentId: M:Global.UnitEvent007.OnSkillTriggerUnit(SkillController,Unit)
+  fullName: UnitEvent007.OnSkillTriggerUnit(SkillController, Unit)
+  nameWithType: UnitEvent007.OnSkillTriggerUnit(SkillController, Unit)
+- uid: Global.UnitEvent007.OnSkillTriggerUnit*
+  name: OnSkillTriggerUnit
+  href: api/Global.UnitEvent007.html#Global_UnitEvent007_OnSkillTriggerUnit_
+  commentId: Overload:Global.UnitEvent007.OnSkillTriggerUnit
   isSpec: "True"
-  fullName: UnitEvent007.OnSkillTriggered
-  nameWithType: UnitEvent007.OnSkillTriggered
+  fullName: UnitEvent007.OnSkillTriggerUnit
+  nameWithType: UnitEvent007.OnSkillTriggerUnit
 - uid: Global.UnitEvent007.triggerEffect
   name: triggerEffect
   href: api/Global.UnitEvent007.html#Global_UnitEvent007_triggerEffect
@@ -7913,6 +8435,31 @@ references:
   isSpec: "True"
   fullName: UnitEvent010.BeforeDeath
   nameWithType: UnitEvent010.BeforeDeath
+- uid: Global.UnitEvent015
+  name: UnitEvent015
+  href: api/Global.UnitEvent015.html
+  commentId: T:Global.UnitEvent015
+  fullName: UnitEvent015
+  nameWithType: UnitEvent015
+- uid: Global.UnitEvent015.autoCreateUnit
+  name: autoCreateUnit
+  href: api/Global.UnitEvent015.html#Global_UnitEvent015_autoCreateUnit
+  commentId: F:Global.UnitEvent015.autoCreateUnit
+  fullName: UnitEvent015.autoCreateUnit
+  nameWithType: UnitEvent015.autoCreateUnit
+- uid: Global.UnitEvent015.BeforeAttack(Unit,Unit,DamageInfo)
+  name: BeforeAttack(Unit, Unit, DamageInfo)
+  href: api/Global.UnitEvent015.html#Global_UnitEvent015_BeforeAttack_Unit_Unit_DamageInfo_
+  commentId: M:Global.UnitEvent015.BeforeAttack(Unit,Unit,DamageInfo)
+  fullName: UnitEvent015.BeforeAttack(Unit, Unit, DamageInfo)
+  nameWithType: UnitEvent015.BeforeAttack(Unit, Unit, DamageInfo)
+- uid: Global.UnitEvent015.BeforeAttack*
+  name: BeforeAttack
+  href: api/Global.UnitEvent015.html#Global_UnitEvent015_BeforeAttack_
+  commentId: Overload:Global.UnitEvent015.BeforeAttack
+  isSpec: "True"
+  fullName: UnitEvent015.BeforeAttack
+  nameWithType: UnitEvent015.BeforeAttack
 - uid: Global.UnitInfoView
   name: UnitInfoView
   href: api/Global.UnitInfoView.html
@@ -8175,12 +8722,12 @@ references:
   commentId: F:Global.UnitsConfigItem.itemSkillList
   fullName: UnitsConfigItem.itemSkillList
   nameWithType: UnitsConfigItem.itemSkillList
-- uid: Global.UnitsConfigItem.knockbackDistance
-  name: knockbackDistance
-  href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_knockbackDistance
-  commentId: F:Global.UnitsConfigItem.knockbackDistance
-  fullName: UnitsConfigItem.knockbackDistance
-  nameWithType: UnitsConfigItem.knockbackDistance
+- uid: Global.UnitsConfigItem.knockbackForce
+  name: knockbackForce
+  href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_knockbackForce
+  commentId: F:Global.UnitsConfigItem.knockbackForce
+  fullName: UnitsConfigItem.knockbackForce
+  nameWithType: UnitsConfigItem.knockbackForce
 - uid: Global.UnitsConfigItem.level
   name: level
   href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_level

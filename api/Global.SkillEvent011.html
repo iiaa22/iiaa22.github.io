@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class StateEvent002
+    <title>Class SkillEvent011
    | &#22612;&#38450;&#28216;&#25103;API&#25991;&#26723; </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class StateEvent002
+    <meta name="title" content="Class SkillEvent011
    | &#22612;&#38450;&#28216;&#25103;API&#25991;&#26723; ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,103 +78,57 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.StateEvent002">
+            <article class="content wrap" id="_content" data-uid="Global.SkillEvent011">
   
   
-  <h1 id="Global_StateEvent002" data-uid="Global.StateEvent002" class="text-break">Class StateEvent002
+  <h1 id="Global_SkillEvent011" data-uid="Global.SkillEvent011" class="text-break">Class SkillEvent011
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="Global.BaseEvent-1.html">BaseEvent</a>&lt;<a class="xref" href="Global.State.html">State</a>&gt;</div>
-    <div class="level2"><a class="xref" href="Global.StateEvent.html">StateEvent</a></div>
-    <div class="level3"><span class="xref">StateEvent002</span></div>
+    <div class="level1"><a class="xref" href="Global.BaseEvent-1.html">BaseEvent</a>&lt;<a class="xref" href="Global.Skill.html">Skill</a>&gt;</div>
+    <div class="level2"><a class="xref" href="Global.SkillEvent.html">SkillEvent</a></div>
+    <div class="level3"><span class="xref">SkillEvent011</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="Global.IUnitDashHandler.html">IUnitDashHandler</a></div>
-    <div><a class="xref" href="Global.IAfterUnitDashHandler.html">IAfterUnitDashHandler</a></div>
     <div><a class="xref" href="Global.ISkillUseHandler.html">ISkillUseHandler</a></div>
-    <div><a class="xref" href="Global.IStateGainHandler.html">IStateGainHandler</a></div>
+    <div><a class="xref" href="Global.ISkillTriggerUnitHandler.html">ISkillTriggerUnitHandler</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_Owner">BaseEvent&lt;State&gt;.Owner</a>
+      <a class="xref" href="Global.SkillEvent.html#Global_SkillEvent_DoBehaviour_SkillController_">SkillEvent.DoBehaviour(SkillController)</a>
     </div>
     <div>
-      <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_CreateAfterimage_SpriteRenderer_">BaseEvent&lt;State&gt;.CreateAfterimage(SpriteRenderer)</a>
+      <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_Owner">BaseEvent&lt;Skill&gt;.Owner</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_CreateAfterimage_SpriteRenderer_">BaseEvent&lt;Skill&gt;.CreateAfterimage(SpriteRenderer)</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_OnDestroy">BaseEvent&lt;Skill&gt;.OnDestroy()</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Global_StateEvent002_syntax">Syntax</h5>
+  <h5 id="Global_SkillEvent011_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class StateEvent002 : StateEvent, IUnitDashHandler, IAfterUnitDashHandler, ISkillUseHandler, IStateGainHandler</code></pre>
+    <pre><code class="lang-csharp hljs">public class SkillEvent011 : SkillEvent, ISkillUseHandler, ISkillTriggerUnitHandler</code></pre>
   </div>
-  <h3 id="fields">Fields
-  </h3>
-  
-  
-  <h4 id="Global_StateEvent002_effect1Prefab" data-uid="Global.StateEvent002.effect1Prefab">effect1Prefab</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SpriteRenderer effect1Prefab</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">SpriteRenderer</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_StateEvent002_effect2Prefab" data-uid="Global.StateEvent002.effect2Prefab">effect2Prefab</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TrailRenderer effect2Prefab</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TrailRenderer</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Global_StateEvent002_AfterUnitDash_" data-uid="Global.StateEvent002.AfterUnitDash*"></a>
-  <h4 id="Global_StateEvent002_AfterUnitDash_UnitController_" data-uid="Global.StateEvent002.AfterUnitDash(UnitController)">AfterUnitDash(UnitController)</h4>
+  <a id="Global_SkillEvent011_OnSkillTriggerUnit_" data-uid="Global.SkillEvent011.OnSkillTriggerUnit*"></a>
+  <h4 id="Global_SkillEvent011_OnSkillTriggerUnit_SkillController_Unit_" data-uid="Global.SkillEvent011.OnSkillTriggerUnit(SkillController,Unit)">OnSkillTriggerUnit(SkillController, Unit)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void AfterUnitDash(UnitController unitController)</code></pre>
+    <pre><code class="lang-csharp hljs">public void OnSkillTriggerUnit(SkillController skillController, Unit target)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -187,28 +141,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.UnitController.html">UnitController</a></td>
-        <td><span class="parametername">unitController</span></td>
+        <td><a class="xref" href="Global.SkillController.html">SkillController</a></td>
+        <td><span class="parametername">skillController</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Global.Unit.html">Unit</a></td>
+        <td><span class="parametername">target</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Global_StateEvent002_OnDestroy_" data-uid="Global.StateEvent002.OnDestroy*"></a>
-  <h4 id="Global_StateEvent002_OnDestroy" data-uid="Global.StateEvent002.OnDestroy">OnDestroy()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnDestroy()</code></pre>
-  </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">BaseEvent&lt;State&gt;.OnDestroy()</span></div>
-  
-  
-  <a id="Global_StateEvent002_OnSkillUse_" data-uid="Global.StateEvent002.OnSkillUse*"></a>
-  <h4 id="Global_StateEvent002_OnSkillUse_SkillController_System_Boolean_System_Int32_" data-uid="Global.StateEvent002.OnSkillUse(SkillController,System.Boolean,System.Int32)">OnSkillUse(SkillController, Boolean, Int32)</h4>
+  <a id="Global_SkillEvent011_OnSkillUse_" data-uid="Global.SkillEvent011.OnSkillUse*"></a>
+  <h4 id="Global_SkillEvent011_OnSkillUse_SkillController_System_Boolean_System_Int32_" data-uid="Global.SkillEvent011.OnSkillUse(SkillController,System.Boolean,System.Int32)">OnSkillUse(SkillController, Boolean, Int32)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -242,72 +189,12 @@
       </tr>
     </tbody>
   </table>
-  
-  
-  <a id="Global_StateEvent002_OnStateGain_" data-uid="Global.StateEvent002.OnStateGain*"></a>
-  <h4 id="Global_StateEvent002_OnStateGain_State_" data-uid="Global.StateEvent002.OnStateGain(State)">OnStateGain(State)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnStateGain(State state)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Global.State.html">State</a></td>
-        <td><span class="parametername">state</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Global_StateEvent002_OnUnitDash_" data-uid="Global.StateEvent002.OnUnitDash*"></a>
-  <h4 id="Global_StateEvent002_OnUnitDash_UnitController_" data-uid="Global.StateEvent002.OnUnitDash(UnitController)">OnUnitDash(UnitController)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnUnitDash(UnitController unitController)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Global.UnitController.html">UnitController</a></td>
-        <td><span class="parametername">unitController</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="implements">Implements</h3>
-  <div>
-      <a class="xref" href="Global.IUnitDashHandler.html">IUnitDashHandler</a>
-  </div>
-  <div>
-      <a class="xref" href="Global.IAfterUnitDashHandler.html">IAfterUnitDashHandler</a>
-  </div>
   <div>
       <a class="xref" href="Global.ISkillUseHandler.html">ISkillUseHandler</a>
   </div>
   <div>
-      <a class="xref" href="Global.IStateGainHandler.html">IStateGainHandler</a>
+      <a class="xref" href="Global.ISkillTriggerUnitHandler.html">ISkillTriggerUnitHandler</a>
   </div>
 </article>
           </div>
