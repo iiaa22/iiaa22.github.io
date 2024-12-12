@@ -15,6 +15,45 @@ references:
   commentId: T:Global.AnimationUtils
   fullName: AnimationUtils
   nameWithType: AnimationUtils
+- uid: Global.AnimationUtils.Destroy
+  name: Destroy()
+  href: api/Global.AnimationUtils.html#Global_AnimationUtils_Destroy
+  commentId: M:Global.AnimationUtils.Destroy
+  fullName: AnimationUtils.Destroy()
+  nameWithType: AnimationUtils.Destroy()
+- uid: Global.AnimationUtils.Destroy*
+  name: Destroy
+  href: api/Global.AnimationUtils.html#Global_AnimationUtils_Destroy_
+  commentId: Overload:Global.AnimationUtils.Destroy
+  isSpec: "True"
+  fullName: AnimationUtils.Destroy
+  nameWithType: AnimationUtils.Destroy
+- uid: Global.AnimationUtils.LookToMouse(System.Single)
+  name: LookToMouse(Single)
+  href: api/Global.AnimationUtils.html#Global_AnimationUtils_LookToMouse_System_Single_
+  commentId: M:Global.AnimationUtils.LookToMouse(System.Single)
+  fullName: AnimationUtils.LookToMouse(System.Single)
+  nameWithType: AnimationUtils.LookToMouse(Single)
+- uid: Global.AnimationUtils.LookToMouse*
+  name: LookToMouse
+  href: api/Global.AnimationUtils.html#Global_AnimationUtils_LookToMouse_
+  commentId: Overload:Global.AnimationUtils.LookToMouse
+  isSpec: "True"
+  fullName: AnimationUtils.LookToMouse
+  nameWithType: AnimationUtils.LookToMouse
+- uid: Global.AnimationUtils.ResetRotation(System.Single)
+  name: ResetRotation(Single)
+  href: api/Global.AnimationUtils.html#Global_AnimationUtils_ResetRotation_System_Single_
+  commentId: M:Global.AnimationUtils.ResetRotation(System.Single)
+  fullName: AnimationUtils.ResetRotation(System.Single)
+  nameWithType: AnimationUtils.ResetRotation(Single)
+- uid: Global.AnimationUtils.ResetRotation*
+  name: ResetRotation
+  href: api/Global.AnimationUtils.html#Global_AnimationUtils_ResetRotation_
+  commentId: Overload:Global.AnimationUtils.ResetRotation
+  isSpec: "True"
+  fullName: AnimationUtils.ResetRotation
+  nameWithType: AnimationUtils.ResetRotation
 - uid: Global.AttackType
   name: AttackType
   href: api/Global.AttackType.html
@@ -257,14 +296,14 @@ references:
   fullName.vb: BaseEvent(Of T)
   nameWithType: BaseEvent<T>
   nameWithType.vb: BaseEvent(Of T)
-- uid: Global.BaseEvent`1.CreateAfterimage(SpriteRenderer)
-  name: CreateAfterimage(SpriteRenderer)
-  href: api/Global.BaseEvent-1.html#Global_BaseEvent_1_CreateAfterimage_SpriteRenderer_
-  commentId: M:Global.BaseEvent`1.CreateAfterimage(SpriteRenderer)
-  fullName: BaseEvent<T>.CreateAfterimage(SpriteRenderer)
-  fullName.vb: BaseEvent(Of T).CreateAfterimage(SpriteRenderer)
-  nameWithType: BaseEvent<T>.CreateAfterimage(SpriteRenderer)
-  nameWithType.vb: BaseEvent(Of T).CreateAfterimage(SpriteRenderer)
+- uid: Global.BaseEvent`1.CreateAfterimage(SpriteRenderer,System.Single)
+  name: CreateAfterimage(SpriteRenderer, Single)
+  href: api/Global.BaseEvent-1.html#Global_BaseEvent_1_CreateAfterimage_SpriteRenderer_System_Single_
+  commentId: M:Global.BaseEvent`1.CreateAfterimage(SpriteRenderer,System.Single)
+  fullName: BaseEvent<T>.CreateAfterimage(SpriteRenderer, System.Single)
+  fullName.vb: BaseEvent(Of T).CreateAfterimage(SpriteRenderer, System.Single)
+  nameWithType: BaseEvent<T>.CreateAfterimage(SpriteRenderer, Single)
+  nameWithType.vb: BaseEvent(Of T).CreateAfterimage(SpriteRenderer, Single)
 - uid: Global.BaseEvent`1.CreateAfterimage*
   name: CreateAfterimage
   href: api/Global.BaseEvent-1.html#Global_BaseEvent_1_CreateAfterimage_
@@ -1746,6 +1785,120 @@ references:
   commentId: F:Global.GameView.touText
   fullName: GameView.touText
   nameWithType: GameView.touText
+- uid: Global.GetItemWindow
+  name: GetItemWindow
+  href: api/Global.GetItemWindow.html
+  commentId: T:Global.GetItemWindow
+  fullName: GetItemWindow
+  nameWithType: GetItemWindow
+- uid: Global.GetItemWindow.AddListener
+  name: AddListener()
+  href: api/Global.GetItemWindow.html#Global_GetItemWindow_AddListener
+  commentId: M:Global.GetItemWindow.AddListener
+  fullName: GetItemWindow.AddListener()
+  nameWithType: GetItemWindow.AddListener()
+- uid: Global.GetItemWindow.AddListener*
+  name: AddListener
+  href: api/Global.GetItemWindow.html#Global_GetItemWindow_AddListener_
+  commentId: Overload:Global.GetItemWindow.AddListener
+  isSpec: "True"
+  fullName: GetItemWindow.AddListener
+  nameWithType: GetItemWindow.AddListener
+- uid: Global.GetItemWindow.content
+  name: content
+  href: api/Global.GetItemWindow.html#Global_GetItemWindow_content
+  commentId: F:Global.GetItemWindow.content
+  fullName: GetItemWindow.content
+  nameWithType: GetItemWindow.content
+- uid: Global.GetItemWindow.GetItem
+  name: GetItem()
+  href: api/Global.GetItemWindow.html#Global_GetItemWindow_GetItem
+  commentId: M:Global.GetItemWindow.GetItem
+  fullName: GetItemWindow.GetItem()
+  nameWithType: GetItemWindow.GetItem()
+- uid: Global.GetItemWindow.GetItem*
+  name: GetItem
+  href: api/Global.GetItemWindow.html#Global_GetItemWindow_GetItem_
+  commentId: Overload:Global.GetItemWindow.GetItem
+  isSpec: "True"
+  fullName: GetItemWindow.GetItem
+  nameWithType: GetItemWindow.GetItem
+- uid: Global.GetItemWindow.itemPrefab
+  name: itemPrefab
+  href: api/Global.GetItemWindow.html#Global_GetItemWindow_itemPrefab
+  commentId: F:Global.GetItemWindow.itemPrefab
+  fullName: GetItemWindow.itemPrefab
+  nameWithType: GetItemWindow.itemPrefab
+- uid: Global.GetItemWindow.OnClose
+  name: OnClose()
+  href: api/Global.GetItemWindow.html#Global_GetItemWindow_OnClose
+  commentId: M:Global.GetItemWindow.OnClose
+  fullName: GetItemWindow.OnClose()
+  nameWithType: GetItemWindow.OnClose()
+- uid: Global.GetItemWindow.OnClose*
+  name: OnClose
+  href: api/Global.GetItemWindow.html#Global_GetItemWindow_OnClose_
+  commentId: Overload:Global.GetItemWindow.OnClose
+  isSpec: "True"
+  fullName: GetItemWindow.OnClose
+  nameWithType: GetItemWindow.OnClose
+- uid: Global.GetItemWindow.OnGetItem
+  name: OnGetItem
+  href: api/Global.GetItemWindow.html#Global_GetItemWindow_OnGetItem
+  commentId: E:Global.GetItemWindow.OnGetItem
+  fullName: GetItemWindow.OnGetItem
+  nameWithType: GetItemWindow.OnGetItem
+- uid: Global.GetItemWindow.OnOpen
+  name: OnOpen()
+  href: api/Global.GetItemWindow.html#Global_GetItemWindow_OnOpen
+  commentId: M:Global.GetItemWindow.OnOpen
+  fullName: GetItemWindow.OnOpen()
+  nameWithType: GetItemWindow.OnOpen()
+- uid: Global.GetItemWindow.OnOpen*
+  name: OnOpen
+  href: api/Global.GetItemWindow.html#Global_GetItemWindow_OnOpen_
+  commentId: Overload:Global.GetItemWindow.OnOpen
+  isSpec: "True"
+  fullName: GetItemWindow.OnOpen
+  nameWithType: GetItemWindow.OnOpen
+- uid: Global.GetItemWindow.RealRefresh
+  name: RealRefresh()
+  href: api/Global.GetItemWindow.html#Global_GetItemWindow_RealRefresh
+  commentId: M:Global.GetItemWindow.RealRefresh
+  fullName: GetItemWindow.RealRefresh()
+  nameWithType: GetItemWindow.RealRefresh()
+- uid: Global.GetItemWindow.RealRefresh*
+  name: RealRefresh
+  href: api/Global.GetItemWindow.html#Global_GetItemWindow_RealRefresh_
+  commentId: Overload:Global.GetItemWindow.RealRefresh
+  isSpec: "True"
+  fullName: GetItemWindow.RealRefresh
+  nameWithType: GetItemWindow.RealRefresh
+- uid: Global.GetItemWindow.RemoveListener
+  name: RemoveListener()
+  href: api/Global.GetItemWindow.html#Global_GetItemWindow_RemoveListener
+  commentId: M:Global.GetItemWindow.RemoveListener
+  fullName: GetItemWindow.RemoveListener()
+  nameWithType: GetItemWindow.RemoveListener()
+- uid: Global.GetItemWindow.RemoveListener*
+  name: RemoveListener
+  href: api/Global.GetItemWindow.html#Global_GetItemWindow_RemoveListener_
+  commentId: Overload:Global.GetItemWindow.RemoveListener
+  isSpec: "True"
+  fullName: GetItemWindow.RemoveListener
+  nameWithType: GetItemWindow.RemoveListener
+- uid: Global.GetItemWindow.submitButton
+  name: submitButton
+  href: api/Global.GetItemWindow.html#Global_GetItemWindow_submitButton
+  commentId: F:Global.GetItemWindow.submitButton
+  fullName: GetItemWindow.submitButton
+  nameWithType: GetItemWindow.submitButton
+- uid: Global.GetItemWindow.submitButtonText
+  name: submitButtonText
+  href: api/Global.GetItemWindow.html#Global_GetItemWindow_submitButtonText
+  commentId: F:Global.GetItemWindow.submitButtonText
+  fullName: GetItemWindow.submitButtonText
+  nameWithType: GetItemWindow.submitButtonText
 - uid: Global.GlobalView
   name: GlobalView
   href: api/Global.GlobalView.html
@@ -1929,19 +2082,6 @@ references:
   commentId: F:Global.InventoryItem.buildedText
   fullName: InventoryItem.buildedText
   nameWithType: InventoryItem.buildedText
-- uid: Global.InventoryItem.IsDrag
-  name: IsDrag
-  href: api/Global.InventoryItem.html#Global_InventoryItem_IsDrag
-  commentId: P:Global.InventoryItem.IsDrag
-  fullName: InventoryItem.IsDrag
-  nameWithType: InventoryItem.IsDrag
-- uid: Global.InventoryItem.IsDrag*
-  name: IsDrag
-  href: api/Global.InventoryItem.html#Global_InventoryItem_IsDrag_
-  commentId: Overload:Global.InventoryItem.IsDrag
-  isSpec: "True"
-  fullName: InventoryItem.IsDrag
-  nameWithType: InventoryItem.IsDrag
 - uid: Global.InventoryItem.OnBeginDrag(PointerEventData)
   name: OnBeginDrag(PointerEventData)
   href: api/Global.InventoryItem.html#Global_InventoryItem_OnBeginDrag_PointerEventData_
@@ -2071,25 +2211,24 @@ references:
   commentId: T:Global.InventoryView
   fullName: InventoryView
   nameWithType: InventoryView
+- uid: Global.InventoryView.button2
+  name: button2
+  href: api/Global.InventoryView.html#Global_InventoryView_button2
+  commentId: F:Global.InventoryView.button2
+  fullName: InventoryView.button2
+  nameWithType: InventoryView.button2
+- uid: Global.InventoryView.button2Active
+  name: button2Active
+  href: api/Global.InventoryView.html#Global_InventoryView_button2Active
+  commentId: F:Global.InventoryView.button2Active
+  fullName: InventoryView.button2Active
+  nameWithType: InventoryView.button2Active
 - uid: Global.InventoryView.canvasGroup
   name: canvasGroup
   href: api/Global.InventoryView.html#Global_InventoryView_canvasGroup
   commentId: F:Global.InventoryView.canvasGroup
   fullName: InventoryView.canvasGroup
   nameWithType: InventoryView.canvasGroup
-- uid: Global.InventoryView.CheckAndClose
-  name: CheckAndClose()
-  href: api/Global.InventoryView.html#Global_InventoryView_CheckAndClose
-  commentId: M:Global.InventoryView.CheckAndClose
-  fullName: InventoryView.CheckAndClose()
-  nameWithType: InventoryView.CheckAndClose()
-- uid: Global.InventoryView.CheckAndClose*
-  name: CheckAndClose
-  href: api/Global.InventoryView.html#Global_InventoryView_CheckAndClose_
-  commentId: Overload:Global.InventoryView.CheckAndClose
-  isSpec: "True"
-  fullName: InventoryView.CheckAndClose
-  nameWithType: InventoryView.CheckAndClose
 - uid: Global.InventoryView.content1
   name: content1
   href: api/Global.InventoryView.html#Global_InventoryView_content1
@@ -2102,6 +2241,36 @@ references:
   commentId: F:Global.InventoryView.content2
   fullName: InventoryView.content2
   nameWithType: InventoryView.content2
+- uid: Global.InventoryView.content2State
+  name: content2State
+  href: api/Global.InventoryView.html#Global_InventoryView_content2State
+  commentId: F:Global.InventoryView.content2State
+  fullName: InventoryView.content2State
+  nameWithType: InventoryView.content2State
+- uid: Global.InventoryView.content2SwitchUnit
+  name: content2SwitchUnit
+  href: api/Global.InventoryView.html#Global_InventoryView_content2SwitchUnit
+  commentId: F:Global.InventoryView.content2SwitchUnit
+  fullName: InventoryView.content2SwitchUnit
+  nameWithType: InventoryView.content2SwitchUnit
+- uid: Global.InventoryView.content3
+  name: content3
+  href: api/Global.InventoryView.html#Global_InventoryView_content3
+  commentId: F:Global.InventoryView.content3
+  fullName: InventoryView.content3
+  nameWithType: InventoryView.content3
+- uid: Global.InventoryView.content4
+  name: content4
+  href: api/Global.InventoryView.html#Global_InventoryView_content4
+  commentId: F:Global.InventoryView.content4
+  fullName: InventoryView.content4
+  nameWithType: InventoryView.content4
+- uid: Global.InventoryView.contentLayout
+  name: contentLayout
+  href: api/Global.InventoryView.html#Global_InventoryView_contentLayout
+  commentId: F:Global.InventoryView.contentLayout
+  fullName: InventoryView.contentLayout
+  nameWithType: InventoryView.contentLayout
 - uid: Global.InventoryView.itemPrefab1
   name: itemPrefab1
   href: api/Global.InventoryView.html#Global_InventoryView_itemPrefab1
@@ -2114,12 +2283,55 @@ references:
   commentId: F:Global.InventoryView.itemPrefab2
   fullName: InventoryView.itemPrefab2
   nameWithType: InventoryView.itemPrefab2
-- uid: Global.InventoryView.noItemText
-  name: noItemText
-  href: api/Global.InventoryView.html#Global_InventoryView_noItemText
-  commentId: F:Global.InventoryView.noItemText
-  fullName: InventoryView.noItemText
-  nameWithType: InventoryView.noItemText
+- uid: Global.InventoryView.itemPrefab3
+  name: itemPrefab3
+  href: api/Global.InventoryView.html#Global_InventoryView_itemPrefab3
+  commentId: F:Global.InventoryView.itemPrefab3
+  fullName: InventoryView.itemPrefab3
+  nameWithType: InventoryView.itemPrefab3
+- uid: Global.InventoryView.itemPrefab4
+  name: itemPrefab4
+  href: api/Global.InventoryView.html#Global_InventoryView_itemPrefab4
+  commentId: F:Global.InventoryView.itemPrefab4
+  fullName: InventoryView.itemPrefab4
+  nameWithType: InventoryView.itemPrefab4
+- uid: Global.InventoryView.noItemText1
+  name: noItemText1
+  href: api/Global.InventoryView.html#Global_InventoryView_noItemText1
+  commentId: F:Global.InventoryView.noItemText1
+  fullName: InventoryView.noItemText1
+  nameWithType: InventoryView.noItemText1
+- uid: Global.InventoryView.noItemText2
+  name: noItemText2
+  href: api/Global.InventoryView.html#Global_InventoryView_noItemText2
+  commentId: F:Global.InventoryView.noItemText2
+  fullName: InventoryView.noItemText2
+  nameWithType: InventoryView.noItemText2
+- uid: Global.InventoryView.noItemText3
+  name: noItemText3
+  href: api/Global.InventoryView.html#Global_InventoryView_noItemText3
+  commentId: F:Global.InventoryView.noItemText3
+  fullName: InventoryView.noItemText3
+  nameWithType: InventoryView.noItemText3
+- uid: Global.InventoryView.noItemText4
+  name: noItemText4
+  href: api/Global.InventoryView.html#Global_InventoryView_noItemText4
+  commentId: F:Global.InventoryView.noItemText4
+  fullName: InventoryView.noItemText4
+  nameWithType: InventoryView.noItemText4
+- uid: Global.InventoryView.OnButton2Click
+  name: OnButton2Click()
+  href: api/Global.InventoryView.html#Global_InventoryView_OnButton2Click
+  commentId: M:Global.InventoryView.OnButton2Click
+  fullName: InventoryView.OnButton2Click()
+  nameWithType: InventoryView.OnButton2Click()
+- uid: Global.InventoryView.OnButton2Click*
+  name: OnButton2Click
+  href: api/Global.InventoryView.html#Global_InventoryView_OnButton2Click_
+  commentId: Overload:Global.InventoryView.OnButton2Click
+  isSpec: "True"
+  fullName: InventoryView.OnButton2Click
+  nameWithType: InventoryView.OnButton2Click
 - uid: Global.InventoryView.OnClose
   name: OnClose()
   href: api/Global.InventoryView.html#Global_InventoryView_OnClose
@@ -2133,6 +2345,19 @@ references:
   isSpec: "True"
   fullName: InventoryView.OnClose
   nameWithType: InventoryView.OnClose
+- uid: Global.InventoryView.OnContent2Drop(PointerEventData)
+  name: OnContent2Drop(PointerEventData)
+  href: api/Global.InventoryView.html#Global_InventoryView_OnContent2Drop_PointerEventData_
+  commentId: M:Global.InventoryView.OnContent2Drop(PointerEventData)
+  fullName: InventoryView.OnContent2Drop(PointerEventData)
+  nameWithType: InventoryView.OnContent2Drop(PointerEventData)
+- uid: Global.InventoryView.OnContent2Drop*
+  name: OnContent2Drop
+  href: api/Global.InventoryView.html#Global_InventoryView_OnContent2Drop_
+  commentId: Overload:Global.InventoryView.OnContent2Drop
+  isSpec: "True"
+  fullName: InventoryView.OnContent2Drop
+  nameWithType: InventoryView.OnContent2Drop
 - uid: Global.InventoryView.OnOpen
   name: OnOpen()
   href: api/Global.InventoryView.html#Global_InventoryView_OnOpen
@@ -2165,6 +2390,18 @@ references:
   commentId: F:Global.InventoryView.titleText
   fullName: InventoryView.titleText
   nameWithType: InventoryView.titleText
+- uid: Global.InventoryView.topContent
+  name: topContent
+  href: api/Global.InventoryView.html#Global_InventoryView_topContent
+  commentId: F:Global.InventoryView.topContent
+  fullName: InventoryView.topContent
+  nameWithType: InventoryView.topContent
+- uid: Global.InventoryView.topItemPrefab
+  name: topItemPrefab
+  href: api/Global.InventoryView.html#Global_InventoryView_topItemPrefab
+  commentId: F:Global.InventoryView.topItemPrefab
+  fullName: InventoryView.topItemPrefab
+  nameWithType: InventoryView.topItemPrefab
 - uid: Global.ISkillCustomTriggeredHandler
   name: ISkillCustomTriggeredHandler
   href: api/Global.ISkillCustomTriggeredHandler.html
@@ -2317,6 +2554,31 @@ references:
   isSpec: "True"
   fullName: IStateLostHandler.OnStateLost
   nameWithType: IStateLostHandler.OnStateLost
+- uid: Global.ItemDrop
+  name: ItemDrop
+  href: api/Global.ItemDrop.html
+  commentId: T:Global.ItemDrop
+  fullName: ItemDrop
+  nameWithType: ItemDrop
+- uid: Global.ItemDrop.OnDrop(PointerEventData)
+  name: OnDrop(PointerEventData)
+  href: api/Global.ItemDrop.html#Global_ItemDrop_OnDrop_PointerEventData_
+  commentId: M:Global.ItemDrop.OnDrop(PointerEventData)
+  fullName: ItemDrop.OnDrop(PointerEventData)
+  nameWithType: ItemDrop.OnDrop(PointerEventData)
+- uid: Global.ItemDrop.OnDrop*
+  name: OnDrop
+  href: api/Global.ItemDrop.html#Global_ItemDrop_OnDrop_
+  commentId: Overload:Global.ItemDrop.OnDrop
+  isSpec: "True"
+  fullName: ItemDrop.OnDrop
+  nameWithType: ItemDrop.OnDrop
+- uid: Global.ItemDrop.OnItemDrop
+  name: OnItemDrop
+  href: api/Global.ItemDrop.html#Global_ItemDrop_OnItemDrop
+  commentId: F:Global.ItemDrop.OnItemDrop
+  fullName: ItemDrop.OnItemDrop
+  nameWithType: ItemDrop.OnItemDrop
 - uid: Global.IUnitBuildHandler
   name: IUnitBuildHandler
   href: api/Global.IUnitBuildHandler.html
@@ -2567,44 +2829,6 @@ references:
   isSpec: "True"
   fullName: LevelUpView.CheckDoubleClick
   nameWithType: LevelUpView.CheckDoubleClick
-- uid: Global.LevelUpView.checkInfo
-  name: checkInfo
-  href: api/Global.LevelUpView.html#Global_LevelUpView_checkInfo
-  commentId: F:Global.LevelUpView.checkInfo
-  fullName: LevelUpView.checkInfo
-  nameWithType: LevelUpView.checkInfo
-- uid: Global.LevelUpView.CheckLevelUp(System.Int32)
-  name: CheckLevelUp(Int32)
-  href: api/Global.LevelUpView.html#Global_LevelUpView_CheckLevelUp_System_Int32_
-  commentId: M:Global.LevelUpView.CheckLevelUp(System.Int32)
-  fullName: LevelUpView.CheckLevelUp(System.Int32)
-  nameWithType: LevelUpView.CheckLevelUp(Int32)
-- uid: Global.LevelUpView.CheckLevelUp*
-  name: CheckLevelUp
-  href: api/Global.LevelUpView.html#Global_LevelUpView_CheckLevelUp_
-  commentId: Overload:Global.LevelUpView.CheckLevelUp
-  isSpec: "True"
-  fullName: LevelUpView.CheckLevelUp
-  nameWithType: LevelUpView.CheckLevelUp
-- uid: Global.LevelUpView.DescTargetIndex
-  name: DescTargetIndex
-  href: api/Global.LevelUpView.html#Global_LevelUpView_DescTargetIndex
-  commentId: P:Global.LevelUpView.DescTargetIndex
-  fullName: LevelUpView.DescTargetIndex
-  nameWithType: LevelUpView.DescTargetIndex
-- uid: Global.LevelUpView.DescTargetIndex*
-  name: DescTargetIndex
-  href: api/Global.LevelUpView.html#Global_LevelUpView_DescTargetIndex_
-  commentId: Overload:Global.LevelUpView.DescTargetIndex
-  isSpec: "True"
-  fullName: LevelUpView.DescTargetIndex
-  nameWithType: LevelUpView.DescTargetIndex
-- uid: Global.LevelUpView.descText
-  name: descText
-  href: api/Global.LevelUpView.html#Global_LevelUpView_descText
-  commentId: F:Global.LevelUpView.descText
-  fullName: LevelUpView.descText
-  nameWithType: LevelUpView.descText
 - uid: Global.LevelUpView.GetItem
   name: GetItem()
   href: api/Global.LevelUpView.html#Global_LevelUpView_GetItem
@@ -2618,6 +2842,12 @@ references:
   isSpec: "True"
   fullName: LevelUpView.GetItem
   nameWithType: LevelUpView.GetItem
+- uid: Global.LevelUpView.getItemWindow
+  name: getItemWindow
+  href: api/Global.LevelUpView.html#Global_LevelUpView_getItemWindow
+  commentId: F:Global.LevelUpView.getItemWindow
+  fullName: LevelUpView.getItemWindow
+  nameWithType: LevelUpView.getItemWindow
 - uid: Global.LevelUpView.itemRef1
   name: itemRef1
   href: api/Global.LevelUpView.html#Global_LevelUpView_itemRef1
@@ -2636,19 +2866,6 @@ references:
   commentId: F:Global.LevelUpView.itemRef3
   fullName: LevelUpView.itemRef3
   nameWithType: LevelUpView.itemRef3
-- uid: Global.LevelUpView.LevelUp
-  name: LevelUp()
-  href: api/Global.LevelUpView.html#Global_LevelUpView_LevelUp
-  commentId: M:Global.LevelUpView.LevelUp
-  fullName: LevelUpView.LevelUp()
-  nameWithType: LevelUpView.LevelUp()
-- uid: Global.LevelUpView.LevelUp*
-  name: LevelUp
-  href: api/Global.LevelUpView.html#Global_LevelUpView_LevelUp_
-  commentId: Overload:Global.LevelUpView.LevelUp
-  isSpec: "True"
-  fullName: LevelUpView.LevelUp
-  nameWithType: LevelUpView.LevelUp
 - uid: Global.LevelUpView.levelUpButton
   name: levelUpButton
   href: api/Global.LevelUpView.html#Global_LevelUpView_levelUpButton
@@ -2661,18 +2878,6 @@ references:
   commentId: F:Global.LevelUpView.levelUpButtonPrompt
   fullName: LevelUpView.levelUpButtonPrompt
   nameWithType: LevelUpView.levelUpButtonPrompt
-- uid: Global.LevelUpView.levelUpInfo
-  name: levelUpInfo
-  href: api/Global.LevelUpView.html#Global_LevelUpView_levelUpInfo
-  commentId: F:Global.LevelUpView.levelUpInfo
-  fullName: LevelUpView.levelUpInfo
-  nameWithType: LevelUpView.levelUpInfo
-- uid: Global.LevelUpView.levelUpText
-  name: levelUpText
-  href: api/Global.LevelUpView.html#Global_LevelUpView_levelUpText
-  commentId: F:Global.LevelUpView.levelUpText
-  fullName: LevelUpView.levelUpText
-  nameWithType: LevelUpView.levelUpText
 - uid: Global.LevelUpView.NextLevel
   name: NextLevel()
   href: api/Global.LevelUpView.html#Global_LevelUpView_NextLevel
@@ -2686,18 +2891,6 @@ references:
   isSpec: "True"
   fullName: LevelUpView.NextLevel
   nameWithType: LevelUpView.NextLevel
-- uid: Global.LevelUpView.nextText1
-  name: nextText1
-  href: api/Global.LevelUpView.html#Global_LevelUpView_nextText1
-  commentId: F:Global.LevelUpView.nextText1
-  fullName: LevelUpView.nextText1
-  nameWithType: LevelUpView.nextText1
-- uid: Global.LevelUpView.nextText2
-  name: nextText2
-  href: api/Global.LevelUpView.html#Global_LevelUpView_nextText2
-  commentId: F:Global.LevelUpView.nextText2
-  fullName: LevelUpView.nextText2
-  nameWithType: LevelUpView.nextText2
 - uid: Global.LevelUpView.OnClose
   name: OnClose()
   href: api/Global.LevelUpView.html#Global_LevelUpView_OnClose
@@ -2743,38 +2936,30 @@ references:
   isSpec: "True"
   fullName: LevelUpView.RealRefresh
   nameWithType: LevelUpView.RealRefresh
-- uid: Global.LevelUpView.SelectTargetUnit
-  name: SelectTargetUnit()
-  href: api/Global.LevelUpView.html#Global_LevelUpView_SelectTargetUnit
-  commentId: M:Global.LevelUpView.SelectTargetUnit
-  fullName: LevelUpView.SelectTargetUnit()
-  nameWithType: LevelUpView.SelectTargetUnit()
-- uid: Global.LevelUpView.SelectTargetUnit*
-  name: SelectTargetUnit
-  href: api/Global.LevelUpView.html#Global_LevelUpView_SelectTargetUnit_
-  commentId: Overload:Global.LevelUpView.SelectTargetUnit
-  isSpec: "True"
-  fullName: LevelUpView.SelectTargetUnit
-  nameWithType: LevelUpView.SelectTargetUnit
-- uid: Global.LevelUpView.skillRef
-  name: skillRef
-  href: api/Global.LevelUpView.html#Global_LevelUpView_skillRef
-  commentId: F:Global.LevelUpView.skillRef
-  fullName: LevelUpView.skillRef
-  nameWithType: LevelUpView.skillRef
-- uid: Global.LevelUpView.TargetUnit
-  name: TargetUnit
-  href: api/Global.LevelUpView.html#Global_LevelUpView_TargetUnit
-  commentId: P:Global.LevelUpView.TargetUnit
-  fullName: LevelUpView.TargetUnit
-  nameWithType: LevelUpView.TargetUnit
-- uid: Global.LevelUpView.TargetUnit*
-  name: TargetUnit
-  href: api/Global.LevelUpView.html#Global_LevelUpView_TargetUnit_
-  commentId: Overload:Global.LevelUpView.TargetUnit
-  isSpec: "True"
-  fullName: LevelUpView.TargetUnit
-  nameWithType: LevelUpView.TargetUnit
+- uid: Global.LevelUpView.skillRef1
+  name: skillRef1
+  href: api/Global.LevelUpView.html#Global_LevelUpView_skillRef1
+  commentId: F:Global.LevelUpView.skillRef1
+  fullName: LevelUpView.skillRef1
+  nameWithType: LevelUpView.skillRef1
+- uid: Global.LevelUpView.skillRef2
+  name: skillRef2
+  href: api/Global.LevelUpView.html#Global_LevelUpView_skillRef2
+  commentId: F:Global.LevelUpView.skillRef2
+  fullName: LevelUpView.skillRef2
+  nameWithType: LevelUpView.skillRef2
+- uid: Global.LevelUpView.skillRef3
+  name: skillRef3
+  href: api/Global.LevelUpView.html#Global_LevelUpView_skillRef3
+  commentId: F:Global.LevelUpView.skillRef3
+  fullName: LevelUpView.skillRef3
+  nameWithType: LevelUpView.skillRef3
+- uid: Global.LevelUpView.skillRef4
+  name: skillRef4
+  href: api/Global.LevelUpView.html#Global_LevelUpView_skillRef4
+  commentId: F:Global.LevelUpView.skillRef4
+  fullName: LevelUpView.skillRef4
+  nameWithType: LevelUpView.skillRef4
 - uid: Global.LevelUpView.ToTraining
   name: ToTraining()
   href: api/Global.LevelUpView.html#Global_LevelUpView_ToTraining
@@ -2788,18 +2973,6 @@ references:
   isSpec: "True"
   fullName: LevelUpView.ToTraining
   nameWithType: LevelUpView.ToTraining
-- uid: Global.LevelUpView.unitText1
-  name: unitText1
-  href: api/Global.LevelUpView.html#Global_LevelUpView_unitText1
-  commentId: F:Global.LevelUpView.unitText1
-  fullName: LevelUpView.unitText1
-  nameWithType: LevelUpView.unitText1
-- uid: Global.LevelUpView.unitText2
-  name: unitText2
-  href: api/Global.LevelUpView.html#Global_LevelUpView_unitText2
-  commentId: F:Global.LevelUpView.unitText2
-  fullName: LevelUpView.unitText2
-  nameWithType: LevelUpView.unitText2
 - uid: Global.LoadingView
   name: LoadingView
   href: api/Global.LoadingView.html
@@ -2940,6 +3113,32 @@ references:
   commentId: F:Global.MapController.enemyCreaterPrefab
   fullName: MapController.enemyCreaterPrefab
   nameWithType: MapController.enemyCreaterPrefab
+- uid: Global.MapController.GameStoped
+  name: GameStoped
+  href: api/Global.MapController.html#Global_MapController_GameStoped
+  commentId: P:Global.MapController.GameStoped
+  fullName: MapController.GameStoped
+  nameWithType: MapController.GameStoped
+- uid: Global.MapController.GameStoped*
+  name: GameStoped
+  href: api/Global.MapController.html#Global_MapController_GameStoped_
+  commentId: Overload:Global.MapController.GameStoped
+  isSpec: "True"
+  fullName: MapController.GameStoped
+  nameWithType: MapController.GameStoped
+- uid: Global.MapController.OnOpenOrCloseInventory(InputAction.CallbackContext)
+  name: OnOpenOrCloseInventory(InputAction.CallbackContext)
+  href: api/Global.MapController.html#Global_MapController_OnOpenOrCloseInventory_InputAction_CallbackContext_
+  commentId: M:Global.MapController.OnOpenOrCloseInventory(InputAction.CallbackContext)
+  fullName: MapController.OnOpenOrCloseInventory(InputAction.CallbackContext)
+  nameWithType: MapController.OnOpenOrCloseInventory(InputAction.CallbackContext)
+- uid: Global.MapController.OnOpenOrCloseInventory*
+  name: OnOpenOrCloseInventory
+  href: api/Global.MapController.html#Global_MapController_OnOpenOrCloseInventory_
+  commentId: Overload:Global.MapController.OnOpenOrCloseInventory
+  isSpec: "True"
+  fullName: MapController.OnOpenOrCloseInventory
+  nameWithType: MapController.OnOpenOrCloseInventory
 - uid: Global.MapController.OnOpenOrCloseSettings(InputAction.CallbackContext)
   name: OnOpenOrCloseSettings(InputAction.CallbackContext)
   href: api/Global.MapController.html#Global_MapController_OnOpenOrCloseSettings_InputAction_CallbackContext_
@@ -2953,6 +3152,19 @@ references:
   isSpec: "True"
   fullName: MapController.OnOpenOrCloseSettings
   nameWithType: MapController.OnOpenOrCloseSettings
+- uid: Global.MapController.OnOpenOrCloseSkillCombo(InputAction.CallbackContext)
+  name: OnOpenOrCloseSkillCombo(InputAction.CallbackContext)
+  href: api/Global.MapController.html#Global_MapController_OnOpenOrCloseSkillCombo_InputAction_CallbackContext_
+  commentId: M:Global.MapController.OnOpenOrCloseSkillCombo(InputAction.CallbackContext)
+  fullName: MapController.OnOpenOrCloseSkillCombo(InputAction.CallbackContext)
+  nameWithType: MapController.OnOpenOrCloseSkillCombo(InputAction.CallbackContext)
+- uid: Global.MapController.OnOpenOrCloseSkillCombo*
+  name: OnOpenOrCloseSkillCombo
+  href: api/Global.MapController.html#Global_MapController_OnOpenOrCloseSkillCombo_
+  commentId: Overload:Global.MapController.OnOpenOrCloseSkillCombo
+  isSpec: "True"
+  fullName: MapController.OnOpenOrCloseSkillCombo
+  nameWithType: MapController.OnOpenOrCloseSkillCombo
 - uid: Global.MapController.player
   name: player
   href: api/Global.MapController.html#Global_MapController_player
@@ -3435,19 +3647,6 @@ references:
   isSpec: "True"
   fullName: Player.GetSkills
   nameWithType: Player.GetSkills
-- uid: Global.Player.Guid
-  name: Guid
-  href: api/Global.Player.html#Global_Player_Guid
-  commentId: P:Global.Player.Guid
-  fullName: Player.Guid
-  nameWithType: Player.Guid
-- uid: Global.Player.Guid*
-  name: Guid
-  href: api/Global.Player.html#Global_Player_Guid_
-  commentId: Overload:Global.Player.Guid
-  isSpec: "True"
-  fullName: Player.Guid
-  nameWithType: Player.Guid
 - uid: Global.Player.Init
   name: Init()
   href: api/Global.Player.html#Global_Player_Init
@@ -3532,6 +3731,32 @@ references:
   commentId: E:Global.Player.OnComboInfoChanged
   fullName: Player.OnComboInfoChanged
   nameWithType: Player.OnComboInfoChanged
+- uid: Global.Player.RandomSeed
+  name: RandomSeed
+  href: api/Global.Player.html#Global_Player_RandomSeed
+  commentId: P:Global.Player.RandomSeed
+  fullName: Player.RandomSeed
+  nameWithType: Player.RandomSeed
+- uid: Global.Player.RandomSeed*
+  name: RandomSeed
+  href: api/Global.Player.html#Global_Player_RandomSeed_
+  commentId: Overload:Global.Player.RandomSeed
+  isSpec: "True"
+  fullName: Player.RandomSeed
+  nameWithType: Player.RandomSeed
+- uid: Global.Player.RefreshRandomSeed
+  name: RefreshRandomSeed()
+  href: api/Global.Player.html#Global_Player_RefreshRandomSeed
+  commentId: M:Global.Player.RefreshRandomSeed
+  fullName: Player.RefreshRandomSeed()
+  nameWithType: Player.RefreshRandomSeed()
+- uid: Global.Player.RefreshRandomSeed*
+  name: RefreshRandomSeed
+  href: api/Global.Player.html#Global_Player_RefreshRandomSeed_
+  commentId: Overload:Global.Player.RefreshRandomSeed
+  isSpec: "True"
+  fullName: Player.RefreshRandomSeed
+  nameWithType: Player.RefreshRandomSeed
 - uid: Global.Player.RemoveAvailableUnit(System.String)
   name: RemoveAvailableUnit(String)
   href: api/Global.Player.html#Global_Player_RemoveAvailableUnit_System_String_
@@ -3725,45 +3950,6 @@ references:
   isSpec: "True"
   fullName: PlayerController.OnMove
   nameWithType: PlayerController.OnMove
-- uid: Global.PlayerController.OnOpenOrCloseInventory(InputAction.CallbackContext)
-  name: OnOpenOrCloseInventory(InputAction.CallbackContext)
-  href: api/Global.PlayerController.html#Global_PlayerController_OnOpenOrCloseInventory_InputAction_CallbackContext_
-  commentId: M:Global.PlayerController.OnOpenOrCloseInventory(InputAction.CallbackContext)
-  fullName: PlayerController.OnOpenOrCloseInventory(InputAction.CallbackContext)
-  nameWithType: PlayerController.OnOpenOrCloseInventory(InputAction.CallbackContext)
-- uid: Global.PlayerController.OnOpenOrCloseInventory*
-  name: OnOpenOrCloseInventory
-  href: api/Global.PlayerController.html#Global_PlayerController_OnOpenOrCloseInventory_
-  commentId: Overload:Global.PlayerController.OnOpenOrCloseInventory
-  isSpec: "True"
-  fullName: PlayerController.OnOpenOrCloseInventory
-  nameWithType: PlayerController.OnOpenOrCloseInventory
-- uid: Global.PlayerController.OnOpenOrCloseSettings(InputAction.CallbackContext)
-  name: OnOpenOrCloseSettings(InputAction.CallbackContext)
-  href: api/Global.PlayerController.html#Global_PlayerController_OnOpenOrCloseSettings_InputAction_CallbackContext_
-  commentId: M:Global.PlayerController.OnOpenOrCloseSettings(InputAction.CallbackContext)
-  fullName: PlayerController.OnOpenOrCloseSettings(InputAction.CallbackContext)
-  nameWithType: PlayerController.OnOpenOrCloseSettings(InputAction.CallbackContext)
-- uid: Global.PlayerController.OnOpenOrCloseSettings*
-  name: OnOpenOrCloseSettings
-  href: api/Global.PlayerController.html#Global_PlayerController_OnOpenOrCloseSettings_
-  commentId: Overload:Global.PlayerController.OnOpenOrCloseSettings
-  isSpec: "True"
-  fullName: PlayerController.OnOpenOrCloseSettings
-  nameWithType: PlayerController.OnOpenOrCloseSettings
-- uid: Global.PlayerController.OnOpenOrCloseSkillCombo(InputAction.CallbackContext)
-  name: OnOpenOrCloseSkillCombo(InputAction.CallbackContext)
-  href: api/Global.PlayerController.html#Global_PlayerController_OnOpenOrCloseSkillCombo_InputAction_CallbackContext_
-  commentId: M:Global.PlayerController.OnOpenOrCloseSkillCombo(InputAction.CallbackContext)
-  fullName: PlayerController.OnOpenOrCloseSkillCombo(InputAction.CallbackContext)
-  nameWithType: PlayerController.OnOpenOrCloseSkillCombo(InputAction.CallbackContext)
-- uid: Global.PlayerController.OnOpenOrCloseSkillCombo*
-  name: OnOpenOrCloseSkillCombo
-  href: api/Global.PlayerController.html#Global_PlayerController_OnOpenOrCloseSkillCombo_
-  commentId: Overload:Global.PlayerController.OnOpenOrCloseSkillCombo
-  isSpec: "True"
-  fullName: PlayerController.OnOpenOrCloseSkillCombo
-  nameWithType: PlayerController.OnOpenOrCloseSkillCombo
 - uid: Global.PlayerController.OnPickUp(InputAction.CallbackContext)
   name: OnPickUp(InputAction.CallbackContext)
   href: api/Global.PlayerController.html#Global_PlayerController_OnPickUp_InputAction_CallbackContext_
@@ -3822,24 +4008,6 @@ references:
   commentId: T:Global.PlayView
   fullName: PlayView
   nameWithType: PlayView
-- uid: Global.PlayView.defaultAvailableUnitPool
-  name: defaultAvailableUnitPool
-  href: api/Global.PlayView.html#Global_PlayView_defaultAvailableUnitPool
-  commentId: F:Global.PlayView.defaultAvailableUnitPool
-  fullName: PlayView.defaultAvailableUnitPool
-  nameWithType: PlayView.defaultAvailableUnitPool
-- uid: Global.PlayView.defaultEquippedList
-  name: defaultEquippedList
-  href: api/Global.PlayView.html#Global_PlayView_defaultEquippedList
-  commentId: F:Global.PlayView.defaultEquippedList
-  fullName: PlayView.defaultEquippedList
-  nameWithType: PlayView.defaultEquippedList
-- uid: Global.PlayView.defaultItemList
-  name: defaultItemList
-  href: api/Global.PlayView.html#Global_PlayView_defaultItemList
-  commentId: F:Global.PlayView.defaultItemList
-  fullName: PlayView.defaultItemList
-  nameWithType: PlayView.defaultItemList
 - uid: Global.PlayView.isTraining
   name: isTraining
   href: api/Global.PlayView.html#Global_PlayView_isTraining
@@ -4445,19 +4613,6 @@ references:
   isSpec: "True"
   fullName: SettingsView.Back
   nameWithType: SettingsView.Back
-- uid: Global.SettingsView.CheckAndClose
-  name: CheckAndClose()
-  href: api/Global.SettingsView.html#Global_SettingsView_CheckAndClose
-  commentId: M:Global.SettingsView.CheckAndClose
-  fullName: SettingsView.CheckAndClose()
-  nameWithType: SettingsView.CheckAndClose()
-- uid: Global.SettingsView.CheckAndClose*
-  name: CheckAndClose
-  href: api/Global.SettingsView.html#Global_SettingsView_CheckAndClose_
-  commentId: Overload:Global.SettingsView.CheckAndClose
-  isSpec: "True"
-  fullName: SettingsView.CheckAndClose
-  nameWithType: SettingsView.CheckAndClose
 - uid: Global.SettingsView.ExitGame
   name: ExitGame()
   href: api/Global.SettingsView.html#Global_SettingsView_ExitGame
@@ -4943,6 +5098,19 @@ references:
   isSpec: "True"
   fullName: Skill.Init
   nameWithType: Skill.Init
+- uid: Global.Skill.IsOccupyOwner
+  name: IsOccupyOwner
+  href: api/Global.Skill.html#Global_Skill_IsOccupyOwner
+  commentId: P:Global.Skill.IsOccupyOwner
+  fullName: Skill.IsOccupyOwner
+  nameWithType: Skill.IsOccupyOwner
+- uid: Global.Skill.IsOccupyOwner*
+  name: IsOccupyOwner
+  href: api/Global.Skill.html#Global_Skill_IsOccupyOwner_
+  commentId: Overload:Global.Skill.IsOccupyOwner
+  isSpec: "True"
+  fullName: Skill.IsOccupyOwner
+  nameWithType: Skill.IsOccupyOwner
 - uid: Global.Skill.Owner
   name: Owner
   href: api/Global.Skill.html#Global_Skill_Owner
@@ -5070,19 +5238,6 @@ references:
   commentId: T:Global.SkillComboView
   fullName: SkillComboView
   nameWithType: SkillComboView
-- uid: Global.SkillComboView.CheckAndClose
-  name: CheckAndClose()
-  href: api/Global.SkillComboView.html#Global_SkillComboView_CheckAndClose
-  commentId: M:Global.SkillComboView.CheckAndClose
-  fullName: SkillComboView.CheckAndClose()
-  nameWithType: SkillComboView.CheckAndClose()
-- uid: Global.SkillComboView.CheckAndClose*
-  name: CheckAndClose
-  href: api/Global.SkillComboView.html#Global_SkillComboView_CheckAndClose_
-  commentId: Overload:Global.SkillComboView.CheckAndClose
-  isSpec: "True"
-  fullName: SkillComboView.CheckAndClose
-  nameWithType: SkillComboView.CheckAndClose
 - uid: Global.SkillComboView.content1
   name: content1
   href: api/Global.SkillComboView.html#Global_SkillComboView_content1
@@ -5164,12 +5319,6 @@ references:
   commentId: T:Global.SkillController
   fullName: SkillController
   nameWithType: SkillController
-- uid: Global.SkillController.autoUnitSource
-  name: autoUnitSource
-  href: api/Global.SkillController.html#Global_SkillController_autoUnitSource
-  commentId: F:Global.SkillController.autoUnitSource
-  fullName: SkillController.autoUnitSource
-  nameWithType: SkillController.autoUnitSource
 - uid: Global.SkillController.ComboCount
   name: ComboCount
   href: api/Global.SkillController.html#Global_SkillController_ComboCount
@@ -5313,12 +5462,6 @@ references:
   isSpec: "True"
   fullName: SkillController.EnableUserBinding
   nameWithType: SkillController.EnableUserBinding
-- uid: Global.SkillController.isAnimationPlaying
-  name: isAnimationPlaying
-  href: api/Global.SkillController.html#Global_SkillController_isAnimationPlaying
-  commentId: F:Global.SkillController.isAnimationPlaying
-  fullName: SkillController.isAnimationPlaying
-  nameWithType: SkillController.isAnimationPlaying
 - uid: Global.SkillController.IsStateName(System.String)
   name: IsStateName(String)
   href: api/Global.SkillController.html#Global_SkillController_IsStateName_System_String_
@@ -5332,6 +5475,12 @@ references:
   isSpec: "True"
   fullName: SkillController.IsStateName
   nameWithType: SkillController.IsStateName
+- uid: Global.SkillController.isUsing
+  name: isUsing
+  href: api/Global.SkillController.html#Global_SkillController_isUsing
+  commentId: F:Global.SkillController.isUsing
+  fullName: SkillController.isUsing
+  nameWithType: SkillController.isUsing
 - uid: Global.SkillController.LookToMouseFromUser(System.Single)
   name: LookToMouseFromUser(Single)
   href: api/Global.SkillController.html#Global_SkillController_LookToMouseFromUser_System_Single_
@@ -5409,6 +5558,12 @@ references:
   commentId: F:Global.SkillController.unitSource
   fullName: SkillController.unitSource
   nameWithType: SkillController.unitSource
+- uid: Global.SkillController.unitSourceRoot
+  name: unitSourceRoot
+  href: api/Global.SkillController.html#Global_SkillController_unitSourceRoot
+  commentId: F:Global.SkillController.unitSourceRoot
+  fullName: SkillController.unitSourceRoot
+  nameWithType: SkillController.unitSourceRoot
 - uid: Global.SkillController.user
   name: user
   href: api/Global.SkillController.html#Global_SkillController_user
@@ -5744,6 +5899,12 @@ references:
   isSpec: "True"
   fullName: SkillEvent008.OnSkillUse
   nameWithType: SkillEvent008.OnSkillUse
+- uid: Global.SkillEvent008.passiveSkill
+  name: passiveSkill
+  href: api/Global.SkillEvent008.html#Global_SkillEvent008_passiveSkill
+  commentId: F:Global.SkillEvent008.passiveSkill
+  fullName: SkillEvent008.passiveSkill
+  nameWithType: SkillEvent008.passiveSkill
 - uid: Global.SkillEvent008.state
   name: state
   href: api/Global.SkillEvent008.html#Global_SkillEvent008_state
@@ -5762,6 +5923,12 @@ references:
   commentId: F:Global.SkillEvent009.checkedState
   fullName: SkillEvent009.checkedState
   nameWithType: SkillEvent009.checkedState
+- uid: Global.SkillEvent009.newState
+  name: newState
+  href: api/Global.SkillEvent009.html#Global_SkillEvent009_newState
+  commentId: F:Global.SkillEvent009.newState
+  fullName: SkillEvent009.newState
+  nameWithType: SkillEvent009.newState
 - uid: Global.SkillEvent009.OnSkillTriggerUnit(SkillController,Unit)
   name: OnSkillTriggerUnit(SkillController, Unit)
   href: api/Global.SkillEvent009.html#Global_SkillEvent009_OnSkillTriggerUnit_SkillController_Unit_
@@ -5788,12 +5955,30 @@ references:
   isSpec: "True"
   fullName: SkillEvent009.OnSkillUse
   nameWithType: SkillEvent009.OnSkillUse
-- uid: Global.SkillEvent009.state
-  name: state
-  href: api/Global.SkillEvent009.html#Global_SkillEvent009_state
-  commentId: F:Global.SkillEvent009.state
-  fullName: SkillEvent009.state
-  nameWithType: SkillEvent009.state
+- uid: Global.SkillEvent009.passiveSkill1
+  name: passiveSkill1
+  href: api/Global.SkillEvent009.html#Global_SkillEvent009_passiveSkill1
+  commentId: F:Global.SkillEvent009.passiveSkill1
+  fullName: SkillEvent009.passiveSkill1
+  nameWithType: SkillEvent009.passiveSkill1
+- uid: Global.SkillEvent009.passiveSkill2
+  name: passiveSkill2
+  href: api/Global.SkillEvent009.html#Global_SkillEvent009_passiveSkill2
+  commentId: F:Global.SkillEvent009.passiveSkill2
+  fullName: SkillEvent009.passiveSkill2
+  nameWithType: SkillEvent009.passiveSkill2
+- uid: Global.SkillEvent009.passiveSkill3
+  name: passiveSkill3
+  href: api/Global.SkillEvent009.html#Global_SkillEvent009_passiveSkill3
+  commentId: F:Global.SkillEvent009.passiveSkill3
+  fullName: SkillEvent009.passiveSkill3
+  nameWithType: SkillEvent009.passiveSkill3
+- uid: Global.SkillEvent009.swordState
+  name: swordState
+  href: api/Global.SkillEvent009.html#Global_SkillEvent009_swordState
+  commentId: F:Global.SkillEvent009.swordState
+  fullName: SkillEvent009.swordState
+  nameWithType: SkillEvent009.swordState
 - uid: Global.SkillEvent011
   name: SkillEvent011
   href: api/Global.SkillEvent011.html
@@ -5826,6 +6011,12 @@ references:
   isSpec: "True"
   fullName: SkillEvent011.OnSkillUse
   nameWithType: SkillEvent011.OnSkillUse
+- uid: Global.SkillEvent011.state
+  name: state
+  href: api/Global.SkillEvent011.html#Global_SkillEvent011_state
+  commentId: F:Global.SkillEvent011.state
+  fullName: SkillEvent011.state
+  nameWithType: SkillEvent011.state
 - uid: Global.SkillEvent012
   name: SkillEvent012
   href: api/Global.SkillEvent012.html
@@ -7059,6 +7250,24 @@ references:
   commentId: T:Global.TitleView
   fullName: TitleView
   nameWithType: TitleView
+- uid: Global.TitleView.defaultAvailableUnitPool
+  name: defaultAvailableUnitPool
+  href: api/Global.TitleView.html#Global_TitleView_defaultAvailableUnitPool
+  commentId: F:Global.TitleView.defaultAvailableUnitPool
+  fullName: TitleView.defaultAvailableUnitPool
+  nameWithType: TitleView.defaultAvailableUnitPool
+- uid: Global.TitleView.defaultEquippedList
+  name: defaultEquippedList
+  href: api/Global.TitleView.html#Global_TitleView_defaultEquippedList
+  commentId: F:Global.TitleView.defaultEquippedList
+  fullName: TitleView.defaultEquippedList
+  nameWithType: TitleView.defaultEquippedList
+- uid: Global.TitleView.defaultItemList
+  name: defaultItemList
+  href: api/Global.TitleView.html#Global_TitleView_defaultItemList
+  commentId: F:Global.TitleView.defaultItemList
+  fullName: TitleView.defaultItemList
+  nameWithType: TitleView.defaultItemList
 - uid: Global.TitleView.ExitGame
   name: ExitGame()
   href: api/Global.TitleView.html#Global_TitleView_ExitGame
@@ -8069,6 +8278,30 @@ references:
   isSpec: "True"
   fullName: Unit.UniversalShield
   nameWithType: Unit.UniversalShield
+- uid: Global.UnitCompoundType
+  name: UnitCompoundType
+  href: api/Global.UnitCompoundType.html
+  commentId: T:Global.UnitCompoundType
+  fullName: UnitCompoundType
+  nameWithType: UnitCompoundType
+- uid: Global.UnitCompoundType.Artifact
+  name: Artifact
+  href: api/Global.UnitCompoundType.html#Global_UnitCompoundType_Artifact
+  commentId: F:Global.UnitCompoundType.Artifact
+  fullName: UnitCompoundType.Artifact
+  nameWithType: UnitCompoundType.Artifact
+- uid: Global.UnitCompoundType.Consumable
+  name: Consumable
+  href: api/Global.UnitCompoundType.html#Global_UnitCompoundType_Consumable
+  commentId: F:Global.UnitCompoundType.Consumable
+  fullName: UnitCompoundType.Consumable
+  nameWithType: UnitCompoundType.Consumable
+- uid: Global.UnitCompoundType.Sword
+  name: Sword
+  href: api/Global.UnitCompoundType.html#Global_UnitCompoundType_Sword
+  commentId: F:Global.UnitCompoundType.Sword
+  fullName: UnitCompoundType.Sword
+  nameWithType: UnitCompoundType.Sword
 - uid: Global.UnitController
   name: UnitController
   href: api/Global.UnitController.html
@@ -8460,6 +8693,149 @@ references:
   isSpec: "True"
   fullName: UnitEvent015.BeforeAttack
   nameWithType: UnitEvent015.BeforeAttack
+- uid: Global.UnitEvent015.effect1Prefabs
+  name: effect1Prefabs
+  href: api/Global.UnitEvent015.html#Global_UnitEvent015_effect1Prefabs
+  commentId: F:Global.UnitEvent015.effect1Prefabs
+  fullName: UnitEvent015.effect1Prefabs
+  nameWithType: UnitEvent015.effect1Prefabs
+- uid: Global.UnitEvent015.effect2Prefabs
+  name: effect2Prefabs
+  href: api/Global.UnitEvent015.html#Global_UnitEvent015_effect2Prefabs
+  commentId: F:Global.UnitEvent015.effect2Prefabs
+  fullName: UnitEvent015.effect2Prefabs
+  nameWithType: UnitEvent015.effect2Prefabs
+- uid: Global.UnitEvent015.OnUnitCreate(UnitController)
+  name: OnUnitCreate(UnitController)
+  href: api/Global.UnitEvent015.html#Global_UnitEvent015_OnUnitCreate_UnitController_
+  commentId: M:Global.UnitEvent015.OnUnitCreate(UnitController)
+  fullName: UnitEvent015.OnUnitCreate(UnitController)
+  nameWithType: UnitEvent015.OnUnitCreate(UnitController)
+- uid: Global.UnitEvent015.OnUnitCreate*
+  name: OnUnitCreate
+  href: api/Global.UnitEvent015.html#Global_UnitEvent015_OnUnitCreate_
+  commentId: Overload:Global.UnitEvent015.OnUnitCreate
+  isSpec: "True"
+  fullName: UnitEvent015.OnUnitCreate
+  nameWithType: UnitEvent015.OnUnitCreate
+- uid: Global.UnitEvent015.sprites
+  name: sprites
+  href: api/Global.UnitEvent015.html#Global_UnitEvent015_sprites
+  commentId: F:Global.UnitEvent015.sprites
+  fullName: UnitEvent015.sprites
+  nameWithType: UnitEvent015.sprites
+- uid: Global.UnitEvent017
+  name: UnitEvent017
+  href: api/Global.UnitEvent017.html
+  commentId: T:Global.UnitEvent017
+  fullName: UnitEvent017
+  nameWithType: UnitEvent017
+- uid: Global.UnitEvent017.autoCreateUnit
+  name: autoCreateUnit
+  href: api/Global.UnitEvent017.html#Global_UnitEvent017_autoCreateUnit
+  commentId: F:Global.UnitEvent017.autoCreateUnit
+  fullName: UnitEvent017.autoCreateUnit
+  nameWithType: UnitEvent017.autoCreateUnit
+- uid: Global.UnitEvent017.BeforeAttack(Unit,Unit,DamageInfo)
+  name: BeforeAttack(Unit, Unit, DamageInfo)
+  href: api/Global.UnitEvent017.html#Global_UnitEvent017_BeforeAttack_Unit_Unit_DamageInfo_
+  commentId: M:Global.UnitEvent017.BeforeAttack(Unit,Unit,DamageInfo)
+  fullName: UnitEvent017.BeforeAttack(Unit, Unit, DamageInfo)
+  nameWithType: UnitEvent017.BeforeAttack(Unit, Unit, DamageInfo)
+- uid: Global.UnitEvent017.BeforeAttack*
+  name: BeforeAttack
+  href: api/Global.UnitEvent017.html#Global_UnitEvent017_BeforeAttack_
+  commentId: Overload:Global.UnitEvent017.BeforeAttack
+  isSpec: "True"
+  fullName: UnitEvent017.BeforeAttack
+  nameWithType: UnitEvent017.BeforeAttack
+- uid: Global.UnitEvent017.newSprite
+  name: newSprite
+  href: api/Global.UnitEvent017.html#Global_UnitEvent017_newSprite
+  commentId: F:Global.UnitEvent017.newSprite
+  fullName: UnitEvent017.newSprite
+  nameWithType: UnitEvent017.newSprite
+- uid: Global.UnitInfoShower
+  name: UnitInfoShower
+  href: api/Global.UnitInfoShower.html
+  commentId: T:Global.UnitInfoShower
+  fullName: UnitInfoShower
+  nameWithType: UnitInfoShower
+- uid: Global.UnitInfoShower.buildedText
+  name: buildedText
+  href: api/Global.UnitInfoShower.html#Global_UnitInfoShower_buildedText
+  commentId: F:Global.UnitInfoShower.buildedText
+  fullName: UnitInfoShower.buildedText
+  nameWithType: UnitInfoShower.buildedText
+- uid: Global.UnitInfoShower.customText
+  name: customText
+  href: api/Global.UnitInfoShower.html#Global_UnitInfoShower_customText
+  commentId: F:Global.UnitInfoShower.customText
+  fullName: UnitInfoShower.customText
+  nameWithType: UnitInfoShower.customText
+- uid: Global.UnitInfoShower.descText
+  name: descText
+  href: api/Global.UnitInfoShower.html#Global_UnitInfoShower_descText
+  commentId: F:Global.UnitInfoShower.descText
+  fullName: UnitInfoShower.descText
+  nameWithType: UnitInfoShower.descText
+- uid: Global.UnitInfoShower.levelImage
+  name: levelImage
+  href: api/Global.UnitInfoShower.html#Global_UnitInfoShower_levelImage
+  commentId: F:Global.UnitInfoShower.levelImage
+  fullName: UnitInfoShower.levelImage
+  nameWithType: UnitInfoShower.levelImage
+- uid: Global.UnitInfoShower.levelSprites
+  name: levelSprites
+  href: api/Global.UnitInfoShower.html#Global_UnitInfoShower_levelSprites
+  commentId: F:Global.UnitInfoShower.levelSprites
+  fullName: UnitInfoShower.levelSprites
+  nameWithType: UnitInfoShower.levelSprites
+- uid: Global.UnitInfoShower.nameText
+  name: nameText
+  href: api/Global.UnitInfoShower.html#Global_UnitInfoShower_nameText
+  commentId: F:Global.UnitInfoShower.nameText
+  fullName: UnitInfoShower.nameText
+  nameWithType: UnitInfoShower.nameText
+- uid: Global.UnitInfoShower.Refresh
+  name: Refresh()
+  href: api/Global.UnitInfoShower.html#Global_UnitInfoShower_Refresh
+  commentId: M:Global.UnitInfoShower.Refresh
+  fullName: UnitInfoShower.Refresh()
+  nameWithType: UnitInfoShower.Refresh()
+- uid: Global.UnitInfoShower.Refresh*
+  name: Refresh
+  href: api/Global.UnitInfoShower.html#Global_UnitInfoShower_Refresh_
+  commentId: Overload:Global.UnitInfoShower.Refresh
+  isSpec: "True"
+  fullName: UnitInfoShower.Refresh
+  nameWithType: UnitInfoShower.Refresh
+- uid: Global.UnitInfoShower.TargetConfigID
+  name: TargetConfigID
+  href: api/Global.UnitInfoShower.html#Global_UnitInfoShower_TargetConfigID
+  commentId: P:Global.UnitInfoShower.TargetConfigID
+  fullName: UnitInfoShower.TargetConfigID
+  nameWithType: UnitInfoShower.TargetConfigID
+- uid: Global.UnitInfoShower.TargetConfigID*
+  name: TargetConfigID
+  href: api/Global.UnitInfoShower.html#Global_UnitInfoShower_TargetConfigID_
+  commentId: Overload:Global.UnitInfoShower.TargetConfigID
+  isSpec: "True"
+  fullName: UnitInfoShower.TargetConfigID
+  nameWithType: UnitInfoShower.TargetConfigID
+- uid: Global.UnitInfoShower.TargetUnit
+  name: TargetUnit
+  href: api/Global.UnitInfoShower.html#Global_UnitInfoShower_TargetUnit
+  commentId: P:Global.UnitInfoShower.TargetUnit
+  fullName: UnitInfoShower.TargetUnit
+  nameWithType: UnitInfoShower.TargetUnit
+- uid: Global.UnitInfoShower.TargetUnit*
+  name: TargetUnit
+  href: api/Global.UnitInfoShower.html#Global_UnitInfoShower_TargetUnit_
+  commentId: Overload:Global.UnitInfoShower.TargetUnit
+  isSpec: "True"
+  fullName: UnitInfoShower.TargetUnit
+  nameWithType: UnitInfoShower.TargetUnit
 - uid: Global.UnitInfoView
   name: UnitInfoView
   href: api/Global.UnitInfoView.html
@@ -8607,6 +8983,12 @@ references:
   commentId: F:Global.UnitsConfigItem.attackType
   fullName: UnitsConfigItem.attackType
   nameWithType: UnitsConfigItem.attackType
+- uid: Global.UnitsConfigItem.autoPick
+  name: autoPick
+  href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_autoPick
+  commentId: F:Global.UnitsConfigItem.autoPick
+  fullName: UnitsConfigItem.autoPick
+  nameWithType: UnitsConfigItem.autoPick
 - uid: Global.UnitsConfigItem.CreateController(Transform)
   name: CreateController(Transform)
   href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_CreateController_Transform_
@@ -8680,6 +9062,12 @@ references:
   commentId: F:Global.UnitsConfigItem.faction
   fullName: UnitsConfigItem.faction
   nameWithType: UnitsConfigItem.faction
+- uid: Global.UnitsConfigItem.hideInMenu
+  name: hideInMenu
+  href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_hideInMenu
+  commentId: F:Global.UnitsConfigItem.hideInMenu
+  fullName: UnitsConfigItem.hideInMenu
+  nameWithType: UnitsConfigItem.hideInMenu
 - uid: Global.UnitsConfigItem.isAllyTargetable
   name: isAllyTargetable
   href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_isAllyTargetable
@@ -8826,30 +9214,36 @@ references:
   commentId: T:Global.UnitType
   fullName: UnitType
   nameWithType: UnitType
-- uid: Global.UnitType.Artifact
-  name: Artifact
-  href: api/Global.UnitType.html#Global_UnitType_Artifact
-  commentId: F:Global.UnitType.Artifact
-  fullName: UnitType.Artifact
-  nameWithType: UnitType.Artifact
-- uid: Global.UnitType.Free
-  name: Free
-  href: api/Global.UnitType.html#Global_UnitType_Free
-  commentId: F:Global.UnitType.Free
-  fullName: UnitType.Free
-  nameWithType: UnitType.Free
-- uid: Global.UnitType.Technique
-  name: Technique
-  href: api/Global.UnitType.html#Global_UnitType_Technique
-  commentId: F:Global.UnitType.Technique
-  fullName: UnitType.Technique
-  nameWithType: UnitType.Technique
-- uid: Global.UnitType.Weapon
-  name: Weapon
-  href: api/Global.UnitType.html#Global_UnitType_Weapon
-  commentId: F:Global.UnitType.Weapon
-  fullName: UnitType.Weapon
-  nameWithType: UnitType.Weapon
+- uid: Global.UnitType.Elixir
+  name: Elixir
+  href: api/Global.UnitType.html#Global_UnitType_Elixir
+  commentId: F:Global.UnitType.Elixir
+  fullName: UnitType.Elixir
+  nameWithType: UnitType.Elixir
+- uid: Global.UnitType.FlyingSword
+  name: FlyingSword
+  href: api/Global.UnitType.html#Global_UnitType_FlyingSword
+  commentId: F:Global.UnitType.FlyingSword
+  fullName: UnitType.FlyingSword
+  nameWithType: UnitType.FlyingSword
+- uid: Global.UnitType.LegendarySword
+  name: LegendarySword
+  href: api/Global.UnitType.html#Global_UnitType_LegendarySword
+  commentId: F:Global.UnitType.LegendarySword
+  fullName: UnitType.LegendarySword
+  nameWithType: UnitType.LegendarySword
+- uid: Global.UnitType.Material
+  name: Material
+  href: api/Global.UnitType.html#Global_UnitType_Material
+  commentId: F:Global.UnitType.Material
+  fullName: UnitType.Material
+  nameWithType: UnitType.Material
+- uid: Global.UnitType.Talisman
+  name: Talisman
+  href: api/Global.UnitType.html#Global_UnitType_Talisman
+  commentId: F:Global.UnitType.Talisman
+  fullName: UnitType.Talisman
+  nameWithType: UnitType.Talisman
 - uid: Global.UserDataManager
   name: UserDataManager
   href: api/Global.UserDataManager.html
