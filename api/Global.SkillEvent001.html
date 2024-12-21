@@ -95,6 +95,7 @@
   <div class="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="Global.ISkillUseHandler.html">ISkillUseHandler</a></div>
+    <div><a class="xref" href="Global.IStateGainHandler.html">IStateGainHandler</a></div>
     <div><a class="xref" href="Global.IStateLostHandler.html">IStateLostHandler</a></div>
   </div>
   <div class="inheritedMembers">
@@ -109,6 +110,9 @@
       <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_CreateAfterimage_SpriteRenderer_System_Single_">BaseEvent&lt;Skill&gt;.CreateAfterimage(SpriteRenderer, Single)</a>
     </div>
     <div>
+      <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_SetInScreen_Transform_System_Single_">BaseEvent&lt;Skill&gt;.SetInScreen(Transform, Single)</a>
+    </div>
+    <div>
       <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_OnDestroy">BaseEvent&lt;Skill&gt;.OnDestroy()</a>
     </div>
   </div>
@@ -116,10 +120,34 @@
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="Global_SkillEvent001_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SkillEvent001 : SkillEvent, ISkillUseHandler, IStateLostHandler</code></pre>
+    <pre><code class="lang-csharp hljs">public class SkillEvent001 : SkillEvent, ISkillUseHandler, IStateGainHandler, IStateLostHandler</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
+  
+  
+  <h4 id="Global_SkillEvent001_passiveSkill1" data-uid="Global.SkillEvent001.passiveSkill1">passiveSkill1</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ConfigItemReference&lt;SkillsConfigItem&gt; passiveSkill1</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.ConfigItemReference-1.html">ConfigItemReference</a>&lt;<a class="xref" href="Global.SkillsConfigItem.html">SkillsConfigItem</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <h4 id="Global_SkillEvent001_state1" data-uid="Global.SkillEvent001.state1">state1</h4>
@@ -209,6 +237,33 @@
   </table>
   
   
+  <a id="Global_SkillEvent001_OnStateGain_" data-uid="Global.SkillEvent001.OnStateGain*"></a>
+  <h4 id="Global_SkillEvent001_OnStateGain_State_" data-uid="Global.SkillEvent001.OnStateGain(State)">OnStateGain(State)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnStateGain(State state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.State.html">State</a></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Global_SkillEvent001_OnStateLost_" data-uid="Global.SkillEvent001.OnStateLost*"></a>
   <h4 id="Global_SkillEvent001_OnStateLost_State_" data-uid="Global.SkillEvent001.OnStateLost(State)">OnStateLost(State)</h4>
   <div class="markdown level1 summary"></div>
@@ -237,6 +292,9 @@
   <h3 id="implements">Implements</h3>
   <div>
       <a class="xref" href="Global.ISkillUseHandler.html">ISkillUseHandler</a>
+  </div>
+  <div>
+      <a class="xref" href="Global.IStateGainHandler.html">IStateGainHandler</a>
   </div>
   <div>
       <a class="xref" href="Global.IStateLostHandler.html">IStateLostHandler</a>

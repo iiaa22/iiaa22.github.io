@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class InventoryItem
+    <title>Class MapView
    | &#22612;&#38450;&#28216;&#25103;API&#25991;&#26723; </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class InventoryItem
+    <meta name="title" content="Class MapView
    | &#22612;&#38450;&#28216;&#25103;API&#25991;&#26723; ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,44 +78,93 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.InventoryItem">
+            <article class="content wrap" id="_content" data-uid="Global.MapView">
   
   
-  <h1 id="Global_InventoryItem" data-uid="Global.InventoryItem" class="text-break">Class InventoryItem
+  <h1 id="Global_MapView" data-uid="Global.MapView" class="text-break">Class MapView
   </h1>
-  <div class="markdown level0 summary"><p>处理背包项目的类。</p>
+  <div class="markdown level0 summary"><p>处理关卡选择的视图。</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">InventoryItem</span></div>
+    <div class="level1"><a class="xref" href="Global.BaseView.html">BaseView</a></div>
+    <div class="level2"><span class="xref">MapView</span></div>
   </div>
-  <div class="implements">
-    <h5>Implements</h5>
-    <div><span class="xref">IBeginDragHandler</span></div>
-    <div><span class="xref">IDragHandler</span></div>
-    <div><span class="xref">IEndDragHandler</span></div>
-    <div><span class="xref">IPointerEnterHandler</span></div>
-    <div><span class="xref">IPointerExitHandler</span></div>
-    <div><span class="xref">IPointerDownHandler</span></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_layer">BaseView.layer</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_onOpen">BaseView.onOpen</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_onClose">BaseView.onClose</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_onRefresh">BaseView.onRefresh</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_allButtons">BaseView.allButtons</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_OnViewOpen">BaseView.OnViewOpen</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_OnViewClose">BaseView.OnViewClose</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_OnButtonClick">BaseView.OnButtonClick</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_IsAnyViewOpen">BaseView.IsAnyViewOpen</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_FloatingViews">BaseView.FloatingViews</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_GetViewInLayer_System_Int32_">BaseView.GetViewInLayer(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_Start">BaseView.Start()</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_OnEnable">BaseView.OnEnable()</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_OnDisable">BaseView.OnDisable()</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_Open">BaseView.Open()</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_Close">BaseView.Close()</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_IsOpen">BaseView.IsOpen</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseView.html#Global_BaseView_Refresh">BaseView.Refresh()</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Global_InventoryItem_syntax">Syntax</h5>
+  <h5 id="Global_MapView_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class InventoryItem : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class MapView : BaseView</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="Global_InventoryItem_buildedText" data-uid="Global.InventoryItem.buildedText">buildedText</h4>
+  <h4 id="Global_MapView_finalLevel" data-uid="Global.MapView.finalLevel">finalLevel</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TextMeshProUGUI buildedText</code></pre>
+    <pre><code class="lang-csharp hljs">public ConfigItemReference&lt;LevelsConfigItem&gt; finalLevel</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -127,19 +176,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TextMeshProUGUI</span></td>
+        <td><a class="xref" href="Global.ConfigItemReference-1.html">ConfigItemReference</a>&lt;<a class="xref" href="Global.LevelsConfigItem.html">LevelsConfigItem</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_InventoryItem_titleText" data-uid="Global.InventoryItem.titleText">titleText</h4>
+  <h4 id="Global_MapView_getItemWindow" data-uid="Global.MapView.getItemWindow">getItemWindow</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TextMeshProUGUI titleText</code></pre>
+    <pre><code class="lang-csharp hljs">public GetItemWindow getItemWindow</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -151,24 +200,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TextMeshProUGUI</span></td>
+        <td><a class="xref" href="Global.GetItemWindow.html">GetItemWindow</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h3 id="properties">Properties
-  </h3>
   
   
-  <a id="Global_InventoryItem_TargetUnit_" data-uid="Global.InventoryItem.TargetUnit*"></a>
-  <h4 id="Global_InventoryItem_TargetUnit" data-uid="Global.InventoryItem.TargetUnit">TargetUnit</h4>
+  <h4 id="Global_MapView_levelButtonContent" data-uid="Global.MapView.levelButtonContent">levelButtonContent</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Unit TargetUnit { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public Transform levelButtonContent</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -178,7 +224,175 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.Unit.html">Unit</a></td>
+        <td><span class="xref">Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_MapView_levelButtonPrefab" data-uid="Global.MapView.levelButtonPrefab">levelButtonPrefab</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Button levelButtonPrefab</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Button</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_MapView_levelButtonRoot" data-uid="Global.MapView.levelButtonRoot">levelButtonRoot</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Button levelButtonRoot</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Button</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_MapView_levelPool" data-uid="Global.MapView.levelPool">levelPool</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public List&lt;ConfigItemReference&lt;LevelsConfigItem&gt;&gt; levelPool</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="Global.ConfigItemReference-1.html">ConfigItemReference</a>&lt;<a class="xref" href="Global.LevelsConfigItem.html">LevelsConfigItem</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_MapView_lineEffect" data-uid="Global.MapView.lineEffect">lineEffect</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Image lineEffect</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Image</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_MapView_lookingEffect" data-uid="Global.MapView.lookingEffect">lookingEffect</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Image lookingEffect</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Image</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_MapView_selectedEffect" data-uid="Global.MapView.selectedEffect">selectedEffect</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Image selectedEffect</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Image</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_MapView_submitButton" data-uid="Global.MapView.submitButton">submitButton</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Button submitButton</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Button</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -187,195 +401,50 @@
   </h3>
   
   
-  <a id="Global_InventoryItem_OnBeginDrag_" data-uid="Global.InventoryItem.OnBeginDrag*"></a>
-  <h4 id="Global_InventoryItem_OnBeginDrag_PointerEventData_" data-uid="Global.InventoryItem.OnBeginDrag(PointerEventData)">OnBeginDrag(PointerEventData)</h4>
+  <a id="Global_MapView_OnClose_" data-uid="Global.MapView.OnClose*"></a>
+  <h4 id="Global_MapView_OnClose" data-uid="Global.MapView.OnClose">OnClose()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnBeginDrag(PointerEventData eventData)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void OnClose()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">PointerEventData</span></td>
-        <td><span class="parametername">eventData</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Global.BaseView.html#Global_BaseView_OnClose">BaseView.OnClose()</a></div>
   
   
-  <a id="Global_InventoryItem_OnDrag_" data-uid="Global.InventoryItem.OnDrag*"></a>
-  <h4 id="Global_InventoryItem_OnDrag_PointerEventData_" data-uid="Global.InventoryItem.OnDrag(PointerEventData)">OnDrag(PointerEventData)</h4>
+  <a id="Global_MapView_OnOpen_" data-uid="Global.MapView.OnOpen*"></a>
+  <h4 id="Global_MapView_OnOpen" data-uid="Global.MapView.OnOpen">OnOpen()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnDrag(PointerEventData eventData)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void OnOpen()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">PointerEventData</span></td>
-        <td><span class="parametername">eventData</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Global.BaseView.html#Global_BaseView_OnOpen">BaseView.OnOpen()</a></div>
   
   
-  <a id="Global_InventoryItem_OnEndDrag_" data-uid="Global.InventoryItem.OnEndDrag*"></a>
-  <h4 id="Global_InventoryItem_OnEndDrag_PointerEventData_" data-uid="Global.InventoryItem.OnEndDrag(PointerEventData)">OnEndDrag(PointerEventData)</h4>
+  <a id="Global_MapView_OnSubmitButtonClick_" data-uid="Global.MapView.OnSubmitButtonClick*"></a>
+  <h4 id="Global_MapView_OnSubmitButtonClick" data-uid="Global.MapView.OnSubmitButtonClick">OnSubmitButtonClick()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnEndDrag(PointerEventData eventData)</code></pre>
+    <pre><code class="lang-csharp hljs">public void OnSubmitButtonClick()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">PointerEventData</span></td>
-        <td><span class="parametername">eventData</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   
   
-  <a id="Global_InventoryItem_OnPointerDown_" data-uid="Global.InventoryItem.OnPointerDown*"></a>
-  <h4 id="Global_InventoryItem_OnPointerDown_PointerEventData_" data-uid="Global.InventoryItem.OnPointerDown(PointerEventData)">OnPointerDown(PointerEventData)</h4>
+  <a id="Global_MapView_RealRefresh_" data-uid="Global.MapView.RealRefresh*"></a>
+  <h4 id="Global_MapView_RealRefresh" data-uid="Global.MapView.RealRefresh">RealRefresh()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnPointerDown(PointerEventData eventData)</code></pre>
+    <pre><code class="lang-csharp hljs">protected override void RealRefresh()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">PointerEventData</span></td>
-        <td><span class="parametername">eventData</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Global_InventoryItem_OnPointerEnter_" data-uid="Global.InventoryItem.OnPointerEnter*"></a>
-  <h4 id="Global_InventoryItem_OnPointerEnter_PointerEventData_" data-uid="Global.InventoryItem.OnPointerEnter(PointerEventData)">OnPointerEnter(PointerEventData)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnPointerEnter(PointerEventData eventData)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">PointerEventData</span></td>
-        <td><span class="parametername">eventData</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Global_InventoryItem_OnPointerExit_" data-uid="Global.InventoryItem.OnPointerExit*"></a>
-  <h4 id="Global_InventoryItem_OnPointerExit_PointerEventData_" data-uid="Global.InventoryItem.OnPointerExit(PointerEventData)">OnPointerExit(PointerEventData)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnPointerExit(PointerEventData eventData)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">PointerEventData</span></td>
-        <td><span class="parametername">eventData</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Global_InventoryItem_Refresh_" data-uid="Global.InventoryItem.Refresh*"></a>
-  <h4 id="Global_InventoryItem_Refresh" data-uid="Global.InventoryItem.Refresh">Refresh()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Refresh()</code></pre>
-  </div>
-  <h3 id="implements">Implements</h3>
-  <div>
-      <span class="xref">IBeginDragHandler</span>
-  </div>
-  <div>
-      <span class="xref">IDragHandler</span>
-  </div>
-  <div>
-      <span class="xref">IEndDragHandler</span>
-  </div>
-  <div>
-      <span class="xref">IPointerEnterHandler</span>
-  </div>
-  <div>
-      <span class="xref">IPointerExitHandler</span>
-  </div>
-  <div>
-      <span class="xref">IPointerDownHandler</span>
-  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Global.BaseView.html#Global_BaseView_RealRefresh">BaseView.RealRefresh()</a></div>
 </article>
           </div>
           

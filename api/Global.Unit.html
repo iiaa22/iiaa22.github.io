@@ -138,6 +138,38 @@
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="Global_Unit__ctor_" data-uid="Global.Unit.#ctor*"></a>
+  <h4 id="Global_Unit__ctor_System_String_System_String_" data-uid="Global.Unit.#ctor(System.String,System.String)">Unit(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Unit(string id, string configID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">configID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="fields">Fields
   </h3>
   
@@ -382,12 +414,12 @@
   </table>
   
   
-  <h4 id="Global_Unit__itemSkillList" data-uid="Global.Unit._itemSkillList">_itemSkillList</h4>
+  <h4 id="Global_Unit__inventoryUnitList" data-uid="Global.Unit._inventoryUnitList">_inventoryUnitList</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected List&lt;Skill&gt; _itemSkillList</code></pre>
+    <pre><code class="lang-csharp hljs">protected List&lt;Unit&gt; _inventoryUnitList</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -399,7 +431,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;<a class="xref" href="Global.Skill.html">Skill</a>&gt;</td>
+        <td><span class="xref">List</span>&lt;<a class="xref" href="Global.Unit.html">Unit</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -484,6 +516,30 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public readonly string configID</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_Unit_id" data-uid="Global.Unit.id">id</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly string id</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1414,6 +1470,32 @@
   </table>
   
   
+  <a id="Global_Unit_InventoryUnitList_" data-uid="Global.Unit.InventoryUnitList*"></a>
+  <h4 id="Global_Unit_InventoryUnitList" data-uid="Global.Unit.InventoryUnitList">InventoryUnitList</h4>
+  <div class="markdown level1 summary"><p>背包中的单位列表。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ReadOnlyCollection&lt;Unit&gt; InventoryUnitList { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ReadOnlyCollection</span>&lt;<a class="xref" href="Global.Unit.html">Unit</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Global_Unit_IsAttackDisabled_" data-uid="Global.Unit.IsAttackDisabled*"></a>
   <h4 id="Global_Unit_IsAttackDisabled" data-uid="Global.Unit.IsAttackDisabled">IsAttackDisabled</h4>
   <div class="markdown level1 summary"><p>攻击是否被禁用。</p>
@@ -1538,6 +1620,32 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_Unit_Owner_" data-uid="Global.Unit.Owner*"></a>
+  <h4 id="Global_Unit_Owner" data-uid="Global.Unit.Owner">Owner</h4>
+  <div class="markdown level1 summary"><p>单位的所有者。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Unit Owner { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.Unit.html">Unit</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -1676,51 +1784,6 @@
   </h3>
   
   
-  <a id="Global_Unit_AddItemSkill_" data-uid="Global.Unit.AddItemSkill*"></a>
-  <h4 id="Global_Unit_AddItemSkill_Skill_" data-uid="Global.Unit.AddItemSkill(Skill)">AddItemSkill(Skill)</h4>
-  <div class="markdown level1 summary"><p>添加道具技能。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool AddItemSkill(Skill skill)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Global.Skill.html">Skill</a></td>
-        <td><span class="parametername">skill</span></td>
-        <td><p>道具技能</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><p>单位本身是否没有此道具技能</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="Global_Unit_AddListener_" data-uid="Global.Unit.AddListener*"></a>
   <h4 id="Global_Unit_AddListener" data-uid="Global.Unit.AddListener">AddListener()</h4>
   <div class="markdown level1 summary"></div>
@@ -1738,7 +1801,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void AddState(State state)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool AddState(State state)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1754,6 +1817,22 @@
         <td><a class="xref" href="Global.State.html">State</a></td>
         <td><span class="parametername">state</span></td>
         <td><p>状态</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>操作是否成功</p>
 </td>
       </tr>
     </tbody>
@@ -1867,22 +1946,40 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><p>单位是否带有此技能</p>
+        <td><p>操作是否成功</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Global_Unit_GetItemSkills_" data-uid="Global.Unit.GetItemSkills*"></a>
-  <h4 id="Global_Unit_GetItemSkills" data-uid="Global.Unit.GetItemSkills">GetItemSkills()</h4>
-  <div class="markdown level1 summary"><p>获得单位的道具技能列表。</p>
+  <a id="Global_Unit_GainUnit_" data-uid="Global.Unit.GainUnit*"></a>
+  <h4 id="Global_Unit_GainUnit_Unit_" data-uid="Global.Unit.GainUnit(Unit)">GainUnit(Unit)</h4>
+  <div class="markdown level1 summary"><p>将单位添加到背包。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual ReadOnlyCollection&lt;Skill&gt; GetItemSkills()</code></pre>
+    <pre><code class="lang-csharp hljs">public bool GainUnit(Unit unit)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.Unit.html">Unit</a></td>
+        <td><span class="parametername">unit</span></td>
+        <td><p>单位</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -1893,8 +1990,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ReadOnlyCollection</span>&lt;<a class="xref" href="Global.Skill.html">Skill</a>&gt;</td>
-        <td><p>道具技能列表</p>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>操作是否成功</p>
 </td>
       </tr>
     </tbody>
@@ -1955,6 +2052,33 @@
   </table>
   
   
+  <a id="Global_Unit_HasOwner_" data-uid="Global.Unit.HasOwner*"></a>
+  <h4 id="Global_Unit_HasOwner" data-uid="Global.Unit.HasOwner">HasOwner()</h4>
+  <div class="markdown level1 summary"><p>是否拥有所有者。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasOwner()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>是否拥有所有者</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Global_Unit_Init_" data-uid="Global.Unit.Init*"></a>
   <h4 id="Global_Unit_Init" data-uid="Global.Unit.Init">Init()</h4>
   <div class="markdown level1 summary"></div>
@@ -2003,21 +2127,21 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><p>单位本身是否没有此技能</p>
+        <td><p>操作是否成功</p>
 </td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Global_Unit_RemoveItemSkill_" data-uid="Global.Unit.RemoveItemSkill*"></a>
-  <h4 id="Global_Unit_RemoveItemSkill_Skill_" data-uid="Global.Unit.RemoveItemSkill(Skill)">RemoveItemSkill(Skill)</h4>
-  <div class="markdown level1 summary"><p>移除道具技能。</p>
+  <a id="Global_Unit_LostUnit_" data-uid="Global.Unit.LostUnit*"></a>
+  <h4 id="Global_Unit_LostUnit_Unit_" data-uid="Global.Unit.LostUnit(Unit)">LostUnit(Unit)</h4>
+  <div class="markdown level1 summary"><p>将单位移除背包。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool RemoveItemSkill(Skill skill)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual bool LostUnit(Unit unit)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2030,9 +2154,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.Skill.html">Skill</a></td>
-        <td><span class="parametername">skill</span></td>
-        <td><p>道具技能</p>
+        <td><a class="xref" href="Global.Unit.html">Unit</a></td>
+        <td><span class="parametername">unit</span></td>
+        <td><p>单位</p>
 </td>
       </tr>
     </tbody>
@@ -2048,7 +2172,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><p>单位是否带有此道具技能</p>
+        <td><p>操作是否成功</p>
 </td>
       </tr>
     </tbody>
@@ -2093,7 +2217,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><p>单位是否带有此状态</p>
+        <td><p>操作是否成功</p>
 </td>
       </tr>
     </tbody>

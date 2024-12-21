@@ -417,12 +417,14 @@
   
   
   <a id="Global_UnitController_GetSkillController_" data-uid="Global.UnitController.GetSkillController*"></a>
-  <h4 id="Global_UnitController_GetSkillController_Skill_" data-uid="Global.UnitController.GetSkillController(Skill)">GetSkillController(Skill)</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="Global_UnitController_GetSkillController_Skill_System_Boolean_" data-uid="Global.UnitController.GetSkillController(Skill,System.Boolean)">GetSkillController(Skill, Boolean)</h4>
+  <div class="markdown level1 summary"><p>获得技能控制器。
+若技能支持多动画则每次调用该方法获得的是不同的对象。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SkillController GetSkillController(Skill skill)</code></pre>
+    <pre><code class="lang-csharp hljs">public SkillController GetSkillController(Skill skill, bool setActive = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -437,7 +439,14 @@
       <tr>
         <td><a class="xref" href="Global.Skill.html">Skill</a></td>
         <td><span class="parametername">skill</span></td>
-        <td></td>
+        <td><p>技能</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">setActive</span></td>
+        <td><p>是否设置激活，若激活则会隐藏其他占用了主体的控制器</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -452,10 +461,21 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Global.SkillController.html">SkillController</a></td>
-        <td></td>
+        <td><p>技能控制器</p>
+</td>
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="Global_UnitController_Kill_" data-uid="Global.UnitController.Kill*"></a>
+  <h4 id="Global_UnitController_Kill" data-uid="Global.UnitController.Kill">Kill()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Kill()</code></pre>
+  </div>
   
   
   <a id="Global_UnitController_Knockback_" data-uid="Global.UnitController.Knockback*"></a>
@@ -594,7 +614,8 @@
     <tbody>
       <tr>
         <td><a class="xref" href="Global.SkillController.html">SkillController</a></td>
-        <td></td>
+        <td><p>技能控制器</p>
+</td>
       </tr>
     </tbody>
   </table>
