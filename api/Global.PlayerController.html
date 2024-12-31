@@ -140,10 +140,22 @@
       <a class="xref" href="Global.UnitController.html#Global_UnitController_Knockback_Vector2_">UnitController.Knockback(Vector2)</a>
     </div>
     <div>
-      <a class="xref" href="Global.UnitController.html#Global_UnitController_UseSkill_Skill_System_Boolean_System_Int32_">UnitController.UseSkill(Skill, Boolean, Int32)</a>
+      <a class="xref" href="Global.UnitController.html#Global_UnitController_UseSkill_Skill_System_Int32_System_Boolean_System_String_">UnitController.UseSkill(Skill, Int32, Boolean, String)</a>
     </div>
     <div>
-      <a class="xref" href="Global.UnitController.html#Global_UnitController_GetSkillController_Skill_System_Boolean_">UnitController.GetSkillController(Skill, Boolean)</a>
+      <a class="xref" href="Global.UnitController.html#Global_UnitController_UseSkill_ComboInfo_System_Boolean_System_String_">UnitController.UseSkill(ComboInfo, Boolean, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.UnitController.html#Global_UnitController_UseSkill_ComboUseInfo_">UnitController.UseSkill(ComboUseInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.UnitController.html#Global_UnitController_GetSkillController_Skill_System_Int32_System_Boolean_System_String_">UnitController.GetSkillController(Skill, Int32, Boolean, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.UnitController.html#Global_UnitController_GetSkillController_ComboInfo_System_Boolean_System_String_">UnitController.GetSkillController(ComboInfo, Boolean, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.UnitController.html#Global_UnitController_GetSkillController_ComboUseInfo_">UnitController.GetSkillController(ComboUseInfo)</a>
     </div>
     <div>
       <a class="xref" href="Global.UnitController.html#Global_UnitController_Kill">UnitController.Kill()</a>
@@ -236,6 +248,56 @@
   </h3>
   
   
+  <a id="Global_PlayerController_AttackCombo_" data-uid="Global.PlayerController.AttackCombo*"></a>
+  <h4 id="Global_PlayerController_AttackCombo" data-uid="Global.PlayerController.AttackCombo">AttackCombo</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int AttackCombo { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_PlayerController_IsChargeAttack_" data-uid="Global.PlayerController.IsChargeAttack*"></a>
+  <h4 id="Global_PlayerController_IsChargeAttack" data-uid="Global.PlayerController.IsChargeAttack">IsChargeAttack</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsChargeAttack { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Global_PlayerController_IsRightAttack_" data-uid="Global.PlayerController.IsRightAttack*"></a>
   <h4 id="Global_PlayerController_IsRightAttack" data-uid="Global.PlayerController.IsRightAttack">IsRightAttack</h4>
   <div class="markdown level1 summary"></div>
@@ -255,56 +317,6 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Global_PlayerController_LeftAttackCombo_" data-uid="Global.PlayerController.LeftAttackCombo*"></a>
-  <h4 id="Global_PlayerController_LeftAttackCombo" data-uid="Global.PlayerController.LeftAttackCombo">LeftAttackCombo</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int LeftAttackCombo { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Global_PlayerController_RightAttackCombo_" data-uid="Global.PlayerController.RightAttackCombo*"></a>
-  <h4 id="Global_PlayerController_RightAttackCombo" data-uid="Global.PlayerController.RightAttackCombo">RightAttackCombo</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int RightAttackCombo { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td></td>
       </tr>
     </tbody>

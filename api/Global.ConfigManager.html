@@ -394,6 +394,55 @@
   </table>
   
   
+  <a id="Global_ConfigManager_GetConfigTable_" data-uid="Global.ConfigManager.GetConfigTable*"></a>
+  <h4 id="Global_ConfigManager_GetConfigTable__2" data-uid="Global.ConfigManager.GetConfigTable``2">GetConfigTable&lt;TTable, TItem&gt;()</h4>
+  <div class="markdown level1 summary"><p>获得配置表。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TTable GetConfigTable&lt;TTable, TItem&gt;()
+    where TTable : BaseConfigTable&lt;TItem&gt; where TItem : BaseConfigItem, new()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TTable</span></td>
+        <td><p>配置表</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TTable</span></td>
+        <td><p>配置表类型</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TItem</span></td>
+        <td><p>配置项类型</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="Global_ConfigManager_Load_" data-uid="Global.ConfigManager.Load*"></a>
   <h4 id="Global_ConfigManager_Load" data-uid="Global.ConfigManager.Load">Load()</h4>
   <div class="markdown level1 summary"><p>加载配置。</p>

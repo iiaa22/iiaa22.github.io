@@ -102,6 +102,36 @@
   </h3>
   
   
+  <h4 id="Global_EventManager_AfterDamageCalculator" data-uid="Global.EventManager.AfterDamageCalculator">AfterDamageCalculator</h4>
+  <div class="markdown level1 summary"><p>伤害计算后事件
+攻击不一定触发该事件，攻击可能被免疫攻击等技能免疫
+该事件触发于伤害计算之后，此时修改攻击者或受击者的属性值不会影响到最终伤害，通常与BeforeDamageCalculator事件成对使用
+参数1：攻击者
+参数2：受击者
+参数3：伤害信息</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static UnityAction&lt;Unit, Unit, DamageInfo&gt; AfterDamageCalculator</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="Global.Unit.html">Unit</a>, <a class="xref" href="Global.Unit.html">Unit</a>, <a class="xref" href="Global.DamageInfo.html">DamageInfo</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Global_EventManager_AfterUnitDash" data-uid="Global.EventManager.AfterUnitDash">AfterUnitDash</h4>
   <div class="markdown level1 summary"><p>单位冲刺结束事件
 参数1：冲刺的单位控制器</p>
@@ -129,8 +159,7 @@
   
   
   <h4 id="Global_EventManager_BeforeAttack" data-uid="Global.EventManager.BeforeAttack">BeforeAttack</h4>
-  <div class="markdown level1 summary"><p>受到攻击前事件
-攻击不一定触发该事件，攻击可能被免疫攻击等技能免疫。
+  <div class="markdown level1 summary"><p>攻击前事件
 参数1：攻击者
 参数2：受击者
 参数3：伤害信息</p>
@@ -158,8 +187,8 @@
   
   
   <h4 id="Global_EventManager_BeforeDamage" data-uid="Global.EventManager.BeforeDamage">BeforeDamage</h4>
-  <div class="markdown level1 summary"><p>受到伤害前事件
-受到攻击不一定触发该事件，伤害可能被护盾等抵挡。
+  <div class="markdown level1 summary"><p>受到真实伤害前事件
+受到伤害不一定触发该事件，伤害可能被护盾等抵挡
 参数1：攻击者
 参数2：受击者
 参数3：伤害信息</p>
@@ -168,6 +197,36 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static UnityAction&lt;Unit, Unit, DamageInfo&gt; BeforeDamage</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="Global.Unit.html">Unit</a>, <a class="xref" href="Global.Unit.html">Unit</a>, <a class="xref" href="Global.DamageInfo.html">DamageInfo</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_EventManager_BeforeDamageCalculator" data-uid="Global.EventManager.BeforeDamageCalculator">BeforeDamageCalculator</h4>
+  <div class="markdown level1 summary"><p>伤害计算前事件
+攻击不一定触发该事件，攻击可能被免疫攻击等技能免疫
+该事件触发于伤害计算之前，此时可通过修改攻击者或受击者的属性值影响最终伤害，但要记得在AfterDamageCalculator事件中将属性值改回来
+参数1：攻击者
+参数2：受击者
+参数3：伤害信息</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static UnityAction&lt;Unit, Unit, DamageInfo&gt; BeforeDamageCalculator</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -215,14 +274,17 @@
   </table>
   
   
-  <h4 id="Global_EventManager_OnDeath" data-uid="Global.EventManager.OnDeath">OnDeath</h4>
-  <div class="markdown level1 summary"><p>死亡事件
-参数1：死亡的单位</p>
+  <h4 id="Global_EventManager_OnAttackImmune" data-uid="Global.EventManager.OnAttackImmune">OnAttackImmune</h4>
+  <div class="markdown level1 summary"><p>免疫攻击事件
+参数1：攻击者
+参数2：受击者
+参数3：伤害信息
+参数4：触发免疫的状态</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static UnityAction&lt;Unit&gt; OnDeath</code></pre>
+    <pre><code class="lang-csharp hljs">public static UnityAction&lt;Unit, Unit, DamageInfo, State&gt; OnAttackImmune</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -234,20 +296,76 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="Global.Unit.html">Unit</a>&gt;</td>
+        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="Global.Unit.html">Unit</a>, <a class="xref" href="Global.Unit.html">Unit</a>, <a class="xref" href="Global.DamageInfo.html">DamageInfo</a>, <a class="xref" href="Global.State.html">State</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_EventManager_OnPlayerSkillIdle" data-uid="Global.EventManager.OnPlayerSkillIdle">OnPlayerSkillIdle</h4>
-  <div class="markdown level1 summary"><p>玩家技能闲置事件</p>
+  <h4 id="Global_EventManager_OnDeath" data-uid="Global.EventManager.OnDeath">OnDeath</h4>
+  <div class="markdown level1 summary"><p>死亡事件
+触发此事件时target必定死亡
+参数1：攻击者
+参数2：受击者
+参数3：伤害信息</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static UnityAction OnPlayerSkillIdle</code></pre>
+    <pre><code class="lang-csharp hljs">public static UnityAction&lt;Unit, Unit, DamageInfo&gt; OnDeath</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="Global.Unit.html">Unit</a>, <a class="xref" href="Global.Unit.html">Unit</a>, <a class="xref" href="Global.DamageInfo.html">DamageInfo</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_EventManager_OnInventoryUnitClick" data-uid="Global.EventManager.OnInventoryUnitClick">OnInventoryUnitClick</h4>
+  <div class="markdown level1 summary"><p>背包单位点击事件
+参数1：点击的单位
+参数2：点击事件数据</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static UnityAction&lt;Unit, PointerEventData&gt; OnInventoryUnitClick</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="Global.Unit.html">Unit</a>, <span class="xref">PointerEventData</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_EventManager_OnPlayerComboChanged" data-uid="Global.EventManager.OnPlayerComboChanged">OnPlayerComboChanged</h4>
+  <div class="markdown level1 summary"><p>玩家连段变化事件</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static UnityAction OnPlayerComboChanged</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -266,7 +384,59 @@
   </table>
   
   
-  <h4 id="Global_EventManager_OnSkillCustomTriggered" data-uid="Global.EventManager.OnSkillCustomTriggered">OnSkillCustomTriggered</h4>
+  <h4 id="Global_EventManager_OnSkillControllerDisable" data-uid="Global.EventManager.OnSkillControllerDisable">OnSkillControllerDisable</h4>
+  <div class="markdown level1 summary"><p>技能控制器失活事件
+参数1：失活的技能控制器</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static UnityAction&lt;SkillController&gt; OnSkillControllerDisable</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="Global.SkillController.html">SkillController</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_EventManager_OnSkillControllerEnable" data-uid="Global.EventManager.OnSkillControllerEnable">OnSkillControllerEnable</h4>
+  <div class="markdown level1 summary"><p>技能控制器激活事件
+参数1：激活的技能控制器</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static UnityAction&lt;SkillController&gt; OnSkillControllerEnable</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="Global.SkillController.html">SkillController</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_EventManager_OnSkillCustomTrigger" data-uid="Global.EventManager.OnSkillCustomTrigger">OnSkillCustomTrigger</h4>
   <div class="markdown level1 summary"><p>技能自定义触发事件
 可以在动画中主动触发该事件
 参数1：使用的技能控制器
@@ -275,7 +445,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static UnityAction&lt;SkillController, string&gt; OnSkillCustomTriggered</code></pre>
+    <pre><code class="lang-csharp hljs">public static UnityAction&lt;SkillController, string&gt; OnSkillCustomTrigger</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -402,14 +572,12 @@
   
   <h4 id="Global_EventManager_OnSkillUse" data-uid="Global.EventManager.OnSkillUse">OnSkillUse</h4>
   <div class="markdown level1 summary"><p>技能使用事件
-参数1：使用的技能控制器
-参数2：是否为重攻击
-参数3：当前连段</p>
+参数1：使用的技能控制器</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static UnityAction&lt;SkillController, bool, int&gt; OnSkillUse</code></pre>
+    <pre><code class="lang-csharp hljs">public static UnityAction&lt;SkillController&gt; OnSkillUse</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -421,7 +589,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="Global.SkillController.html">SkillController</a>, <span class="xref">System.Boolean</span>, <span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="Global.SkillController.html">SkillController</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>

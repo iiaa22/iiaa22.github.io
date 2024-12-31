@@ -95,12 +95,15 @@
   <div class="implements">
     <h5>Implements</h5>
     <div><a class="xref" href="Global.ISkillTriggerUnitHandler.html">ISkillTriggerUnitHandler</a></div>
-    <div><a class="xref" href="Global.ISkillCustomTriggeredHandler.html">ISkillCustomTriggeredHandler</a></div>
+    <div><a class="xref" href="Global.ISkillCustomTriggerHandler.html">ISkillCustomTriggerHandler</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
       <a class="xref" href="Global.SkillEvent.html#Global_SkillEvent_DoBehaviour_SkillController_">SkillEvent.DoBehaviour(SkillController)</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.SkillEvent.html#Global_SkillEvent_OnAnyViewClose_BaseView_">SkillEvent.OnAnyViewClose(BaseView)</a>
     </div>
     <div>
       <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_Owner">BaseEvent&lt;Skill&gt;.Owner</a>
@@ -109,7 +112,7 @@
       <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_CreateAfterimage_SpriteRenderer_System_Single_">BaseEvent&lt;Skill&gt;.CreateAfterimage(SpriteRenderer, Single)</a>
     </div>
     <div>
-      <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_SetInScreen_Transform_System_Single_">BaseEvent&lt;Skill&gt;.SetInScreen(Transform, Single)</a>
+      <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_SetInScreen_Transform_System_Single_System_Single_">BaseEvent&lt;Skill&gt;.SetInScreen(Transform, Single, Single)</a>
     </div>
     <div>
       <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_OnDestroy">BaseEvent&lt;Skill&gt;.OnDestroy()</a>
@@ -119,7 +122,7 @@
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="Global_SkillEvent004_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SkillEvent004 : SkillEvent, ISkillTriggerUnitHandler, ISkillCustomTriggeredHandler</code></pre>
+    <pre><code class="lang-csharp hljs">public class SkillEvent004 : SkillEvent, ISkillTriggerUnitHandler, ISkillCustomTriggerHandler</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
@@ -175,13 +178,13 @@
   </h3>
   
   
-  <a id="Global_SkillEvent004_OnSkillCustomTriggered_" data-uid="Global.SkillEvent004.OnSkillCustomTriggered*"></a>
-  <h4 id="Global_SkillEvent004_OnSkillCustomTriggered_SkillController_System_String_" data-uid="Global.SkillEvent004.OnSkillCustomTriggered(SkillController,System.String)">OnSkillCustomTriggered(SkillController, String)</h4>
+  <a id="Global_SkillEvent004_OnSkillCustomTrigger_" data-uid="Global.SkillEvent004.OnSkillCustomTrigger*"></a>
+  <h4 id="Global_SkillEvent004_OnSkillCustomTrigger_SkillController_System_String_" data-uid="Global.SkillEvent004.OnSkillCustomTrigger(SkillController,System.String)">OnSkillCustomTrigger(SkillController, String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void OnSkillCustomTriggered(SkillController skillController, string arg)</code></pre>
+    <pre><code class="lang-csharp hljs">public void OnSkillCustomTrigger(SkillController skillController, string arg)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -242,7 +245,7 @@
       <a class="xref" href="Global.ISkillTriggerUnitHandler.html">ISkillTriggerUnitHandler</a>
   </div>
   <div>
-      <a class="xref" href="Global.ISkillCustomTriggeredHandler.html">ISkillCustomTriggeredHandler</a>
+      <a class="xref" href="Global.ISkillCustomTriggerHandler.html">ISkillCustomTriggerHandler</a>
   </div>
 </article>
           </div>

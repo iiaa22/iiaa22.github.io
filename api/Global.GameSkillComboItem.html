@@ -101,12 +101,12 @@
   </h3>
   
   
-  <h4 id="Global_GameSkillComboItem_attackCombo" data-uid="Global.GameSkillComboItem.attackCombo">attackCombo</h4>
+  <h4 id="Global_GameSkillComboItem_canvasGroup" data-uid="Global.GameSkillComboItem.canvasGroup">canvasGroup</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int attackCombo</code></pre>
+    <pre><code class="lang-csharp hljs">public CanvasGroup canvasGroup</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -118,19 +118,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><span class="xref">CanvasGroup</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_GameSkillComboItem_background" data-uid="Global.GameSkillComboItem.background">background</h4>
+  <h4 id="Global_GameSkillComboItem_leftSkillComboItem" data-uid="Global.GameSkillComboItem.leftSkillComboItem">leftSkillComboItem</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Image background</code></pre>
+    <pre><code class="lang-csharp hljs">public SkillComboItem leftSkillComboItem</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -142,19 +142,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Image</span></td>
+        <td><a class="xref" href="Global.SkillComboItem.html">SkillComboItem</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_GameSkillComboItem_comboText" data-uid="Global.GameSkillComboItem.comboText">comboText</h4>
+  <h4 id="Global_GameSkillComboItem_maxSpacing" data-uid="Global.GameSkillComboItem.maxSpacing">maxSpacing</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TextMeshProUGUI comboText</code></pre>
+    <pre><code class="lang-csharp hljs">public float maxSpacing</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -166,19 +166,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TextMeshProUGUI</span></td>
+        <td><span class="xref">System.Single</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_GameSkillComboItem_icon" data-uid="Global.GameSkillComboItem.icon">icon</h4>
+  <h4 id="Global_GameSkillComboItem_minSpacing" data-uid="Global.GameSkillComboItem.minSpacing">minSpacing</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Image icon</code></pre>
+    <pre><code class="lang-csharp hljs">public float minSpacing</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -190,7 +190,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Image</span></td>
+        <td><span class="xref">System.Single</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -221,12 +221,12 @@
   </table>
   
   
-  <h4 id="Global_GameSkillComboItem_titleText" data-uid="Global.GameSkillComboItem.titleText">titleText</h4>
+  <h4 id="Global_GameSkillComboItem_rightSkillComboItem" data-uid="Global.GameSkillComboItem.rightSkillComboItem">rightSkillComboItem</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TextMeshProUGUI titleText</code></pre>
+    <pre><code class="lang-csharp hljs">public SkillComboItem rightSkillComboItem</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -238,7 +238,59 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TextMeshProUGUI</span></td>
+        <td><a class="xref" href="Global.SkillComboItem.html">SkillComboItem</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Global_GameSkillComboItem_AttackCombo_" data-uid="Global.GameSkillComboItem.AttackCombo*"></a>
+  <h4 id="Global_GameSkillComboItem_AttackCombo" data-uid="Global.GameSkillComboItem.AttackCombo">AttackCombo</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int AttackCombo { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_GameSkillComboItem_IsRightAttack_" data-uid="Global.GameSkillComboItem.IsRightAttack*"></a>
+  <h4 id="Global_GameSkillComboItem_IsRightAttack" data-uid="Global.GameSkillComboItem.IsRightAttack">IsRightAttack</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsRightAttack { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -247,23 +299,13 @@
   </h3>
   
   
-  <a id="Global_GameSkillComboItem_Refresh_" data-uid="Global.GameSkillComboItem.Refresh*"></a>
-  <h4 id="Global_GameSkillComboItem_Refresh" data-uid="Global.GameSkillComboItem.Refresh">Refresh()</h4>
+  <a id="Global_GameSkillComboItem_Close_" data-uid="Global.GameSkillComboItem.Close*"></a>
+  <h4 id="Global_GameSkillComboItem_Close_System_Single_" data-uid="Global.GameSkillComboItem.Close(System.Single)">Close(Single)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Refresh()</code></pre>
-  </div>
-  
-  
-  <a id="Global_GameSkillComboItem_SetComboInfo_" data-uid="Global.GameSkillComboItem.SetComboInfo*"></a>
-  <h4 id="Global_GameSkillComboItem_SetComboInfo_System_Int32_System_Boolean_" data-uid="Global.GameSkillComboItem.SetComboInfo(System.Int32,System.Boolean)">SetComboInfo(Int32, Boolean)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetComboInfo(int attackCombo, bool isRightAttack)</code></pre>
+    <pre><code class="lang-csharp hljs">public void Close(float duration)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -276,17 +318,49 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">attackCombo</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">isRightAttack</span></td>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">duration</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="Global_GameSkillComboItem_Open_" data-uid="Global.GameSkillComboItem.Open*"></a>
+  <h4 id="Global_GameSkillComboItem_Open_System_Single_" data-uid="Global.GameSkillComboItem.Open(System.Single)">Open(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Open(float duration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">duration</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_GameSkillComboItem_Refresh_" data-uid="Global.GameSkillComboItem.Refresh*"></a>
+  <h4 id="Global_GameSkillComboItem_Refresh" data-uid="Global.GameSkillComboItem.Refresh">Refresh()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Refresh()</code></pre>
+  </div>
 </article>
           </div>
           

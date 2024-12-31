@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class SkillComboView
+    <title>Struct ComboInfo
    | &#22612;&#38450;&#28216;&#25103;API&#25991;&#26723; </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class SkillComboView
+    <meta name="title" content="Struct ComboInfo
    | &#22612;&#38450;&#28216;&#25103;API&#25991;&#26723; ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,93 +78,31 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.SkillComboView">
+            <article class="content wrap" id="_content" data-uid="Global.ComboInfo">
   
   
-  <h1 id="Global_SkillComboView" data-uid="Global.SkillComboView" class="text-break">Class SkillComboView
+  <h1 id="Global_ComboInfo" data-uid="Global.ComboInfo" class="text-break">Struct ComboInfo
   </h1>
-  <div class="markdown level0 summary"><p>处理技能连段的视图。</p>
+  <div class="markdown level0 summary"><p>连段信息</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="Global.BaseView.html">BaseView</a></div>
-    <div class="level2"><span class="xref">SkillComboView</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="Global.BaseView.html#Global_BaseView_layer">BaseView.layer</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.BaseView.html#Global_BaseView_onOpen">BaseView.onOpen</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.BaseView.html#Global_BaseView_onClose">BaseView.onClose</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.BaseView.html#Global_BaseView_onRefresh">BaseView.onRefresh</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.BaseView.html#Global_BaseView_allButtons">BaseView.allButtons</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.BaseView.html#Global_BaseView_OnViewOpen">BaseView.OnViewOpen</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.BaseView.html#Global_BaseView_OnViewClose">BaseView.OnViewClose</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.BaseView.html#Global_BaseView_OnButtonClick">BaseView.OnButtonClick</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.BaseView.html#Global_BaseView_IsAnyViewOpen">BaseView.IsAnyViewOpen</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.BaseView.html#Global_BaseView_FloatingViews">BaseView.FloatingViews</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.BaseView.html#Global_BaseView_GetViewInLayer_System_Int32_">BaseView.GetViewInLayer(Int32)</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.BaseView.html#Global_BaseView_Start">BaseView.Start()</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.BaseView.html#Global_BaseView_OnEnable">BaseView.OnEnable()</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.BaseView.html#Global_BaseView_OnDisable">BaseView.OnDisable()</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.BaseView.html#Global_BaseView_Open">BaseView.Open()</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.BaseView.html#Global_BaseView_Close">BaseView.Close()</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.BaseView.html#Global_BaseView_IsOpen">BaseView.IsOpen</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.BaseView.html#Global_BaseView_Refresh">BaseView.Refresh()</a>
-    </div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Global_SkillComboView_syntax">Syntax</h5>
+  <h5 id="Global_ComboInfo_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class SkillComboView : BaseView</code></pre>
+    <pre><code class="lang-csharp hljs">public struct ComboInfo</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="Global_SkillComboView_content1" data-uid="Global.SkillComboView.content1">content1</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="Global_ComboInfo_comboIndex" data-uid="Global.ComboInfo.comboIndex">comboIndex</h4>
+  <div class="markdown level1 summary"><p>连段序号</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Transform content1</code></pre>
+    <pre><code class="lang-csharp hljs">public int comboIndex</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -176,19 +114,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Transform</span></td>
+        <td><span class="xref">System.Int32</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_SkillComboView_content2" data-uid="Global.SkillComboView.content2">content2</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="Global_ComboInfo_skillID" data-uid="Global.ComboInfo.skillID">skillID</h4>
+  <div class="markdown level1 summary"><p>技能ID</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Transform content2</code></pre>
+    <pre><code class="lang-csharp hljs">public string skillID</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -200,21 +139,24 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Transform</span></td>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="properties">Properties
+  </h3>
   
   
-  <h4 id="Global_SkillComboView_content3" data-uid="Global.SkillComboView.content3">content3</h4>
+  <a id="Global_ComboInfo_SkillSource_" data-uid="Global.ComboInfo.SkillSource*"></a>
+  <h4 id="Global_ComboInfo_SkillSource" data-uid="Global.ComboInfo.SkillSource">SkillSource</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Transform content3</code></pre>
+    <pre><code class="lang-csharp hljs">public Skill SkillSource { readonly get; set; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -224,79 +166,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Transform</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_SkillComboView_skillComboItemPrefab" data-uid="Global.SkillComboView.skillComboItemPrefab">skillComboItemPrefab</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SkillComboItem skillComboItemPrefab</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Global.SkillComboItem.html">SkillComboItem</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_SkillComboView_titleText" data-uid="Global.SkillComboView.titleText">titleText</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TextMeshProUGUI titleText</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TextMeshProUGUI</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_SkillComboView_unitSkillItemPrefab" data-uid="Global.SkillComboView.unitSkillItemPrefab">unitSkillItemPrefab</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public UnitSkillItem unitSkillItemPrefab</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Global.UnitSkillItem.html">UnitSkillItem</a></td>
+        <td><a class="xref" href="Global.Skill.html">Skill</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -305,40 +175,213 @@
   </h3>
   
   
-  <a id="Global_SkillComboView_OnClose_" data-uid="Global.SkillComboView.OnClose*"></a>
-  <h4 id="Global_SkillComboView_OnClose" data-uid="Global.SkillComboView.OnClose">OnClose()</h4>
+  <a id="Global_ComboInfo_Equals_" data-uid="Global.ComboInfo.Equals*"></a>
+  <h4 id="Global_ComboInfo_Equals_ComboInfo_" data-uid="Global.ComboInfo.Equals(ComboInfo)">Equals(ComboInfo)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnClose()</code></pre>
+    <pre><code class="lang-csharp hljs">public bool Equals(ComboInfo other)</code></pre>
   </div>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Global.BaseView.html#Global_BaseView_OnClose">BaseView.OnClose()</a></div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.ComboInfo.html">ComboInfo</a></td>
+        <td><span class="parametername">other</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
-  <a id="Global_SkillComboView_OnOpen_" data-uid="Global.SkillComboView.OnOpen*"></a>
-  <h4 id="Global_SkillComboView_OnOpen" data-uid="Global.SkillComboView.OnOpen">OnOpen()</h4>
+  <a id="Global_ComboInfo_Equals_" data-uid="Global.ComboInfo.Equals*"></a>
+  <h4 id="Global_ComboInfo_Equals_System_Object_" data-uid="Global.ComboInfo.Equals(System.Object)">Equals(Object)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void OnOpen()</code></pre>
+    <pre><code class="lang-csharp hljs">public override bool Equals(object other)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">other</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Global.BaseView.html#Global_BaseView_OnOpen">BaseView.OnOpen()</a></div>
+  <div><span class="xref">System.ValueType.Equals(System.Object)</span></div>
   
   
-  <a id="Global_SkillComboView_RealRefresh_" data-uid="Global.SkillComboView.RealRefresh*"></a>
-  <h4 id="Global_SkillComboView_RealRefresh" data-uid="Global.SkillComboView.RealRefresh">RealRefresh()</h4>
+  <a id="Global_ComboInfo_GetHashCode_" data-uid="Global.ComboInfo.GetHashCode*"></a>
+  <h4 id="Global_ComboInfo_GetHashCode" data-uid="Global.ComboInfo.GetHashCode">GetHashCode()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected override void RealRefresh()</code></pre>
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
   </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="Global.BaseView.html#Global_BaseView_RealRefresh">BaseView.RealRefresh()</a></div>
+  <div><span class="xref">System.ValueType.GetHashCode()</span></div>
+  <h3 id="operators">Operators
+  </h3>
+  
+  
+  <a id="Global_ComboInfo_op_Equality_" data-uid="Global.ComboInfo.op_Equality*"></a>
+  <h4 id="Global_ComboInfo_op_Equality_ComboInfo_ComboInfo_" data-uid="Global.ComboInfo.op_Equality(ComboInfo,ComboInfo)">Equality(ComboInfo, ComboInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(ComboInfo left, ComboInfo right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.ComboInfo.html">ComboInfo</a></td>
+        <td><span class="parametername">left</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Global.ComboInfo.html">ComboInfo</a></td>
+        <td><span class="parametername">right</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_ComboInfo_op_Inequality_" data-uid="Global.ComboInfo.op_Inequality*"></a>
+  <h4 id="Global_ComboInfo_op_Inequality_ComboInfo_ComboInfo_" data-uid="Global.ComboInfo.op_Inequality(ComboInfo,ComboInfo)">Inequality(ComboInfo, ComboInfo)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(ComboInfo left, ComboInfo right)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.ComboInfo.html">ComboInfo</a></td>
+        <td><span class="parametername">left</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Global.ComboInfo.html">ComboInfo</a></td>
+        <td><span class="parametername">right</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           

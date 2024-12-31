@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class UnitSkillItem
+    <title>Interface IAttackImmuneHandler
    | &#22612;&#38450;&#28216;&#25103;API&#25991;&#26723; </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class UnitSkillItem
+    <meta name="title" content="Interface IAttackImmuneHandler
    | &#22612;&#38450;&#28216;&#25103;API&#25991;&#26723; ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,161 +78,66 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.UnitSkillItem">
+            <article class="content wrap" id="_content" data-uid="Global.IAttackImmuneHandler">
   
   
-  <h1 id="Global_UnitSkillItem" data-uid="Global.UnitSkillItem" class="text-break">Class UnitSkillItem
+  <h1 id="Global_IAttackImmuneHandler" data-uid="Global.IAttackImmuneHandler" class="text-break">Interface IAttackImmuneHandler
   </h1>
-  <div class="markdown level0 summary"><p>处理单位技能列表项目的类。</p>
+  <div class="markdown level0 summary"><p>免疫攻击事件。</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">UnitSkillItem</span></div>
-  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Global_UnitSkillItem_syntax">Syntax</h5>
+  <h5 id="Global_IAttackImmuneHandler_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class UnitSkillItem : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IAttackImmuneHandler</code></pre>
   </div>
-  <h3 id="fields">Fields
+  <h3 id="methods">Methods
   </h3>
   
   
-  <h4 id="Global_UnitSkillItem_content" data-uid="Global.UnitSkillItem.content">content</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Global_IAttackImmuneHandler_OnAttackImmune_" data-uid="Global.IAttackImmuneHandler.OnAttackImmune*"></a>
+  <h4 id="Global_IAttackImmuneHandler_OnAttackImmune_Unit_Unit_DamageInfo_State_" data-uid="Global.IAttackImmuneHandler.OnAttackImmune(Unit,Unit,DamageInfo,State)">OnAttackImmune(Unit, Unit, DamageInfo, State)</h4>
+  <div class="markdown level1 summary"><p>免疫攻击事件。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Transform content</code></pre>
+    <pre><code class="lang-csharp hljs">void OnAttackImmune(Unit attacker, Unit target, DamageInfo damageInfo, State state)</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Transform</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_UnitSkillItem_skillComboItemPrefab" data-uid="Global.UnitSkillItem.skillComboItemPrefab">skillComboItemPrefab</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SkillComboItem skillComboItemPrefab</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Global.SkillComboItem.html">SkillComboItem</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_UnitSkillItem_titleText" data-uid="Global.UnitSkillItem.titleText">titleText</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TextMeshProUGUI titleText</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TextMeshProUGUI</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="Global_UnitSkillItem_TargetUnit_" data-uid="Global.UnitSkillItem.TargetUnit*"></a>
-  <h4 id="Global_UnitSkillItem_TargetUnit" data-uid="Global.UnitSkillItem.TargetUnit">TargetUnit</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Unit TargetUnit { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><a class="xref" href="Global.Unit.html">Unit</a></td>
-        <td></td>
+        <td><span class="parametername">attacker</span></td>
+        <td><p>攻击者</p>
+</td>
       </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
-  
-  
-  <a id="Global_UnitSkillItem_Refresh_" data-uid="Global.UnitSkillItem.Refresh*"></a>
-  <h4 id="Global_UnitSkillItem_Refresh" data-uid="Global.UnitSkillItem.Refresh">Refresh()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Refresh()</code></pre>
-  </div>
-  <h3 id="events">Events
-  </h3>
-  
-  
-  <h4 id="Global_UnitSkillItem_OnSkillComboSelect" data-uid="Global.UnitSkillItem.OnSkillComboSelect">OnSkillComboSelect</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public event UnityAction&lt;Player.ComboInfo, bool&gt; OnSkillComboSelect</code></pre>
-  </div>
-  <h5 class="eventType">Event Type</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
       <tr>
-        <th>Type</th>
-        <th>Description</th>
+        <td><a class="xref" href="Global.Unit.html">Unit</a></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>受击者</p>
+</td>
       </tr>
-    </thead>
-    <tbody>
       <tr>
-        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="Global.Player.ComboInfo.html">Player.ComboInfo</a>, <span class="xref">System.Boolean</span>&gt;</td>
-        <td></td>
+        <td><a class="xref" href="Global.DamageInfo.html">DamageInfo</a></td>
+        <td><span class="parametername">damageInfo</span></td>
+        <td><p>伤害信息</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Global.State.html">State</a></td>
+        <td><span class="parametername">state</span></td>
+        <td><p>触发免疫的状态</p>
+</td>
       </tr>
     </tbody>
   </table>

@@ -93,7 +93,10 @@
   </div>
   <div class="implements">
     <h5>Implements</h5>
+    <div><span class="xref">IPointerEnterHandler</span></div>
+    <div><span class="xref">IPointerExitHandler</span></div>
     <div><span class="xref">IPointerClickHandler</span></div>
+    <div><span class="xref">IPointerDownHandler</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
@@ -153,6 +156,30 @@
   </table>
   
   
+  <h4 id="Global_SkillComboItem_rectTransform" data-uid="Global.SkillComboItem.rectTransform">rectTransform</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RectTransform rectTransform</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">RectTransform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Global_SkillComboItem_titleText" data-uid="Global.SkillComboItem.titleText">titleText</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -185,7 +212,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Player.ComboInfo TargetComboInfo { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ComboInfo TargetComboInfo { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -197,7 +224,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.Player.ComboInfo.html">Player.ComboInfo</a></td>
+        <td><a class="xref" href="Global.ComboInfo.html">ComboInfo</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -213,6 +240,87 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void OnPointerClick(PointerEventData eventData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_SkillComboItem_OnPointerDown_" data-uid="Global.SkillComboItem.OnPointerDown*"></a>
+  <h4 id="Global_SkillComboItem_OnPointerDown_PointerEventData_" data-uid="Global.SkillComboItem.OnPointerDown(PointerEventData)">OnPointerDown(PointerEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnPointerDown(PointerEventData eventData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_SkillComboItem_OnPointerEnter_" data-uid="Global.SkillComboItem.OnPointerEnter*"></a>
+  <h4 id="Global_SkillComboItem_OnPointerEnter_PointerEventData_" data-uid="Global.SkillComboItem.OnPointerEnter(PointerEventData)">OnPointerEnter(PointerEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnPointerEnter(PointerEventData eventData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_SkillComboItem_OnPointerExit_" data-uid="Global.SkillComboItem.OnPointerExit*"></a>
+  <h4 id="Global_SkillComboItem_OnPointerExit_PointerEventData_" data-uid="Global.SkillComboItem.OnPointerExit(PointerEventData)">OnPointerExit(PointerEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnPointerExit(PointerEventData eventData)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -269,7 +377,16 @@
   </table>
   <h3 id="implements">Implements</h3>
   <div>
+      <span class="xref">IPointerEnterHandler</span>
+  </div>
+  <div>
+      <span class="xref">IPointerExitHandler</span>
+  </div>
+  <div>
       <span class="xref">IPointerClickHandler</span>
+  </div>
+  <div>
+      <span class="xref">IPointerDownHandler</span>
   </div>
 </article>
           </div>

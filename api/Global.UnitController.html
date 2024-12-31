@@ -417,14 +417,120 @@
   
   
   <a id="Global_UnitController_GetSkillController_" data-uid="Global.UnitController.GetSkillController*"></a>
-  <h4 id="Global_UnitController_GetSkillController_Skill_System_Boolean_" data-uid="Global.UnitController.GetSkillController(Skill,System.Boolean)">GetSkillController(Skill, Boolean)</h4>
+  <h4 id="Global_UnitController_GetSkillController_ComboInfo_System_Boolean_System_String_" data-uid="Global.UnitController.GetSkillController(ComboInfo,System.Boolean,System.String)">GetSkillController(ComboInfo, Boolean, String)</h4>
+  <div class="markdown level1 summary"><p>获得技能控制器。
+若技能支持多动画则每次调用该方法获得的是不同的对象。
+虽然部分参数对该方法没有用处，但可能会被部分技能作为判断条件，请不要忽略。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SkillController GetSkillController(ComboInfo comboInfo, bool isChargeAttack = false, string comboID = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.ComboInfo.html">ComboInfo</a></td>
+        <td><span class="parametername">comboInfo</span></td>
+        <td><p>连段信息</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isChargeAttack</span></td>
+        <td><p>是否为蓄力攻击</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">comboID</span></td>
+        <td><p>连段ID，若不填写则自动分配一个新ID</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.SkillController.html">SkillController</a></td>
+        <td><p>技能控制器</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_UnitController_GetSkillController_" data-uid="Global.UnitController.GetSkillController*"></a>
+  <h4 id="Global_UnitController_GetSkillController_ComboUseInfo_" data-uid="Global.UnitController.GetSkillController(ComboUseInfo)">GetSkillController(ComboUseInfo)</h4>
   <div class="markdown level1 summary"><p>获得技能控制器。
 若技能支持多动画则每次调用该方法获得的是不同的对象。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SkillController GetSkillController(Skill skill, bool setActive = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public SkillController GetSkillController(ComboUseInfo comboUseInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.ComboUseInfo.html">ComboUseInfo</a></td>
+        <td><span class="parametername">comboUseInfo</span></td>
+        <td><p>连段使用信息</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.SkillController.html">SkillController</a></td>
+        <td><p>技能控制器</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_UnitController_GetSkillController_" data-uid="Global.UnitController.GetSkillController*"></a>
+  <h4 id="Global_UnitController_GetSkillController_Skill_System_Int32_System_Boolean_System_String_" data-uid="Global.UnitController.GetSkillController(Skill,System.Int32,System.Boolean,System.String)">GetSkillController(Skill, Int32, Boolean, String)</h4>
+  <div class="markdown level1 summary"><p>获得技能控制器。
+若技能支持多动画则每次调用该方法获得的是不同的对象。
+虽然部分参数对该方法没有用处，但可能会被部分技能作为判断条件，请不要忽略。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SkillController GetSkillController(Skill skill, int comboIndex = 0, bool isChargeAttack = false, string comboID = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -443,9 +549,21 @@
 </td>
       </tr>
       <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">comboIndex</span></td>
+        <td><p>连段序号</p>
+</td>
+      </tr>
+      <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">setActive</span></td>
-        <td><p>是否设置激活，若激活则会隐藏其他占用了主体的控制器</p>
+        <td><span class="parametername">isChargeAttack</span></td>
+        <td><p>是否为蓄力攻击</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">comboID</span></td>
+        <td><p>连段ID，若不填写则自动分配一个新ID</p>
 </td>
       </tr>
     </tbody>
@@ -565,13 +683,115 @@
   
   
   <a id="Global_UnitController_UseSkill_" data-uid="Global.UnitController.UseSkill*"></a>
-  <h4 id="Global_UnitController_UseSkill_Skill_System_Boolean_System_Int32_" data-uid="Global.UnitController.UseSkill(Skill,System.Boolean,System.Int32)">UseSkill(Skill, Boolean, Int32)</h4>
+  <h4 id="Global_UnitController_UseSkill_ComboInfo_System_Boolean_System_String_" data-uid="Global.UnitController.UseSkill(ComboInfo,System.Boolean,System.String)">UseSkill(ComboInfo, Boolean, String)</h4>
   <div class="markdown level1 summary"><p>使用技能。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SkillController UseSkill(Skill skill, bool isHeavyAttack = false, int combo = 0)</code></pre>
+    <pre><code class="lang-csharp hljs">public SkillController UseSkill(ComboInfo comboInfo, bool isChargeAttack = false, string comboID = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.ComboInfo.html">ComboInfo</a></td>
+        <td><span class="parametername">comboInfo</span></td>
+        <td><p>连段信息</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isChargeAttack</span></td>
+        <td><p>是否为蓄力攻击</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">comboID</span></td>
+        <td><p>连段ID，若不填写则自动分配一个新ID</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.SkillController.html">SkillController</a></td>
+        <td><p>技能控制器</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_UnitController_UseSkill_" data-uid="Global.UnitController.UseSkill*"></a>
+  <h4 id="Global_UnitController_UseSkill_ComboUseInfo_" data-uid="Global.UnitController.UseSkill(ComboUseInfo)">UseSkill(ComboUseInfo)</h4>
+  <div class="markdown level1 summary"><p>使用技能。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SkillController UseSkill(ComboUseInfo comboUseInfo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.ComboUseInfo.html">ComboUseInfo</a></td>
+        <td><span class="parametername">comboUseInfo</span></td>
+        <td><p>连段使用信息</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.SkillController.html">SkillController</a></td>
+        <td><p>技能控制器</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_UnitController_UseSkill_" data-uid="Global.UnitController.UseSkill*"></a>
+  <h4 id="Global_UnitController_UseSkill_Skill_System_Int32_System_Boolean_System_String_" data-uid="Global.UnitController.UseSkill(Skill,System.Int32,System.Boolean,System.String)">UseSkill(Skill, Int32, Boolean, String)</h4>
+  <div class="markdown level1 summary"><p>使用技能。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SkillController UseSkill(Skill skill, int comboIndex = 0, bool isChargeAttack = false, string comboID = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -590,15 +810,21 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">isHeavyAttack</span></td>
-        <td><p>是否为重攻击</p>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">comboIndex</span></td>
+        <td><p>连段序号</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">combo</span></td>
-        <td><p>当前连段</p>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">isChargeAttack</span></td>
+        <td><p>是否为蓄力攻击</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">comboID</span></td>
+        <td><p>连段ID，若不填写则自动分配一个新ID</p>
 </td>
       </tr>
     </tbody>

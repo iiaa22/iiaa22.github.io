@@ -157,15 +157,6 @@
       <a class="xref" href="Global.Unit.html#Global_Unit_Controller">Unit.Controller</a>
     </div>
     <div>
-      <a class="xref" href="Global.Unit.html#Global_Unit_BeforeAttack">Unit.BeforeAttack</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.Unit.html#Global_Unit_BeforeDamage">Unit.BeforeDamage</a>
-    </div>
-    <div>
-      <a class="xref" href="Global.Unit.html#Global_Unit_OnDeath">Unit.OnDeath</a>
-    </div>
-    <div>
       <a class="xref" href="Global.Unit.html#Global_Unit_AddListener">Unit.AddListener()</a>
     </div>
     <div>
@@ -199,7 +190,10 @@
       <a class="xref" href="Global.Unit.html#Global_Unit_HP">Unit.HP</a>
     </div>
     <div>
-      <a class="xref" href="Global.Unit.html#Global_Unit_Damage_Unit_DamageInfo_">Unit.Damage(Unit, DamageInfo)</a>
+      <a class="xref" href="Global.Unit.html#Global_Unit_Damage_Unit_DamageInfo_System_Single_">Unit.Damage(Unit, DamageInfo, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.Unit.html#Global_Unit_Damage_Unit_DamageInfo_System_Func_System_Int32__">Unit.Damage(Unit, DamageInfo, Func&lt;Int32&gt;)</a>
     </div>
     <div>
       <a class="xref" href="Global.Unit.html#Global_Unit_BasicMaxTOU">Unit.BasicMaxTOU</a>
@@ -389,7 +383,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ReadOnlyCollection&lt;Player.ComboInfo&gt; LeftComboInfoList { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ReadOnlyCollection&lt;ComboInfo&gt; LeftComboInfoList { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -401,7 +395,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ReadOnlyCollection</span>&lt;<a class="xref" href="Global.Player.ComboInfo.html">Player.ComboInfo</a>&gt;</td>
+        <td><span class="xref">ReadOnlyCollection</span>&lt;<a class="xref" href="Global.ComboInfo.html">ComboInfo</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -493,7 +487,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ReadOnlyCollection&lt;Player.ComboInfo&gt; RightComboInfoList { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ReadOnlyCollection&lt;ComboInfo&gt; RightComboInfoList { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -505,7 +499,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">ReadOnlyCollection</span>&lt;<a class="xref" href="Global.Player.ComboInfo.html">Player.ComboInfo</a>&gt;</td>
+        <td><span class="xref">ReadOnlyCollection</span>&lt;<a class="xref" href="Global.ComboInfo.html">ComboInfo</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -544,13 +538,13 @@
   
   
   <a id="Global_Player_AddLeftCombo_" data-uid="Global.Player.AddLeftCombo*"></a>
-  <h4 id="Global_Player_AddLeftCombo_Player_ComboInfo_" data-uid="Global.Player.AddLeftCombo(Player.ComboInfo)">AddLeftCombo(Player.ComboInfo)</h4>
+  <h4 id="Global_Player_AddLeftCombo_ComboInfo_" data-uid="Global.Player.AddLeftCombo(ComboInfo)">AddLeftCombo(ComboInfo)</h4>
   <div class="markdown level1 summary"><p>添加左键连段。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool AddLeftCombo(Player.ComboInfo comboInfo)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool AddLeftCombo(ComboInfo comboInfo)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -563,7 +557,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.Player.ComboInfo.html">Player.ComboInfo</a></td>
+        <td><a class="xref" href="Global.ComboInfo.html">ComboInfo</a></td>
         <td><span class="parametername">comboInfo</span></td>
         <td><p>连段信息</p>
 </td>
@@ -617,13 +611,13 @@
   
   
   <a id="Global_Player_AddRightCombo_" data-uid="Global.Player.AddRightCombo*"></a>
-  <h4 id="Global_Player_AddRightCombo_Player_ComboInfo_" data-uid="Global.Player.AddRightCombo(Player.ComboInfo)">AddRightCombo(Player.ComboInfo)</h4>
+  <h4 id="Global_Player_AddRightCombo_ComboInfo_" data-uid="Global.Player.AddRightCombo(ComboInfo)">AddRightCombo(ComboInfo)</h4>
   <div class="markdown level1 summary"><p>添加右键连段。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool AddRightCombo(Player.ComboInfo comboInfo)</code></pre>
+    <pre><code class="lang-csharp hljs">public bool AddRightCombo(ComboInfo comboInfo)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -636,7 +630,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.Player.ComboInfo.html">Player.ComboInfo</a></td>
+        <td><a class="xref" href="Global.ComboInfo.html">ComboInfo</a></td>
         <td><span class="parametername">comboInfo</span></td>
         <td><p>连段信息</p>
 </td>
@@ -813,13 +807,13 @@
   
   
   <a id="Global_Player_RemoveLeftCombo_" data-uid="Global.Player.RemoveLeftCombo*"></a>
-  <h4 id="Global_Player_RemoveLeftCombo_Player_ComboInfo_" data-uid="Global.Player.RemoveLeftCombo(Player.ComboInfo)">RemoveLeftCombo(Player.ComboInfo)</h4>
+  <h4 id="Global_Player_RemoveLeftCombo_ComboInfo_" data-uid="Global.Player.RemoveLeftCombo(ComboInfo)">RemoveLeftCombo(ComboInfo)</h4>
   <div class="markdown level1 summary"><p>移除左键连段。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RemoveLeftCombo(Player.ComboInfo comboInfo)</code></pre>
+    <pre><code class="lang-csharp hljs">public void RemoveLeftCombo(ComboInfo comboInfo)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -832,7 +826,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.Player.ComboInfo.html">Player.ComboInfo</a></td>
+        <td><a class="xref" href="Global.ComboInfo.html">ComboInfo</a></td>
         <td><span class="parametername">comboInfo</span></td>
         <td><p>连段信息</p>
 </td>
@@ -842,13 +836,13 @@
   
   
   <a id="Global_Player_RemoveRightCombo_" data-uid="Global.Player.RemoveRightCombo*"></a>
-  <h4 id="Global_Player_RemoveRightCombo_Player_ComboInfo_" data-uid="Global.Player.RemoveRightCombo(Player.ComboInfo)">RemoveRightCombo(Player.ComboInfo)</h4>
+  <h4 id="Global_Player_RemoveRightCombo_ComboInfo_" data-uid="Global.Player.RemoveRightCombo(ComboInfo)">RemoveRightCombo(ComboInfo)</h4>
   <div class="markdown level1 summary"><p>移除右键连段。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RemoveRightCombo(Player.ComboInfo comboInfo)</code></pre>
+    <pre><code class="lang-csharp hljs">public void RemoveRightCombo(ComboInfo comboInfo)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -861,7 +855,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.Player.ComboInfo.html">Player.ComboInfo</a></td>
+        <td><a class="xref" href="Global.ComboInfo.html">ComboInfo</a></td>
         <td><span class="parametername">comboInfo</span></td>
         <td><p>连段信息</p>
 </td>

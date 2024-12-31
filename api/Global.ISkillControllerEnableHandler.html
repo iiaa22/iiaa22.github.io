@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface IDeathHandler
+    <title>Interface ISkillControllerEnableHandler
    | &#22612;&#38450;&#28216;&#25103;API&#25991;&#26723; </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface IDeathHandler
+    <meta name="title" content="Interface ISkillControllerEnableHandler
    | &#22612;&#38450;&#28216;&#25103;API&#25991;&#26723; ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,34 +78,32 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.IDeathHandler">
+            <article class="content wrap" id="_content" data-uid="Global.ISkillControllerEnableHandler">
   
   
-  <h1 id="Global_IDeathHandler" data-uid="Global.IDeathHandler" class="text-break">Interface IDeathHandler
+  <h1 id="Global_ISkillControllerEnableHandler" data-uid="Global.ISkillControllerEnableHandler" class="text-break">Interface ISkillControllerEnableHandler
   </h1>
-  <div class="markdown level0 summary"><p>死亡事件。
-触发此事件时target必定死亡。</p>
+  <div class="markdown level0 summary"><p>技能控制器激活事件。</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Global_IDeathHandler_syntax">Syntax</h5>
+  <h5 id="Global_ISkillControllerEnableHandler_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface IDeathHandler</code></pre>
+    <pre><code class="lang-csharp hljs">public interface ISkillControllerEnableHandler</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Global_IDeathHandler_OnDeath_" data-uid="Global.IDeathHandler.OnDeath*"></a>
-  <h4 id="Global_IDeathHandler_OnDeath_Unit_Unit_DamageInfo_" data-uid="Global.IDeathHandler.OnDeath(Unit,Unit,DamageInfo)">OnDeath(Unit, Unit, DamageInfo)</h4>
-  <div class="markdown level1 summary"><p>死亡事件。
-触发此事件时target必定死亡。</p>
+  <a id="Global_ISkillControllerEnableHandler_OnSkillControllerEnable_" data-uid="Global.ISkillControllerEnableHandler.OnSkillControllerEnable*"></a>
+  <h4 id="Global_ISkillControllerEnableHandler_OnSkillControllerEnable_SkillController_" data-uid="Global.ISkillControllerEnableHandler.OnSkillControllerEnable(SkillController)">OnSkillControllerEnable(SkillController)</h4>
+  <div class="markdown level1 summary"><p>技能控制器激活事件。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void OnDeath(Unit attacker, Unit target, DamageInfo damageInfo)</code></pre>
+    <pre><code class="lang-csharp hljs">void OnSkillControllerEnable(SkillController skillController)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -118,21 +116,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.Unit.html">Unit</a></td>
-        <td><span class="parametername">attacker</span></td>
-        <td><p>攻击者</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Global.Unit.html">Unit</a></td>
-        <td><span class="parametername">target</span></td>
-        <td><p>受击者</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Global.DamageInfo.html">DamageInfo</a></td>
-        <td><span class="parametername">damageInfo</span></td>
-        <td><p>伤害信息</p>
+        <td><a class="xref" href="Global.SkillController.html">SkillController</a></td>
+        <td><span class="parametername">skillController</span></td>
+        <td><p>激活的技能控制器</p>
 </td>
       </tr>
     </tbody>

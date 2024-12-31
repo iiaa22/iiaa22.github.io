@@ -94,7 +94,7 @@
   </div>
   <div class="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="Global.IBeforeAttackHandler.html">IBeforeAttackHandler</a></div>
+    <div><a class="xref" href="Global.IAfterDamageCalculatorHandler.html">IAfterDamageCalculatorHandler</a></div>
     <div><a class="xref" href="Global.IUnitCreateHandler.html">IUnitCreateHandler</a></div>
   </div>
   <div class="inheritedMembers">
@@ -106,13 +106,16 @@
       <a class="xref" href="Global.UnitEvent.html#Global_UnitEvent_Dash_UnitController_">UnitEvent.Dash(UnitController)</a>
     </div>
     <div>
+      <a class="xref" href="Global.UnitEvent.html#Global_UnitEvent_OnAnyViewClose_BaseView_">UnitEvent.OnAnyViewClose(BaseView)</a>
+    </div>
+    <div>
       <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_Owner">BaseEvent&lt;Unit&gt;.Owner</a>
     </div>
     <div>
       <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_CreateAfterimage_SpriteRenderer_System_Single_">BaseEvent&lt;Unit&gt;.CreateAfterimage(SpriteRenderer, Single)</a>
     </div>
     <div>
-      <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_SetInScreen_Transform_System_Single_">BaseEvent&lt;Unit&gt;.SetInScreen(Transform, Single)</a>
+      <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_SetInScreen_Transform_System_Single_System_Single_">BaseEvent&lt;Unit&gt;.SetInScreen(Transform, Single, Single)</a>
     </div>
     <div>
       <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_OnDestroy">BaseEvent&lt;Unit&gt;.OnDestroy()</a>
@@ -122,7 +125,7 @@
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="Global_UnitEvent015_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class UnitEvent015 : UnitEvent, IBeforeAttackHandler, IUnitCreateHandler</code></pre>
+    <pre><code class="lang-csharp hljs">public class UnitEvent015 : UnitEvent, IAfterDamageCalculatorHandler, IUnitCreateHandler</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
@@ -226,13 +229,13 @@
   </h3>
   
   
-  <a id="Global_UnitEvent015_BeforeAttack_" data-uid="Global.UnitEvent015.BeforeAttack*"></a>
-  <h4 id="Global_UnitEvent015_BeforeAttack_Unit_Unit_DamageInfo_" data-uid="Global.UnitEvent015.BeforeAttack(Unit,Unit,DamageInfo)">BeforeAttack(Unit, Unit, DamageInfo)</h4>
+  <a id="Global_UnitEvent015_AfterDamageCalculator_" data-uid="Global.UnitEvent015.AfterDamageCalculator*"></a>
+  <h4 id="Global_UnitEvent015_AfterDamageCalculator_Unit_Unit_DamageInfo_" data-uid="Global.UnitEvent015.AfterDamageCalculator(Unit,Unit,DamageInfo)">AfterDamageCalculator(Unit, Unit, DamageInfo)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void BeforeAttack(Unit attacker, Unit target, DamageInfo damageInfo)</code></pre>
+    <pre><code class="lang-csharp hljs">public void AfterDamageCalculator(Unit attacker, Unit target, DamageInfo damageInfo)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -290,7 +293,7 @@
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <a class="xref" href="Global.IBeforeAttackHandler.html">IBeforeAttackHandler</a>
+      <a class="xref" href="Global.IAfterDamageCalculatorHandler.html">IAfterDamageCalculatorHandler</a>
   </div>
   <div>
       <a class="xref" href="Global.IUnitCreateHandler.html">IUnitCreateHandler</a>

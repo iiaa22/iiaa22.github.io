@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class StateEvent005
+    <title>Class MartialArtEvent
    | &#22612;&#38450;&#28216;&#25103;API&#25991;&#26723; </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class StateEvent005
+    <meta name="title" content="Class MartialArtEvent
    | &#22612;&#38450;&#28216;&#25103;API&#25991;&#26723; ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,58 +78,67 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.StateEvent005">
+            <article class="content wrap" id="_content" data-uid="Global.MartialArtEvent">
   
   
-  <h1 id="Global_StateEvent005" data-uid="Global.StateEvent005" class="text-break">Class StateEvent005
+  <h1 id="Global_MartialArtEvent" data-uid="Global.MartialArtEvent" class="text-break">Class MartialArtEvent
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="Global.BaseEvent-1.html">BaseEvent</a>&lt;<a class="xref" href="Global.State.html">State</a>&gt;</div>
-    <div class="level2"><a class="xref" href="Global.StateEvent.html">StateEvent</a></div>
-    <div class="level3"><span class="xref">StateEvent005</span></div>
+    <div class="level1"><a class="xref" href="Global.BaseEvent-1.html">BaseEvent</a>&lt;<a class="xref" href="Global.Skill.html">Skill</a>&gt;</div>
+    <div class="level2"><a class="xref" href="Global.SkillEvent.html">SkillEvent</a></div>
+    <div class="level3"><span class="xref">MartialArtEvent</span></div>
+      <div class="level4"><a class="xref" href="Global.SkillEvent010.html">SkillEvent010</a></div>
+      <div class="level4"><a class="xref" href="Global.SkillEvent013.html">SkillEvent013</a></div>
+      <div class="level4"><a class="xref" href="Global.SkillEvent014.html">SkillEvent014</a></div>
+      <div class="level4"><a class="xref" href="Global.SkillEvent015.html">SkillEvent015</a></div>
+      <div class="level4"><a class="xref" href="Global.SkillEvent016.html">SkillEvent016</a></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
-    <div><a class="xref" href="Global.IAfterDamageCalculatorHandler.html">IAfterDamageCalculatorHandler</a></div>
+    <div><a class="xref" href="Global.ISkillLearnHandler.html">ISkillLearnHandler</a></div>
+    <div><a class="xref" href="Global.ISkillForgetHandler.html">ISkillForgetHandler</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
-      <a class="xref" href="Global.StateEvent.html#Global_StateEvent_OnAnyViewClose_BaseView_">StateEvent.OnAnyViewClose(BaseView)</a>
+      <a class="xref" href="Global.SkillEvent.html#Global_SkillEvent_DoBehaviour_SkillController_">SkillEvent.DoBehaviour(SkillController)</a>
     </div>
     <div>
-      <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_Owner">BaseEvent&lt;State&gt;.Owner</a>
+      <a class="xref" href="Global.SkillEvent.html#Global_SkillEvent_OnAnyViewClose_BaseView_">SkillEvent.OnAnyViewClose(BaseView)</a>
     </div>
     <div>
-      <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_CreateAfterimage_SpriteRenderer_System_Single_">BaseEvent&lt;State&gt;.CreateAfterimage(SpriteRenderer, Single)</a>
+      <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_Owner">BaseEvent&lt;Skill&gt;.Owner</a>
     </div>
     <div>
-      <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_SetInScreen_Transform_System_Single_System_Single_">BaseEvent&lt;State&gt;.SetInScreen(Transform, Single, Single)</a>
+      <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_CreateAfterimage_SpriteRenderer_System_Single_">BaseEvent&lt;Skill&gt;.CreateAfterimage(SpriteRenderer, Single)</a>
     </div>
     <div>
-      <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_OnDestroy">BaseEvent&lt;State&gt;.OnDestroy()</a>
+      <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_SetInScreen_Transform_System_Single_System_Single_">BaseEvent&lt;Skill&gt;.SetInScreen(Transform, Single, Single)</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseEvent-1.html#Global_BaseEvent_1_OnDestroy">BaseEvent&lt;Skill&gt;.OnDestroy()</a>
     </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Global_StateEvent005_syntax">Syntax</h5>
+  <h5 id="Global_MartialArtEvent_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class StateEvent005 : StateEvent, IAfterDamageCalculatorHandler</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class MartialArtEvent : SkillEvent, ISkillLearnHandler, ISkillForgetHandler</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="Global_StateEvent005_autoUseSkill" data-uid="Global.StateEvent005.autoUseSkill">autoUseSkill</h4>
+  <h4 id="Global_MartialArtEvent_ownerLocked" data-uid="Global.MartialArtEvent.ownerLocked">ownerLocked</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ConfigItemReference&lt;SkillsConfigItem&gt; autoUseSkill</code></pre>
+    <pre><code class="lang-csharp hljs">public ConfigItemReference&lt;UnitsConfigItem&gt; ownerLocked</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -141,55 +150,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.ConfigItemReference-1.html">ConfigItemReference</a>&lt;<a class="xref" href="Global.SkillsConfigItem.html">SkillsConfigItem</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_StateEvent005_passiveSkill1" data-uid="Global.StateEvent005.passiveSkill1">passiveSkill1</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ConfigItemReference&lt;SkillsConfigItem&gt; passiveSkill1</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Global.ConfigItemReference-1.html">ConfigItemReference</a>&lt;<a class="xref" href="Global.SkillsConfigItem.html">SkillsConfigItem</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_StateEvent005_skillComboID" data-uid="Global.StateEvent005.skillComboID">skillComboID</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string skillComboID</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><a class="xref" href="Global.ConfigItemReference-1.html">ConfigItemReference</a>&lt;<a class="xref" href="Global.UnitsConfigItem.html">UnitsConfigItem</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -198,13 +159,13 @@
   </h3>
   
   
-  <a id="Global_StateEvent005_AfterDamageCalculator_" data-uid="Global.StateEvent005.AfterDamageCalculator*"></a>
-  <h4 id="Global_StateEvent005_AfterDamageCalculator_Unit_Unit_DamageInfo_" data-uid="Global.StateEvent005.AfterDamageCalculator(Unit,Unit,DamageInfo)">AfterDamageCalculator(Unit, Unit, DamageInfo)</h4>
+  <a id="Global_MartialArtEvent_OnSkillForget_" data-uid="Global.MartialArtEvent.OnSkillForget*"></a>
+  <h4 id="Global_MartialArtEvent_OnSkillForget_Skill_" data-uid="Global.MartialArtEvent.OnSkillForget(Skill)">OnSkillForget(Skill)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void AfterDamageCalculator(Unit attacker, Unit target, DamageInfo damageInfo)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void OnSkillForget(Skill skill)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -217,25 +178,45 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.Unit.html">Unit</a></td>
-        <td><span class="parametername">attacker</span></td>
+        <td><a class="xref" href="Global.Skill.html">Skill</a></td>
+        <td><span class="parametername">skill</span></td>
         <td></td>
       </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_MartialArtEvent_OnSkillLearn_" data-uid="Global.MartialArtEvent.OnSkillLearn*"></a>
+  <h4 id="Global_MartialArtEvent_OnSkillLearn_Skill_" data-uid="Global.MartialArtEvent.OnSkillLearn(Skill)">OnSkillLearn(Skill)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnSkillLearn(Skill skill)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
       <tr>
-        <td><a class="xref" href="Global.Unit.html">Unit</a></td>
-        <td><span class="parametername">target</span></td>
-        <td></td>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
       </tr>
+    </thead>
+    <tbody>
       <tr>
-        <td><a class="xref" href="Global.DamageInfo.html">DamageInfo</a></td>
-        <td><span class="parametername">damageInfo</span></td>
+        <td><a class="xref" href="Global.Skill.html">Skill</a></td>
+        <td><span class="parametername">skill</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <a class="xref" href="Global.IAfterDamageCalculatorHandler.html">IAfterDamageCalculatorHandler</a>
+      <a class="xref" href="Global.ISkillLearnHandler.html">ISkillLearnHandler</a>
+  </div>
+  <div>
+      <a class="xref" href="Global.ISkillForgetHandler.html">ISkillForgetHandler</a>
   </div>
 </article>
           </div>

@@ -155,7 +155,7 @@
       <h4><a class="xref" href="Global.GameView.html">GameView</a></h4>
       <section><p>处理游戏HUD的视图。</p>
 </section>
-      <h4><a class="xref" href="Global.GetItemWindow.html">GetItemWindow</a></h4>
+      <h4><a class="xref" href="Global.GetItemView.html">GetItemView</a></h4>
       <section></section>
       <h4><a class="xref" href="Global.GlobalView.html">GlobalView</a></h4>
       <section><p>处理全局UI的视图。
@@ -197,6 +197,8 @@
       <h4><a class="xref" href="Global.MapView.html">MapView</a></h4>
       <section><p>处理关卡选择的视图。</p>
 </section>
+      <h4><a class="xref" href="Global.MartialArtEvent.html">MartialArtEvent</a></h4>
+      <section></section>
       <h4><a class="xref" href="Global.ObservableUserData-1.html">ObservableUserData&lt;T&gt;</a></h4>
       <section><p>处理可监听用户数据的类。
 本类为抽象类，具体数据由子类管理。</p>
@@ -234,12 +236,6 @@
       <h4><a class="xref" href="Global.SceneConfigItem.html">SceneConfigItem</a></h4>
       <section><p>场景配置数据。</p>
 </section>
-      <h4><a class="xref" href="Global.SelectUnitItem.html">SelectUnitItem</a></h4>
-      <section><p>处理单位选择项目的类。</p>
-</section>
-      <h4><a class="xref" href="Global.SelectUnitView.html">SelectUnitView</a></h4>
-      <section><p>处理单位选择的视图。</p>
-</section>
       <h4><a class="xref" href="Global.SettingsView.html">SettingsView</a></h4>
       <section><p>处理设置的视图。</p>
 </section>
@@ -248,9 +244,6 @@
 </section>
       <h4><a class="xref" href="Global.SkillComboItem.html">SkillComboItem</a></h4>
       <section><p>处理技能连段项目的类。</p>
-</section>
-      <h4><a class="xref" href="Global.SkillComboView.html">SkillComboView</a></h4>
-      <section><p>处理技能连段的视图。</p>
 </section>
       <h4><a class="xref" href="Global.SkillController.html">SkillController</a></h4>
       <section><p>控制技能行为的类。</p>
@@ -277,9 +270,19 @@
       <section></section>
       <h4><a class="xref" href="Global.SkillEvent009.html">SkillEvent009</a></h4>
       <section></section>
+      <h4><a class="xref" href="Global.SkillEvent010.html">SkillEvent010</a></h4>
+      <section></section>
       <h4><a class="xref" href="Global.SkillEvent011.html">SkillEvent011</a></h4>
       <section></section>
       <h4><a class="xref" href="Global.SkillEvent012.html">SkillEvent012</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.SkillEvent013.html">SkillEvent013</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.SkillEvent014.html">SkillEvent014</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.SkillEvent015.html">SkillEvent015</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.SkillEvent016.html">SkillEvent016</a></h4>
       <section></section>
       <h4><a class="xref" href="Global.SkillsConfig.html">SkillsConfig</a></h4>
       <section><p>技能配置列表。</p>
@@ -301,6 +304,8 @@
       <h4><a class="xref" href="Global.StateEvent005.html">StateEvent005</a></h4>
       <section></section>
       <h4><a class="xref" href="Global.StateEvent006.html">StateEvent006</a></h4>
+      <section></section>
+      <h4><a class="xref" href="Global.StateEvent010.html">StateEvent010</a></h4>
       <section></section>
       <h4><a class="xref" href="Global.StatesConfig.html">StatesConfig</a></h4>
       <section><p>状态配置列表。</p>
@@ -341,6 +346,8 @@
       <section></section>
       <h4><a class="xref" href="Global.UnitEvent017.html">UnitEvent017</a></h4>
       <section></section>
+      <h4><a class="xref" href="Global.UnitEvent019.html">UnitEvent019</a></h4>
+      <section></section>
       <h4><a class="xref" href="Global.UnitEvent021.html">UnitEvent021</a></h4>
       <section></section>
       <h4><a class="xref" href="Global.UnitEvent022.html">UnitEvent022</a></h4>
@@ -357,9 +364,6 @@
       <h4><a class="xref" href="Global.UnitsConfigItem.html">UnitsConfigItem</a></h4>
       <section><p>单位配置数据。</p>
 </section>
-      <h4><a class="xref" href="Global.UnitSkillItem.html">UnitSkillItem</a></h4>
-      <section><p>处理单位技能列表项目的类。</p>
-</section>
       <h4><a class="xref" href="Global.UserDataManager.html">UserDataManager</a></h4>
       <section><p>用户数据管理器</p>
 </section>
@@ -368,26 +372,41 @@
 </section>
     <h3 id="structs">Structs
   </h3>
+      <h4><a class="xref" href="Global.ComboInfo.html">ComboInfo</a></h4>
+      <section><p>连段信息</p>
+</section>
+      <h4><a class="xref" href="Global.ComboUseInfo.html">ComboUseInfo</a></h4>
+      <section><p>连段使用信息</p>
+</section>
       <h4><a class="xref" href="Global.LanguageConfigItem.LanguageInfo.html">LanguageConfigItem.LanguageInfo</a></h4>
       <section><p>语言文本键值对信息。</p>
-</section>
-      <h4><a class="xref" href="Global.Player.ComboInfo.html">Player.ComboInfo</a></h4>
-      <section><p>连段信息</p>
 </section>
       <h4><a class="xref" href="Global.UserDataManager.UserDataInfo.html">UserDataManager.UserDataInfo</a></h4>
       <section><p>存档信息</p>
 </section>
     <h3 id="interfaces">Interfaces
   </h3>
+      <h4><a class="xref" href="Global.IAfterDamageCalculatorHandler.html">IAfterDamageCalculatorHandler</a></h4>
+      <section><p>伤害计算后事件。
+攻击不一定触发该事件，攻击可能被免疫攻击等技能免疫。
+该事件触发于伤害计算之后，此时修改攻击者或受击者的属性值不会影响到最终伤害，通常与BeforeDamageCalculator事件成对使用。</p>
+</section>
       <h4><a class="xref" href="Global.IAfterUnitDashHandler.html">IAfterUnitDashHandler</a></h4>
       <section><p>单位冲刺结束事件。</p>
 </section>
+      <h4><a class="xref" href="Global.IAttackImmuneHandler.html">IAttackImmuneHandler</a></h4>
+      <section><p>免疫攻击事件。</p>
+</section>
       <h4><a class="xref" href="Global.IBeforeAttackHandler.html">IBeforeAttackHandler</a></h4>
-      <section><p>受到攻击前事件。
-攻击不一定触发该事件，攻击可能被免疫攻击等技能免疫。</p>
+      <section><p>攻击前事件。</p>
+</section>
+      <h4><a class="xref" href="Global.IBeforeDamageCalculatorHandler.html">IBeforeDamageCalculatorHandler</a></h4>
+      <section><p>伤害计算前事件。
+攻击不一定触发该事件，攻击可能被免疫攻击等技能免疫。
+该事件触发于伤害计算之前，此时可通过修改攻击者或受击者的属性值影响最终伤害，但要记得在AfterDamageCalculator事件中将属性值改回来。</p>
 </section>
       <h4><a class="xref" href="Global.IBeforeDamageHandler.html">IBeforeDamageHandler</a></h4>
-      <section><p>受到伤害前事件。
+      <section><p>受到真实伤害前事件。
 受到攻击不一定触发该事件，伤害可能被护盾等抵挡。</p>
 </section>
       <h4><a class="xref" href="Global.IBeforeDeathHandler.html">IBeforeDeathHandler</a></h4>
@@ -395,9 +414,19 @@
 可以在此通过增加target的HP实现复活效果。</p>
 </section>
       <h4><a class="xref" href="Global.IDeathHandler.html">IDeathHandler</a></h4>
-      <section><p>死亡事件。</p>
+      <section><p>死亡事件。
+触发此事件时target必定死亡。</p>
 </section>
-      <h4><a class="xref" href="Global.ISkillCustomTriggeredHandler.html">ISkillCustomTriggeredHandler</a></h4>
+      <h4><a class="xref" href="Global.IInventoryUnitClickHandler.html">IInventoryUnitClickHandler</a></h4>
+      <section><p>背包单位点击事件。</p>
+</section>
+      <h4><a class="xref" href="Global.ISkillControllerDisableHandler.html">ISkillControllerDisableHandler</a></h4>
+      <section><p>技能控制器失活事件。</p>
+</section>
+      <h4><a class="xref" href="Global.ISkillControllerEnableHandler.html">ISkillControllerEnableHandler</a></h4>
+      <section><p>技能控制器激活事件。</p>
+</section>
+      <h4><a class="xref" href="Global.ISkillCustomTriggerHandler.html">ISkillCustomTriggerHandler</a></h4>
       <section><p>技能自定义触发事件。
 可以在动画中主动触发该事件。</p>
 </section>
@@ -476,9 +505,6 @@
   </h3>
       <h4><a class="xref" href="Global.ObservableUserData-1.DataChangedHandler.html">ObservableUserData&lt;T&gt;.DataChangedHandler</a></h4>
       <section><p>数据改变事件用委托</p>
-</section>
-      <h4><a class="xref" href="Global.Unit.DamagedHandler.html">Unit.DamagedHandler</a></h4>
-      <section><p>受到伤害等事件用委托。</p>
 </section>
 </article>
           </div>

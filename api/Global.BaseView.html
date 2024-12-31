@@ -92,6 +92,7 @@
     <div class="level1"><span class="xref">BaseView</span></div>
       <div class="level2"><a class="xref" href="Global.GameOverView.html">GameOverView</a></div>
       <div class="level2"><a class="xref" href="Global.GameView.html">GameView</a></div>
+      <div class="level2"><a class="xref" href="Global.GetItemView.html">GetItemView</a></div>
       <div class="level2"><a class="xref" href="Global.GlobalView.html">GlobalView</a></div>
       <div class="level2"><a class="xref" href="Global.InventoryView.html">InventoryView</a></div>
       <div class="level2"><a class="xref" href="Global.LevelUpView.html">LevelUpView</a></div>
@@ -99,9 +100,7 @@
       <div class="level2"><a class="xref" href="Global.MapView.html">MapView</a></div>
       <div class="level2"><a class="xref" href="Global.PlayView.html">PlayView</a></div>
       <div class="level2"><a class="xref" href="Global.PopWindowView.html">PopWindowView</a></div>
-      <div class="level2"><a class="xref" href="Global.SelectUnitView.html">SelectUnitView</a></div>
       <div class="level2"><a class="xref" href="Global.SettingsView.html">SettingsView</a></div>
-      <div class="level2"><a class="xref" href="Global.SkillComboView.html">SkillComboView</a></div>
       <div class="level2"><a class="xref" href="Global.TitleView.html">TitleView</a></div>
       <div class="level2"><a class="xref" href="Global.UnitInfoView.html">UnitInfoView</a></div>
   </div>
@@ -319,6 +318,32 @@
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="Global_BaseView_OpenedViews_" data-uid="Global.BaseView.OpenedViews*"></a>
+  <h4 id="Global_BaseView_OpenedViews" data-uid="Global.BaseView.OpenedViews">OpenedViews</h4>
+  <div class="markdown level1 summary"><p>所有已打开的层级视图。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ReadOnlyCollection&lt;BaseView&gt; OpenedViews { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ReadOnlyCollection</span>&lt;<a class="xref" href="Global.BaseView.html">BaseView</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
@@ -332,51 +357,6 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Close()</code></pre>
   </div>
-  
-  
-  <a id="Global_BaseView_GetViewInLayer_" data-uid="Global.BaseView.GetViewInLayer*"></a>
-  <h4 id="Global_BaseView_GetViewInLayer_System_Int32_" data-uid="Global.BaseView.GetViewInLayer(System.Int32)">GetViewInLayer(Int32)</h4>
-  <div class="markdown level1 summary"><p>获得指定层级内已打开的视图。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static BaseView GetViewInLayer(int layer)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">layer</span></td>
-        <td><p>视图层级，最小为1</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Global.BaseView.html">BaseView</a></td>
-        <td><p>视图</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="Global_BaseView_OnClose_" data-uid="Global.BaseView.OnClose*"></a>

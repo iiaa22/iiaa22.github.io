@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Delegate Unit.DamagedHandler
+    <title>Interface IBeforeDamageCalculatorHandler
    | &#22612;&#38450;&#28216;&#25103;API&#25991;&#26723; </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Delegate Unit.DamagedHandler
+    <meta name="title" content="Interface IBeforeDamageCalculatorHandler
    | &#22612;&#38450;&#28216;&#25103;API&#25991;&#26723; ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,19 +78,36 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.Unit.DamagedHandler">
+            <article class="content wrap" id="_content" data-uid="Global.IBeforeDamageCalculatorHandler">
   
   
-  <h1 id="Global_Unit_DamagedHandler" data-uid="Global.Unit.DamagedHandler" class="text-break">Delegate Unit.DamagedHandler
+  <h1 id="Global_IBeforeDamageCalculatorHandler" data-uid="Global.IBeforeDamageCalculatorHandler" class="text-break">Interface IBeforeDamageCalculatorHandler
   </h1>
-  <div class="markdown level0 summary"><p>受到伤害等事件用委托。</p>
+  <div class="markdown level0 summary"><p>伤害计算前事件。
+攻击不一定触发该事件，攻击可能被免疫攻击等技能免疫。
+该事件触发于伤害计算之前，此时可通过修改攻击者或受击者的属性值影响最终伤害，但要记得在AfterDamageCalculator事件中将属性值改回来。</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Global_Unit_DamagedHandler_syntax">Syntax</h5>
+  <h5 id="Global_IBeforeDamageCalculatorHandler_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public delegate void DamagedHandler(Unit attacker, DamageInfo damageInfo);</code></pre>
+    <pre><code class="lang-csharp hljs">public interface IBeforeDamageCalculatorHandler</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Global_IBeforeDamageCalculatorHandler_BeforeDamageCalculator_" data-uid="Global.IBeforeDamageCalculatorHandler.BeforeDamageCalculator*"></a>
+  <h4 id="Global_IBeforeDamageCalculatorHandler_BeforeDamageCalculator_Unit_Unit_DamageInfo_" data-uid="Global.IBeforeDamageCalculatorHandler.BeforeDamageCalculator(Unit,Unit,DamageInfo)">BeforeDamageCalculator(Unit, Unit, DamageInfo)</h4>
+  <div class="markdown level1 summary"><p>伤害计算前事件。
+攻击不一定触发该事件，攻击可能被免疫攻击等技能免疫。
+该事件触发于伤害计算之前，此时可通过修改攻击者或受击者的属性值影响最终伤害，但要记得在AfterDamageCalculator事件中将属性值改回来。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void BeforeDamageCalculator(Unit attacker, Unit target, DamageInfo damageInfo)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -106,6 +123,12 @@
         <td><a class="xref" href="Global.Unit.html">Unit</a></td>
         <td><span class="parametername">attacker</span></td>
         <td><p>攻击者</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Global.Unit.html">Unit</a></td>
+        <td><span class="parametername">target</span></td>
+        <td><p>受击者</p>
 </td>
       </tr>
       <tr>

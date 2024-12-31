@@ -313,6 +313,23 @@ references:
   fullName.vb: BaseEvent(Of T).CreateAfterimage
   nameWithType: BaseEvent<T>.CreateAfterimage
   nameWithType.vb: BaseEvent(Of T).CreateAfterimage
+- uid: Global.BaseEvent`1.OnAnyViewClose(BaseView)
+  name: OnAnyViewClose(BaseView)
+  href: api/Global.BaseEvent-1.html#Global_BaseEvent_1_OnAnyViewClose_BaseView_
+  commentId: M:Global.BaseEvent`1.OnAnyViewClose(BaseView)
+  fullName: BaseEvent<T>.OnAnyViewClose(BaseView)
+  fullName.vb: BaseEvent(Of T).OnAnyViewClose(BaseView)
+  nameWithType: BaseEvent<T>.OnAnyViewClose(BaseView)
+  nameWithType.vb: BaseEvent(Of T).OnAnyViewClose(BaseView)
+- uid: Global.BaseEvent`1.OnAnyViewClose*
+  name: OnAnyViewClose
+  href: api/Global.BaseEvent-1.html#Global_BaseEvent_1_OnAnyViewClose_
+  commentId: Overload:Global.BaseEvent`1.OnAnyViewClose
+  isSpec: "True"
+  fullName: BaseEvent<T>.OnAnyViewClose
+  fullName.vb: BaseEvent(Of T).OnAnyViewClose
+  nameWithType: BaseEvent<T>.OnAnyViewClose
+  nameWithType.vb: BaseEvent(Of T).OnAnyViewClose
 - uid: Global.BaseEvent`1.OnDestroy
   name: OnDestroy()
   href: api/Global.BaseEvent-1.html#Global_BaseEvent_1_OnDestroy
@@ -347,14 +364,14 @@ references:
   fullName.vb: BaseEvent(Of T).Owner
   nameWithType: BaseEvent<T>.Owner
   nameWithType.vb: BaseEvent(Of T).Owner
-- uid: Global.BaseEvent`1.SetInScreen(Transform,System.Single)
-  name: SetInScreen(Transform, Single)
-  href: api/Global.BaseEvent-1.html#Global_BaseEvent_1_SetInScreen_Transform_System_Single_
-  commentId: M:Global.BaseEvent`1.SetInScreen(Transform,System.Single)
-  fullName: BaseEvent<T>.SetInScreen(Transform, System.Single)
-  fullName.vb: BaseEvent(Of T).SetInScreen(Transform, System.Single)
-  nameWithType: BaseEvent<T>.SetInScreen(Transform, Single)
-  nameWithType.vb: BaseEvent(Of T).SetInScreen(Transform, Single)
+- uid: Global.BaseEvent`1.SetInScreen(Transform,System.Single,System.Single)
+  name: SetInScreen(Transform, Single, Single)
+  href: api/Global.BaseEvent-1.html#Global_BaseEvent_1_SetInScreen_Transform_System_Single_System_Single_
+  commentId: M:Global.BaseEvent`1.SetInScreen(Transform,System.Single,System.Single)
+  fullName: BaseEvent<T>.SetInScreen(Transform, System.Single, System.Single)
+  fullName.vb: BaseEvent(Of T).SetInScreen(Transform, System.Single, System.Single)
+  nameWithType: BaseEvent<T>.SetInScreen(Transform, Single, Single)
+  nameWithType.vb: BaseEvent(Of T).SetInScreen(Transform, Single, Single)
 - uid: Global.BaseEvent`1.SetInScreen*
   name: SetInScreen
   href: api/Global.BaseEvent-1.html#Global_BaseEvent_1_SetInScreen_
@@ -460,19 +477,6 @@ references:
   isSpec: "True"
   fullName: BaseView.FloatingViews
   nameWithType: BaseView.FloatingViews
-- uid: Global.BaseView.GetViewInLayer(System.Int32)
-  name: GetViewInLayer(Int32)
-  href: api/Global.BaseView.html#Global_BaseView_GetViewInLayer_System_Int32_
-  commentId: M:Global.BaseView.GetViewInLayer(System.Int32)
-  fullName: BaseView.GetViewInLayer(System.Int32)
-  nameWithType: BaseView.GetViewInLayer(Int32)
-- uid: Global.BaseView.GetViewInLayer*
-  name: GetViewInLayer
-  href: api/Global.BaseView.html#Global_BaseView_GetViewInLayer_
-  commentId: Overload:Global.BaseView.GetViewInLayer
-  isSpec: "True"
-  fullName: BaseView.GetViewInLayer
-  nameWithType: BaseView.GetViewInLayer
 - uid: Global.BaseView.IsAnyViewOpen
   name: IsAnyViewOpen
   href: api/Global.BaseView.html#Global_BaseView_IsAnyViewOpen
@@ -606,6 +610,19 @@ references:
   isSpec: "True"
   fullName: BaseView.Open
   nameWithType: BaseView.Open
+- uid: Global.BaseView.OpenedViews
+  name: OpenedViews
+  href: api/Global.BaseView.html#Global_BaseView_OpenedViews
+  commentId: P:Global.BaseView.OpenedViews
+  fullName: BaseView.OpenedViews
+  nameWithType: BaseView.OpenedViews
+- uid: Global.BaseView.OpenedViews*
+  name: OpenedViews
+  href: api/Global.BaseView.html#Global_BaseView_OpenedViews_
+  commentId: Overload:Global.BaseView.OpenedViews
+  isSpec: "True"
+  fullName: BaseView.OpenedViews
+  nameWithType: BaseView.OpenedViews
 - uid: Global.BaseView.RealRefresh
   name: RealRefresh()
   href: api/Global.BaseView.html#Global_BaseView_RealRefresh
@@ -939,6 +956,119 @@ references:
   isSpec: "True"
   fullName: BaseWindow.Start
   nameWithType: BaseWindow.Start
+- uid: Global.ComboInfo
+  name: ComboInfo
+  href: api/Global.ComboInfo.html
+  commentId: T:Global.ComboInfo
+  fullName: ComboInfo
+  nameWithType: ComboInfo
+- uid: Global.ComboInfo.comboIndex
+  name: comboIndex
+  href: api/Global.ComboInfo.html#Global_ComboInfo_comboIndex
+  commentId: F:Global.ComboInfo.comboIndex
+  fullName: ComboInfo.comboIndex
+  nameWithType: ComboInfo.comboIndex
+- uid: Global.ComboInfo.Equals(ComboInfo)
+  name: Equals(ComboInfo)
+  href: api/Global.ComboInfo.html#Global_ComboInfo_Equals_ComboInfo_
+  commentId: M:Global.ComboInfo.Equals(ComboInfo)
+  fullName: ComboInfo.Equals(ComboInfo)
+  nameWithType: ComboInfo.Equals(ComboInfo)
+- uid: Global.ComboInfo.Equals(System.Object)
+  name: Equals(Object)
+  href: api/Global.ComboInfo.html#Global_ComboInfo_Equals_System_Object_
+  commentId: M:Global.ComboInfo.Equals(System.Object)
+  fullName: ComboInfo.Equals(System.Object)
+  nameWithType: ComboInfo.Equals(Object)
+- uid: Global.ComboInfo.Equals*
+  name: Equals
+  href: api/Global.ComboInfo.html#Global_ComboInfo_Equals_
+  commentId: Overload:Global.ComboInfo.Equals
+  isSpec: "True"
+  fullName: ComboInfo.Equals
+  nameWithType: ComboInfo.Equals
+- uid: Global.ComboInfo.GetHashCode
+  name: GetHashCode()
+  href: api/Global.ComboInfo.html#Global_ComboInfo_GetHashCode
+  commentId: M:Global.ComboInfo.GetHashCode
+  fullName: ComboInfo.GetHashCode()
+  nameWithType: ComboInfo.GetHashCode()
+- uid: Global.ComboInfo.GetHashCode*
+  name: GetHashCode
+  href: api/Global.ComboInfo.html#Global_ComboInfo_GetHashCode_
+  commentId: Overload:Global.ComboInfo.GetHashCode
+  isSpec: "True"
+  fullName: ComboInfo.GetHashCode
+  nameWithType: ComboInfo.GetHashCode
+- uid: Global.ComboInfo.op_Equality(ComboInfo,ComboInfo)
+  name: Equality(ComboInfo, ComboInfo)
+  href: api/Global.ComboInfo.html#Global_ComboInfo_op_Equality_ComboInfo_ComboInfo_
+  commentId: M:Global.ComboInfo.op_Equality(ComboInfo,ComboInfo)
+  fullName: ComboInfo.Equality(ComboInfo, ComboInfo)
+  nameWithType: ComboInfo.Equality(ComboInfo, ComboInfo)
+- uid: Global.ComboInfo.op_Equality*
+  name: Equality
+  href: api/Global.ComboInfo.html#Global_ComboInfo_op_Equality_
+  commentId: Overload:Global.ComboInfo.op_Equality
+  isSpec: "True"
+  fullName: ComboInfo.Equality
+  nameWithType: ComboInfo.Equality
+- uid: Global.ComboInfo.op_Inequality(ComboInfo,ComboInfo)
+  name: Inequality(ComboInfo, ComboInfo)
+  href: api/Global.ComboInfo.html#Global_ComboInfo_op_Inequality_ComboInfo_ComboInfo_
+  commentId: M:Global.ComboInfo.op_Inequality(ComboInfo,ComboInfo)
+  fullName: ComboInfo.Inequality(ComboInfo, ComboInfo)
+  nameWithType: ComboInfo.Inequality(ComboInfo, ComboInfo)
+- uid: Global.ComboInfo.op_Inequality*
+  name: Inequality
+  href: api/Global.ComboInfo.html#Global_ComboInfo_op_Inequality_
+  commentId: Overload:Global.ComboInfo.op_Inequality
+  isSpec: "True"
+  fullName: ComboInfo.Inequality
+  nameWithType: ComboInfo.Inequality
+- uid: Global.ComboInfo.skillID
+  name: skillID
+  href: api/Global.ComboInfo.html#Global_ComboInfo_skillID
+  commentId: F:Global.ComboInfo.skillID
+  fullName: ComboInfo.skillID
+  nameWithType: ComboInfo.skillID
+- uid: Global.ComboInfo.SkillSource
+  name: SkillSource
+  href: api/Global.ComboInfo.html#Global_ComboInfo_SkillSource
+  commentId: P:Global.ComboInfo.SkillSource
+  fullName: ComboInfo.SkillSource
+  nameWithType: ComboInfo.SkillSource
+- uid: Global.ComboInfo.SkillSource*
+  name: SkillSource
+  href: api/Global.ComboInfo.html#Global_ComboInfo_SkillSource_
+  commentId: Overload:Global.ComboInfo.SkillSource
+  isSpec: "True"
+  fullName: ComboInfo.SkillSource
+  nameWithType: ComboInfo.SkillSource
+- uid: Global.ComboUseInfo
+  name: ComboUseInfo
+  href: api/Global.ComboUseInfo.html
+  commentId: T:Global.ComboUseInfo
+  fullName: ComboUseInfo
+  nameWithType: ComboUseInfo
+- uid: Global.ComboUseInfo.comboID
+  name: comboID
+  href: api/Global.ComboUseInfo.html#Global_ComboUseInfo_comboID
+  commentId: F:Global.ComboUseInfo.comboID
+  fullName: ComboUseInfo.comboID
+  nameWithType: ComboUseInfo.comboID
+- uid: Global.ComboUseInfo.comboInfo
+  name: comboInfo
+  href: api/Global.ComboUseInfo.html#Global_ComboUseInfo_comboInfo
+  commentId: F:Global.ComboUseInfo.comboInfo
+  fullName: ComboUseInfo.comboInfo
+  nameWithType: ComboUseInfo.comboInfo
+- uid: Global.ComboUseInfo.isChargeAttack
+  name: isChargeAttack
+  href: api/Global.ComboUseInfo.html#Global_ComboUseInfo_isChargeAttack
+  commentId: F:Global.ComboUseInfo.isChargeAttack
+  fullName: ComboUseInfo.isChargeAttack
+  nameWithType: ComboUseInfo.isChargeAttack
 - uid: Global.ConfigEditor
   name: ConfigEditor
   href: api/Global.ConfigEditor.html
@@ -1218,6 +1348,22 @@ references:
   fullName.vb: ConfigManager.GetConfigLength(Of T)()
   nameWithType: ConfigManager.GetConfigLength<T>()
   nameWithType.vb: ConfigManager.GetConfigLength(Of T)()
+- uid: Global.ConfigManager.GetConfigTable*
+  name: GetConfigTable
+  href: api/Global.ConfigManager.html#Global_ConfigManager_GetConfigTable_
+  commentId: Overload:Global.ConfigManager.GetConfigTable
+  isSpec: "True"
+  fullName: ConfigManager.GetConfigTable
+  nameWithType: ConfigManager.GetConfigTable
+- uid: Global.ConfigManager.GetConfigTable``2
+  name: GetConfigTable<TTable, TItem>()
+  href: api/Global.ConfigManager.html#Global_ConfigManager_GetConfigTable__2
+  commentId: M:Global.ConfigManager.GetConfigTable``2
+  name.vb: GetConfigTable(Of TTable, TItem)()
+  fullName: ConfigManager.GetConfigTable<TTable, TItem>()
+  fullName.vb: ConfigManager.GetConfigTable(Of TTable, TItem)()
+  nameWithType: ConfigManager.GetConfigTable<TTable, TItem>()
+  nameWithType.vb: ConfigManager.GetConfigTable(Of TTable, TItem)()
 - uid: Global.ConfigManager.Load
   name: Load()
   href: api/Global.ConfigManager.html#Global_ConfigManager_Load
@@ -1237,6 +1383,12 @@ references:
   commentId: T:Global.DamageInfo
   fullName: DamageInfo
   nameWithType: DamageInfo
+- uid: Global.DamageInfo.comboUseInfo
+  name: comboUseInfo
+  href: api/Global.DamageInfo.html#Global_DamageInfo_comboUseInfo
+  commentId: F:Global.DamageInfo.comboUseInfo
+  fullName: DamageInfo.comboUseInfo
+  nameWithType: DamageInfo.comboUseInfo
 - uid: Global.DamageInfo.damage
   name: damage
   href: api/Global.DamageInfo.html#Global_DamageInfo_damage
@@ -1249,6 +1401,12 @@ references:
   commentId: F:Global.DamageInfo.damageType
   fullName: DamageInfo.damageType
   nameWithType: DamageInfo.damageType
+- uid: Global.DamageInfo.triggerController
+  name: triggerController
+  href: api/Global.DamageInfo.html#Global_DamageInfo_triggerController
+  commentId: F:Global.DamageInfo.triggerController
+  fullName: DamageInfo.triggerController
+  nameWithType: DamageInfo.triggerController
 - uid: Global.DamageType
   name: DamageType
   href: api/Global.DamageType.html
@@ -1273,6 +1431,12 @@ references:
   commentId: T:Global.EventManager
   fullName: EventManager
   nameWithType: EventManager
+- uid: Global.EventManager.AfterDamageCalculator
+  name: AfterDamageCalculator
+  href: api/Global.EventManager.html#Global_EventManager_AfterDamageCalculator
+  commentId: F:Global.EventManager.AfterDamageCalculator
+  fullName: EventManager.AfterDamageCalculator
+  nameWithType: EventManager.AfterDamageCalculator
 - uid: Global.EventManager.AfterUnitDash
   name: AfterUnitDash
   href: api/Global.EventManager.html#Global_EventManager_AfterUnitDash
@@ -1291,30 +1455,60 @@ references:
   commentId: F:Global.EventManager.BeforeDamage
   fullName: EventManager.BeforeDamage
   nameWithType: EventManager.BeforeDamage
+- uid: Global.EventManager.BeforeDamageCalculator
+  name: BeforeDamageCalculator
+  href: api/Global.EventManager.html#Global_EventManager_BeforeDamageCalculator
+  commentId: F:Global.EventManager.BeforeDamageCalculator
+  fullName: EventManager.BeforeDamageCalculator
+  nameWithType: EventManager.BeforeDamageCalculator
 - uid: Global.EventManager.BeforeDeath
   name: BeforeDeath
   href: api/Global.EventManager.html#Global_EventManager_BeforeDeath
   commentId: F:Global.EventManager.BeforeDeath
   fullName: EventManager.BeforeDeath
   nameWithType: EventManager.BeforeDeath
+- uid: Global.EventManager.OnAttackImmune
+  name: OnAttackImmune
+  href: api/Global.EventManager.html#Global_EventManager_OnAttackImmune
+  commentId: F:Global.EventManager.OnAttackImmune
+  fullName: EventManager.OnAttackImmune
+  nameWithType: EventManager.OnAttackImmune
 - uid: Global.EventManager.OnDeath
   name: OnDeath
   href: api/Global.EventManager.html#Global_EventManager_OnDeath
   commentId: F:Global.EventManager.OnDeath
   fullName: EventManager.OnDeath
   nameWithType: EventManager.OnDeath
-- uid: Global.EventManager.OnPlayerSkillIdle
-  name: OnPlayerSkillIdle
-  href: api/Global.EventManager.html#Global_EventManager_OnPlayerSkillIdle
-  commentId: F:Global.EventManager.OnPlayerSkillIdle
-  fullName: EventManager.OnPlayerSkillIdle
-  nameWithType: EventManager.OnPlayerSkillIdle
-- uid: Global.EventManager.OnSkillCustomTriggered
-  name: OnSkillCustomTriggered
-  href: api/Global.EventManager.html#Global_EventManager_OnSkillCustomTriggered
-  commentId: F:Global.EventManager.OnSkillCustomTriggered
-  fullName: EventManager.OnSkillCustomTriggered
-  nameWithType: EventManager.OnSkillCustomTriggered
+- uid: Global.EventManager.OnInventoryUnitClick
+  name: OnInventoryUnitClick
+  href: api/Global.EventManager.html#Global_EventManager_OnInventoryUnitClick
+  commentId: F:Global.EventManager.OnInventoryUnitClick
+  fullName: EventManager.OnInventoryUnitClick
+  nameWithType: EventManager.OnInventoryUnitClick
+- uid: Global.EventManager.OnPlayerComboChanged
+  name: OnPlayerComboChanged
+  href: api/Global.EventManager.html#Global_EventManager_OnPlayerComboChanged
+  commentId: F:Global.EventManager.OnPlayerComboChanged
+  fullName: EventManager.OnPlayerComboChanged
+  nameWithType: EventManager.OnPlayerComboChanged
+- uid: Global.EventManager.OnSkillControllerDisable
+  name: OnSkillControllerDisable
+  href: api/Global.EventManager.html#Global_EventManager_OnSkillControllerDisable
+  commentId: F:Global.EventManager.OnSkillControllerDisable
+  fullName: EventManager.OnSkillControllerDisable
+  nameWithType: EventManager.OnSkillControllerDisable
+- uid: Global.EventManager.OnSkillControllerEnable
+  name: OnSkillControllerEnable
+  href: api/Global.EventManager.html#Global_EventManager_OnSkillControllerEnable
+  commentId: F:Global.EventManager.OnSkillControllerEnable
+  fullName: EventManager.OnSkillControllerEnable
+  nameWithType: EventManager.OnSkillControllerEnable
+- uid: Global.EventManager.OnSkillCustomTrigger
+  name: OnSkillCustomTrigger
+  href: api/Global.EventManager.html#Global_EventManager_OnSkillCustomTrigger
+  commentId: F:Global.EventManager.OnSkillCustomTrigger
+  fullName: EventManager.OnSkillCustomTrigger
+  nameWithType: EventManager.OnSkillCustomTrigger
 - uid: Global.EventManager.OnSkillForget
   name: OnSkillForget
   href: api/Global.EventManager.html#Global_EventManager_OnSkillForget
@@ -1485,6 +1679,12 @@ references:
   commentId: F:Global.GameManager.gameView
   fullName: GameManager.gameView
   nameWithType: GameManager.gameView
+- uid: Global.GameManager.getItemView
+  name: getItemView
+  href: api/Global.GameManager.html#Global_GameManager_getItemView
+  commentId: F:Global.GameManager.getItemView
+  fullName: GameManager.getItemView
+  nameWithType: GameManager.getItemView
 - uid: Global.GameManager.globalView
   name: globalView
   href: api/Global.GameManager.html#Global_GameManager_globalView
@@ -1533,24 +1733,12 @@ references:
   commentId: F:Global.GameManager.popWindowView
   fullName: GameManager.popWindowView
   nameWithType: GameManager.popWindowView
-- uid: Global.GameManager.selectUnitView
-  name: selectUnitView
-  href: api/Global.GameManager.html#Global_GameManager_selectUnitView
-  commentId: F:Global.GameManager.selectUnitView
-  fullName: GameManager.selectUnitView
-  nameWithType: GameManager.selectUnitView
 - uid: Global.GameManager.settingsView
   name: settingsView
   href: api/Global.GameManager.html#Global_GameManager_settingsView
   commentId: F:Global.GameManager.settingsView
   fullName: GameManager.settingsView
   nameWithType: GameManager.settingsView
-- uid: Global.GameManager.skillComboView
-  name: skillComboView
-  href: api/Global.GameManager.html#Global_GameManager_skillComboView
-  commentId: F:Global.GameManager.skillComboView
-  fullName: GameManager.skillComboView
-  nameWithType: GameManager.skillComboView
 - uid: Global.GameManager.startScene
   name: startScene
   href: api/Global.GameManager.html#Global_GameManager_startScene
@@ -1689,30 +1877,82 @@ references:
   commentId: T:Global.GameSkillComboItem
   fullName: GameSkillComboItem
   nameWithType: GameSkillComboItem
-- uid: Global.GameSkillComboItem.attackCombo
-  name: attackCombo
-  href: api/Global.GameSkillComboItem.html#Global_GameSkillComboItem_attackCombo
-  commentId: F:Global.GameSkillComboItem.attackCombo
-  fullName: GameSkillComboItem.attackCombo
-  nameWithType: GameSkillComboItem.attackCombo
-- uid: Global.GameSkillComboItem.background
-  name: background
-  href: api/Global.GameSkillComboItem.html#Global_GameSkillComboItem_background
-  commentId: F:Global.GameSkillComboItem.background
-  fullName: GameSkillComboItem.background
-  nameWithType: GameSkillComboItem.background
-- uid: Global.GameSkillComboItem.comboText
-  name: comboText
-  href: api/Global.GameSkillComboItem.html#Global_GameSkillComboItem_comboText
-  commentId: F:Global.GameSkillComboItem.comboText
-  fullName: GameSkillComboItem.comboText
-  nameWithType: GameSkillComboItem.comboText
-- uid: Global.GameSkillComboItem.icon
-  name: icon
-  href: api/Global.GameSkillComboItem.html#Global_GameSkillComboItem_icon
-  commentId: F:Global.GameSkillComboItem.icon
-  fullName: GameSkillComboItem.icon
-  nameWithType: GameSkillComboItem.icon
+- uid: Global.GameSkillComboItem.AttackCombo
+  name: AttackCombo
+  href: api/Global.GameSkillComboItem.html#Global_GameSkillComboItem_AttackCombo
+  commentId: P:Global.GameSkillComboItem.AttackCombo
+  fullName: GameSkillComboItem.AttackCombo
+  nameWithType: GameSkillComboItem.AttackCombo
+- uid: Global.GameSkillComboItem.AttackCombo*
+  name: AttackCombo
+  href: api/Global.GameSkillComboItem.html#Global_GameSkillComboItem_AttackCombo_
+  commentId: Overload:Global.GameSkillComboItem.AttackCombo
+  isSpec: "True"
+  fullName: GameSkillComboItem.AttackCombo
+  nameWithType: GameSkillComboItem.AttackCombo
+- uid: Global.GameSkillComboItem.canvasGroup
+  name: canvasGroup
+  href: api/Global.GameSkillComboItem.html#Global_GameSkillComboItem_canvasGroup
+  commentId: F:Global.GameSkillComboItem.canvasGroup
+  fullName: GameSkillComboItem.canvasGroup
+  nameWithType: GameSkillComboItem.canvasGroup
+- uid: Global.GameSkillComboItem.Close(System.Single)
+  name: Close(Single)
+  href: api/Global.GameSkillComboItem.html#Global_GameSkillComboItem_Close_System_Single_
+  commentId: M:Global.GameSkillComboItem.Close(System.Single)
+  fullName: GameSkillComboItem.Close(System.Single)
+  nameWithType: GameSkillComboItem.Close(Single)
+- uid: Global.GameSkillComboItem.Close*
+  name: Close
+  href: api/Global.GameSkillComboItem.html#Global_GameSkillComboItem_Close_
+  commentId: Overload:Global.GameSkillComboItem.Close
+  isSpec: "True"
+  fullName: GameSkillComboItem.Close
+  nameWithType: GameSkillComboItem.Close
+- uid: Global.GameSkillComboItem.IsRightAttack
+  name: IsRightAttack
+  href: api/Global.GameSkillComboItem.html#Global_GameSkillComboItem_IsRightAttack
+  commentId: P:Global.GameSkillComboItem.IsRightAttack
+  fullName: GameSkillComboItem.IsRightAttack
+  nameWithType: GameSkillComboItem.IsRightAttack
+- uid: Global.GameSkillComboItem.IsRightAttack*
+  name: IsRightAttack
+  href: api/Global.GameSkillComboItem.html#Global_GameSkillComboItem_IsRightAttack_
+  commentId: Overload:Global.GameSkillComboItem.IsRightAttack
+  isSpec: "True"
+  fullName: GameSkillComboItem.IsRightAttack
+  nameWithType: GameSkillComboItem.IsRightAttack
+- uid: Global.GameSkillComboItem.leftSkillComboItem
+  name: leftSkillComboItem
+  href: api/Global.GameSkillComboItem.html#Global_GameSkillComboItem_leftSkillComboItem
+  commentId: F:Global.GameSkillComboItem.leftSkillComboItem
+  fullName: GameSkillComboItem.leftSkillComboItem
+  nameWithType: GameSkillComboItem.leftSkillComboItem
+- uid: Global.GameSkillComboItem.maxSpacing
+  name: maxSpacing
+  href: api/Global.GameSkillComboItem.html#Global_GameSkillComboItem_maxSpacing
+  commentId: F:Global.GameSkillComboItem.maxSpacing
+  fullName: GameSkillComboItem.maxSpacing
+  nameWithType: GameSkillComboItem.maxSpacing
+- uid: Global.GameSkillComboItem.minSpacing
+  name: minSpacing
+  href: api/Global.GameSkillComboItem.html#Global_GameSkillComboItem_minSpacing
+  commentId: F:Global.GameSkillComboItem.minSpacing
+  fullName: GameSkillComboItem.minSpacing
+  nameWithType: GameSkillComboItem.minSpacing
+- uid: Global.GameSkillComboItem.Open(System.Single)
+  name: Open(Single)
+  href: api/Global.GameSkillComboItem.html#Global_GameSkillComboItem_Open_System_Single_
+  commentId: M:Global.GameSkillComboItem.Open(System.Single)
+  fullName: GameSkillComboItem.Open(System.Single)
+  nameWithType: GameSkillComboItem.Open(Single)
+- uid: Global.GameSkillComboItem.Open*
+  name: Open
+  href: api/Global.GameSkillComboItem.html#Global_GameSkillComboItem_Open_
+  commentId: Overload:Global.GameSkillComboItem.Open
+  isSpec: "True"
+  fullName: GameSkillComboItem.Open
+  nameWithType: GameSkillComboItem.Open
 - uid: Global.GameSkillComboItem.rectTransform
   name: rectTransform
   href: api/Global.GameSkillComboItem.html#Global_GameSkillComboItem_rectTransform
@@ -1732,25 +1972,12 @@ references:
   isSpec: "True"
   fullName: GameSkillComboItem.Refresh
   nameWithType: GameSkillComboItem.Refresh
-- uid: Global.GameSkillComboItem.SetComboInfo(System.Int32,System.Boolean)
-  name: SetComboInfo(Int32, Boolean)
-  href: api/Global.GameSkillComboItem.html#Global_GameSkillComboItem_SetComboInfo_System_Int32_System_Boolean_
-  commentId: M:Global.GameSkillComboItem.SetComboInfo(System.Int32,System.Boolean)
-  fullName: GameSkillComboItem.SetComboInfo(System.Int32, System.Boolean)
-  nameWithType: GameSkillComboItem.SetComboInfo(Int32, Boolean)
-- uid: Global.GameSkillComboItem.SetComboInfo*
-  name: SetComboInfo
-  href: api/Global.GameSkillComboItem.html#Global_GameSkillComboItem_SetComboInfo_
-  commentId: Overload:Global.GameSkillComboItem.SetComboInfo
-  isSpec: "True"
-  fullName: GameSkillComboItem.SetComboInfo
-  nameWithType: GameSkillComboItem.SetComboInfo
-- uid: Global.GameSkillComboItem.titleText
-  name: titleText
-  href: api/Global.GameSkillComboItem.html#Global_GameSkillComboItem_titleText
-  commentId: F:Global.GameSkillComboItem.titleText
-  fullName: GameSkillComboItem.titleText
-  nameWithType: GameSkillComboItem.titleText
+- uid: Global.GameSkillComboItem.rightSkillComboItem
+  name: rightSkillComboItem
+  href: api/Global.GameSkillComboItem.html#Global_GameSkillComboItem_rightSkillComboItem
+  commentId: F:Global.GameSkillComboItem.rightSkillComboItem
+  fullName: GameSkillComboItem.rightSkillComboItem
+  nameWithType: GameSkillComboItem.rightSkillComboItem
 - uid: Global.GameView
   name: GameView
   href: api/Global.GameView.html
@@ -1769,18 +1996,18 @@ references:
   commentId: F:Global.GameView.bottom
   fullName: GameView.bottom
   nameWithType: GameView.bottom
-- uid: Global.GameView.comboCommonSprite
-  name: comboCommonSprite
-  href: api/Global.GameView.html#Global_GameView_comboCommonSprite
-  commentId: F:Global.GameView.comboCommonSprite
-  fullName: GameView.comboCommonSprite
-  nameWithType: GameView.comboCommonSprite
-- uid: Global.GameView.comboHighlightSprite
-  name: comboHighlightSprite
-  href: api/Global.GameView.html#Global_GameView_comboHighlightSprite
-  commentId: F:Global.GameView.comboHighlightSprite
-  fullName: GameView.comboHighlightSprite
-  nameWithType: GameView.comboHighlightSprite
+- uid: Global.GameView.chargeBar
+  name: chargeBar
+  href: api/Global.GameView.html#Global_GameView_chargeBar
+  commentId: F:Global.GameView.chargeBar
+  fullName: GameView.chargeBar
+  nameWithType: GameView.chargeBar
+- uid: Global.GameView.comboCursor
+  name: comboCursor
+  href: api/Global.GameView.html#Global_GameView_comboCursor
+  commentId: F:Global.GameView.comboCursor
+  fullName: GameView.comboCursor
+  nameWithType: GameView.comboCursor
 - uid: Global.GameView.comboItemSpacing
   name: comboItemSpacing
   href: api/Global.GameView.html#Global_GameView_comboItemSpacing
@@ -1805,6 +2032,30 @@ references:
   commentId: F:Global.GameView.ersText
   fullName: GameView.ersText
   nameWithType: GameView.ersText
+- uid: Global.GameView.healthBar
+  name: healthBar
+  href: api/Global.GameView.html#Global_GameView_healthBar
+  commentId: F:Global.GameView.healthBar
+  fullName: GameView.healthBar
+  nameWithType: GameView.healthBar
+- uid: Global.GameView.hotKeyEscText
+  name: hotKeyEscText
+  href: api/Global.GameView.html#Global_GameView_hotKeyEscText
+  commentId: F:Global.GameView.hotKeyEscText
+  fullName: GameView.hotKeyEscText
+  nameWithType: GameView.hotKeyEscText
+- uid: Global.GameView.hotKeyMText
+  name: hotKeyMText
+  href: api/Global.GameView.html#Global_GameView_hotKeyMText
+  commentId: F:Global.GameView.hotKeyMText
+  fullName: GameView.hotKeyMText
+  nameWithType: GameView.hotKeyMText
+- uid: Global.GameView.hotKeyTabText
+  name: hotKeyTabText
+  href: api/Global.GameView.html#Global_GameView_hotKeyTabText
+  commentId: F:Global.GameView.hotKeyTabText
+  fullName: GameView.hotKeyTabText
+  nameWithType: GameView.hotKeyTabText
 - uid: Global.GameView.hpText
   name: hpText
   href: api/Global.GameView.html#Global_GameView_hpText
@@ -1817,6 +2068,12 @@ references:
   commentId: F:Global.GameView.left
   fullName: GameView.left
   nameWithType: GameView.left
+- uid: Global.GameView.levelTask
+  name: levelTask
+  href: api/Global.GameView.html#Global_GameView_levelTask
+  commentId: F:Global.GameView.levelTask
+  fullName: GameView.levelTask
+  nameWithType: GameView.levelTask
 - uid: Global.GameView.levelTaskText
   name: levelTaskText
   href: api/Global.GameView.html#Global_GameView_levelTaskText
@@ -1874,18 +2131,12 @@ references:
   commentId: F:Global.GameView.resText
   fullName: GameView.resText
   nameWithType: GameView.resText
-- uid: Global.GameView.skillComboContent1
-  name: skillComboContent1
-  href: api/Global.GameView.html#Global_GameView_skillComboContent1
-  commentId: F:Global.GameView.skillComboContent1
-  fullName: GameView.skillComboContent1
-  nameWithType: GameView.skillComboContent1
-- uid: Global.GameView.skillComboContent2
-  name: skillComboContent2
-  href: api/Global.GameView.html#Global_GameView_skillComboContent2
-  commentId: F:Global.GameView.skillComboContent2
-  fullName: GameView.skillComboContent2
-  nameWithType: GameView.skillComboContent2
+- uid: Global.GameView.skillComboContent
+  name: skillComboContent
+  href: api/Global.GameView.html#Global_GameView_skillComboContent
+  commentId: F:Global.GameView.skillComboContent
+  fullName: GameView.skillComboContent
+  nameWithType: GameView.skillComboContent
 - uid: Global.GameView.skillComboPrefab
   name: skillComboPrefab
   href: api/Global.GameView.html#Global_GameView_skillComboPrefab
@@ -1910,114 +2161,82 @@ references:
   commentId: F:Global.GameView.touText
   fullName: GameView.touText
   nameWithType: GameView.touText
-- uid: Global.GetItemWindow
-  name: GetItemWindow
-  href: api/Global.GetItemWindow.html
-  commentId: T:Global.GetItemWindow
-  fullName: GetItemWindow
-  nameWithType: GetItemWindow
-- uid: Global.GetItemWindow.AddListener
-  name: AddListener()
-  href: api/Global.GetItemWindow.html#Global_GetItemWindow_AddListener
-  commentId: M:Global.GetItemWindow.AddListener
-  fullName: GetItemWindow.AddListener()
-  nameWithType: GetItemWindow.AddListener()
-- uid: Global.GetItemWindow.AddListener*
-  name: AddListener
-  href: api/Global.GetItemWindow.html#Global_GetItemWindow_AddListener_
-  commentId: Overload:Global.GetItemWindow.AddListener
-  isSpec: "True"
-  fullName: GetItemWindow.AddListener
-  nameWithType: GetItemWindow.AddListener
-- uid: Global.GetItemWindow.content
+- uid: Global.GetItemView
+  name: GetItemView
+  href: api/Global.GetItemView.html
+  commentId: T:Global.GetItemView
+  fullName: GetItemView
+  nameWithType: GetItemView
+- uid: Global.GetItemView.content
   name: content
-  href: api/Global.GetItemWindow.html#Global_GetItemWindow_content
-  commentId: F:Global.GetItemWindow.content
-  fullName: GetItemWindow.content
-  nameWithType: GetItemWindow.content
-- uid: Global.GetItemWindow.GetItem
+  href: api/Global.GetItemView.html#Global_GetItemView_content
+  commentId: F:Global.GetItemView.content
+  fullName: GetItemView.content
+  nameWithType: GetItemView.content
+- uid: Global.GetItemView.GetItem
   name: GetItem()
-  href: api/Global.GetItemWindow.html#Global_GetItemWindow_GetItem
-  commentId: M:Global.GetItemWindow.GetItem
-  fullName: GetItemWindow.GetItem()
-  nameWithType: GetItemWindow.GetItem()
-- uid: Global.GetItemWindow.GetItem*
+  href: api/Global.GetItemView.html#Global_GetItemView_GetItem
+  commentId: M:Global.GetItemView.GetItem
+  fullName: GetItemView.GetItem()
+  nameWithType: GetItemView.GetItem()
+- uid: Global.GetItemView.GetItem*
   name: GetItem
-  href: api/Global.GetItemWindow.html#Global_GetItemWindow_GetItem_
-  commentId: Overload:Global.GetItemWindow.GetItem
+  href: api/Global.GetItemView.html#Global_GetItemView_GetItem_
+  commentId: Overload:Global.GetItemView.GetItem
   isSpec: "True"
-  fullName: GetItemWindow.GetItem
-  nameWithType: GetItemWindow.GetItem
-- uid: Global.GetItemWindow.itemPrefab
+  fullName: GetItemView.GetItem
+  nameWithType: GetItemView.GetItem
+- uid: Global.GetItemView.itemPrefab
   name: itemPrefab
-  href: api/Global.GetItemWindow.html#Global_GetItemWindow_itemPrefab
-  commentId: F:Global.GetItemWindow.itemPrefab
-  fullName: GetItemWindow.itemPrefab
-  nameWithType: GetItemWindow.itemPrefab
-- uid: Global.GetItemWindow.OnClose
+  href: api/Global.GetItemView.html#Global_GetItemView_itemPrefab
+  commentId: F:Global.GetItemView.itemPrefab
+  fullName: GetItemView.itemPrefab
+  nameWithType: GetItemView.itemPrefab
+- uid: Global.GetItemView.OnClose
   name: OnClose()
-  href: api/Global.GetItemWindow.html#Global_GetItemWindow_OnClose
-  commentId: M:Global.GetItemWindow.OnClose
-  fullName: GetItemWindow.OnClose()
-  nameWithType: GetItemWindow.OnClose()
-- uid: Global.GetItemWindow.OnClose*
+  href: api/Global.GetItemView.html#Global_GetItemView_OnClose
+  commentId: M:Global.GetItemView.OnClose
+  fullName: GetItemView.OnClose()
+  nameWithType: GetItemView.OnClose()
+- uid: Global.GetItemView.OnClose*
   name: OnClose
-  href: api/Global.GetItemWindow.html#Global_GetItemWindow_OnClose_
-  commentId: Overload:Global.GetItemWindow.OnClose
+  href: api/Global.GetItemView.html#Global_GetItemView_OnClose_
+  commentId: Overload:Global.GetItemView.OnClose
   isSpec: "True"
-  fullName: GetItemWindow.OnClose
-  nameWithType: GetItemWindow.OnClose
-- uid: Global.GetItemWindow.OnGetItem
-  name: OnGetItem
-  href: api/Global.GetItemWindow.html#Global_GetItemWindow_OnGetItem
-  commentId: E:Global.GetItemWindow.OnGetItem
-  fullName: GetItemWindow.OnGetItem
-  nameWithType: GetItemWindow.OnGetItem
-- uid: Global.GetItemWindow.OnOpen
+  fullName: GetItemView.OnClose
+  nameWithType: GetItemView.OnClose
+- uid: Global.GetItemView.OnOpen
   name: OnOpen()
-  href: api/Global.GetItemWindow.html#Global_GetItemWindow_OnOpen
-  commentId: M:Global.GetItemWindow.OnOpen
-  fullName: GetItemWindow.OnOpen()
-  nameWithType: GetItemWindow.OnOpen()
-- uid: Global.GetItemWindow.OnOpen*
+  href: api/Global.GetItemView.html#Global_GetItemView_OnOpen
+  commentId: M:Global.GetItemView.OnOpen
+  fullName: GetItemView.OnOpen()
+  nameWithType: GetItemView.OnOpen()
+- uid: Global.GetItemView.OnOpen*
   name: OnOpen
-  href: api/Global.GetItemWindow.html#Global_GetItemWindow_OnOpen_
-  commentId: Overload:Global.GetItemWindow.OnOpen
+  href: api/Global.GetItemView.html#Global_GetItemView_OnOpen_
+  commentId: Overload:Global.GetItemView.OnOpen
   isSpec: "True"
-  fullName: GetItemWindow.OnOpen
-  nameWithType: GetItemWindow.OnOpen
-- uid: Global.GetItemWindow.RealRefresh
+  fullName: GetItemView.OnOpen
+  nameWithType: GetItemView.OnOpen
+- uid: Global.GetItemView.RealRefresh
   name: RealRefresh()
-  href: api/Global.GetItemWindow.html#Global_GetItemWindow_RealRefresh
-  commentId: M:Global.GetItemWindow.RealRefresh
-  fullName: GetItemWindow.RealRefresh()
-  nameWithType: GetItemWindow.RealRefresh()
-- uid: Global.GetItemWindow.RealRefresh*
+  href: api/Global.GetItemView.html#Global_GetItemView_RealRefresh
+  commentId: M:Global.GetItemView.RealRefresh
+  fullName: GetItemView.RealRefresh()
+  nameWithType: GetItemView.RealRefresh()
+- uid: Global.GetItemView.RealRefresh*
   name: RealRefresh
-  href: api/Global.GetItemWindow.html#Global_GetItemWindow_RealRefresh_
-  commentId: Overload:Global.GetItemWindow.RealRefresh
+  href: api/Global.GetItemView.html#Global_GetItemView_RealRefresh_
+  commentId: Overload:Global.GetItemView.RealRefresh
   isSpec: "True"
-  fullName: GetItemWindow.RealRefresh
-  nameWithType: GetItemWindow.RealRefresh
-- uid: Global.GetItemWindow.RemoveListener
-  name: RemoveListener()
-  href: api/Global.GetItemWindow.html#Global_GetItemWindow_RemoveListener
-  commentId: M:Global.GetItemWindow.RemoveListener
-  fullName: GetItemWindow.RemoveListener()
-  nameWithType: GetItemWindow.RemoveListener()
-- uid: Global.GetItemWindow.RemoveListener*
-  name: RemoveListener
-  href: api/Global.GetItemWindow.html#Global_GetItemWindow_RemoveListener_
-  commentId: Overload:Global.GetItemWindow.RemoveListener
-  isSpec: "True"
-  fullName: GetItemWindow.RemoveListener
-  nameWithType: GetItemWindow.RemoveListener
-- uid: Global.GetItemWindow.submitButton
+  fullName: GetItemView.RealRefresh
+  nameWithType: GetItemView.RealRefresh
+- uid: Global.GetItemView.submitButton
   name: submitButton
-  href: api/Global.GetItemWindow.html#Global_GetItemWindow_submitButton
-  commentId: F:Global.GetItemWindow.submitButton
-  fullName: GetItemWindow.submitButton
-  nameWithType: GetItemWindow.submitButton
+  href: api/Global.GetItemView.html#Global_GetItemView_submitButton
+  commentId: F:Global.GetItemView.submitButton
+  fullName: GetItemView.submitButton
+  nameWithType: GetItemView.submitButton
 - uid: Global.GlobalView
   name: GlobalView
   href: api/Global.GlobalView.html
@@ -2094,6 +2313,25 @@ references:
   isSpec: "True"
   fullName: GlobalView.RealRefresh
   nameWithType: GlobalView.RealRefresh
+- uid: Global.IAfterDamageCalculatorHandler
+  name: IAfterDamageCalculatorHandler
+  href: api/Global.IAfterDamageCalculatorHandler.html
+  commentId: T:Global.IAfterDamageCalculatorHandler
+  fullName: IAfterDamageCalculatorHandler
+  nameWithType: IAfterDamageCalculatorHandler
+- uid: Global.IAfterDamageCalculatorHandler.AfterDamageCalculator(Unit,Unit,DamageInfo)
+  name: AfterDamageCalculator(Unit, Unit, DamageInfo)
+  href: api/Global.IAfterDamageCalculatorHandler.html#Global_IAfterDamageCalculatorHandler_AfterDamageCalculator_Unit_Unit_DamageInfo_
+  commentId: M:Global.IAfterDamageCalculatorHandler.AfterDamageCalculator(Unit,Unit,DamageInfo)
+  fullName: IAfterDamageCalculatorHandler.AfterDamageCalculator(Unit, Unit, DamageInfo)
+  nameWithType: IAfterDamageCalculatorHandler.AfterDamageCalculator(Unit, Unit, DamageInfo)
+- uid: Global.IAfterDamageCalculatorHandler.AfterDamageCalculator*
+  name: AfterDamageCalculator
+  href: api/Global.IAfterDamageCalculatorHandler.html#Global_IAfterDamageCalculatorHandler_AfterDamageCalculator_
+  commentId: Overload:Global.IAfterDamageCalculatorHandler.AfterDamageCalculator
+  isSpec: "True"
+  fullName: IAfterDamageCalculatorHandler.AfterDamageCalculator
+  nameWithType: IAfterDamageCalculatorHandler.AfterDamageCalculator
 - uid: Global.IAfterUnitDashHandler
   name: IAfterUnitDashHandler
   href: api/Global.IAfterUnitDashHandler.html
@@ -2113,6 +2351,25 @@ references:
   isSpec: "True"
   fullName: IAfterUnitDashHandler.AfterUnitDash
   nameWithType: IAfterUnitDashHandler.AfterUnitDash
+- uid: Global.IAttackImmuneHandler
+  name: IAttackImmuneHandler
+  href: api/Global.IAttackImmuneHandler.html
+  commentId: T:Global.IAttackImmuneHandler
+  fullName: IAttackImmuneHandler
+  nameWithType: IAttackImmuneHandler
+- uid: Global.IAttackImmuneHandler.OnAttackImmune(Unit,Unit,DamageInfo,State)
+  name: OnAttackImmune(Unit, Unit, DamageInfo, State)
+  href: api/Global.IAttackImmuneHandler.html#Global_IAttackImmuneHandler_OnAttackImmune_Unit_Unit_DamageInfo_State_
+  commentId: M:Global.IAttackImmuneHandler.OnAttackImmune(Unit,Unit,DamageInfo,State)
+  fullName: IAttackImmuneHandler.OnAttackImmune(Unit, Unit, DamageInfo, State)
+  nameWithType: IAttackImmuneHandler.OnAttackImmune(Unit, Unit, DamageInfo, State)
+- uid: Global.IAttackImmuneHandler.OnAttackImmune*
+  name: OnAttackImmune
+  href: api/Global.IAttackImmuneHandler.html#Global_IAttackImmuneHandler_OnAttackImmune_
+  commentId: Overload:Global.IAttackImmuneHandler.OnAttackImmune
+  isSpec: "True"
+  fullName: IAttackImmuneHandler.OnAttackImmune
+  nameWithType: IAttackImmuneHandler.OnAttackImmune
 - uid: Global.IBeforeAttackHandler
   name: IBeforeAttackHandler
   href: api/Global.IBeforeAttackHandler.html
@@ -2132,6 +2389,25 @@ references:
   isSpec: "True"
   fullName: IBeforeAttackHandler.BeforeAttack
   nameWithType: IBeforeAttackHandler.BeforeAttack
+- uid: Global.IBeforeDamageCalculatorHandler
+  name: IBeforeDamageCalculatorHandler
+  href: api/Global.IBeforeDamageCalculatorHandler.html
+  commentId: T:Global.IBeforeDamageCalculatorHandler
+  fullName: IBeforeDamageCalculatorHandler
+  nameWithType: IBeforeDamageCalculatorHandler
+- uid: Global.IBeforeDamageCalculatorHandler.BeforeDamageCalculator(Unit,Unit,DamageInfo)
+  name: BeforeDamageCalculator(Unit, Unit, DamageInfo)
+  href: api/Global.IBeforeDamageCalculatorHandler.html#Global_IBeforeDamageCalculatorHandler_BeforeDamageCalculator_Unit_Unit_DamageInfo_
+  commentId: M:Global.IBeforeDamageCalculatorHandler.BeforeDamageCalculator(Unit,Unit,DamageInfo)
+  fullName: IBeforeDamageCalculatorHandler.BeforeDamageCalculator(Unit, Unit, DamageInfo)
+  nameWithType: IBeforeDamageCalculatorHandler.BeforeDamageCalculator(Unit, Unit, DamageInfo)
+- uid: Global.IBeforeDamageCalculatorHandler.BeforeDamageCalculator*
+  name: BeforeDamageCalculator
+  href: api/Global.IBeforeDamageCalculatorHandler.html#Global_IBeforeDamageCalculatorHandler_BeforeDamageCalculator_
+  commentId: Overload:Global.IBeforeDamageCalculatorHandler.BeforeDamageCalculator
+  isSpec: "True"
+  fullName: IBeforeDamageCalculatorHandler.BeforeDamageCalculator
+  nameWithType: IBeforeDamageCalculatorHandler.BeforeDamageCalculator
 - uid: Global.IBeforeDamageHandler
   name: IBeforeDamageHandler
   href: api/Global.IBeforeDamageHandler.html
@@ -2176,12 +2452,12 @@ references:
   commentId: T:Global.IDeathHandler
   fullName: IDeathHandler
   nameWithType: IDeathHandler
-- uid: Global.IDeathHandler.OnDeath(Unit)
-  name: OnDeath(Unit)
-  href: api/Global.IDeathHandler.html#Global_IDeathHandler_OnDeath_Unit_
-  commentId: M:Global.IDeathHandler.OnDeath(Unit)
-  fullName: IDeathHandler.OnDeath(Unit)
-  nameWithType: IDeathHandler.OnDeath(Unit)
+- uid: Global.IDeathHandler.OnDeath(Unit,Unit,DamageInfo)
+  name: OnDeath(Unit, Unit, DamageInfo)
+  href: api/Global.IDeathHandler.html#Global_IDeathHandler_OnDeath_Unit_Unit_DamageInfo_
+  commentId: M:Global.IDeathHandler.OnDeath(Unit,Unit,DamageInfo)
+  fullName: IDeathHandler.OnDeath(Unit, Unit, DamageInfo)
+  nameWithType: IDeathHandler.OnDeath(Unit, Unit, DamageInfo)
 - uid: Global.IDeathHandler.OnDeath*
   name: OnDeath
   href: api/Global.IDeathHandler.html#Global_IDeathHandler_OnDeath_
@@ -2189,18 +2465,31 @@ references:
   isSpec: "True"
   fullName: IDeathHandler.OnDeath
   nameWithType: IDeathHandler.OnDeath
+- uid: Global.IInventoryUnitClickHandler
+  name: IInventoryUnitClickHandler
+  href: api/Global.IInventoryUnitClickHandler.html
+  commentId: T:Global.IInventoryUnitClickHandler
+  fullName: IInventoryUnitClickHandler
+  nameWithType: IInventoryUnitClickHandler
+- uid: Global.IInventoryUnitClickHandler.OnInventoryUnitClick(Unit,PointerEventData)
+  name: OnInventoryUnitClick(Unit, PointerEventData)
+  href: api/Global.IInventoryUnitClickHandler.html#Global_IInventoryUnitClickHandler_OnInventoryUnitClick_Unit_PointerEventData_
+  commentId: M:Global.IInventoryUnitClickHandler.OnInventoryUnitClick(Unit,PointerEventData)
+  fullName: IInventoryUnitClickHandler.OnInventoryUnitClick(Unit, PointerEventData)
+  nameWithType: IInventoryUnitClickHandler.OnInventoryUnitClick(Unit, PointerEventData)
+- uid: Global.IInventoryUnitClickHandler.OnInventoryUnitClick*
+  name: OnInventoryUnitClick
+  href: api/Global.IInventoryUnitClickHandler.html#Global_IInventoryUnitClickHandler_OnInventoryUnitClick_
+  commentId: Overload:Global.IInventoryUnitClickHandler.OnInventoryUnitClick
+  isSpec: "True"
+  fullName: IInventoryUnitClickHandler.OnInventoryUnitClick
+  nameWithType: IInventoryUnitClickHandler.OnInventoryUnitClick
 - uid: Global.InventoryItem
   name: InventoryItem
   href: api/Global.InventoryItem.html
   commentId: T:Global.InventoryItem
   fullName: InventoryItem
   nameWithType: InventoryItem
-- uid: Global.InventoryItem.buildedText
-  name: buildedText
-  href: api/Global.InventoryItem.html#Global_InventoryItem_buildedText
-  commentId: F:Global.InventoryItem.buildedText
-  fullName: InventoryItem.buildedText
-  nameWithType: InventoryItem.buildedText
 - uid: Global.InventoryItem.OnBeginDrag(PointerEventData)
   name: OnBeginDrag(PointerEventData)
   href: api/Global.InventoryItem.html#Global_InventoryItem_OnBeginDrag_PointerEventData_
@@ -2240,6 +2529,19 @@ references:
   isSpec: "True"
   fullName: InventoryItem.OnEndDrag
   nameWithType: InventoryItem.OnEndDrag
+- uid: Global.InventoryItem.OnPointerClick(PointerEventData)
+  name: OnPointerClick(PointerEventData)
+  href: api/Global.InventoryItem.html#Global_InventoryItem_OnPointerClick_PointerEventData_
+  commentId: M:Global.InventoryItem.OnPointerClick(PointerEventData)
+  fullName: InventoryItem.OnPointerClick(PointerEventData)
+  nameWithType: InventoryItem.OnPointerClick(PointerEventData)
+- uid: Global.InventoryItem.OnPointerClick*
+  name: OnPointerClick
+  href: api/Global.InventoryItem.html#Global_InventoryItem_OnPointerClick_
+  commentId: Overload:Global.InventoryItem.OnPointerClick
+  isSpec: "True"
+  fullName: InventoryItem.OnPointerClick
+  nameWithType: InventoryItem.OnPointerClick
 - uid: Global.InventoryItem.OnPointerDown(PointerEventData)
   name: OnPointerDown(PointerEventData)
   href: api/Global.InventoryItem.html#Global_InventoryItem_OnPointerDown_PointerEventData_
@@ -2292,43 +2594,18 @@ references:
   isSpec: "True"
   fullName: InventoryItem.Refresh
   nameWithType: InventoryItem.Refresh
-- uid: Global.InventoryItem.TargetUnit
-  name: TargetUnit
-  href: api/Global.InventoryItem.html#Global_InventoryItem_TargetUnit
-  commentId: P:Global.InventoryItem.TargetUnit
-  fullName: InventoryItem.TargetUnit
-  nameWithType: InventoryItem.TargetUnit
-- uid: Global.InventoryItem.TargetUnit*
-  name: TargetUnit
-  href: api/Global.InventoryItem.html#Global_InventoryItem_TargetUnit_
-  commentId: Overload:Global.InventoryItem.TargetUnit
-  isSpec: "True"
-  fullName: InventoryItem.TargetUnit
-  nameWithType: InventoryItem.TargetUnit
-- uid: Global.InventoryItem.titleText
-  name: titleText
-  href: api/Global.InventoryItem.html#Global_InventoryItem_titleText
-  commentId: F:Global.InventoryItem.titleText
-  fullName: InventoryItem.titleText
-  nameWithType: InventoryItem.titleText
+- uid: Global.InventoryItem.skillShowerPrefab
+  name: skillShowerPrefab
+  href: api/Global.InventoryItem.html#Global_InventoryItem_skillShowerPrefab
+  commentId: F:Global.InventoryItem.skillShowerPrefab
+  fullName: InventoryItem.skillShowerPrefab
+  nameWithType: InventoryItem.skillShowerPrefab
 - uid: Global.InventoryView
   name: InventoryView
   href: api/Global.InventoryView.html
   commentId: T:Global.InventoryView
   fullName: InventoryView
   nameWithType: InventoryView
-- uid: Global.InventoryView.button2
-  name: button2
-  href: api/Global.InventoryView.html#Global_InventoryView_button2
-  commentId: F:Global.InventoryView.button2
-  fullName: InventoryView.button2
-  nameWithType: InventoryView.button2
-- uid: Global.InventoryView.button2Active
-  name: button2Active
-  href: api/Global.InventoryView.html#Global_InventoryView_button2Active
-  commentId: F:Global.InventoryView.button2Active
-  fullName: InventoryView.button2Active
-  nameWithType: InventoryView.button2Active
 - uid: Global.InventoryView.canvasGroup
   name: canvasGroup
   href: api/Global.InventoryView.html#Global_InventoryView_canvasGroup
@@ -2347,12 +2624,6 @@ references:
   commentId: F:Global.InventoryView.content2
   fullName: InventoryView.content2
   nameWithType: InventoryView.content2
-- uid: Global.InventoryView.content2Unit
-  name: content2Unit
-  href: api/Global.InventoryView.html#Global_InventoryView_content2Unit
-  commentId: F:Global.InventoryView.content2Unit
-  fullName: InventoryView.content2Unit
-  nameWithType: InventoryView.content2Unit
 - uid: Global.InventoryView.content3
   name: content3
   href: api/Global.InventoryView.html#Global_InventoryView_content3
@@ -2365,12 +2636,42 @@ references:
   commentId: F:Global.InventoryView.content4
   fullName: InventoryView.content4
   nameWithType: InventoryView.content4
+- uid: Global.InventoryView.content5
+  name: content5
+  href: api/Global.InventoryView.html#Global_InventoryView_content5
+  commentId: F:Global.InventoryView.content5
+  fullName: InventoryView.content5
+  nameWithType: InventoryView.content5
 - uid: Global.InventoryView.contentLayout
   name: contentLayout
   href: api/Global.InventoryView.html#Global_InventoryView_contentLayout
   commentId: F:Global.InventoryView.contentLayout
   fullName: InventoryView.contentLayout
   nameWithType: InventoryView.contentLayout
+- uid: Global.InventoryView.flySwordContent
+  name: flySwordContent
+  href: api/Global.InventoryView.html#Global_InventoryView_flySwordContent
+  commentId: F:Global.InventoryView.flySwordContent
+  fullName: InventoryView.flySwordContent
+  nameWithType: InventoryView.flySwordContent
+- uid: Global.InventoryView.flySwordContentUnit
+  name: flySwordContentUnit
+  href: api/Global.InventoryView.html#Global_InventoryView_flySwordContentUnit
+  commentId: F:Global.InventoryView.flySwordContentUnit
+  fullName: InventoryView.flySwordContentUnit
+  nameWithType: InventoryView.flySwordContentUnit
+- uid: Global.InventoryView.flySwordItemPrefab
+  name: flySwordItemPrefab
+  href: api/Global.InventoryView.html#Global_InventoryView_flySwordItemPrefab
+  commentId: F:Global.InventoryView.flySwordItemPrefab
+  fullName: InventoryView.flySwordItemPrefab
+  nameWithType: InventoryView.flySwordItemPrefab
+- uid: Global.InventoryView.flySwordNoItemText
+  name: flySwordNoItemText
+  href: api/Global.InventoryView.html#Global_InventoryView_flySwordNoItemText
+  commentId: F:Global.InventoryView.flySwordNoItemText
+  fullName: InventoryView.flySwordNoItemText
+  nameWithType: InventoryView.flySwordNoItemText
 - uid: Global.InventoryView.itemPrefab1
   name: itemPrefab1
   href: api/Global.InventoryView.html#Global_InventoryView_itemPrefab1
@@ -2395,6 +2696,18 @@ references:
   commentId: F:Global.InventoryView.itemPrefab4
   fullName: InventoryView.itemPrefab4
   nameWithType: InventoryView.itemPrefab4
+- uid: Global.InventoryView.itemPrefab5
+  name: itemPrefab5
+  href: api/Global.InventoryView.html#Global_InventoryView_itemPrefab5
+  commentId: F:Global.InventoryView.itemPrefab5
+  fullName: InventoryView.itemPrefab5
+  nameWithType: InventoryView.itemPrefab5
+- uid: Global.InventoryView.leftSkillComboContent
+  name: leftSkillComboContent
+  href: api/Global.InventoryView.html#Global_InventoryView_leftSkillComboContent
+  commentId: F:Global.InventoryView.leftSkillComboContent
+  fullName: InventoryView.leftSkillComboContent
+  nameWithType: InventoryView.leftSkillComboContent
 - uid: Global.InventoryView.noItemText1
   name: noItemText1
   href: api/Global.InventoryView.html#Global_InventoryView_noItemText1
@@ -2419,6 +2732,12 @@ references:
   commentId: F:Global.InventoryView.noItemText4
   fullName: InventoryView.noItemText4
   nameWithType: InventoryView.noItemText4
+- uid: Global.InventoryView.noItemText5
+  name: noItemText5
+  href: api/Global.InventoryView.html#Global_InventoryView_noItemText5
+  commentId: F:Global.InventoryView.noItemText5
+  fullName: InventoryView.noItemText5
+  nameWithType: InventoryView.noItemText5
 - uid: Global.InventoryView.OnButton2Click
   name: OnButton2Click()
   href: api/Global.InventoryView.html#Global_InventoryView_OnButton2Click
@@ -2484,31 +2803,81 @@ references:
   isSpec: "True"
   fullName: InventoryView.RealRefresh
   nameWithType: InventoryView.RealRefresh
+- uid: Global.InventoryView.rightSkillComboContent
+  name: rightSkillComboContent
+  href: api/Global.InventoryView.html#Global_InventoryView_rightSkillComboContent
+  commentId: F:Global.InventoryView.rightSkillComboContent
+  fullName: InventoryView.rightSkillComboContent
+  nameWithType: InventoryView.rightSkillComboContent
+- uid: Global.InventoryView.skillComboPrefab
+  name: skillComboPrefab
+  href: api/Global.InventoryView.html#Global_InventoryView_skillComboPrefab
+  commentId: F:Global.InventoryView.skillComboPrefab
+  fullName: InventoryView.skillComboPrefab
+  nameWithType: InventoryView.skillComboPrefab
 - uid: Global.InventoryView.titleText
   name: titleText
   href: api/Global.InventoryView.html#Global_InventoryView_titleText
   commentId: F:Global.InventoryView.titleText
   fullName: InventoryView.titleText
   nameWithType: InventoryView.titleText
-- uid: Global.ISkillCustomTriggeredHandler
-  name: ISkillCustomTriggeredHandler
-  href: api/Global.ISkillCustomTriggeredHandler.html
-  commentId: T:Global.ISkillCustomTriggeredHandler
-  fullName: ISkillCustomTriggeredHandler
-  nameWithType: ISkillCustomTriggeredHandler
-- uid: Global.ISkillCustomTriggeredHandler.OnSkillCustomTriggered(SkillController,System.String)
-  name: OnSkillCustomTriggered(SkillController, String)
-  href: api/Global.ISkillCustomTriggeredHandler.html#Global_ISkillCustomTriggeredHandler_OnSkillCustomTriggered_SkillController_System_String_
-  commentId: M:Global.ISkillCustomTriggeredHandler.OnSkillCustomTriggered(SkillController,System.String)
-  fullName: ISkillCustomTriggeredHandler.OnSkillCustomTriggered(SkillController, System.String)
-  nameWithType: ISkillCustomTriggeredHandler.OnSkillCustomTriggered(SkillController, String)
-- uid: Global.ISkillCustomTriggeredHandler.OnSkillCustomTriggered*
-  name: OnSkillCustomTriggered
-  href: api/Global.ISkillCustomTriggeredHandler.html#Global_ISkillCustomTriggeredHandler_OnSkillCustomTriggered_
-  commentId: Overload:Global.ISkillCustomTriggeredHandler.OnSkillCustomTriggered
+- uid: Global.ISkillControllerDisableHandler
+  name: ISkillControllerDisableHandler
+  href: api/Global.ISkillControllerDisableHandler.html
+  commentId: T:Global.ISkillControllerDisableHandler
+  fullName: ISkillControllerDisableHandler
+  nameWithType: ISkillControllerDisableHandler
+- uid: Global.ISkillControllerDisableHandler.OnSkillControllerDisable(SkillController)
+  name: OnSkillControllerDisable(SkillController)
+  href: api/Global.ISkillControllerDisableHandler.html#Global_ISkillControllerDisableHandler_OnSkillControllerDisable_SkillController_
+  commentId: M:Global.ISkillControllerDisableHandler.OnSkillControllerDisable(SkillController)
+  fullName: ISkillControllerDisableHandler.OnSkillControllerDisable(SkillController)
+  nameWithType: ISkillControllerDisableHandler.OnSkillControllerDisable(SkillController)
+- uid: Global.ISkillControllerDisableHandler.OnSkillControllerDisable*
+  name: OnSkillControllerDisable
+  href: api/Global.ISkillControllerDisableHandler.html#Global_ISkillControllerDisableHandler_OnSkillControllerDisable_
+  commentId: Overload:Global.ISkillControllerDisableHandler.OnSkillControllerDisable
   isSpec: "True"
-  fullName: ISkillCustomTriggeredHandler.OnSkillCustomTriggered
-  nameWithType: ISkillCustomTriggeredHandler.OnSkillCustomTriggered
+  fullName: ISkillControllerDisableHandler.OnSkillControllerDisable
+  nameWithType: ISkillControllerDisableHandler.OnSkillControllerDisable
+- uid: Global.ISkillControllerEnableHandler
+  name: ISkillControllerEnableHandler
+  href: api/Global.ISkillControllerEnableHandler.html
+  commentId: T:Global.ISkillControllerEnableHandler
+  fullName: ISkillControllerEnableHandler
+  nameWithType: ISkillControllerEnableHandler
+- uid: Global.ISkillControllerEnableHandler.OnSkillControllerEnable(SkillController)
+  name: OnSkillControllerEnable(SkillController)
+  href: api/Global.ISkillControllerEnableHandler.html#Global_ISkillControllerEnableHandler_OnSkillControllerEnable_SkillController_
+  commentId: M:Global.ISkillControllerEnableHandler.OnSkillControllerEnable(SkillController)
+  fullName: ISkillControllerEnableHandler.OnSkillControllerEnable(SkillController)
+  nameWithType: ISkillControllerEnableHandler.OnSkillControllerEnable(SkillController)
+- uid: Global.ISkillControllerEnableHandler.OnSkillControllerEnable*
+  name: OnSkillControllerEnable
+  href: api/Global.ISkillControllerEnableHandler.html#Global_ISkillControllerEnableHandler_OnSkillControllerEnable_
+  commentId: Overload:Global.ISkillControllerEnableHandler.OnSkillControllerEnable
+  isSpec: "True"
+  fullName: ISkillControllerEnableHandler.OnSkillControllerEnable
+  nameWithType: ISkillControllerEnableHandler.OnSkillControllerEnable
+- uid: Global.ISkillCustomTriggerHandler
+  name: ISkillCustomTriggerHandler
+  href: api/Global.ISkillCustomTriggerHandler.html
+  commentId: T:Global.ISkillCustomTriggerHandler
+  fullName: ISkillCustomTriggerHandler
+  nameWithType: ISkillCustomTriggerHandler
+- uid: Global.ISkillCustomTriggerHandler.OnSkillCustomTrigger(SkillController,System.String)
+  name: OnSkillCustomTrigger(SkillController, String)
+  href: api/Global.ISkillCustomTriggerHandler.html#Global_ISkillCustomTriggerHandler_OnSkillCustomTrigger_SkillController_System_String_
+  commentId: M:Global.ISkillCustomTriggerHandler.OnSkillCustomTrigger(SkillController,System.String)
+  fullName: ISkillCustomTriggerHandler.OnSkillCustomTrigger(SkillController, System.String)
+  nameWithType: ISkillCustomTriggerHandler.OnSkillCustomTrigger(SkillController, String)
+- uid: Global.ISkillCustomTriggerHandler.OnSkillCustomTrigger*
+  name: OnSkillCustomTrigger
+  href: api/Global.ISkillCustomTriggerHandler.html#Global_ISkillCustomTriggerHandler_OnSkillCustomTrigger_
+  commentId: Overload:Global.ISkillCustomTriggerHandler.OnSkillCustomTrigger
+  isSpec: "True"
+  fullName: ISkillCustomTriggerHandler.OnSkillCustomTrigger
+  nameWithType: ISkillCustomTriggerHandler.OnSkillCustomTrigger
 - uid: Global.ISkillForgetHandler
   name: ISkillForgetHandler
   href: api/Global.ISkillForgetHandler.html
@@ -2591,12 +2960,12 @@ references:
   commentId: T:Global.ISkillUseHandler
   fullName: ISkillUseHandler
   nameWithType: ISkillUseHandler
-- uid: Global.ISkillUseHandler.OnSkillUse(SkillController,System.Boolean,System.Int32)
-  name: OnSkillUse(SkillController, Boolean, Int32)
-  href: api/Global.ISkillUseHandler.html#Global_ISkillUseHandler_OnSkillUse_SkillController_System_Boolean_System_Int32_
-  commentId: M:Global.ISkillUseHandler.OnSkillUse(SkillController,System.Boolean,System.Int32)
-  fullName: ISkillUseHandler.OnSkillUse(SkillController, System.Boolean, System.Int32)
-  nameWithType: ISkillUseHandler.OnSkillUse(SkillController, Boolean, Int32)
+- uid: Global.ISkillUseHandler.OnSkillUse(SkillController)
+  name: OnSkillUse(SkillController)
+  href: api/Global.ISkillUseHandler.html#Global_ISkillUseHandler_OnSkillUse_SkillController_
+  commentId: M:Global.ISkillUseHandler.OnSkillUse(SkillController)
+  fullName: ISkillUseHandler.OnSkillUse(SkillController)
+  nameWithType: ISkillUseHandler.OnSkillUse(SkillController)
 - uid: Global.ISkillUseHandler.OnSkillUse*
   name: OnSkillUse
   href: api/Global.ISkillUseHandler.html#Global_ISkillUseHandler_OnSkillUse_
@@ -2992,36 +3361,12 @@ references:
   isSpec: "True"
   fullName: LevelUpView.RealRefresh
   nameWithType: LevelUpView.RealRefresh
-- uid: Global.LevelUpView.skillRef1
-  name: skillRef1
-  href: api/Global.LevelUpView.html#Global_LevelUpView_skillRef1
-  commentId: F:Global.LevelUpView.skillRef1
-  fullName: LevelUpView.skillRef1
-  nameWithType: LevelUpView.skillRef1
-- uid: Global.LevelUpView.skillRef2
-  name: skillRef2
-  href: api/Global.LevelUpView.html#Global_LevelUpView_skillRef2
-  commentId: F:Global.LevelUpView.skillRef2
-  fullName: LevelUpView.skillRef2
-  nameWithType: LevelUpView.skillRef2
-- uid: Global.LevelUpView.skillRef3
-  name: skillRef3
-  href: api/Global.LevelUpView.html#Global_LevelUpView_skillRef3
-  commentId: F:Global.LevelUpView.skillRef3
-  fullName: LevelUpView.skillRef3
-  nameWithType: LevelUpView.skillRef3
-- uid: Global.LevelUpView.skillRef4
-  name: skillRef4
-  href: api/Global.LevelUpView.html#Global_LevelUpView_skillRef4
-  commentId: F:Global.LevelUpView.skillRef4
-  fullName: LevelUpView.skillRef4
-  nameWithType: LevelUpView.skillRef4
-- uid: Global.LevelUpView.skillRef5
-  name: skillRef5
-  href: api/Global.LevelUpView.html#Global_LevelUpView_skillRef5
-  commentId: F:Global.LevelUpView.skillRef5
-  fullName: LevelUpView.skillRef5
-  nameWithType: LevelUpView.skillRef5
+- uid: Global.LevelUpView.testSkillList
+  name: testSkillList
+  href: api/Global.LevelUpView.html#Global_LevelUpView_testSkillList
+  commentId: F:Global.LevelUpView.testSkillList
+  fullName: LevelUpView.testSkillList
+  nameWithType: LevelUpView.testSkillList
 - uid: Global.LevelUpView.ToTraining
   name: ToTraining()
   href: api/Global.LevelUpView.html#Global_LevelUpView_ToTraining
@@ -3047,6 +3392,12 @@ references:
   commentId: T:Global.LoadingView
   fullName: LoadingView
   nameWithType: LoadingView
+- uid: Global.LoadingView.loadingText
+  name: loadingText
+  href: api/Global.LoadingView.html#Global_LoadingView_loadingText
+  commentId: F:Global.LoadingView.loadingText
+  fullName: LoadingView.loadingText
+  nameWithType: LoadingView.loadingText
 - uid: Global.LoadingView.OnClose
   name: OnClose()
   href: api/Global.LoadingView.html#Global_LoadingView_OnClose
@@ -3156,6 +3507,18 @@ references:
   commentId: F:Global.MapController.autoCreateUnitList
   fullName: MapController.autoCreateUnitList
   nameWithType: MapController.autoCreateUnitList
+- uid: Global.MapController.countDown
+  name: countDown
+  href: api/Global.MapController.html#Global_MapController_countDown
+  commentId: F:Global.MapController.countDown
+  fullName: MapController.countDown
+  nameWithType: MapController.countDown
+- uid: Global.MapController.createCount
+  name: createCount
+  href: api/Global.MapController.html#Global_MapController_createCount
+  commentId: F:Global.MapController.createCount
+  fullName: MapController.createCount
+  nameWithType: MapController.createCount
 - uid: Global.MapController.createDuration
   name: createDuration
   href: api/Global.MapController.html#Global_MapController_createDuration
@@ -3175,6 +3538,19 @@ references:
   isSpec: "True"
   fullName: MapController.Data
   nameWithType: MapController.Data
+- uid: Global.MapController.EndLevel
+  name: EndLevel()
+  href: api/Global.MapController.html#Global_MapController_EndLevel
+  commentId: M:Global.MapController.EndLevel
+  fullName: MapController.EndLevel()
+  nameWithType: MapController.EndLevel()
+- uid: Global.MapController.EndLevel*
+  name: EndLevel
+  href: api/Global.MapController.html#Global_MapController_EndLevel_
+  commentId: Overload:Global.MapController.EndLevel
+  isSpec: "True"
+  fullName: MapController.EndLevel
+  nameWithType: MapController.EndLevel
 - uid: Global.MapController.enemyCreaterPrefab
   name: enemyCreaterPrefab
   href: api/Global.MapController.html#Global_MapController_enemyCreaterPrefab
@@ -3194,6 +3570,12 @@ references:
   isSpec: "True"
   fullName: MapController.GameStoped
   nameWithType: MapController.GameStoped
+- uid: Global.MapController.input
+  name: input
+  href: api/Global.MapController.html#Global_MapController_input
+  commentId: F:Global.MapController.input
+  fullName: MapController.input
+  nameWithType: MapController.input
 - uid: Global.MapController.OnOpenOrCloseInventory(InputAction.CallbackContext)
   name: OnOpenOrCloseInventory(InputAction.CallbackContext)
   href: api/Global.MapController.html#Global_MapController_OnOpenOrCloseInventory_InputAction_CallbackContext_
@@ -3233,19 +3615,6 @@ references:
   isSpec: "True"
   fullName: MapController.OnOpenOrCloseSettings
   nameWithType: MapController.OnOpenOrCloseSettings
-- uid: Global.MapController.OnOpenOrCloseSkillCombo(InputAction.CallbackContext)
-  name: OnOpenOrCloseSkillCombo(InputAction.CallbackContext)
-  href: api/Global.MapController.html#Global_MapController_OnOpenOrCloseSkillCombo_InputAction_CallbackContext_
-  commentId: M:Global.MapController.OnOpenOrCloseSkillCombo(InputAction.CallbackContext)
-  fullName: MapController.OnOpenOrCloseSkillCombo(InputAction.CallbackContext)
-  nameWithType: MapController.OnOpenOrCloseSkillCombo(InputAction.CallbackContext)
-- uid: Global.MapController.OnOpenOrCloseSkillCombo*
-  name: OnOpenOrCloseSkillCombo
-  href: api/Global.MapController.html#Global_MapController_OnOpenOrCloseSkillCombo_
-  commentId: Overload:Global.MapController.OnOpenOrCloseSkillCombo
-  isSpec: "True"
-  fullName: MapController.OnOpenOrCloseSkillCombo
-  nameWithType: MapController.OnOpenOrCloseSkillCombo
 - uid: Global.MapController.player
   name: player
   href: api/Global.MapController.html#Global_MapController_player
@@ -3284,19 +3653,19 @@ references:
   commentId: F:Global.MapController.unitControllerList
   fullName: MapController.unitControllerList
   nameWithType: MapController.unitControllerList
-- uid: Global.MapController.WinGame(System.Boolean)
-  name: WinGame(Boolean)
-  href: api/Global.MapController.html#Global_MapController_WinGame_System_Boolean_
-  commentId: M:Global.MapController.WinGame(System.Boolean)
-  fullName: MapController.WinGame(System.Boolean)
-  nameWithType: MapController.WinGame(Boolean)
-- uid: Global.MapController.WinGame*
-  name: WinGame
-  href: api/Global.MapController.html#Global_MapController_WinGame_
-  commentId: Overload:Global.MapController.WinGame
+- uid: Global.MapController.WinLevel
+  name: WinLevel()
+  href: api/Global.MapController.html#Global_MapController_WinLevel
+  commentId: M:Global.MapController.WinLevel
+  fullName: MapController.WinLevel()
+  nameWithType: MapController.WinLevel()
+- uid: Global.MapController.WinLevel*
+  name: WinLevel
+  href: api/Global.MapController.html#Global_MapController_WinLevel_
+  commentId: Overload:Global.MapController.WinLevel
   isSpec: "True"
-  fullName: MapController.WinGame
-  nameWithType: MapController.WinGame
+  fullName: MapController.WinLevel
+  nameWithType: MapController.WinLevel
 - uid: Global.MapView
   name: MapView
   href: api/Global.MapView.html
@@ -3309,12 +3678,6 @@ references:
   commentId: F:Global.MapView.finalLevel
   fullName: MapView.finalLevel
   nameWithType: MapView.finalLevel
-- uid: Global.MapView.getItemWindow
-  name: getItemWindow
-  href: api/Global.MapView.html#Global_MapView_getItemWindow
-  commentId: F:Global.MapView.getItemWindow
-  fullName: MapView.getItemWindow
-  nameWithType: MapView.getItemWindow
 - uid: Global.MapView.levelButtonContent
   name: levelButtonContent
   href: api/Global.MapView.html#Global_MapView_levelButtonContent
@@ -3415,6 +3778,44 @@ references:
   commentId: F:Global.MapView.submitButton
   fullName: MapView.submitButton
   nameWithType: MapView.submitButton
+- uid: Global.MartialArtEvent
+  name: MartialArtEvent
+  href: api/Global.MartialArtEvent.html
+  commentId: T:Global.MartialArtEvent
+  fullName: MartialArtEvent
+  nameWithType: MartialArtEvent
+- uid: Global.MartialArtEvent.OnSkillForget(Skill)
+  name: OnSkillForget(Skill)
+  href: api/Global.MartialArtEvent.html#Global_MartialArtEvent_OnSkillForget_Skill_
+  commentId: M:Global.MartialArtEvent.OnSkillForget(Skill)
+  fullName: MartialArtEvent.OnSkillForget(Skill)
+  nameWithType: MartialArtEvent.OnSkillForget(Skill)
+- uid: Global.MartialArtEvent.OnSkillForget*
+  name: OnSkillForget
+  href: api/Global.MartialArtEvent.html#Global_MartialArtEvent_OnSkillForget_
+  commentId: Overload:Global.MartialArtEvent.OnSkillForget
+  isSpec: "True"
+  fullName: MartialArtEvent.OnSkillForget
+  nameWithType: MartialArtEvent.OnSkillForget
+- uid: Global.MartialArtEvent.OnSkillLearn(Skill)
+  name: OnSkillLearn(Skill)
+  href: api/Global.MartialArtEvent.html#Global_MartialArtEvent_OnSkillLearn_Skill_
+  commentId: M:Global.MartialArtEvent.OnSkillLearn(Skill)
+  fullName: MartialArtEvent.OnSkillLearn(Skill)
+  nameWithType: MartialArtEvent.OnSkillLearn(Skill)
+- uid: Global.MartialArtEvent.OnSkillLearn*
+  name: OnSkillLearn
+  href: api/Global.MartialArtEvent.html#Global_MartialArtEvent_OnSkillLearn_
+  commentId: Overload:Global.MartialArtEvent.OnSkillLearn
+  isSpec: "True"
+  fullName: MartialArtEvent.OnSkillLearn
+  nameWithType: MartialArtEvent.OnSkillLearn
+- uid: Global.MartialArtEvent.ownerLocked
+  name: ownerLocked
+  href: api/Global.MartialArtEvent.html#Global_MartialArtEvent_ownerLocked
+  commentId: F:Global.MartialArtEvent.ownerLocked
+  fullName: MartialArtEvent.ownerLocked
+  nameWithType: MartialArtEvent.ownerLocked
 - uid: Global.MoveType
   name: MoveType
   href: api/Global.MoveType.html
@@ -3617,12 +4018,12 @@ references:
   isSpec: "True"
   fullName: Player.AddAvailableUnit
   nameWithType: Player.AddAvailableUnit
-- uid: Global.Player.AddLeftCombo(Player.ComboInfo)
-  name: AddLeftCombo(Player.ComboInfo)
-  href: api/Global.Player.html#Global_Player_AddLeftCombo_Player_ComboInfo_
-  commentId: M:Global.Player.AddLeftCombo(Player.ComboInfo)
-  fullName: Player.AddLeftCombo(Player.ComboInfo)
-  nameWithType: Player.AddLeftCombo(Player.ComboInfo)
+- uid: Global.Player.AddLeftCombo(ComboInfo)
+  name: AddLeftCombo(ComboInfo)
+  href: api/Global.Player.html#Global_Player_AddLeftCombo_ComboInfo_
+  commentId: M:Global.Player.AddLeftCombo(ComboInfo)
+  fullName: Player.AddLeftCombo(ComboInfo)
+  nameWithType: Player.AddLeftCombo(ComboInfo)
 - uid: Global.Player.AddLeftCombo*
   name: AddLeftCombo
   href: api/Global.Player.html#Global_Player_AddLeftCombo_
@@ -3646,12 +4047,12 @@ references:
   isSpec: "True"
   fullName: Player.AddLevelProgress
   nameWithType: Player.AddLevelProgress
-- uid: Global.Player.AddRightCombo(Player.ComboInfo)
-  name: AddRightCombo(Player.ComboInfo)
-  href: api/Global.Player.html#Global_Player_AddRightCombo_Player_ComboInfo_
-  commentId: M:Global.Player.AddRightCombo(Player.ComboInfo)
-  fullName: Player.AddRightCombo(Player.ComboInfo)
-  nameWithType: Player.AddRightCombo(Player.ComboInfo)
+- uid: Global.Player.AddRightCombo(ComboInfo)
+  name: AddRightCombo(ComboInfo)
+  href: api/Global.Player.html#Global_Player_AddRightCombo_ComboInfo_
+  commentId: M:Global.Player.AddRightCombo(ComboInfo)
+  fullName: Player.AddRightCombo(ComboInfo)
+  nameWithType: Player.AddRightCombo(ComboInfo)
 - uid: Global.Player.AddRightCombo*
   name: AddRightCombo
   href: api/Global.Player.html#Global_Player_AddRightCombo_
@@ -3685,95 +4086,6 @@ references:
   isSpec: "True"
   fullName: Player.AvailableUnitPool
   nameWithType: Player.AvailableUnitPool
-- uid: Global.Player.ComboInfo
-  name: Player.ComboInfo
-  href: api/Global.Player.ComboInfo.html
-  commentId: T:Global.Player.ComboInfo
-  fullName: Player.ComboInfo
-  nameWithType: Player.ComboInfo
-- uid: Global.Player.ComboInfo.comboID
-  name: comboID
-  href: api/Global.Player.ComboInfo.html#Global_Player_ComboInfo_comboID
-  commentId: F:Global.Player.ComboInfo.comboID
-  fullName: Player.ComboInfo.comboID
-  nameWithType: Player.ComboInfo.comboID
-- uid: Global.Player.ComboInfo.Equals(Player.ComboInfo)
-  name: Equals(Player.ComboInfo)
-  href: api/Global.Player.ComboInfo.html#Global_Player_ComboInfo_Equals_Player_ComboInfo_
-  commentId: M:Global.Player.ComboInfo.Equals(Player.ComboInfo)
-  fullName: Player.ComboInfo.Equals(Player.ComboInfo)
-  nameWithType: Player.ComboInfo.Equals(Player.ComboInfo)
-- uid: Global.Player.ComboInfo.Equals(System.Object)
-  name: Equals(Object)
-  href: api/Global.Player.ComboInfo.html#Global_Player_ComboInfo_Equals_System_Object_
-  commentId: M:Global.Player.ComboInfo.Equals(System.Object)
-  fullName: Player.ComboInfo.Equals(System.Object)
-  nameWithType: Player.ComboInfo.Equals(Object)
-- uid: Global.Player.ComboInfo.Equals*
-  name: Equals
-  href: api/Global.Player.ComboInfo.html#Global_Player_ComboInfo_Equals_
-  commentId: Overload:Global.Player.ComboInfo.Equals
-  isSpec: "True"
-  fullName: Player.ComboInfo.Equals
-  nameWithType: Player.ComboInfo.Equals
-- uid: Global.Player.ComboInfo.GetHashCode
-  name: GetHashCode()
-  href: api/Global.Player.ComboInfo.html#Global_Player_ComboInfo_GetHashCode
-  commentId: M:Global.Player.ComboInfo.GetHashCode
-  fullName: Player.ComboInfo.GetHashCode()
-  nameWithType: Player.ComboInfo.GetHashCode()
-- uid: Global.Player.ComboInfo.GetHashCode*
-  name: GetHashCode
-  href: api/Global.Player.ComboInfo.html#Global_Player_ComboInfo_GetHashCode_
-  commentId: Overload:Global.Player.ComboInfo.GetHashCode
-  isSpec: "True"
-  fullName: Player.ComboInfo.GetHashCode
-  nameWithType: Player.ComboInfo.GetHashCode
-- uid: Global.Player.ComboInfo.op_Equality(Player.ComboInfo,Player.ComboInfo)
-  name: Equality(Player.ComboInfo, Player.ComboInfo)
-  href: api/Global.Player.ComboInfo.html#Global_Player_ComboInfo_op_Equality_Player_ComboInfo_Player_ComboInfo_
-  commentId: M:Global.Player.ComboInfo.op_Equality(Player.ComboInfo,Player.ComboInfo)
-  fullName: Player.ComboInfo.Equality(Player.ComboInfo, Player.ComboInfo)
-  nameWithType: Player.ComboInfo.Equality(Player.ComboInfo, Player.ComboInfo)
-- uid: Global.Player.ComboInfo.op_Equality*
-  name: Equality
-  href: api/Global.Player.ComboInfo.html#Global_Player_ComboInfo_op_Equality_
-  commentId: Overload:Global.Player.ComboInfo.op_Equality
-  isSpec: "True"
-  fullName: Player.ComboInfo.Equality
-  nameWithType: Player.ComboInfo.Equality
-- uid: Global.Player.ComboInfo.op_Inequality(Player.ComboInfo,Player.ComboInfo)
-  name: Inequality(Player.ComboInfo, Player.ComboInfo)
-  href: api/Global.Player.ComboInfo.html#Global_Player_ComboInfo_op_Inequality_Player_ComboInfo_Player_ComboInfo_
-  commentId: M:Global.Player.ComboInfo.op_Inequality(Player.ComboInfo,Player.ComboInfo)
-  fullName: Player.ComboInfo.Inequality(Player.ComboInfo, Player.ComboInfo)
-  nameWithType: Player.ComboInfo.Inequality(Player.ComboInfo, Player.ComboInfo)
-- uid: Global.Player.ComboInfo.op_Inequality*
-  name: Inequality
-  href: api/Global.Player.ComboInfo.html#Global_Player_ComboInfo_op_Inequality_
-  commentId: Overload:Global.Player.ComboInfo.op_Inequality
-  isSpec: "True"
-  fullName: Player.ComboInfo.Inequality
-  nameWithType: Player.ComboInfo.Inequality
-- uid: Global.Player.ComboInfo.skillID
-  name: skillID
-  href: api/Global.Player.ComboInfo.html#Global_Player_ComboInfo_skillID
-  commentId: F:Global.Player.ComboInfo.skillID
-  fullName: Player.ComboInfo.skillID
-  nameWithType: Player.ComboInfo.skillID
-- uid: Global.Player.ComboInfo.SkillSource
-  name: SkillSource
-  href: api/Global.Player.ComboInfo.html#Global_Player_ComboInfo_SkillSource
-  commentId: P:Global.Player.ComboInfo.SkillSource
-  fullName: Player.ComboInfo.SkillSource
-  nameWithType: Player.ComboInfo.SkillSource
-- uid: Global.Player.ComboInfo.SkillSource*
-  name: SkillSource
-  href: api/Global.Player.ComboInfo.html#Global_Player_ComboInfo_SkillSource_
-  commentId: Overload:Global.Player.ComboInfo.SkillSource
-  isSpec: "True"
-  fullName: Player.ComboInfo.SkillSource
-  nameWithType: Player.ComboInfo.SkillSource
 - uid: Global.Player.ForgetSkill(Skill)
   name: ForgetSkill(Skill)
   href: api/Global.Player.html#Global_Player_ForgetSkill_Skill_
@@ -3900,12 +4212,12 @@ references:
   isSpec: "True"
   fullName: Player.RemoveAvailableUnit
   nameWithType: Player.RemoveAvailableUnit
-- uid: Global.Player.RemoveLeftCombo(Player.ComboInfo)
-  name: RemoveLeftCombo(Player.ComboInfo)
-  href: api/Global.Player.html#Global_Player_RemoveLeftCombo_Player_ComboInfo_
-  commentId: M:Global.Player.RemoveLeftCombo(Player.ComboInfo)
-  fullName: Player.RemoveLeftCombo(Player.ComboInfo)
-  nameWithType: Player.RemoveLeftCombo(Player.ComboInfo)
+- uid: Global.Player.RemoveLeftCombo(ComboInfo)
+  name: RemoveLeftCombo(ComboInfo)
+  href: api/Global.Player.html#Global_Player_RemoveLeftCombo_ComboInfo_
+  commentId: M:Global.Player.RemoveLeftCombo(ComboInfo)
+  fullName: Player.RemoveLeftCombo(ComboInfo)
+  nameWithType: Player.RemoveLeftCombo(ComboInfo)
 - uid: Global.Player.RemoveLeftCombo*
   name: RemoveLeftCombo
   href: api/Global.Player.html#Global_Player_RemoveLeftCombo_
@@ -3913,12 +4225,12 @@ references:
   isSpec: "True"
   fullName: Player.RemoveLeftCombo
   nameWithType: Player.RemoveLeftCombo
-- uid: Global.Player.RemoveRightCombo(Player.ComboInfo)
-  name: RemoveRightCombo(Player.ComboInfo)
-  href: api/Global.Player.html#Global_Player_RemoveRightCombo_Player_ComboInfo_
-  commentId: M:Global.Player.RemoveRightCombo(Player.ComboInfo)
-  fullName: Player.RemoveRightCombo(Player.ComboInfo)
-  nameWithType: Player.RemoveRightCombo(Player.ComboInfo)
+- uid: Global.Player.RemoveRightCombo(ComboInfo)
+  name: RemoveRightCombo(ComboInfo)
+  href: api/Global.Player.html#Global_Player_RemoveRightCombo_ComboInfo_
+  commentId: M:Global.Player.RemoveRightCombo(ComboInfo)
+  fullName: Player.RemoveRightCombo(ComboInfo)
+  nameWithType: Player.RemoveRightCombo(ComboInfo)
 - uid: Global.Player.RemoveRightCombo*
   name: RemoveRightCombo
   href: api/Global.Player.html#Global_Player_RemoveRightCombo_
@@ -3945,6 +4257,19 @@ references:
   commentId: T:Global.PlayerController
   fullName: PlayerController
   nameWithType: PlayerController
+- uid: Global.PlayerController.AttackCombo
+  name: AttackCombo
+  href: api/Global.PlayerController.html#Global_PlayerController_AttackCombo
+  commentId: P:Global.PlayerController.AttackCombo
+  fullName: PlayerController.AttackCombo
+  nameWithType: PlayerController.AttackCombo
+- uid: Global.PlayerController.AttackCombo*
+  name: AttackCombo
+  href: api/Global.PlayerController.html#Global_PlayerController_AttackCombo_
+  commentId: Overload:Global.PlayerController.AttackCombo
+  isSpec: "True"
+  fullName: PlayerController.AttackCombo
+  nameWithType: PlayerController.AttackCombo
 - uid: Global.PlayerController.Awake
   name: Awake()
   href: api/Global.PlayerController.html#Global_PlayerController_Awake
@@ -3989,6 +4314,19 @@ references:
   commentId: F:Global.PlayerController.inputMovement
   fullName: PlayerController.inputMovement
   nameWithType: PlayerController.inputMovement
+- uid: Global.PlayerController.IsChargeAttack
+  name: IsChargeAttack
+  href: api/Global.PlayerController.html#Global_PlayerController_IsChargeAttack
+  commentId: P:Global.PlayerController.IsChargeAttack
+  fullName: PlayerController.IsChargeAttack
+  nameWithType: PlayerController.IsChargeAttack
+- uid: Global.PlayerController.IsChargeAttack*
+  name: IsChargeAttack
+  href: api/Global.PlayerController.html#Global_PlayerController_IsChargeAttack_
+  commentId: Overload:Global.PlayerController.IsChargeAttack
+  isSpec: "True"
+  fullName: PlayerController.IsChargeAttack
+  nameWithType: PlayerController.IsChargeAttack
 - uid: Global.PlayerController.IsRightAttack
   name: IsRightAttack
   href: api/Global.PlayerController.html#Global_PlayerController_IsRightAttack
@@ -4002,19 +4340,6 @@ references:
   isSpec: "True"
   fullName: PlayerController.IsRightAttack
   nameWithType: PlayerController.IsRightAttack
-- uid: Global.PlayerController.LeftAttackCombo
-  name: LeftAttackCombo
-  href: api/Global.PlayerController.html#Global_PlayerController_LeftAttackCombo
-  commentId: P:Global.PlayerController.LeftAttackCombo
-  fullName: PlayerController.LeftAttackCombo
-  nameWithType: PlayerController.LeftAttackCombo
-- uid: Global.PlayerController.LeftAttackCombo*
-  name: LeftAttackCombo
-  href: api/Global.PlayerController.html#Global_PlayerController_LeftAttackCombo_
-  commentId: Overload:Global.PlayerController.LeftAttackCombo
-  isSpec: "True"
-  fullName: PlayerController.LeftAttackCombo
-  nameWithType: PlayerController.LeftAttackCombo
 - uid: Global.PlayerController.OnDash(InputAction.CallbackContext)
   name: OnDash(InputAction.CallbackContext)
   href: api/Global.PlayerController.html#Global_PlayerController_OnDash_InputAction_CallbackContext_
@@ -4080,19 +4405,6 @@ references:
   isSpec: "True"
   fullName: PlayerController.OnRightAttack
   nameWithType: PlayerController.OnRightAttack
-- uid: Global.PlayerController.RightAttackCombo
-  name: RightAttackCombo
-  href: api/Global.PlayerController.html#Global_PlayerController_RightAttackCombo
-  commentId: P:Global.PlayerController.RightAttackCombo
-  fullName: PlayerController.RightAttackCombo
-  nameWithType: PlayerController.RightAttackCombo
-- uid: Global.PlayerController.RightAttackCombo*
-  name: RightAttackCombo
-  href: api/Global.PlayerController.html#Global_PlayerController_RightAttackCombo_
-  commentId: Overload:Global.PlayerController.RightAttackCombo
-  isSpec: "True"
-  fullName: PlayerController.RightAttackCombo
-  nameWithType: PlayerController.RightAttackCombo
 - uid: Global.PlayerController.Update
   name: Update()
   href: api/Global.PlayerController.html#Global_PlayerController_Update
@@ -4407,24 +4719,24 @@ references:
   isSpec: "True"
   fullName: PopWindow.RemoveListener
   nameWithType: PopWindow.RemoveListener
-- uid: Global.PopWindow.Show(List{System.String},List{System.String},UnityAction{System.String})
-  name: Show(List<String>, List<String>, UnityAction<String>)
-  href: api/Global.PopWindow.html#Global_PopWindow_Show_List_System_String__List_System_String__UnityAction_System_String__
-  commentId: M:Global.PopWindow.Show(List{System.String},List{System.String},UnityAction{System.String})
-  name.vb: Show(List(Of String), List(Of String), UnityAction(Of String))
-  fullName: PopWindow.Show(List<System.String>, List<System.String>, UnityAction<System.String>)
-  fullName.vb: PopWindow.Show(List(Of System.String), List(Of System.String), UnityAction(Of System.String))
-  nameWithType: PopWindow.Show(List<String>, List<String>, UnityAction<String>)
-  nameWithType.vb: PopWindow.Show(List(Of String), List(Of String), UnityAction(Of String))
-- uid: Global.PopWindow.Show(Vector2,List{System.String},List{System.String},UnityAction{System.String})
-  name: Show(Vector2, List<String>, List<String>, UnityAction<String>)
-  href: api/Global.PopWindow.html#Global_PopWindow_Show_Vector2_List_System_String__List_System_String__UnityAction_System_String__
-  commentId: M:Global.PopWindow.Show(Vector2,List{System.String},List{System.String},UnityAction{System.String})
-  name.vb: Show(Vector2, List(Of String), List(Of String), UnityAction(Of String))
-  fullName: PopWindow.Show(Vector2, List<System.String>, List<System.String>, UnityAction<System.String>)
-  fullName.vb: PopWindow.Show(Vector2, List(Of System.String), List(Of System.String), UnityAction(Of System.String))
-  nameWithType: PopWindow.Show(Vector2, List<String>, List<String>, UnityAction<String>)
-  nameWithType.vb: PopWindow.Show(Vector2, List(Of String), List(Of String), UnityAction(Of String))
+- uid: Global.PopWindow.Show(List{System.Object},List{System.Object},UnityAction{System.Object})
+  name: Show(List<Object>, List<Object>, UnityAction<Object>)
+  href: api/Global.PopWindow.html#Global_PopWindow_Show_List_System_Object__List_System_Object__UnityAction_System_Object__
+  commentId: M:Global.PopWindow.Show(List{System.Object},List{System.Object},UnityAction{System.Object})
+  name.vb: Show(List(Of Object), List(Of Object), UnityAction(Of Object))
+  fullName: PopWindow.Show(List<System.Object>, List<System.Object>, UnityAction<System.Object>)
+  fullName.vb: PopWindow.Show(List(Of System.Object), List(Of System.Object), UnityAction(Of System.Object))
+  nameWithType: PopWindow.Show(List<Object>, List<Object>, UnityAction<Object>)
+  nameWithType.vb: PopWindow.Show(List(Of Object), List(Of Object), UnityAction(Of Object))
+- uid: Global.PopWindow.Show(Vector2,List{System.Object},List{System.Object},UnityAction{System.Object})
+  name: Show(Vector2, List<Object>, List<Object>, UnityAction<Object>)
+  href: api/Global.PopWindow.html#Global_PopWindow_Show_Vector2_List_System_Object__List_System_Object__UnityAction_System_Object__
+  commentId: M:Global.PopWindow.Show(Vector2,List{System.Object},List{System.Object},UnityAction{System.Object})
+  name.vb: Show(Vector2, List(Of Object), List(Of Object), UnityAction(Of Object))
+  fullName: PopWindow.Show(Vector2, List<System.Object>, List<System.Object>, UnityAction<System.Object>)
+  fullName.vb: PopWindow.Show(Vector2, List(Of System.Object), List(Of System.Object), UnityAction(Of System.Object))
+  nameWithType: PopWindow.Show(Vector2, List<Object>, List<Object>, UnityAction<Object>)
+  nameWithType.vb: PopWindow.Show(Vector2, List(Of Object), List(Of Object), UnityAction(Of Object))
 - uid: Global.PopWindow.Show*
   name: Show
   href: api/Global.PopWindow.html#Global_PopWindow_Show_
@@ -4552,170 +4864,6 @@ references:
   commentId: F:Global.SceneConfigItem.sceneName
   fullName: SceneConfigItem.sceneName
   nameWithType: SceneConfigItem.sceneName
-- uid: Global.SelectUnitItem
-  name: SelectUnitItem
-  href: api/Global.SelectUnitItem.html
-  commentId: T:Global.SelectUnitItem
-  fullName: SelectUnitItem
-  nameWithType: SelectUnitItem
-- uid: Global.SelectUnitItem.buildedText
-  name: buildedText
-  href: api/Global.SelectUnitItem.html#Global_SelectUnitItem_buildedText
-  commentId: F:Global.SelectUnitItem.buildedText
-  fullName: SelectUnitItem.buildedText
-  nameWithType: SelectUnitItem.buildedText
-- uid: Global.SelectUnitItem.button
-  name: button
-  href: api/Global.SelectUnitItem.html#Global_SelectUnitItem_button
-  commentId: F:Global.SelectUnitItem.button
-  fullName: SelectUnitItem.button
-  nameWithType: SelectUnitItem.button
-- uid: Global.SelectUnitItem.OnPointerDown(PointerEventData)
-  name: OnPointerDown(PointerEventData)
-  href: api/Global.SelectUnitItem.html#Global_SelectUnitItem_OnPointerDown_PointerEventData_
-  commentId: M:Global.SelectUnitItem.OnPointerDown(PointerEventData)
-  fullName: SelectUnitItem.OnPointerDown(PointerEventData)
-  nameWithType: SelectUnitItem.OnPointerDown(PointerEventData)
-- uid: Global.SelectUnitItem.OnPointerDown*
-  name: OnPointerDown
-  href: api/Global.SelectUnitItem.html#Global_SelectUnitItem_OnPointerDown_
-  commentId: Overload:Global.SelectUnitItem.OnPointerDown
-  isSpec: "True"
-  fullName: SelectUnitItem.OnPointerDown
-  nameWithType: SelectUnitItem.OnPointerDown
-- uid: Global.SelectUnitItem.OnPointerEnter(PointerEventData)
-  name: OnPointerEnter(PointerEventData)
-  href: api/Global.SelectUnitItem.html#Global_SelectUnitItem_OnPointerEnter_PointerEventData_
-  commentId: M:Global.SelectUnitItem.OnPointerEnter(PointerEventData)
-  fullName: SelectUnitItem.OnPointerEnter(PointerEventData)
-  nameWithType: SelectUnitItem.OnPointerEnter(PointerEventData)
-- uid: Global.SelectUnitItem.OnPointerEnter*
-  name: OnPointerEnter
-  href: api/Global.SelectUnitItem.html#Global_SelectUnitItem_OnPointerEnter_
-  commentId: Overload:Global.SelectUnitItem.OnPointerEnter
-  isSpec: "True"
-  fullName: SelectUnitItem.OnPointerEnter
-  nameWithType: SelectUnitItem.OnPointerEnter
-- uid: Global.SelectUnitItem.OnPointerExit(PointerEventData)
-  name: OnPointerExit(PointerEventData)
-  href: api/Global.SelectUnitItem.html#Global_SelectUnitItem_OnPointerExit_PointerEventData_
-  commentId: M:Global.SelectUnitItem.OnPointerExit(PointerEventData)
-  fullName: SelectUnitItem.OnPointerExit(PointerEventData)
-  nameWithType: SelectUnitItem.OnPointerExit(PointerEventData)
-- uid: Global.SelectUnitItem.OnPointerExit*
-  name: OnPointerExit
-  href: api/Global.SelectUnitItem.html#Global_SelectUnitItem_OnPointerExit_
-  commentId: Overload:Global.SelectUnitItem.OnPointerExit
-  isSpec: "True"
-  fullName: SelectUnitItem.OnPointerExit
-  nameWithType: SelectUnitItem.OnPointerExit
-- uid: Global.SelectUnitItem.Refresh
-  name: Refresh()
-  href: api/Global.SelectUnitItem.html#Global_SelectUnitItem_Refresh
-  commentId: M:Global.SelectUnitItem.Refresh
-  fullName: SelectUnitItem.Refresh()
-  nameWithType: SelectUnitItem.Refresh()
-- uid: Global.SelectUnitItem.Refresh*
-  name: Refresh
-  href: api/Global.SelectUnitItem.html#Global_SelectUnitItem_Refresh_
-  commentId: Overload:Global.SelectUnitItem.Refresh
-  isSpec: "True"
-  fullName: SelectUnitItem.Refresh
-  nameWithType: SelectUnitItem.Refresh
-- uid: Global.SelectUnitItem.TargetUnit
-  name: TargetUnit
-  href: api/Global.SelectUnitItem.html#Global_SelectUnitItem_TargetUnit
-  commentId: P:Global.SelectUnitItem.TargetUnit
-  fullName: SelectUnitItem.TargetUnit
-  nameWithType: SelectUnitItem.TargetUnit
-- uid: Global.SelectUnitItem.TargetUnit*
-  name: TargetUnit
-  href: api/Global.SelectUnitItem.html#Global_SelectUnitItem_TargetUnit_
-  commentId: Overload:Global.SelectUnitItem.TargetUnit
-  isSpec: "True"
-  fullName: SelectUnitItem.TargetUnit
-  nameWithType: SelectUnitItem.TargetUnit
-- uid: Global.SelectUnitItem.titleText
-  name: titleText
-  href: api/Global.SelectUnitItem.html#Global_SelectUnitItem_titleText
-  commentId: F:Global.SelectUnitItem.titleText
-  fullName: SelectUnitItem.titleText
-  nameWithType: SelectUnitItem.titleText
-- uid: Global.SelectUnitView
-  name: SelectUnitView
-  href: api/Global.SelectUnitView.html
-  commentId: T:Global.SelectUnitView
-  fullName: SelectUnitView
-  nameWithType: SelectUnitView
-- uid: Global.SelectUnitView.content
-  name: content
-  href: api/Global.SelectUnitView.html#Global_SelectUnitView_content
-  commentId: F:Global.SelectUnitView.content
-  fullName: SelectUnitView.content
-  nameWithType: SelectUnitView.content
-- uid: Global.SelectUnitView.itemPrefab
-  name: itemPrefab
-  href: api/Global.SelectUnitView.html#Global_SelectUnitView_itemPrefab
-  commentId: F:Global.SelectUnitView.itemPrefab
-  fullName: SelectUnitView.itemPrefab
-  nameWithType: SelectUnitView.itemPrefab
-- uid: Global.SelectUnitView.noItemText
-  name: noItemText
-  href: api/Global.SelectUnitView.html#Global_SelectUnitView_noItemText
-  commentId: F:Global.SelectUnitView.noItemText
-  fullName: SelectUnitView.noItemText
-  nameWithType: SelectUnitView.noItemText
-- uid: Global.SelectUnitView.OnClose
-  name: OnClose()
-  href: api/Global.SelectUnitView.html#Global_SelectUnitView_OnClose
-  commentId: M:Global.SelectUnitView.OnClose
-  fullName: SelectUnitView.OnClose()
-  nameWithType: SelectUnitView.OnClose()
-- uid: Global.SelectUnitView.OnClose*
-  name: OnClose
-  href: api/Global.SelectUnitView.html#Global_SelectUnitView_OnClose_
-  commentId: Overload:Global.SelectUnitView.OnClose
-  isSpec: "True"
-  fullName: SelectUnitView.OnClose
-  nameWithType: SelectUnitView.OnClose
-- uid: Global.SelectUnitView.OnOpen
-  name: OnOpen()
-  href: api/Global.SelectUnitView.html#Global_SelectUnitView_OnOpen
-  commentId: M:Global.SelectUnitView.OnOpen
-  fullName: SelectUnitView.OnOpen()
-  nameWithType: SelectUnitView.OnOpen()
-- uid: Global.SelectUnitView.OnOpen*
-  name: OnOpen
-  href: api/Global.SelectUnitView.html#Global_SelectUnitView_OnOpen_
-  commentId: Overload:Global.SelectUnitView.OnOpen
-  isSpec: "True"
-  fullName: SelectUnitView.OnOpen
-  nameWithType: SelectUnitView.OnOpen
-- uid: Global.SelectUnitView.OnSelected
-  name: OnSelected
-  href: api/Global.SelectUnitView.html#Global_SelectUnitView_OnSelected
-  commentId: E:Global.SelectUnitView.OnSelected
-  fullName: SelectUnitView.OnSelected
-  nameWithType: SelectUnitView.OnSelected
-- uid: Global.SelectUnitView.RealRefresh
-  name: RealRefresh()
-  href: api/Global.SelectUnitView.html#Global_SelectUnitView_RealRefresh
-  commentId: M:Global.SelectUnitView.RealRefresh
-  fullName: SelectUnitView.RealRefresh()
-  nameWithType: SelectUnitView.RealRefresh()
-- uid: Global.SelectUnitView.RealRefresh*
-  name: RealRefresh
-  href: api/Global.SelectUnitView.html#Global_SelectUnitView_RealRefresh_
-  commentId: Overload:Global.SelectUnitView.RealRefresh
-  isSpec: "True"
-  fullName: SelectUnitView.RealRefresh
-  nameWithType: SelectUnitView.RealRefresh
-- uid: Global.SelectUnitView.titleText
-  name: titleText
-  href: api/Global.SelectUnitView.html#Global_SelectUnitView_titleText
-  commentId: F:Global.SelectUnitView.titleText
-  fullName: SelectUnitView.titleText
-  nameWithType: SelectUnitView.titleText
 - uid: Global.SettingsView
   name: SettingsView
   href: api/Global.SettingsView.html
@@ -5347,6 +5495,51 @@ references:
   commentId: E:Global.SkillComboItem.OnPointerClickEvent
   fullName: SkillComboItem.OnPointerClickEvent
   nameWithType: SkillComboItem.OnPointerClickEvent
+- uid: Global.SkillComboItem.OnPointerDown(PointerEventData)
+  name: OnPointerDown(PointerEventData)
+  href: api/Global.SkillComboItem.html#Global_SkillComboItem_OnPointerDown_PointerEventData_
+  commentId: M:Global.SkillComboItem.OnPointerDown(PointerEventData)
+  fullName: SkillComboItem.OnPointerDown(PointerEventData)
+  nameWithType: SkillComboItem.OnPointerDown(PointerEventData)
+- uid: Global.SkillComboItem.OnPointerDown*
+  name: OnPointerDown
+  href: api/Global.SkillComboItem.html#Global_SkillComboItem_OnPointerDown_
+  commentId: Overload:Global.SkillComboItem.OnPointerDown
+  isSpec: "True"
+  fullName: SkillComboItem.OnPointerDown
+  nameWithType: SkillComboItem.OnPointerDown
+- uid: Global.SkillComboItem.OnPointerEnter(PointerEventData)
+  name: OnPointerEnter(PointerEventData)
+  href: api/Global.SkillComboItem.html#Global_SkillComboItem_OnPointerEnter_PointerEventData_
+  commentId: M:Global.SkillComboItem.OnPointerEnter(PointerEventData)
+  fullName: SkillComboItem.OnPointerEnter(PointerEventData)
+  nameWithType: SkillComboItem.OnPointerEnter(PointerEventData)
+- uid: Global.SkillComboItem.OnPointerEnter*
+  name: OnPointerEnter
+  href: api/Global.SkillComboItem.html#Global_SkillComboItem_OnPointerEnter_
+  commentId: Overload:Global.SkillComboItem.OnPointerEnter
+  isSpec: "True"
+  fullName: SkillComboItem.OnPointerEnter
+  nameWithType: SkillComboItem.OnPointerEnter
+- uid: Global.SkillComboItem.OnPointerExit(PointerEventData)
+  name: OnPointerExit(PointerEventData)
+  href: api/Global.SkillComboItem.html#Global_SkillComboItem_OnPointerExit_PointerEventData_
+  commentId: M:Global.SkillComboItem.OnPointerExit(PointerEventData)
+  fullName: SkillComboItem.OnPointerExit(PointerEventData)
+  nameWithType: SkillComboItem.OnPointerExit(PointerEventData)
+- uid: Global.SkillComboItem.OnPointerExit*
+  name: OnPointerExit
+  href: api/Global.SkillComboItem.html#Global_SkillComboItem_OnPointerExit_
+  commentId: Overload:Global.SkillComboItem.OnPointerExit
+  isSpec: "True"
+  fullName: SkillComboItem.OnPointerExit
+  nameWithType: SkillComboItem.OnPointerExit
+- uid: Global.SkillComboItem.rectTransform
+  name: rectTransform
+  href: api/Global.SkillComboItem.html#Global_SkillComboItem_rectTransform
+  commentId: F:Global.SkillComboItem.rectTransform
+  fullName: SkillComboItem.rectTransform
+  nameWithType: SkillComboItem.rectTransform
 - uid: Global.SkillComboItem.Refresh
   name: Refresh()
   href: api/Global.SkillComboItem.html#Global_SkillComboItem_Refresh
@@ -5379,87 +5572,6 @@ references:
   commentId: F:Global.SkillComboItem.titleText
   fullName: SkillComboItem.titleText
   nameWithType: SkillComboItem.titleText
-- uid: Global.SkillComboView
-  name: SkillComboView
-  href: api/Global.SkillComboView.html
-  commentId: T:Global.SkillComboView
-  fullName: SkillComboView
-  nameWithType: SkillComboView
-- uid: Global.SkillComboView.content1
-  name: content1
-  href: api/Global.SkillComboView.html#Global_SkillComboView_content1
-  commentId: F:Global.SkillComboView.content1
-  fullName: SkillComboView.content1
-  nameWithType: SkillComboView.content1
-- uid: Global.SkillComboView.content2
-  name: content2
-  href: api/Global.SkillComboView.html#Global_SkillComboView_content2
-  commentId: F:Global.SkillComboView.content2
-  fullName: SkillComboView.content2
-  nameWithType: SkillComboView.content2
-- uid: Global.SkillComboView.content3
-  name: content3
-  href: api/Global.SkillComboView.html#Global_SkillComboView_content3
-  commentId: F:Global.SkillComboView.content3
-  fullName: SkillComboView.content3
-  nameWithType: SkillComboView.content3
-- uid: Global.SkillComboView.OnClose
-  name: OnClose()
-  href: api/Global.SkillComboView.html#Global_SkillComboView_OnClose
-  commentId: M:Global.SkillComboView.OnClose
-  fullName: SkillComboView.OnClose()
-  nameWithType: SkillComboView.OnClose()
-- uid: Global.SkillComboView.OnClose*
-  name: OnClose
-  href: api/Global.SkillComboView.html#Global_SkillComboView_OnClose_
-  commentId: Overload:Global.SkillComboView.OnClose
-  isSpec: "True"
-  fullName: SkillComboView.OnClose
-  nameWithType: SkillComboView.OnClose
-- uid: Global.SkillComboView.OnOpen
-  name: OnOpen()
-  href: api/Global.SkillComboView.html#Global_SkillComboView_OnOpen
-  commentId: M:Global.SkillComboView.OnOpen
-  fullName: SkillComboView.OnOpen()
-  nameWithType: SkillComboView.OnOpen()
-- uid: Global.SkillComboView.OnOpen*
-  name: OnOpen
-  href: api/Global.SkillComboView.html#Global_SkillComboView_OnOpen_
-  commentId: Overload:Global.SkillComboView.OnOpen
-  isSpec: "True"
-  fullName: SkillComboView.OnOpen
-  nameWithType: SkillComboView.OnOpen
-- uid: Global.SkillComboView.RealRefresh
-  name: RealRefresh()
-  href: api/Global.SkillComboView.html#Global_SkillComboView_RealRefresh
-  commentId: M:Global.SkillComboView.RealRefresh
-  fullName: SkillComboView.RealRefresh()
-  nameWithType: SkillComboView.RealRefresh()
-- uid: Global.SkillComboView.RealRefresh*
-  name: RealRefresh
-  href: api/Global.SkillComboView.html#Global_SkillComboView_RealRefresh_
-  commentId: Overload:Global.SkillComboView.RealRefresh
-  isSpec: "True"
-  fullName: SkillComboView.RealRefresh
-  nameWithType: SkillComboView.RealRefresh
-- uid: Global.SkillComboView.skillComboItemPrefab
-  name: skillComboItemPrefab
-  href: api/Global.SkillComboView.html#Global_SkillComboView_skillComboItemPrefab
-  commentId: F:Global.SkillComboView.skillComboItemPrefab
-  fullName: SkillComboView.skillComboItemPrefab
-  nameWithType: SkillComboView.skillComboItemPrefab
-- uid: Global.SkillComboView.titleText
-  name: titleText
-  href: api/Global.SkillComboView.html#Global_SkillComboView_titleText
-  commentId: F:Global.SkillComboView.titleText
-  fullName: SkillComboView.titleText
-  nameWithType: SkillComboView.titleText
-- uid: Global.SkillComboView.unitSkillItemPrefab
-  name: unitSkillItemPrefab
-  href: api/Global.SkillComboView.html#Global_SkillComboView_unitSkillItemPrefab
-  commentId: F:Global.SkillComboView.unitSkillItemPrefab
-  fullName: SkillComboView.unitSkillItemPrefab
-  nameWithType: SkillComboView.unitSkillItemPrefab
 - uid: Global.SkillController
   name: SkillController
   href: api/Global.SkillController.html
@@ -5479,6 +5591,12 @@ references:
   isSpec: "True"
   fullName: SkillController.ComboCount
   nameWithType: SkillController.ComboCount
+- uid: Global.SkillController.comboUseInfo
+  name: comboUseInfo
+  href: api/Global.SkillController.html#Global_SkillController_comboUseInfo
+  commentId: F:Global.SkillController.comboUseInfo
+  fullName: SkillController.comboUseInfo
+  nameWithType: SkillController.comboUseInfo
 - uid: Global.SkillController.Config
   name: Config
   href: api/Global.SkillController.html#Global_SkillController_Config
@@ -5782,6 +5900,19 @@ references:
   isSpec: "True"
   fullName: SkillEvent.DoBehaviour
   nameWithType: SkillEvent.DoBehaviour
+- uid: Global.SkillEvent.OnAnyViewClose(BaseView)
+  name: OnAnyViewClose(BaseView)
+  href: api/Global.SkillEvent.html#Global_SkillEvent_OnAnyViewClose_BaseView_
+  commentId: M:Global.SkillEvent.OnAnyViewClose(BaseView)
+  fullName: SkillEvent.OnAnyViewClose(BaseView)
+  nameWithType: SkillEvent.OnAnyViewClose(BaseView)
+- uid: Global.SkillEvent.OnAnyViewClose*
+  name: OnAnyViewClose
+  href: api/Global.SkillEvent.html#Global_SkillEvent_OnAnyViewClose_
+  commentId: Overload:Global.SkillEvent.OnAnyViewClose
+  isSpec: "True"
+  fullName: SkillEvent.OnAnyViewClose
+  nameWithType: SkillEvent.OnAnyViewClose
 - uid: Global.SkillEvent000
   name: SkillEvent000
   href: api/Global.SkillEvent000.html
@@ -5820,12 +5951,25 @@ references:
   commentId: T:Global.SkillEvent001
   fullName: SkillEvent001
   nameWithType: SkillEvent001
-- uid: Global.SkillEvent001.OnSkillUse(SkillController,System.Boolean,System.Int32)
-  name: OnSkillUse(SkillController, Boolean, Int32)
-  href: api/Global.SkillEvent001.html#Global_SkillEvent001_OnSkillUse_SkillController_System_Boolean_System_Int32_
-  commentId: M:Global.SkillEvent001.OnSkillUse(SkillController,System.Boolean,System.Int32)
-  fullName: SkillEvent001.OnSkillUse(SkillController, System.Boolean, System.Int32)
-  nameWithType: SkillEvent001.OnSkillUse(SkillController, Boolean, Int32)
+- uid: Global.SkillEvent001.OnSkillControllerDisable(SkillController)
+  name: OnSkillControllerDisable(SkillController)
+  href: api/Global.SkillEvent001.html#Global_SkillEvent001_OnSkillControllerDisable_SkillController_
+  commentId: M:Global.SkillEvent001.OnSkillControllerDisable(SkillController)
+  fullName: SkillEvent001.OnSkillControllerDisable(SkillController)
+  nameWithType: SkillEvent001.OnSkillControllerDisable(SkillController)
+- uid: Global.SkillEvent001.OnSkillControllerDisable*
+  name: OnSkillControllerDisable
+  href: api/Global.SkillEvent001.html#Global_SkillEvent001_OnSkillControllerDisable_
+  commentId: Overload:Global.SkillEvent001.OnSkillControllerDisable
+  isSpec: "True"
+  fullName: SkillEvent001.OnSkillControllerDisable
+  nameWithType: SkillEvent001.OnSkillControllerDisable
+- uid: Global.SkillEvent001.OnSkillUse(SkillController)
+  name: OnSkillUse(SkillController)
+  href: api/Global.SkillEvent001.html#Global_SkillEvent001_OnSkillUse_SkillController_
+  commentId: M:Global.SkillEvent001.OnSkillUse(SkillController)
+  fullName: SkillEvent001.OnSkillUse(SkillController)
+  nameWithType: SkillEvent001.OnSkillUse(SkillController)
 - uid: Global.SkillEvent001.OnSkillUse*
   name: OnSkillUse
   href: api/Global.SkillEvent001.html#Global_SkillEvent001_OnSkillUse_
@@ -5883,12 +6027,31 @@ references:
   commentId: T:Global.SkillEvent002
   fullName: SkillEvent002
   nameWithType: SkillEvent002
-- uid: Global.SkillEvent002.disableAttackCountSkill
-  name: disableAttackCountSkill
-  href: api/Global.SkillEvent002.html#Global_SkillEvent002_disableAttackCountSkill
-  commentId: F:Global.SkillEvent002.disableAttackCountSkill
-  fullName: SkillEvent002.disableAttackCountSkill
-  nameWithType: SkillEvent002.disableAttackCountSkill
+- uid: Global.SkillEvent002.disableAttackCountState
+  name: disableAttackCountState
+  href: api/Global.SkillEvent002.html#Global_SkillEvent002_disableAttackCountState
+  commentId: F:Global.SkillEvent002.disableAttackCountState
+  fullName: SkillEvent002.disableAttackCountState
+  nameWithType: SkillEvent002.disableAttackCountState
+- uid: Global.SkillEvent002.newState
+  name: newState
+  href: api/Global.SkillEvent002.html#Global_SkillEvent002_newState
+  commentId: F:Global.SkillEvent002.newState
+  fullName: SkillEvent002.newState
+  nameWithType: SkillEvent002.newState
+- uid: Global.SkillEvent002.OnSkillControllerDisable(SkillController)
+  name: OnSkillControllerDisable(SkillController)
+  href: api/Global.SkillEvent002.html#Global_SkillEvent002_OnSkillControllerDisable_SkillController_
+  commentId: M:Global.SkillEvent002.OnSkillControllerDisable(SkillController)
+  fullName: SkillEvent002.OnSkillControllerDisable(SkillController)
+  nameWithType: SkillEvent002.OnSkillControllerDisable(SkillController)
+- uid: Global.SkillEvent002.OnSkillControllerDisable*
+  name: OnSkillControllerDisable
+  href: api/Global.SkillEvent002.html#Global_SkillEvent002_OnSkillControllerDisable_
+  commentId: Overload:Global.SkillEvent002.OnSkillControllerDisable
+  isSpec: "True"
+  fullName: SkillEvent002.OnSkillControllerDisable
+  nameWithType: SkillEvent002.OnSkillControllerDisable
 - uid: Global.SkillEvent002.OnSkillTriggerOther(SkillController,Collider2D)
   name: OnSkillTriggerOther(SkillController, Collider2D)
   href: api/Global.SkillEvent002.html#Global_SkillEvent002_OnSkillTriggerOther_SkillController_Collider2D_
@@ -5915,18 +6078,50 @@ references:
   isSpec: "True"
   fullName: SkillEvent002.OnSkillTriggerUnit
   nameWithType: SkillEvent002.OnSkillTriggerUnit
+- uid: Global.SkillEvent002.OnSkillUse(SkillController)
+  name: OnSkillUse(SkillController)
+  href: api/Global.SkillEvent002.html#Global_SkillEvent002_OnSkillUse_SkillController_
+  commentId: M:Global.SkillEvent002.OnSkillUse(SkillController)
+  fullName: SkillEvent002.OnSkillUse(SkillController)
+  nameWithType: SkillEvent002.OnSkillUse(SkillController)
+- uid: Global.SkillEvent002.OnSkillUse*
+  name: OnSkillUse
+  href: api/Global.SkillEvent002.html#Global_SkillEvent002_OnSkillUse_
+  commentId: Overload:Global.SkillEvent002.OnSkillUse
+  isSpec: "True"
+  fullName: SkillEvent002.OnSkillUse
+  nameWithType: SkillEvent002.OnSkillUse
 - uid: Global.SkillEvent003
   name: SkillEvent003
   href: api/Global.SkillEvent003.html
   commentId: T:Global.SkillEvent003
   fullName: SkillEvent003
   nameWithType: SkillEvent003
-- uid: Global.SkillEvent003.disableAttackCountSkill
-  name: disableAttackCountSkill
-  href: api/Global.SkillEvent003.html#Global_SkillEvent003_disableAttackCountSkill
-  commentId: F:Global.SkillEvent003.disableAttackCountSkill
-  fullName: SkillEvent003.disableAttackCountSkill
-  nameWithType: SkillEvent003.disableAttackCountSkill
+- uid: Global.SkillEvent003.disableAttackCountState
+  name: disableAttackCountState
+  href: api/Global.SkillEvent003.html#Global_SkillEvent003_disableAttackCountState
+  commentId: F:Global.SkillEvent003.disableAttackCountState
+  fullName: SkillEvent003.disableAttackCountState
+  nameWithType: SkillEvent003.disableAttackCountState
+- uid: Global.SkillEvent003.newState
+  name: newState
+  href: api/Global.SkillEvent003.html#Global_SkillEvent003_newState
+  commentId: F:Global.SkillEvent003.newState
+  fullName: SkillEvent003.newState
+  nameWithType: SkillEvent003.newState
+- uid: Global.SkillEvent003.OnSkillControllerDisable(SkillController)
+  name: OnSkillControllerDisable(SkillController)
+  href: api/Global.SkillEvent003.html#Global_SkillEvent003_OnSkillControllerDisable_SkillController_
+  commentId: M:Global.SkillEvent003.OnSkillControllerDisable(SkillController)
+  fullName: SkillEvent003.OnSkillControllerDisable(SkillController)
+  nameWithType: SkillEvent003.OnSkillControllerDisable(SkillController)
+- uid: Global.SkillEvent003.OnSkillControllerDisable*
+  name: OnSkillControllerDisable
+  href: api/Global.SkillEvent003.html#Global_SkillEvent003_OnSkillControllerDisable_
+  commentId: Overload:Global.SkillEvent003.OnSkillControllerDisable
+  isSpec: "True"
+  fullName: SkillEvent003.OnSkillControllerDisable
+  nameWithType: SkillEvent003.OnSkillControllerDisable
 - uid: Global.SkillEvent003.OnSkillTriggerOther(SkillController,Collider2D)
   name: OnSkillTriggerOther(SkillController, Collider2D)
   href: api/Global.SkillEvent003.html#Global_SkillEvent003_OnSkillTriggerOther_SkillController_Collider2D_
@@ -5953,25 +6148,38 @@ references:
   isSpec: "True"
   fullName: SkillEvent003.OnSkillTriggerUnit
   nameWithType: SkillEvent003.OnSkillTriggerUnit
+- uid: Global.SkillEvent003.OnSkillUse(SkillController)
+  name: OnSkillUse(SkillController)
+  href: api/Global.SkillEvent003.html#Global_SkillEvent003_OnSkillUse_SkillController_
+  commentId: M:Global.SkillEvent003.OnSkillUse(SkillController)
+  fullName: SkillEvent003.OnSkillUse(SkillController)
+  nameWithType: SkillEvent003.OnSkillUse(SkillController)
+- uid: Global.SkillEvent003.OnSkillUse*
+  name: OnSkillUse
+  href: api/Global.SkillEvent003.html#Global_SkillEvent003_OnSkillUse_
+  commentId: Overload:Global.SkillEvent003.OnSkillUse
+  isSpec: "True"
+  fullName: SkillEvent003.OnSkillUse
+  nameWithType: SkillEvent003.OnSkillUse
 - uid: Global.SkillEvent004
   name: SkillEvent004
   href: api/Global.SkillEvent004.html
   commentId: T:Global.SkillEvent004
   fullName: SkillEvent004
   nameWithType: SkillEvent004
-- uid: Global.SkillEvent004.OnSkillCustomTriggered(SkillController,System.String)
-  name: OnSkillCustomTriggered(SkillController, String)
-  href: api/Global.SkillEvent004.html#Global_SkillEvent004_OnSkillCustomTriggered_SkillController_System_String_
-  commentId: M:Global.SkillEvent004.OnSkillCustomTriggered(SkillController,System.String)
-  fullName: SkillEvent004.OnSkillCustomTriggered(SkillController, System.String)
-  nameWithType: SkillEvent004.OnSkillCustomTriggered(SkillController, String)
-- uid: Global.SkillEvent004.OnSkillCustomTriggered*
-  name: OnSkillCustomTriggered
-  href: api/Global.SkillEvent004.html#Global_SkillEvent004_OnSkillCustomTriggered_
-  commentId: Overload:Global.SkillEvent004.OnSkillCustomTriggered
+- uid: Global.SkillEvent004.OnSkillCustomTrigger(SkillController,System.String)
+  name: OnSkillCustomTrigger(SkillController, String)
+  href: api/Global.SkillEvent004.html#Global_SkillEvent004_OnSkillCustomTrigger_SkillController_System_String_
+  commentId: M:Global.SkillEvent004.OnSkillCustomTrigger(SkillController,System.String)
+  fullName: SkillEvent004.OnSkillCustomTrigger(SkillController, System.String)
+  nameWithType: SkillEvent004.OnSkillCustomTrigger(SkillController, String)
+- uid: Global.SkillEvent004.OnSkillCustomTrigger*
+  name: OnSkillCustomTrigger
+  href: api/Global.SkillEvent004.html#Global_SkillEvent004_OnSkillCustomTrigger_
+  commentId: Overload:Global.SkillEvent004.OnSkillCustomTrigger
   isSpec: "True"
-  fullName: SkillEvent004.OnSkillCustomTriggered
-  nameWithType: SkillEvent004.OnSkillCustomTriggered
+  fullName: SkillEvent004.OnSkillCustomTrigger
+  nameWithType: SkillEvent004.OnSkillCustomTrigger
 - uid: Global.SkillEvent004.OnSkillTriggerUnit(SkillController,Unit)
   name: OnSkillTriggerUnit(SkillController, Unit)
   href: api/Global.SkillEvent004.html#Global_SkillEvent004_OnSkillTriggerUnit_SkillController_Unit_
@@ -6003,19 +6211,19 @@ references:
   commentId: T:Global.SkillEvent005
   fullName: SkillEvent005
   nameWithType: SkillEvent005
-- uid: Global.SkillEvent005.BeforeAttack(Unit,Unit,DamageInfo)
-  name: BeforeAttack(Unit, Unit, DamageInfo)
-  href: api/Global.SkillEvent005.html#Global_SkillEvent005_BeforeAttack_Unit_Unit_DamageInfo_
-  commentId: M:Global.SkillEvent005.BeforeAttack(Unit,Unit,DamageInfo)
-  fullName: SkillEvent005.BeforeAttack(Unit, Unit, DamageInfo)
-  nameWithType: SkillEvent005.BeforeAttack(Unit, Unit, DamageInfo)
-- uid: Global.SkillEvent005.BeforeAttack*
-  name: BeforeAttack
-  href: api/Global.SkillEvent005.html#Global_SkillEvent005_BeforeAttack_
-  commentId: Overload:Global.SkillEvent005.BeforeAttack
+- uid: Global.SkillEvent005.AfterDamageCalculator(Unit,Unit,DamageInfo)
+  name: AfterDamageCalculator(Unit, Unit, DamageInfo)
+  href: api/Global.SkillEvent005.html#Global_SkillEvent005_AfterDamageCalculator_Unit_Unit_DamageInfo_
+  commentId: M:Global.SkillEvent005.AfterDamageCalculator(Unit,Unit,DamageInfo)
+  fullName: SkillEvent005.AfterDamageCalculator(Unit, Unit, DamageInfo)
+  nameWithType: SkillEvent005.AfterDamageCalculator(Unit, Unit, DamageInfo)
+- uid: Global.SkillEvent005.AfterDamageCalculator*
+  name: AfterDamageCalculator
+  href: api/Global.SkillEvent005.html#Global_SkillEvent005_AfterDamageCalculator_
+  commentId: Overload:Global.SkillEvent005.AfterDamageCalculator
   isSpec: "True"
-  fullName: SkillEvent005.BeforeAttack
-  nameWithType: SkillEvent005.BeforeAttack
+  fullName: SkillEvent005.AfterDamageCalculator
+  nameWithType: SkillEvent005.AfterDamageCalculator
 - uid: Global.SkillEvent005.state
   name: state
   href: api/Global.SkillEvent005.html#Global_SkillEvent005_state
@@ -6047,12 +6255,12 @@ references:
   commentId: T:Global.SkillEvent007
   fullName: SkillEvent007
   nameWithType: SkillEvent007
-- uid: Global.SkillEvent007.OnSkillUse(SkillController,System.Boolean,System.Int32)
-  name: OnSkillUse(SkillController, Boolean, Int32)
-  href: api/Global.SkillEvent007.html#Global_SkillEvent007_OnSkillUse_SkillController_System_Boolean_System_Int32_
-  commentId: M:Global.SkillEvent007.OnSkillUse(SkillController,System.Boolean,System.Int32)
-  fullName: SkillEvent007.OnSkillUse(SkillController, System.Boolean, System.Int32)
-  nameWithType: SkillEvent007.OnSkillUse(SkillController, Boolean, Int32)
+- uid: Global.SkillEvent007.OnSkillUse(SkillController)
+  name: OnSkillUse(SkillController)
+  href: api/Global.SkillEvent007.html#Global_SkillEvent007_OnSkillUse_SkillController_
+  commentId: M:Global.SkillEvent007.OnSkillUse(SkillController)
+  fullName: SkillEvent007.OnSkillUse(SkillController)
+  nameWithType: SkillEvent007.OnSkillUse(SkillController)
 - uid: Global.SkillEvent007.OnSkillUse*
   name: OnSkillUse
   href: api/Global.SkillEvent007.html#Global_SkillEvent007_OnSkillUse_
@@ -6072,12 +6280,12 @@ references:
   commentId: T:Global.SkillEvent008
   fullName: SkillEvent008
   nameWithType: SkillEvent008
-- uid: Global.SkillEvent008.OnSkillUse(SkillController,System.Boolean,System.Int32)
-  name: OnSkillUse(SkillController, Boolean, Int32)
-  href: api/Global.SkillEvent008.html#Global_SkillEvent008_OnSkillUse_SkillController_System_Boolean_System_Int32_
-  commentId: M:Global.SkillEvent008.OnSkillUse(SkillController,System.Boolean,System.Int32)
-  fullName: SkillEvent008.OnSkillUse(SkillController, System.Boolean, System.Int32)
-  nameWithType: SkillEvent008.OnSkillUse(SkillController, Boolean, Int32)
+- uid: Global.SkillEvent008.OnSkillUse(SkillController)
+  name: OnSkillUse(SkillController)
+  href: api/Global.SkillEvent008.html#Global_SkillEvent008_OnSkillUse_SkillController_
+  commentId: M:Global.SkillEvent008.OnSkillUse(SkillController)
+  fullName: SkillEvent008.OnSkillUse(SkillController)
+  nameWithType: SkillEvent008.OnSkillUse(SkillController)
 - uid: Global.SkillEvent008.OnSkillUse*
   name: OnSkillUse
   href: api/Global.SkillEvent008.html#Global_SkillEvent008_OnSkillUse_
@@ -6121,6 +6329,19 @@ references:
   commentId: F:Global.SkillEvent009.newState
   fullName: SkillEvent009.newState
   nameWithType: SkillEvent009.newState
+- uid: Global.SkillEvent009.OnSkillControllerDisable(SkillController)
+  name: OnSkillControllerDisable(SkillController)
+  href: api/Global.SkillEvent009.html#Global_SkillEvent009_OnSkillControllerDisable_SkillController_
+  commentId: M:Global.SkillEvent009.OnSkillControllerDisable(SkillController)
+  fullName: SkillEvent009.OnSkillControllerDisable(SkillController)
+  nameWithType: SkillEvent009.OnSkillControllerDisable(SkillController)
+- uid: Global.SkillEvent009.OnSkillControllerDisable*
+  name: OnSkillControllerDisable
+  href: api/Global.SkillEvent009.html#Global_SkillEvent009_OnSkillControllerDisable_
+  commentId: Overload:Global.SkillEvent009.OnSkillControllerDisable
+  isSpec: "True"
+  fullName: SkillEvent009.OnSkillControllerDisable
+  nameWithType: SkillEvent009.OnSkillControllerDisable
 - uid: Global.SkillEvent009.OnSkillTriggerUnit(SkillController,Unit)
   name: OnSkillTriggerUnit(SkillController, Unit)
   href: api/Global.SkillEvent009.html#Global_SkillEvent009_OnSkillTriggerUnit_SkillController_Unit_
@@ -6134,12 +6355,12 @@ references:
   isSpec: "True"
   fullName: SkillEvent009.OnSkillTriggerUnit
   nameWithType: SkillEvent009.OnSkillTriggerUnit
-- uid: Global.SkillEvent009.OnSkillUse(SkillController,System.Boolean,System.Int32)
-  name: OnSkillUse(SkillController, Boolean, Int32)
-  href: api/Global.SkillEvent009.html#Global_SkillEvent009_OnSkillUse_SkillController_System_Boolean_System_Int32_
-  commentId: M:Global.SkillEvent009.OnSkillUse(SkillController,System.Boolean,System.Int32)
-  fullName: SkillEvent009.OnSkillUse(SkillController, System.Boolean, System.Int32)
-  nameWithType: SkillEvent009.OnSkillUse(SkillController, Boolean, Int32)
+- uid: Global.SkillEvent009.OnSkillUse(SkillController)
+  name: OnSkillUse(SkillController)
+  href: api/Global.SkillEvent009.html#Global_SkillEvent009_OnSkillUse_SkillController_
+  commentId: M:Global.SkillEvent009.OnSkillUse(SkillController)
+  fullName: SkillEvent009.OnSkillUse(SkillController)
+  nameWithType: SkillEvent009.OnSkillUse(SkillController)
 - uid: Global.SkillEvent009.OnSkillUse*
   name: OnSkillUse
   href: api/Global.SkillEvent009.html#Global_SkillEvent009_OnSkillUse_
@@ -6165,12 +6386,56 @@ references:
   commentId: F:Global.SkillEvent009.passiveSkill3
   fullName: SkillEvent009.passiveSkill3
   nameWithType: SkillEvent009.passiveSkill3
+- uid: Global.SkillEvent010
+  name: SkillEvent010
+  href: api/Global.SkillEvent010.html
+  commentId: T:Global.SkillEvent010
+  fullName: SkillEvent010
+  nameWithType: SkillEvent010
+- uid: Global.SkillEvent010.OnSkillUse(SkillController)
+  name: OnSkillUse(SkillController)
+  href: api/Global.SkillEvent010.html#Global_SkillEvent010_OnSkillUse_SkillController_
+  commentId: M:Global.SkillEvent010.OnSkillUse(SkillController)
+  fullName: SkillEvent010.OnSkillUse(SkillController)
+  nameWithType: SkillEvent010.OnSkillUse(SkillController)
+- uid: Global.SkillEvent010.OnSkillUse*
+  name: OnSkillUse
+  href: api/Global.SkillEvent010.html#Global_SkillEvent010_OnSkillUse_
+  commentId: Overload:Global.SkillEvent010.OnSkillUse
+  isSpec: "True"
+  fullName: SkillEvent010.OnSkillUse
+  nameWithType: SkillEvent010.OnSkillUse
+- uid: Global.SkillEvent010.state
+  name: state
+  href: api/Global.SkillEvent010.html#Global_SkillEvent010_state
+  commentId: F:Global.SkillEvent010.state
+  fullName: SkillEvent010.state
+  nameWithType: SkillEvent010.state
 - uid: Global.SkillEvent011
   name: SkillEvent011
   href: api/Global.SkillEvent011.html
   commentId: T:Global.SkillEvent011
   fullName: SkillEvent011
   nameWithType: SkillEvent011
+- uid: Global.SkillEvent011.iconPrefab
+  name: iconPrefab
+  href: api/Global.SkillEvent011.html#Global_SkillEvent011_iconPrefab
+  commentId: F:Global.SkillEvent011.iconPrefab
+  fullName: SkillEvent011.iconPrefab
+  nameWithType: SkillEvent011.iconPrefab
+- uid: Global.SkillEvent011.OnDeath(Unit,Unit,DamageInfo)
+  name: OnDeath(Unit, Unit, DamageInfo)
+  href: api/Global.SkillEvent011.html#Global_SkillEvent011_OnDeath_Unit_Unit_DamageInfo_
+  commentId: M:Global.SkillEvent011.OnDeath(Unit,Unit,DamageInfo)
+  fullName: SkillEvent011.OnDeath(Unit, Unit, DamageInfo)
+  nameWithType: SkillEvent011.OnDeath(Unit, Unit, DamageInfo)
+- uid: Global.SkillEvent011.OnDeath*
+  name: OnDeath
+  href: api/Global.SkillEvent011.html#Global_SkillEvent011_OnDeath_
+  commentId: Overload:Global.SkillEvent011.OnDeath
+  isSpec: "True"
+  fullName: SkillEvent011.OnDeath
+  nameWithType: SkillEvent011.OnDeath
 - uid: Global.SkillEvent011.OnSkillTriggerUnit(SkillController,Unit)
   name: OnSkillTriggerUnit(SkillController, Unit)
   href: api/Global.SkillEvent011.html#Global_SkillEvent011_OnSkillTriggerUnit_SkillController_Unit_
@@ -6184,12 +6449,12 @@ references:
   isSpec: "True"
   fullName: SkillEvent011.OnSkillTriggerUnit
   nameWithType: SkillEvent011.OnSkillTriggerUnit
-- uid: Global.SkillEvent011.OnSkillUse(SkillController,System.Boolean,System.Int32)
-  name: OnSkillUse(SkillController, Boolean, Int32)
-  href: api/Global.SkillEvent011.html#Global_SkillEvent011_OnSkillUse_SkillController_System_Boolean_System_Int32_
-  commentId: M:Global.SkillEvent011.OnSkillUse(SkillController,System.Boolean,System.Int32)
-  fullName: SkillEvent011.OnSkillUse(SkillController, System.Boolean, System.Int32)
-  nameWithType: SkillEvent011.OnSkillUse(SkillController, Boolean, Int32)
+- uid: Global.SkillEvent011.OnSkillUse(SkillController)
+  name: OnSkillUse(SkillController)
+  href: api/Global.SkillEvent011.html#Global_SkillEvent011_OnSkillUse_SkillController_
+  commentId: M:Global.SkillEvent011.OnSkillUse(SkillController)
+  fullName: SkillEvent011.OnSkillUse(SkillController)
+  nameWithType: SkillEvent011.OnSkillUse(SkillController)
 - uid: Global.SkillEvent011.OnSkillUse*
   name: OnSkillUse
   href: api/Global.SkillEvent011.html#Global_SkillEvent011_OnSkillUse_
@@ -6209,12 +6474,12 @@ references:
   commentId: T:Global.SkillEvent012
   fullName: SkillEvent012
   nameWithType: SkillEvent012
-- uid: Global.SkillEvent012.OnSkillUse(SkillController,System.Boolean,System.Int32)
-  name: OnSkillUse(SkillController, Boolean, Int32)
-  href: api/Global.SkillEvent012.html#Global_SkillEvent012_OnSkillUse_SkillController_System_Boolean_System_Int32_
-  commentId: M:Global.SkillEvent012.OnSkillUse(SkillController,System.Boolean,System.Int32)
-  fullName: SkillEvent012.OnSkillUse(SkillController, System.Boolean, System.Int32)
-  nameWithType: SkillEvent012.OnSkillUse(SkillController, Boolean, Int32)
+- uid: Global.SkillEvent012.OnSkillUse(SkillController)
+  name: OnSkillUse(SkillController)
+  href: api/Global.SkillEvent012.html#Global_SkillEvent012_OnSkillUse_SkillController_
+  commentId: M:Global.SkillEvent012.OnSkillUse(SkillController)
+  fullName: SkillEvent012.OnSkillUse(SkillController)
+  nameWithType: SkillEvent012.OnSkillUse(SkillController)
 - uid: Global.SkillEvent012.OnSkillUse*
   name: OnSkillUse
   href: api/Global.SkillEvent012.html#Global_SkillEvent012_OnSkillUse_
@@ -6228,6 +6493,30 @@ references:
   commentId: F:Global.SkillEvent012.state
   fullName: SkillEvent012.state
   nameWithType: SkillEvent012.state
+- uid: Global.SkillEvent013
+  name: SkillEvent013
+  href: api/Global.SkillEvent013.html
+  commentId: T:Global.SkillEvent013
+  fullName: SkillEvent013
+  nameWithType: SkillEvent013
+- uid: Global.SkillEvent014
+  name: SkillEvent014
+  href: api/Global.SkillEvent014.html
+  commentId: T:Global.SkillEvent014
+  fullName: SkillEvent014
+  nameWithType: SkillEvent014
+- uid: Global.SkillEvent015
+  name: SkillEvent015
+  href: api/Global.SkillEvent015.html
+  commentId: T:Global.SkillEvent015
+  fullName: SkillEvent015
+  nameWithType: SkillEvent015
+- uid: Global.SkillEvent016
+  name: SkillEvent016
+  href: api/Global.SkillEvent016.html
+  commentId: T:Global.SkillEvent016
+  fullName: SkillEvent016
+  nameWithType: SkillEvent016
 - uid: Global.SkillMoveType
   name: SkillMoveType
   href: api/Global.SkillMoveType.html
@@ -6264,6 +6553,12 @@ references:
   commentId: T:Global.SkillsConfig
   fullName: SkillsConfig
   nameWithType: SkillsConfig
+- uid: Global.SkillsConfig.defaultControllerPrefab
+  name: defaultControllerPrefab
+  href: api/Global.SkillsConfig.html#Global_SkillsConfig_defaultControllerPrefab
+  commentId: F:Global.SkillsConfig.defaultControllerPrefab
+  fullName: SkillsConfig.defaultControllerPrefab
+  nameWithType: SkillsConfig.defaultControllerPrefab
 - uid: Global.SkillsConfigItem
   name: SkillsConfigItem
   href: api/Global.SkillsConfigItem.html
@@ -6898,6 +7193,19 @@ references:
   commentId: T:Global.StateEvent
   fullName: StateEvent
   nameWithType: StateEvent
+- uid: Global.StateEvent.OnAnyViewClose(BaseView)
+  name: OnAnyViewClose(BaseView)
+  href: api/Global.StateEvent.html#Global_StateEvent_OnAnyViewClose_BaseView_
+  commentId: M:Global.StateEvent.OnAnyViewClose(BaseView)
+  fullName: StateEvent.OnAnyViewClose(BaseView)
+  nameWithType: StateEvent.OnAnyViewClose(BaseView)
+- uid: Global.StateEvent.OnAnyViewClose*
+  name: OnAnyViewClose
+  href: api/Global.StateEvent.html#Global_StateEvent_OnAnyViewClose_
+  commentId: Overload:Global.StateEvent.OnAnyViewClose
+  isSpec: "True"
+  fullName: StateEvent.OnAnyViewClose
+  nameWithType: StateEvent.OnAnyViewClose
 - uid: Global.StateEvent002
   name: StateEvent002
   href: api/Global.StateEvent002.html
@@ -6929,25 +7237,12 @@ references:
   commentId: F:Global.StateEvent002.effect2Prefab
   fullName: StateEvent002.effect2Prefab
   nameWithType: StateEvent002.effect2Prefab
-- uid: Global.StateEvent002.OnDestroy
-  name: OnDestroy()
-  href: api/Global.StateEvent002.html#Global_StateEvent002_OnDestroy
-  commentId: M:Global.StateEvent002.OnDestroy
-  fullName: StateEvent002.OnDestroy()
-  nameWithType: StateEvent002.OnDestroy()
-- uid: Global.StateEvent002.OnDestroy*
-  name: OnDestroy
-  href: api/Global.StateEvent002.html#Global_StateEvent002_OnDestroy_
-  commentId: Overload:Global.StateEvent002.OnDestroy
-  isSpec: "True"
-  fullName: StateEvent002.OnDestroy
-  nameWithType: StateEvent002.OnDestroy
-- uid: Global.StateEvent002.OnSkillUse(SkillController,System.Boolean,System.Int32)
-  name: OnSkillUse(SkillController, Boolean, Int32)
-  href: api/Global.StateEvent002.html#Global_StateEvent002_OnSkillUse_SkillController_System_Boolean_System_Int32_
-  commentId: M:Global.StateEvent002.OnSkillUse(SkillController,System.Boolean,System.Int32)
-  fullName: StateEvent002.OnSkillUse(SkillController, System.Boolean, System.Int32)
-  nameWithType: StateEvent002.OnSkillUse(SkillController, Boolean, Int32)
+- uid: Global.StateEvent002.OnSkillUse(SkillController)
+  name: OnSkillUse(SkillController)
+  href: api/Global.StateEvent002.html#Global_StateEvent002_OnSkillUse_SkillController_
+  commentId: M:Global.StateEvent002.OnSkillUse(SkillController)
+  fullName: StateEvent002.OnSkillUse(SkillController)
+  nameWithType: StateEvent002.OnSkillUse(SkillController)
 - uid: Global.StateEvent002.OnSkillUse*
   name: OnSkillUse
   href: api/Global.StateEvent002.html#Global_StateEvent002_OnSkillUse_
@@ -6968,6 +7263,19 @@ references:
   isSpec: "True"
   fullName: StateEvent002.OnStateGain
   nameWithType: StateEvent002.OnStateGain
+- uid: Global.StateEvent002.OnStateLost(State)
+  name: OnStateLost(State)
+  href: api/Global.StateEvent002.html#Global_StateEvent002_OnStateLost_State_
+  commentId: M:Global.StateEvent002.OnStateLost(State)
+  fullName: StateEvent002.OnStateLost(State)
+  nameWithType: StateEvent002.OnStateLost(State)
+- uid: Global.StateEvent002.OnStateLost*
+  name: OnStateLost
+  href: api/Global.StateEvent002.html#Global_StateEvent002_OnStateLost_
+  commentId: Overload:Global.StateEvent002.OnStateLost
+  isSpec: "True"
+  fullName: StateEvent002.OnStateLost
+  nameWithType: StateEvent002.OnStateLost
 - uid: Global.StateEvent002.OnUnitDash(UnitController)
   name: OnUnitDash(UnitController)
   href: api/Global.StateEvent002.html#Global_StateEvent002_OnUnitDash_UnitController_
@@ -6993,19 +7301,6 @@ references:
   commentId: F:Global.StateEvent003.effectPrefab
   fullName: StateEvent003.effectPrefab
   nameWithType: StateEvent003.effectPrefab
-- uid: Global.StateEvent003.OnDestroy
-  name: OnDestroy()
-  href: api/Global.StateEvent003.html#Global_StateEvent003_OnDestroy
-  commentId: M:Global.StateEvent003.OnDestroy
-  fullName: StateEvent003.OnDestroy()
-  nameWithType: StateEvent003.OnDestroy()
-- uid: Global.StateEvent003.OnDestroy*
-  name: OnDestroy
-  href: api/Global.StateEvent003.html#Global_StateEvent003_OnDestroy_
-  commentId: Overload:Global.StateEvent003.OnDestroy
-  isSpec: "True"
-  fullName: StateEvent003.OnDestroy
-  nameWithType: StateEvent003.OnDestroy
 - uid: Global.StateEvent003.OnStateGain(State)
   name: OnStateGain(State)
   href: api/Global.StateEvent003.html#Global_StateEvent003_OnStateGain_State_
@@ -7019,56 +7314,75 @@ references:
   isSpec: "True"
   fullName: StateEvent003.OnStateGain
   nameWithType: StateEvent003.OnStateGain
+- uid: Global.StateEvent003.OnStateLost(State)
+  name: OnStateLost(State)
+  href: api/Global.StateEvent003.html#Global_StateEvent003_OnStateLost_State_
+  commentId: M:Global.StateEvent003.OnStateLost(State)
+  fullName: StateEvent003.OnStateLost(State)
+  nameWithType: StateEvent003.OnStateLost(State)
+- uid: Global.StateEvent003.OnStateLost*
+  name: OnStateLost
+  href: api/Global.StateEvent003.html#Global_StateEvent003_OnStateLost_
+  commentId: Overload:Global.StateEvent003.OnStateLost
+  isSpec: "True"
+  fullName: StateEvent003.OnStateLost
+  nameWithType: StateEvent003.OnStateLost
 - uid: Global.StateEvent004
   name: StateEvent004
   href: api/Global.StateEvent004.html
   commentId: T:Global.StateEvent004
   fullName: StateEvent004
   nameWithType: StateEvent004
-- uid: Global.StateEvent004.BeforeAttack(Unit,Unit,DamageInfo)
-  name: BeforeAttack(Unit, Unit, DamageInfo)
-  href: api/Global.StateEvent004.html#Global_StateEvent004_BeforeAttack_Unit_Unit_DamageInfo_
-  commentId: M:Global.StateEvent004.BeforeAttack(Unit,Unit,DamageInfo)
-  fullName: StateEvent004.BeforeAttack(Unit, Unit, DamageInfo)
-  nameWithType: StateEvent004.BeforeAttack(Unit, Unit, DamageInfo)
-- uid: Global.StateEvent004.BeforeAttack*
-  name: BeforeAttack
-  href: api/Global.StateEvent004.html#Global_StateEvent004_BeforeAttack_
-  commentId: Overload:Global.StateEvent004.BeforeAttack
+- uid: Global.StateEvent004.AfterDamageCalculator(Unit,Unit,DamageInfo)
+  name: AfterDamageCalculator(Unit, Unit, DamageInfo)
+  href: api/Global.StateEvent004.html#Global_StateEvent004_AfterDamageCalculator_Unit_Unit_DamageInfo_
+  commentId: M:Global.StateEvent004.AfterDamageCalculator(Unit,Unit,DamageInfo)
+  fullName: StateEvent004.AfterDamageCalculator(Unit, Unit, DamageInfo)
+  nameWithType: StateEvent004.AfterDamageCalculator(Unit, Unit, DamageInfo)
+- uid: Global.StateEvent004.AfterDamageCalculator*
+  name: AfterDamageCalculator
+  href: api/Global.StateEvent004.html#Global_StateEvent004_AfterDamageCalculator_
+  commentId: Overload:Global.StateEvent004.AfterDamageCalculator
   isSpec: "True"
-  fullName: StateEvent004.BeforeAttack
-  nameWithType: StateEvent004.BeforeAttack
+  fullName: StateEvent004.AfterDamageCalculator
+  nameWithType: StateEvent004.AfterDamageCalculator
 - uid: Global.StateEvent005
   name: StateEvent005
   href: api/Global.StateEvent005.html
   commentId: T:Global.StateEvent005
   fullName: StateEvent005
   nameWithType: StateEvent005
+- uid: Global.StateEvent005.AfterDamageCalculator(Unit,Unit,DamageInfo)
+  name: AfterDamageCalculator(Unit, Unit, DamageInfo)
+  href: api/Global.StateEvent005.html#Global_StateEvent005_AfterDamageCalculator_Unit_Unit_DamageInfo_
+  commentId: M:Global.StateEvent005.AfterDamageCalculator(Unit,Unit,DamageInfo)
+  fullName: StateEvent005.AfterDamageCalculator(Unit, Unit, DamageInfo)
+  nameWithType: StateEvent005.AfterDamageCalculator(Unit, Unit, DamageInfo)
+- uid: Global.StateEvent005.AfterDamageCalculator*
+  name: AfterDamageCalculator
+  href: api/Global.StateEvent005.html#Global_StateEvent005_AfterDamageCalculator_
+  commentId: Overload:Global.StateEvent005.AfterDamageCalculator
+  isSpec: "True"
+  fullName: StateEvent005.AfterDamageCalculator
+  nameWithType: StateEvent005.AfterDamageCalculator
 - uid: Global.StateEvent005.autoUseSkill
   name: autoUseSkill
   href: api/Global.StateEvent005.html#Global_StateEvent005_autoUseSkill
   commentId: F:Global.StateEvent005.autoUseSkill
   fullName: StateEvent005.autoUseSkill
   nameWithType: StateEvent005.autoUseSkill
-- uid: Global.StateEvent005.BeforeAttack(Unit,Unit,DamageInfo)
-  name: BeforeAttack(Unit, Unit, DamageInfo)
-  href: api/Global.StateEvent005.html#Global_StateEvent005_BeforeAttack_Unit_Unit_DamageInfo_
-  commentId: M:Global.StateEvent005.BeforeAttack(Unit,Unit,DamageInfo)
-  fullName: StateEvent005.BeforeAttack(Unit, Unit, DamageInfo)
-  nameWithType: StateEvent005.BeforeAttack(Unit, Unit, DamageInfo)
-- uid: Global.StateEvent005.BeforeAttack*
-  name: BeforeAttack
-  href: api/Global.StateEvent005.html#Global_StateEvent005_BeforeAttack_
-  commentId: Overload:Global.StateEvent005.BeforeAttack
-  isSpec: "True"
-  fullName: StateEvent005.BeforeAttack
-  nameWithType: StateEvent005.BeforeAttack
 - uid: Global.StateEvent005.passiveSkill1
   name: passiveSkill1
   href: api/Global.StateEvent005.html#Global_StateEvent005_passiveSkill1
   commentId: F:Global.StateEvent005.passiveSkill1
   fullName: StateEvent005.passiveSkill1
   nameWithType: StateEvent005.passiveSkill1
+- uid: Global.StateEvent005.skillComboID
+  name: skillComboID
+  href: api/Global.StateEvent005.html#Global_StateEvent005_skillComboID
+  commentId: F:Global.StateEvent005.skillComboID
+  fullName: StateEvent005.skillComboID
+  nameWithType: StateEvent005.skillComboID
 - uid: Global.StateEvent006
   name: StateEvent006
   href: api/Global.StateEvent006.html
@@ -7081,19 +7395,6 @@ references:
   commentId: F:Global.StateEvent006.effectPrefab
   fullName: StateEvent006.effectPrefab
   nameWithType: StateEvent006.effectPrefab
-- uid: Global.StateEvent006.OnDestroy
-  name: OnDestroy()
-  href: api/Global.StateEvent006.html#Global_StateEvent006_OnDestroy
-  commentId: M:Global.StateEvent006.OnDestroy
-  fullName: StateEvent006.OnDestroy()
-  nameWithType: StateEvent006.OnDestroy()
-- uid: Global.StateEvent006.OnDestroy*
-  name: OnDestroy
-  href: api/Global.StateEvent006.html#Global_StateEvent006_OnDestroy_
-  commentId: Overload:Global.StateEvent006.OnDestroy
-  isSpec: "True"
-  fullName: StateEvent006.OnDestroy
-  nameWithType: StateEvent006.OnDestroy
 - uid: Global.StateEvent006.OnStateGain(State)
   name: OnStateGain(State)
   href: api/Global.StateEvent006.html#Global_StateEvent006_OnStateGain_State_
@@ -7107,6 +7408,64 @@ references:
   isSpec: "True"
   fullName: StateEvent006.OnStateGain
   nameWithType: StateEvent006.OnStateGain
+- uid: Global.StateEvent006.OnStateLost(State)
+  name: OnStateLost(State)
+  href: api/Global.StateEvent006.html#Global_StateEvent006_OnStateLost_State_
+  commentId: M:Global.StateEvent006.OnStateLost(State)
+  fullName: StateEvent006.OnStateLost(State)
+  nameWithType: StateEvent006.OnStateLost(State)
+- uid: Global.StateEvent006.OnStateLost*
+  name: OnStateLost
+  href: api/Global.StateEvent006.html#Global_StateEvent006_OnStateLost_
+  commentId: Overload:Global.StateEvent006.OnStateLost
+  isSpec: "True"
+  fullName: StateEvent006.OnStateLost
+  nameWithType: StateEvent006.OnStateLost
+- uid: Global.StateEvent010
+  name: StateEvent010
+  href: api/Global.StateEvent010.html
+  commentId: T:Global.StateEvent010
+  fullName: StateEvent010
+  nameWithType: StateEvent010
+- uid: Global.StateEvent010.AfterDamageCalculator(Unit,Unit,DamageInfo)
+  name: AfterDamageCalculator(Unit, Unit, DamageInfo)
+  href: api/Global.StateEvent010.html#Global_StateEvent010_AfterDamageCalculator_Unit_Unit_DamageInfo_
+  commentId: M:Global.StateEvent010.AfterDamageCalculator(Unit,Unit,DamageInfo)
+  fullName: StateEvent010.AfterDamageCalculator(Unit, Unit, DamageInfo)
+  nameWithType: StateEvent010.AfterDamageCalculator(Unit, Unit, DamageInfo)
+- uid: Global.StateEvent010.AfterDamageCalculator*
+  name: AfterDamageCalculator
+  href: api/Global.StateEvent010.html#Global_StateEvent010_AfterDamageCalculator_
+  commentId: Overload:Global.StateEvent010.AfterDamageCalculator
+  isSpec: "True"
+  fullName: StateEvent010.AfterDamageCalculator
+  nameWithType: StateEvent010.AfterDamageCalculator
+- uid: Global.StateEvent010.BeforeDamageCalculator(Unit,Unit,DamageInfo)
+  name: BeforeDamageCalculator(Unit, Unit, DamageInfo)
+  href: api/Global.StateEvent010.html#Global_StateEvent010_BeforeDamageCalculator_Unit_Unit_DamageInfo_
+  commentId: M:Global.StateEvent010.BeforeDamageCalculator(Unit,Unit,DamageInfo)
+  fullName: StateEvent010.BeforeDamageCalculator(Unit, Unit, DamageInfo)
+  nameWithType: StateEvent010.BeforeDamageCalculator(Unit, Unit, DamageInfo)
+- uid: Global.StateEvent010.BeforeDamageCalculator*
+  name: BeforeDamageCalculator
+  href: api/Global.StateEvent010.html#Global_StateEvent010_BeforeDamageCalculator_
+  commentId: Overload:Global.StateEvent010.BeforeDamageCalculator
+  isSpec: "True"
+  fullName: StateEvent010.BeforeDamageCalculator
+  nameWithType: StateEvent010.BeforeDamageCalculator
+- uid: Global.StateEvent010.OnSkillUse(SkillController)
+  name: OnSkillUse(SkillController)
+  href: api/Global.StateEvent010.html#Global_StateEvent010_OnSkillUse_SkillController_
+  commentId: M:Global.StateEvent010.OnSkillUse(SkillController)
+  fullName: StateEvent010.OnSkillUse(SkillController)
+  nameWithType: StateEvent010.OnSkillUse(SkillController)
+- uid: Global.StateEvent010.OnSkillUse*
+  name: OnSkillUse
+  href: api/Global.StateEvent010.html#Global_StateEvent010_OnSkillUse_
+  commentId: Overload:Global.StateEvent010.OnSkillUse
+  isSpec: "True"
+  fullName: StateEvent010.OnSkillUse
+  nameWithType: StateEvent010.OnSkillUse
 - uid: Global.StatesConfig
   name: StatesConfig
   href: api/Global.StatesConfig.html
@@ -7582,6 +7941,12 @@ references:
   isSpec: "True"
   fullName: TitleView.StartGame
   nameWithType: TitleView.StartGame
+- uid: Global.TitleView.testSkillList
+  name: testSkillList
+  href: api/Global.TitleView.html#Global_TitleView_testSkillList
+  commentId: F:Global.TitleView.testSkillList
+  fullName: TitleView.testSkillList
+  nameWithType: TitleView.testSkillList
 - uid: Global.Unit
   name: Unit
   href: api/Global.Unit.html
@@ -7860,18 +8225,6 @@ references:
   isSpec: "True"
   fullName: Unit.BasicSPD
   nameWithType: Unit.BasicSPD
-- uid: Global.Unit.BeforeAttack
-  name: BeforeAttack
-  href: api/Global.Unit.html#Global_Unit_BeforeAttack
-  commentId: E:Global.Unit.BeforeAttack
-  fullName: Unit.BeforeAttack
-  nameWithType: Unit.BeforeAttack
-- uid: Global.Unit.BeforeDamage
-  name: BeforeDamage
-  href: api/Global.Unit.html#Global_Unit_BeforeDamage
-  commentId: E:Global.Unit.BeforeDamage
-  fullName: Unit.BeforeDamage
-  nameWithType: Unit.BeforeDamage
 - uid: Global.Unit.BeforeSave
   name: BeforeSave()
   href: api/Global.Unit.html#Global_Unit_BeforeSave
@@ -8125,12 +8478,21 @@ references:
   isSpec: "True"
   fullName: Unit.Controller
   nameWithType: Unit.Controller
-- uid: Global.Unit.Damage(Unit,DamageInfo)
-  name: Damage(Unit, DamageInfo)
-  href: api/Global.Unit.html#Global_Unit_Damage_Unit_DamageInfo_
-  commentId: M:Global.Unit.Damage(Unit,DamageInfo)
-  fullName: Unit.Damage(Unit, DamageInfo)
-  nameWithType: Unit.Damage(Unit, DamageInfo)
+- uid: Global.Unit.Damage(Unit,DamageInfo,System.Func{System.Int32})
+  name: Damage(Unit, DamageInfo, Func<Int32>)
+  href: api/Global.Unit.html#Global_Unit_Damage_Unit_DamageInfo_System_Func_System_Int32__
+  commentId: M:Global.Unit.Damage(Unit,DamageInfo,System.Func{System.Int32})
+  name.vb: Damage(Unit, DamageInfo, Func(Of Int32))
+  fullName: Unit.Damage(Unit, DamageInfo, System.Func<System.Int32>)
+  fullName.vb: Unit.Damage(Unit, DamageInfo, System.Func(Of System.Int32))
+  nameWithType: Unit.Damage(Unit, DamageInfo, Func<Int32>)
+  nameWithType.vb: Unit.Damage(Unit, DamageInfo, Func(Of Int32))
+- uid: Global.Unit.Damage(Unit,DamageInfo,System.Single)
+  name: Damage(Unit, DamageInfo, Single)
+  href: api/Global.Unit.html#Global_Unit_Damage_Unit_DamageInfo_System_Single_
+  commentId: M:Global.Unit.Damage(Unit,DamageInfo,System.Single)
+  fullName: Unit.Damage(Unit, DamageInfo, System.Single)
+  nameWithType: Unit.Damage(Unit, DamageInfo, Single)
 - uid: Global.Unit.Damage*
   name: Damage
   href: api/Global.Unit.html#Global_Unit_Damage_
@@ -8138,12 +8500,6 @@ references:
   isSpec: "True"
   fullName: Unit.Damage
   nameWithType: Unit.Damage
-- uid: Global.Unit.DamagedHandler
-  name: Unit.DamagedHandler
-  href: api/Global.Unit.DamagedHandler.html
-  commentId: T:Global.Unit.DamagedHandler
-  fullName: Unit.DamagedHandler
-  nameWithType: Unit.DamagedHandler
 - uid: Global.Unit.DashRange
   name: DashRange
   href: api/Global.Unit.html#Global_Unit_DashRange
@@ -8436,12 +8792,6 @@ references:
   isSpec: "True"
   fullName: Unit.MaxTOU
   nameWithType: Unit.MaxTOU
-- uid: Global.Unit.OnDeath
-  name: OnDeath
-  href: api/Global.Unit.html#Global_Unit_OnDeath
-  commentId: E:Global.Unit.OnDeath
-  fullName: Unit.OnDeath
-  nameWithType: Unit.OnDeath
 - uid: Global.Unit.Owner
   name: Owner
   href: api/Global.Unit.html#Global_Unit_Owner
@@ -8639,12 +8989,24 @@ references:
   isSpec: "True"
   fullName: UnitController.FixedUpdate
   nameWithType: UnitController.FixedUpdate
-- uid: Global.UnitController.GetSkillController(Skill,System.Boolean)
-  name: GetSkillController(Skill, Boolean)
-  href: api/Global.UnitController.html#Global_UnitController_GetSkillController_Skill_System_Boolean_
-  commentId: M:Global.UnitController.GetSkillController(Skill,System.Boolean)
-  fullName: UnitController.GetSkillController(Skill, System.Boolean)
-  nameWithType: UnitController.GetSkillController(Skill, Boolean)
+- uid: Global.UnitController.GetSkillController(ComboInfo,System.Boolean,System.String)
+  name: GetSkillController(ComboInfo, Boolean, String)
+  href: api/Global.UnitController.html#Global_UnitController_GetSkillController_ComboInfo_System_Boolean_System_String_
+  commentId: M:Global.UnitController.GetSkillController(ComboInfo,System.Boolean,System.String)
+  fullName: UnitController.GetSkillController(ComboInfo, System.Boolean, System.String)
+  nameWithType: UnitController.GetSkillController(ComboInfo, Boolean, String)
+- uid: Global.UnitController.GetSkillController(ComboUseInfo)
+  name: GetSkillController(ComboUseInfo)
+  href: api/Global.UnitController.html#Global_UnitController_GetSkillController_ComboUseInfo_
+  commentId: M:Global.UnitController.GetSkillController(ComboUseInfo)
+  fullName: UnitController.GetSkillController(ComboUseInfo)
+  nameWithType: UnitController.GetSkillController(ComboUseInfo)
+- uid: Global.UnitController.GetSkillController(Skill,System.Int32,System.Boolean,System.String)
+  name: GetSkillController(Skill, Int32, Boolean, String)
+  href: api/Global.UnitController.html#Global_UnitController_GetSkillController_Skill_System_Int32_System_Boolean_System_String_
+  commentId: M:Global.UnitController.GetSkillController(Skill,System.Int32,System.Boolean,System.String)
+  fullName: UnitController.GetSkillController(Skill, System.Int32, System.Boolean, System.String)
+  nameWithType: UnitController.GetSkillController(Skill, Int32, Boolean, String)
 - uid: Global.UnitController.GetSkillController*
   name: GetSkillController
   href: api/Global.UnitController.html#Global_UnitController_GetSkillController_
@@ -8766,12 +9128,24 @@ references:
   isSpec: "True"
   fullName: UnitController.Update
   nameWithType: UnitController.Update
-- uid: Global.UnitController.UseSkill(Skill,System.Boolean,System.Int32)
-  name: UseSkill(Skill, Boolean, Int32)
-  href: api/Global.UnitController.html#Global_UnitController_UseSkill_Skill_System_Boolean_System_Int32_
-  commentId: M:Global.UnitController.UseSkill(Skill,System.Boolean,System.Int32)
-  fullName: UnitController.UseSkill(Skill, System.Boolean, System.Int32)
-  nameWithType: UnitController.UseSkill(Skill, Boolean, Int32)
+- uid: Global.UnitController.UseSkill(ComboInfo,System.Boolean,System.String)
+  name: UseSkill(ComboInfo, Boolean, String)
+  href: api/Global.UnitController.html#Global_UnitController_UseSkill_ComboInfo_System_Boolean_System_String_
+  commentId: M:Global.UnitController.UseSkill(ComboInfo,System.Boolean,System.String)
+  fullName: UnitController.UseSkill(ComboInfo, System.Boolean, System.String)
+  nameWithType: UnitController.UseSkill(ComboInfo, Boolean, String)
+- uid: Global.UnitController.UseSkill(ComboUseInfo)
+  name: UseSkill(ComboUseInfo)
+  href: api/Global.UnitController.html#Global_UnitController_UseSkill_ComboUseInfo_
+  commentId: M:Global.UnitController.UseSkill(ComboUseInfo)
+  fullName: UnitController.UseSkill(ComboUseInfo)
+  nameWithType: UnitController.UseSkill(ComboUseInfo)
+- uid: Global.UnitController.UseSkill(Skill,System.Int32,System.Boolean,System.String)
+  name: UseSkill(Skill, Int32, Boolean, String)
+  href: api/Global.UnitController.html#Global_UnitController_UseSkill_Skill_System_Int32_System_Boolean_System_String_
+  commentId: M:Global.UnitController.UseSkill(Skill,System.Int32,System.Boolean,System.String)
+  fullName: UnitController.UseSkill(Skill, System.Int32, System.Boolean, System.String)
+  nameWithType: UnitController.UseSkill(Skill, Int32, Boolean, String)
 - uid: Global.UnitController.UseSkill*
   name: UseSkill
   href: api/Global.UnitController.html#Global_UnitController_UseSkill_
@@ -8835,18 +9209,31 @@ references:
   isSpec: "True"
   fullName: UnitEvent.DoBehaviour
   nameWithType: UnitEvent.DoBehaviour
+- uid: Global.UnitEvent.OnAnyViewClose(BaseView)
+  name: OnAnyViewClose(BaseView)
+  href: api/Global.UnitEvent.html#Global_UnitEvent_OnAnyViewClose_BaseView_
+  commentId: M:Global.UnitEvent.OnAnyViewClose(BaseView)
+  fullName: UnitEvent.OnAnyViewClose(BaseView)
+  nameWithType: UnitEvent.OnAnyViewClose(BaseView)
+- uid: Global.UnitEvent.OnAnyViewClose*
+  name: OnAnyViewClose
+  href: api/Global.UnitEvent.html#Global_UnitEvent_OnAnyViewClose_
+  commentId: Overload:Global.UnitEvent.OnAnyViewClose
+  isSpec: "True"
+  fullName: UnitEvent.OnAnyViewClose
+  nameWithType: UnitEvent.OnAnyViewClose
 - uid: Global.UnitEvent000
   name: UnitEvent000
   href: api/Global.UnitEvent000.html
   commentId: T:Global.UnitEvent000
   fullName: UnitEvent000
   nameWithType: UnitEvent000
-- uid: Global.UnitEvent000.OnDeath(Unit)
-  name: OnDeath(Unit)
-  href: api/Global.UnitEvent000.html#Global_UnitEvent000_OnDeath_Unit_
-  commentId: M:Global.UnitEvent000.OnDeath(Unit)
-  fullName: UnitEvent000.OnDeath(Unit)
-  nameWithType: UnitEvent000.OnDeath(Unit)
+- uid: Global.UnitEvent000.OnDeath(Unit,Unit,DamageInfo)
+  name: OnDeath(Unit, Unit, DamageInfo)
+  href: api/Global.UnitEvent000.html#Global_UnitEvent000_OnDeath_Unit_Unit_DamageInfo_
+  commentId: M:Global.UnitEvent000.OnDeath(Unit,Unit,DamageInfo)
+  fullName: UnitEvent000.OnDeath(Unit, Unit, DamageInfo)
+  nameWithType: UnitEvent000.OnDeath(Unit, Unit, DamageInfo)
 - uid: Global.UnitEvent000.OnDeath*
   name: OnDeath
   href: api/Global.UnitEvent000.html#Global_UnitEvent000_OnDeath_
@@ -8872,19 +9259,19 @@ references:
   commentId: F:Global.UnitEvent002.autoUseSkill2
   fullName: UnitEvent002.autoUseSkill2
   nameWithType: UnitEvent002.autoUseSkill2
-- uid: Global.UnitEvent002.OnSkillCustomTriggered(SkillController,System.String)
-  name: OnSkillCustomTriggered(SkillController, String)
-  href: api/Global.UnitEvent002.html#Global_UnitEvent002_OnSkillCustomTriggered_SkillController_System_String_
-  commentId: M:Global.UnitEvent002.OnSkillCustomTriggered(SkillController,System.String)
-  fullName: UnitEvent002.OnSkillCustomTriggered(SkillController, System.String)
-  nameWithType: UnitEvent002.OnSkillCustomTriggered(SkillController, String)
-- uid: Global.UnitEvent002.OnSkillCustomTriggered*
-  name: OnSkillCustomTriggered
-  href: api/Global.UnitEvent002.html#Global_UnitEvent002_OnSkillCustomTriggered_
-  commentId: Overload:Global.UnitEvent002.OnSkillCustomTriggered
+- uid: Global.UnitEvent002.OnSkillCustomTrigger(SkillController,System.String)
+  name: OnSkillCustomTrigger(SkillController, String)
+  href: api/Global.UnitEvent002.html#Global_UnitEvent002_OnSkillCustomTrigger_SkillController_System_String_
+  commentId: M:Global.UnitEvent002.OnSkillCustomTrigger(SkillController,System.String)
+  fullName: UnitEvent002.OnSkillCustomTrigger(SkillController, System.String)
+  nameWithType: UnitEvent002.OnSkillCustomTrigger(SkillController, String)
+- uid: Global.UnitEvent002.OnSkillCustomTrigger*
+  name: OnSkillCustomTrigger
+  href: api/Global.UnitEvent002.html#Global_UnitEvent002_OnSkillCustomTrigger_
+  commentId: Overload:Global.UnitEvent002.OnSkillCustomTrigger
   isSpec: "True"
-  fullName: UnitEvent002.OnSkillCustomTriggered
-  nameWithType: UnitEvent002.OnSkillCustomTriggered
+  fullName: UnitEvent002.OnSkillCustomTrigger
+  nameWithType: UnitEvent002.OnSkillCustomTrigger
 - uid: Global.UnitEvent002.OnSkillTriggerUnit(SkillController,Unit)
   name: OnSkillTriggerUnit(SkillController, Unit)
   href: api/Global.UnitEvent002.html#Global_UnitEvent002_OnSkillTriggerUnit_SkillController_Unit_
@@ -8954,25 +9341,25 @@ references:
   commentId: T:Global.UnitEvent015
   fullName: UnitEvent015
   nameWithType: UnitEvent015
+- uid: Global.UnitEvent015.AfterDamageCalculator(Unit,Unit,DamageInfo)
+  name: AfterDamageCalculator(Unit, Unit, DamageInfo)
+  href: api/Global.UnitEvent015.html#Global_UnitEvent015_AfterDamageCalculator_Unit_Unit_DamageInfo_
+  commentId: M:Global.UnitEvent015.AfterDamageCalculator(Unit,Unit,DamageInfo)
+  fullName: UnitEvent015.AfterDamageCalculator(Unit, Unit, DamageInfo)
+  nameWithType: UnitEvent015.AfterDamageCalculator(Unit, Unit, DamageInfo)
+- uid: Global.UnitEvent015.AfterDamageCalculator*
+  name: AfterDamageCalculator
+  href: api/Global.UnitEvent015.html#Global_UnitEvent015_AfterDamageCalculator_
+  commentId: Overload:Global.UnitEvent015.AfterDamageCalculator
+  isSpec: "True"
+  fullName: UnitEvent015.AfterDamageCalculator
+  nameWithType: UnitEvent015.AfterDamageCalculator
 - uid: Global.UnitEvent015.autoCreateUnit
   name: autoCreateUnit
   href: api/Global.UnitEvent015.html#Global_UnitEvent015_autoCreateUnit
   commentId: F:Global.UnitEvent015.autoCreateUnit
   fullName: UnitEvent015.autoCreateUnit
   nameWithType: UnitEvent015.autoCreateUnit
-- uid: Global.UnitEvent015.BeforeAttack(Unit,Unit,DamageInfo)
-  name: BeforeAttack(Unit, Unit, DamageInfo)
-  href: api/Global.UnitEvent015.html#Global_UnitEvent015_BeforeAttack_Unit_Unit_DamageInfo_
-  commentId: M:Global.UnitEvent015.BeforeAttack(Unit,Unit,DamageInfo)
-  fullName: UnitEvent015.BeforeAttack(Unit, Unit, DamageInfo)
-  nameWithType: UnitEvent015.BeforeAttack(Unit, Unit, DamageInfo)
-- uid: Global.UnitEvent015.BeforeAttack*
-  name: BeforeAttack
-  href: api/Global.UnitEvent015.html#Global_UnitEvent015_BeforeAttack_
-  commentId: Overload:Global.UnitEvent015.BeforeAttack
-  isSpec: "True"
-  fullName: UnitEvent015.BeforeAttack
-  nameWithType: UnitEvent015.BeforeAttack
 - uid: Global.UnitEvent015.effect1Prefabs
   name: effect1Prefabs
   href: api/Global.UnitEvent015.html#Global_UnitEvent015_effect1Prefabs
@@ -9010,50 +9397,69 @@ references:
   commentId: T:Global.UnitEvent017
   fullName: UnitEvent017
   nameWithType: UnitEvent017
+- uid: Global.UnitEvent017.AfterDamageCalculator(Unit,Unit,DamageInfo)
+  name: AfterDamageCalculator(Unit, Unit, DamageInfo)
+  href: api/Global.UnitEvent017.html#Global_UnitEvent017_AfterDamageCalculator_Unit_Unit_DamageInfo_
+  commentId: M:Global.UnitEvent017.AfterDamageCalculator(Unit,Unit,DamageInfo)
+  fullName: UnitEvent017.AfterDamageCalculator(Unit, Unit, DamageInfo)
+  nameWithType: UnitEvent017.AfterDamageCalculator(Unit, Unit, DamageInfo)
+- uid: Global.UnitEvent017.AfterDamageCalculator*
+  name: AfterDamageCalculator
+  href: api/Global.UnitEvent017.html#Global_UnitEvent017_AfterDamageCalculator_
+  commentId: Overload:Global.UnitEvent017.AfterDamageCalculator
+  isSpec: "True"
+  fullName: UnitEvent017.AfterDamageCalculator
+  nameWithType: UnitEvent017.AfterDamageCalculator
 - uid: Global.UnitEvent017.autoCreateUnit
   name: autoCreateUnit
   href: api/Global.UnitEvent017.html#Global_UnitEvent017_autoCreateUnit
   commentId: F:Global.UnitEvent017.autoCreateUnit
   fullName: UnitEvent017.autoCreateUnit
   nameWithType: UnitEvent017.autoCreateUnit
-- uid: Global.UnitEvent017.BeforeAttack(Unit,Unit,DamageInfo)
-  name: BeforeAttack(Unit, Unit, DamageInfo)
-  href: api/Global.UnitEvent017.html#Global_UnitEvent017_BeforeAttack_Unit_Unit_DamageInfo_
-  commentId: M:Global.UnitEvent017.BeforeAttack(Unit,Unit,DamageInfo)
-  fullName: UnitEvent017.BeforeAttack(Unit, Unit, DamageInfo)
-  nameWithType: UnitEvent017.BeforeAttack(Unit, Unit, DamageInfo)
-- uid: Global.UnitEvent017.BeforeAttack*
-  name: BeforeAttack
-  href: api/Global.UnitEvent017.html#Global_UnitEvent017_BeforeAttack_
-  commentId: Overload:Global.UnitEvent017.BeforeAttack
-  isSpec: "True"
-  fullName: UnitEvent017.BeforeAttack
-  nameWithType: UnitEvent017.BeforeAttack
 - uid: Global.UnitEvent017.newSprite
   name: newSprite
   href: api/Global.UnitEvent017.html#Global_UnitEvent017_newSprite
   commentId: F:Global.UnitEvent017.newSprite
   fullName: UnitEvent017.newSprite
   nameWithType: UnitEvent017.newSprite
+- uid: Global.UnitEvent019
+  name: UnitEvent019
+  href: api/Global.UnitEvent019.html
+  commentId: T:Global.UnitEvent019
+  fullName: UnitEvent019
+  nameWithType: UnitEvent019
+- uid: Global.UnitEvent019.OnInventoryUnitClick(Unit,PointerEventData)
+  name: OnInventoryUnitClick(Unit, PointerEventData)
+  href: api/Global.UnitEvent019.html#Global_UnitEvent019_OnInventoryUnitClick_Unit_PointerEventData_
+  commentId: M:Global.UnitEvent019.OnInventoryUnitClick(Unit,PointerEventData)
+  fullName: UnitEvent019.OnInventoryUnitClick(Unit, PointerEventData)
+  nameWithType: UnitEvent019.OnInventoryUnitClick(Unit, PointerEventData)
+- uid: Global.UnitEvent019.OnInventoryUnitClick*
+  name: OnInventoryUnitClick
+  href: api/Global.UnitEvent019.html#Global_UnitEvent019_OnInventoryUnitClick_
+  commentId: Overload:Global.UnitEvent019.OnInventoryUnitClick
+  isSpec: "True"
+  fullName: UnitEvent019.OnInventoryUnitClick
+  nameWithType: UnitEvent019.OnInventoryUnitClick
 - uid: Global.UnitEvent021
   name: UnitEvent021
   href: api/Global.UnitEvent021.html
   commentId: T:Global.UnitEvent021
   fullName: UnitEvent021
   nameWithType: UnitEvent021
-- uid: Global.UnitEvent021.BeforeAttack(Unit,Unit,DamageInfo)
-  name: BeforeAttack(Unit, Unit, DamageInfo)
-  href: api/Global.UnitEvent021.html#Global_UnitEvent021_BeforeAttack_Unit_Unit_DamageInfo_
-  commentId: M:Global.UnitEvent021.BeforeAttack(Unit,Unit,DamageInfo)
-  fullName: UnitEvent021.BeforeAttack(Unit, Unit, DamageInfo)
-  nameWithType: UnitEvent021.BeforeAttack(Unit, Unit, DamageInfo)
-- uid: Global.UnitEvent021.BeforeAttack*
-  name: BeforeAttack
-  href: api/Global.UnitEvent021.html#Global_UnitEvent021_BeforeAttack_
-  commentId: Overload:Global.UnitEvent021.BeforeAttack
+- uid: Global.UnitEvent021.AfterDamageCalculator(Unit,Unit,DamageInfo)
+  name: AfterDamageCalculator(Unit, Unit, DamageInfo)
+  href: api/Global.UnitEvent021.html#Global_UnitEvent021_AfterDamageCalculator_Unit_Unit_DamageInfo_
+  commentId: M:Global.UnitEvent021.AfterDamageCalculator(Unit,Unit,DamageInfo)
+  fullName: UnitEvent021.AfterDamageCalculator(Unit, Unit, DamageInfo)
+  nameWithType: UnitEvent021.AfterDamageCalculator(Unit, Unit, DamageInfo)
+- uid: Global.UnitEvent021.AfterDamageCalculator*
+  name: AfterDamageCalculator
+  href: api/Global.UnitEvent021.html#Global_UnitEvent021_AfterDamageCalculator_
+  commentId: Overload:Global.UnitEvent021.AfterDamageCalculator
   isSpec: "True"
-  fullName: UnitEvent021.BeforeAttack
-  nameWithType: UnitEvent021.BeforeAttack
+  fullName: UnitEvent021.AfterDamageCalculator
+  nameWithType: UnitEvent021.AfterDamageCalculator
 - uid: Global.UnitEvent021.newSprite
   name: newSprite
   href: api/Global.UnitEvent021.html#Global_UnitEvent021_newSprite
@@ -9066,19 +9472,19 @@ references:
   commentId: T:Global.UnitEvent022
   fullName: UnitEvent022
   nameWithType: UnitEvent022
-- uid: Global.UnitEvent022.BeforeAttack(Unit,Unit,DamageInfo)
-  name: BeforeAttack(Unit, Unit, DamageInfo)
-  href: api/Global.UnitEvent022.html#Global_UnitEvent022_BeforeAttack_Unit_Unit_DamageInfo_
-  commentId: M:Global.UnitEvent022.BeforeAttack(Unit,Unit,DamageInfo)
-  fullName: UnitEvent022.BeforeAttack(Unit, Unit, DamageInfo)
-  nameWithType: UnitEvent022.BeforeAttack(Unit, Unit, DamageInfo)
-- uid: Global.UnitEvent022.BeforeAttack*
-  name: BeforeAttack
-  href: api/Global.UnitEvent022.html#Global_UnitEvent022_BeforeAttack_
-  commentId: Overload:Global.UnitEvent022.BeforeAttack
+- uid: Global.UnitEvent022.AfterDamageCalculator(Unit,Unit,DamageInfo)
+  name: AfterDamageCalculator(Unit, Unit, DamageInfo)
+  href: api/Global.UnitEvent022.html#Global_UnitEvent022_AfterDamageCalculator_Unit_Unit_DamageInfo_
+  commentId: M:Global.UnitEvent022.AfterDamageCalculator(Unit,Unit,DamageInfo)
+  fullName: UnitEvent022.AfterDamageCalculator(Unit, Unit, DamageInfo)
+  nameWithType: UnitEvent022.AfterDamageCalculator(Unit, Unit, DamageInfo)
+- uid: Global.UnitEvent022.AfterDamageCalculator*
+  name: AfterDamageCalculator
+  href: api/Global.UnitEvent022.html#Global_UnitEvent022_AfterDamageCalculator_
+  commentId: Overload:Global.UnitEvent022.AfterDamageCalculator
   isSpec: "True"
-  fullName: UnitEvent022.BeforeAttack
-  nameWithType: UnitEvent022.BeforeAttack
+  fullName: UnitEvent022.AfterDamageCalculator
+  nameWithType: UnitEvent022.AfterDamageCalculator
 - uid: Global.UnitEvent022.newSprite
   name: newSprite
   href: api/Global.UnitEvent022.html#Global_UnitEvent022_newSprite
@@ -9109,6 +9515,12 @@ references:
   commentId: F:Global.UnitInfoShower.descText
   fullName: UnitInfoShower.descText
   nameWithType: UnitInfoShower.descText
+- uid: Global.UnitInfoShower.iconImage
+  name: iconImage
+  href: api/Global.UnitInfoShower.html#Global_UnitInfoShower_iconImage
+  commentId: F:Global.UnitInfoShower.iconImage
+  fullName: UnitInfoShower.iconImage
+  nameWithType: UnitInfoShower.iconImage
 - uid: Global.UnitInfoShower.levelImage
   name: levelImage
   href: api/Global.UnitInfoShower.html#Global_UnitInfoShower_levelImage
@@ -9127,6 +9539,38 @@ references:
   commentId: F:Global.UnitInfoShower.nameText
   fullName: UnitInfoShower.nameText
   nameWithType: UnitInfoShower.nameText
+- uid: Global.UnitInfoShower.OnDisable
+  name: OnDisable()
+  href: api/Global.UnitInfoShower.html#Global_UnitInfoShower_OnDisable
+  commentId: M:Global.UnitInfoShower.OnDisable
+  fullName: UnitInfoShower.OnDisable()
+  nameWithType: UnitInfoShower.OnDisable()
+- uid: Global.UnitInfoShower.OnDisable*
+  name: OnDisable
+  href: api/Global.UnitInfoShower.html#Global_UnitInfoShower_OnDisable_
+  commentId: Overload:Global.UnitInfoShower.OnDisable
+  isSpec: "True"
+  fullName: UnitInfoShower.OnDisable
+  nameWithType: UnitInfoShower.OnDisable
+- uid: Global.UnitInfoShower.OnEnable
+  name: OnEnable()
+  href: api/Global.UnitInfoShower.html#Global_UnitInfoShower_OnEnable
+  commentId: M:Global.UnitInfoShower.OnEnable
+  fullName: UnitInfoShower.OnEnable()
+  nameWithType: UnitInfoShower.OnEnable()
+- uid: Global.UnitInfoShower.OnEnable*
+  name: OnEnable
+  href: api/Global.UnitInfoShower.html#Global_UnitInfoShower_OnEnable_
+  commentId: Overload:Global.UnitInfoShower.OnEnable
+  isSpec: "True"
+  fullName: UnitInfoShower.OnEnable
+  nameWithType: UnitInfoShower.OnEnable
+- uid: Global.UnitInfoShower.OnSkillComboSelect
+  name: OnSkillComboSelect
+  href: api/Global.UnitInfoShower.html#Global_UnitInfoShower_OnSkillComboSelect
+  commentId: E:Global.UnitInfoShower.OnSkillComboSelect
+  fullName: UnitInfoShower.OnSkillComboSelect
+  nameWithType: UnitInfoShower.OnSkillComboSelect
 - uid: Global.UnitInfoShower.Refresh
   name: Refresh()
   href: api/Global.UnitInfoShower.html#Global_UnitInfoShower_Refresh
@@ -9140,6 +9584,18 @@ references:
   isSpec: "True"
   fullName: UnitInfoShower.Refresh
   nameWithType: UnitInfoShower.Refresh
+- uid: Global.UnitInfoShower.skillComboContent
+  name: skillComboContent
+  href: api/Global.UnitInfoShower.html#Global_UnitInfoShower_skillComboContent
+  commentId: F:Global.UnitInfoShower.skillComboContent
+  fullName: UnitInfoShower.skillComboContent
+  nameWithType: UnitInfoShower.skillComboContent
+- uid: Global.UnitInfoShower.skillComboPrefab
+  name: skillComboPrefab
+  href: api/Global.UnitInfoShower.html#Global_UnitInfoShower_skillComboPrefab
+  commentId: F:Global.UnitInfoShower.skillComboPrefab
+  fullName: UnitInfoShower.skillComboPrefab
+  nameWithType: UnitInfoShower.skillComboPrefab
 - uid: Global.UnitInfoShower.TargetConfig
   name: TargetConfig
   href: api/Global.UnitInfoShower.html#Global_UnitInfoShower_TargetConfig
@@ -9398,6 +9854,12 @@ references:
   commentId: F:Global.UnitsConfigItem.hideInMenu
   fullName: UnitsConfigItem.hideInMenu
   nameWithType: UnitsConfigItem.hideInMenu
+- uid: Global.UnitsConfigItem.icon
+  name: icon
+  href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_icon
+  commentId: F:Global.UnitsConfigItem.icon
+  fullName: UnitsConfigItem.icon
+  nameWithType: UnitsConfigItem.icon
 - uid: Global.UnitsConfigItem.isAllyTargetable
   name: isAllyTargetable
   href: api/Global.UnitsConfigItem.html#Global_UnitsConfigItem_isAllyTargetable
@@ -9470,68 +9932,18 @@ references:
   commentId: F:Global.UnitsConfigItem.type
   fullName: UnitsConfigItem.type
   nameWithType: UnitsConfigItem.type
-- uid: Global.UnitSkillItem
-  name: UnitSkillItem
-  href: api/Global.UnitSkillItem.html
-  commentId: T:Global.UnitSkillItem
-  fullName: UnitSkillItem
-  nameWithType: UnitSkillItem
-- uid: Global.UnitSkillItem.content
-  name: content
-  href: api/Global.UnitSkillItem.html#Global_UnitSkillItem_content
-  commentId: F:Global.UnitSkillItem.content
-  fullName: UnitSkillItem.content
-  nameWithType: UnitSkillItem.content
-- uid: Global.UnitSkillItem.OnSkillComboSelect
-  name: OnSkillComboSelect
-  href: api/Global.UnitSkillItem.html#Global_UnitSkillItem_OnSkillComboSelect
-  commentId: E:Global.UnitSkillItem.OnSkillComboSelect
-  fullName: UnitSkillItem.OnSkillComboSelect
-  nameWithType: UnitSkillItem.OnSkillComboSelect
-- uid: Global.UnitSkillItem.Refresh
-  name: Refresh()
-  href: api/Global.UnitSkillItem.html#Global_UnitSkillItem_Refresh
-  commentId: M:Global.UnitSkillItem.Refresh
-  fullName: UnitSkillItem.Refresh()
-  nameWithType: UnitSkillItem.Refresh()
-- uid: Global.UnitSkillItem.Refresh*
-  name: Refresh
-  href: api/Global.UnitSkillItem.html#Global_UnitSkillItem_Refresh_
-  commentId: Overload:Global.UnitSkillItem.Refresh
-  isSpec: "True"
-  fullName: UnitSkillItem.Refresh
-  nameWithType: UnitSkillItem.Refresh
-- uid: Global.UnitSkillItem.skillComboItemPrefab
-  name: skillComboItemPrefab
-  href: api/Global.UnitSkillItem.html#Global_UnitSkillItem_skillComboItemPrefab
-  commentId: F:Global.UnitSkillItem.skillComboItemPrefab
-  fullName: UnitSkillItem.skillComboItemPrefab
-  nameWithType: UnitSkillItem.skillComboItemPrefab
-- uid: Global.UnitSkillItem.TargetUnit
-  name: TargetUnit
-  href: api/Global.UnitSkillItem.html#Global_UnitSkillItem_TargetUnit
-  commentId: P:Global.UnitSkillItem.TargetUnit
-  fullName: UnitSkillItem.TargetUnit
-  nameWithType: UnitSkillItem.TargetUnit
-- uid: Global.UnitSkillItem.TargetUnit*
-  name: TargetUnit
-  href: api/Global.UnitSkillItem.html#Global_UnitSkillItem_TargetUnit_
-  commentId: Overload:Global.UnitSkillItem.TargetUnit
-  isSpec: "True"
-  fullName: UnitSkillItem.TargetUnit
-  nameWithType: UnitSkillItem.TargetUnit
-- uid: Global.UnitSkillItem.titleText
-  name: titleText
-  href: api/Global.UnitSkillItem.html#Global_UnitSkillItem_titleText
-  commentId: F:Global.UnitSkillItem.titleText
-  fullName: UnitSkillItem.titleText
-  nameWithType: UnitSkillItem.titleText
 - uid: Global.UnitType
   name: UnitType
   href: api/Global.UnitType.html
   commentId: T:Global.UnitType
   fullName: UnitType
   nameWithType: UnitType
+- uid: Global.UnitType.Artifact
+  name: Artifact
+  href: api/Global.UnitType.html#Global_UnitType_Artifact
+  commentId: F:Global.UnitType.Artifact
+  fullName: UnitType.Artifact
+  nameWithType: UnitType.Artifact
 - uid: Global.UnitType.Elixir
   name: Elixir
   href: api/Global.UnitType.html#Global_UnitType_Elixir
@@ -9550,6 +9962,12 @@ references:
   commentId: F:Global.UnitType.LegendarySword
   fullName: UnitType.LegendarySword
   nameWithType: UnitType.LegendarySword
+- uid: Global.UnitType.MartialArt
+  name: MartialArt
+  href: api/Global.UnitType.html#Global_UnitType_MartialArt
+  commentId: F:Global.UnitType.MartialArt
+  fullName: UnitType.MartialArt
+  nameWithType: UnitType.MartialArt
 - uid: Global.UnitType.Material
   name: Material
   href: api/Global.UnitType.html#Global_UnitType_Material

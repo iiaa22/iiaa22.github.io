@@ -89,7 +89,8 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">InventoryItem</span></div>
+    <div class="level1"><a class="xref" href="Global.UnitInfoShower.html">UnitInfoShower</a></div>
+    <div class="level2"><span class="xref">InventoryItem</span></div>
   </div>
   <div class="implements">
     <h5>Implements</h5>
@@ -98,24 +99,70 @@
     <div><span class="xref">IEndDragHandler</span></div>
     <div><span class="xref">IPointerEnterHandler</span></div>
     <div><span class="xref">IPointerExitHandler</span></div>
+    <div><span class="xref">IPointerClickHandler</span></div>
     <div><span class="xref">IPointerDownHandler</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Global.UnitInfoShower.html#Global_UnitInfoShower_nameText">UnitInfoShower.nameText</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.UnitInfoShower.html#Global_UnitInfoShower_buildedText">UnitInfoShower.buildedText</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.UnitInfoShower.html#Global_UnitInfoShower_descText">UnitInfoShower.descText</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.UnitInfoShower.html#Global_UnitInfoShower_customText">UnitInfoShower.customText</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.UnitInfoShower.html#Global_UnitInfoShower_iconImage">UnitInfoShower.iconImage</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.UnitInfoShower.html#Global_UnitInfoShower_levelImage">UnitInfoShower.levelImage</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.UnitInfoShower.html#Global_UnitInfoShower_levelSprites">UnitInfoShower.levelSprites</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.UnitInfoShower.html#Global_UnitInfoShower_skillComboContent">UnitInfoShower.skillComboContent</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.UnitInfoShower.html#Global_UnitInfoShower_skillComboPrefab">UnitInfoShower.skillComboPrefab</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.UnitInfoShower.html#Global_UnitInfoShower_OnSkillComboSelect">UnitInfoShower.OnSkillComboSelect</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.UnitInfoShower.html#Global_UnitInfoShower_TargetUnit">UnitInfoShower.TargetUnit</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.UnitInfoShower.html#Global_UnitInfoShower_TargetConfig">UnitInfoShower.TargetConfig</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.UnitInfoShower.html#Global_UnitInfoShower_OnEnable">UnitInfoShower.OnEnable()</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.UnitInfoShower.html#Global_UnitInfoShower_OnDisable">UnitInfoShower.OnDisable()</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="Global_InventoryItem_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class InventoryItem : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class InventoryItem : UnitInfoShower</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="Global_InventoryItem_buildedText" data-uid="Global.InventoryItem.buildedText">buildedText</h4>
+  <h4 id="Global_InventoryItem_skillShowerPrefab" data-uid="Global.InventoryItem.skillShowerPrefab">skillShowerPrefab</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TextMeshProUGUI buildedText</code></pre>
+    <pre><code class="lang-csharp hljs">public UnitInfoShower skillShowerPrefab</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -127,58 +174,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TextMeshProUGUI</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_InventoryItem_titleText" data-uid="Global.InventoryItem.titleText">titleText</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public TextMeshProUGUI titleText</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TextMeshProUGUI</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="Global_InventoryItem_TargetUnit_" data-uid="Global.InventoryItem.TargetUnit*"></a>
-  <h4 id="Global_InventoryItem_TargetUnit" data-uid="Global.InventoryItem.TargetUnit">TargetUnit</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Unit TargetUnit { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Global.Unit.html">Unit</a></td>
+        <td><a class="xref" href="Global.UnitInfoShower.html">UnitInfoShower</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -248,6 +244,33 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void OnEndDrag(PointerEventData eventData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_InventoryItem_OnPointerClick_" data-uid="Global.InventoryItem.OnPointerClick*"></a>
+  <h4 id="Global_InventoryItem_OnPointerClick_PointerEventData_" data-uid="Global.InventoryItem.OnPointerClick(PointerEventData)">OnPointerClick(PointerEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnPointerClick(PointerEventData eventData)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -355,8 +378,10 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Refresh()</code></pre>
+    <pre><code class="lang-csharp hljs">public override void Refresh()</code></pre>
   </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Global.UnitInfoShower.html#Global_UnitInfoShower_Refresh">UnitInfoShower.Refresh()</a></div>
   <h3 id="implements">Implements</h3>
   <div>
       <span class="xref">IBeginDragHandler</span>
@@ -372,6 +397,9 @@
   </div>
   <div>
       <span class="xref">IPointerExitHandler</span>
+  </div>
+  <div>
+      <span class="xref">IPointerClickHandler</span>
   </div>
   <div>
       <span class="xref">IPointerDownHandler</span>

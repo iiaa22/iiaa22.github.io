@@ -90,6 +90,7 @@
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">UnitInfoShower</span></div>
+      <div class="level2"><a class="xref" href="Global.InventoryItem.html">InventoryItem</a></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
@@ -173,6 +174,30 @@
   </table>
   
   
+  <h4 id="Global_UnitInfoShower_iconImage" data-uid="Global.UnitInfoShower.iconImage">iconImage</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Image iconImage</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Image</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Global_UnitInfoShower_levelImage" data-uid="Global.UnitInfoShower.levelImage">levelImage</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -243,6 +268,54 @@
       </tr>
     </tbody>
   </table>
+  
+  
+  <h4 id="Global_UnitInfoShower_skillComboContent" data-uid="Global.UnitInfoShower.skillComboContent">skillComboContent</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public GridLayoutGroup skillComboContent</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">GridLayoutGroup</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_UnitInfoShower_skillComboPrefab" data-uid="Global.UnitInfoShower.skillComboPrefab">skillComboPrefab</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SkillComboItem skillComboPrefab</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.SkillComboItem.html">SkillComboItem</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   
@@ -299,14 +372,60 @@
   </h3>
   
   
+  <a id="Global_UnitInfoShower_OnDisable_" data-uid="Global.UnitInfoShower.OnDisable*"></a>
+  <h4 id="Global_UnitInfoShower_OnDisable" data-uid="Global.UnitInfoShower.OnDisable">OnDisable()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnDisable()</code></pre>
+  </div>
+  
+  
+  <a id="Global_UnitInfoShower_OnEnable_" data-uid="Global.UnitInfoShower.OnEnable*"></a>
+  <h4 id="Global_UnitInfoShower_OnEnable" data-uid="Global.UnitInfoShower.OnEnable">OnEnable()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnEnable()</code></pre>
+  </div>
+  
+  
   <a id="Global_UnitInfoShower_Refresh_" data-uid="Global.UnitInfoShower.Refresh*"></a>
   <h4 id="Global_UnitInfoShower_Refresh" data-uid="Global.UnitInfoShower.Refresh">Refresh()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Refresh()</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void Refresh()</code></pre>
   </div>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="Global_UnitInfoShower_OnSkillComboSelect" data-uid="Global.UnitInfoShower.OnSkillComboSelect">OnSkillComboSelect</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event UnityAction&lt;ComboInfo, PointerEventData&gt; OnSkillComboSelect</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityAction</span>&lt;<a class="xref" href="Global.ComboInfo.html">ComboInfo</a>, <span class="xref">PointerEventData</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
