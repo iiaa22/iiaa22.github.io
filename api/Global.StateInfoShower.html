@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class BaseConfigTable&lt;T&gt;
+    <title>Class StateInfoShower
    | &#22612;&#38450;&#28216;&#25103;API&#25991;&#26723; </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class BaseConfigTable&lt;T&gt;
+    <meta name="title" content="Class StateInfoShower
    | &#22612;&#38450;&#28216;&#25103;API&#25991;&#26723; ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,60 +78,42 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.BaseConfigTable`1">
+            <article class="content wrap" id="_content" data-uid="Global.StateInfoShower">
   
   
-  <h1 id="Global_BaseConfigTable_1" data-uid="Global.BaseConfigTable`1" class="text-break">Class BaseConfigTable&lt;T&gt;
+  <h1 id="Global_StateInfoShower" data-uid="Global.StateInfoShower" class="text-break">Class StateInfoShower
   </h1>
-  <div class="markdown level0 summary"><p>所有配置表的父类。</p>
+  <div class="markdown level0 summary"><p>处理状态信息显示的类。</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">BaseConfigTable&lt;T&gt;</span></div>
-      <div class="level2"><a class="xref" href="Global.LanguageConfig.html">LanguageConfig</a></div>
-      <div class="level2"><a class="xref" href="Global.LevelsConfig.html">LevelsConfig</a></div>
-      <div class="level2"><a class="xref" href="Global.PlatformCommonConfig.html">PlatformCommonConfig</a></div>
-      <div class="level2"><a class="xref" href="Global.SceneConfig.html">SceneConfig</a></div>
-      <div class="level2"><a class="xref" href="Global.SkillsConfig.html">SkillsConfig</a></div>
-      <div class="level2"><a class="xref" href="Global.StatesConfig.html">StatesConfig</a></div>
-      <div class="level2"><a class="xref" href="Global.TasksConfig.html">TasksConfig</a></div>
-      <div class="level2"><a class="xref" href="Global.UnitsConfig.html">UnitsConfig</a></div>
+    <div class="level1"><span class="xref">StateInfoShower</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><span class="xref">IPointerEnterHandler</span></div>
+    <div><span class="xref">IPointerExitHandler</span></div>
+    <div><span class="xref">IPointerClickHandler</span></div>
+    <div><span class="xref">IPointerDownHandler</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Global_BaseConfigTable_1_syntax">Syntax</h5>
+  <h5 id="Global_StateInfoShower_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class BaseConfigTable&lt;T&gt; : ScriptableObject where T : BaseConfigItem, new()</code></pre>
+    <pre><code class="lang-csharp hljs">public class StateInfoShower : MonoBehaviour</code></pre>
   </div>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>配置项类型</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="Global_BaseConfigTable_1_configList" data-uid="Global.BaseConfigTable`1.configList">configList</h4>
-  <div class="markdown level1 summary"><p>配置项列表</p>
-</div>
+  <h4 id="Global_StateInfoShower_descText" data-uid="Global.StateInfoShower.descText">descText</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;T&gt; configList</code></pre>
+    <pre><code class="lang-csharp hljs">public TextMeshProUGUI descText</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -143,20 +125,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
+        <td><span class="xref">TextMeshProUGUI</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_BaseConfigTable_1_enableConsole" data-uid="Global.BaseConfigTable`1.enableConsole">enableConsole</h4>
-  <div class="markdown level1 summary"><p>是否启用控制台输出</p>
-</div>
+  <h4 id="Global_StateInfoShower_enablePopWindow" data-uid="Global.StateInfoShower.enablePopWindow">enablePopWindow</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool enableConsole</code></pre>
+    <pre><code class="lang-csharp hljs">public bool enablePopWindow</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -175,13 +156,12 @@
   </table>
   
   
-  <h4 id="Global_BaseConfigTable_1_frameVersion" data-uid="Global.BaseConfigTable`1.frameVersion">frameVersion</h4>
-  <div class="markdown level1 summary"><p>框架版本</p>
-</div>
+  <h4 id="Global_StateInfoShower_iconImage" data-uid="Global.StateInfoShower.iconImage">iconImage</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string frameVersion</code></pre>
+    <pre><code class="lang-csharp hljs">public Image iconImage</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -193,20 +173,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">Image</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_BaseConfigTable_1_tabName" data-uid="Global.BaseConfigTable`1.tabName">tabName</h4>
-  <div class="markdown level1 summary"><p>标签页名称</p>
-</div>
+  <h4 id="Global_StateInfoShower_iconText" data-uid="Global.StateInfoShower.iconText">iconText</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string tabName</code></pre>
+    <pre><code class="lang-csharp hljs">public TextMeshProUGUI iconText</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -218,20 +197,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
+        <td><span class="xref">TextMeshProUGUI</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_BaseConfigTable_1_version" data-uid="Global.BaseConfigTable`1.version">version</h4>
-  <div class="markdown level1 summary"><p>配置表版本</p>
-</div>
+  <h4 id="Global_StateInfoShower_nameText" data-uid="Global.StateInfoShower.nameText">nameText</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int version</code></pre>
+    <pre><code class="lang-csharp hljs">public TextMeshProUGUI nameText</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -243,7 +221,31 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><span class="xref">TextMeshProUGUI</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Global_StateInfoShower_rectTransform" data-uid="Global.StateInfoShower.rectTransform">rectTransform</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RectTransform rectTransform</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">RectTransform</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -252,14 +254,13 @@
   </h3>
   
   
-  <a id="Global_BaseConfigTable_1_ConfigCount_" data-uid="Global.BaseConfigTable`1.ConfigCount*"></a>
-  <h4 id="Global_BaseConfigTable_1_ConfigCount" data-uid="Global.BaseConfigTable`1.ConfigCount">ConfigCount</h4>
-  <div class="markdown level1 summary"><p>获得配置表长度。</p>
-</div>
+  <a id="Global_StateInfoShower_TargetConfig_" data-uid="Global.StateInfoShower.TargetConfig*"></a>
+  <h4 id="Global_StateInfoShower_TargetConfig" data-uid="Global.StateInfoShower.TargetConfig">TargetConfig</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int ConfigCount { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public StatesConfigItem TargetConfig { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -271,22 +272,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><a class="xref" href="Global.StatesConfigItem.html">StatesConfigItem</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Global_BaseConfigTable_1_ConfigNameList_" data-uid="Global.BaseConfigTable`1.ConfigNameList*"></a>
-  <h4 id="Global_BaseConfigTable_1_ConfigNameList" data-uid="Global.BaseConfigTable`1.ConfigNameList">ConfigNameList</h4>
-  <div class="markdown level1 summary"><p>配置项名称列表。
-设置后将锁定配置表长度。</p>
-</div>
+  <a id="Global_StateInfoShower_TargetState_" data-uid="Global.StateInfoShower.TargetState*"></a>
+  <h4 id="Global_StateInfoShower_TargetState" data-uid="Global.StateInfoShower.TargetState">TargetState</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual List&lt;string&gt; ConfigNameList { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public State TargetState { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -298,124 +297,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><a class="xref" href="Global.State.html">State</a></td>
         <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Global_BaseConfigTable_1_ConfigTableVersion_" data-uid="Global.BaseConfigTable`1.ConfigTableVersion*"></a>
-  <h4 id="Global_BaseConfigTable_1_ConfigTableVersion" data-uid="Global.BaseConfigTable`1.ConfigTableVersion">ConfigTableVersion</h4>
-  <div class="markdown level1 summary"><p>当前配置表版本。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual int ConfigTableVersion { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Global_BaseConfigTable_1_Item_" data-uid="Global.BaseConfigTable`1.Item*"></a>
-  <h4 id="Global_BaseConfigTable_1_Item_System_Int32_" data-uid="Global.BaseConfigTable`1.Item(System.Int32)">Item[Int32]</h4>
-  <div class="markdown level1 summary"><p>根据索引获得配置项。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public T this[int index] { get; }</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">index</span></td>
-        <td><p>配置项索引</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><p>配置项</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Global_BaseConfigTable_1_Item_" data-uid="Global.BaseConfigTable`1.Item*"></a>
-  <h4 id="Global_BaseConfigTable_1_Item_System_String_" data-uid="Global.BaseConfigTable`1.Item(System.String)">Item[String]</h4>
-  <div class="markdown level1 summary"><p>根据ID获得配置项。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public T this[string id] { get; }</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">id</span></td>
-        <td><p>配置项ID</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><p>配置项</p>
-</td>
       </tr>
     </tbody>
   </table>
@@ -423,14 +306,13 @@
   </h3>
   
   
-  <a id="Global_BaseConfigTable_1_GetConfigByName_" data-uid="Global.BaseConfigTable`1.GetConfigByName*"></a>
-  <h4 id="Global_BaseConfigTable_1_GetConfigByName_System_String_" data-uid="Global.BaseConfigTable`1.GetConfigByName(System.String)">GetConfigByName(String)</h4>
-  <div class="markdown level1 summary"><p>根据名称获得配置项。</p>
-</div>
+  <a id="Global_StateInfoShower_OnPointerClick_" data-uid="Global.StateInfoShower.OnPointerClick*"></a>
+  <h4 id="Global_StateInfoShower_OnPointerClick_PointerEventData_" data-uid="Global.StateInfoShower.OnPointerClick(PointerEventData)">OnPointerClick(PointerEventData)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public T GetConfigByName(string name)</code></pre>
+    <pre><code class="lang-csharp hljs">public void OnPointerClick(PointerEventData eventData)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -443,39 +325,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">name</span></td>
-        <td><p>配置项名称</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><p>配置项</p>
-</td>
+        <td><span class="xref">PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Global_BaseConfigTable_1_GetConfigIndex_" data-uid="Global.BaseConfigTable`1.GetConfigIndex*"></a>
-  <h4 id="Global_BaseConfigTable_1_GetConfigIndex__0_" data-uid="Global.BaseConfigTable`1.GetConfigIndex(`0)">GetConfigIndex(T)</h4>
-  <div class="markdown level1 summary"><p>获得配置项索引。</p>
-</div>
+  <a id="Global_StateInfoShower_OnPointerDown_" data-uid="Global.StateInfoShower.OnPointerDown*"></a>
+  <h4 id="Global_StateInfoShower_OnPointerDown_PointerEventData_" data-uid="Global.StateInfoShower.OnPointerDown(PointerEventData)">OnPointerDown(PointerEventData)</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int GetConfigIndex(T config)</code></pre>
+    <pre><code class="lang-csharp hljs">public void OnPointerDown(PointerEventData eventData)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -488,14 +352,88 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">config</span></td>
-        <td><p>配置项</p>
-</td>
+        <td><span class="xref">PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
+  
+  
+  <a id="Global_StateInfoShower_OnPointerEnter_" data-uid="Global.StateInfoShower.OnPointerEnter*"></a>
+  <h4 id="Global_StateInfoShower_OnPointerEnter_PointerEventData_" data-uid="Global.StateInfoShower.OnPointerEnter(PointerEventData)">OnPointerEnter(PointerEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnPointerEnter(PointerEventData eventData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_StateInfoShower_OnPointerExit_" data-uid="Global.StateInfoShower.OnPointerExit*"></a>
+  <h4 id="Global_StateInfoShower_OnPointerExit_PointerEventData_" data-uid="Global.StateInfoShower.OnPointerExit(PointerEventData)">OnPointerExit(PointerEventData)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void OnPointerExit(PointerEventData eventData)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">PointerEventData</span></td>
+        <td><span class="parametername">eventData</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_StateInfoShower_Refresh_" data-uid="Global.StateInfoShower.Refresh*"></a>
+  <h4 id="Global_StateInfoShower_Refresh" data-uid="Global.StateInfoShower.Refresh">Refresh()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Refresh()</code></pre>
+  </div>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="Global_StateInfoShower_OnPointerClickEvent" data-uid="Global.StateInfoShower.OnPointerClickEvent">OnPointerClickEvent</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event UnityAction&lt;PointerEventData&gt; OnPointerClickEvent</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -505,12 +443,24 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><p>配置项索引</p>
-</td>
+        <td><span class="xref">UnityAction</span>&lt;<span class="xref">PointerEventData</span>&gt;</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <span class="xref">IPointerEnterHandler</span>
+  </div>
+  <div>
+      <span class="xref">IPointerExitHandler</span>
+  </div>
+  <div>
+      <span class="xref">IPointerClickHandler</span>
+  </div>
+  <div>
+      <span class="xref">IPointerDownHandler</span>
+  </div>
 </article>
           </div>
           

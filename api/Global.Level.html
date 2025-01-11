@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class BaseConfigTable&lt;T&gt;
+    <title>Class Level
    | &#22612;&#38450;&#28216;&#25103;API&#25991;&#26723; </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class BaseConfigTable&lt;T&gt;
+    <meta name="title" content="Class Level
    | &#22612;&#38450;&#28216;&#25103;API&#25991;&#26723; ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,46 +78,62 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.BaseConfigTable`1">
+            <article class="content wrap" id="_content" data-uid="Global.Level">
   
   
-  <h1 id="Global_BaseConfigTable_1" data-uid="Global.BaseConfigTable`1" class="text-break">Class BaseConfigTable&lt;T&gt;
+  <h1 id="Global_Level" data-uid="Global.Level" class="text-break">Class Level
   </h1>
-  <div class="markdown level0 summary"><p>所有配置表的父类。</p>
+  <div class="markdown level0 summary"><p>处理关卡的类。</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">BaseConfigTable&lt;T&gt;</span></div>
-      <div class="level2"><a class="xref" href="Global.LanguageConfig.html">LanguageConfig</a></div>
-      <div class="level2"><a class="xref" href="Global.LevelsConfig.html">LevelsConfig</a></div>
-      <div class="level2"><a class="xref" href="Global.PlatformCommonConfig.html">PlatformCommonConfig</a></div>
-      <div class="level2"><a class="xref" href="Global.SceneConfig.html">SceneConfig</a></div>
-      <div class="level2"><a class="xref" href="Global.SkillsConfig.html">SkillsConfig</a></div>
-      <div class="level2"><a class="xref" href="Global.StatesConfig.html">StatesConfig</a></div>
-      <div class="level2"><a class="xref" href="Global.TasksConfig.html">TasksConfig</a></div>
-      <div class="level2"><a class="xref" href="Global.UnitsConfig.html">UnitsConfig</a></div>
+    <div class="level1"><a class="xref" href="Global.BaseUserData.html">BaseUserData</a></div>
+    <div class="level2"><a class="xref" href="Global.ObservableUserData-1.html">ObservableUserData</a>&lt;<a class="xref" href="Global.Level.html">Level</a>&gt;</div>
+    <div class="level3"><span class="xref">Level</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Global.ObservableUserData-1.html#Global_ObservableUserData_1_OnDataChanged">ObservableUserData&lt;Level&gt;.OnDataChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.ObservableUserData-1.html#Global_ObservableUserData_1_TriggerDataChanged__0_">ObservableUserData&lt;Level&gt;.TriggerDataChanged(Level)</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Global_BaseConfigTable_1_syntax">Syntax</h5>
+  <h5 id="Global_Level_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class BaseConfigTable&lt;T&gt; : ScriptableObject where T : BaseConfigItem, new()</code></pre>
+    <pre><code class="lang-csharp hljs">public class Level : ObservableUserData&lt;Level&gt;</code></pre>
   </div>
-  <h5 class="typeParameters">Type Parameters</h5>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Global_Level__ctor_" data-uid="Global.Level.#ctor*"></a>
+  <h4 id="Global_Level__ctor_System_String_" data-uid="Global.Level.#ctor(System.String)">Level(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Level(string configID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
+        <th>Type</th>
         <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>配置项类型</p>
-</td>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">configID</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -125,13 +141,12 @@
   </h3>
   
   
-  <h4 id="Global_BaseConfigTable_1_configList" data-uid="Global.BaseConfigTable`1.configList">configList</h4>
-  <div class="markdown level1 summary"><p>配置项列表</p>
-</div>
+  <h4 id="Global_Level_configID" data-uid="Global.Level.configID">configID</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;T&gt; configList</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly string configID</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -143,22 +158,315 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">List</span>&lt;T&gt;</td>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_BaseConfigTable_1_enableConsole" data-uid="Global.BaseConfigTable`1.enableConsole">enableConsole</h4>
-  <div class="markdown level1 summary"><p>是否启用控制台输出</p>
+  <h4 id="Global_Level_id" data-uid="Global.Level.id">id</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public readonly string id</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Global_Level_Config_" data-uid="Global.Level.Config*"></a>
+  <h4 id="Global_Level_Config" data-uid="Global.Level.Config">Config</h4>
+  <div class="markdown level1 summary"><p>关卡的基础配置。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool enableConsole</code></pre>
+    <pre><code class="lang-csharp hljs">public LevelsConfigItem Config { get; }</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.LevelsConfigItem.html">LevelsConfigItem</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_Level_Controller_" data-uid="Global.Level.Controller*"></a>
+  <h4 id="Global_Level_Controller" data-uid="Global.Level.Controller">Controller</h4>
+  <div class="markdown level1 summary"><p>关卡的控制器。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LevelController Controller { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.LevelController.html">LevelController</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_Level_CountDown_" data-uid="Global.Level.CountDown*"></a>
+  <h4 id="Global_Level_CountDown" data-uid="Global.Level.CountDown">CountDown</h4>
+  <div class="markdown level1 summary"><p>倒计时。
+负数代表取消计时</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CountDown { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_Level_CreateUnitCount_" data-uid="Global.Level.CreateUnitCount*"></a>
+  <h4 id="Global_Level_CreateUnitCount" data-uid="Global.Level.CreateUnitCount">CreateUnitCount</h4>
+  <div class="markdown level1 summary"><p>单位生成数量。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CreateUnitCount { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_Level_CreateUnitDuration_" data-uid="Global.Level.CreateUnitDuration*"></a>
+  <h4 id="Global_Level_CreateUnitDuration" data-uid="Global.Level.CreateUnitDuration">CreateUnitDuration</h4>
+  <div class="markdown level1 summary"><p>单位生成间隔（秒）。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float CreateUnitDuration { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_Level_CreateUnitList_" data-uid="Global.Level.CreateUnitList*"></a>
+  <h4 id="Global_Level_CreateUnitList" data-uid="Global.Level.CreateUnitList">CreateUnitList</h4>
+  <div class="markdown level1 summary"><p>单位生成列表。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ObservableCollection&lt;ConfigItemReference&lt;UnitsConfigItem&gt;&gt; CreateUnitList { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ObservableCollection</span>&lt;<a class="xref" href="Global.ConfigItemReference-1.html">ConfigItemReference</a>&lt;<a class="xref" href="Global.UnitsConfigItem.html">UnitsConfigItem</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_Level_EventScript_" data-uid="Global.Level.EventScript*"></a>
+  <h4 id="Global_Level_EventScript" data-uid="Global.Level.EventScript">EventScript</h4>
+  <div class="markdown level1 summary"><p>事件脚本。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LevelEvent EventScript { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.LevelEvent.html">LevelEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_Level_TargetKillCount_" data-uid="Global.Level.TargetKillCount*"></a>
+  <h4 id="Global_Level_TargetKillCount" data-uid="Global.Level.TargetKillCount">TargetKillCount</h4>
+  <div class="markdown level1 summary"><p>目标杀怪数。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int TargetKillCount { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_Level_TaskList_" data-uid="Global.Level.TaskList*"></a>
+  <h4 id="Global_Level_TaskList" data-uid="Global.Level.TaskList">TaskList</h4>
+  <div class="markdown level1 summary"><p>关卡的任务列表。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ReadOnlyCollection&lt;Task&gt; TaskList { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ReadOnlyCollection</span>&lt;<a class="xref" href="Global.Task.html">Task</a>&gt;</td>
+        <td><p>任务列表</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Global_Level_AddListener_" data-uid="Global.Level.AddListener*"></a>
+  <h4 id="Global_Level_AddListener" data-uid="Global.Level.AddListener">AddListener()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AddListener()</code></pre>
+  </div>
+  
+  
+  <a id="Global_Level_AddTask_" data-uid="Global.Level.AddTask*"></a>
+  <h4 id="Global_Level_AddTask_Task_" data-uid="Global.Level.AddTask(Task)">AddTask(Task)</h4>
+  <div class="markdown level1 summary"><p>添加任务。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool AddTask(Task task)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.Task.html">Task</a></td>
+        <td><span class="parametername">task</span></td>
+        <td><p>任务</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -169,176 +477,55 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>操作是否成功</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_BaseConfigTable_1_frameVersion" data-uid="Global.BaseConfigTable`1.frameVersion">frameVersion</h4>
-  <div class="markdown level1 summary"><p>框架版本</p>
-</div>
+  <a id="Global_Level_AfterLoad_" data-uid="Global.Level.AfterLoad*"></a>
+  <h4 id="Global_Level_AfterLoad" data-uid="Global.Level.AfterLoad">AfterLoad()</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string frameVersion</code></pre>
+    <pre><code class="lang-csharp hljs">public override void AfterLoad()</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Global.BaseUserData.html#Global_BaseUserData_AfterLoad">BaseUserData.AfterLoad()</a></div>
   
   
-  <h4 id="Global_BaseConfigTable_1_tabName" data-uid="Global.BaseConfigTable`1.tabName">tabName</h4>
-  <div class="markdown level1 summary"><p>标签页名称</p>
-</div>
+  <a id="Global_Level_BeforeSave_" data-uid="Global.Level.BeforeSave*"></a>
+  <h4 id="Global_Level_BeforeSave" data-uid="Global.Level.BeforeSave">BeforeSave()</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string tabName</code></pre>
+    <pre><code class="lang-csharp hljs">public override void BeforeSave()</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Global.BaseUserData.html#Global_BaseUserData_BeforeSave">BaseUserData.BeforeSave()</a></div>
   
   
-  <h4 id="Global_BaseConfigTable_1_version" data-uid="Global.BaseConfigTable`1.version">version</h4>
-  <div class="markdown level1 summary"><p>配置表版本</p>
-</div>
+  <a id="Global_Level_Init_" data-uid="Global.Level.Init*"></a>
+  <h4 id="Global_Level_Init" data-uid="Global.Level.Init">Init()</h4>
+  <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int version</code></pre>
+    <pre><code class="lang-csharp hljs">public void Init()</code></pre>
   </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
   
   
-  <a id="Global_BaseConfigTable_1_ConfigCount_" data-uid="Global.BaseConfigTable`1.ConfigCount*"></a>
-  <h4 id="Global_BaseConfigTable_1_ConfigCount" data-uid="Global.BaseConfigTable`1.ConfigCount">ConfigCount</h4>
-  <div class="markdown level1 summary"><p>获得配置表长度。</p>
+  <a id="Global_Level_RemoveTask_" data-uid="Global.Level.RemoveTask*"></a>
+  <h4 id="Global_Level_RemoveTask_Task_" data-uid="Global.Level.RemoveTask(Task)">RemoveTask(Task)</h4>
+  <div class="markdown level1 summary"><p>移除任务。</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int ConfigCount { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Global_BaseConfigTable_1_ConfigNameList_" data-uid="Global.BaseConfigTable`1.ConfigNameList*"></a>
-  <h4 id="Global_BaseConfigTable_1_ConfigNameList" data-uid="Global.BaseConfigTable`1.ConfigNameList">ConfigNameList</h4>
-  <div class="markdown level1 summary"><p>配置项名称列表。
-设置后将锁定配置表长度。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual List&lt;string&gt; ConfigNameList { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">List</span>&lt;<span class="xref">System.String</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Global_BaseConfigTable_1_ConfigTableVersion_" data-uid="Global.BaseConfigTable`1.ConfigTableVersion*"></a>
-  <h4 id="Global_BaseConfigTable_1_ConfigTableVersion" data-uid="Global.BaseConfigTable`1.ConfigTableVersion">ConfigTableVersion</h4>
-  <div class="markdown level1 summary"><p>当前配置表版本。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual int ConfigTableVersion { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Global_BaseConfigTable_1_Item_" data-uid="Global.BaseConfigTable`1.Item*"></a>
-  <h4 id="Global_BaseConfigTable_1_Item_System_Int32_" data-uid="Global.BaseConfigTable`1.Item(System.Int32)">Item[Int32]</h4>
-  <div class="markdown level1 summary"><p>根据索引获得配置项。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public T this[int index] { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool RemoveTask(Task task)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -351,101 +538,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">index</span></td>
-        <td><p>配置项索引</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><p>配置项</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Global_BaseConfigTable_1_Item_" data-uid="Global.BaseConfigTable`1.Item*"></a>
-  <h4 id="Global_BaseConfigTable_1_Item_System_String_" data-uid="Global.BaseConfigTable`1.Item(System.String)">Item[String]</h4>
-  <div class="markdown level1 summary"><p>根据ID获得配置项。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public T this[string id] { get; }</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">id</span></td>
-        <td><p>配置项ID</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><p>配置项</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="methods">Methods
-  </h3>
-  
-  
-  <a id="Global_BaseConfigTable_1_GetConfigByName_" data-uid="Global.BaseConfigTable`1.GetConfigByName*"></a>
-  <h4 id="Global_BaseConfigTable_1_GetConfigByName_System_String_" data-uid="Global.BaseConfigTable`1.GetConfigByName(System.String)">GetConfigByName(String)</h4>
-  <div class="markdown level1 summary"><p>根据名称获得配置项。</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public T GetConfigByName(string name)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">name</span></td>
-        <td><p>配置项名称</p>
+        <td><a class="xref" href="Global.Task.html">Task</a></td>
+        <td><span class="parametername">task</span></td>
+        <td><p>任务</p>
 </td>
       </tr>
     </tbody>
@@ -460,42 +555,25 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
-        <td><p>配置项</p>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>操作是否成功</p>
 </td>
       </tr>
     </tbody>
   </table>
+  <h3 id="events">Events
+  </h3>
   
   
-  <a id="Global_BaseConfigTable_1_GetConfigIndex_" data-uid="Global.BaseConfigTable`1.GetConfigIndex*"></a>
-  <h4 id="Global_BaseConfigTable_1_GetConfigIndex__0_" data-uid="Global.BaseConfigTable`1.GetConfigIndex(`0)">GetConfigIndex(T)</h4>
-  <div class="markdown level1 summary"><p>获得配置项索引。</p>
+  <h4 id="Global_Level_OnCountDownChanged" data-uid="Global.Level.OnCountDownChanged">OnCountDownChanged</h4>
+  <div class="markdown level1 summary"><p>倒计时变化事件</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int GetConfigIndex(T config)</code></pre>
+    <pre><code class="lang-csharp hljs">public event UnityAction OnCountDownChanged</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">config</span></td>
-        <td><p>配置项</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
+  <h5 class="eventType">Event Type</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -505,9 +583,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><p>配置项索引</p>
-</td>
+        <td><span class="xref">UnityAction</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>

@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class GameSkillComboItem
+    <title>Class Task
    | &#22612;&#38450;&#28216;&#25103;API&#25991;&#26723; </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class GameSkillComboItem
+    <meta name="title" content="Class Task
    | &#22612;&#38450;&#28216;&#25103;API&#25991;&#26723; ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -78,35 +78,107 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.GameSkillComboItem">
+            <article class="content wrap" id="_content" data-uid="Global.Task">
   
   
-  <h1 id="Global_GameSkillComboItem" data-uid="Global.GameSkillComboItem" class="text-break">Class GameSkillComboItem
+  <h1 id="Global_Task" data-uid="Global.Task" class="text-break">Class Task
   </h1>
-  <div class="markdown level0 summary"><p>处理HUD中技能连段项目的类。</p>
+  <div class="markdown level0 summary"><p>处理任务的类。</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">GameSkillComboItem</span></div>
+    <div class="level1"><a class="xref" href="Global.BaseUserData.html">BaseUserData</a></div>
+    <div class="level2"><a class="xref" href="Global.ObservableUserData-1.html">ObservableUserData</a>&lt;<a class="xref" href="Global.Task.html">Task</a>&gt;</div>
+    <div class="level3"><span class="xref">Task</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Global.ObservableUserData-1.html#Global_ObservableUserData_1_OnDataChanged">ObservableUserData&lt;Task&gt;.OnDataChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.ObservableUserData-1.html#Global_ObservableUserData_1_TriggerDataChanged__0_">ObservableUserData&lt;Task&gt;.TriggerDataChanged(Task)</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Global_GameSkillComboItem_syntax">Syntax</h5>
+  <h5 id="Global_Task_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class GameSkillComboItem : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class Task : ObservableUserData&lt;Task&gt;</code></pre>
   </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Global_Task__ctor_" data-uid="Global.Task.#ctor*"></a>
+  <h4 id="Global_Task__ctor_System_String_" data-uid="Global.Task.#ctor(System.String)">Task(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task(string configID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">configID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_Task__ctor_" data-uid="Global.Task.#ctor*"></a>
+  <h4 id="Global_Task__ctor_System_String_System_String_" data-uid="Global.Task.#ctor(System.String,System.String)">Task(String, String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Task(string id, string configID)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">configID</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="Global_GameSkillComboItem_canvasGroup" data-uid="Global.GameSkillComboItem.canvasGroup">canvasGroup</h4>
+  <h4 id="Global_Task_configID" data-uid="Global.Task.configID">configID</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CanvasGroup canvasGroup</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly string configID</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -118,19 +190,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">CanvasGroup</span></td>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="Global_GameSkillComboItem_leftSkillComboItem" data-uid="Global.GameSkillComboItem.leftSkillComboItem">leftSkillComboItem</h4>
+  <h4 id="Global_Task_id" data-uid="Global.Task.id">id</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SkillComboItem leftSkillComboItem</code></pre>
+    <pre><code class="lang-csharp hljs">public readonly string id</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -142,103 +214,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Global.SkillComboItem.html">SkillComboItem</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_GameSkillComboItem_maxSpacing" data-uid="Global.GameSkillComboItem.maxSpacing">maxSpacing</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float maxSpacing</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_GameSkillComboItem_minSpacing" data-uid="Global.GameSkillComboItem.minSpacing">minSpacing</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float minSpacing</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_GameSkillComboItem_rectTransform" data-uid="Global.GameSkillComboItem.rectTransform">rectTransform</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RectTransform rectTransform</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">RectTransform</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_GameSkillComboItem_rightSkillComboItem" data-uid="Global.GameSkillComboItem.rightSkillComboItem">rightSkillComboItem</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SkillComboItem rightSkillComboItem</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Global.SkillComboItem.html">SkillComboItem</a></td>
+        <td><span class="xref">System.String</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -247,13 +223,14 @@
   </h3>
   
   
-  <a id="Global_GameSkillComboItem_AttackCombo_" data-uid="Global.GameSkillComboItem.AttackCombo*"></a>
-  <h4 id="Global_GameSkillComboItem_AttackCombo" data-uid="Global.GameSkillComboItem.AttackCombo">AttackCombo</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Global_Task_Config_" data-uid="Global.Task.Config*"></a>
+  <h4 id="Global_Task_Config" data-uid="Global.Task.Config">Config</h4>
+  <div class="markdown level1 summary"><p>任务的基础配置。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int AttackCombo { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public TasksConfigItem Config { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -265,20 +242,47 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><a class="xref" href="Global.TasksConfigItem.html">TasksConfigItem</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Global_GameSkillComboItem_IsRightAttack_" data-uid="Global.GameSkillComboItem.IsRightAttack*"></a>
-  <h4 id="Global_GameSkillComboItem_IsRightAttack" data-uid="Global.GameSkillComboItem.IsRightAttack">IsRightAttack</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Global_Task_EventScript_" data-uid="Global.Task.EventScript*"></a>
+  <h4 id="Global_Task_EventScript" data-uid="Global.Task.EventScript">EventScript</h4>
+  <div class="markdown level1 summary"><p>事件脚本。</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool IsRightAttack { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public TaskEvent EventScript { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.TaskEvent.html">TaskEvent</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_Task_IsOptional_" data-uid="Global.Task.IsOptional*"></a>
+  <h4 id="Global_Task_IsOptional" data-uid="Global.Task.IsOptional">IsOptional</h4>
+  <div class="markdown level1 summary"><p>是否为可选任务。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsOptional { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -295,71 +299,130 @@
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="Global_Task_Owner_" data-uid="Global.Task.Owner*"></a>
+  <h4 id="Global_Task_Owner" data-uid="Global.Task.Owner">Owner</h4>
+  <div class="markdown level1 summary"><p>任务的所有者。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Level Owner { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Global.Level.html">Level</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Global_Task_Progress_" data-uid="Global.Task.Progress*"></a>
+  <h4 id="Global_Task_Progress" data-uid="Global.Task.Progress">Progress</h4>
+  <div class="markdown level1 summary"><p>完成进度。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Progress { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Global_GameSkillComboItem_Close_" data-uid="Global.GameSkillComboItem.Close*"></a>
-  <h4 id="Global_GameSkillComboItem_Close_System_Single_" data-uid="Global.GameSkillComboItem.Close(System.Single)">Close(Single)</h4>
+  <a id="Global_Task_AfterLoad_" data-uid="Global.Task.AfterLoad*"></a>
+  <h4 id="Global_Task_AfterLoad" data-uid="Global.Task.AfterLoad">AfterLoad()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Close(float duration)</code></pre>
+    <pre><code class="lang-csharp hljs">public override void AfterLoad()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Global.BaseUserData.html#Global_BaseUserData_AfterLoad">BaseUserData.AfterLoad()</a></div>
+  
+  
+  <a id="Global_Task_BeforeSave_" data-uid="Global.Task.BeforeSave*"></a>
+  <h4 id="Global_Task_BeforeSave" data-uid="Global.Task.BeforeSave">BeforeSave()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void BeforeSave()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Global.BaseUserData.html#Global_BaseUserData_BeforeSave">BaseUserData.BeforeSave()</a></div>
+  
+  
+  <a id="Global_Task_Destroy_" data-uid="Global.Task.Destroy*"></a>
+  <h4 id="Global_Task_Destroy" data-uid="Global.Task.Destroy">Destroy()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Destroy()</code></pre>
+  </div>
+  
+  
+  <a id="Global_Task_HasOwner_" data-uid="Global.Task.HasOwner*"></a>
+  <h4 id="Global_Task_HasOwner" data-uid="Global.Task.HasOwner">HasOwner()</h4>
+  <div class="markdown level1 summary"><p>是否拥有所有者。</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool HasOwner()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Name</th>
         <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">duration</span></td>
-        <td></td>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>是否拥有所有者</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="Global_GameSkillComboItem_Open_" data-uid="Global.GameSkillComboItem.Open*"></a>
-  <h4 id="Global_GameSkillComboItem_Open_System_Single_" data-uid="Global.GameSkillComboItem.Open(System.Single)">Open(Single)</h4>
+  <a id="Global_Task_Init_" data-uid="Global.Task.Init*"></a>
+  <h4 id="Global_Task_Init" data-uid="Global.Task.Init">Init()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Open(float duration)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">duration</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Global_GameSkillComboItem_Refresh_" data-uid="Global.GameSkillComboItem.Refresh*"></a>
-  <h4 id="Global_GameSkillComboItem_Refresh" data-uid="Global.GameSkillComboItem.Refresh">Refresh()</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void Refresh()</code></pre>
+    <pre><code class="lang-csharp hljs">public void Init()</code></pre>
   </div>
 </article>
           </div>
